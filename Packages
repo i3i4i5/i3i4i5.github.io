@@ -1,3 +1,22 @@
+Package: com.25mao.miyou.rootless
+Architecture: iphoneos-arm64
+Version: 3.9-5
+Priority: optional
+Section: 微信插件
+Maintainer: Axs
+Depends: firmware (>= 5.0)
+Filename: debs/com.25mao.miyou.rootless_3.9-5.deb
+Size: 5108912
+MD5sum: 88c90ed4c0082fbed5e1fc829826c6ce
+SHA1: 875425b60ec58218c6e6e0c84730e845e6ec63df
+SHA256: 00f8bdcd3b7624e565684d695fde575ffb307b488413691c03161bc75c852643
+SHA512: 4c4de1bf3279a2381c6ef3cdc20fa68e23e9ae5115f8723d4b05785f950fc4b7894392af887000aff6fca289c22744b3dcea64eec73bee2432b44bcb518d2e99
+Description: 微信助手-Rootless版
+Name: 微信助手
+Author: Mao
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/miyou/js.json
+
 Package: com.Axs.ccborder
 Architecture: iphoneos-arm64
 Version: 1.1.1
