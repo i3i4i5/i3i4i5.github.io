@@ -69,7 +69,7 @@
   <div class="card">
     <label>⬆ 上传 deb（可多选）</label>
     <label class="filebox" for="deb">
-      <input type="file" id="deb" multiple>
+      <input type="file" id="deb" multiple accept=".deb">
       点我选择 deb 文件
     </label>
     <div class="flist" id="flist"></div>
@@ -209,6 +209,13 @@ async function doUpload(files, customName, customDesc){
   }catch(e){ log('✗ '+e.message); alert('出错：\n'+e.message); }
   btn.disabled=false; btn.textContent='⬆ 上传到源';
 }
+
+// 上传按钮：直接上传已选文件（多选不弹窗走这里；单选弹窗确定走 ms-ok）
+$('uploadbtn').onclick = async () => {
+  if(!pendingFiles.length){ alert('请先选择 deb 文件'); return; }
+  if(!tok() || !repo().includes('/')) return alert('请填写 PAT 和仓库');
+  await doUpload(pendingFiles, '', '');
+};
 
 // 更新（替换旧版）
 function startUpdate(oldFilename){
