@@ -6,10 +6,10 @@ Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 牛逼源 - rootless / RootHide 双版本插件
-Support: https://i3i4i5.github.io/
+Support: https://i3i4i5.github.io/i3i4i5.github.io/
 MD5Sum:
- 036fcb051230a301759225a29cbae4da 1578 Packages
- f09267622ae15297fb7784932ead6266 1039 Packages.gz
+ 3628f6fcbd77f7508e7c4c4a723a4fca 2215 Packages
+ ad5b32bc90f98067f1441a412adce13b 1304 Packages.gz
 SHA256:
- fa6be61c9d82060e8758b0d614bdcdee6d9f3926c25c6369d3bba61762339677 1578 Packages
- c8925f163be7afee9a6ba2477d661c14f21c0f15548a5567ce7876d7d1480816 1039 Packages.gz
+ 3918e20411b4affbd5473316dce17bfc8e466aad656b3eb604eee0eb9e70b2b3 2215 Packages
+ 55684a3f92e68f9d2c6930155656d9fdb5775ba5b8eeb47e4592f1d9724d221d 1304 Packages.gz

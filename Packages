@@ -31,3 +31,19 @@ Description: 长按菜单排序 / 删减工具。桌面图标菜单与通用 con
 Name: MenuTamer 菜单管家
 Author: Minis
 
+Package: com.test.demo-roothide
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Priority: optional
+Section: Tweaks
+Maintainer: Tester <test@example.com>
+Depends: ellekit | mobilesubstrate
+Filename: debs/com.test.demo-roothide_1.0.0_iphoneos-arm64.deb
+Size: 952
+MD5sum: 5a59df58c993b4fda570d1e5ccdc7b18
+SHA1: 31c411b8014ae247db0ed394fe025724d2089ece
+SHA256: 147851b95b060aaf9a3025031056324a9086bd842c94db6efac5ce8d33b837ad
+SHA512: 0d2bbe1a0ac6ebc1365c5086f38aa676235e9b7f382aea1312e09650b0515e0f5da3538e7b367d89a2c326916b2c45f45bedfd5af95e19911818f1362c995a9d
+Description: Demo tweak for RootHide jailbreak
+Author: Tester <test@example.com>
+
