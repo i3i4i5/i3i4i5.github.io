@@ -51,9 +51,25 @@ gzip -9 -kf Packages
 # ---------- 生成 Release ----------
 echo "==> 生成 Release"
 if [ -z "$REPO_URL" ]; then
-  echo "!! 未设置 REPO_URL，Release 里的 Origin 用占位符，客户端仍可读取"
+  echo "!! 未设置 REPO_URL，Release 里的 Support 用占位符，客户端仍可读取"
   REPO_URL="https://i3i4i5.github.io/"
 fi
+
+# 计算文件哈希+大小，按 Debian Release 标准三字段格式： <hash> <size> <file>
+gen_hashes() {
+  local alg="$1"; shift
+  local f
+  for f in "$@"; do
+    [ -f "$f" ] || continue
+    local size; size=$(wc -c < "$f" | tr -d ' ')
+    local h
+    case "$alg" in
+      md5)    h=$(md5sum "$f"    | awk '{print $1}') ;;
+      sha256) h=$(sha256sum "$f" | awk '{print $1}') ;;
+    esac
+    printf ' %s %s %s\n' "$h" "$size" "$f"
+  done
+}
 
 {
   echo "Origin: 牛逼源"
@@ -65,14 +81,10 @@ fi
   echo "Components: main"
   echo "Description: 牛逼源 - rootless / RootHide 双版本插件"
   echo "Support: $REPO_URL"
-  if command -v md5sum >/dev/null 2>&1; then
-    echo "MD5Sum:"
-    md5sum Packages Packages.gz 2>/dev/null | awk '{printf " %s %s\n",$1,$2}' || true
-  fi
-  if command -v sha256sum >/dev/null 2>&1; then
-    echo "SHA256:"
-    sha256sum Packages Packages.gz 2>/dev/null | awk '{printf " %s %s\n",$1,$2}' || true
-  fi
+  echo "MD5Sum:"
+  gen_hashes md5 Packages Packages.gz
+  echo "SHA256:"
+  gen_hashes sha256 Packages Packages.gz
 } > Release
 
 # ---------- 签名（可选） ----------
