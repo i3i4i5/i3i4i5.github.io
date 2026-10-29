@@ -23,6 +23,7 @@
          color:#fff; background:var(--acc); margin-top:10px; cursor:pointer;}
   button:active{opacity:.8;} button.ghost{background:transparent; border:1px solid var(--bd); color:var(--fg); font-weight:400;}
   button.mini{padding:7px 14px; font-size:13px; border-radius:9px; margin:0; background:var(--bd); font-weight:500;}
+  button.mini.green{background:var(--ok); color:#000;}
   button.upd{background:#30363d; padding:8px 13px; font-size:14px; border-radius:9px; margin:0 8px 0 0;}
   button.del{background:var(--err); padding:8px 13px; font-size:14px; border-radius:9px; margin:0;}
   button:disabled{opacity:.4; pointer-events:none;}
@@ -79,7 +80,10 @@
   <div class="card">
     <div class="cardhead">
       <span class="ttl">📦 当前包</span>
-      <button class="mini" id="loadbtn">刷新列表</button>
+      <div>
+        <button class="mini green" id="reindexbtn">手动索引</button>
+        <button class="mini" id="loadbtn">刷新列表</button>
+      </div>
     </div>
     <div id="pkglist"><div class="empty">点右上角「刷新列表」加载</div></div>
   </div>
@@ -249,6 +253,23 @@ function parsePackages(text){
     list.push({pkg:g('Package'),ver:g('Version'),arch:g('Architecture'),file:g('Filename'),desc:g('Name')||g('Description')});
   } return list;
 }
+// 手动触发索引重建（防止自动失败）
+$('reindexbtn').onclick = async ()=>{
+  const t=tok(); if(!t) return alert('请填写 PAT');
+  const btn=$('reindexbtn'); btn.disabled=true; btn.innerHTML='<span class="spin"></span>';
+  try{
+    log('\n=== 手动触发索引重建 ===');
+    const r = await fetch(`https://api.github.com/repos/${repo()}/actions/workflows/build-repo.yml/dispatches`,{
+      method:'POST',
+      headers:{ 'Authorization':'token '+t, 'Accept':'application/vnd.github+json', 'User-Agent':'niubi' },
+      body: JSON.stringify({ ref:'main', inputs:{ reason:'manual' } })
+    });
+    if(r.status===204 || r.ok){ log('✓ 已触发，约 1 分钟后生效，再点「刷新列表」'); }
+    else { const e=await r.text(); throw new Error(r.status+': '+e.slice(0,200)); }
+  }catch(e){ log('✗ '+e.message); alert('触发失败：\n'+e.message+'\n\n可改用网页上传后等自动重建，或直接去 GitHub Actions 页面手动 Run。'); }
+  btn.disabled=false; btn.textContent='手动索引';
+};
+
 $('loadbtn').onclick = async ()=>{
   const box=$('pkglist'); box.innerHTML='<div class="empty"><span class="spin"></span> 加载中…</div>';
   try{
