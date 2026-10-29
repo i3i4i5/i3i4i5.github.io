@@ -39,6 +39,25 @@ Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.muratkurt.cyswitcher
+Architecture: iphoneos-arm64e
+Version: 0.6.0
+Priority: optional
+Section: Tweaks
+Maintainer: muratkurt
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000), rootless-compat (>= 0.9), com.mrgcgamer.libgcuniversal, com.creaturecoding.libcspreferences (>= 1.5.8), ellekit
+Conflicts: com.muratkurt.kaswitcher, com.sini921.quickappskill, run.cheng.autopower, com.dynamicx.tweak, com.axs.jikan, com.dao.powercuff, com.axs.zxbsp, com.cydia.love.april-rootless, com.wxhbts.storeswitcher.roothide, storeswitcher, apt.cydiakk.shuffle.rootless, net.kenhtao.shuffle, com.dao.appstoretroller, com.34306.dockpad, com.wkk.dynamicnotland, iya.banana.billie.ambientbadge
+Replaces: com.muratkurt.kaswitcher, com.sini921.quickappskill, run.cheng.autopower, com.dynamicx.tweak, com.axs.jikan, com.dao.powercuff, com.axs.zxbsp, com.cydia.love.april-rootless, com.wxhbts.storeswitcher.roothide, storeswitcher, apt.cydiakk.shuffle.rootless, net.kenhtao.shuffle, com.dao.appstoretroller, com.34306.dockpad, com.wkk.dynamicnotland, iya.banana.billie.ambientbadge
+Filename: debs/全能插件合集.deb
+Size: 944732
+MD5sum: ef533f980288ed97d21b6fe3b38cd961
+SHA1: e142a0fe84b66e01796405c02cf2814c2dc38ce8
+SHA256: 066061ad887470bf533a162f1a28219846008a8b4fd74e51c426e0dee38fc755
+SHA512: 68c41e78a64e4c87b5de3c9d5c0b18b9e64f20d4fa62772dab1883332557d47c68ee4d7c7cfaf64ece6c7ac241f5f1704ff7ef683d41f6ed238e6ca245755095
+Description: CYSwitcher 0.6.0: compact settings UI; Vitreux removed
+Name: CYSwitcher
+Author: muratkurt / SINI / Mineek
+
 Package: local.minis.hideairdrop
 Architecture: iphoneos-arm64e
 Version: 1.1.0
