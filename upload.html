@@ -3,319 +3,177 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>牛逼源 · 上传</title>
-<script src="https://cdn.jsdelivr.net/npm/pako@2/dist/pako.min.js"></script>
+<title>牛逼源 · 管理</title>
 <style>
   :root{ --bg:#0d1117; --card:#161b22; --bd:#30363d; --fg:#e6edf3; --dim:#8b949e;
          --ok:#3fb950; --warn:#d29922; --err:#f85149; --acc:#58a6ff; }
   *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
-  body{margin:0; font:16px/1.6 -apple-system,BlinkMacSystemFont,"PingFang SC",system-ui,sans-serif;
-       background:var(--bg); color:var(--fg); padding:16px 14px 40px;}
-  h1{font-size:20px; margin:4px 0 2px;}
-  .sub{color:var(--dim); font-size:13px; margin-bottom:14px;}
-  .card{background:var(--card); border:1px solid var(--bd); border-radius:14px; padding:14px; margin:12px 0;}
-  label{display:block; font-size:13px; color:var(--dim); margin:10px 0 4px;}
-  input[type=password],input[type=text]{width:100%; padding:12px; font-size:16px;
+  body{margin:0; font:16px/1.55 -apple-system,BlinkMacSystemFont,"PingFang SC",system-ui,sans-serif;
+       background:var(--bg); color:var(--fg); padding:14px 12px 40px;}
+  h1{font-size:20px; margin:2px 0 1px;}
+  .sub{color:var(--dim); font-size:13px; margin-bottom:12px;}
+  .card{background:var(--card); border:1px solid var(--bd); border-radius:14px; padding:12px 14px; margin:12px 0;}
+  label{display:block; font-size:13px; color:var(--dim); margin:8px 0 4px;}
+  input[type=password],input[type=text]{width:100%; padding:11px; font-size:16px;
        background:#0d1117; border:1px solid var(--bd); border-radius:10px; color:var(--fg);}
-  .row{display:flex; gap:10px; align-items:center;}
-  .row>*{flex:1;}
-  button{width:100%; padding:15px; font-size:17px; font-weight:600; border:none;
-         border-radius:12px; color:#fff; background:var(--acc); margin-top:12px; cursor:pointer;}
-  button:active{opacity:.8;}
-  button.warn{background:var(--warn); color:#000;}
-  button.ghost{background:transparent; border:1px solid var(--bd); color:var(--fg); font-weight:400;}
+  button{padding:13px; font-size:16px; font-weight:600; border:none; border-radius:11px;
+         color:#fff; background:var(--acc); margin-top:10px; cursor:pointer;}
+  button:active{opacity:.8;} button.ghost{background:transparent; border:1px solid var(--bd); color:var(--fg); font-weight:400;}
+  button.del{background:var(--err); padding:8px 14px; font-size:14px; border-radius:9px; margin:0; white-space:nowrap;}
   button:disabled{opacity:.4; pointer-events:none;}
-  .filebox{border:2px dashed var(--bd); border-radius:12px; padding:22px; text-align:center;
-           color:var(--dim); font-size:15px;}
+  .row{display:flex; gap:8px;} .row button{flex:1;}
+  .filebox{border:2px dashed var(--bd); border-radius:12px; padding:20px; text-align:center; color:var(--dim);}
   .filebox input{display:none;}
-  .files{margin-top:10px; font-size:14px;}
-  .files .f{display:flex; justify-content:space-between; gap:8px; padding:8px 10px; margin-top:6px;
-            background:#0d1117; border-radius:8px; border:1px solid var(--bd);}
-  .check{border-left:3px solid var(--bd); padding:8px 10px; margin-top:8px; border-radius:0 8px 8px 0;
-         background:#0d1117; font-size:13px;}
-  .check.ok{border-color:var(--ok);} .check.warn{border-color:var(--warn);} .check.err{border-color:var(--err);}
-  .check b{display:block; margin-bottom:2px; font-size:14px;}
+  .flist{margin-top:8px; font-size:13px; color:var(--dim);}
+  .pkg{border:1px solid var(--bd); border-radius:11px; padding:10px 12px; margin-top:10px; background:#0d1117;}
+  .pkg .top{display:flex; justify-content:space-between; align-items:center; gap:8px;}
+  .pkg .nm{font-weight:600; font-size:15px; word-break:break-all;}
+  .pkg .meta{font-size:12px; color:var(--dim); margin-top:4px; line-height:1.5;}
+  .pkg .meta b{color:var(--fg); font-weight:500;}
+  .tag{display:inline-block; font-size:11px; padding:1px 7px; border-radius:6px; background:rgba(88,166,255,.18); color:var(--acc); margin-left:4px;}
+  .tag.jb{background:rgba(210,153,34,.2); color:var(--warn);}
+  .empty{color:var(--dim); text-align:center; padding:24px 0; font-size:14px;}
   .log{background:#000; color:#c9d1d9; font-family:ui-monospace,Menlo,monospace; font-size:12px;
-       border-radius:10px; padding:10px; max-height:220px; overflow:auto; white-space:pre-wrap;
-       word-break:break-all; display:none; margin-top:12px;}
+       border-radius:10px; padding:10px; max-height:200px; overflow:auto; white-space:pre-wrap; word-break:break-all; display:none; margin-top:12px;}
   .spin{display:inline-block; width:14px; height:14px; border:2px solid rgba(255,255,255,.4);
         border-top-color:#fff; border-radius:50%; animation:s .7s linear infinite; vertical-align:-2px;}
   @keyframes s{to{transform:rotate(360deg)}}
-  .foot{color:var(--dim); font-size:12px; margin-top:16px; line-height:1.5;}
+  .foot{color:var(--dim); font-size:12px; margin-top:14px; line-height:1.5;}
 </style>
 </head>
 <body>
-  <h1>📤 牛逼源 · 上传</h1>
-  <div class="sub">手机端直接上传 deb → 自动建索引 → Sileo 刷新即可</div>
+  <h1>📦 牛逼源 · 管理</h1>
+  <div class="sub">上传 / 列表 / 删除 · 上传删除后自动重建索引</div>
 
   <div class="card">
     <label>仓库 (owner/repo)</label>
     <input type="text" id="repo" placeholder="i3i4i5/i3i4i5.github.io">
-    <label>GitHub PAT（<code>repo</code> 权限，只存本机浏览器）</label>
+    <label>GitHub PAT（repo 权限，只存本机浏览器）</label>
     <input type="password" id="token" placeholder="ghp_...">
-    <button class="ghost" id="savebtn">保存配置</button>
+    <div class="row">
+      <button class="ghost" id="savebtn">保存配置</button>
+      <button class="ghost" id="loadbtn">📋 刷新列表</button>
+    </div>
   </div>
 
   <div class="card">
-    <label>deb 文件</label>
-    <label class="filebox" for="deb" id="filebox">
+    <label>⬆ 上传 deb（可多选）</label>
+    <label class="filebox" for="deb">
       <input type="file" id="deb" accept=".deb,application/vnd.debian.binary-package" multiple>
-      点我选择 deb 文件（可多选）
+      点我选择 deb 文件
     </label>
-    <div class="files" id="filelist"></div>
-    <button class="ghost" id="checkbtn">🔍 检查兼容性</button>
+    <div class="flist" id="flist"></div>
+    <button id="uploadbtn">⬆ 上传到源</button>
   </div>
 
-  <label class="confirmgate" id="confirmgate" style="display:none; background:var(--card); border:1px solid var(--warn); border-radius:12px; padding:12px; margin:12px 0; font-size:14px; line-height:1.5;">
-    <input type="checkbox" id="confirmchk" style="width:18px; height:18px; vertical-align:-3px; accent-color:var(--warn);">
-    有包无法自动确认版本类型（xz 压缩 / 判为无根），我已核对它们适配我的设备，确认上传
-  </label>
-
-  <button id="uploadbtn">⬆ 上传到源</button>
-  <button class="ghost" id="rebuildbtn">🔄 仅重建索引（不加包）</button>
+  <div class="card">
+    <label>📦 当前包（点「刷新列表」更新）</label>
+    <div id="pkglist"><div class="empty">点上方「刷新列表」加载</div></div>
+  </div>
 
   <div class="log" id="log"></div>
 
   <div class="foot">
-    PAT 只保存在你手机浏览器的 localStorage，不上传任何第三方。用完建议清除或吊销。<br>
-    流程：选包 → 兼容性检查 → 上传（GitHub API 推送）→ 自动触发 Actions 建索引（约 1 分钟）。
+    PAT 只存在你手机浏览器 localStorage，不发给第三方。用完建议吊销。<br>
+    上传/删除后由 GitHub Actions 自动重建索引，约 1 分钟，再点「刷新列表」。
   </div>
 
 <script>
 const $ = id => document.getElementById(id);
-const logEl = $('log');
-function log(msg){ logEl.style.display='block'; logEl.textContent += msg + '\n'; logEl.scrollTop = logEl.scrollHeight; }
+function log(msg){ const el=$('log'); el.style.display='block'; el.textContent += msg+'\n'; el.scrollTop=el.scrollHeight; }
+function repo(){ return $('repo').value.trim(); }
+function tok(){ return $('token').value.trim(); }
 
-// ---------- 配置 ----------
-function saveCfg(){ localStorage.setItem('niubi_repo', $('repo').value.trim()); localStorage.setItem('niubi_token', $('token').value.trim()); }
-function loadCfg(){ $('repo').value = localStorage.getItem('niubi_repo')||'i3i4i5/i3i4i5.github.io'; $('token').value = localStorage.getItem('niubi_token')||''; }
-$('savebtn').onclick = ()=>{ saveCfg(); alert('配置已保存到本机浏览器'); };
-loadCfg();
+// ---- 配置 ----
+$('savebtn').onclick = ()=>{ localStorage.setItem('niubi_repo',repo()); localStorage.setItem('niubi_token',tok()); alert('配置已保存到本机浏览器'); };
+$('repo').value = localStorage.getItem('niubi_repo')||'i3i4i5/i3i4i5.github.io';
+$('token').value = localStorage.getItem('niubi_token')||'';
 
-// ---------- 文件列表 ----------
+// ---- 文件选择 ----
 let files = [];
-let analysis = [];         // 最近一次检查的结果
-let checked = false;       // 是否已跑过检查
-function gateBlocked(){
-  const need = checked && analysis.some(r => r.needConfirm);
-  $('confirmgate').style.display = (checked && need) ? 'block' : 'none';
-  return checked && need && !$('confirmchk').checked;
-}
-$('deb').onchange = e => { files = [...e.target.files]; renderFiles(); checked=false; analysis=[]; $('confirmchk').checked=false; gateBlocked(); };
-function renderFiles(){
-  const el = $('filelist'); el.innerHTML = '';
-  files.forEach((f,i)=>{
-    const d = document.createElement('div'); d.className='f';
-    d.innerHTML = `<span>${f.name}</span><span>${(f.size/1024).toFixed(0)}KB</span>`;
-    el.appendChild(d);
-  });
-}
+$('deb').onchange = e=>{ files=[...e.target.files]; const el=$('flist');
+  el.textContent = files.length ? files.map(f=>f.name+' ('+(f.size/1024).toFixed(0)+'KB)').join('、') : ''; };
 
-// ---------- deb 解析（ar + tar + control） ----------
-function u8str(u8, a, b){ let s=''; for(let i=a;i<b && u8[i]; i++) s+=String.fromCharCode(u8[i]); return s; }
-function parseAr(buf){
-  const u8 = new Uint8Array(buf);
-  const members = []; let off = 8;
-  while(off + 60 <= u8.length){
-    let name = u8str(u8, off, off+16).replace(/\s+$/,'');
-    // ar 头：name(0-16) mtime(16-28) uid(28-34) gid(34-40) mode(40-48) size(48-58) fmag(58-60)
-    const size = parseInt(u8str(u8, off+48, off+58).trim(),10);
-    if(isNaN(size) || size < 0) break;
-    const data = u8.subarray(off+60, off+60+size);
-    members.push({name, data});
-    off += 60 + size; if(size % 2) off += 1;
-  }
-  return members;
-}
-function parseTar(u8){
-  const entries = []; let off = 0;
-  while(off + 512 <= u8.length){
-    if(u8[off] === 0) break;
-    let name = u8str(u8, off, off+100);
-    const size = parseInt(u8str(u8, off+124, off+136).trim(),8) || 0;
-    const data = u8.subarray(off+512, off+512+size);
-    entries.push({name, data});
-    off += 512 + Math.ceil(size/512)*512;
-  }
-  return entries;
-}
-function tryUngzip(u8){
-  try { return pako.ungzip(u8); } catch(e){
-    try { return pako.inflate(u8); } catch(e2){ return null; } }
-}
-function parseControl(text){
-  const obj = {}; let cur = null;
-  for(let line of text.split('\n')){
-    if(line && !line.startsWith(' ') && line.includes(':')){
-      const i = line.indexOf(':'); cur = line.slice(0,i).trim(); obj[cur] = line.slice(i+1).trim();
-    } else if(cur && line.trim()){ obj[cur] += ' ' + line.trim(); }
-  }
-  return obj;
-}
-async function analyzeDeb(file){
-  const buf = await file.arrayBuffer();
-  const members = parseAr(buf);
-  const res = { name: file.name, size: file.size, control: {}, dataNames: [],
-                problems: [], warnings: [], ok: true, needConfirm: false };
-  const cMem = members.find(m => m.name.startsWith('control.tar'));
-  const dMem = members.find(m => m.name.startsWith('data.tar'));
-  res.compression = cMem ? (cMem.name.endsWith('.gz')?'gz':cMem.name.endsWith('.xz')?'xz':'?') : 'unknown';
-
-  // gzip 才能在浏览器解出 control / 文件列表
-  if(cMem && res.compression === 'gz'){
-    const tar = tryUngzip(cMem.data);
-    if(tar){
-      const entries = parseTar(new Uint8Array(tar));
-      const c = entries.find(e => /(^|\/)DEBIAN\/control$/.test(e.name) || e.name==='control');
-      if(c) res.control = parseControl(u8str(c.data, 0, c.data.length));
-    }
-    if(dMem && file.size < 30*1024*1024){
-      const tar = tryUngzip(dMem.data);
-      if(tar) for(const e of parseTar(new Uint8Array(tar))) res.dataNames.push(e.name);
-    }
-  }
-
-  const arch = res.control.Architecture || '';
-  const pkg  = res.control.Package || '(未知)';
-  const ver  = res.control.Version || '';
-  const dep  = res.control.Depends || '';
-  res.arch = arch; res.pkg = pkg; res.ver = ver;
-
-  // 架构
-  if(arch && arch !== 'iphoneos-arm64' && arch !== 'iphoneos-arm64e'){
-    res.problems.push(`架构 ${arch} 非 iphoneos-arm64/arm64e，Sileo 可能识别不了`); res.ok=false;
-  } else if(!arch){
-    res.warnings.push('未能读出架构（xz 压缩）'); res.needConfirm=true;
-  }
-
-  // 无根/隐根判定
-  const hasJb = res.dataNames.some(n => n.startsWith('var/jb/'));
-  const rootlessDep = /(^|\b)firmware\s*\(/.test(dep);
-  let type = 'unknown', reason='';
-  if(hasJb){ type='rootless'; reason='检出 /var/jb 路径'; }
-  else if(rootlessDep){ type='rootless'; reason='Depends 含 firmware'; }
-  else if(res.compression==='gz'){ type='roothide'; reason='未检出 /var/jb'; }
-  else {
-    // xz：文件名启发式
-    const n = res.name.toLowerCase();
-    if(n.includes('roothide')){ type='roothide'; reason='文件名含 roothide'; }
-    else if(n.includes('rootless')){ type='rootless'; reason='文件名含 rootless'; }
-    else if(arch==='iphoneos-arm64e'){ type='roothide'; reason='arm64e（按你习惯=隐根）'; }
-    else { type='unknown'; reason='xz 压缩且文件名无提示，无法判断'; res.needConfirm=true; }
-  }
-  res.type = type;
-  if(type==='rootless') res.warnings.push('⚠ 判定为【无根】版：你设备是隐根，装它大概率无效/出错！');
-  else if(type==='roothide') res.warnings.push('判定为【隐根】版 ✓ ' + reason);
-  else res.warnings.push('⚠ 无法自动判定无根/隐根（'+reason+'）：请自己核对');
-  if(type!=='roothide') res.needConfirm = true;
-  return res;
-}
-
-// ---------- GitHub API ----------
-async function api(path, method='GET', body, tok, repo){
-  const url = `https://api.github.com/repos/${repo}${path}`;
-  const r = await fetch(url, { method,
-    headers:{ 'Authorization':'token '+tok, 'Accept':'application/vnd.github+json',
-              'Content-Type':'application/json', 'User-Agent':'niubi-uploader' },
+// ---- GitHub API ----
+async function api(path, method='GET', body){
+  const r = await fetch(`https://api.github.com/repos/${repo()}${path}`, {method,
+    headers:{ 'Authorization':'token '+tok(), 'Accept':'application/vnd.github+json',
+              'Content-Type':'application/json', 'User-Agent':'niubi' },
     body: body?JSON.stringify(body):undefined });
   if(r.status===204) return null;
-  const txt = await r.text();
-  if(!r.ok) throw new Error(`${method} ${path} → ${r.status}: ${txt.slice(0,300)}`);
-  return JSON.parse(txt);
+  const t = await r.text();
+  if(!r.ok) throw new Error(`${method} ${path} → ${r.status}: ${t.slice(0,300)}`);
+  return JSON.parse(t);
 }
-function bufToB64(u8){ let s=''; const C=0x8000;
-  for(let i=0;i<u8.length;i+=C) s += String.fromCharCode.apply(null, u8.subarray(i,i+C)); return btoa(s); }
+function b64(u8){ let s=''; const C=0x8000;
+  for(let i=0;i<u8.length;i+=C) s+=String.fromCharCode.apply(null,u8.subarray(i,i+C)); return btoa(s); }
 
-// ---------- 兼容性检查（含同名冲突） ----------
-$('checkbtn').onclick = async ()=>{
-  const tok=$('token').value.trim(), repo=$('repo').value.trim();
-  if(!files.length) return alert('请先选择 deb');
-  $('checkbtn').disabled=true; $('checkbtn').innerHTML='<span class="spin"></span> 检查中…';
-  try{
-    log('\n=== 兼容性检查 ===');
-    const owner=repo.split('/')[0];
-    let existing='';
-    try{ existing = await (await fetch(`https://${owner}.github.io/Packages`)).text(); }catch(e){}
-    const existingPkgs = [];
-    for(const block of existing.split(/\n\n/)) for(const line of block.split('\n')){
-      if(line.startsWith('Package:')){
-        const p=line.slice(8), v=(block.match(/Version:\s*(\S+)/)||[])[1]||'', a=(block.match(/Architecture:\s*(\S+)/)||[])[1]||'';
-        existingPkgs.push({p,v,a});
-      }
-    }
-    analysis = [];
-    for(const f of files){
-      const r = await analyzeDeb(f);
-      log(`\n● ${r.name}  [${r.pkg} ${r.ver} ${r.arch}]`);
-      const conflict = existingPkgs.find(x=>x.p===r.pkg && x.v===r.ver && x.a===r.arch);
-      if(conflict){ r.warnings.push(`⚠ 源里已有同名同版本 (${r.pkg} ${r.ver} ${r.arch})，将覆盖`); r.needConfirm=true; }
-      renderCheck(r, conflict);
-      analysis.push(r);
-      for(const p of r.problems) log('   ✗ '+p);
-      for(const w of r.warnings) log('   ! '+w);
-      if(r.ok && !r.needConfirm) log('   ✓ 可上传');
-    }
-    checked = true;
-  }catch(e){ log('  检查出错: '+e.message); }
-  gateBlocked();
-  $('checkbtn').disabled=false; $('checkbtn').textContent='🔍 检查兼容性';
-};
-function renderCheck(r, conflict){
-  let prev = document.getElementById('chk_'+r.name); if(prev) prev.remove();
-  const d = document.createElement('div');
-  const cls = r.problems.length?'err':(conflict||r.warnings.some(w=>!w.includes('✓'))?'warn':'ok');
-  d.className='check '+cls; d.id='chk_'+r.name;
-  d.innerHTML = `<b>${r.name}</b>` +
-    (r.problems.length? r.problems.map(x=>'✗ '+x).join('<br>'):'') +
-    (r.warnings.length? (r.problems.length?'<br>':'') + r.warnings.map(x=>x).join('<br>'):'') ;
-  $('filelist').appendChild(d);
-}
-
-// ---------- 上传 ----------
+// ---- 上传 ----
 $('uploadbtn').onclick = async ()=>{
-  const tok=$('token').value.trim(), repo=$('repo').value.trim();
-  if(!files.length) return alert('请先选择 deb');
-  if(!tok) return alert('请填写 PAT');
-  if(!checked) return alert('请先点「🔍 检查兼容性」，确认无误后再上传');
-  if(gateBlocked()) return alert('有包无法自动确认版本类型，请先勾选下方「我已核对版本」再上传');
-  saveCfg();
-  $('uploadbtn').disabled=true; $('rebuildbtn').disabled=true;
-  $('uploadbtn').innerHTML='<span class="spin"></span> 上传中…';
+  const t=tok(); if(!files.length) return alert('请选择 deb');
+  if(!t || !repo().includes('/')) return alert('请填 PAT 和仓库');
+  $('savebtn').onclick(); localStorage.setItem('niubi_repo',repo()); localStorage.setItem('niubi_token',t);
+  const btn=$('uploadbtn'); btn.disabled=true; btn.innerHTML='<span class="spin"></span> 上传中…';
   try{
-    log(`\n=== 上传 ${files.length} 个 deb → ${repo} ===`);
-    const owner = repo.split('/')[0];
-    // 取现有索引以保留其它包：先 GET 整个 Packages 不需要，deb 是新增/覆盖文件即可
+    log(`\n=== 上传 ${files.length} 个 → ${repo()} ===`);
     for(const f of files){
-      const path = `debs/${f.name}`;
-      let sha=null;
-      try{ const j = await api(`/contents/${path}`,'GET',null,tok,repo); sha=j&&j.sha; }catch(e){ if(e.message.includes('404')) sha=null; else if(!e.message.startsWith('GET')) throw e; }
+      const path=`debs/${encodeURIComponent(f.name)}`;
+      let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){ if(!e.message.includes('404')) throw e; }
       log(`上传 ${f.name} (${(f.size/1024).toFixed(0)}KB)${sha?' [覆盖]':' [新增]'}`);
-      const b64 = bufToB64(new Uint8Array(await f.arrayBuffer()));
-      const body = { content:b64, message:`upload ${f.name} via phone`, branch:'main' };
-      if(sha) body.sha = sha;
-      await api(`/contents/${path}`,'PUT',body,tok,repo);
-      log('  ✓ 已推送');
+      await api(`/contents/${path}`,'PUT',{content:b64(new Uint8Array(await f.arrayBuffer())),
+        message:`upload ${f.name}`, branch:'main', ...(sha?{sha}:{})});
+      log('  ✓');
     }
-    // 触发索引重建
-    log('触发 GitHub Actions 重建索引…');
-    await dispatchWorkflow(tok, repo);
-    log('\n✅ 全部完成！等 1 分钟，Sileo 刷新即可。若没更新，点下方「仅重建索引」重试。');
-  }catch(e){ log('✗ 出错: '+e.message); alert('上传出错：\n'+e.message); }
-  $('uploadbtn').disabled=false; $('rebuildbtn').disabled=false;
-  $('uploadbtn').textContent='⬆ 上传到源';
+    log('✅ 完成。索引约 1 分钟后自动重建，再点「刷新列表」。');
+    files=[]; $('deb').value=''; $('flist').textContent='';
+  }catch(e){ log('✗ '+e.message); alert('上传出错：\n'+e.message); }
+  btn.disabled=false; btn.textContent='⬆ 上传到源';
 };
-$('rebuildbtn').onclick = async ()=>{
-  const tok=$('token').value.trim(), repo=$('repo').value.trim();
-  $('rebuildbtn').disabled=true; $('rebuildbtn').innerHTML='<span class="spin"></span> 触发中…';
-  try{ await dispatchWorkflow(tok, repo); log('已触发索引重建，约 1 分钟生效'); }
-  catch(e){ log('✗ '+e.message); }
-  $('rebuildbtn').disabled=false; $('rebuildbtn').textContent='🔄 仅重建索引（不加包）';
+
+// ---- 列表 ----
+function parsePackages(text){
+  const list=[]; for(const block of text.split(/\n\n+/)){
+    if(!/^Package:/m.test(block)) continue;
+    const g=k=>(block.match(new RegExp('^'+k+':\\s*(.+)$','m'))||[])[1]||'';
+    list.push({pkg:g('Package'),ver:g('Version'),arch:g('Architecture'),file:g('Filename'),desc:g('Name')||g('Description')});
+  } return list;
+}
+$('loadbtn').onclick = async ()=>{
+  const box=$('pkglist'); box.innerHTML='<div class="empty"><span class="spin"></span> 加载中…</div>';
+  try{
+    const debs = await api('/contents/debs');
+    const owner = repo().split('/')[0];
+    let pkgs=[]; try{ pkgs=parsePackages(await (await fetch(`https://${owner}.github.io/Packages`)).text()); }catch(e){}
+    if(!debs || !debs.length){ box.innerHTML='<div class="empty">源里还没有包</div>'; return; }
+    box.innerHTML='';
+    for(const d of debs){
+      const fname=d.name;
+      const info=pkgs.find(p=>p.file===`debs/${fname}`) || pkgs.find(p=>p.file.endsWith(fname));
+      const meta=document.createElement('div'); meta.className='pkg';
+      const nm = info ? (info.desc||info.pkg) : fname;
+      const arch = info?info.arch:'';
+      meta.innerHTML = `<div class="top"><span class="nm">${esc(nm)}</span>` +
+        `<button class="del" data-name="${esc(fname)}" data-sha="${d.sha}">删除</button></div>` +
+        `<div class="meta">` +
+        (info?`<b>${esc(info.pkg)}</b> v${esc(info.ver)} <span class="tag">${esc(arch)}</span><br>`:'') +
+        `大小 ${(d.size/1024).toFixed(0)}KB · 文件 ${esc(fname)}` +
+        `</div>`;
+      box.appendChild(meta);
+    }
+    box.querySelectorAll('button.del').forEach(b=> b.onclick=()=>delDeb(b.dataset.name,b.dataset.sha));
+  }catch(e){ box.innerHTML=`<div class="empty">加载失败：${esc(e.message)}</div>`; }
 };
-async function dispatchWorkflow(tok, repo){
-  const r = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/build-repo.yml/dispatches`,
-    { method:'POST', headers:{'Authorization':'token '+tok,'Accept':'application/vnd.github+json','User-Agent':'niubi'} });
-  if(r.status!==204 && !r.ok){ const t=await r.text(); throw new Error('触发失败 '+r.status+' '+t.slice(0,200)); }
-  log('  ✓ Actions 已触发');
+function esc(s){ return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+// ---- 删除 ----
+async function delDeb(name, sha){
+  if(!confirm(`确定删除 ${name} ？\n删除后索引会自动重建。`)) return;
+  try{
+    log(`删除 debs/${name} …`);
+    await api(`/contents/${encodeURIComponent('debs/'+name)}`,'DELETE',{sha, message:`delete ${name}`, branch:'main'});
+    log('✓ 已删除，索引约 1 分钟后自动重建');
+    $('loadbtn').onclick();
+  }catch(e){ log('✗ '+e.message); alert('删除出错：\n'+e.message); }
 }
 </script>
 </body>
