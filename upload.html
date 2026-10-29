@@ -25,6 +25,7 @@
   button.mini{padding:7px 14px; font-size:13px; border-radius:9px; margin:0; background:var(--bd); font-weight:500;}
   button.mini.green{background:var(--ok); color:#000;}
   button.del{background:var(--err); padding:8px 13px; font-size:14px; border-radius:9px; margin:0;}
+  button.upd{background:var(--ok); color:#000; padding:8px 13px; font-size:14px; border-radius:9px; margin:0 8px 0 0;}
   button:disabled{opacity:.4; pointer-events:none;}
   .row{display:flex; gap:8px;} .row button{flex:1;}
   .filebox{border:2px dashed var(--bd); border-radius:12px; padding:20px; text-align:center; color:var(--dim);}
@@ -284,6 +285,15 @@ $('loadbtn').onclick = async ()=>{
     const owner = repo().split('/')[0];
     let pkgs=[]; try{ pkgs=parsePackages(await (await fetch(`https://${owner}.github.io/Packages`)).text()); }catch(e){}
     if(!debs || !debs.length){ box.innerHTML='<div class="empty">源里还没有包</div>'; return; }
+    // 逐个查最后提交时间，按上传时间升序（最早在底部）
+    box.innerHTML='<div class="empty"><span class="spin"></span> 读取时间…</div>';
+    for(const d of debs){
+      try{
+        const c = await api(`/commits?path=${encodeURIComponent('debs/'+d.name)}&per_page=1`);
+        d._t = c && c[0] ? new Date(c[0].commit.author.date).getTime() : 0;
+      }catch(e){ d._t = 0; }
+    }
+    debs.sort((a,b)=> b._t - a._t);
     box.innerHTML='';
     for(const d of debs){
       const fname=d.name;
