@@ -14,22 +14,6 @@ Description: 给自带备忘录的编辑界面加一条悬浮工具条：撤回�
 Name: NVToolbar 备忘录撤销恢复
 Author: Minis
 
-Package: com.minis.nvtoolbar.rootless
-Architecture: iphoneos-arm64
-Version: 1.0.0
-Section: Tweak
-Maintainer: Minis <minis@local>
-Depends: ellekit | mobilesubstrate
-Filename: debs/NVToolbar_1.0.0-rootless_iphoneos-arm64.deb
-Size: 11812
-MD5sum: 508530bbb1196a2bffc19ce23d8ae487
-SHA1: bafd68ccd93407df4babab0f64bbd6c5191a6d8f
-SHA256: 07d8999436e8b2b07453235b0dc53f4b59886afcdc0b3cf63f7990969503fede
-SHA512: e0f35a9593f5a54736d9ce6b80c91135cd946c9fcaf567e8affbab90bb71af847e5623e97b694367d461ab6c61f0f8641317b12f3ebe3395eb77123a3cce183e
-Description: 给自带备忘录的编辑界面加一条悬浮工具条：撤回、恢复、全选、复制、粘贴，防止误删内容找不回。键盘弹出时自动显示，可上下拖动，撤回/恢复按钮自动置灰。注入 com.apple.mobilenotes，可自行扩展到其他 App。
-Name: NVToolbar 备忘录撤销恢复
-Author: Minis
-
 Package: com.minis.menutamer
 Architecture: iphoneos-arm64e
 Version: 0.1.0

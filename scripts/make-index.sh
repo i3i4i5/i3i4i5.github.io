@@ -45,7 +45,8 @@ apt-ftparchive packages "$SCAN" \
 echo "    $(grep -c '^Package:' Packages || echo 0) 个包"
 
 gzip -9 -kf Packages
-bzip2 -9 -kf Packages 2>/dev/null || true
+# 注：故意不生成 Packages.bz2。旧版 Sileo 会优先拉 .bz2，
+# 若 Release 未同步其哈希就会报「哈希校验不匹配」。只用 .gz 最稳。
 
 # ---------- 生成 Release ----------
 echo "==> 生成 Release"
