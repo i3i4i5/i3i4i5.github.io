@@ -1,0 +1,49 @@
+Package: com.minis.nvtoolbar
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Minis <minis@local>
+Depends: ellekit | mobilesubstrate
+Filename: debs/NVToolbar_1.0.0-roothide_iphoneos-arm64.deb
+Size: 11764
+MD5sum: c021cbf16a6f5ece2888273f4d066e4d
+SHA1: 340e49c267b729c8a644258e529dee3eefebbec3
+SHA256: 2b82dab3a771bee521b8d538782fbb7fa22fb5f3450292851914194d78e2aa3f
+SHA512: f7e0ff52c1beba2bc7233e824ce72a1f4fc792695bdd2ac7b05a62db22839b7a8e81be12dadea7409806a23df52c9191ffc42cebf4db0658a2391bc637a873d6
+Description: 给自带备忘录的编辑界面加一条悬浮工具条：撤回、恢复、全选、复制、粘贴，防止误删内容找不回。键盘弹出时自动显示，可上下拖动，撤回/恢复按钮自动置灰。隐根(RootHide)版。
+Name: NVToolbar 备忘录撤销恢复
+Author: Minis
+
+Package: com.minis.nvtoolbar.rootless
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweak
+Maintainer: Minis <minis@local>
+Depends: ellekit | mobilesubstrate
+Filename: debs/NVToolbar_1.0.0-rootless_iphoneos-arm64.deb
+Size: 11812
+MD5sum: 508530bbb1196a2bffc19ce23d8ae487
+SHA1: bafd68ccd93407df4babab0f64bbd6c5191a6d8f
+SHA256: 07d8999436e8b2b07453235b0dc53f4b59886afcdc0b3cf63f7990969503fede
+SHA512: e0f35a9593f5a54736d9ce6b80c91135cd946c9fcaf567e8affbab90bb71af847e5623e97b694367d461ab6c61f0f8641317b12f3ebe3395eb77123a3cce183e
+Description: 给自带备忘录的编辑界面加一条悬浮工具条：撤回、恢复、全选、复制、粘贴，防止误删内容找不回。键盘弹出时自动显示，可上下拖动，撤回/恢复按钮自动置灰。注入 com.apple.mobilenotes，可自行扩展到其他 App。
+Name: NVToolbar 备忘录撤销恢复
+Author: Minis
+
+Package: com.minis.menutamer
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: Tweaks
+Maintainer: Minis
+Installed-Size: 172
+Depends: ellekit | mobilesubstrate, preferenceloader
+Filename: debs/com.minis.menutamer_0.1.0_iphoneos-arm64e.deb
+Size: 17646
+MD5sum: cfc48dd25c2aaf91128fde89fad3f7ed
+SHA1: 319566cdc63ef964b1783803aa241f198098ff5d
+SHA256: 39eb164b5492a0e81b7f0c55bffe2ac21f4c416782a97249a33264830267c402
+SHA512: 5ba1eecf855c6ee399c474fc7431bca6757ec31bd87ac7c15a88eac26eb1ae10c8b77c9bc11bbe0bdabb146764d28e5206c25df95296a618510659ed5782e0d4
+Description: 长按菜单排序 / 删减工具。桌面图标菜单与通用 context menu 的菜单项可配置显示顺序并隐藏不需要的项。
+Name: MenuTamer 菜单管家
+Author: Minis
+
