@@ -160,8 +160,16 @@ function tok(){ return $('token').value.trim(); }
 
 // 配置
 $('savebtn').onclick = ()=>{ localStorage.setItem('niubi_repo',repo()); localStorage.setItem('niubi_token',tok()); alert('配置已保存'); };
-$('repo').value = localStorage.getItem('niubi_repo')||'i3i4i5/i3i4i5.github.io';
-$('token').value = localStorage.getItem('niubi_token')||'';
+// URL 参数优先（App 启动带入），否则取 localStorage，最后默认
+(function initFromQuery(){
+  const p = new URLSearchParams(location.search);
+  const r = p.get('repo'), t = p.get('token');
+  if(r){ $('repo').value = r; localStorage.setItem('niubi_repo', r); }
+  else  { $('repo').value = localStorage.getItem('niubi_repo')||'i3i4i5/i3i4i5.github.io'; }
+  if(t){ $('token').value = t; localStorage.setItem('niubi_token', t); }
+  else  { $('token').value = localStorage.getItem('niubi_token')||''; }
+  if(p.get('autoload')==='1'){ setTimeout(()=>$('loadbtn').onclick(), 400); }
+})();
 
 // 文件选择（去掉严格 accept，修复 iOS 灰色不能点）
 let pendingFiles = [];
