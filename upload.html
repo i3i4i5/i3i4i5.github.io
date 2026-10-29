@@ -32,6 +32,18 @@
   .copy-item input{width:20px; height:20px; margin-top:3px; accent-color:var(--ok); flex:none;}
   .copy-item .ci-name{font-weight:600; font-size:15px;}
   .copy-item .ci-meta{color:var(--dim); font-size:12px; margin-top:2px;}
+  #copy-history{font-size:12px; color:var(--dim); margin-bottom:8px; line-height:2;}
+  #copy-history .hist{display:inline-block; background:var(--bd); color:var(--fg); padding:3px 9px;
+           border-radius:8px; margin:0 6px 0 0; cursor:pointer; max-width:160px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; vertical-align:middle;}
+  #copy-history .hist:active{opacity:.7;}
+  #copy-history .hist-clear{display:inline-block; color:var(--err); cursor:pointer; vertical-align:middle; margin-left:4px;}
+  .copybar{position:absolute; right:8px; top:50%; transform:translateY(-50%);
+           flex-direction:column; gap:12px; z-index:101;}
+  .copybar button{padding:16px 10px; border:none; border-radius:12px; font-size:15px; font-weight:600;
+           min-width:54px; color:#fff; box-shadow:0 2px 10px rgba(0,0,0,.45); margin:0;
+           writing-mode:vertical-rl; letter-spacing:2px;}
+  .copybar #copy-ok{background:var(--acc);}
+  .copybar #copy-cancel{background:var(--bd); color:var(--fg);}
   button:disabled{opacity:.4; pointer-events:none;}
   .row{display:flex; gap:8px;} .row button{flex:1;}
   .filebox{border:2px dashed var(--bd); border-radius:12px; padding:20px; text-align:center; color:var(--dim);}
@@ -124,17 +136,19 @@
 
   <!-- 复制到源弹窗 -->
   <div class="mask" id="copymask">
-    <div class="sheet" style="max-height:88vh; overflow:auto;">
-      <h3>复制到源</h3>
-      <div class="hint">填写对方源地址，拉取它的包列表，勾选要复制的包</div>
-      <label>源地址</label>
-      <input type="text" id="copy-src" placeholder="https://其他用户.github.io/源名/">
-      <button id="copy-load" style="margin:8px 0;">拉取包列表</button>
-      <div id="copylist"></div>
-      <div class="row" id="copy-actions" style="display:none; margin-top:10px;">
-        <button class="ghost" id="copy-cancel">取消</button>
-        <button id="copy-ok">确认复制</button>
-      </div>
+    <div class="sheet" id="copy-sheet" style="display:flex; flex-direction:column; max-height:90vh; padding-bottom:12px;">
+      <h3 style="display:flex; justify-content:space-between; align-items:center;">复制到源
+        <span id="copy-x" style="font-size:24px; line-height:1; color:var(--dim); cursor:pointer; padding:0 6px;">×</span>
+      </h3>
+      <div class="hint">填写对方源地址，拉取列表，勾选要复制的包（依赖自动带入）</div>
+      <input type="text" id="copy-src" placeholder="https://其他用户.github.io/源名/" style="margin-bottom:8px;">
+      <button id="copy-load" style="margin:0 0 8px;">拉取包列表</button>
+      <div id="copy-history"></div>
+      <div id="copylist" style="flex:1 1 auto; overflow-y:auto; -webkit-overflow-scrolling:touch; margin:0 -4px; padding:0 4px;"></div>
+    </div>
+    <div class="copybar" id="copy-actions" style="display:none;">
+      <button class="ghost" id="copy-cancel">取消</button>
+      <button id="copy-ok">复制</button>
     </div>
   </div>
 
@@ -244,13 +258,30 @@ $('uploadbtn').onclick = async () => {
 };
 
 // ---------- 复制到源 ----------
+function loadCopyHistory(){
+  let h=[]; try{ h=JSON.parse(localStorage.getItem('niubi_src_history')||'[]'); }catch(e){}
+  const box=$('copy-history');
+  if(!h.length){ box.innerHTML=''; return; }
+  box.innerHTML = '历史源地址：' + h.map((s,i)=>`<span class="hist" data-i="${i}">${esc(s)}</span>`).join('') +
+    ` <span class="hist-clear" id="hist-clear">一键清除</span>`;
+  box.querySelectorAll('.hist').forEach(e=> e.onclick=()=>{ $('copy-src').value=h[+e.dataset.i]; });
+  $('hist-clear').onclick = (e)=>{ e.stopPropagation(); localStorage.removeItem('niubi_src_history'); loadCopyHistory(); };
+}
+function saveCopyHistory(url){
+  url=url.trim(); if(!url) return;
+  let h=[]; try{ h=JSON.parse(localStorage.getItem('niubi_src_history')||'[]'); }catch(e){}
+  h = h.filter(x=>x!==url); h.unshift(url); h=h.slice(0,10);
+  localStorage.setItem('niubi_src_history', JSON.stringify(h));
+}
 $('copybtn').onclick = () => {
   $('copy-src').value = '';
   $('copylist').innerHTML = '<div class="empty">填写源地址后点「拉取包列表」</div>';
   $('copy-actions').style.display = 'none';
+  loadCopyHistory();
   $('copymask').classList.add('show');
 };
 $('copy-cancel').onclick = () => $('copymask').classList.remove('show');
+$('copy-x').onclick = () => $('copymask').classList.remove('show');
 
 // 把源地址转成 Packages / debs 基础 URL
 function srcBase(url){
@@ -262,10 +293,13 @@ function srcBase(url){
 $('copy-load').onclick = async () => {
   const btn = $('copy-load'); btn.disabled = true; btn.textContent = '拉取中…';
   try{
-    const base = srcBase($('copy-src').value);
+    const srcVal = $('copy-src').value;
+    const base = srcBase(srcVal);
     const txt = await (await fetch(`${base}/Packages`, {cache:'no-store'})).text();
     const list = parsePackages(txt);
     if(!list.length) throw new Error('该源没有包或地址错误');
+    saveCopyHistory(srcVal);
+    loadCopyHistory();
     window._copyPkgs = list.map(p=>({
       name: p.desc || p.pkg, pkg: p.pkg, ver: p.ver, arch: p.arch,
       dep: (p.dep||'').trim(),
