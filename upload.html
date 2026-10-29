@@ -26,6 +26,7 @@
   button.mini.green{background:var(--ok); color:#000;}
   button.del{background:var(--err); padding:8px 13px; font-size:14px; border-radius:9px; margin:0;}
   button.upd{background:var(--ok); color:#000; padding:8px 13px; font-size:14px; border-radius:9px; margin:0 8px 0 0;}
+  .patlink{display:block; font-size:12px; color:var(--acc); margin-top:10px; line-height:1.6; text-decoration:none;}
   .row{display:flex; gap:10px; margin-top:12px;}
   .row button{flex:1; padding:14px; font-size:16px; border-radius:11px; font-weight:600;}
   .copy-item{display:flex; align-items:flex-start; gap:10px; padding:10px; border:1px solid var(--bd); border-radius:10px; margin:8px 0; background:#0d1117;}
@@ -82,8 +83,11 @@
     <input type="text" id="repo" placeholder="i3i4i5/i3i4i5.github.io">
     <label>GitHub PAT（repo 权限，只存本机浏览器）</label>
     <input type="password" id="token" placeholder="ghp_...">
-    <button class="ghost" id="savebtn">保存配置</button>
-    <button id="createbtn" style="margin-top:10px; background:var(--ok); color:#000;">🚀 一键创建我的源</button>
+    <div class="row">
+      <button class="ghost" id="savebtn">保存配置</button>
+      <button id="createbtn" style="background:var(--ok); color:#000;">一键建源</button>
+    </div>
+    <a class="patlink" href="https://github.com/settings/tokens/new?scopes=repo,workflow&description=yijianjianyuan" target="_blank">❓ 如何获取 PAT？点此直达创建页（勾选 repo + workflow 两项，Expiration 建议 90 天，生成后复制 ghp_ 开头串粘贴到上面）</a>
     <div class="hint" id="createhint" style="margin-top:6px;">还没有源？点这里自动创建 GitHub Pages 仓库并初始化（需要 PAT 有 repo 权限）</div>
   </div>
 
@@ -117,7 +121,8 @@
 
   <div class="foot">
     PAT 只存在你手机浏览器 localStorage。上传/更新/删除后由 Actions 自动重建索引，约 1 分钟再刷新。<br>
-    弹窗里的"名称/详情"留空 = 用包自带；填写 = 源里显示你填的。
+    弹窗里的"名称/详情"留空 = 用包自带；填写 = 源里显示你填的。<br>
+    作者：承诺 —— 本工具所有数据仅保存在本机、不上传任何第三方服务器；使用产生的后果由使用者自行承担，请确保对所上传 deb 包拥有合法授权。
   </div>
 
   <!-- 名称/详情弹窗 -->
@@ -455,7 +460,7 @@ $('createbtn').onclick = async () => {
     log('✅ 源创建完成！地址：https://' + owner + '.github.io/ （Pages 约 1 分钟生效）');
     log('稍后点「刷新列表」即可看到空源，开始上传 deb 吧。');
   }catch(e){ log('✗ '+e.message); alert('创建失败：\n'+e.message); }
-  btn.disabled = false; btn.textContent = '🚀 一键创建我的源';
+  btn.disabled = false; btn.textContent = '一键建源';
 };
 
 function buildRepoFiles(owner){
@@ -472,7 +477,7 @@ h1{font-size:24px}.sub{color:#8b949e;font-size:14px;margin:8px 0 24px}
   const makeIndex = `#!/usr/bin/env bash
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"; cd "$ROOT"
-REPO_URL="${REPO_URL:-https://${owner}.github.io/}"; mkdir -p debs
+REPO_URL="\${REPO_URL:-https://${owner}.github.io/}"; mkdir -p debs
 command -v apt-ftparchive >/dev/null 2>&1 || { echo "缺少 apt-ftparchive"; exit 1; }
 DEBS_ABS="$ROOT/debs"
 if apt-ftparchive packages "$DEBS_ABS" >/dev/null 2>&1; then
