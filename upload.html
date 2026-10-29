@@ -84,7 +84,7 @@
     <label>GitHub PAT（repo 权限，只存本机浏览器）</label>
     <input type="password" id="token" placeholder="ghp_...">
     <div class="row">
-      <button class="ghost" id="savebtn">保存配置</button>
+      <button class="ghost" id="savebtn" style="background:var(--ok); color:#000;">保存配置</button>
       <button id="createbtn" style="background:var(--ok); color:#000;">一键建源</button>
     </div>
     <a class="patlink" href="https://github.com/settings/tokens/new?scopes=repo,workflow&description=yijianjianyuan" target="_blank">❓ 如何获取 PAT？点此直达创建页（勾选 repo + workflow 两项，Expiration 建议 90 天，生成后复制 ghp_ 开头串粘贴到上面）</a>
@@ -635,7 +635,15 @@ async function delDeb(name, sha){
   try{
     log(`删除 debs/${name} …`);
     await api(`/contents/${encodeURIComponent('debs/'+name)}`,'DELETE',{sha, message:`delete ${name}`, branch:'main'});
-    log('✓ 已删除'); $('loadbtn').onclick();
+    log('✓ 已删除（索引约 1 分钟后自动重建）');
+    // 立即从页面移除该行（GitHub API 删除有秒级延迟，先乐观更新）
+    document.querySelectorAll('#pkglist button.del').forEach(b=>{
+      if(b.dataset.name===name){ const card=b.closest('.pkg'); if(card) card.remove(); }
+    });
+    const n=document.querySelectorAll('#pkglist .pkg').length;
+    const t=$('pkgtitle'); if(t) t.textContent=`📦 当前包（${n}）`;
+    // 延时刷新一次，等 GitHub API 同步
+    setTimeout(()=>$('loadbtn').onclick(), 3000);
   }catch(e){ log('✗ '+e.message); alert('删除出错：\n'+e.message); }
 }
 
