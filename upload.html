@@ -83,6 +83,8 @@
     <label>GitHub PAT（repo 权限，只存本机浏览器）</label>
     <input type="password" id="token" placeholder="ghp_...">
     <button class="ghost" id="savebtn">保存配置</button>
+    <button id="createbtn" style="margin-top:10px; background:var(--ok); color:#000;">🚀 一键创建我的源</button>
+    <div class="hint" id="createhint" style="margin-top:6px;">还没有源？点这里自动创建 GitHub Pages 仓库并初始化（需要 PAT 有 repo 权限）</div>
   </div>
 
   <div class="card">
@@ -419,6 +421,152 @@ function parsePackages(text){
   } return list;
 }
 // 手动触发索引重建（防止自动失败）
+// 一键创建源：建仓库 + 初始化文件 + 开启 Pages
+$('createbtn').onclick = async () => {
+  const t = tok(); if(!t) return alert('请先填 PAT');
+  const btn = $('createbtn'); btn.disabled = true; btn.innerHTML = '<span class="spin"></span> 创建中…';
+  try{
+    log('\n=== 一键创建源 ===');
+    const me = await (await fetch('https://api.github.com/user', {headers:{'Authorization':'token '+t}})).json();
+    if(!me.login) throw new Error('PAT 无效或无权限');
+    const repoName = me.login + '.github.io'; const owner = me.login;
+    log('账号：' + owner + '，目标仓库：' + repoName);
+    const r = await fetch('https://api.github.com/user/repos', {
+      method:'POST', headers:{'Authorization':'token '+t,'Content-Type':'application/json'},
+      body: JSON.stringify({name:repoName, auto_init:false, private:false, description:'我的 iOS 越狱软件源'})
+    });
+    if(!r.ok){ const e=await r.text(); if(!e.includes('already exists')) throw new Error('建仓库失败：'+e.slice(0,150)); log('（仓库已存在，继续初始化）'); }
+    else log('✓ 仓库已创建');
+    const base = `https://api.github.com/repos/${owner}/${repoName}/contents`;
+    const files = buildRepoFiles(owner);
+    for(const [path, content] of Object.entries(files)){
+      const enc = b64(new TextEncoder().encode(content));
+      let sha=null; try{ sha=(await api(`/repos/${owner}/${repoName}/contents/${path}`)).sha; }catch(e){}
+      await fetch(`${base}/${path}`, {method:'PUT', headers:{'Authorization':'token '+t,'Content-Type':'application/json'},
+        body: JSON.stringify({content:enc, message:`init ${path}`, branch:'main', ...(sha?{sha}:{})})});
+    }
+    log('✓ 已写入索引脚本 / workflow / 主页 / 图标');
+    const pgr = await fetch(`https://api.github.com/repos/${owner}/${repoName}/pages`, {
+      method:'POST', headers:{'Authorization':'token '+t,'Content-Type':'application/json','Accept':'application/vnd.github+json'},
+      body: JSON.stringify({source:{branch:'main', path:'/'}})});
+    log(pgr.ok ? '✓ Pages 已开启' : '（Pages 可能需手动开：仓库 Settings → Pages → Deploy from a branch → main）');
+    $('repo').value = `${owner}/${repoName}`;
+    localStorage.setItem('niubi_repo', `${owner}/${repoName}`);
+    log('✅ 源创建完成！地址：https://' + owner + '.github.io/ （Pages 约 1 分钟生效）');
+    log('稍后点「刷新列表」即可看到空源，开始上传 deb 吧。');
+  }catch(e){ log('✗ '+e.message); alert('创建失败：\n'+e.message); }
+  btn.disabled = false; btn.textContent = '🚀 一键创建我的源';
+};
+
+function buildRepoFiles(owner){
+  const indexHtml = `<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>${owner} 的越狱软件源</title>
+<style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#0d1117;color:#e6edf3;margin:0;padding:30px 16px;text-align:center}
+h1{font-size:24px}.sub{color:#8b949e;font-size:14px;margin:8px 0 24px}
+.btn{display:inline-block;padding:12px 20px;margin:6px;border-radius:12px;background:#1f6feb;color:#fff;text-decoration:none;font-weight:600}
+.url{color:#58a6ff;font-size:13px;margin-top:24px;word-break:break-all}</style></head>
+<body><h1>${owner} 的越狱软件源</h1><div class="sub">rootless / RootHide 双版本 · Sileo / Zebra 通用</div>
+<a class="btn" href="sileo://source/https://${owner}.github.io/">在 Sileo 中打开</a>
+<a class="btn" href="zbra://sources/add/https://${owner}.github.io/">在 Zebra 中打开</a>
+<div class="url">https://${owner}.github.io/</div></body></html>`;
+  const makeIndex = `#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"; cd "$ROOT"
+REPO_URL="${REPO_URL:-https://${owner}.github.io/}"; mkdir -p debs
+command -v apt-ftparchive >/dev/null 2>&1 || { echo "缺少 apt-ftparchive"; exit 1; }
+DEBS_ABS="$ROOT/debs"
+if apt-ftparchive packages "$DEBS_ABS" >/dev/null 2>&1; then
+  apt-ftparchive packages "$DEBS_ABS" | sed "s#^Filename: .*/#Filename: debs/#" > Packages
+else
+  SCAN="$(mktemp -d)/debs"; mkdir -p "$SCAN"; cp -f "$DEBS_ABS"/*.deb "$SCAN"/ 2>/dev/null || true
+  apt-ftparchive packages "$SCAN" | sed "s#^Filename: .*/#Filename: debs/#" > Packages
+fi
+[ -f overrides.json ] && command -v python3 >/dev/null 2>&1 && python3 scripts/apply-overrides.py
+gzip -9 -kf Packages
+gen_hashes(){ local alg="$1"; shift; local f; for f in "$@"; do [ -f "$f" ] || continue;
+  local size; size=$(wc -c < "$f" | tr -d ' '); local h;
+  case "$alg" in md5) h=$(md5sum "$f"|awk '{print $1}');; sha256) h=$(sha256sum "$f"|awk '{print $1}');; esac
+  printf ' %s %s %s\\n' "$h" "$size" "$f"; done; }
+{ echo "Origin: ${owner} 的源"; echo "Label: ${owner} 的源"; echo "Suite: stable"; echo "Version: 1.0";
+  echo "Codename: ios"; echo "Architectures: iphoneos-arm64 iphoneos-arm64e"; echo "Components: main";
+  echo "Description: ${owner} 的越狱软件源"; echo "Support: $REPO_URL";
+  echo "MD5Sum:"; gen_hashes md5 Packages Packages.gz; echo "SHA256:"; gen_hashes sha256 Packages Packages.gz; } > Release
+echo "索引完成: $(grep -c '^Package:' Packages) 个包"`;
+  const applyOv = `import sys,json
+txt=open('Packages',encoding='utf-8').read(); out=[]
+try: ov=json.load(open('overrides.json',encoding='utf-8'))
+except: ov={}
+norm={k.split('/')[-1]:v for k,v in ov.items()}
+m=0
+for b in txt.split('\\n\\n'):
+    if not b.strip(): out.append(b); continue
+    lines=b.split('\\n'); fn=None
+    for l in lines:
+        if l.startswith('Filename:'): fn=l.split(':',1)[1].strip(); break
+    key=fn.split('/')[-1] if fn else None; o=norm.get(key)
+    if o:
+        nm=o.get('name') or ''; ds=o.get('desc') or o.get('description') or ''
+        nl=[]; replaced=False
+        for l in lines:
+            if l.startswith('Name:') and nm: nl.append('Name: '+nm); replaced=True
+            elif l.startswith('Description:') and ds: nl.append('Description: '+ds); replaced=True
+            else: nl.append(l)
+        if not replaced and (nm or ds):
+            ins=[]; added=False
+            for l in nl:
+                if l.startswith('Package:') and not added and nm: ins.append('Name: '+nm); added=True
+                elif l.startswith('Depends:') and not added and nm: ins.append('Name: '+nm); added=True
+                ins.append(l)
+            nl=ins
+        m+=1; out.append('\\n'.join(nl))
+    else: out.append(b)
+open('Packages','w',encoding='utf-8').write('\\n\\n'.join(out))
+print('overridden packages:',m)`;
+  const wf = `name: Build Jailbreak Repo
+on:
+  push:
+    branches: [main]
+    paths: ['debs/**','scripts/**']
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: '手动触发原因'
+        required: false
+        default: 'manual'
+concurrency:
+  group: build-repo
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install tools
+        run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev
+      - name: Build index
+        env:
+          REPO_URL: https://\${{ github.repository_owner }}.github.io/\${{ github.event.repository.name }}/
+        run: |
+          set -e
+          bash scripts/make-index.sh || { echo "::error::make-index.sh 失败"; exit 1; }
+          echo "---- 生成的 Packages ----"; cat Packages
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B main
+          git add -A
+          if git diff --cached --quiet; then echo "索引无变化，跳过"; else git commit -m "chore: rebuild repo index" && git push -f origin main; fi`;
+  return {
+    'index.html': indexHtml,
+    'CydiaIcon.png': '',
+    'scripts/make-index.sh': makeIndex,
+    'scripts/apply-overrides.py': applyOv,
+    '.github/workflows/build-repo.yml': wf
+  };
+}
+
 $('reindexbtn').onclick = async ()=>{
   const t=tok(); if(!t) return alert('请填写 PAT');
   const btn=$('reindexbtn'); btn.disabled=true; btn.innerHTML='<span class="spin"></span>';
