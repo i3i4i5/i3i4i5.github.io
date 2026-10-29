@@ -19,6 +19,26 @@ Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 
+Package: byg.iosios.net.camera.rootless
+Architecture: iphoneos-arm64e
+Version: 0.1-2
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 168
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/全屏相机-Rootless_0.1-2_iphoneos-arm64e.deb
+Size: 4380
+MD5sum: c6fda8c283d0c21605084c5c33090067
+SHA1: f3fa51ff9af5fa07663ca5db7cf0a94649a2b811
+SHA256: b346d5349026d4ca80bb8f4e66bfcc7bf20b4d1d84b6a23239202d8530da06f9
+SHA512: 27dfb4bfea893643eb798cd55c923df368c9c30a86f0ef83421e660406f48400c49542c25eeb0390055f8f2e095fe755017a3f4d499d8ca0cfaf89c91996a154
+Description: 系统相机开启全屏拍照，禁用拍照提示音。此插件由搬运工源iOSign免费首发，搬运工源只为给您带来最好的iPhone体验！永久免费的搬运工源！越狱必加！
+Name: 全屏相机-Rootless
+Author: iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: local.minis.hideairdrop
 Architecture: iphoneos-arm64e
 Version: 1.1.0
