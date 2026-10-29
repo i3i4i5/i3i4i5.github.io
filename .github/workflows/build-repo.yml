@@ -18,28 +18,25 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install tools
-        run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev gnupg
-
-      - name: Import GPG key
-        if: ${{ secrets.GPG_PRIVATE_KEY != '' }}
-        env:
-          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
-        run: echo "$GPG_PRIVATE_KEY" | gpg --batch --import
+        run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev
 
       - name: Build index
         env:
           REPO_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
-          GPG_KEY: ${{ secrets.GPG_KEY_ID }}
-        run: bash scripts/make-index.sh
+        run: |
+          set -e
+          bash scripts/make-index.sh || { echo "::error::make-index.sh 失败"; exit 1; }
+          echo "---- 生成的 Packages ----"; cat Packages
 
-      - name: Commit
+      - name: Commit and push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -B main
           git add -A
           if git diff --cached --quiet; then
-            echo "无变化"
+            echo "索引无变化，跳过"
           else
             git commit -m "chore: rebuild repo index"
-            git push
+            git push -f origin main
           fi
