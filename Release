@@ -1,0 +1,15 @@
+Origin: 牛逼源
+Label: 牛逼源
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: 牛逼源 - rootless / RootHide 双版本插件
+Support: https://i3i4i5.github.io/i3i4i5.github.io/
+MD5Sum:
+ 5076f8508c2b79fefd48981154336f8c 3380 Packages
+ bb0b57d53d864a50cf6bb5adb08a8d0b 2012 Packages.gz
+SHA256:
+ d5c616222080d272d7311a70df282283404113a5322f733928e61fe14a648d36 3380 Packages
+ 4a8b0193f0272b2f0e62966d967a8f34e042bb49247e746c6717f7f1a5aff4be 2012 Packages.gz
