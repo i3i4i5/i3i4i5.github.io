@@ -133,7 +133,8 @@ $('deb').onchange = e => {
   if(!f.length){ alert('请选择 .deb 文件'); return; }
   pendingFiles = f;
   $('flist').innerHTML = f.map(x=>`<div>${x.name} (${(x.size/1024).toFixed(0)}KB)</div>`).join('');
-  openModal(f[0].name.replace(/\.deb$/i,''));
+  if(f.length === 1) openModal(f[0].name.replace(/\.deb$/i,''));
+  // 多选不弹窗，直接上传用默认信息（点上传时走无 override）
 };
 
 // 弹窗逻辑
