@@ -1,3 +1,62 @@
+Package: com.Axs.callassist16
+Architecture: iphoneos-arm64
+Version: 2.3.1
+Section: Tweaks
+Maintainer: Axs
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.Axs.callassist16_2.3.1.deb
+Size: 3032472
+MD5sum: 26b216cd877d79d74d7a43c5bc1d909e
+SHA1: 749eb8b647833f4df92f9b5c82cbbf067bcced0b
+SHA256: fed6e5d5ad7616a07f6c80a7fb9984c3ab5b9e182f60bffe51c4feaedf7d6c64
+SHA512: 3a7010abf738f2f7e2288e9b7e7018a6cdf9b693e2d7c04a6363748325d1145fe1657ee23808fdecd2395119687ff73e1985a9f9c5ee2d2ba03f1f3afe7e05ac
+Description: 电话助手授权版本,此版本仅限ios16系统，无根设备安装，仅用于个人备份。
+Name: 电话助手iOS16-正式版 (Rootless)
+Author: xybp888
+Depiction: https://axs66.github.io/pro
+Icon: https://axs66.github.io/pro/icon/callassist.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/callassist/js.json
+
+Package: com.Axs.ccborder
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Section: 控制中心
+Maintainer: Axs
+Installed-Size: 404
+Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.alderis
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
+Filename: debs/com.Axs.ccborder_1.1.1.deb
+Size: 28360
+MD5sum: 431dca615a84c65c4d3edbc120ffa86a
+SHA1: e1cbf908d60bc368838ff7b797913dbe6749d527
+SHA256: b7e1d391d41a88acae87c2c21dc06b81e823b7f295de7511f3e492fa94ea3046
+SHA512: 932bf7f08e8f88d6d0f964b3e5d4792a52d4f0ad745c24471dfb2ec2efd8b71d94d8042b7a8400ced4114fb352e157e2389f97438564416e1e3c808fb48b2189
+Description: 像CoolCC一样，删除控制中心模块背景并添加边框，控制中心发光。
+Author: fiore
+Name: CCBorder控制中心发光
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/ccborder.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ccborder/js.json
+
+Package: com.Axs.eneko
+Architecture: iphoneos-arm64
+Version: 1.5.1
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 440
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.eneko_1.5.1.deb
+Size: 60684
+MD5sum: e0d3633e1399e64d2d2e7b944e1886ca
+SHA1: 05316aa7968aca827229462091d7fa8710840180
+SHA256: 99153dac29a40ee53a33cf2b0769ef4729482903e0fb509ad6a235b4702c7fa7
+SHA512: edd3facab60fd49d6fde75075a670cc550e019084d6e448bad82a45cb8ffc68a825c4587f8cadb7bf6f4f2dd7db6cdf35dfebe349039a210b8f729e96bc6810d
+Description: 壁纸插件，将你喜欢的视频设置成桌面或者锁屏壁纸，需要安装onesettings收纳插件，在本源里面搜索onesettings安装即可。
+Name: Eneko 动态壁纸
+Author: Traurige & Axs
+Icon: https://axs66.github.io/pro/icon/eneko.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/eneko/js.json
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
