@@ -8,6 +8,10 @@ on:
       - 'scripts/**'
   workflow_dispatch:
 
+concurrency:
+  group: build-repo
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
