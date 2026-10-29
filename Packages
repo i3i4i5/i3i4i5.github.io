@@ -1,22 +1,3 @@
-Package: com.Axs.callassist16
-Architecture: iphoneos-arm64
-Version: 2.3.1
-Section: Tweaks
-Maintainer: Axs
-Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
-Filename: debs/com.Axs.callassist16_2.3.1.deb
-Size: 3032472
-MD5sum: 26b216cd877d79d74d7a43c5bc1d909e
-SHA1: 749eb8b647833f4df92f9b5c82cbbf067bcced0b
-SHA256: fed6e5d5ad7616a07f6c80a7fb9984c3ab5b9e182f60bffe51c4feaedf7d6c64
-SHA512: 3a7010abf738f2f7e2288e9b7e7018a6cdf9b693e2d7c04a6363748325d1145fe1657ee23808fdecd2395119687ff73e1985a9f9c5ee2d2ba03f1f3afe7e05ac
-Description: 电话助手授权版本,此版本仅限ios16系统，无根设备安装，仅用于个人备份。
-Name: 电话助手iOS16-正式版 (Rootless)
-Author: xybp888
-Depiction: https://axs66.github.io/pro
-Icon: https://axs66.github.io/pro/icon/callassist.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/callassist/js.json
-
 Package: com.Axs.ccborder
 Architecture: iphoneos-arm64
 Version: 1.1.1
