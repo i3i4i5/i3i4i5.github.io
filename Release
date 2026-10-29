@@ -1,0 +1,15 @@
+Origin: MyRepo
+Label: MyRepo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: My iOS Repository (rootless + roothide)
+Support: https://i3i4i5.github.io/
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e Packages
+ 4a4dd3598707603b3f76a2378a4504aa Packages.gz
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 Packages
+ f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec Packages.gz

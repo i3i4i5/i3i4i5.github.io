@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>我的越狱软件源</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: -apple-system-body, system-ui, sans-serif; max-width: 720px;
+         margin: 0 auto; padding: 24px 18px 60px; line-height: 1.65; }
+  h1 { font-size: 1.7em; margin-bottom: 4px; }
+  .sub { opacity: .6; margin-top: 0; }
+  .card { border-radius: 14px; padding: 16px 18px; margin: 18px 0;
+          background: rgba(127,127,127,.09); }
+  code, .url { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .url { display: block; padding: 12px 14px; margin: 10px 0; border-radius: 10px;
+         background: rgba(127,127,127,.16); word-break: break-all; font-size: .95em; }
+  a.btn { display: inline-block; padding: 10px 18px; border-radius: 999px;
+          text-decoration: none; background: #0a84ff; color: #fff; font-weight: 600;
+          margin: 6px 8px 6px 0; }
+  table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: .94em; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid rgba(127,127,127,.25); }
+  th { font-weight: 600; opacity: .7; }
+  .tag { display: inline-block; padding: 1px 8px; border-radius: 6px; font-size: .8em;
+         font-weight: 600; }
+  .tag.r { background: rgba(255,159,10,.2); color: #c26a00; }
+  .tag.h { background: rgba(48,209,88,.2); color: #1a7f36; }
+</style>
+</head>
+<body>
+
+<h1>我的越狱软件源</h1>
+<p class="sub">rootless / RootHide 双版本 · Sileo / Zebra 通用</p>
+
+<div class="card">
+  <strong>一键添加</strong>
+  <a class="btn" href="sileo://source/https://i3i4i5.github.io/">在 Sileo 中打开</a>
+  <a class="btn" href="zbra://sources/add/https://i3i4i5.github.io/">在 Zebra 中打开</a>
+  <div class="url">https://i3i4i5.github.io/</div>
+</div>
+
+<div class="card">
+  <strong>手动添加</strong>
+  <ol>
+    <li>打开 Sileo / Zebra</li>
+    <li>进入「软件源」→ 右上角 <code>+</code> / 编辑</li>
+    <li>填入上面的地址，确认刷新</li>
+  </ol>
+</div>
+
+<h2>版本说明</h2>
+<table>
+  <thead>
+    <tr><th>版本</th><th>架构</th><th>适用</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="tag r">无根</span> rootless</td>
+      <td><code>iphoneos-arm64</code></td>
+      <td>Dopamine / 有 <code>/var/jb</code> 的环境</td>
+    </tr>
+    <tr>
+      <td><span class="tag h">隐根</span> RootHide</td>
+      <td><code>iphoneos-arm64</code></td>
+      <td>RootHide 越狱，路径无 <code>/var/jb</code></td>
+    </tr>
+  </tbody>
+</table>
+<p class="sub">两者架构相同但文件布局不同，安装前请确认自己的越狱类型，不要混装。</p>
+
+<hr>
+
+<p class="sub">
+  索引：<a href="Packages">Packages</a> ·
+  <a href="Packages.gz">Packages.gz</a> ·
+  <a href="Release">Release</a>
+</p>
+
+</body>
+</html>
