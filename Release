@@ -1,11 +1,11 @@
-Origin: MyRepo
-Label: MyRepo
+Origin: 牛逼源
+Label: 牛逼源
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: My iOS Repository (rootless + roothide)
+Description: 牛逼源 - rootless / RootHide 双版本插件
 Support: https://i3i4i5.github.io/
 MD5Sum:
  036fcb051230a301759225a29cbae4da Packages

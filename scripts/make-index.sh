@@ -56,14 +56,14 @@ if [ -z "$REPO_URL" ]; then
 fi
 
 {
-  echo "Origin: MyRepo"
-  echo "Label: MyRepo"
+  echo "Origin: 牛逼源"
+  echo "Label: 牛逼源"
   echo "Suite: stable"
   echo "Version: 1.0"
   echo "Codename: ios"
   echo "Architectures: iphoneos-arm64 iphoneos-arm64e"
   echo "Components: main"
-  echo "Description: My iOS Repository (rootless + roothide)"
+  echo "Description: 牛逼源 - rootless / RootHide 双版本插件"
   echo "Support: $REPO_URL"
   if command -v md5sum >/dev/null 2>&1; then
     echo "MD5Sum:"
