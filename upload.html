@@ -219,7 +219,61 @@ async function saveOverride(filename, name, desc){
 
 // GitHub Contents API 不接受编码后的路径，文件名里也不能有会被解析歧义的字符
 function safeDebName(n){
-  return String(n).replace(/\s+/g,'_').replace(/[+()（）\[\]{}#%&?=,'"`|\\<>]/g,'_').replace(/_+/g,'_');
+  let s = String(n);
+  // 保留扩展名 .deb
+  let ext = '';
+  const m = s.match(/\.[A-Za-z0-9]+$/);
+  if(m){ ext = m[0]; s = s.slice(0, -ext.length); }
+  // 只保留 ASCII 字母数字 . _ -
+  s = s.replace(/[^A-Za-z0-9._-]/g, '_');
+  s = s.replace(/_+/g, '_').replace(/^_+|_+$/g, '');
+  if(!s) s = 'pkg_' + Date.now();
+  return s + ext.toLowerCase();
+}
+
+
+// 从 deb 的 control.tar.* 里读出 Package 名（用于生成 ASCII 文件名）
+async function debPkgName(arrayBuffer){
+  try{
+    const u8 = new Uint8Array(arrayBuffer);
+    const dv = new DataView(arrayBuffer);
+    // ar 头: "!<arch>\n" (8) 然后每个成员 60 字节头
+    if(!(u8[0]===0x21 && u8[1]===0x3C)) return null;
+    let off = 8;
+    const members = [];
+    while(off + 60 <= u8.length){
+      const name = String.fromCharCode.apply(null, u8.subarray(off, off+16)).trim().replace(/\/$/,'');
+      const sizeStr = String.fromCharCode.apply(null, u8.subarray(off+48, off+58)).trim();
+      const size = parseInt(sizeStr, 10);
+      if(isNaN(size)) break;
+      members.push({name, start: off+60, size});
+      off += 60 + size + (size % 2);
+    }
+    const ctrl = members.find(m => m.name.startsWith('control.tar'));
+    if(!ctrl) return null;
+    const comp = ctrl.name.includes('gz') ? 'gzip' : ctrl.name.includes('xz') ? 'xz' : ctrl.name.includes('zst') ? 'zstd' : null;
+    if(!comp || typeof DecompressionStream === 'undefined') return null;
+    const blob = new Blob([u8.subarray(ctrl.start, ctrl.start + ctrl.size)]);
+    const ds = new DecompressionStream(comp);
+    const buf = await new Response(blob.stream().pipeThrough(ds)).arrayBuffer();
+    const tar = new Uint8Array(buf);
+    let t = 0;
+    while(t + 512 <= tar.length){
+      const nm = String.fromCharCode.apply(null, tar.subarray(t, t+100)).replace(/\0.*$/,'').trim();
+      if(!nm) break;
+      const szStr = String.fromCharCode.apply(null, tar.subarray(t+124, t+136)).replace(/\0.*$/,'').trim();
+      const sz = parseInt(szStr, 8) || 0;
+      if(nm.replace(/^\.\//,'') === 'control'){
+        const txt = new TextDecoder().decode(tar.subarray(t+512, t+512+sz));
+        const m = txt.match(/^Package:\s*(\S+)/m);
+        const v = txt.match(/^Version:\s*(\S+)/m);
+        const a = txt.match(/^Architecture:\s*(\S+)/m);
+        return m ? {pkg:m[1], ver:(v?v[1]:'1.0'), arch:(a?a[1]:'iphoneos-arm64')} : null;
+      }
+      t += 512 + Math.ceil(sz/512)*512;
+    }
+  }catch(e){}
+  return null;
 }
 
 // 核心上传
@@ -229,11 +283,20 @@ async function doUpload(files, customName, customDesc){
   try{
     log(`\n=== 上传 ${files.length} 个插件 ===`);
     for(const f of files){
-      const fileName = safeDebName(f.name);
+      const raw = await f.arrayBuffer();
+      log(`上传 ${f.name} (${(f.size/1024).toFixed(0)}KB)`);
+      // 优先用 deb 里的包名/版本/架构生成纯 ASCII 文件名
+      const meta = await debPkgName(raw);
+      let fileName;
+      if(meta){
+        fileName = safeDebName(`${meta.pkg}_${meta.ver}_${meta.arch}.deb`);
+        log(`  包名 ${meta.pkg} → ${fileName}`);
+      }else{
+        fileName = safeDebName(f.name);
+      }
       const path=`debs/${fileName}`;
       let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
-      log(`上传 ${f.name} (${(f.size/1024).toFixed(0)}KB)`);
-      await api(`/contents/${path}`,'PUT',{content:b64(new Uint8Array(await f.arrayBuffer())),
+      await api(`/contents/${path}`,'PUT',{content:b64(new Uint8Array(raw)),
         message:`upload ${fileName}`, branch:'main', ...(sha?{sha}:{})});
       if(customName || customDesc){
         log(`保存自定义名称/详情...`);
@@ -402,7 +465,7 @@ $('copy-ok').onclick = async () => {
         buf = await r.arrayBuffer();
         if(!buf.byteLength) throw new Error(`下载到空文件（${p.url}）`);
       }catch(e){ throw new Error(`[下载 ${p.pkg}] ${e.message}`); }
-      const fname = safeDebName(p.file ? p.file.split('/').pop() : (p.pkg + '_' + (p.ver||'1.0') + '.deb'));
+      const fname = safeDebName(`${p.pkg}_${p.ver||'1.0'}_${p.arch||'iphoneos-arm64'}.deb`);
       const path = `debs/${fname}`;
       let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
       try{
