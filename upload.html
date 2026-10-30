@@ -466,11 +466,29 @@ $('copy-ok').onclick = async () => {
 };
 
 // ---------- 自有文件记录（只有自己上传/更新过的才允许编辑）----------
-function mineKey(){ return 'niubi_mine_' + (repo()||'').replace('/','_'); }
-function getMine(){ try{ return new Set(JSON.parse(localStorage.getItem(mineKey())||'[]')); }catch(e){ return new Set(); } }
+function mineKey(){ return 'niubi_mine_v2'; }
+function getMine(){
+  try{
+    const s = new Set(JSON.parse(localStorage.getItem(mineKey())||'[]'));
+    // 迁移旧版(按仓库分key)遗留记录
+    for(let i=0;i<localStorage.length;i++){
+      const k = localStorage.key(i);
+      if(k && k.startsWith('niubi_mine_') && k !== mineKey()){
+        try{ (JSON.parse(localStorage.getItem(k))||[]).forEach(n=>s.add(n)); }catch(e){}
+      }
+    }
+    return s;
+  }catch(e){ return new Set(); }
+}
 function addMine(...names){ const s=getMine(); names.filter(Boolean).forEach(n=>s.add(n)); localStorage.setItem(mineKey(), JSON.stringify([...s])); }
 function delMine(name){ const s=getMine(); s.delete(name); localStorage.setItem(mineKey(), JSON.stringify([...s])); }
-function isMine(name){ return getMine().has(name); }
+function isMine(name){
+  if(getMine().has(name)) return true;
+  // overrides 里出现过的包，必然是自己编辑过的
+  const arr = window._pkgs || [];
+  const p = arr.find(x=>x.file===`debs/${name}` || (x.file||'').endsWith(name));
+  return !!(p && p.has_override);
+}
 
 // 列表
 function parsePackages(text){
@@ -674,7 +692,13 @@ $('loadbtn').onclick = async ()=>{
     const debs = await api('/contents/debs');
     const owner = repo().split('/')[0];
     let pkgs=[]; try{ pkgs=parsePackages(await (await fetch(`https://${owner}.github.io/Packages`)).text()); }catch(e){}
-    const ov = await loadOverrides(); if(ov && Object.keys(ov).length) applyOverrides(pkgs, ov);
+    const ov = await loadOverrides();
+    if(ov && Object.keys(ov).length){
+      applyOverrides(pkgs, ov);
+      // overrides 里的包 = 自己编辑过的，补进自有清单
+      const names = Object.keys(ov).map(k=>k.split('/').pop());
+      if(names.length) addMine(...names);
+    }
     if(!debs || !debs.length){ box.innerHTML='<div class="empty">源里还没有包</div>'; return; }
     // 逐个查最后提交时间，按上传时间升序（最早在底部）
     box.innerHTML='<div class="empty"><span class="spin"></span> 读取时间…</div>';
