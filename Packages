@@ -1,22 +1,31 @@
-Package: com.axs.snapper4
+Package: com.axs.gesturepro
 Architecture: iphoneos-arm64
-Version: 5.2.0-46
+Version: 5.2.0-99
 Section: Axs-Tweaks
-Maintainer: Axs <qiaozhini000@163.com>
-Installed-Size: 1620
+Maintainer: Axs
+Installed-Size: 624
 Depends: mobilesubstrate, preferenceloader
-Conflicts: com.jontelang.snapper3, com.susudear.stayshot,  com.axs.snapper3tag,  com.iosdump.shellx
-Filename: debs/Snapper 4 5.2.0-46 贴图版.ipHONEOS-arm64.deb
-Size: 398720
-MD5sum: fbd4461130dd6c08ac77abdbd250c88f
-SHA1: dba84f10879ec88096da5053bfa8793172327d46
-SHA256: be673b5cf99e6bebaaca786a002a352526543c5f4b81b18378a07f3e79d12d92
-SHA512: ee8afc68d8967314d5f238be4625a1ec377fa37eafb7d61cee1eb62ca93359227cb7f3673eb53f05dbc85d6c0963572c1a5a2a516b8431a79a90d664f0b85a45
-Description: 公共QQ邮箱srysry是
-Name: 截图4
-Author: Axs <qiaozhini000@163.com>
-Icon: https://axs66.github.io/pro/icon/snapper.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
+Filename: debs/axs手势授权版.deb
+Size: 80198
+MD5sum: d612a3f7adf3950c133cdf587f879b88
+SHA1: b3f972cc14bc02cda9538a62d821abb1cff5e3f5
+SHA256: 906fe42722f60218ce6776e96f379f94d46f04f3a9ce2a28340824aa34da915c
+SHA512: 68575f4e0948215bd25a13bd450066dd696c7dc1e3b4aef2ed714011635473eb50f62bd0e1da7c5d6a9374adca36dd130fec39bfd404e07cb2d8354b2660aa42
+Description: iOS 手势与实体按键触发插件，可为状态栏/主屏幕按钮/底部栏/实体按键/摇动等触发绑定任意动作。
+ * 1.状态栏手势：左/灵动岛/右三区域独立配置，每区域支持单击、双击、长按、左滑、右滑
+ * 2.主屏幕手势：主屏幕按钮双击、三击
+ * 3.底栏手势：底部栏左滑、右滑、上滑
+ * 4.底部角落手势：屏幕底部左右角落的点击 / 滑动触发；滑动绑定多动作时呼出扇形菜单（arc）
+ * 5.实体按键：音量＋/－长按、音量双键、电源双击/三击/长按、电源键＋音量±
+ * 6.重力手势：摇动设备
+ * 7.基础动作：系统录屏、系统截图、锁屏、主屏幕、控制中心、手电筒、Siri、旋转锁定、注销、安全模式
+ * 8.打开App：选择手机上已安装的 App（含 TrollStore/巨魔安装），按 Bundle ID 拉起；分类面板支持顶部搜索
+ * 9.快捷指令：选择手机上已添加的指令并运行
+ * 10.预设链接：自定义 URL 深链，支持 @@@ 输入关键词、$$$ 剪贴板占位与自定义图标
+Name: GesturePro
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/gesturepro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/gesturepro/js.json
 
 Package: com.Axs.Axon
 Architecture: iphoneos-arm64
