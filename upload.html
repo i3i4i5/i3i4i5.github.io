@@ -9,7 +9,11 @@
          --ok:#3fb950; --warn:#d29922; --err:#f85149; --acc:#58a6ff; }
   *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
   body{margin:0; font:16px/1.55 -apple-system,BlinkMacSystemFont,"PingFang SC",system-ui,sans-serif;
-       background:var(--bg); color:var(--fg); padding:14px 12px 40px;}
+       background:var(--bg); color:var(--fg); padding:14px 12px 40px;
+       overflow-x:hidden; max-width:100%; touch-action:pan-y;}
+  html{overflow-x:hidden; max-width:100%;}
+  #pkglist, .card{overflow-x:hidden; max-width:100%;}
+  .meta, .nm, .log{overflow-wrap:anywhere; word-break:break-word;}
   h1{font-size:20px; margin:2px 0 1px;}
   .sub{color:var(--dim); font-size:13px; margin-bottom:12px;}
   .card{background:var(--card); border:1px solid var(--bd); border-radius:14px; padding:12px 14px; margin:12px 0;}
@@ -382,13 +386,21 @@ $('copy-ok').onclick = async () => {
     log(`\n=== 从源复制 ${need.size} 个包（含依赖）===`);
     for(const i of need){
       const p = all[i];
-      log(`拉取 ${p.name} (${p.pkg})`);
-      const buf = await (await fetch(p.url)).arrayBuffer();
+      log(`拉取 ${p.name} (${p.pkg}) ← ${p.url||'(无地址)'}`);
+      let buf;
+      try{
+        const r = await fetch(p.url);
+        if(!r.ok) throw new Error(`下载失败 HTTP ${r.status}（${p.url}）`);
+        buf = await r.arrayBuffer();
+        if(!buf.byteLength) throw new Error(`下载到空文件（${p.url}）`);
+      }catch(e){ throw new Error(`[下载 ${p.pkg}] ${e.message}`); }
       const fname = (p.file ? p.file.split('/').pop() : (p.pkg + '_' + (p.ver||'1.0') + '.deb')).replace(/\s+/g,'_');
       const path = `debs/${encodeURIComponent(fname)}`;
       let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
-      await api(`/contents/${path}`,'PUT',{content:b64(new Uint8Array(buf)),
-        message:`copy ${fname}`, branch:'main', ...(sha?{sha}:{})});
+      try{
+        await api(`/contents/${path}`,'PUT',{content:b64(new Uint8Array(buf)),
+          message:`copy ${fname}`, branch:'main', ...(sha?{sha}:{})});
+      }catch(e){ throw new Error(`[写入 ${fname}] ${e.message}`); }
       log('  ✓');
     }
     log('✅ 复制完成，约 1 分钟后自动重建索引。');
@@ -453,9 +465,8 @@ $('createbtn').onclick = async () => {
     const files = buildRepoFiles(owner);
     for(const [path, content] of Object.entries(files)){
       const enc = b64(new TextEncoder().encode(content));
-      let sha=null; try{ sha=(await api(`/repos/${owner}/${repoName}/contents/${path}`)).sha; }catch(e){}
-      await fetch(`${base}/${path}`, {method:'PUT', headers:{'Authorization':'token '+t,'Content-Type':'application/json'},
-        body: JSON.stringify({content:enc, message:`init ${path}`, branch:'main', ...(sha?{sha}:{})})});
+      let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
+      await api(`/contents/${path}`, 'PUT', {content:enc, message:`init ${path}`, branch:'main', ...(sha?{sha}:{})});
     }
     log('✓ 已写入索引脚本 / workflow / 主页 / 图标');
     const pgr = await fetch(`https://api.github.com/repos/${owner}/${repoName}/pages`, {
