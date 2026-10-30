@@ -26,10 +26,6 @@
   button.mini.green{background:var(--ok); color:#000;}
   button.del{background:var(--err); padding:8px 13px; font-size:14px; border-radius:9px; margin:0;}
   button.upd{background:var(--ok); color:#000; padding:8px 13px; font-size:14px; border-radius:9px; margin:0 8px 0 0;}
-  button.editbtn{background:#58a6ff; color:#000; padding:8px 13px; font-size:14px; border-radius:9px; margin:0 8px 0 0;}
-  button.editbtn.locked{background:#30363d; color:#6e7681; cursor:not-allowed;}
-  button.icon-edit.locked{opacity:.35; cursor:not-allowed;}
-  button.icon-edit{background:transparent; border:none; padding:0 4px; font-size:16px; margin:0;}
   .patlink{display:block; font-size:12px; color:var(--acc); margin-top:10px; line-height:1.6; text-decoration:none;}
   .row{display:flex; gap:10px; margin-top:12px;}
   .row button{flex:1; padding:14px; font-size:16px; border-radius:11px; font-weight:600;}
@@ -39,7 +35,6 @@
   .copy-item .ci-meta{color:var(--dim); font-size:12px; margin-top:2px;}
   .pkg label.mrow{display:flex; align-items:center; gap:10px; cursor:pointer;}
   .pkg input.mchk{width:20px; height:20px; accent-color:var(--err); flex:none;}
-  button.icon-edit{background:var(--acc); color:#fff; padding:4px 8px; font-size:13px; border-radius:8px; margin:0; flex:none; line-height:1.2;}
   button.mini.green{background:var(--ok); color:#000;}
   #copy-history{font-size:12px; color:var(--dim); margin-bottom:8px; line-height:2;}
   #copy-history .hist{display:inline-block; background:var(--bd); color:var(--fg); padding:3px 9px;
@@ -84,7 +79,6 @@
   .edit-sheet .btn-row{display:flex; gap:10px; margin-top:12px;}
   .edit-sheet .btn-row button{flex:1; padding:12px; font-size:16px; font-weight:600; border-radius:11px; margin:0;}
   .edit-sheet #edit-ok{background:var(--acc); color:#fff;}
-  button.icon-edit{background:var(--acc); color:#fff; padding:5px 9px; font-size:13px; border-radius:8px; margin:0 0 0 8px; line-height:1;}
 </style>
 </head>
 <body>
@@ -137,20 +131,6 @@
   </div>
 
   <!-- 编辑包信息弹窗 -->
-  <div class="mask" id="edit-mask">
-    <div class="sheet edit-sheet">
-      <h3>编辑包信息</h3>
-      <div class="hint" id="edit-hint">修改后保存到 overrides.json</div>
-      <label>包名</label>
-      <input type="text" id="edit-name" placeholder="">
-      <label>描述</label>
-      <textarea id="edit-desc" placeholder=""></textarea>
-      <div class="btn-row">
-        <button class="ghost" id="edit-cancel">取消</button>
-        <button id="edit-ok">保存</button>
-      </div>
-    </div>
-  </div>
 
   <!-- 复制到源弹窗 -->
   <div class="mask" id="copymask">
@@ -197,54 +177,9 @@ $('deb').onchange = e => {
   if(!f.length){ alert('请选择 .deb 文件'); return; }
   selectedFiles = f;
   $('flist').innerHTML = f.map(x=>`<div>${x.name} (${(x.size/1024).toFixed(0)}KB)</div>`).join('');
-  // 上传不改名，直接上传到源；改名/描述走「编辑」按钮
+  // 上传不改名，直接上传到源
 };
 
-// ---------- 编辑包信息 ----------
-let editTargetFile = '';
-
-// 打开编辑弹窗：placeholder 显示当前包名/描述
-function openPkgEdit(filename){
-  editTargetFile = filename;
-  const pkgs = window._pkgs || [];
-  const info = pkgs.find(p=>p.file===`debs/${filename}`) || pkgs.find(p=>p.file && p.file.endsWith(filename));
-  const curName = info ? (info.desc||info.pkg||'') : '';
-  const curDesc = info ? (info.desc||'') : '';
-  $('edit-name').value = '';
-  $('edit-desc').value = '';
-  $('edit-name').placeholder = curName || filename;
-  $('edit-desc').placeholder = curDesc || '（暂无描述）';
-  $('edit-hint').textContent = '文件：' + filename + ' · 留空则用包内自带信息';
-  $('edit-mask').classList.add('show');
-}
-function closePkgEdit(){ $('edit-mask').classList.remove('show'); editTargetFile=''; }
-$('edit-cancel').onclick = closePkgEdit;
-
-$('edit-ok').onclick = async () => {
-  const name = $('edit-name').value.trim();
-  const desc = $('edit-desc').value.trim();
-  const filename = editTargetFile;
-  if(!filename) return;
-  if(!tok() || !repo().includes('/')) return alert('请填写 PAT 和仓库');
-  const btn = $('edit-ok'); btn.disabled = true; btn.textContent = '保存中…';
-  try{
-    log(`\n=== 编辑包信息 ${filename} ===`);
-    await saveOverride(filename, name, desc);
-    // 本地即时生效：直接改内存里的包信息，避免等 Pages 缓存
-    const arr = window._pkgs || [];
-    const p = arr.find(x=>x.file===`debs/${filename}`) || arr.find(x=>x.file && x.file.endsWith(filename));
-    if(p){
-      if(name){ p.name_override = name; p.desc = name; }
-      if(desc){ p.desc_override = desc; if(!name) p.desc = desc; }
-      if(!name && !desc){ delete p.name_override; delete p.desc_override; }
-    }
-    renderPkgList();
-    log('✓ 已保存到 overrides.json（索引约 1 分钟后重建）');
-    closePkgEdit();
-    setTimeout(()=>$('loadbtn').onclick(), 2500);
-  }catch(e){ log('✗ '+e.message); alert('保存失败：\n'+e.message); }
-  btn.disabled = false; btn.textContent = '保存';
-};
 
 // API
 async function api(path, method='GET', body){
@@ -292,7 +227,6 @@ async function doUpload(files, customName, customDesc){
         log(`保存自定义名称/详情...`);
         await saveOverride(f.name, customName, customDesc);
       }
-      addMine(f.name);
       log('  ✓');
     }
     log('✅ 上传完成！约 1 分钟后自动重建索引。');
@@ -349,7 +283,6 @@ $('updf').onchange = async e => {
       }catch(e){}
     }
     log('✅ 更新完成！约 1 分钟后自动重建索引。');
-    addMine(f.name); delMine(old);
     setTimeout(()=>$('loadbtn').onclick(), 2500);
   }catch(err){ log('✗ '+err.message); alert('更新出错：\n'+err.message); }
   if(btn){ btn.disabled=false; btn.textContent='更新'; }
@@ -465,30 +398,6 @@ $('copy-ok').onclick = async () => {
   btn.disabled = false; btn.textContent = '确认复制';
 };
 
-// ---------- 自有文件记录（只有自己上传/更新过的才允许编辑）----------
-function mineKey(){ return 'niubi_mine_v2'; }
-function getMine(){
-  try{
-    const s = new Set(JSON.parse(localStorage.getItem(mineKey())||'[]'));
-    // 迁移旧版(按仓库分key)遗留记录
-    for(let i=0;i<localStorage.length;i++){
-      const k = localStorage.key(i);
-      if(k && k.startsWith('niubi_mine_') && k !== mineKey()){
-        try{ (JSON.parse(localStorage.getItem(k))||[]).forEach(n=>s.add(n)); }catch(e){}
-      }
-    }
-    return s;
-  }catch(e){ return new Set(); }
-}
-function addMine(...names){ const s=getMine(); names.filter(Boolean).forEach(n=>s.add(n)); localStorage.setItem(mineKey(), JSON.stringify([...s])); }
-function delMine(name){ const s=getMine(); s.delete(name); localStorage.setItem(mineKey(), JSON.stringify([...s])); }
-function isMine(name){
-  if(getMine().has(name)) return true;
-  // overrides 里出现过的包，必然是自己编辑过的
-  const arr = window._pkgs || [];
-  const p = arr.find(x=>x.file===`debs/${name}` || (x.file||'').endsWith(name));
-  return !!(p && p.has_override);
-}
 
 // 列表
 function parsePackages(text){
@@ -695,9 +604,6 @@ $('loadbtn').onclick = async ()=>{
     const ov = await loadOverrides();
     if(ov && Object.keys(ov).length){
       applyOverrides(pkgs, ov);
-      // overrides 里的包 = 自己编辑过的，补进自有清单
-      const names = Object.keys(ov).map(k=>k.split('/').pop());
-      if(names.length) addMine(...names);
     }
     if(!debs || !debs.length){ box.innerHTML='<div class="empty">源里还没有包</div>'; return; }
     // 逐个查最后提交时间，按上传时间升序（最早在底部）
@@ -727,13 +633,6 @@ function renderPkgList(){
     const nm = info ? (info.name_override || info.desc || info.pkg) : fname;
     const subDesc = info && info.desc_override ? info.desc_override : '';
     const arch = info?info.arch:'';
-    const editable = isMine(fname);
-    const editAttrs = editable
-      ? `class="edit-pkg editbtn" data-name="${esc(fname)}"`
-      : `class="edit-pkg editbtn locked" data-name="${esc(fname)}" title="只有自己上传的插件才能编辑"`;
-    const editIconAttrs = editable
-      ? `class="edit-pkg icon-edit" data-name="${esc(fname)}" title="编辑"`
-      : `class="edit-pkg icon-edit locked" data-name="${esc(fname)}" title="只有自己上传的插件才能编辑"`;
     const metaInfo = `<div class="meta">` +
       (info?`<b>${esc(info.pkg)}</b> v${esc(info.ver)} <span class="tag">${esc(arch)}</span><br>`:'') +
       (subDesc && subDesc !== nm ? `描述：${esc(subDesc)}<br>` : '') +
@@ -741,11 +640,10 @@ function renderPkgList(){
     if(multiMode){
       meta.innerHTML = `<div class="top"><label class="mrow">` +
         `<input type="checkbox" class="mchk" data-name="${esc(fname)}" data-sha="${d.sha}">` +
-        `<button ${editIconAttrs}>✏️</button>` +
         `<span class="nm">${esc(nm)}</span></label></div>` + metaInfo;
     } else {
       meta.innerHTML = `<div class="top"><span class="nm">${esc(nm)}</span>` +
-        `<div class="acts"><button ${editAttrs}>编辑</button>` +
+        `<div class="acts">` +
         `<button class="upd" data-name="${esc(fname)}">更新</button>` +
         `<button class="del" data-name="${esc(fname)}" data-sha="${d.sha}">删除</button></div></div>` + metaInfo;
     }
@@ -758,11 +656,6 @@ function renderPkgList(){
     box.querySelectorAll('button.del').forEach(b=> b.onclick=()=>delDeb(b.dataset.name,b.dataset.sha));
     box.querySelectorAll('button.upd').forEach(b=> b.onclick=()=>startUpdate(b.dataset.name));
   }
-  // 「编辑」按钮在两种模式下都要能点击（仅自己上传的）
-  box.querySelectorAll('button.edit-pkg').forEach(b=> b.onclick=()=>{
-    if(!isMine(b.dataset.name)) return alert('这个是复制来的插件，不能编辑。\n只有自己上传的 deb 才能改名称/详情。');
-    openPkgEdit(b.dataset.name);
-  });
   $('loadbtn').textContent = `刷新列表 (${debs.length})`;
 }
 
@@ -788,7 +681,7 @@ $('delmultibtn').onclick = async ()=>{
         log(`删除 ${c.dataset.name} …`);
         await api(`/contents/${encodeURIComponent('debs/'+c.dataset.name)}`,'DELETE',
           {sha:c.dataset.sha, message:`delete ${c.dataset.name}`, branch:'main'});
-        ok++; log('  ✓'); delMine(c.dataset.name);
+        ok++; log('  ✓');
       }catch(e){ fail++; log(`  ✗ ${e.message}`); }
     }
     log(`\n批量删除完成：成功 ${ok}，失败 ${fail}（索引约 1 分钟后自动重建）`);
@@ -811,7 +704,6 @@ async function delDeb(name, sha){
     log(`删除 debs/${name} …`);
     await api(`/contents/${encodeURIComponent('debs/'+name)}`,'DELETE',{sha, message:`delete ${name}`, branch:'main'});
     log('✓ 已删除（索引约 1 分钟后自动重建）');
-    delMine(name);
     // 立即从页面移除该行（GitHub API 删除有秒级延迟，先乐观更新）
     document.querySelectorAll('#pkglist button.del').forEach(b=>{
       if(b.dataset.name===name){ const card=b.closest('.pkg'); if(card) card.remove(); }
