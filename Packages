@@ -183,3 +183,23 @@ Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.roothide.patcher
+Architecture: iphoneos-arm64e
+Version: 2.1.5
+Section: Utilities
+Maintainer: roothide
+Installed-Size: 2476
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Filename: debs/隐根转换汉化版.deb
+Size: 894874
+MD5sum: 94043779e90a495735707f5836be7f6a
+SHA1: 583feba8a9b2d2774d06f68c3b0e84e850bc8191
+SHA256: 24540dcc01db6cbe8692660f546e842055f14e5ab6467c0b6d7221a7d098cab8
+SHA512: 43327fde620954b48db213998a4942b7e13187956e6889e436c08f7b58665efeb57d30a0bf4fd39be7382315fddbabb5350baa3e70f0a6c17a1d8954f8453007
+Description: patch rootless package to roothide, not work for all packages.
+Name: RootHide Patcher
+Author: roothide
+Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
+Depiction: https://github.com/roothide/RootHidePatcher
+Support: https://github.com/roothide/RootHidePatcher
+
