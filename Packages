@@ -34,25 +34,6 @@ Description: AppTools Lite for iOS15-17 Rootless
 Name: AppTools_Lite
 Author: aReo
 
-Package: com.axs.gesturepro
-Architecture: iphoneos-arm64
-Version: 5.2.0-99
-Section: Axs-Tweaks
-Maintainer: Axs
-Installed-Size: 624
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/axs手势授权版.deb
-Size: 80198
-MD5sum: d612a3f7adf3950c133cdf587f879b88
-SHA1: b3f972cc14bc02cda9538a62d821abb1cff5e3f5
-SHA256: 906fe42722f60218ce6776e96f379f94d46f04f3a9ce2a28340824aa34da915c
-SHA512: 68575f4e0948215bd25a13bd450066dd696c7dc1e3b4aef2ed714011635473eb50f62bd0e1da7c5d6a9374adca36dd130fec39bfd404e07cb2d8354b2660aa42
-Description: 牛逼
-Name: 手势
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/gesturepro.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/gesturepro/js.json
-
 Package: com.25mao.BubbleBox
 Architecture: iphoneos-arm64
 Version: 1.0-7
