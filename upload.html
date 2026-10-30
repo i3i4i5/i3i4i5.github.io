@@ -187,11 +187,35 @@ $('deb').onchange = e => {
 
 
 // API
+// 原生通道：App 内用 NSURLSession 发请求，绕开 WKWebView 的 fetch 限制
+let __abi = 0;
+function nativeApi(fullUrl, method, body){
+  return new Promise((resolve, reject)=>{
+    const id = ++__abi;
+    window.__apiCb = window.__apiCb || {};
+    window.__apiCb[id] = (res)=>{
+      delete window.__apiCb[id];
+      let txt = '';
+      try{ txt = atob(res.body || ''); }catch(e){ txt = ''; }
+      if(res.__err) return reject(new Error('网络错误: '+res.__err));
+      if(res.status===204) return resolve(null);
+      if(res.status>=400) return reject(new Error(`${method} ${fullUrl} → ${res.status}: ${txt.slice(0,300)}`));
+      try{ resolve(JSON.parse(txt)); }catch(e){ resolve(null); }
+    };
+    window.webkit.messageHandlers.api.postMessage({
+      url: fullUrl, method, token: tok(),
+      body: body ? JSON.stringify(body) : null, cb: String(id)
+    });
+  });
+}
+const HAS_NATIVE = !!(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.api);
+
 async function api(path, method='GET', body){
   const fullUrl = `https://api.github.com/repos/${repo()}${path}`;
-  if(parent && typeof parent.__netlog === 'function'){
-    try{ parent.__netlog(method, fullUrl); }catch(e){}
+  if(typeof window.__netlog === 'function'){
+    try{ window.__netlog(method, fullUrl); }catch(e){}
   }
+  if(HAS_NATIVE) return nativeApi(fullUrl, method, body);
   const r = await fetch(fullUrl, {method,
     headers:{ 'Authorization':'token '+tok(), 'Accept':'application/vnd.github+json',
               'Content-Type':'application/json', 'User-Agent':'niubi' },
