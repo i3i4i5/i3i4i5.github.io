@@ -8,8 +8,8 @@ Components: main
 Description: 牛逼源 - rootless / RootHide 双版本插件
 Support: https://i3i4i5.github.io/
 MD5Sum:
- 294d2f2031e47af1158953e7423bdccb 14894 Packages
- 52d13a8f226b1c5edb21fbcc66f03293 7400 Packages.gz
+ 10ec2e6ed44a705dc10fa787b2b5344c 15515 Packages
+ 6c8fff54879e69e8c9b0caba5f83b056 7427 Packages.gz
 SHA256:
- 44f3e309bf1f9c63f10f1c2feefdc27ea1061991e9e0fed437cc4620d45ace66 14894 Packages
- 0b5d57e834f4550cdd5623616d21fd90f039b578e9f49da9ec10e3f9a2fea02e 7400 Packages.gz
+ 7c803ae7e9713c6e5f7c072a55848cf838b0f238b6c51bacbc0dcfb6b91714fb 15515 Packages
+ da5728a38789ad656823b16e095ac1e86948e990e41869bacefcda8077777472 7427 Packages.gz
