@@ -266,9 +266,9 @@ $('updf').onchange = async e => {
   if(btn){ btn.disabled=true; btn.textContent='更新中…'; }
   try{
     log(`\n=== 更新 ${old} → ${f.name} ===`);
-    const oldSha = (await api(`/contents/${encodeURIComponent('debs/'+old)}`)).sha;
+    const oldSha = (await api(`/contents/${`debs/${encodeURIComponent(old)}`}`)).sha;
     log(`删除旧文件 ${old} …`);
-    await api(`/contents/${encodeURIComponent('debs/'+old)}`,'DELETE',{sha:oldSha, message:`replace ${old}`, branch:'main'});
+    await api(`/contents/${`debs/${encodeURIComponent(old)}`}`,'DELETE',{sha:oldSha, message:`replace ${old}`, branch:'main'});
     log(`上传新文件 ${f.name} …`);
     const path=`debs/${encodeURIComponent(f.name)}`;
     let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
@@ -690,7 +690,7 @@ $('delmultibtn').onclick = async ()=>{
     for(const c of checked){
       try{
         log(`删除 ${c.dataset.name} …`);
-        await api(`/contents/${encodeURIComponent('debs/'+c.dataset.name)}`,'DELETE',
+        await api(`/contents/${`debs/${encodeURIComponent(c.dataset.name)}`}`,'DELETE',
           {sha:c.dataset.sha, message:`delete ${c.dataset.name}`, branch:'main'});
         ok++; log('  ✓');
       }catch(e){ fail++; log(`  ✗ ${e.message}`); }
@@ -713,7 +713,7 @@ async function delDeb(name, sha){
   if(!confirm(`确定删除 ${name} ？`)) return;
   try{
     log(`删除 debs/${name} …`);
-    await api(`/contents/${encodeURIComponent('debs/'+name)}`,'DELETE',{sha, message:`delete ${name}`, branch:'main'});
+    await api(`/contents/${`debs/${encodeURIComponent(name)}`}`,'DELETE',{sha, message:`delete ${name}`, branch:'main'});
     log('✓ 已删除（索引约 1 分钟后自动重建）');
     // 立即从页面移除该行（GitHub API 删除有秒级延迟，先乐观更新）
     document.querySelectorAll('#pkglist button.del').forEach(b=>{
