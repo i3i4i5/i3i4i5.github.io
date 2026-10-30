@@ -118,8 +118,10 @@
   <div class="card">
     <label>⬆ 上传 deb（可多选）</label>
     <label class="filebox" for="deb">
-      <input type="file" id="deb" multiple accept=".deb">
-      <input type="file" id="updf" accept=".deb" style="display:none">
+      <!-- 不写 accept：iOS 无法识别 .deb 扩展名，会退化成「照片/相机/文件」三选一；
+           留空则直接进文件管理。扩展名在 onchange 里校验。 -->
+      <input type="file" id="deb" multiple>
+      <input type="file" id="updf" style="display:none">
       点我选择 deb 文件
     </label>
     <div class="flist" id="flist"></div>
