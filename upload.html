@@ -196,7 +196,7 @@ function nativeApi(fullUrl, method, body){
     window.__apiCb[id] = (res)=>{
       delete window.__apiCb[id];
       let txt = '';
-      try{ txt = atob(res.body || ''); }catch(e){ txt = ''; }
+      try{ txt = decodeURIComponent(escape(atob(res.body || ''))); }catch(e){ txt = ''; }
       if(res.__err) return reject(new Error('网络错误: '+res.__err));
       if(res.status===204) return resolve(null);
       if(res.status>=400) return reject(new Error(`${method} ${fullUrl} → ${res.status}: ${txt.slice(0,300)}`));
@@ -623,7 +623,7 @@ gzip -9 -kf Packages
 gen_hashes(){ local alg="$1"; shift; local f; for f in "$@"; do [ -f "$f" ] || continue;
   local size; size=$(wc -c < "$f" | tr -d ' '); local h;
   case "$alg" in md5) h=$(md5sum "$f"|awk '{print $1}');; sha256) h=$(sha256sum "$f"|awk '{print $1}');; esac
-  printf ' %s %s %s\\n' "$h" "$size" "$f"; done; }
+  printf ' %s  %s %s\\n' "$h" "$size" "$f"; done; }
 { echo "Origin: ${owner} 的源"; echo "Label: ${owner} 的源"; echo "Suite: stable"; echo "Version: 1.0";
   echo "Codename: ios"; echo "Architectures: iphoneos-arm64 iphoneos-arm64e"; echo "Components: main";
   echo "Description: ${owner} 的越狱软件源"; echo "Support: $REPO_URL";
