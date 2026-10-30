@@ -216,6 +216,12 @@ async function saveOverride(filename, name, desc){
   await api(`/contents/${path}`,'PUT',body);
 }
 
+
+// GitHub Contents API 不接受编码后的路径，文件名里也不能有会被解析歧义的字符
+function safeDebName(n){
+  return String(n).replace(/\s+/g,'_').replace(/[+()（）\[\]{}#%&?=,'"`|\\<>]/g,'_').replace(/_+/g,'_');
+}
+
 // 核心上传
 async function doUpload(files, customName, customDesc){
   const t=tok(); if(!t || !repo().includes('/')) return alert('请填 PAT 和仓库');
@@ -223,11 +229,12 @@ async function doUpload(files, customName, customDesc){
   try{
     log(`\n=== 上传 ${files.length} 个插件 ===`);
     for(const f of files){
-      const path=`debs/${encodeURIComponent(f.name)}`;
+      const fileName = safeDebName(f.name);
+      const path=`debs/${fileName}`;
       let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
       log(`上传 ${f.name} (${(f.size/1024).toFixed(0)}KB)`);
       await api(`/contents/${path}`,'PUT',{content:b64(new Uint8Array(await f.arrayBuffer())),
-        message:`upload ${f.name}`, branch:'main', ...(sha?{sha}:{})});
+        message:`upload ${fileName}`, branch:'main', ...(sha?{sha}:{})});
       if(customName || customDesc){
         log(`保存自定义名称/详情...`);
         await saveOverride(f.name, customName, customDesc);
@@ -267,11 +274,11 @@ $('updf').onchange = async e => {
   if(btn){ btn.disabled=true; btn.textContent='更新中…'; }
   try{
     log(`\n=== 更新 ${old} → ${f.name} ===`);
-    const oldSha = (await api(`/contents/${`debs/${encodeURIComponent(old)}`}`)).sha;
+    const oldSha = (await api(`/contents/debs/${old}`)).sha;
     log(`删除旧文件 ${old} …`);
-    await api(`/contents/${`debs/${encodeURIComponent(old)}`}`,'DELETE',{sha:oldSha, message:`replace ${old}`, branch:'main'});
+    await api(`/contents/debs/${old}`,'DELETE',{sha:oldSha, message:`replace ${old}`, branch:'main'});
     log(`上传新文件 ${f.name} …`);
-    const path=`debs/${encodeURIComponent(f.name)}`;
+    const path=`debs/${f.name}`;
     let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
     await api(`/contents/${path}`,'PUT',{content:b64(new Uint8Array(await f.arrayBuffer())),
       message:`update ${old} -> ${f.name}`, branch:'main', ...(sha?{sha}:{})});
@@ -340,7 +347,7 @@ $('copy-load').onclick = async () => {
       name: p.desc || p.pkg, pkg: p.pkg, ver: p.ver, arch: p.arch,
       dep: (p.dep||'').trim(),
       // deb 下载地址：优先 Filename，否则按包名构造
-      url: `${base}/${(p.file||'debs/'+encodeURIComponent(p.pkg+'.deb')).replace(/^debs\//,'debs/')}`.replace(/\/debs\//,'/debs/')
+      url: `${base}/${p.file||('debs/'+p.pkg+'.deb')}`
     }));
     renderCopyList(window._copyPkgs);
     $('copy-actions').style.display = 'flex';
@@ -395,8 +402,8 @@ $('copy-ok').onclick = async () => {
         buf = await r.arrayBuffer();
         if(!buf.byteLength) throw new Error(`下载到空文件（${p.url}）`);
       }catch(e){ throw new Error(`[下载 ${p.pkg}] ${e.message}`); }
-      const fname = (p.file ? p.file.split('/').pop() : (p.pkg + '_' + (p.ver||'1.0') + '.deb')).replace(/\s+/g,'_');
-      const path = `debs/${encodeURIComponent(fname)}`;
+      const fname = safeDebName(p.file ? p.file.split('/').pop() : (p.pkg + '_' + (p.ver||'1.0') + '.deb'));
+      const path = `debs/${fname}`;
       let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
       try{
         await api(`/contents/${path}`,'PUT',{content:b64(new Uint8Array(buf)),
@@ -691,7 +698,7 @@ $('delmultibtn').onclick = async ()=>{
     for(const c of checked){
       try{
         log(`删除 ${c.dataset.name} …`);
-        await api(`/contents/${`debs/${encodeURIComponent(c.dataset.name)}`}`,'DELETE',
+        await api(`/contents/debs/${c.dataset.name}`,'DELETE',
           {sha:c.dataset.sha, message:`delete ${c.dataset.name}`, branch:'main'});
         ok++; log('  ✓');
       }catch(e){ fail++; log(`  ✗ ${e.message}`); }
@@ -714,7 +721,7 @@ async function delDeb(name, sha){
   if(!confirm(`确定删除 ${name} ？`)) return;
   try{
     log(`删除 debs/${name} …`);
-    await api(`/contents/${`debs/${encodeURIComponent(name)}`}`,'DELETE',{sha, message:`delete ${name}`, branch:'main'});
+    await api(`/contents/debs/${name}`,'DELETE',{sha, message:`delete ${name}`, branch:'main'});
     log('✓ 已删除（索引约 1 分钟后自动重建）');
     // 立即从页面移除该行（GitHub API 删除有秒级延迟，先乐观更新）
     document.querySelectorAll('#pkglist button.del').forEach(b=>{
