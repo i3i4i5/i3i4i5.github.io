@@ -143,3 +143,24 @@ Name: 左滑返回-roothide
 Author: Mao
 Sponsor: admin@25mao.com
 
+Package: byg.iosios.net.noredirects
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: 杂七杂八
+Maintainer: 搬运工
+Installed-Size: 832
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Conflicts: com.82flex.noredirect
+Filename: debs/禁止跳转.deb
+Size: 111738
+MD5sum: 1359f7343b5e5e7a3c79f7f294cb8310
+SHA1: c6f44665b3c2f44858213cc2825f6d93ec28e47f
+SHA256: 5b9d8c87218df149d6d27b75dfd7352ec48ab4444f5a57a0ee14ec97c386a31a
+SHA512: 0d7c237b402c0b186640887b1ca7070accf4bb9ee951bd97774518cd676a112d0f862bbcfae681d1945f4c4cf415a87f372f0bee49b7f0b01efd217257cff3f6
+Description: 阻止指定的应用重定向到 App Store、Safari 或其他应用。意思就是防止打开这个软件弹出了广告突然让你去下载另一个应用，或者打开浏览器链接，一款还不错的小插件，需要的用户可以试试！
+Name: NoRedirect禁止跳转
+Author: Lessica
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
