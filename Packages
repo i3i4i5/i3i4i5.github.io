@@ -17,6 +17,23 @@ Name: CCLess++(RootHide)
 Author: 妖刀
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
+Package: com.apptools.lite.rootless
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: aReo
+Installed-Size: 2528
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/apptool青春版.deb
+Size: 712362
+MD5sum: f7e440c5473c8b3b225c7c6bc096d161
+SHA1: 14d5c1e30445d652d4cb6cd26178943ff44aba1f
+SHA256: 0c5b8a7ab5f6be433453dde7798449101ac7f1a71f9ee11f8e413fc1633f9c53
+SHA512: fa59c405fb8c475e16590b920397db1aaa212908128f2b3eb759a2577284073b5046c1373bcb559c0e1d72d76349c960ade3685c2df1752ed2cc0fc44664f452
+Description: AppTools Lite for iOS15-17 Rootless
+Name: AppTools_Lite
+Author: aReo
+
 Package: com.axs.gesturepro
 Architecture: iphoneos-arm64
 Version: 5.2.0-99
