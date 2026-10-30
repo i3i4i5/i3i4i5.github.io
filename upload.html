@@ -697,6 +697,7 @@ function applyOverrides(pkgs, ov){
   return pkgs;
 }
 // 一键创建源：预检 → 建仓库 → 逐个写文件 → 开 Pages
+let pgToken = 0;
 function pgRender(steps){
   const box = $('progress');
   box.hidden = false;
@@ -722,6 +723,7 @@ $('createbtn').onclick = async () => {
     {text:'开启 Pages', state:''},
     {text:'完成', state:''},
   ];
+  pgToken++;
   pgRender(steps);
   const setStep=(i,state,note)=>{ steps[i].state=state; if(note!==undefined) steps[i].note=note; pgRender(steps); };
   const fail=(i,msg)=>{ steps[i].state='err'; steps[i].note=msg; pgRender(steps);
@@ -834,6 +836,14 @@ $('createbtn').onclick = async () => {
       ? '源地址 https://'+owner+'.github.io/ （约 1 分钟生效）'
       : '文件已就绪，请到仓库 Settings → Pages 手动选择 main 分支');
     log('✅ 建源完成：'+owner+'/'+repoName);
+    // 3 秒后自动刷新列表并收起流程面板（若期间又发起新流程则不收起）
+    const tk = pgToken;
+    setTimeout(()=>{
+      $('loadbtn').onclick();
+      if(pgToken !== tk) return;
+      $('progress').hidden = true;
+      $('progress').innerHTML = '';
+    }, 3000);
   }catch(err){
     const [i,msg] = Array.isArray(err) ? err : [steps.findIndex(s=>s.state==='cur'), err.message||String(err)];
     fail(i<0?steps.length-1:i, msg);
