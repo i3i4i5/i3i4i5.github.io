@@ -208,14 +208,23 @@ function nativeApi(fullUrl, method, body){
     });
   });
 }
-const HAS_NATIVE = !!(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.api);
+function hasNative(){
+  try{ return !!(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.api); }
+  catch(e){ return false; }
+}
 
 async function api(path, method='GET', body){
   const fullUrl = `https://api.github.com/repos/${repo()}${path}`;
   if(typeof window.__netlog === 'function'){
     try{ window.__netlog(method, fullUrl); }catch(e){}
   }
-  if(HAS_NATIVE) return nativeApi(fullUrl, method, body);
+  if(hasNative()){
+    try{ return await nativeApi(fullUrl, method, body); }
+    catch(e){
+      if(!/网络错误|timeout|超时/i.test(e.message)) throw e;
+      console.warn('原生通道失败，回退 fetch', e);
+    }
+  }
   const r = await fetch(fullUrl, {method,
     headers:{ 'Authorization':'token '+tok(), 'Accept':'application/vnd.github+json',
               'Content-Type':'application/json', 'User-Agent':'niubi' },
