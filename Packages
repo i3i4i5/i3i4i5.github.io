@@ -1,3 +1,18 @@
+Package: com.wcmoments.plugin
+Architecture: iphoneos-arm64
+Version: 0.6.49
+Priority: optional
+Section: Tweaks
+Maintainer: Local Package
+Filename: debs/-0.6.49.deb
+Size: 352744
+MD5sum: 888bdbbf3b73ece3e41a673fc2fae5ae
+SHA1: 41a51c75de1a0dca846f03b032f546bcb6cfdb8a
+SHA256: 442dfb444119a3fcb8b72c60fc02dbc491a4ee7032ff7c0a96ba030b8418bb85
+SHA512: 9fd38b60cd1be291b5d0ab2985225543fdd8fa7e91958f4b6deed9ab24653ac20f289865a265b108f70e6f82de0ed337c86effc710bdd9bff1fb887d0565add4
+Description: WCMoments jailbreak tweak
+Name: WCMoments
+
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64e
 Version: 6.79
@@ -226,6 +241,22 @@ Version: 1.0.4
 Section: Tweaks
 Maintainer: L.E
 Filename: debs/pkg_1793377638883.deb
+Size: 12348
+MD5sum: bbbe07e25450d88ff371ae754ffccab5
+SHA1: c2b3d361f28c7d6f963ea28d1ea54b4b7e467470
+SHA256: 594c7d41a1549c62f943a199c9c005af5d60d098a1dc40433eb189ccc79ec314
+SHA512: 0701c5eb08bfa4059a455871ef13ac957b430ff5b266d82b75f968a7a7c9da4037cbee4ce5e6e5c9e38505d942a89702d2bbf69997459ddf078349fbe896f932
+Description: Hide notification group header and footer controls with zero occupancy. No preferences.
+Tag: role::enduser
+Name: 隐藏通知清除按钮
+Author: L.E
+
+Package: com.minis.hidencheaders
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: L.E
+Filename: debs/pkg_1793377688429.deb
 Size: 12348
 MD5sum: bbbe07e25450d88ff371ae754ffccab5
 SHA1: c2b3d361f28c7d6f963ea28d1ea54b4b7e467470
