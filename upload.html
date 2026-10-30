@@ -255,6 +255,12 @@ async function saveOverride(filename, name, desc){
 
 
 // GitHub Contents API 不接受编码后的路径，文件名里也不能有会被解析歧义的字符
+
+// 把仓库里已有的文件名做成安全的 URL 路径段（单次百分号编码）
+function encPath(n){
+  try{ return encodeURIComponent(String(n)); }catch(e){ return String(n); }
+}
+
 function safeDebName(n){
   let s = String(n);
   // 保留扩展名 .deb
@@ -374,9 +380,9 @@ $('updf').onchange = async e => {
   if(btn){ btn.disabled=true; btn.textContent='更新中…'; }
   try{
     log(`\n=== 更新 ${old} → ${f.name} ===`);
-    const oldSha = (await api(`/contents/debs/${old}`)).sha;
+    const oldSha = (await api(`/contents/debs/${encPath(old)}`)).sha;
     log(`删除旧文件 ${old} …`);
-    await api(`/contents/debs/${old}`,'DELETE',{sha:oldSha, message:`replace ${old}`, branch:'main'});
+    await api(`/contents/debs/${encPath(old)}`,'DELETE',{sha:oldSha, message:`replace ${old}`, branch:'main'});
     log(`上传新文件 ${f.name} …`);
     const path=`debs/${f.name}`;
     let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
@@ -821,7 +827,7 @@ async function delDeb(name, sha){
   if(!confirm(`确定删除 ${name} ？`)) return;
   try{
     log(`删除 debs/${name} …`);
-    await api(`/contents/debs/${name}`,'DELETE',{sha, message:`delete ${name}`, branch:'main'});
+    await api(`/contents/debs/${encPath(name)}`,'DELETE',{sha, message:`delete ${name}`, branch:'main'});
     log('✓ 已删除（索引约 1 分钟后自动重建）');
     // 立即从页面移除该行（GitHub API 删除有秒级延迟，先乐观更新）
     document.querySelectorAll('#pkglist button.del').forEach(b=>{
