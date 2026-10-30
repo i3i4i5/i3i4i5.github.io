@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>一键建源 · 管理</title>
 <style>
   :root{ --bg:#0d1117; --card:#161b22; --bd:#30363d; --fg:#e6edf3; --dim:#8b949e;
@@ -10,6 +10,8 @@
   *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
   body{margin:0; font:16px/1.55 -apple-system,BlinkMacSystemFont,"PingFang SC",system-ui,sans-serif;
        background:var(--bg); color:var(--fg); padding:14px 12px 40px;
+       padding:calc(14px + env(safe-area-inset-top)) calc(12px + env(safe-area-inset-right))
+               calc(40px + env(safe-area-inset-bottom)) calc(12px + env(safe-area-inset-left));
        overflow-x:hidden; max-width:100%; touch-action:pan-y;}
   html{overflow-x:hidden; max-width:100%;}
   #pkglist, .card{overflow-x:hidden; max-width:100%;}
