@@ -66,7 +66,8 @@
   .tag{display:inline-block; font-size:11px; padding:1px 7px; border-radius:6px; background:rgba(88,166,255,.18); color:var(--acc); margin-left:4px;}
   .empty{color:var(--dim); text-align:center; padding:24px 0; font-size:14px;}
   .log{background:#000; color:#c9d1d9; font-family:ui-monospace,Menlo,monospace; font-size:12px;
-       border-radius:10px; padding:10px; max-height:200px; overflow:auto; white-space:pre-wrap; word-break:break-all; display:none; margin-top:12px;}
+       border-radius:10px; padding:10px; max-height:200px; overflow-y:auto; overflow-x:hidden;
+       white-space:pre-wrap; word-break:break-all; display:none; margin-top:12px;}
   .spin{display:inline-block; width:14px; height:14px; border:2px solid rgba(255,255,255,.4);
         border-top-color:#fff; border-radius:50%; animation:s .7s linear infinite; vertical-align:-2px;}
   @keyframes s{to{transform:rotate(360deg)}}
@@ -146,7 +147,7 @@
       <input type="text" id="copy-src" placeholder="https://其他用户.github.io/源名/" style="margin-bottom:8px;">
       <button id="copy-load" style="margin:0 0 8px;">拉取包列表</button>
       <div id="copy-history"></div>
-      <div id="copylist" style="flex:1 1 auto; overflow-y:auto; -webkit-overflow-scrolling:touch; margin:0 -4px; padding:0 4px;"></div>
+      <div id="copylist" style="flex:1 1 auto; overflow-y:auto; overflow-x:hidden; -webkit-overflow-scrolling:touch; padding:0; touch-action:pan-y;"></div>
     </div>
     <div class="copybar" id="copy-actions" style="display:none;">
       <button class="ghost" id="copy-cancel">取消</button>
