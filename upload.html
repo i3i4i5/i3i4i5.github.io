@@ -32,7 +32,7 @@
   .patlink{display:block; font-size:12px; color:var(--txt2,#888); margin-top:10px; line-height:1.6; text-decoration:none;}
   .patlink-url{margin-top:6px; padding:8px 10px; background:var(--bg2,rgba(128,128,128,.12)); border-radius:8px; font-size:12px; font-family:ui-monospace,Menlo,monospace; color:var(--acc); word-break:break-all; user-select:all; -webkit-user-select:all; display:flex; align-items:center; gap:8px;}
   .patlink-url span{flex:1; min-width:0;}
-  .patlink-url .cp{flex:none; cursor:pointer; font-size:14px; line-height:1; padding:4px 6px; border-radius:6px; background:transparent; border:none; color:var(--acc); user-select:none; -webkit-user-select:none; -webkit-touch-callout:none;}
+  .patlink-url .cp{flex:none; cursor:pointer; display:flex; align-items:center; justify-content:center; padding:5px 6px; border-radius:6px; background:transparent; border:none; color:var(--acc); user-select:none; -webkit-user-select:none; -webkit-touch-callout:none;}
   .patlink-url .cp:active{opacity:.5;}
   .progress{margin-top:12px; padding:10px 12px; background:var(--bg2,rgba(128,128,128,.10)); border-radius:10px; font-size:12px; line-height:1.9;}
   .pstep{display:flex; align-items:flex-start; gap:8px; color:var(--txt2,#8b949e);}
@@ -108,7 +108,7 @@
       <button id="createbtn" style="background:var(--ok); color:#000;">一键建源</button>
     </div>
     <div class="patlink">如何获取 PAT？复制下面链接浏览器打开（勾选 repo + workflow + read:org 三项，Expiration 建议 90 天，生成后复制 ghp_ 开头串粘贴到上面）
-      <div class="patlink-url"><span id="paturl">https://github.com/settings/tokens/new?scopes=repo,workflow,read:org&amp;description=yijianjianyuan</span><button class="cp" id="patcopy" title="复制链接">📋</button></div>
+      <div class="patlink-url"><span id="paturl">https://github.com/settings/tokens/new?scopes=repo,workflow,read:org&amp;description=yijianjianyuan</span><button class="cp" id="patcopy" title="复制链接"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg></button></div>
     </div>
     <div id="progress" class="progress" hidden></div>
   </div>
@@ -190,9 +190,10 @@ $('savebtn').onclick = ()=>{ localStorage.setItem('niubi_repo',repo()); localSto
 $('patcopy').onclick = async () => {
   const url = $('paturl').textContent.trim();
   const btn = $('patcopy');
+  const ICON = `<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>`, CHECK = `<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>`, CROSS = `<svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>`;
   const done = ok => {
-    btn.textContent = ok ? '✓' : '✗';
-    setTimeout(() => { btn.textContent = '\u{1F4CB}'; }, 1200);
+    btn.innerHTML = ok ? CHECK : CROSS;
+    setTimeout(() => { btn.innerHTML = ICON; }, 1200);
   };
   try {
     await navigator.clipboard.writeText(url);
