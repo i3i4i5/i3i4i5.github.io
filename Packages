@@ -53,26 +53,6 @@ Author: Mao
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/BubbleBox/js.json
 
-Package: com.Axs.Axon
-Architecture: iphoneos-arm64
-Version: 2.1.3
-Section: Tweaks
-Maintainer: Axs
-Installed-Size: 712
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Filename: debs/com.Axs.Axon_2.1.3.deb
-Size: 144248
-MD5sum: 5a80a4a844038d62defe54dc63faab3d
-SHA1: 18a5d8336733e12ce38f5594f95d095e5697eee4
-SHA256: efffcae21d71cfa513e6dcef2a8c047d0a1dfa27f18524618a1bf518868cdb2c
-SHA512: a62f7ad76b727ad3ae46901f582570958419124f91f9b969fb322eed11f31786ba99ae16a4eb95eced47bb9904b0bf3cf8629dd17833b4aba2d9801f7a7a6524
-Description: 本插件非常的好用！推荐！
-Author: Axs
-Name: Axon美化通知
-Sponsor: Axs
-Icon: https://axs66.github.io/pro/icon/Axon.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/Axon/js.json
-
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
@@ -160,24 +140,6 @@ SHA512: bfb6a651abc91ffe7cc73c257529cc513e07954317e510bef113328b7f8bf2ce0e110a19
 Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
 Name: Sileo APT/DPKG汉化
 Author: Custom
-
-Package: com.25mao.leftpan
-Architecture: iphoneos-arm64e
-Version: 2.0-1
-Section: 辅助插件
-Maintainer: admin@25mao.com
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
-Filename: debs/左滑返回-roothide_2.0-1_iphoneos-arm64e.deb
-Size: 32860
-MD5sum: 943338136ff1ea43f4bc1ffac353a86f
-SHA1: a0c8e584b96a39f13ecdbc52eec7ef429c50cf18
-SHA256: 7b9a854772900fe145b16a402e3ae731eb6e784264ac98762825a7665a6dce58
-SHA512: 95e0fc2751537e388e3131b9d01a5e0f3c135d66eebd25964f01d25d2f6554cd031287a78da70f383861942c05aca54921dc9ef98453f1d8a9e0dfa3075ccd29
-Description: An awesome MobileSubstrate tweak!
-Name: 左滑返回-roothide
-Author: Mao
-Sponsor: admin@25mao.com
 
 Package: byg.iosios.net.noredirects
 Architecture: iphoneos-arm64e
