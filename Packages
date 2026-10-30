@@ -13,6 +13,48 @@ SHA512: 9fd38b60cd1be291b5d0ab2985225543fdd8fa7e91958f4b6deed9ab24653ac20f289865
 Description: WCMoments jailbreak tweak
 Name: WCMoments
 
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-3
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 1216
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/Hello_120Hz_3.3.3-3_iphoneos-arm64e.deb
+Size: 407420
+MD5sum: 812ada8f703085e5980a8709e6f0cbdb
+SHA1: 01bbcfc36f616dacc0c2dc0d51f0fc5d935e0962
+SHA256: 7f50c36dada4a8ff67409d41fbf6dbcc99ccc383fcf2fa6f8045a66f19d96c5a
+SHA512: 5f4a98018d87d7bec3573bd009a861f14e49cc07591a3bd9b07c6127bf7d20679f27620e2fc4aae85eee26efd8ba15e25375d95a88fad669a48d55f50c4890db
+Description: 
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
+Package: cn.zqbb.disupdateapp
+Architecture: iphoneos-arm64e
+Version: 2.0.0-6
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 720
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/Hello_App_2.0.0-6_iphoneos-arm64e.deb
+Size: 129496
+MD5sum: 1ffac59475e9f8db23291e9d98b274e1
+SHA1: 3dbb63e8cdee419332e91f88e9cb34c8473692f7
+SHA256: dda02b002d33788f8dcaf5063052935e69969cb93f41ef5283e42cd8586e86bd
+SHA512: 8b07de066b2f204967940a02268a9f2b03c8b1e45ff6c51fc325591eb189f4c59b58302dad547b81cc2c7cde49cb0bbf1a492995ee29a0245ad3f0fe0d5ce981
+Description: 屏蔽App Store更新提示(Block App Store Updates)!
+Name: Hello App
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
+
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64e
 Version: 6.79
@@ -257,6 +299,22 @@ Version: 1.0.4
 Section: Tweaks
 Maintainer: L.E
 Filename: debs/pkg_1793377688429.deb
+Size: 12348
+MD5sum: bbbe07e25450d88ff371ae754ffccab5
+SHA1: c2b3d361f28c7d6f963ea28d1ea54b4b7e467470
+SHA256: 594c7d41a1549c62f943a199c9c005af5d60d098a1dc40433eb189ccc79ec314
+SHA512: 0701c5eb08bfa4059a455871ef13ac957b430ff5b266d82b75f968a7a7c9da4037cbee4ce5e6e5c9e38505d942a89702d2bbf69997459ddf078349fbe896f932
+Description: Hide notification group header and footer controls with zero occupancy. No preferences.
+Tag: role::enduser
+Name: 隐藏通知清除按钮
+Author: L.E
+
+Package: com.minis.hidencheaders
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: L.E
+Filename: debs/pkg_1793377719649.deb
 Size: 12348
 MD5sum: bbbe07e25450d88ff371ae754ffccab5
 SHA1: c2b3d361f28c7d6f963ea28d1ea54b4b7e467470
