@@ -131,6 +131,41 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
+Package: com.zegeyoudaoli.home27
+Architecture: iphoneos-arm64e
+Version: 2.1.62
+Section: Tweaks
+Maintainer: ngkhoi&泽哥
+Installed-Size: 2337
+Depends: mobilesubstrate | ellekit, preferenceloader
+Conflicts: com.ngkhoi.26home
+Replaces: com.ngkhoi.26home
+Filename: debs/com.zegeyoudaoli.home27_2.1.62_iphoneos-arm64e.deb
+Size: 612546
+MD5sum: f2c54d91c3c6737989ea8bda3854806b
+SHA1: 89e6c3179fe4958efec259936ee73bc0e8f3ba0a
+SHA256: c08fe244b2a0dfc8ff4f7fbe6fb8e815d3f7eba4a6c932426a8cbdf7083cbdb6
+SHA512: 02957701dee2462f4ff9f113adbdc24bae55f0f9a1488387f698ebf9d4f0d85cb5ce48836497d5b1b007fe1b27e709d5526bc6866c5d6b369d020eb6cd755a76
+Description: 27Home
+ 主屏幕图标美化工具
+ 基于 ngkhoi 的 26Home 汉化维护版。
+ 内部标识全面统一为 27Home：类名 / 源文件名 / 资源目录 / 日志文件名 / 偏好包名。
+ 偏好存储沿用原有域名，升级不会丢设置（也不影响从上游包换装时的设置继承）。
+ 液态玻璃图标
+ 接 LiquidAss 引擎真折射
+ 图标折射跟随 LiquidAss 总开关：关了退回普通玻璃（9002 模糊 + 9003 底色），
+ 并监听 LiquidAss 的偏好重载通知，开关变化当场生效、不用注销。
+ 未装 LiquidAss 时走零依赖普通玻璃
+ 所有效果参数可调
+ 支持相册自定义图标和例外应用
+ 图标包管理器，直连 SnowBoard 本地主题（实时生效）
+ 本地图标包的作者显示包内 Info.plist 的 PackageName 字段，没有该文件显示「未知」
+ 新增本地压缩包一键导入
+ 性能：调试日志关闭时诊断代码零开销；修掉打开日志时的大体积日志卡顿
+Name: 27Home
+Author: ngkhoi&泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
