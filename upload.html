@@ -3,6 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<div id="encProbe" style="position:fixed;top:0;left:0;right:0;z-index:99999;background:#000;color:#0f0;font:11px monospace;padding:4px;text-align:center">probe</div>
+<script>
+window.addEventListener('load',function(){
+  var t="中文测试";
+  var b=new TextEncoder().encode(t);
+  var de=new TextDecoder('utf-8').decode(b);
+  document.getElementById('encProbe').textContent =
+    'charset='+document.characterSet+' raw='+Array.from(b).join(',')+' rt='+(de===t?'OK':'BAD');
+});
+</script>
 <title>牛逼源 · 管理</title>
 <style>
   :root{ --bg:#0d1117; --card:#161b22; --bd:#30363d; --fg:#e6edf3; --dim:#8b949e;
