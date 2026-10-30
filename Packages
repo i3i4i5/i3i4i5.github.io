@@ -13,6 +13,24 @@ SHA512: 9fd38b60cd1be291b5d0ab2985225543fdd8fa7e91958f4b6deed9ab24653ac20f289865
 Description: WCMoments jailbreak tweak
 Name: WCMoments
 
+Package: com.local.alipay.identity-compat
+Architecture: iphoneos-arm64
+Version: 0.1.9
+Priority: optional
+Section: Tweaks
+Maintainer: Local Workspace
+Installed-Size: 268
+Depends: mobilesubstrate
+Filename: debs/.0.1.9.deb
+Size: 30192
+MD5sum: 007041d85d584d4df160df0f95d2aec0
+SHA1: 64c8b7da017a50d996aeed80b702da62037f1ef3
+SHA256: 4390dcf0b8f38f8f89ba44b0e0b051fdb3e034ee93184767f7bf6a5177f4df31
+SHA512: 1aef9ee28b0efa24296e6ed81bdb50c91ba392d5fbdc3d948633c4e8a0193529d84d61b661d1ecd2c9c82ab3094f07256e34cb9d2d4f50654774f1b167778d80
+Description: 支付宝刷脸设备兼容与热更新冻结层（12.12.16）
+Author: Local Workspace
+Name: 支付宝身份验证兼容
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
