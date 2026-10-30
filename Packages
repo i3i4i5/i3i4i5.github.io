@@ -17,6 +17,25 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/gesturepro.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/gesturepro/js.json
 
+Package: com.25mao.BubbleBox
+Architecture: iphoneos-arm64
+Version: 1.0-7
+Priority: optional
+Section: 微信插件
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.25mao.BubbleBox_1.0-7.deb
+Size: 1837732
+MD5sum: fd0b7fa106034405a62a074058519f5f
+SHA1: f4bc6763f4dcadbe89bb9b562bb16e10e1fcbf28
+SHA256: f8df9a38ac3e3e6da79c5e1095e8e834f1f842b48c513a2995333397b8d4345c
+SHA512: 15ae84424920b66e8b84754d73247f5614133207037cf82c27e5cf5275dcaadebd13b06e821a1ef5c0ea6f9f9d11c0372aa6e868660fffc48736eb144961ba7a
+Description: 微信气泡插件
+Name: 气泡盒子
+Author: Mao
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/BubbleBox/js.json
+
 Package: com.Axs.Axon
 Architecture: iphoneos-arm64
 Version: 2.1.3
