@@ -1,39 +1,3 @@
-Package: com.dao.ccless
-Architecture: iphoneos-arm64e
-Version: 2.1.0.1
-Section: 嗨-工具
-Maintainer: 妖刀
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
-Filename: debs/CCLess_RootHide_2.1.0.1_iphoneos-arm64e.deb
-Size: 498480
-MD5sum: ae69caae2987f8c3a34ba59f37fb97aa
-SHA1: 0c992d7b8579c291346d6a437cfdd43a79fb040c
-SHA256: 3359cd5d3ac5a377071e7e04e9e19c9a079c147319332fd2511f9dc52639a829
-SHA512: 4c8f2dc4282079049d8c310fe1deabe755bfcfec3dc77f133be00d4bc83f8938058a71b9c942b677e58a1555cb45dc6e7f161c85ec37067737addf671bba16ad
-Description: 超级控制中心模块集合！
-Name: CCLess++(RootHide)
-Author: 妖刀
-SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
-
-Package: com.apptools.lite.rootless
-Architecture: iphoneos-arm64
-Version: 1.0.4
-Section: Tweaks
-Maintainer: aReo
-Installed-Size: 2528
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/apptool青春版.deb
-Size: 712362
-MD5sum: f7e440c5473c8b3b225c7c6bc096d161
-SHA1: 14d5c1e30445d652d4cb6cd26178943ff44aba1f
-SHA256: 0c5b8a7ab5f6be433453dde7798449101ac7f1a71f9ee11f8e413fc1633f9c53
-SHA512: fa59c405fb8c475e16590b920397db1aaa212908128f2b3eb759a2577284073b5046c1373bcb559c0e1d72d76349c960ade3685c2df1752ed2cc0fc44664f452
-Description: AppTools Lite for iOS15-17 Rootless
-Name: AppTools_Lite
-Author: aReo
-
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
@@ -73,38 +37,6 @@ Tag: purpose::uikit, compatible::ios14
 Name: xds文件管理器
 Author: 来了老弟
 
-Package: local.minis.hideairdrop
-Architecture: iphoneos-arm64e
-Version: 1.1.0
-Section: Tweaks
-Maintainer: Minis
-Installed-Size: 168
-Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/去掉分享隔空投送等无用内容隐根.deb
-Size: 5244
-MD5sum: ba3f78b91ddbbdd00c9f50e913498460
-SHA1: 30e20dfd27526aee33038cc2b3ab460605022503
-SHA256: b6ca3385a297db249d83ed63800cf54190b3520200cfdfec72d8f065c4a6e745
-SHA512: 33d9dda25feb0f76b974aaa22104b3cacaba4913a0a600e79396c4febdcda038b2bb805bfd841a25a37c813fad526d594aa3e88c59bff42256341908f6479a67
-Description: Hide AirDrop and the top people suggestions row in native iOS 16 share sheets.
-Name: Hide AirDrop (roothide)
-Author: Minis
-
-Package: com.wcmoments.plugin
-Architecture: iphoneos-arm64
-Version: 0.6.49
-Priority: optional
-Section: Tweaks
-Maintainer: Local Package
-Filename: debs/双列朋友圈-0.6.49.deb
-Size: 352744
-MD5sum: 888bdbbf3b73ece3e41a673fc2fae5ae
-SHA1: 41a51c75de1a0dca846f03b032f546bcb6cfdb8a
-SHA256: 442dfb444119a3fcb8b72c60fc02dbc491a4ee7032ff7c0a96ba030b8418bb85
-SHA512: 9fd38b60cd1be291b5d0ab2985225543fdd8fa7e91958f4b6deed9ab24653ac20f289865a265b108f70e6f82de0ed337c86effc710bdd9bff1fb887d0565add4
-Description: WCMoments jailbreak tweak
-Name: WCMoments
-
 Package: com.aptzh
 Architecture: iphoneos-arm64e
 Version: 1.3-3+debug
@@ -121,24 +53,4 @@ SHA512: bfb6a651abc91ffe7cc73c257529cc513e07954317e510bef113328b7f8bf2ce0e110a19
 Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
 Name: Sileo APT/DPKG汉化
 Author: Custom
-
-Package: com.roothide.patcher
-Architecture: iphoneos-arm64e
-Version: 2.1.5
-Section: Utilities
-Maintainer: roothide
-Installed-Size: 2476
-Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
-Filename: debs/隐根转换汉化版.deb
-Size: 894874
-MD5sum: 94043779e90a495735707f5836be7f6a
-SHA1: 583feba8a9b2d2774d06f68c3b0e84e850bc8191
-SHA256: 24540dcc01db6cbe8692660f546e842055f14e5ab6467c0b6d7221a7d098cab8
-SHA512: 43327fde620954b48db213998a4942b7e13187956e6889e436c08f7b58665efeb57d30a0bf4fd39be7382315fddbabb5350baa3e70f0a6c17a1d8954f8453007
-Description: patch rootless package to roothide, not work for all packages.
-Name: RootHide Patcher
-Author: roothide
-Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
-Depiction: https://github.com/roothide/RootHidePatcher
-Support: https://github.com/roothide/RootHidePatcher
 
