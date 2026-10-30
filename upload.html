@@ -108,14 +108,11 @@
   </div>
 
   <div class="card">
-    <div class="cardhead">
-      <span class="ttl" id="pkgtitle">📦 当前包</span>
-      <div style="display:flex; flex-wrap:wrap; gap:6px; justify-content:flex-end;">
-        <button class="mini" id="reindexbtn">手动索引</button>
-        <button class="mini" id="loadbtn">刷新列表</button>
-        <button class="mini" id="multibtn">多选</button>
-        <button class="mini" id="delmultibtn" style="display:none;">删除</button>
-      </div>
+    <div class="cardhead" style="align-items:center; gap:8px;">
+      <button class="mini" id="loadbtn" style="margin-right:auto;">刷新列表 (0)</button>
+      <button class="mini" id="reindexbtn">手动索引</button>
+      <button class="mini" id="multibtn">多选</button>
+      <button class="mini" id="delmultibtn" style="display:none; background:var(--err); color:#fff;">删除</button>
     </div>
     <div id="pkglist"><div class="empty">点右上角「刷新列表」加载</div></div>
   </div>
@@ -649,7 +646,7 @@ function renderPkgList(){
     box.querySelectorAll('button.del').forEach(b=> b.onclick=()=>delDeb(b.dataset.name,b.dataset.sha));
     box.querySelectorAll('button.upd').forEach(b=> b.onclick=()=>startUpdate(b.dataset.name));
   }
-  $('pkgtitle').textContent = `📦 当前包（${debs.length}）`;
+  $('loadbtn').textContent = `刷新列表 (${debs.length})`;
 }
 
 // 多选模式开关
@@ -683,7 +680,7 @@ $('delmultibtn').onclick = async ()=>{
         const card=cb.closest('.pkg'); if(card) card.remove();
       });
       const n=document.querySelectorAll('#pkglist .pkg').length;
-      $('pkgtitle').textContent=`📦 当前包（${n}）`;
+      $('loadbtn').textContent=`刷新列表 (${n})`;
       setTimeout(()=>$('loadbtn').onclick(), 3000);
     }
   }finally{ btn.disabled=false; }
@@ -702,7 +699,7 @@ async function delDeb(name, sha){
       if(b.dataset.name===name){ const card=b.closest('.pkg'); if(card) card.remove(); }
     });
     const n=document.querySelectorAll('#pkglist .pkg').length;
-    const t=$('pkgtitle'); if(t) t.textContent=`📦 当前包（${n}）`;
+    $('loadbtn').textContent=`刷新列表 (${n})`;
     // 延时刷新一次，等 GitHub API 同步
     setTimeout(()=>$('loadbtn').onclick(), 3000);
   }catch(e){ log('✗ '+e.message); alert('删除出错：\n'+e.message); }
