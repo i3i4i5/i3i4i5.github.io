@@ -114,12 +114,8 @@
   </div>
 
   <div class="card">
-    <label>⬆ 上传 deb（可多选）</label>
-    <label class="filebox" for="deb">
-      <input type="file" id="deb" multiple accept=".deb">
-      <input type="file" id="updf" accept=".deb" style="display:none">
-      点我选择 deb 文件
-    </label>
+    <label>⬆ 上传 deb</label>
+    <div class="filebox" id="pickbox">点我选择 deb 文件</div>
     <div class="flist" id="flist"></div>
     <div class="row">
       <button id="uploadbtn">⬆ 上传到源</button>
@@ -169,17 +165,23 @@ const $ = id => document.getElementById(id);
 function log(msg){ const el=$('log'); el.style.display='block'; el.textContent += msg+'\n'; el.scrollTop=el.scrollHeight; }
 // 仓库输入：统一格式 owner/repo（如 你的用户名/你的用户名.github.io）
 // 也容忍整条 GitHub 链接、带 .git 后缀、首尾空格与斜杠
+// 仓库字符串只解析一次：容忍整条链接、.git 后缀、首尾空格斜杠
+let _repoCache = null;
 function repoClean(){
-  return $('repo').value.trim()
+  const raw = $('repo').value.trim();
+  if (raw === _repoCache) return _repoCache.val;
+  const val = raw
     .replace(/^https?:\/\/github\.com\//i,'')
     .replace(/^https?:\/\/[^.]+\//i,'')
     .replace(/\.git$/i,'')
     .replace(/^\/+|\/+$/g,'');
+  _repoCache = {raw, val};
+  return val;
 }
-function repo(){ return repoClean(); }
-function repoOwner(){ return (repoClean().split('/')[0]||''); }
-function repoNameOnly(){ const p=repoClean().split('/').filter(Boolean); return p.length>=2 ? p[1] : ''; }
-function fullRepo(){ return repo(); }
+function repoOwner(){ return repoClean().split('/')[0] || ''; }
+function repoNameOnly(){ const p = repoClean().split('/').filter(Boolean); return p.length>=2 ? p[1] : ''; }
+// 兼容旧名：repo() / fullRepo() 统一指向 repoClean()
+const repo = repoClean, fullRepo = repoClean;
 function tok(){ return $('token').value.trim(); }
 
 // 配置
@@ -217,44 +219,76 @@ $('patcopy').onclick = async () => {
   else  { $('repo').value = localStorage.getItem('niubi_repo')||'你的用户名/你的用户名.github.io'; }
   if(t){ $('token').value = t; localStorage.setItem('niubi_token', t); }
   else  { $('token').value = localStorage.getItem('niubi_token')||''; }
-  if(p.get('autoload')==='1'){ setTimeout(()=>$('loadbtn').onclick(), 400); }
+  const auto = p.get('autoload')==='1' || (typeof window.pickDeb==='function' && localStorage.getItem('niubi_repo'));
+  if(auto){ setTimeout(()=>$('loadbtn').onclick(), 600); }
 })();
 
 // 文件选择（去掉严格 accept，修复 iOS 灰色不能点）
 let selectedFiles = [];
 
-$('deb').onchange = e => {
-  const f = [...e.target.files].filter(x => x.name.toLowerCase().endsWith('.deb'));
-  if(!f.length){ alert('请选择 .deb 文件'); return; }
+// 原生选择器返回 {name,b64}，转成 File 供后续上传逻辑复用
+function b64ToFile(x){
+  const bin = atob(x.b64), u8 = new Uint8Array(bin.length);
+  for(let i=0;i<bin.length;i++) u8[i]=bin.charCodeAt(i);
+  return new File([u8], x.name, {type:'application/octet-stream'});
+}
+function showFiles(f){
   selectedFiles = f;
   $('flist').innerHTML = f.map(x=>`<div>${x.name} (${(x.size/1024).toFixed(0)}KB)</div>`).join('');
-  // 上传不改名，直接上传到源
+  const b=$('pickbox'); if(b) b.textContent = '已选 ' + f.length + ' 个，点我重选';
+}
+$('pickbox').onclick = async () => {
+  // App 内走原生选择器：直接进文件管理，不弹照片/相机
+  if(typeof window.pickDeb === 'function'){
+    const list = await window.pickDeb();
+    if(!list || !list.length) return;
+    const f = list.filter(x=>/\.deb$/i.test(x.name)).map(b64ToFile);
+    if(!f.length) return alert('请选择 .deb 文件');
+    return showFiles(f);
+  }
+  // 浏览器环境退回系统 input
+  const inp=document.createElement('input'); inp.type='file';
+  inp.onchange=e=>{
+    const f=[...e.target.files].filter(x=>x.name.toLowerCase().endsWith('.deb'));
+    if(!f.length) return alert('请选择 .deb 文件');
+    showFiles(f);
+  };
+  inp.click();
 };
 
 
 // API
 // 原生通道：App 内用 NSURLSession 发请求，绕开 WKWebView 的 fetch 限制
 let __abi = 0;
-function nativeApi(fullUrl, method, body){
+// 原生通道底层：发请求拿回 {status, text}，不做解释
+function nativeCall(fullUrl, method, body){
   return new Promise((resolve, reject)=>{
     const id = ++__abi;
-    window.__apiCb = window.__apiCb || {};
-    window.__apiCb[id] = (res)=>{
+    (window.__apiCb = window.__apiCb || {})[id] = (res)=>{
       delete window.__apiCb[id];
       let txt = '';
       try{ txt = decodeURIComponent(escape(atob(res.body || ''))); }catch(e){ txt = ''; }
-      if(res.__err) return reject(new Error('网络错误: '+res.__err));
-      if(res.status===204) return resolve(null);
-      if(res.status>=400) return reject(new Error(`${method} ${fullUrl} → ${res.status}: ${txt.slice(0,300)}`));
-      let parsed;
-      try{ parsed = JSON.parse(txt); }catch(e){ parsed = txt; }  // 非 JSON（如 Packages 文本）保留原文
-      resolve(parsed);
+      if(res && res.__err) return reject(new Error('网络错误: '+res.__err));
+      resolve({ status: (res && res.status) || 0, text: txt });
     };
     window.webkit.messageHandlers.api.postMessage({
       url: fullUrl, method, token: tok(),
       body: body ? JSON.stringify(body) : null, cb: String(id)
     });
   });
+}
+
+// 自动解析 JSON，失败保留原文（Packages 是纯文本）
+function tryJSON(t){
+  if(!t) return null;
+  try{ return JSON.parse(t); }catch(e){ return t; }
+}
+
+async function nativeApi(fullUrl, method, body){
+  const r = await nativeCall(fullUrl, method, body);
+  if(r.status===204) return null;
+  if(r.status>=400) throw new Error(`${method} ${fullUrl} → ${r.status}: ${r.text.slice(0,300)}`);
+  return tryJSON(r.text);
 }
 function hasNative(){
   // iOS 上 messageHandlers.api 可能不是可枚举属性，用 in 判断更稳
@@ -275,18 +309,10 @@ async function api(path, method='GET', body){
     throw new Error(`${r.status}: ${m || t.slice(0,160)}`);
   }
   if(!r) return null;
-  if(typeof r.json === 'function'){
-    const t = await r.text();
-    if(!t) return null;
-    try{ return JSON.parse(t); }catch(e){ return t; }
+  if(typeof r.json === 'function' || r.body !== undefined){
+    const t = typeof r.text === 'function' ? await r.text() : r.body;
+    return tryJSON(t);
   }
-  // 原生 raw 形态 {status, body}
-  if(r.body !== undefined){
-    const t = r.body;
-    if(!t) return null;
-    try{ return JSON.parse(t); }catch(e){ return t; }
-  }
-  return r;
 }
 
 // 拉取源索引 Packages：App 内必须走原生通道，file:// 页面直接 fetch 会被跨域拦截
@@ -305,24 +331,8 @@ async function fetchIndex(src, nocache){
   return await (await fetch(url, {cache:'no-store'})).text();
 }
 
-// 原生通道原始响应：返回 {status, text}，不做任何“美化”
-function nativeRaw(fullUrl, method, body){
-  return new Promise((resolve, reject)=>{
-    const id = ++__abi;
-    window.__apiCb = window.__apiCb || {};
-    window.__apiCb[id] = (res)=>{
-      delete window.__apiCb[id];
-      let txt = '';
-      try{ txt = decodeURIComponent(escape(atob(res.body || ''))); }catch(e){ txt = ''; }
-      if(res && res.__err) return reject(new Error('网络错误: '+res.__err));
-      resolve({ status: (res && res.status) || 0, text: txt });
-    };
-    window.webkit.messageHandlers.api.postMessage({
-      url: fullUrl, method, token: tok(),
-      body: body ? JSON.stringify(body) : null, cb: String(id)
-    });
-  });
-}
+// 原始响应（保留真实状态码与文本）
+function nativeRaw(fullUrl, method, body){ return nativeCall(fullUrl, method, body); }
 
 // 统一请求入口：App 内走原生通道（不受同源限制，可离线页面运行），浏览器里走 fetch
 async function gh(url, method='GET', body, headers){
@@ -467,7 +477,8 @@ async function doUpload(files, customName, customDesc){
       log('  ✓');
     }
     log('✅ 上传完成！约 1 分钟后自动重建索引。');
-    $('deb').value=''; $('flist').textContent='';
+    selectedFiles = []; $('flist').textContent='';
+    $('pickbox').textContent = '点我选择 deb 文件';
     setTimeout(()=>$('loadbtn').onclick(), 2000);
   }catch(e){ log('✗ '+e.message); alert('出错：\n'+e.message); }
   btn.disabled=false; btn.textContent='⬆ 上传到源';
@@ -485,11 +496,19 @@ let updateTarget = null;
 function startUpdate(oldName){
   if(!tok() || !fullRepo().includes('/')) return alert('请填写 PAT，并填写 用户名/仓库名（如 你的用户名/你的用户名.github.io）或点一键建源');
   updateTarget = oldName;
-  $('updf').value='';
-  $('updf').click();
+  if(typeof window.pickDeb==='function'){
+    window.pickDeb().then(l=>{
+      if(!l||!l.length){ updateTarget=null; return; }
+      __doUpdate(b64ToFile(l[0]));
+    });
+    return;
+  }
+  // 浏览器环境：临时 input，用完即弃
+  const inp=document.createElement('input'); inp.type='file';
+  inp.onchange=e=>{ const f=e.target.files&&e.target.files[0]; if(f) __doUpdate(f); };
+  inp.click();
 }
-$('updf').onchange = async e => {
-  const f = e.target.files && e.target.files[0];
+async function __doUpdate(f){
   if(!f) return;
   if(!/\.deb$/i.test(f.name)) return alert('请选择 .deb 文件');
   const old = updateTarget; updateTarget = null;
