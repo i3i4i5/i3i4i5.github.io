@@ -19,6 +19,23 @@ Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 
+Package: com.local.bgnetwork
+Architecture: iphoneos-arm64e
+Version: 1.3.8-rh
+Priority: optional
+Section: Tweaks
+Maintainer: Minis
+Depends: firmware (>= 15.5)
+Filename: debs/pkg_1793368597863.deb
+Size: 34932
+MD5sum: 717b95901c4969a3033251ba38a129f6
+SHA1: 4343914554c67dab76a26020f643eb53ef02c690
+SHA256: b40298d846211194f85853c20dac5e699037882b84099663c0680473ef04834c
+SHA512: 87538c718c465003e415e3a97f8b5bad1d7b2acc2ec4689bf381356eaa909151e2c635c374eaed996c2f7be6774b0276920377d1b62425354da32b229fe47d8b
+Description: Per-app background network switches (roothide 适配, 8s poll)
+Name: BGNetwork
+Author: Minis
+
 Package: cn.llld.xds
 Architecture: iphoneos-arm64e
 Version: 1.6.10
