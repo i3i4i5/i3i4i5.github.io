@@ -1,3 +1,20 @@
+Package: cn.llld.qsyy
+Architecture: iphoneos-arm64e
+Version: 3.6
+Section: Tweaks
+Maintainer: 来了老弟
+Installed-Size: 8244
+Depends: mobilesubstrate
+Filename: debs/FT_3.6-roothide.deb
+Size: 5646586
+MD5sum: b177154afe43f5ae092f3e9c68079128
+SHA1: 78c10086da725a5d5b6eeea22bfe0a0352e37e4a
+SHA256: 528c94e6e48b8fb19e86add006eccd996cfc14e361346ac3f9b284675adc72de
+SHA512: e4f907dc646d912820f5a5b20f272288aa41172112ed93e1e261d0aeeea5b9f56d07cbc82c3714ddf067f5d58f9e506f44792a0cc2cf3b1afb072e8e47e4502b
+Description: 悬浮窗批量替换改文字与翻译工具等
+Name: FT悬浮文本增强替换翻译汉化
+Author: 来了老弟
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
