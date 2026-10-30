@@ -188,6 +188,32 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64
+Version: 1.5.1
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 652
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_1.5.1_iphoneos-arm64.deb
+Size: 182028
+MD5sum: c17b81b57ccf746243c9fb750774f246
+SHA1: 9d7b446be1e424aea5e681e59115e377f3bc7347
+SHA256: 68302b43a81fd0fed9222ce853b8db71bc07e95516b0ea1f913f648ead29babb
+SHA512: 04180c0d3f80180bb3d610cdca32c574bc7a24707941846dec9fd17a6ca0945be906d141843cc1380fc0a2c5e0e3279755237c0d61f352dc50039bddea1d3a2a
+Description: 可自定义锁屏时钟渐变色的美化插件。
+ 【注意】
+  - 本插件只适配「兔子 88 液态锁屏时间」，其他锁屏样式请自测
+ 【核心功能】
+  - 为锁屏时间字体添加自定义渐变配色
+  - 可调节渐变方向与颜色
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 设置路径：设置 → LockScreen Gradient Clock
+  - 本包为 Rootless（arm64）版
+Name: LockScreen Gradient Clock
+Author: MoWang
+
 Package: com.zegeyoudaoli.home27
 Architecture: iphoneos-arm64e
 Version: 2.1.62
