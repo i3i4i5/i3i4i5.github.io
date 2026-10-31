@@ -106,5 +106,9 @@
   "OneSettings系统设置美化_2.2.1_iphoneos-arm64e.deb": {
     "name": "设置美化",
     "desc": "设置美化，插件归类，条目隐藏"
+  },
+  "MarkFont字体管理器-Roothide_0.3.8_iphoneos-arm64e.deb": {
+    "name": "字体管理器",
+    "desc": "更换系统字体，带预览"
   }
 }
