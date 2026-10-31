@@ -1,6 +1,53 @@
 {
-  "keep": [
-    "其它"
+  "sections": [
+    {
+      "name": "其它",
+      "orig": "其它",
+      "pkgs": [
+        "-com.axs.appselect",
+        "-byg.iosios.net.autofillfix",
+        "-com.axs.axon",
+        "-byg.iosios.net.ccborder.new",
+        "-com.dao.ccless",
+        "-com.opa334.choicys",
+        "-cn.octoforce.copyvault",
+        "-byg.iosios.net.denyphotoalbumsllld.rootless"
+      ]
+    },
+    {
+      "name": "牛逼",
+      "orig": "",
+      "pkgs": [
+        "byg.iosios.net.autofillfix",
+        "com.axs.axon",
+        "byg.iosios.net.ccborder.new",
+        "com.dao.ccless",
+        "com.opa334.choicys",
+        "cn.octoforce.copyvault"
+      ]
+    },
+    {
+      "name": "太牛逼",
+      "orig": "",
+      "pkgs": [
+        "com.yourepo.axs.fv",
+        "cn.zqbb.fix120hz",
+        "com.cydiabc.fontmanager-roothide",
+        "byg.iosios.net.onesettings"
+      ]
+    },
+    {
+      "name": "非常牛逼",
+      "orig": "",
+      "pkgs": [
+        "byg.iosios.net.denyphotoalbumsllld.rootless",
+        "cn.zqbb.fix120hz",
+        "com.axs.ipslog",
+        "com.cydiabc.fontmanager-roothide",
+        "byg.iosios.net.onesettings",
+        "byg.iosios.net.recordpause"
+      ]
+    }
   ],
   "other": "其它"
 }
