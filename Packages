@@ -321,6 +321,26 @@ Author: PoomSmart
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: cn.llld.snapshottool
+Architecture: iphoneos-arm64e
+Version: 4.7.0.30
+Section: rootless应用插件
+Maintainer: 来了老弟
+Installed-Size: 1856
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/STTool_4.7.0.30_iphoneos-arm64e.deb
+Size: 735212
+MD5sum: d50fc07975b2582632a66353c12084f2
+SHA1: 4d01fd1980670286c68c6004b2a38981870ad2f2
+SHA256: df4535733413aa09ac345e3529bd925cc67cf9e95caf3c2dba2ea55a18deb255
+SHA512: 8e9193f78357c03b45a4edb6e47db83ce1f27a325d3b3bad6934da274fd9e3a709b77c2940a30139970cea755a94de7b4f3a9f810e8f4e44c86bb2213b85db23
+Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
+Name: STTool
+Author: 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/SnapshotToolprefs.bundle/icons-llld/SnapshotTool.png
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshottool/snapshottool.json
+
 Package: byg.iosios.net.sleeperx
 Architecture: iphoneos-arm64e
 Version: 3.0.5
