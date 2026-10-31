@@ -38,6 +38,25 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/appselect.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
 
+Package: byg.iosios.net.autofillfix
+Architecture: iphoneos-arm64e
+Version: 0.1
+Section: 杂七杂八
+Maintainer: 搬运工
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/Auto短信验证码自动填充-Rootless_0.1_iphoneos-arm64e.deb
+Size: 4300
+MD5sum: 85ef05c586648042a7e0d74dabd1ffa6
+SHA1: be497b8d395cb7e7ad6f3e58611b5119bec96aed
+SHA256: 38d8653521c912e1fd6932139c3556768a2918b2696fe3ffdc27688d0e27d267
+SHA512: cc36941b9fcc48122972782f7f312d2714810f14de9626c11160e0e585774a3ec8659682c5ee66a00f6221f8206a697cfe155b141c9d4e8ac8cea6f5a05ea3c4
+Description: 短信验证码自动填充
+Name: 短信验证码自动填充
+Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
