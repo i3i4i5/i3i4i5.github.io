@@ -257,6 +257,28 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/ips.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
 
+Package: com.cydiabc.fontmanager-roothide
+Architecture: iphoneos-arm64e
+Version: 0.3.8
+Section: Roothide
+Maintainer: Hmmzzz
+Installed-Size: 2512
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt, com.hmmzzz.fontmanager
+Filename: debs/MarkFont字体管理器-Roothide_0.3.8_iphoneos-arm64e.deb
+Size: 494992
+MD5sum: 25282243750a3839b62de907ce886efe
+SHA1: a9b15d99502a6cd56f7a6ec1d013fc2a5777b94a
+SHA256: e3d450c0e607e0fe04d822b1d8de912cb3915b459a29d2a2dacf531931ad1bd9
+SHA512: d87dec7ae0f5d6286a36d43c6196001351ba75d75a379bf6d59c3312d64377ec4339a6dc66eb807dfbfbd139a03098b6e09ffdc82a8394b338abd96e2f0c09c1
+Description: 更换系统字体，带预览
+A12: 1
+Name: 字体管理器
+Author: Hmmzzz
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 17.png
+
 Package: byg.iosios.net.onesettings
 Architecture: iphoneos-arm64e
 Version: 2.2.1
