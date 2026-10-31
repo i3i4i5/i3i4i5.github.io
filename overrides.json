@@ -122,5 +122,9 @@
   "Snapper_4_5.2.0-45_iphoneos-arm64e.deb": {
     "name": "Snapper4",
     "desc": ""
+  },
+  "SneakyCam_隐私相机_2.2.2_iphoneos-arm64e.deb": {
+    "name": "隐私相机",
+    "desc": "16系统隐根专用，请合理合法使用"
   }
 }
