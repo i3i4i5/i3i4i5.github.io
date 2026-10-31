@@ -78,5 +78,9 @@
   "DenyPhotoAlbums相册增强-Rootless_1.2.1_iphoneos-arm64e.deb": {
     "name": "相册增强",
     "desc": "精简相册"
+  },
+  "Choicy_禁止注入_1.5.2-2_iphoneos-arm64e.deb": {
+    "name": "禁止注入",
+    "desc": "越狱必备"
   }
 }
