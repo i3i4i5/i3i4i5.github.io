@@ -16,6 +16,14 @@ fi
 if [ -f overrides.json ] && command -v python3 >/dev/null 2>&1; then
   python3 scripts/apply-overrides.py || echo "(override 应用跳过)"
 fi
+# 分类白名单：sections.json 里 keep 的保留，其余全部合并到 other
+# 必须在 apply-overrides.py 之后跑（那边可能改 Name/Description），在 gzip 之前跑
+if [ -f sections.json ] && command -v python3 >/dev/null 2>&1; then
+  echo "分类配置: $(head -c 300 sections.json)"
+  if ! python3 scripts/apply-sections.py; then
+    echo "(分类合并失败，Packages 保持原样；请检查 scripts/apply-sections.py)"
+  fi
+fi
 # gzip 必须紧跟 Packages 生成之后，且要确保产物是最新的
 rm -f Packages.gz
 gzip -9 -c Packages > Packages.gz
