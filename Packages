@@ -1,7 +1,7 @@
 Package: com.axs.ahsfilter
 Architecture: iphoneos-arm64e
 Version: 5.2.0-3
-Section: Axs-Tweaks
+Section: 其它
 Maintainer: Axs <qiaozhani000@163.com>
 Installed-Size: 712
 Pre-Depends: rootless-compat (>= 0.9)
@@ -21,7 +21,7 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/ahsfilter/js.json
 Package: com.axs.appselect
 Architecture: iphoneos-arm64e
 Version: 5.2.0-12
-Section: Axs-Tweaks
+Section: 其它
 Maintainer: Axs
 Installed-Size: 456
 Pre-Depends: rootless-compat (>= 0.9)
@@ -60,7 +60,7 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Package: com.axs.axon
 Architecture: iphoneos-arm64e
 Version: 5.2.0-55
-Section: Axs-Tweaks
+Section: 其它
 Maintainer: Axs
 Installed-Size: 552
 Pre-Depends: rootless-compat (>= 0.9)
@@ -258,7 +258,7 @@ SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 Package: com.axs.ipslog
 Architecture: iphoneos-arm64e
 Version: 5.2.0-30
-Section: Axs-Tweaks
+Section: 其它
 Maintainer: Axs <qiaozhani000@163.com>
 Installed-Size: 496
 Depends: preferenceloader
@@ -382,7 +382,7 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Package: com.axs.snapper4
 Architecture: iphoneos-arm64e
 Version: 5.2.0-45
-Section: Axs-Tweaks
+Section: 其它
 Maintainer: Axs <qiaozhini000@163.com>
 Installed-Size: 1620
 Depends: mobilesubstrate, preferenceloader
@@ -512,7 +512,7 @@ Author: 来了老弟
 Package: com.axs.zzfilter
 Architecture: iphoneos-arm64e
 Version: 5.2.0-8
-Section: Axs-Tweaks
+Section: 其它
 Maintainer: Axs <qiaozhani000@163.com>
 Installed-Size: 372
 Pre-Depends: rootless-compat (>= 0.9)
@@ -740,7 +740,7 @@ SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowk
 Package: com.yourepo.axs.wxkeyboarduihook
 Architecture: iphoneos-arm64e
 Version: 1.8
-Section: A-微信插件
+Section: 其它
 Maintainer: Doki <qiaozhani000@163.com>
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0)
