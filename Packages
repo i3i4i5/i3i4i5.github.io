@@ -417,6 +417,25 @@ Name: 鱿鱼键盘
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
 
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64e
+Version: 2.7.6-1
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/SquidGesturePro_激活码_2.7.6-1_iphoneos-arm64e.deb
+Size: 1789204
+MD5sum: bac30e519e873a5e7da193a788ca43f0
+SHA1: 689df976934d326dd71b9f685e11081d98567729
+SHA256: 2c234f59379a05f4b35225c5560b6d62764a286ac25a0b6c812bd437b0195a16
+SHA512: 34cfd1ea045e114b496ed660b2e369af2a560d2b530e9acab7b91bd709f6c50899173329a9ce55e5b3e52639049f56e9868b32079b05b4a792917b28214c4f5c
+Description: 鱿鱼手势正版激活码版
+Name: 鱿鱼手势
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
