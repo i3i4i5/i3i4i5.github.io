@@ -137,6 +137,27 @@ Name: 鱿鱼剪切
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 
+Package: byg.iosios.net.denyphotoalbumsllld.rootless
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Priority: optional
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 709
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Filename: debs/DenyPhotoAlbums相册增强-Rootless_1.2.1_iphoneos-arm64e.deb
+Size: 74968
+MD5sum: 8c9ee416710f02ddf3c3a9761a294e6d
+SHA1: c374242afdd3f3e5bed68369ded49ef9e4409526
+SHA256: b9aa5e79f1371c368a002562fa3aa9a4f2692e97a287ffe1db021e4bedd592e2
+SHA512: 248bfba2773e4c9618d91bda1aefc11b542068a1fba3a69c7c95f80c94053615ef96b2ec2fc216a00c9dbcc4c2b22773aa8f88b62caf7d1229b72a53f88c2798
+Description: 精简相册
+Name: 相册增强
+Author: CydiaGeek
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
