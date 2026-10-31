@@ -42,5 +42,9 @@
   "微信输入法自定义_1.8_iphoneos-arm64e.deb": {
     "name": "微信输入法自定义",
     "desc": "微信输入法自定义颜色圆角之类"
+  },
+  "左滑返回-roothide_2.0-1_iphoneos-arm64e.deb": {
+    "name": "左滑返回",
+    "desc": "左滑返回"
   }
 }
