@@ -114,6 +114,24 @@ Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部
 Name: Sileo APT/DPKG汉化
 Author: Custom
 
+Package: com.yourepo.axs.wxkeyboarduihook
+Architecture: iphoneos-arm64e
+Version: 1.8
+Section: A-微信插件
+Maintainer: Doki <qiaozhani000@163.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/微信输入法自定义_1.8_iphoneos-arm64e.deb
+Size: 82592
+MD5sum: 2781240f9f739938b7d9347154313471
+SHA1: c1e63786c987d0d11ff79c8aac22ae48ff467360
+SHA256: df04f4853438a05a469dc237216ee38bd7055582592d37b6a2db5e6e564c4f6a
+SHA512: b053f73156aa86374c47b67e406f9dac806d14bec099b82cec278c81a66ecb202629fdad91750b2a3ebe617ef7f582f89b875179684d57df63849e5babc0070e
+Description: 微信输入法自定义颜色圆角之类
+Name: 微信输入法自定义
+Author: Doki <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/wechat.png
+
 Package: com.chengnuo.moonfocus
 Architecture: iphoneos-arm64e
 Version: 1.0.0
