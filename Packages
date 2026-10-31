@@ -300,6 +300,27 @@ Author: Nightwind
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.recordpause
+Architecture: iphoneos-arm64e
+Version: 2.0.6
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 200
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: debs/RecordPause录像暂停-Rootless_2.0.6_iphoneos-arm64e.deb
+Size: 13172
+MD5sum: ffa6f6c4be94bd73766949ff6495acc8
+SHA1: 810688aa69cc2bb05d94bd10351f5a699dc6a639
+SHA256: 1f456883191f21ad7528f398bf8be26a7c49ab1bfada0edcfb962843ea61779a
+SHA512: 0da8b42a1bfca5d318a1fd1d6781ed7c6f15a0f6c9228be470f5cb07d3852efaf86123f985aa497b97bb7f042bc97562aa700a6c44d3b7ff37144e4c86498fd5
+Description: 录像暂停
+Name: 录像暂停
+Author: PoomSmart
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
