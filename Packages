@@ -397,6 +397,26 @@ Name: 隐私相机
 Author: Spark
 icon: https://huayuarc.github.io/icon/SneakyCam.png
 
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64e
+Version: 3.7.4
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/SquidExtender_激活码版_3.7.4_iphoneos-arm64e.deb
+Size: 4400488
+MD5sum: 6ae534346619c5f607aa63282333f352
+SHA1: 85431a6ccc485bdb4ee3928343b596481f62f98a
+SHA256: a5334eed285dc0f92de8b31fb0d413ca10a3e599391e063860adbfebd9d37fed
+SHA512: 5cd394559bb7e4cbe9cbfb5f7500f5af1ddfcf16c12ded981bc01854d4ec40b764148fa92bc717a2259d6f1c079d16900772f4f0e685c6d7b30d33062cc5f616
+Description: 鱿鱼键盘正版激活码版
+Name: 鱿鱼键盘
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
