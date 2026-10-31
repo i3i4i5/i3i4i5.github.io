@@ -491,6 +491,24 @@ Name: 触摸轨迹
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/touchtrail.png
 
+Package: cn.llld.urljg.roothide
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Section: RootHide
+Maintainer: 来了老弟
+Installed-Size: 1140
+Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate
+Filename: debs/URL管家隐根1.1.7.deb
+Size: 683880
+MD5sum: b1145d78925018501bd9577b8c89c3a0
+SHA1: 0de6d876f742d63e11782ed00a3da4cbccb8d459
+SHA256: f770f1ae19d85aa973dbc9bdd6e7b6044a0edc53ce98a045c8ae41cce9444b4e
+SHA512: 20dd476682c11b6eeb0c636bacaf5c85eec3d1798a35d4875f6f338bd073cfd66e07b23695ed2e0451b4779362c421588a8b5d7e0cfe973b04b35c7f91c6da54
+Description: URL管家（RootHide 版）— 统一接管本机 URL Scheme（隐藏 / 重定向），支持单应用或者全局，也可防范某些应用检测某东东
+Tag: purpose::uikit, compatible::ios14
+Name: URL管家-隐根
+Author: 来了老弟
+
 Package: com.axs.zzfilter
 Architecture: iphoneos-arm64e
 Version: 5.2.0-8
