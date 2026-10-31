@@ -151,6 +151,24 @@ Author: udevs
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.squidforce.disablepastealert16
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: SquidForce
+Installed-Size: 168
+Filename: debs/禁用iOS16_粘贴警告弹窗和粘贴提醒.deb
+Size: 4028
+MD5sum: 68f8de351524c66732429bb04ccec897
+SHA1: 446b635faeb9d45b4fea778861d82a2907b98471
+SHA256: 5537dbb8474201b30a54cfec84b862531c4be8908494de487053ad4f68a7403d
+SHA512: c21f104d034f8697da0275ac7a2a15adeed5c8e09d818d6da5de38a7d66e9f35d6b5526b9c02caeee3edfe97ad947f3c0b06038520ebb2341b24310810bf3006
+Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
+ 2. 禁用粘贴提醒
+ * 如只需要禁用警告弹窗，可以降级安装版本0.0.1
+Name: 禁用ios16+粘贴警告弹窗和提醒
+Author: SquidForce
+
 Package: com.chengnuo.moonfocus
 Architecture: iphoneos-arm64e
 Version: 1.0.0
