@@ -189,6 +189,26 @@ Name: 微信输入法自定义
 Author: Doki <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/wechat.png
 
+Package: byg.iosios.net.compactbatteryavocado
+Architecture: iphoneos-arm64e
+Version: 2.0.6
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 492
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/电池小组件显示百分比.deb
+Size: 138152
+MD5sum: 6bd090bbfe200c6856a556b71a17b568
+SHA1: 1e48790f64378b825ef3a63758a235dcbd1a4f66
+SHA256: f8b90414cde3f0fc844db8488ce52b8f3a01fddafc0bb5698aa2937a85015793
+SHA512: 653201b4287dc137f45811729fe038b4315f248cc2573fe35434a1446f2031b433948d9270519b65d17358baf20e5b25093e2634f8713882413ff7e4eec763ff
+Description: 手机，手表，耳机等各种蓝牙连接设备显示电量百分比
+Name: 电池小组件
+Author: udevs
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.chengnuo.moonfocus
 Architecture: iphoneos-arm64e
 Version: 1.0.0
