@@ -1,8 +1,18 @@
 {
   "sections": [
     {
-      "name": "插件",
-      "orig": "插件",
+      "name": "QQ",
+      "orig": "QQ",
+      "pkgs": []
+    },
+    {
+      "name": "微信",
+      "orig": "微信",
+      "pkgs": []
+    },
+    {
+      "name": "陌陌",
+      "orig": "陌陌",
       "pkgs": []
     }
   ]
