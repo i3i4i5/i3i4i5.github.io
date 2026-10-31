@@ -167,6 +167,7 @@ function log(msg){ const el=$('log'); el.style.display='block'; el.textContent +
 // 也容忍整条 GitHub 链接、带 .git 后缀、首尾空格与斜杠
 // 仓库字符串只解析一次：容忍整条链接、.git 后缀、首尾空格斜杠
 let _repoCache = null;
+let _repoErr = '';
 function repoClean(){
   const raw = $('repo').value.trim();
   if (raw === _repoCache) return _repoCache.val;
@@ -178,13 +179,26 @@ function repoClean(){
     .replace(/^\/+|\/+$/g,'');
   // 只保留 owner/repo 两段：/repo、/tree/main、/blob/x 之类的尾巴全部丢掉
   const seg = val.split('/').filter(Boolean);
+  // 关键：被丢掉的尾巴里如果有中文，说明用户把页面提示文字（如「源地址」）当成地址粘进来了，
+  // 静默截断会让他以为填对了。这里必须显式报错。
+  const dropped = seg.slice(2).join('/');
+  if(/[\u4e00-\u9fa5]/.test(dropped)){
+    throw new Error('地址里带了中文「'+dropped+'」，那是页面上的提示文字，请只填 用户名/仓库名，例如 99234997/99234997.github.io');
+  }
+  // 中文出现在前两段里，同样是粘了提示文字（如 xxx.github.io/源地址）
+  const head = seg.slice(0,2).join('/');
+  if(/[\u4e00-\u9fa5]/.test(head)){
+    throw new Error('地址「'+head+'」含中文，请只填真实的 用户名/仓库名，例如 99234997/99234997.github.io');
+  }
   if (seg.length > 2) val = seg[0] + '/' + seg[1];
   else val = seg.join('/');
   _repoCache = {raw, val};
   return val;
 }
-function repoOwner(){ return repoClean().split('/')[0] || ''; }
-function repoNameOnly(){ const p = repoClean().split('/').filter(Boolean); return p.length>=2 ? p[1] : ''; }
+// repoClean 可能因输入含中文而抛错；这里统一兜底，避免事件处理里直接崩掉，
+// 同时把错误留在 _repoErr 供上层提示。
+function repoOwner(){ try{ return repoClean().split('/')[0] || ''; }catch(e){ _repoErr = e.message; return ''; } }
+function repoNameOnly(){ try{ const p = repoClean().split('/').filter(Boolean); return p.length>=2 ? p[1] : ''; }catch(e){ _repoErr = e.message; return ''; } }
 // 兼容旧名：repo() / fullRepo() 统一指向 repoClean()
 const repo = repoClean, fullRepo = repoClean;
 function tok(){ return $('token').value.trim(); }
@@ -276,7 +290,18 @@ function nativeCall(fullUrl, method, body){
       return reject(new Error('仓库名「'+m[1]+'/'+m[2]+'」含中文，请改成真实账号，例如 zhayegou-ui/zhayegou-ui.github.io'));
     }
     const id = ++__abi;
+    // 兜底超时：原生 30s 应已返回，这里防回调丢失导致 Promise 永久挂起、按钮卡死
+    let settled = false;
+    const timer = setTimeout(()=>{
+      if(settled) return;
+      settled = true;
+      delete window.__apiCb[id];
+      reject(new Error('请求超时（45 秒），网络可能不稳定'));
+    }, 45000);
     (window.__apiCb = window.__apiCb || {})[id] = (res)=>{
+      if(settled) return;
+      settled = true;
+      clearTimeout(timer);
       delete window.__apiCb[id];
       let txt = '';
       try{ txt = decodeURIComponent(escape(atob(res.body || ''))); }catch(e){ txt = ''; }
@@ -406,13 +431,14 @@ function encPath(n){
 
 function safeDebName(n){
   let s = String(n);
-  // 保留扩展名 .deb
   let ext = '';
   const m = s.match(/\.[A-Za-z0-9]+$/);
   if(m){ ext = m[0]; s = s.slice(0, -ext.length); }
-  // 只保留 ASCII 字母数字 . _ -
-  s = s.replace(/[^A-Za-z0-9._-]/g, '_');
-  s = s.replace(/_+/g, '_').replace(/^_+|_+$/g, '');
+  // 中文文件名 GitHub 和 Sileo 都能正常处理，不要清成下划线（会丢掉包名信息）。
+  // 只替换真正会破坏 URL 或 shell 的字符。
+  s = s.replace(/[\/\\?#%&'"`<>|:*]/g, '_');
+  // 折叠多余下划线，但保留中文
+  s = s.replace(/_{2,}/g, '_').replace(/^_+|_+$/g, '');
   if(!s) s = 'pkg_' + Date.now();
   return s + ext.toLowerCase();
 }
@@ -887,8 +913,7 @@ $('createbtn').onclick = async () => {
     let me = null, ures = null;
     try{ ures = await gh('https://api.github.com/user'); me = await ures.json(); }
     catch(e){
-      fail(0, '网络错误，请检查网络后重试：' + (e.message||e));
-      return;
+      throw [0, '网络错误，请检查网络后重新点击「建源」：' + (e.message||e)];
     }
     if(ures.status === 401) throw [0, 'PAT 无效或已被吊销：请到 github.com/settings/tokens 重新生成（勾选 repo 和 workflow），再粘贴到上方 PAT 输入框'];
     if(ures.status === 403) throw [0, 'PAT 权限不足或触发频率限制（HTTP 403）：请确认勾选了 repo 和 workflow' + ((me&&me.message)?'（'+me.message+'）':'')];
@@ -897,7 +922,11 @@ $('createbtn').onclick = async () => {
 
     // ── 2. 确定目标仓库（owner/repo 格式）
     setStep(1,'cur');
+    _repoErr = '';
     const nOwn = repoOwner(), nName = repoNameOnly();
+    // 输入框里粘了页面提示文字（如末尾多了「源地址」）时，解析会把中文尾巴丢掉，
+    // 之前会静默通过并生成一个错误地址，这里必须明确报错。
+    if(_repoErr) throw [1, _repoErr];
     if(!nOwn || !nName) throw [1, '请填写完整的 用户名/仓库名，如 你的用户名/你的用户名.github.io'];
     // 用户没改输入框里的提示文字时，owner 会变成「你的用户名」这种中文，直接拦下
     if(/[^\x00-\x7F]/.test(nOwn + '/' + nName)){
@@ -1074,8 +1103,12 @@ $('createbtn').onclick = async () => {
     const [i,msg] = Array.isArray(err) ? err : [steps.findIndex(s=>s.state==='cur'), err.message||String(err)];
     fail(i<0?steps.length-1:i, msg);
     log('✗ '+msg);
+    // 网络类失败给一句明确的下一步，别让人以为卡死了
+    if(/网络|超时|timed|Network|fetch/i.test(msg)) log('→ 网络恢复后可直接再点一次「建源」，会从头重试');
+  }finally{
+    // 无论成功失败，按钮一定恢复可点，允许二次操作
+    btn.disabled = false; btn.textContent = '一键建源';
   }
-  btn.disabled = false; btn.textContent = '一键建源';
 };
 
 function buildRepoFiles(owner, srcName){
@@ -1101,8 +1134,15 @@ else
   SCAN="$(mktemp -d)/debs"; mkdir -p "$SCAN"; cp -f "$DEBS_ABS"/*.deb "$SCAN"/ 2>/dev/null || true
   apt-ftparchive packages "$SCAN" | sed "s#^Filename: .*/#Filename: debs/#" > Packages
 fi
-[ -f overrides.json ] && command -v python3 >/dev/null 2>&1 && python3 scripts/apply-overrides.py
-gzip -9 -kf Packages
+# 注意：脚本开启了 set -e，可选的 override 步骤必须用 if 包裹，
+# 否则没有 overrides.json 时 [ -f ] 返回 1 会让整个脚本提前退出，
+# 导致 Packages.gz / Release 停留在旧状态，源刷新时报哈希不匹配。
+if [ -f overrides.json ] && command -v python3 >/dev/null 2>&1; then
+  python3 scripts/apply-overrides.py || echo "(override 应用跳过)"
+fi
+# gzip 必须紧跟 Packages 生成之后，且要确保产物是最新的
+rm -f Packages.gz
+gzip -9 -c Packages > Packages.gz
 gen_hashes(){ local alg="$1"; shift; local f; for f in "$@"; do [ -f "$f" ] || continue;
   local size; size=$(wc -c < "$f" | tr -d ' '); local h;
   case "$alg" in md5) h=$(md5sum "$f"|awk '{print $1}');; sha256) h=$(sha256sum "$f"|awk '{print $1}');; esac
