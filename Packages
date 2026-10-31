@@ -179,6 +179,24 @@ Author: CydiaGeek
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.dao.filzacrack
+Architecture: iphoneos-arm64e
+Version: 1.1-9
+Section: 嗨-工具
+Maintainer: Nets
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: debs/Filza_Crack_RootHide_1.1-9_iphoneos-arm64e.deb
+Size: 28900
+MD5sum: 6afc512709f15f3e7bf49bbf3b01a2b2
+SHA1: 8143aa905e061fb914d95bde9c45477e16630a23
+SHA256: 062d468bd29cbf80fd543ba9064173464d8dc6f4bc936e774805ece0d486e6d2
+SHA512: 7bcf9fce7c510d6753afc6bda5ade6cb7845168fe9f6d152ca31f50b0e37f4ca20ec6978bdbc1eef344c342cd2d8619c7fcbcca0e3f9fdee0eda9c68610a378d
+Description: filza破解插件，安装正版filza后使用
+Name: filza破解插件
+Author: Netskao
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
