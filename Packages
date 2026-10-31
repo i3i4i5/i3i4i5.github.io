@@ -1,3 +1,23 @@
+Package: com.axs.ahsfilter
+Architecture: iphoneos-arm64e
+Version: 5.2.0-3
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 712
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/AhsFilter_5.2.0-3_iphoneos-arm64e.deb
+Size: 128944
+MD5sum: 9a9bba17dc14ee3fd79f780db1868dd9
+SHA1: 9edb3c1343d53d2fb120ff8b0410e9165c869721
+SHA256: 030252a386e7ee2b908492cf9e05223fcfa681d7999c663d885ccd2d64c2f907
+SHA512: a11b52c6634ce58476f53f9436d90741fc923ce8b65be49adbcfac985b200b1a5d074789ac174f954b52ac2ea99990ee09912fd4dfd220a22a5ceb9dbde8ee61
+Description: 爱回收筛选
+Name: 爱回收
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ahsfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ahsfilter/js.json
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
