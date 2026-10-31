@@ -66,5 +66,9 @@
   "CCBorder控制中心美化_1.1.2-39_iphoneos-arm64e.deb": {
     "name": "控制中心美化",
     "desc": "控制中心美化"
+  },
+  "CCLess_RootHide_2.1.0.1_iphoneos-arm64e.deb": {
+    "name": "控制中心增强",
+    "desc": "为控制中心增加各种功能，强烈推荐"
   }
 }
