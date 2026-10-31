@@ -36,25 +36,6 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
-Package: cn.zqbb.disupdateapp
-Architecture: iphoneos-arm64e
-Version: 2.0.0-6
-Section: Tweaks
-Maintainer: zqbb
-Installed-Size: 720
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: debs/Hello_App_2.0.0-6_iphoneos-arm64e.deb
-Size: 129496
-MD5sum: 1ffac59475e9f8db23291e9d98b274e1
-SHA1: 3dbb63e8cdee419332e91f88e9cb34c8473692f7
-SHA256: dda02b002d33788f8dcaf5063052935e69969cb93f41ef5283e42cd8586e86bd
-SHA512: 8b07de066b2f204967940a02268a9f2b03c8b1e45ff6c51fc325591eb189f4c59b58302dad547b81cc2c7cde49cb0bbf1a492995ee29a0245ad3f0fe0d5ce981
-Description: 屏蔽App Store更新提示(Block App Store Updates)!
-Name: Hello App
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
-
 Package: xyz.cypwn.sneakycam
 Architecture: iphoneos-arm64e
 Version: 2.2.2
