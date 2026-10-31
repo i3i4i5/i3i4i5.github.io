@@ -118,6 +118,27 @@ Name: 控制中心增强
 Author: 妖刀
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
+Package: com.opa334.choicys
+Architecture: iphoneos-arm64e
+Version: 1.5.2-2
+Section: opa334
+Maintainer: opa334
+Installed-Size: 888
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy
+Filename: debs/Choicy_禁止注入_1.5.2-2_iphoneos-arm64e.deb
+Size: 164204
+MD5sum: d2b814d3719d0258b14d10a2a2bd2066
+SHA1: 12315ccbbcbe5d7a75fa29799b040451a22cfd32
+SHA256: 46efdf4f25532e09be1c9959140e0d34f9997cd4f48ac18d0728ca96f9d50fa4
+SHA512: 5a8600477dce5c2e1eadf8307617f8d4951d9d0ed67c863c2d23a2a2fd357880454823abdef4a0733aa1a0281ee629ef4298a832fae9706cf049a9f8e43dfbed
+Description: 越狱必备
+Name: 禁止注入
+Author: opa334
+icon: https://TrollStoreX.Github.io/sileodepiction/Choicy/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Choicy/js.json
+
 Package: cn.octoforce.copyvault
 Architecture: iphoneos-arm64e
 Version: 1.9.0
