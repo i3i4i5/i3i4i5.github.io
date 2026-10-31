@@ -57,6 +57,27 @@ Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.axs.axon
+Architecture: iphoneos-arm64e
+Version: 5.2.0-55
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 552
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: debs/Axon_5.2.0-55_iphoneos-arm64e.deb
+Size: 68232
+MD5sum: 54508825ca1fbc7d4a3c9799cde527c9
+SHA1: 1197d833ca5ba786dbd2f6b7d2039702682ca415
+SHA256: 3db5f4bed6619300f1ac2be101bae0d0d17b62666b7f3198011e309b662924fe
+SHA512: 0bde87d393c5d3b5ba6d96905bdd2873d876cc1494682e5f44af43361f1387eb68a41da0f631945efd019a4922aefad952f3203f4991b860e32f5774a033a1dd
+Description: 通知美化，按app收纳通知
+Name: 通知美化
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/axon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
