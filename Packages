@@ -299,6 +299,23 @@ Author: Ivano Bilenchi
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.roothide.lockdown
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: Tweaks
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/lockdown_2.0_iphoneos-arm64e.deb
+Size: 5372
+MD5sum: c279473c07a0ddcf4a6958a1a3cb7e7b
+SHA1: 3864fdf199fadefa87a8e7f98a63fa71191124f2
+SHA256: 0a1f43ab41136fcbced87a4c233e051c018fd7bfd59e760d1ce7ea47c0064f3b
+SHA512: 3d017e9c1db47f3fe56628de7b53b15338767e9735cd99f02d55e3ee29ba8f88eb6318bf70877091489b97fb6920a50939ee379a114ca2aff76b744c470e09eb
+Description: 防止漏洞入侵
+Name: lockdown
+Author: roothide
+
 Package: cn.llld.xds
 Architecture: iphoneos-arm64e
 Version: 1.6.11
