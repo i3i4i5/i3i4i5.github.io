@@ -983,7 +983,10 @@ $('createbtn').onclick = async () => {
       setStep(3,'cur', `${okN+1}/${paths.length}　${path}`);
       const content = files[path];
       // 图标是二进制（base64 原文），其余是文本
-      const enc = (path === 'CydiaIcon.png' && iconData) ? iconData : b64(new TextEncoder().encode(content));
+      // iconData 是 dataURL（data:image/png;base64,xxx），GitHub 只要逗号后面的纯 Base64
+      const enc = (path === 'CydiaIcon.png' && iconData)
+        ? String(iconData).replace(/^data:[^,]*,/, '')
+        : b64(new TextEncoder().encode(content));
       let sha=null;
       try{
         const gr = await gh(`https://api.github.com/repos/${owner}/${repoName}/contents/${path}`);
