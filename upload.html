@@ -269,10 +269,11 @@ let __abi = 0;
 // 原生通道底层：发请求拿回 {status, text}，不做解释
 function nativeCall(fullUrl, method, body){
   return new Promise((resolve, reject)=>{
-    // NSURLSession 遇到中文/空格会报 "bad url"，在这里提前拦下并说清原因
-    if(/[^\x00-\x7F]/.test(fullUrl)){
-      const bad = fullUrl.match(/[^\x00-\x7F]+/g);
-      return reject(new Error('请求地址含中文或非法字符「'+(bad?bad[0]:'')+'」，请检查仓库名是否填了「你的用户名/你的用户名.github.io」这类提示文字，应改成真实账号，例如 zhayegou-ui/zhayegou-ui.github.io'));
+    // 只校验 owner/repo 两段：GitHub Contents API 的路径段允许中文文件名（必须原样传，不能编码），
+    // 真正会导致 NSURLSession "bad url" 的是仓库名里混进了中文占位文字。
+    const m = fullUrl.match(/^https:\/\/api\.github\.com\/repos\/([^/]+)\/([^/]+)/);
+    if(m && /[^\x00-\x7F]/.test(m[1] + '/' + m[2])){
+      return reject(new Error('仓库名「'+m[1]+'/'+m[2]+'」含中文，请改成真实账号，例如 zhayegou-ui/zhayegou-ui.github.io'));
     }
     const id = ++__abi;
     (window.__apiCb = window.__apiCb || {})[id] = (res)=>{
@@ -397,8 +398,10 @@ async function saveOverride(filename, name, desc){
 // GitHub Contents API 不接受编码后的路径，文件名里也不能有会被解析歧义的字符
 
 // 把仓库里已有的文件名做成安全的 URL 路径段（单次百分号编码）
+// GitHub Contents API 的路径段必须原样传：中文、空格、+、括号都不能编码，
+// 编码后会被当成字面文件名去找，返回 404。这里只做最小安全处理。
 function encPath(n){
-  try{ return encodeURIComponent(String(n)); }catch(e){ return String(n); }
+  return String(n).replace(/#/g, '%23').replace(/\?/g, '%3F');
 }
 
 function safeDebName(n){
@@ -529,14 +532,19 @@ async function __doUpdate(f){
   if(btn){ btn.disabled=true; btn.textContent='更新中…'; }
   try{
     log(`\n=== 更新 ${old} → ${f.name} ===`);
-    const oldSha = (await api(`/contents/debs/${encPath(old)}`)).sha;
-    log(`删除旧文件 ${old} …`);
-    await api(`/contents/debs/${encPath(old)}`,'DELETE',{sha:oldSha, message:`replace ${old}`, branch:'main'});
+    // 顺序很重要：先把新文件传上去，成功后再删旧文件。
+    // 反过来的话，一旦上传失败旧包已经被删，源里就直接空了，无法恢复。
     log(`上传新文件 ${f.name} …`);
     const path=`debs/${f.name}`;
     let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
     await api(`/contents/${path}`,'PUT',{content:b64(new Uint8Array(await f.arrayBuffer())),
       message:`update ${old} -> ${f.name}`, branch:'main', ...(sha?{sha}:{})});
+    log(`  ✓ 新文件已传好，正在删除旧文件 ${old} …`);
+    if(old !== f.name){
+      const oldSha = (await api(`/contents/debs/${encPath(old)}`)).sha;
+      await api(`/contents/debs/${encPath(old)}`,'DELETE',{sha:oldSha, message:`replace ${old}`, branch:'main'});
+      log(`  ✓ 旧文件已删除`);
+    }
     // 名称/描述跟随新文件名
     if(old !== f.name){
       try{
@@ -1099,7 +1107,7 @@ $('delmultibtn').onclick = async ()=>{
     for(const c of checked){
       try{
         log(`删除 ${c.dataset.name} …`);
-        await api(`/contents/debs/${c.dataset.name}`,'DELETE',
+        await api(`/contents/debs/${encPath(c.dataset.name)}`,'DELETE',
           {sha:c.dataset.sha, message:`delete ${c.dataset.name}`, branch:'main'});
         ok++; log('  ✓');
       }catch(e){ fail++; log(`  ✗ ${e.message}`); }
