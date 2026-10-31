@@ -809,6 +809,15 @@ $('createbtn').onclick = async () => {
         if(!et.includes('already exists')) throw [2,'新建仓库失败 HTTP '+cr.status+'：'+et.slice(0,160)];
         setStep(2,'done','仓库已存在，继续初始化');
       }else{
+        // 不能只看 ok：立刻回查一次确认真实存在，否则后续写文件会莫名 404
+        let confirmed = false;
+        for(let k=0;k<5;k++){
+          await new Promise(r=>setTimeout(r,1500));
+          const v = await gh(`https://api.github.com/repos/${owner}/${repoName}`);
+          if(v.ok){ confirmed = true; break; }
+          if(v.status !== 404) break;
+        }
+        if(!confirmed) throw [2, '新建仓库返回成功但回查不到 '+owner+'/'+repoName+'，请确认仓库名是否合法（只能英文、数字、点、下划线、连字符）'];
         exists = true;
         setStep(2,'done','仓库已创建');
       }
