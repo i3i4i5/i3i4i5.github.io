@@ -884,6 +884,10 @@ $('createbtn').onclick = async () => {
   const renameOnly = (ans.mode === 'rename');
   const forceName = renameOnly || !!ans.force;
   const iconData = ans.icon || null;
+  // 兜底：名称留空或为「未命名」时，用「owner 的源」，
+  // 否则 Release 里会写 Origin: 未命名，商店显示成「未命名的软件源」。
+  srcName = String(srcName || '').trim();
+  if(!srcName || /^未命名$/.test(srcName)) srcName = (repoOwner() || '我的') + ' 的源';
   // 源名称会写进 bash 脚本的双引号里，必须转义反斜杠、双引号、$ 和反引号
   srcName = String(srcName).replace(/\\/g,'\\\\').replace(/"/g,'\\"').replace(/\$/g,'\\$').replace(/`/g,'\\`');
   btn.disabled = true; btn.textContent = '创建中…';
@@ -1206,9 +1210,19 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y apt-utils dpkg-dev
       - name: Build index
         env:
-          REPO_URL: https://\${{ github.repository_owner }}.github.io/\${{ github.event.repository.name }}/
+          GH_OWNER: \${{ github.repository_owner }}
+          GH_REPO: \${{ github.event.repository.name }}
         run: |
           set -e
+          # 仓库名就是 owner.github.io 时，Pages 地址是 https://owner.github.io/
+          # 否则是 https://owner.github.io/repo/ —— 拼错会让 Release 的 Support 变成重复路径
+          if [ "$GH_REPO" = "$GH_OWNER.github.io" ]; then
+            REPO_URL="https://$GH_OWNER.github.io/"
+          else
+            REPO_URL="https://$GH_OWNER.github.io/$GH_REPO/"
+          fi
+          export REPO_URL
+          echo "源地址: $REPO_URL"
           bash scripts/make-index.sh || { echo "::error::make-index.sh 失败"; exit 1; }
           echo "---- 生成的 Packages ----"; cat Packages
       - name: Commit and push
