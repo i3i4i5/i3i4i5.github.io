@@ -50,5 +50,9 @@
   "AhsFilter_5.2.0-3_iphoneos-arm64e.deb": {
     "name": "爱回收",
     "desc": "爱回收筛选"
+  },
+  "AppSelect_5.2.0-12_iphoneos-arm64e.deb": {
+    "name": "跳转拦截",
+    "desc": "设置各种app跳转指向"
   }
 }
