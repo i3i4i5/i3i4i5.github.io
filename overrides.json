@@ -62,5 +62,9 @@
   "Axon_5.2.0-55_iphoneos-arm64e.deb": {
     "name": "通知美化",
     "desc": "通知美化，按app收纳通知"
+  },
+  "CCBorder控制中心美化_1.1.2-39_iphoneos-arm64e.deb": {
+    "name": "控制中心美化",
+    "desc": "控制中心美化"
   }
 }
