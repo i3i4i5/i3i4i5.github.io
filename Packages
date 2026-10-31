@@ -132,22 +132,6 @@ Architecture: iphoneos-arm64e
 Version: 1.0.4
 Section: Tweaks
 Maintainer: L.E
-Filename: debs/pkg_1793377545578.deb
-Size: 12348
-MD5sum: bbbe07e25450d88ff371ae754ffccab5
-SHA1: c2b3d361f28c7d6f963ea28d1ea54b4b7e467470
-SHA256: 594c7d41a1549c62f943a199c9c005af5d60d098a1dc40433eb189ccc79ec314
-SHA512: 0701c5eb08bfa4059a455871ef13ac957b430ff5b266d82b75f968a7a7c9da4037cbee4ce5e6e5c9e38505d942a89702d2bbf69997459ddf078349fbe896f932
-Description: Hide notification group header and footer controls with zero occupancy. No preferences.
-Tag: role::enduser
-Name: 隐藏通知清除按钮
-Author: L.E
-
-Package: com.minis.hidencheaders
-Architecture: iphoneos-arm64e
-Version: 1.0.4
-Section: Tweaks
-Maintainer: L.E
 Filename: debs/pkg_1793377638883.deb
 Size: 12348
 MD5sum: bbbe07e25450d88ff371ae754ffccab5
