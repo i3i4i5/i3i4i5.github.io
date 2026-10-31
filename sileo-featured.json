@@ -1,12 +1,12 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{330, 186}",
+  "itemSize": "{358, 201}",
   "itemCornerRadius": 12,
   "banners": [
     {
       "url": "https://i3i4i5.github.io/banner.png",
-      "title": "一键建源 · 常用插件精选整理",
-      "hideShadow": false
+      "title": "",
+      "hideShadow": true
     }
   ]
 }
