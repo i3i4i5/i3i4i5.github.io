@@ -46,5 +46,9 @@
   "左滑返回-roothide_2.0-1_iphoneos-arm64e.deb": {
     "name": "左滑返回",
     "desc": "左滑返回"
+  },
+  "AhsFilter_5.2.0-3_iphoneos-arm64e.deb": {
+    "name": "爱回收",
+    "desc": "爱回收筛选"
   }
 }
