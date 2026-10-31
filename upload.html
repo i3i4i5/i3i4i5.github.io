@@ -403,6 +403,43 @@ async function gh(url, method='GET', body, headers){
 function b64(u8){ let s=''; const C=0x8000;
   for(let i=0;i<u8.length;i+=C) s+=String.fromCharCode.apply(null,u8.subarray(i,i+C)); return btoa(s); }
 
+// 取某个文件当前的 blob sha（用于覆盖写）。
+// 注意：不能用 /contents/<path> —— 它会把整个文件内容一起返回（图标 470KB、deb 几 MB），
+// 弱网下读不全就拿不到 sha，PUT 会退化成「新建」，对已存在文件必然 422。
+// 这里用 git/trees，只返回路径+哈希。
+let __treeCache = { key:'', at:0, map:null };
+// repo 参数必须显式传入：主流程用的是弹窗里填的 owner/repoName，
+// 而 fullRepo() 读的是页面输入框，两者在「弹窗里改过仓库名」时并不相同。
+async function getSha(path, repo, force){
+  const key = repo || fullRepo();
+  if(force || !__treeCache.map || __treeCache.key !== key || Date.now() - __treeCache.at > 20000){
+    let map = {};
+    let lastErr = null;
+    for(let i=0;i<3;i++){
+      try{
+        const r = await gh(`https://api.github.com/repos/${key}/git/trees/main`);
+        if(!r.ok){
+          if(r.status === 404){ lastErr = null; break; }   // 仓库空/分支还没有内容
+          throw new Error('HTTP '+r.status);
+        }
+        const j = await r.json();
+        for(const e of ((j&&j.tree)||[])) map[e.path] = e.sha;
+        lastErr = null;
+        break;
+      }catch(e){
+        lastErr = e;
+        await new Promise(r=>setTimeout(r, 600*(i+1)));
+      }
+    }
+    // 三次都失败：宁可报错，也不要按「新建」提交后再撞 422
+    if(lastErr) throw new Error(`读取仓库文件列表失败：${lastErr.message||lastErr}`);
+    __treeCache = { key, at:Date.now(), map };
+  }
+  return __treeCache.map[path] || null;
+}
+// 文件写完后让缓存失效，避免同一批次里第二次写到刚改过的文件时拿到旧 sha
+function invalidateTree(){ __treeCache = { key:'', at:0, map:null }; }
+
 // 保存自定义覆盖信息到 overrides.json
 async function saveOverride(filename, name, desc){
   if(!name && !desc) return;
@@ -507,9 +544,10 @@ async function doUpload(files, customName, customDesc){
         fileName = safeDebName(f.name);
       }
       const path=`debs/${fileName}`;
-      let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
+      const sha = await getSha(path, fullRepo());
       await api(`/contents/${path}`,'PUT',{content:b64(new Uint8Array(raw)),
         message:`upload ${fileName}`, branch:'main', ...(sha?{sha}:{})});
+      invalidateTree();
       if(customName || customDesc){
         log(`保存自定义名称/详情...`);
         await saveOverride(f.name, customName, customDesc);
@@ -562,13 +600,16 @@ async function __doUpdate(f){
     // 反过来的话，一旦上传失败旧包已经被删，源里就直接空了，无法恢复。
     log(`上传新文件 ${f.name} …`);
     const path=`debs/${f.name}`;
-    let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
+    const sha = await getSha(path, fullRepo());
     await api(`/contents/${path}`,'PUT',{content:b64(new Uint8Array(await f.arrayBuffer())),
       message:`update ${old} -> ${f.name}`, branch:'main', ...(sha?{sha}:{})});
+    invalidateTree();
     log(`  ✓ 新文件已传好，正在删除旧文件 ${old} …`);
     if(old !== f.name){
-      const oldSha = (await api(`/contents/debs/${encPath(old)}`)).sha;
+      const oldSha = await getSha(`debs/${encPath(old)}`, fullRepo());
+      if(!oldSha) throw new Error(`找不到旧文件 ${old}（可能已被删除）`);
       await api(`/contents/debs/${encPath(old)}`,'DELETE',{sha:oldSha, message:`replace ${old}`, branch:'main'});
+      invalidateTree();
       log(`  ✓ 旧文件已删除`);
     }
     // 名称/描述跟随新文件名
@@ -693,10 +734,11 @@ $('copy-ok').onclick = async () => {
       }catch(e){ throw new Error(`[下载 ${p.pkg}] ${e.message}`); }
       const fname = safeDebName(`${p.pkg}_${p.ver||'1.0'}_${p.arch||'iphoneos-arm64'}.deb`);
       const path = `debs/${fname}`;
-      let sha=null; try{ sha=(await api(`/contents/${path}`)).sha; }catch(e){}
+      const sha = await getSha(path, fullRepo());
       try{
         await api(`/contents/${path}`,'PUT',{content:b64(new Uint8Array(buf)),
           message:`copy ${fname}`, branch:'main', ...(sha?{sha}:{})});
+        invalidateTree();
       }catch(e){ throw new Error(`[写入 ${fname}] ${e.message}`); }
       log('  ✓');
     }
@@ -1015,6 +1057,8 @@ $('createbtn').onclick = async () => {
       // 没选图标就别写空文件，避免把已有图标覆盖成空白
       paths = paths.filter(p=>p !== 'CydiaIcon.png');
     }
+    // 统一去重：同一文件写两次会第二次用过期 sha，GitHub 直接 409
+    paths = [...new Set(paths)];
     let okN = 0;
     for(const path of paths){
       setStep(3,'cur', `${okN+1}/${paths.length}　${path}`);
@@ -1036,17 +1080,16 @@ $('createbtn').onclick = async () => {
           continue;
         }
       }
-      let sha=null;
-      try{
-        const gr = await gh(`https://api.github.com/repos/${owner}/${repoName}/contents/${path}`);
-        if(gr.ok){ sha = (await gr.json()).sha; }
-      }catch(e){}
+      const sha = await getSha(path, `${owner}/${repoName}`);
       const pr = await gh(`https://api.github.com/repos/${owner}/${repoName}/contents/${path}`,'PUT',
         {content:enc, message:`init ${path}`, branch:'main', ...(sha?{sha}:{})});
       if(!pr.ok){
         const et = await pr.text();
         throw [3, `${path} 写入失败 HTTP ${pr.status}：${et.slice(0,160)}`];
       }
+      invalidateTree();
+      // 图标单独打一行日志，方便确认覆盖是否真的生效
+      if(path === 'CydiaIcon.png') log('✅ 源图标已覆盖写入（'+Math.round(enc.length*0.75/1024)+' KB）');
       okN++;
     }
     setStep(3,'done', paths.length+' 个文件全部写入');
