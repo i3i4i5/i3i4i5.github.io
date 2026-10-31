@@ -41,7 +41,7 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
 Package: byg.iosios.net.autofillfix
 Architecture: iphoneos-arm64e
 Version: 0.1
-Section: 杂七杂八
+Section: 其它
 Maintainer: 搬运工
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate
@@ -81,7 +81,7 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
 Package: byg.iosios.net.ccborder.new
 Architecture: iphoneos-arm64e
 Version: 1.1.2-39
-Section: 杂七杂八
+Section: 其它
 Maintainer: 搬运工
 Installed-Size: 1004
 Pre-Depends: rootless-compat (>= 0.9)
@@ -102,7 +102,7 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Package: com.dao.ccless
 Architecture: iphoneos-arm64e
 Version: 2.1.0.1
-Section: 嗨-工具
+Section: 其它
 Maintainer: 妖刀
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
@@ -121,7 +121,7 @@ SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.jso
 Package: com.opa334.choicys
 Architecture: iphoneos-arm64e
 Version: 1.5.2-2
-Section: opa334
+Section: 其它
 Maintainer: opa334
 Installed-Size: 888
 Pre-Depends: rootless-compat (>= 0.9)
@@ -142,7 +142,7 @@ SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Choicy/js.json
 Package: cn.octoforce.copyvault
 Architecture: iphoneos-arm64e
 Version: 1.9.0
-Section: Tweaks
+Section: 其它
 Maintainer: SquidForce, Backup
 Installed-Size: 6380
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
@@ -162,7 +162,7 @@ Package: byg.iosios.net.denyphotoalbumsllld.rootless
 Architecture: iphoneos-arm64e
 Version: 1.2.1
 Priority: optional
-Section: 系统增强
+Section: 其它
 Maintainer: 搬运工
 Installed-Size: 709
 Pre-Depends: rootless-compat (>= 0.9)
@@ -182,7 +182,7 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Package: cn.llld.qsyy
 Architecture: iphoneos-arm64e
 Version: 3.6
-Section: Tweaks
+Section: 其它
 Maintainer: 来了老弟
 Installed-Size: 8244
 Depends: mobilesubstrate
@@ -199,7 +199,7 @@ Author: 来了老弟
 Package: com.dao.filzacrack
 Architecture: iphoneos-arm64e
 Version: 1.1-9
-Section: 嗨-工具
+Section: 其它
 Maintainer: Nets
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate
@@ -217,7 +217,7 @@ Author: Netskao
 Package: com.yourepo.axs.fv
 Architecture: iphoneos-arm64e
 Version: 1.6.0-6
-Section: B-分屏插件
+Section: 其它
 Maintainer: Axs <qiaozhani000@163.com>
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
@@ -235,7 +235,7 @@ Icon: https://axs66.github.io/pro/icon/svp.png
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
-Section: zqbb Tweaks
+Section: 其它
 Maintainer: zqbb
 Installed-Size: 1216
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
@@ -277,7 +277,7 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
 Package: com.cydiabc.fontmanager-roothide
 Architecture: iphoneos-arm64e
 Version: 0.3.8
-Section: Roothide
+Section: 其它
 Maintainer: Hmmzzz
 Installed-Size: 2512
 Depends: firmware (>= 16.0), uikittools
@@ -299,7 +299,7 @@ Icon2: 17.png
 Package: byg.iosios.net.onesettings
 Architecture: iphoneos-arm64e
 Version: 2.2.1
-Section: 杂七杂八
+Section: 其它
 Maintainer: 搬运工
 Installed-Size: 1084
 Pre-Depends: rootless-compat (>= 0.9)
@@ -320,7 +320,7 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Package: byg.iosios.net.recordpause
 Architecture: iphoneos-arm64e
 Version: 2.0.6
-Section: 系统增强
+Section: 其它
 Maintainer: 搬运工
 Installed-Size: 200
 Pre-Depends: rootless-compat (>= 0.9)
@@ -341,7 +341,7 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Package: cn.llld.snapshottool
 Architecture: iphoneos-arm64e
 Version: 4.7.0.30
-Section: rootless应用插件
+Section: 其它
 Maintainer: 来了老弟
 Installed-Size: 1856
 Pre-Depends: rootless-compat (>= 0.9)
@@ -361,7 +361,7 @@ SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.snapshotto
 Package: byg.iosios.net.sleeperx
 Architecture: iphoneos-arm64e
 Version: 3.0.5
-Section: 杂七杂八
+Section: 其它
 Maintainer: 搬运工
 Installed-Size: 1836
 Pre-Depends: rootless-compat (>= 0.9)
@@ -419,7 +419,7 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
 Package: xyz.cypwn.sneakycam
 Architecture: iphoneos-arm64e
 Version: 2.2.2
-Section: Tweaks
+Section: 其它
 Maintainer: CyPwn
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
@@ -437,7 +437,7 @@ icon: https://huayuarc.github.io/icon/SneakyCam.png
 Package: cn.octoforce.squidextender
 Architecture: iphoneos-arm64e
 Version: 3.7.4
-Section: Tweaks
+Section: 其它
 Maintainer: SquidForce, Backup
 Installed-Size: 9988
 Pre-Depends: rootless-compat (>= 0.9)
@@ -457,7 +457,7 @@ SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squi
 Package: cn.octoforce.squidgesturepro
 Architecture: iphoneos-arm64e
 Version: 2.7.6-1
-Section: Tweaks
+Section: 其它
 Maintainer: SquidForce, Backup
 Installed-Size: 6668
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
@@ -476,7 +476,7 @@ SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squi
 Package: com.yourepo.axs.touchtrail
 Architecture: iphoneos-arm64e
 Version: 5.2.0-56
-Section: System (Axs-Tweaks)
+Section: 其它
 Maintainer: Axs <qiaozhani000@163.com>
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: mobilesubstrate, preferenceloader
@@ -494,7 +494,7 @@ Icon: https://axs66.github.io/pro/icon/touchtrail.png
 Package: cn.llld.urljg.roothide
 Architecture: iphoneos-arm64e
 Version: 1.1.7
-Section: RootHide
+Section: 其它
 Maintainer: 来了老弟
 Installed-Size: 1140
 Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate
@@ -535,7 +535,7 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
 Version: 4.0.1-4~roothide
-Section: RootHide
+Section: 其它
 Maintainer: TIGI Software
 Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
 Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
@@ -558,7 +558,7 @@ Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
 Priority: optional
-Section: Tweak Injection
+Section: 其它
 Maintainer: Dhinak G <dhinak@dhinak.net>
 Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
 Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
@@ -578,7 +578,7 @@ Icon: https://ellekit.space/logos/logo.png
 Package: byg.iosios.net.icleanerpro
 Architecture: iphoneos-arm64e
 Version: 7.10.0
-Section: 系统增强
+Section: 其它
 Maintainer: 搬运工
 Pre-Depends: rootless-compat (>= 0.9)
 Depends: firmware (>= 4.0), findutils, apt | apt7
@@ -599,7 +599,7 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Package: com.roothide.lockdown
 Architecture: iphoneos-arm64e
 Version: 2.0
-Section: Tweaks
+Section: 其它
 Maintainer: roothide
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000)
@@ -616,7 +616,7 @@ Author: roothide
 Package: cn.llld.adshield
 Architecture: iphoneos-arm64
 Version: 0.2.0-2
-Section: Tweaks
+Section: 其它
 Maintainer: 来了老弟 33225753@qq.com
 Filename: debs/safari-adshield去广告缩水版0.2.0-2-arm64_1.deb
 Size: 42732
@@ -631,7 +631,7 @@ Author: laileld 来了老弟
 Package: cn.llld.xds
 Architecture: iphoneos-arm64e
 Version: 1.6.11
-Section: System
+Section: 其它
 Maintainer: 来了老弟
 Installed-Size: 20408
 Depends: firmware (>= 14.0)
@@ -649,7 +649,7 @@ Author: 来了老弟
 Package: byg.iosios.net.camera.rootless
 Architecture: iphoneos-arm64e
 Version: 0.1-2
-Section: 系统增强
+Section: 其它
 Maintainer: 搬运工
 Installed-Size: 168
 Pre-Depends: rootless-compat (>= 0.9)
@@ -669,7 +669,7 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Package: local.minis.hideairdrop
 Architecture: iphoneos-arm64e
 Version: 1.1.0
-Section: Tweaks
+Section: 其它
 Maintainer: Minis
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
@@ -686,7 +686,7 @@ Author: Minis
 Package: com.aptzh
 Architecture: iphoneos-arm64e
 Version: 1.3-3+debug
-Section: Tweaks
+Section: 其它
 Maintainer: Custom
 Installed-Size: 240
 Pre-Depends: rootless-compat(>= 0.9)
@@ -703,7 +703,7 @@ Author: Custom
 Package: com.25mao.leftpan
 Architecture: iphoneos-arm64e
 Version: 2.0-1
-Section: 辅助插件
+Section: 其它
 Maintainer: admin@25mao.com
 Installed-Size: 376
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
@@ -721,7 +721,7 @@ Sponsor: admin@25mao.com
 Package: com.minis.rainbowkeyboard
 Architecture: iphoneos-arm64e
 Version: 1.0.26~lite4
-Section: Tweaks
+Section: 其它
 Maintainer: MoWang
 Installed-Size: 384
 Depends: mobilesubstrate, preferenceloader
@@ -758,7 +758,7 @@ Icon: https://axs66.github.io/pro/icon/wechat.png
 Package: com.axs.screenrecording
 Architecture: iphoneos-arm64
 Version: 5.2.0-35
-Section: Tweaks
+Section: 其它
 Maintainer: Axs
 Installed-Size: 508
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
@@ -777,7 +777,7 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenrecording/js.js
 Package: com.axs.switchicon
 Architecture: iphoneos-arm64
 Version: 5.2.0-131
-Section: Tweaks
+Section: 其它
 Maintainer: Axs
 Installed-Size: 836
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
@@ -796,7 +796,7 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchicon/js.json
 Package: byg.iosios.net.compactbatteryavocado
 Architecture: iphoneos-arm64e
 Version: 2.0.6
-Section: 系统增强
+Section: 其它
 Maintainer: 搬运工
 Installed-Size: 492
 Pre-Depends: rootless-compat (>= 0.9)
@@ -816,7 +816,7 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Package: com.chengnuo.moonfocus
 Architecture: iphoneos-arm64e
 Version: 1.0.0
-Section: Tweaks
+Section: 其它
 Maintainer: 承诺
 Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
 Filename: debs/迷你专注隐根.deb
@@ -832,7 +832,7 @@ Author: 承诺
 Package: com.roothide.patcher
 Architecture: iphoneos-arm64e
 Version: 2.1.5
-Section: Utilities
+Section: 其它
 Maintainer: roothide
 Installed-Size: 2476
 Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
