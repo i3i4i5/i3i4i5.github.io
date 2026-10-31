@@ -152,6 +152,25 @@ Name: 左滑返回
 Author: Mao
 Sponsor: admin@25mao.com
 
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64e
+Version: 1.0.26~lite4
+Section: Tweaks
+Maintainer: MoWang
+Installed-Size: 384
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/彩虹键盘_·_轻量版_1.0.26_lite4_iphoneos-arm64e.deb
+Size: 93244
+MD5sum: 8dd365f8418e81f18728896c269e7b86
+SHA1: 4aaa713e11664e13b19c943d2f9c7e5b73d32210
+SHA256: 35ad7a14beb08bb3ca6d48466d01b1b09708ce54b00239bd0a3063d27fd780c3
+SHA512: 332682eafd54a3ff2f5cfb64da618f69e4046cae67752572ecb52f672860c467d46f92843c8533b475459ce5d558dd7afad0c0f1e534afcb9f260159e2c67738
+Description: 彩虹键盘，五彩光效
+Name: 彩虹键盘
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+
 Package: com.yourepo.axs.wxkeyboarduihook
 Architecture: iphoneos-arm64e
 Version: 1.8
