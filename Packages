@@ -238,6 +238,25 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
+Package: com.axs.ipslog
+Architecture: iphoneos-arm64e
+Version: 5.2.0-30
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 496
+Depends: preferenceloader
+Filename: debs/IPSLog_5.2.0-30_iphoneos-arm64e.deb
+Size: 84356
+MD5sum: 1838d52b826554d19eebedb587bea1f9
+SHA1: b6775a164ea59ed4b3efa803efe5c4c117121483
+SHA256: eaea029a0d9799b456ab959845ba561e4a904dd014fe82db38ccc674ef17b258
+SHA512: 2668a0dc820774e6954369fa37219bee0d622f7522b2f9126b720d667193b2a47cc2a177acb7ef4b21c130f714f16a1fd5c52f082afa2a50474f816797e90e72
+Description: 系统崩溃日志分析，带分类，带自动解析
+Name: 崩溃日志分析
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
