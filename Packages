@@ -21,24 +21,6 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
-Package: xyz.cypwn.sneakycam
-Architecture: iphoneos-arm64e
-Version: 2.2.2
-Section: Tweaks
-Maintainer: CyPwn
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
-Filename: debs/SneakyCam_2.2.2_iphoneos-arm64e.deb
-Size: 106256
-MD5sum: f46a0ea0ecb2b289b7ceb76592d51233
-SHA1: 728f21137013153281ec9d92acb446e9990c11cd
-SHA256: f7ee8e5affbb1286a595f5a20d9a1882a56f5d8f56537cc2741a641b2699a4fb
-SHA512: 86f19a304ffe0c43be1c5efd9a60c5306a05ad5844303c4c036912a833dada367f6b7dfc39c88d62e37bc2ed4a174c112cf441ef8d76f1838bb91d5b35fd50c6
-Description: Discretely take a photo or record a video from anywhere, even with your screen off. 从任何地方，甚至用你的相机，谨慎地拍照或录制视频
-Name: SneakyCam 隐私相机
-Author: Spark
-icon: https://huayuarc.github.io/icon/SneakyCam.png
-
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
@@ -111,63 +93,6 @@ SHA512: bfb6a651abc91ffe7cc73c257529cc513e07954317e510bef113328b7f8bf2ce0e110a19
 Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
 Name: Sileo APT/DPKG汉化
 Author: Custom
-
-Package: com.minis.rainbowkeyboard
-Architecture: iphoneos-arm64e
-Version: 1.0.26~lite4
-Section: Tweaks
-Maintainer: MoWang
-Installed-Size: 384
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/彩虹键盘_·_轻量版_1.0.26_lite4_iphoneos-arm64e.deb
-Size: 93244
-MD5sum: 8dd365f8418e81f18728896c269e7b86
-SHA1: 4aaa713e11664e13b19c943d2f9c7e5b73d32210
-SHA256: 35ad7a14beb08bb3ca6d48466d01b1b09708ce54b00239bd0a3063d27fd780c3
-SHA512: 332682eafd54a3ff2f5cfb64da618f69e4046cae67752572ecb52f672860c467d46f92843c8533b475459ce5d558dd7afad0c0f1e534afcb9f260159e2c67738
-Description: 彩虹键盘
-Name: 彩虹键盘 · 轻量版
-Author: MoWang
-Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
-
-Package: byg.iosios.net.compactbatteryavocado
-Architecture: iphoneos-arm64e
-Version: 2.0.6
-Section: 系统增强
-Maintainer: 搬运工
-Installed-Size: 492
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
-Filename: debs/电池小组件显示百分比.deb
-Size: 138152
-MD5sum: 6bd090bbfe200c6856a556b71a17b568
-SHA1: 1e48790f64378b825ef3a63758a235dcbd1a4f66
-SHA256: f8b90414cde3f0fc844db8488ce52b8f3a01fddafc0bb5698aa2937a85015793
-SHA512: 653201b4287dc137f45811729fe038b4315f248cc2573fe35434a1446f2031b433948d9270519b65d17358baf20e5b25093e2634f8713882413ff7e4eec763ff
-Description: 电池小组件显示百分比
-Name: 电池小组件显示百分比-Rootless
-Author: udevs
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.squidforce.disablepastealert16
-Architecture: iphoneos-arm64e
-Version: 1.0
-Section: Tweaks
-Maintainer: SquidForce
-Installed-Size: 168
-Filename: debs/禁用iOS16_粘贴警告弹窗和粘贴提醒.deb
-Size: 4028
-MD5sum: 68f8de351524c66732429bb04ccec897
-SHA1: 446b635faeb9d45b4fea778861d82a2907b98471
-SHA256: 5537dbb8474201b30a54cfec84b862531c4be8908494de487053ad4f68a7403d
-SHA512: c21f104d034f8697da0275ac7a2a15adeed5c8e09d818d6da5de38a7d66e9f35d6b5526b9c02caeee3edfe97ad947f3c0b06038520ebb2341b24310810bf3006
-Description: 1. 禁用iOS16+粘贴警告弹窗，并自动允许
- 2. 禁用粘贴提醒
- * 如只需要禁用警告弹窗，可以降级安装版本0.0.1
-Name: 禁用ios16+粘贴警告弹窗和提醒
-Author: SquidForce
 
 Package: com.chengnuo.moonfocus
 Architecture: iphoneos-arm64e
