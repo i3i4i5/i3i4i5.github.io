@@ -1020,6 +1020,18 @@ $('createbtn').onclick = async () => {
       const enc = (path === 'CydiaIcon.png' && iconData)
         ? String(iconData).replace(/^data:[^,]*,/, '')
         : b64(new TextEncoder().encode(content));
+      // 空图标会让 Sileo 解析 PNG 失败，整条源显示成灰问号且不列包。
+      // 宁可跳过也不写空文件。
+      if(path === 'CydiaIcon.png'){
+        if(!enc || enc.length < 100){
+          log('⚠ 图标内容为空，已跳过写入 CydiaIcon.png');
+          continue;
+        }
+        if(!/^[A-Za-z0-9+/]+={0,2}$/.test(enc)){
+          log('⚠ 图标 Base64 非法，已跳过写入 CydiaIcon.png');
+          continue;
+        }
+      }
       let sha=null;
       try{
         const gr = await gh(`https://api.github.com/repos/${owner}/${repoName}/contents/${path}`);
