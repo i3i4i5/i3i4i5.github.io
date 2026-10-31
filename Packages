@@ -683,6 +683,25 @@ Name: 微信输入法自定义
 Author: Doki <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/wechat.png
 
+Package: com.axs.switchicon
+Architecture: iphoneos-arm64
+Version: 5.2.0-131
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 836
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/液态开关破解版.deb
+Size: 122528
+MD5sum: ab68e821f2630db3ae297f49732e978a
+SHA1: 54b7b2d01ec634d93b465c5f5b565030f11b8f76
+SHA256: 35de138df50dae2c4c160bfbd63bd0189d31d2cda2ca8f14836cca8962f53dc4
+SHA512: cfb89d53c93963aa49f3355d1c351537b3cb5c257b08f2c2e63fb7f92235421a3c935ca662812eaf494a3aecef14c552dc3f473a7eb79944cf9186ec9a301c21
+Description: 液态开关破解版
+Name: 液态开关
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/switchicon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchicon/js.json
+
 Package: byg.iosios.net.compactbatteryavocado
 Architecture: iphoneos-arm64e
 Version: 2.0.6
