@@ -1,15 +1,16 @@
-Origin: 测试源名B
-Label: 测试源名B
+Origin: 牛逼源
+Label: 牛逼源
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 测试源名B
+Description: 牛逼源
 Support: https://i3i4i5.github.io/
+Icon: https://i3i4i5.github.io/CydiaIcon.png
 MD5Sum:
  94595c6d208819a1516164b264782296  5260 Packages
- 0734937c1cdf5bf6993e3066d2220b3d  2859 Packages.gz
+ 5d5583fe2bba734d024b90d6a80caf7f  2859 Packages.gz
 SHA256:
  340b1ffaa2af4684ba7089b10ff446c694ab5c4f81d6ebe323cd9743aaecefd6  5260 Packages
- 996875b2e1a1b6082a9177423de8e75018e9f790d7f288ab004eec88e855aaea  2859 Packages.gz
+ 3374f67a369b0aac18e14eae6d2a49b8493831a6b61a7483155d591cbd311599  2859 Packages.gz
