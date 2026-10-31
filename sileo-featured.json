@@ -1,7 +1,7 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{420, 236}",
-  "itemCornerRadius": 13,
+  "itemSize": "{354, 199}",
+  "itemCornerRadius": 12,
   "banners": [
     {
       "url": "https://i3i4i5.github.io/banner-v4.jpg",
