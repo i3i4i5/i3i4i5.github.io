@@ -464,7 +464,7 @@ async function debPkgName(arrayBuffer){
 
 // 核心上传
 async function doUpload(files, customName, customDesc){
-  const t=tok(); if(!t || !fullRepo().includes('/')) return alert('请填写 PAT，并填写 用户名/仓库名（如 你的用户名/你的用户名.github.io）或点一键建源');
+  const t=tok(); if(!t || !fullRepo().includes('/')) return alert('请填写 PAT 和仓库名（如 owner/repo）；帮别人传包就填对方的仓库，如 i3i4i5/i3i4i5.github.io');
   const btn=$('uploadbtn'); btn.disabled=true; btn.innerHTML='<span class="spin"></span> 上传中…';
   try{
     log(`\n=== 上传 ${files.length} 个插件 ===`);
@@ -501,14 +501,14 @@ async function doUpload(files, customName, customDesc){
 // 上传按钮：直接上传已选文件（不再弹窗改名，直接上传到源）
 $('uploadbtn').onclick = async () => {
   if(!selectedFiles.length){ alert('请先选择 deb 文件'); return; }
-  if(!tok() || !fullRepo().includes('/')) return alert('请填写 PAT，并填写 用户名/仓库名（如 你的用户名/你的用户名.github.io）或点一键建源');
+  if(!tok() || !fullRepo().includes('/')) return alert('请填写 PAT 和仓库名（如 owner/repo）；帮别人传包就填对方的仓库，如 i3i4i5/i3i4i5.github.io');
   await doUpload(selectedFiles, '', '');
 };
 
 // ---------- 更新（用新 deb 替换旧版本）----------
 let updateTarget = null;
 function startUpdate(oldName){
-  if(!tok() || !fullRepo().includes('/')) return alert('请填写 PAT，并填写 用户名/仓库名（如 你的用户名/你的用户名.github.io）或点一键建源');
+  if(!tok() || !fullRepo().includes('/')) return alert('请填写 PAT 和仓库名（如 owner/repo）；帮别人传包就填对方的仓库，如 i3i4i5/i3i4i5.github.io');
   updateTarget = oldName;
   if(typeof window.pickDeb==='function'){
     window.pickDeb().then(l=>{
@@ -632,7 +632,7 @@ function renderCopyList(list){
 
 // 确认复制：解析依赖，递归拉取勾选的包 + 依赖包
 $('copy-ok').onclick = async () => {
-  if(!tok() || !fullRepo().includes('/')) return alert('请填写 PAT，并填写 用户名/仓库名（如 你的用户名/你的用户名.github.io）或点一键建源');
+  if(!tok() || !fullRepo().includes('/')) return alert('请填写 PAT 和仓库名（如 owner/repo）；帮别人传包就填对方的仓库，如 i3i4i5/i3i4i5.github.io');
   const checked = [...$('copylist').querySelectorAll('input:checked')].map(c=>+c.dataset.i);
   if(!checked.length) return alert('请勾选要复制的包');
   const all = window._copyPkgs;
@@ -781,8 +781,9 @@ $('createbtn').onclick = async () => {
     if(!/\.github\.io$/i.test(repoName)){
       setStep(1,'cur','提示：仓库名通常以 .github.io 结尾，Pages 才会自动启用');
     }
-    const mismatch = owner.toLowerCase() !== me.login.toLowerCase();
-    setStep(1,'done', owner+'/'+repoName + (mismatch ? ' ⚠ 该仓库属于 '+owner+'，当前 PAT 属于 '+me.login : ''));
+    // 账号与仓库 owner 不同是正常的：协作者帮别人上传/删除包就是这种情况，不做任何警告
+    const isCollaborator = owner.toLowerCase() !== me.login.toLowerCase();
+    setStep(1,'done', owner+'/'+repoName + (isCollaborator ? '（以 '+me.login+' 身份操作）' : ''));
 
     // ── 3. 仓库是否存在
     setStep(2,'cur');
@@ -794,8 +795,10 @@ $('createbtn').onclick = async () => {
         exists = true;
         canPush = !!(d.permissions && d.permissions.push);
         setStep(2,'done','已存在（push 权限：'+(canPush?'有':'无')+'）');
-        if(!canPush) throw [2, '这个 PAT 对 '+owner+'/'+repoName+' 没有写权限。' + (mismatch?'请换成 '+owner+' 账号生成的 PAT。':'请在仓库 Settings → Collaborators 里给该账号写权限。')];
+        if(!canPush) throw [2, '当前 PAT（'+me.login+'）对 '+owner+'/'+repoName+' 没有写权限。如果这是别人的仓库，请让仓库主人在 Settings → Collaborators 里把你的账号加为协作者（Write 权限）；如果是你自己的仓库，请确认 PAT 勾选了 repo。'];
       }else if(rr.status===404){
+        // 协作者身份下不能替别人创建仓库（建出来会归到自己名下），直接说清楚
+        if(isCollaborator) throw [2, '仓库 '+owner+'/'+repoName+' 不存在，而当前 PAT 属于 '+me.login+'，无法替 '+owner+' 创建仓库。请确认仓库名是否正确，或让对方先把仓库建好并把你加为协作者。'];
         setStep(2,'cur','不存在，准备新建');
       }else{
         throw [2,'查询仓库失败 HTTP '+rr.status];
@@ -1012,7 +1015,7 @@ jobs:
 }
 
 $('reindexbtn').onclick = async ()=>{
-  const t=tok(); if(!t) return alert('请填写 PAT，并填写 用户名/仓库名（如 你的用户名/你的用户名.github.io）');
+  const t=tok(); if(!t) return alert('请填写 PAT 和仓库名（如 owner/repo）');
   const btn=$('reindexbtn'); btn.disabled=true; btn.innerHTML='<span class="spin"></span>';
   try{
     log('\n=== 手动触发索引重建 ===');
