@@ -876,6 +876,10 @@ function askRepoName(defName){
 $('createbtn').onclick = async () => {
   const t = tok(); if(!t) return alert('请先填 PAT');
   const btn = $('createbtn');
+  // 从禁用按钮那一刻起，任何异常都必须能恢复按钮。
+  // 之前 try 从第 1 步才开始，前面 askRepoName / pgRender 若抛错就会卡在「创建中…」。
+  const restoreBtn = ()=>{ try{ btn.disabled = false; btn.textContent = '一键建源'; }catch(e){} };
+  try{
   const defName = (repoOwner()||'') + ' 的源';
   const ans = await askRepoName(defName);
   if(ans === null) return;
@@ -1111,14 +1115,26 @@ $('createbtn').onclick = async () => {
     // 3 秒后自动刷新列表并收起流程面板（若期间又发起新流程则不收起）
     autoCollapseFlow();
   }catch(err){
-    const [i,msg] = Array.isArray(err) ? err : [steps.findIndex(s=>s.state==='cur'), err.message||String(err)];
-    fail(i<0?steps.length-1:i, msg);
+    // steps/fail 可能还没定义（异常发生在更早），此时降级为普通日志
+    let i = -1, msg = (err && err.message) || String(err);
+    if(Array.isArray(err)){ i = err[0]; msg = err[1]; }
+    try{
+      if(typeof fail === 'function'){
+        if(i < 0) i = steps.findIndex(s=>s.state==='cur');
+        fail(i<0?steps.length-1:i, msg);
+      }
+    }catch(e){ /* fail 不可用则忽略 */ }
     log('✗ '+msg);
     // 网络类失败给一句明确的下一步，别让人以为卡死了
     if(/网络|超时|timed|Network|fetch/i.test(msg)) log('→ 网络恢复后可直接再点一次「建源」，会从头重试');
   }finally{
-    // 无论成功失败，按钮一定恢复可点，允许二次操作
-    btn.disabled = false; btn.textContent = '一键建源';
+    restoreBtn();
+  }
+  }catch(err2){
+    // 外层兜底：弹窗阶段、pgRender、steps 构造等任何早期异常都在这里收口，
+    // 保证按钮不会卡在「创建中…」
+    try{ log('❌ 出错：'+(err2&&err2.message||err2)); }catch(e){}
+    restoreBtn();
   }
 };
 
