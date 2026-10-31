@@ -812,7 +812,7 @@ function askRepoName(defName){
       </label>
 
       <div style="display:flex;gap:8px;margin-top:16px">
-        <button id="__rc" style="flex:1;padding:12px 6px;border-radius:10px;border:1px solid rgba(128,128,128,.35);background:transparent;color:var(--txt2,#8b949e);font-size:13.5px">取消</button>
+        <button id="__rc" style="flex:1;padding:12px 6px;border-radius:10px;border:1px solid #da3633;background:transparent;color:#f85149;font-size:13.5px">取消</button>
         <button id="__rr" style="flex:1.2;padding:12px 6px;border-radius:10px;border:0;background:#1f6feb;color:#fff;font-size:13.5px;font-weight:600">改名</button>
         <button id="__ro" style="flex:1.4;padding:12px 6px;border-radius:10px;border:0;background:#238636;color:#fff;font-size:13.5px;font-weight:700">建源</button>
       </div>
@@ -1068,7 +1068,8 @@ $('createbtn').onclick = async () => {
       pgRender(steps);
       log('✅ 改名完成：'+srcName);
       btn.disabled = false; btn.textContent = '一键建源';
-      setTimeout(()=>$('loadbtn').onclick(), 3000);
+      // 与建源成功一致：3 秒后刷新列表并收起流程面板
+      autoCollapseFlow();
       return;
     }
 
@@ -1108,13 +1109,7 @@ $('createbtn').onclick = async () => {
     log('✅ 建源完成：'+owner+'/'+repoName);
     log('源地址：https://'+owner+'.github.io/');
     // 3 秒后自动刷新列表并收起流程面板（若期间又发起新流程则不收起）
-    const tk = pgToken;
-    setTimeout(()=>{
-      $('loadbtn').onclick();
-      if(pgToken !== tk) return;
-      $('progress').hidden = true;
-      $('progress').innerHTML = '';
-    }, 3000);
+    autoCollapseFlow();
   }catch(err){
     const [i,msg] = Array.isArray(err) ? err : [steps.findIndex(s=>s.state==='cur'), err.message||String(err)];
     fail(i<0?steps.length-1:i, msg);
@@ -1126,6 +1121,19 @@ $('createbtn').onclick = async () => {
     btn.disabled = false; btn.textContent = '一键建源';
   }
 };
+
+// 成功后统一收起：刷新包列表 + 隐藏流程面板。
+// 用 pgToken 判断，若这 3 秒内又开始了新一轮流程（建源或改名），就不收起。
+function autoCollapseFlow(){
+  const tk = pgToken;
+  setTimeout(()=>{
+    try{ $('loadbtn').onclick(); }catch(e){}
+    if(pgToken !== tk) return;   // 期间启动了新流程，保留面板
+    const p = $('progress');
+    p.hidden = true;
+    p.innerHTML = '';
+  }, 3000);
+}
 
 function buildRepoFiles(owner, srcName){
   const indexHtml = `<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
