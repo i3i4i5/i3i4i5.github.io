@@ -259,6 +259,27 @@ Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 
+Package: byg.iosios.net.icleanerpro
+Architecture: iphoneos-arm64e
+Version: 7.10.0
+Section: 系统增强
+Maintainer: 搬运工
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleaner_Pro小扫把清理垃圾工具-Rootless_7.10.0_iphoneos-arm64e.deb
+Size: 1107604
+MD5sum: 5f87096e3f107496ba344d17877c2464
+SHA1: 9472c12597e7c8592fabf33ca0008adee5dc94e4
+SHA256: 276a0e45c9c9951603bff596b5ce60822c0ce19c417382683fb365899a731a52
+SHA512: 8c212f14df298e4dbb146497cb310aacfe043b7074a16d59f0fe034c111bd9c2d991b6d80645c8adec535a783e78f2d4745b8dcc86dc7a3651ccc54b58ead6d8
+Description: 越狱必备小扫把神级应用
+Name: icleaner破解版
+Author: Ivano Bilenchi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: cn.llld.xds
 Architecture: iphoneos-arm64e
 Version: 1.6.11
