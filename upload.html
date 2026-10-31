@@ -170,11 +170,16 @@ let _repoCache = null;
 function repoClean(){
   const raw = $('repo').value.trim();
   if (raw === _repoCache) return _repoCache.val;
-  const val = raw
+  // 依次剥掉：协议+域名、github.com 前缀、.git 后缀、首尾空白与斜杠
+  let val = raw
     .replace(/^https?:\/\/github\.com\//i,'')
-    .replace(/^https?:\/\/[^.]+\//i,'')
+    .replace(/^https?:\/\/[^/]+\//i,'')
     .replace(/\.git$/i,'')
     .replace(/^\/+|\/+$/g,'');
+  // 只保留 owner/repo 两段：/repo、/tree/main、/blob/x 之类的尾巴全部丢掉
+  const seg = val.split('/').filter(Boolean);
+  if (seg.length > 2) val = seg[0] + '/' + seg[1];
+  else val = seg.join('/');
   _repoCache = {raw, val};
   return val;
 }
