@@ -1,3 +1,18 @@
+Package: com.wcmoments.plugin
+Architecture: iphoneos-arm64
+Version: 0.6.49
+Priority: optional
+Section: Tweaks
+Maintainer: Local Package
+Filename: debs/-0.6.49.deb
+Size: 352744
+MD5sum: 888bdbbf3b73ece3e41a673fc2fae5ae
+SHA1: 41a51c75de1a0dca846f03b032f546bcb6cfdb8a
+SHA256: 442dfb444119a3fcb8b72c60fc02dbc491a4ee7032ff7c0a96ba030b8418bb85
+SHA512: 9fd38b60cd1be291b5d0ab2985225543fdd8fa7e91958f4b6deed9ab24653ac20f289865a265b108f70e6f82de0ed337c86effc710bdd9bff1fb887d0565add4
+Description: WCMoments jailbreak tweak
+Name: WCMoments
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
