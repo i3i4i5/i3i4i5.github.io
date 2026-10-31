@@ -786,10 +786,11 @@ function askRepoName(defName){
       </label>
 
       <div style="display:flex;gap:8px;margin-top:16px">
-        <button id="__rc" style="flex:1;padding:12px 6px;border-radius:10px;border:1px solid rgba(128,128,128,.3);background:transparent;color:inherit;font-size:13px">取消</button>
-        <button id="__rr" style="flex:1.2;padding:12px 6px;border-radius:10px;border:1px solid rgba(88,166,255,.5);background:transparent;color:#58a6ff;font-size:13px;font-weight:600">只改名</button>
-        <button id="__ro" style="flex:1.4;padding:12px 6px;border-radius:10px;border:0;background:#1f6feb;color:#fff;font-size:13px;font-weight:600">建源</button>
+        <button id="__rc" style="flex:1;padding:12px 6px;border-radius:10px;border:1px solid rgba(128,128,128,.35);background:transparent;color:var(--txt2,#8b949e);font-size:13.5px">取消</button>
+        <button id="__rr" style="flex:1.2;padding:12px 6px;border-radius:10px;border:0;background:#1f6feb;color:#fff;font-size:13.5px;font-weight:600">改名</button>
+        <button id="__ro" style="flex:1.4;padding:12px 6px;border-radius:10px;border:0;background:#238636;color:#fff;font-size:13.5px;font-weight:700">建源</button>
       </div>
+      <div style="font-size:11.5px;color:var(--txt2,#8b949e);line-height:1.6;margin-top:10px;opacity:.85">改名：只更新源名称与图标，不动包列表<br>建源：补齐所有文件并开启 Pages（已存在时同样会更新名称与图标）</div>
     </div>`;
     document.body.appendChild(ov);
     const inp  = ov.querySelector('#__rn');
@@ -968,7 +969,14 @@ $('createbtn').onclick = async () => {
       // 带了图标就一并写入
       if(iconData) paths.unshift('CydiaIcon.png');
       setStep(3,'cur', renameOnly ? '更新源名称' : '更新源名称与图标');
-      log(renameOnly ? '只改名模式：更新源名称，不动包列表' : '已勾选覆盖源名称：更新 make-index.sh 与首页');
+      log(renameOnly ? '改名模式：更新源名称与图标，不动包列表' : '已勾选覆盖源名称：更新 make-index.sh 与首页');
+    }else if(iconData){
+      // 普通建源时上传了图标，也要写进去（否则 CydiaIcon.png 会是空文件）
+      if(!paths.includes('CydiaIcon.png')) paths.unshift('CydiaIcon.png');
+      log('已附带源图标，将写入 CydiaIcon.png');
+    }else{
+      // 没选图标就别写空文件，避免把已有图标覆盖成空白
+      paths = paths.filter(p=>p !== 'CydiaIcon.png');
     }
     let okN = 0;
     for(const path of paths){
