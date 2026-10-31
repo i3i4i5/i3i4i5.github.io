@@ -532,6 +532,28 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/zzfilter.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
+Package: com.tigisoftware.filza64bits
+Architecture: iphoneos-arm64e
+Version: 4.0.1-4~roothide
+Section: RootHide
+Maintainer: TIGI Software
+Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.tigisoftware.filza64bit
+Filename: debs/com.tigisoftware.filza64bits_4.0.1-4_roothide_iphoneos-arm64e.deb
+Size: 6970916
+MD5sum: 46bbea1723b62c27e10810562042539e
+SHA1: d2a6995632fee7c65f645e935ffd5cdfda8e5fd0
+SHA256: 4d86696f88752f031d455c6532041c01f6facec1e37a73eec15a3c0ec0f43f7b
+SHA512: 6675d8983fdb291904b197fbf1c2b7e920deb7663f82056da5053c596bf3b661ffd94b542f92051faeac896153e671786b24c9b31927d8015f7fc8a96a673b91
+Description: Filza 文件管理器 RootHide 专用
+ * 支持 RootHide Dopamine、BootStrap 半越狱
+ * 支持解压打包 deb 插件
+Name: Filza 文件管理器
+Author: TIGI Software
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
