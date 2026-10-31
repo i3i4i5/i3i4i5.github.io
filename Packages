@@ -134,3 +134,19 @@ Author: udevs
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.chengnuo.moonfocus
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: 承诺
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
+Filename: debs/迷你专注隐根.deb
+Size: 23872
+MD5sum: ae210d1a666420af68d66b15644fc02f
+SHA1: 3bc1445c06a35e22a728dc5d32a0564f6a7591e7
+SHA256: 1403aad1af53d1538a669dbba6152d8bf20b2a4951b6689aa0f7ae01d8ffa64b
+SHA512: ea61f89f054e95befef3bb331bb4e61e02afbc3159c332c0c7d9c1283f0c6ddd9a56529ffe7261eb4852be05b1615d02732d80075cf31aa3aa496dac16d5613c
+Description: 控制中心专注模式图标改成迷你样式
+Name: 迷你专注
+Author: 承诺
+
