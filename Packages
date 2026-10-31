@@ -257,6 +257,27 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/ips.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
 
+Package: byg.iosios.net.onesettings
+Architecture: iphoneos-arm64e
+Version: 2.2.1
+Section: 杂七杂八
+Maintainer: 搬运工
+Installed-Size: 1084
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: debs/OneSettings系统设置美化_2.2.1_iphoneos-arm64e.deb
+Size: 225112
+MD5sum: 2ad510d214b7b50b405819d86f9ab5be
+SHA1: 7c3e7f3ec19cc2480cc12690fe27cd1e4ea6dbed
+SHA256: 5763f4796a2deb30fdb7abcfd2d508369ee5e95fb2ae3e22277f4022030c782b
+SHA512: 400d15e8c7eadfb38d7f59bf0224dae74a37b8da562c974f37e3216a201964f64ae5ff42390ad2e8de6769da3d377572cb14224eae784dbf4b921949ef7639ca
+Description: 设置美化，插件归类，条目隐藏
+Name: 设置美化
+Author: Nightwind
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
