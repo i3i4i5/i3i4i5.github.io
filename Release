@@ -1,15 +1,15 @@
-Origin: 牛逼源
-Label: 牛逼源
+Origin: i3i4i5 的源
+Label: i3i4i5 的源
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 牛逼源 - rootless / RootHide 双版本插件
+Description: i3i4i5 的源
 Support: https://i3i4i5.github.io/
 MD5Sum:
- 94595c6d208819a1516164b264782296 5260 Packages
- 6031fc726a5adc849a26f95f2c17b185 2859 Packages.gz
+ 94595c6d208819a1516164b264782296  5260 Packages
+ 46db846b760255700d29f8c6e7db59f6  2859 Packages.gz
 SHA256:
- 340b1ffaa2af4684ba7089b10ff446c694ab5c4f81d6ebe323cd9743aaecefd6 5260 Packages
- 3686792b8a9acc7c56cebecd12f0f673b17935327164d21997df55076cb861b8 2859 Packages.gz
+ 340b1ffaa2af4684ba7089b10ff446c694ab5c4f81d6ebe323cd9743aaecefd6  5260 Packages
+ 2746eb854ee351217232b15b34dc318dc1cade23b2c8ec34ffcc6c245263ad25  2859 Packages.gz
