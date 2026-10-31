@@ -91,6 +91,24 @@ Tag: role::enduser
 Name: 隐藏通知清除按钮
 Author: L.E
 
+Package: cn.llld.xds
+Architecture: iphoneos-arm64e
+Version: 1.6.11
+Section: System
+Maintainer: 来了老弟
+Installed-Size: 20408
+Depends: firmware (>= 14.0)
+Filename: debs/xds_1.6.11_-arm64e.deb
+Size: 6563112
+MD5sum: 4a594fee9e5ad64d9a9388d813d03443
+SHA1: a5c3d50cedd55ade0cf6011b3c5aaad78bf75302
+SHA256: 8c0da9f36c5b5977bbc6be1f9eef744c14c3841a9a6e566244f69780877021fc
+SHA512: 709fbffd39c25edf7e05dd128b518f5ab6b412e152246038f0d41e3298a70e1602fee54646b5a39bb8e57da126e1768d2d95335bd7735ade67bca2a4c05749df
+Description: XDS单双列可切换文件管理器（rootless 脱沙盒 + 受控 Root helper）
+Tag: purpose::uikit, compatible::ios14
+Name: xds文件管理器
+Author: 来了老弟
+
 Package: com.aptzh
 Architecture: iphoneos-arm64e
 Version: 1.3-3+debug
