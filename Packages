@@ -18,6 +18,26 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/ahsfilter.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ahsfilter/js.json
 
+Package: com.axs.appselect
+Architecture: iphoneos-arm64e
+Version: 5.2.0-12
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 456
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/AppSelect_5.2.0-12_iphoneos-arm64e.deb
+Size: 45364
+MD5sum: 2f82cd10d6207637ac62e7a530c49d27
+SHA1: 14f3675886a4ae71210e39fa64b24950a6ed12c9
+SHA256: 886a391d245448d317f6fadb98c3aba5576eddc3e515d8b5513e65a60c8f0ee4
+SHA512: fcaac9daa16bdbdcdbde218ef943acca240f8e4d28de1fadb5c75e99df6afa57c5d386bebe7bcf4869559d8afb9cfe6f3ae42fe7f4ea0ebc9f03f3358b27a8ef
+Description: 设置各种app跳转指向
+Name: 跳转拦截
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/appselect.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
