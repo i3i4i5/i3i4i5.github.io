@@ -683,6 +683,25 @@ Name: 微信输入法自定义
 Author: Doki <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/wechat.png
 
+Package: com.axs.screenrecording
+Architecture: iphoneos-arm64
+Version: 5.2.0-35
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 508
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/截图套壳破解版.deb
+Size: 46396
+MD5sum: 8db00ea2cae55545d67cc9a45e255050
+SHA1: eb13ae79fba1203ee86bdc0ca10d2cf3c3e02192
+SHA256: 0e648846b7e8f40413637027daa5d9f1f0e5e627cd3e7711d909c0ef9a33796b
+SHA512: 27cba4e78515c285ecc2ca0532746721346261c8a6545cfc0f3dd7865368dd4bb0e06169a64136511ba18016c8795015eb286beec98e011ae830b9247879aea4
+Description: 全局录屏自动添加你预先放好的水印和套壳素材，让你的分享更加专业。
+Name: 截图套壳破解版
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/screenrecording.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenrecording/js.json
+
 Package: com.axs.switchicon
 Architecture: iphoneos-arm64
 Version: 5.2.0-131
