@@ -1,52 +1,8 @@
 {
   "sections": [
     {
-      "name": "牛逼不",
-      "orig": "",
-      "pkgs": [
-        "byg.iosios.net.autofillfix",
-        "com.axs.axon",
-        "byg.iosios.net.ccborder.new",
-        "com.dao.ccless",
-        "com.opa334.choicys",
-        "cn.octoforce.copyvault"
-      ]
-    },
-    {
-      "name": "不太牛逼",
-      "orig": "",
-      "pkgs": [
-        "com.yourepo.axs.fv",
-        "cn.zqbb.fix120hz",
-        "com.cydiabc.fontmanager-roothide",
-        "byg.iosios.net.onesettings"
-      ]
-    },
-    {
-      "name": "非常不牛逼",
-      "orig": "",
-      "pkgs": [
-        "byg.iosios.net.denyphotoalbumsllld.rootless",
-        "cn.zqbb.fix120hz",
-        "com.axs.ipslog",
-        "com.cydiabc.fontmanager-roothide",
-        "byg.iosios.net.onesettings",
-        "byg.iosios.net.recordpause"
-      ]
-    },
-    {
-      "name": "太牛逼",
-      "orig": "太牛逼",
-      "pkgs": []
-    },
-    {
-      "name": "牛逼",
-      "orig": "牛逼",
-      "pkgs": []
-    },
-    {
-      "name": "非常牛逼",
-      "orig": "非常牛逼",
+      "name": "其它",
+      "orig": "其它",
       "pkgs": []
     }
   ],
