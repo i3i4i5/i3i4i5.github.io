@@ -719,6 +719,8 @@ $('createbtn').onclick = async () => {
   const btn = $('createbtn');
   if(!confirm('确定一键建源？\n\n会先校验 PAT 与仓库，再逐个写入源文件并开启 Pages。\n若仓库已存在，只补齐缺失文件，不会删除现有内容。')) return;
   btn.disabled = true; btn.textContent = '创建中…';
+  // 每轮开始先清空日志，避免上次的记录残留造成误判
+  const lg = $('log'); lg.textContent = ''; lg.style.display = 'none';
 
   const steps = [
     {text:'校验 PAT', state:''},
@@ -732,17 +734,23 @@ $('createbtn').onclick = async () => {
   pgRender(steps);
   const setStep=(i,state,note)=>{ steps[i].state=state; if(note!==undefined) steps[i].note=note; pgRender(steps); };
   const fail=(i,msg)=>{ steps[i].state='err'; steps[i].note=msg; pgRender(steps);
-    for(let k=i+1;k<steps.length;k++){ steps[k].state=''; } pgRender(steps); };
+    for(let k=i+1;k<steps.length;k++){ steps[k].state=''; } pgRender(steps);
+    log('❌ 失败：'+msg); };
 
   const H = () => ({'Authorization':'token '+t,'Accept':'application/vnd.github+json','Content-Type':'application/json'});
 
   try{
     // ── 1. PAT 校验
     setStep(0,'cur');
-    let me;
-    try{ me = await (await gh('https://api.github.com/user')).json(); }
-    catch(e){ throw [0,'网络错误：'+e.message]; }
-    if(!me.login){ throw [0, 'PAT 无效（'+((me&&me.message)||'无返回')+'）']; }
+    let me = null, ures = null;
+    try{ ures = await gh('https://api.github.com/user'); me = await ures.json(); }
+    catch(e){
+      fail(0, '网络错误，请检查网络后重试：' + (e.message||e));
+      return;
+    }
+    if(ures.status === 401) throw [0, 'PAT 无效或已被吊销：请到 github.com/settings/tokens 重新生成（勾选 repo 和 workflow），再粘贴到上方 PAT 输入框'];
+    if(ures.status === 403) throw [0, 'PAT 权限不足或触发频率限制（HTTP 403）：请确认勾选了 repo 和 workflow' + ((me&&me.message)?'（'+me.message+'）':'')];
+    if(!me || !me.login){ throw [0, 'PAT 校验失败：'+((me&&me.message)||('HTTP '+ures.status)+'，无账号信息')]; }
     setStep(0,'done','账号：'+me.login);
 
     // ── 2. 确定目标仓库（owner/repo 格式）
@@ -836,11 +844,19 @@ $('createbtn').onclick = async () => {
       }
     }catch(e){ setStep(4,'err','开启 Pages 异常：'+e.message); }
 
-    // ── 6. 完成
-    setStep(5,'done', pagesOk
-      ? '源地址 https://'+owner+'.github.io/ （约 1 分钟生效）'
-      : '文件已就绪，请到仓库 Settings → Pages 手动选择 main 分支');
+    // ── 6. 完成：只有文件全部写入且 Pages 开启成功，才算真的建源完成
+    if(!pagesOk){
+      steps[5].state = 'err';
+      steps[5].note = '源文件已写入，但 Pages 未能自动开启。请到仓库 Settings → Pages，Source 选 main 分支 / (root) 手动开启';
+      pgRender(steps);
+      log('⚠ 建源未完全完成：文件已就绪，Pages 需手动开启');
+      btn.disabled = false; btn.textContent = '一键建源';
+      $('loadbtn').onclick();
+      return;
+    }
+    setStep(5,'done','源地址 https://'+owner+'.github.io/ （约 1 分钟生效）');
     log('✅ 建源完成：'+owner+'/'+repoName);
+    log('源地址：https://'+owner+'.github.io/');
     // 3 秒后自动刷新列表并收起流程面板（若期间又发起新流程则不收起）
     const tk = pgToken;
     setTimeout(()=>{
