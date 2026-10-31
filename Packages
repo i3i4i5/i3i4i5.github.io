@@ -321,6 +321,27 @@ Author: PoomSmart
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.sleeperx
+Architecture: iphoneos-arm64e
+Version: 3.0.5
+Section: 杂七杂八
+Maintainer: 搬运工
+Installed-Size: 1836
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), firmware (<< 17.0)
+Conflicts: org.thebigboss.sleeper, com.joshuaseltzer.sleeper
+Filename: debs/SleeperX闹钟优化-Rootless_3.0.5_iphoneos-arm64e.deb
+Size: 184980
+MD5sum: 0d72dcf097407cecf23a3a2660c7c027
+SHA1: 5ee8c3fe4a4f32cc499679b5d65c93a5841f6296
+SHA256: 923de61270718bc7e5540f54648f1f02889997f09300f811ae4fbaf088891580
+SHA512: d9c4c536a5444210a8411fb46172486bcd50e7dea68c675f884005bd2b3975e78041ae340a2eadc69f8f96b335d011b3cbe689e9163b4417cbfa3bfbb6048990
+Description: 给系统闹钟增加各种功能，比如铃声渐响，铃声音量，铃声持续时间等
+Name: 闹钟增强
+Author: Joshua Seltzer
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
