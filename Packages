@@ -1,18 +1,3 @@
-Package: com.wcmoments.plugin
-Architecture: iphoneos-arm64
-Version: 0.6.49
-Priority: optional
-Section: Tweaks
-Maintainer: Local Package
-Filename: debs/-0.6.49.deb
-Size: 352744
-MD5sum: 888bdbbf3b73ece3e41a673fc2fae5ae
-SHA1: 41a51c75de1a0dca846f03b032f546bcb6cfdb8a
-SHA256: 442dfb444119a3fcb8b72c60fc02dbc491a4ee7032ff7c0a96ba030b8418bb85
-SHA512: 9fd38b60cd1be291b5d0ab2985225543fdd8fa7e91958f4b6deed9ab24653ac20f289865a265b108f70e6f82de0ed337c86effc710bdd9bff1fb887d0565add4
-Description: WCMoments jailbreak tweak
-Name: WCMoments
-
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
@@ -54,41 +39,6 @@ Name: SneakyCam 隐私相机
 Author: Spark
 icon: https://huayuarc.github.io/icon/SneakyCam.png
 
-Package: com.zegeyoudaoli.home27
-Architecture: iphoneos-arm64e
-Version: 2.1.62
-Section: Tweaks
-Maintainer: ngkhoi&泽哥
-Installed-Size: 2337
-Depends: mobilesubstrate | ellekit, preferenceloader
-Conflicts: com.ngkhoi.26home
-Replaces: com.ngkhoi.26home
-Filename: debs/com.zegeyoudaoli.home27_2.1.62_iphoneos-arm64e.deb
-Size: 612546
-MD5sum: f2c54d91c3c6737989ea8bda3854806b
-SHA1: 89e6c3179fe4958efec259936ee73bc0e8f3ba0a
-SHA256: c08fe244b2a0dfc8ff4f7fbe6fb8e815d3f7eba4a6c932426a8cbdf7083cbdb6
-SHA512: 02957701dee2462f4ff9f113adbdc24bae55f0f9a1488387f698ebf9d4f0d85cb5ce48836497d5b1b007fe1b27e709d5526bc6866c5d6b369d020eb6cd755a76
-Description: 27Home
- 主屏幕图标美化工具
- 基于 ngkhoi 的 26Home 汉化维护版。
- 内部标识全面统一为 27Home：类名 / 源文件名 / 资源目录 / 日志文件名 / 偏好包名。
- 偏好存储沿用原有域名，升级不会丢设置（也不影响从上游包换装时的设置继承）。
- 液态玻璃图标
- 接 LiquidAss 引擎真折射
- 图标折射跟随 LiquidAss 总开关：关了退回普通玻璃（9002 模糊 + 9003 底色），
- 并监听 LiquidAss 的偏好重载通知，开关变化当场生效、不用注销。
- 未装 LiquidAss 时走零依赖普通玻璃
- 所有效果参数可调
- 支持相册自定义图标和例外应用
- 图标包管理器，直连 SnowBoard 本地主题（实时生效）
- 本地图标包的作者显示包内 Info.plist 的 PackageName 字段，没有该文件显示「未知」
- 新增本地压缩包一键导入
- 性能：调试日志关闭时诊断代码零开销；修掉打开日志时的大体积日志卡顿
-Name: 27Home
-Author: ngkhoi&泽哥
-Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
-
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
@@ -110,23 +60,6 @@ Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 
-Package: com.local.bgnetwork
-Architecture: iphoneos-arm64e
-Version: 1.3.8-rh
-Priority: optional
-Section: Tweaks
-Maintainer: Minis
-Depends: firmware (>= 15.5)
-Filename: debs/pkg_1793368597863.deb
-Size: 34932
-MD5sum: 717b95901c4969a3033251ba38a129f6
-SHA1: 4343914554c67dab76a26020f643eb53ef02c690
-SHA256: b40298d846211194f85853c20dac5e699037882b84099663c0680473ef04834c
-SHA512: 87538c718c465003e415e3a97f8b5bad1d7b2acc2ec4689bf381356eaa909151e2c635c374eaed996c2f7be6774b0276920377d1b62425354da32b229fe47d8b
-Description: Per-app background network switches (roothide 适配, 8s poll)
-Name: BGNetwork
-Author: Minis
-
 Package: com.minis.hidencheaders
 Architecture: iphoneos-arm64e
 Version: 1.0.4
@@ -142,41 +75,6 @@ Description: Hide notification group header and footer controls with zero occupa
 Tag: role::enduser
 Name: 隐藏通知清除按钮
 Author: L.E
-
-Package: com.minis.hidencheaders
-Architecture: iphoneos-arm64e
-Version: 1.0.4
-Section: Tweaks
-Maintainer: L.E
-Filename: debs/pkg_1793377688429.deb
-Size: 12348
-MD5sum: bbbe07e25450d88ff371ae754ffccab5
-SHA1: c2b3d361f28c7d6f963ea28d1ea54b4b7e467470
-SHA256: 594c7d41a1549c62f943a199c9c005af5d60d098a1dc40433eb189ccc79ec314
-SHA512: 0701c5eb08bfa4059a455871ef13ac957b430ff5b266d82b75f968a7a7c9da4037cbee4ce5e6e5c9e38505d942a89702d2bbf69997459ddf078349fbe896f932
-Description: Hide notification group header and footer controls with zero occupancy. No preferences.
-Tag: role::enduser
-Name: 隐藏通知清除按钮
-Author: L.E
-
-Package: com.Axs.snapper3
-Architecture: iphoneos-arm64
-Version: 1.2.1
-Section: Tweaks
-Maintainer: Jonathan Winger-lang
-Installed-Size: 4148
-Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
-Filename: debs/snapper3_1.2.1.deb
-Size: 1233188
-MD5sum: 69dc6658ccf0ca6890a808fa2b00ad33
-SHA1: 6c72de8662aab0ddca937f38737d67301cb5c1c4
-SHA256: b2251c13fffed5f77dfaaa353d6a76e8c358b6b6a0ba1b4863d3e66a9cb22c2c
-SHA512: 09b010c01a5ff5dbc401bdbb971ee951a3542d6368d8ca6de362e98b7b1cedc4d962b1bd254357be3366d053a379d2c2012fd7463ec302a1fe26342c22a18d66
-Description: 将截图钉在屏幕上，此为破解版，内置透光图标。
-Name: Snapper 3
-Author: Jonathan Winger-lang
-Icon: https://axs66.github.io/pro/icon/snapper.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper/js.json
 
 Package: cn.llld.xds
 Architecture: iphoneos-arm64e
