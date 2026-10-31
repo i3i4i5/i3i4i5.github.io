@@ -98,5 +98,9 @@
   "IPSLog_5.2.0-30_iphoneos-arm64e.deb": {
     "name": "崩溃日志分析",
     "desc": "系统崩溃日志分析，带分类，带自动解析"
+  },
+  "lockdown_2.0_iphoneos-arm64e.deb": {
+    "name": "lockdown",
+    "desc": "防止漏洞入侵"
   }
 }
