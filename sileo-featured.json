@@ -1,10 +1,10 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{358, 269}",
+  "itemSize": "{390, 248}",
   "itemCornerRadius": 12,
   "banners": [
     {
-      "url": "https://i3i4i5.github.io/banner-v7.jpg",
+      "url": "https://i3i4i5.github.io/banner-v8.jpg",
       "title": "",
       "hideShadow": true,
       "displayText": false
