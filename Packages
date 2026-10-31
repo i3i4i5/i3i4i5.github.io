@@ -10,7 +10,7 @@ MD5sum: 85ef05c586648042a7e0d74dabd1ffa6
 SHA1: be497b8d395cb7e7ad6f3e58611b5119bec96aed
 SHA256: 38d8653521c912e1fd6932139c3556768a2918b2696fe3ffdc27688d0e27d267
 SHA512: cc36941b9fcc48122972782f7f312d2714810f14de9626c11160e0e585774a3ec8659682c5ee66a00f6221f8206a697cfe155b141c9d4e8ac8cea6f5a05ea3c4
-Section: 牛逼
+Section: 牛逼不
 Description: 短信验证码自动填充
 Name: 短信验证码自动填充
 Author: P2KDev
@@ -31,7 +31,7 @@ MD5sum: 54508825ca1fbc7d4a3c9799cde527c9
 SHA1: 1197d833ca5ba786dbd2f6b7d2039702682ca415
 SHA256: 3db5f4bed6619300f1ac2be101bae0d0d17b62666b7f3198011e309b662924fe
 SHA512: 0bde87d393c5d3b5ba6d96905bdd2873d876cc1494682e5f44af43361f1387eb68a41da0f631945efd019a4922aefad952f3203f4991b860e32f5774a033a1dd
-Section: 牛逼
+Section: 牛逼不
 Description: 通知美化，按app收纳通知
 Name: 通知美化
 Author: Axs
@@ -52,7 +52,7 @@ MD5sum: 146f142ff4a5f6f5420b9c52ba5108f0
 SHA1: c5b8800d0083217aa3f5d5349d96a16a147fcf87
 SHA256: 35c537420d249d8b1b94edcecf63a13b5254f749d8dbf88445aaa3cb0fdebd60
 SHA512: e5711f91d6aa6f748f1535009cc3f40bea2f901f282aeea8e0085a962d9d01e69e4ba6758ccfd9c1a32166c6f7a529dd831ead2892de190e1df37c1be2a63f7c
-Section: 牛逼
+Section: 牛逼不
 Description: 控制中心美化
 Name: 控制中心美化
 Author: Fiore & p2kdev & SINI
@@ -72,7 +72,7 @@ MD5sum: ae69caae2987f8c3a34ba59f37fb97aa
 SHA1: 0c992d7b8579c291346d6a437cfdd43a79fb040c
 SHA256: 3359cd5d3ac5a377071e7e04e9e19c9a079c147319332fd2511f9dc52639a829
 SHA512: 4c8f2dc4282079049d8c310fe1deabe755bfcfec3dc77f133be00d4bc83f8938058a71b9c942b677e58a1555cb45dc6e7f161c85ec37067737addf671bba16ad
-Section: 牛逼
+Section: 牛逼不
 Description: 为控制中心增加各种功能，强烈推荐
 Name: 控制中心增强
 Author: 妖刀
@@ -92,7 +92,7 @@ MD5sum: d2b814d3719d0258b14d10a2a2bd2066
 SHA1: 12315ccbbcbe5d7a75fa29799b040451a22cfd32
 SHA256: 46efdf4f25532e09be1c9959140e0d34f9997cd4f48ac18d0728ca96f9d50fa4
 SHA512: 5a8600477dce5c2e1eadf8307617f8d4951d9d0ed67c863c2d23a2a2fd357880454823abdef4a0733aa1a0281ee629ef4298a832fae9706cf049a9f8e43dfbed
-Section: 牛逼
+Section: 牛逼不
 Description: 越狱必备
 Name: 禁止注入
 Author: opa334
@@ -112,7 +112,7 @@ MD5sum: 0011d94a565e6852844745e63ae68bf3
 SHA1: f17c2ca777f5d93bb0e7a608c15bc4537eae61af
 SHA256: 57eb105fad9233cfdcebda3d5d8e01674aa2545d71054e8ae6c6284e0b0cda08
 SHA512: 6cc6259bd1321182a0a66e6ba99848c16e90b9d080de8b2915f1e18ac7eaab584546af3244de5a832bf8cf3494ca8c715626df05a99d74733d0b42f39c9b87e9
-Section: 牛逼
+Section: 牛逼不
 Description: 鱿鱼剪切板正版激活码版
 Name: 鱿鱼剪切
 Author: SquidForce, Backup
@@ -130,7 +130,7 @@ MD5sum: 6ca49bcb793cbfb75352cfb06990ebb5
 SHA1: 849aa04a91f38c4fe04c9db5a093768c95fb03a8
 SHA256: e329aef4dfe25ee6adba4517a9bbb7f71df8f8aae35ea7bb864f1b81497204a7
 SHA512: fdf57acd87f2090e0598e21b01d9fc426ffa9d5f0a72e89201285f5087cf2f121fd6e10c87ff28c5eb1922446c8f781e64af3f8ce450cc0e08c899805cb3efad
-Section: 太牛逼
+Section: 不太牛逼
 Description: 流畅好用的免费分屏插件
 Name: fv分屏破解版
 Author: Axs-pojie <qiaozhani000@163.com>
@@ -149,7 +149,7 @@ MD5sum: 812ada8f703085e5980a8709e6f0cbdb
 SHA1: 01bbcfc36f616dacc0c2dc0d51f0fc5d935e0962
 SHA256: 7f50c36dada4a8ff67409d41fbf6dbcc99ccc383fcf2fa6f8045a66f19d96c5a
 SHA512: 5f4a98018d87d7bec3573bd009a861f14e49cc07591a3bd9b07c6127bf7d20679f27620e2fc4aae85eee26efd8ba15e25375d95a88fad669a48d55f50c4890db
-Section: 太牛逼
+Section: 不太牛逼
 Description: 
  - Unlock dynamic refresh rate from 80hz to 120hz
  - .
@@ -172,7 +172,7 @@ MD5sum: 25282243750a3839b62de907ce886efe
 SHA1: a9b15d99502a6cd56f7a6ec1d013fc2a5777b94a
 SHA256: e3d450c0e607e0fe04d822b1d8de912cb3915b459a29d2a2dacf531931ad1bd9
 SHA512: d87dec7ae0f5d6286a36d43c6196001351ba75d75a379bf6d59c3312d64377ec4339a6dc66eb807dfbfbd139a03098b6e09ffdc82a8394b338abd96e2f0c09c1
-Section: 太牛逼
+Section: 不太牛逼
 Description: 更换系统字体，带预览
 A12: 1
 Name: 字体管理器
@@ -195,7 +195,7 @@ MD5sum: 2ad510d214b7b50b405819d86f9ab5be
 SHA1: 7c3e7f3ec19cc2480cc12690fe27cd1e4ea6dbed
 SHA256: 5763f4796a2deb30fdb7abcfd2d508369ee5e95fb2ae3e22277f4022030c782b
 SHA512: 400d15e8c7eadfb38d7f59bf0224dae74a37b8da562c974f37e3216a201964f64ae5ff42390ad2e8de6769da3d377572cb14224eae784dbf4b921949ef7639ca
-Section: 太牛逼
+Section: 不太牛逼
 Description: 设置美化，插件归类，条目隐藏
 Name: 设置美化
 Author: Nightwind
@@ -216,7 +216,7 @@ MD5sum: 8c9ee416710f02ddf3c3a9761a294e6d
 SHA1: c374242afdd3f3e5bed68369ded49ef9e4409526
 SHA256: b9aa5e79f1371c368a002562fa3aa9a4f2692e97a287ffe1db021e4bedd592e2
 SHA512: 248bfba2773e4c9618d91bda1aefc11b542068a1fba3a69c7c95f80c94053615ef96b2ec2fc216a00c9dbcc4c2b22773aa8f88b62caf7d1229b72a53f88c2798
-Section: 非常牛逼
+Section: 非常不牛逼
 Description: 精简相册
 Name: 相册增强
 Author: CydiaGeek
@@ -236,7 +236,7 @@ MD5sum: 812ada8f703085e5980a8709e6f0cbdb
 SHA1: 01bbcfc36f616dacc0c2dc0d51f0fc5d935e0962
 SHA256: 7f50c36dada4a8ff67409d41fbf6dbcc99ccc383fcf2fa6f8045a66f19d96c5a
 SHA512: 5f4a98018d87d7bec3573bd009a861f14e49cc07591a3bd9b07c6127bf7d20679f27620e2fc4aae85eee26efd8ba15e25375d95a88fad669a48d55f50c4890db
-Section: 非常牛逼
+Section: 非常不牛逼
 Description: 
  - Unlock dynamic refresh rate from 80hz to 120hz
  - .
@@ -258,7 +258,7 @@ MD5sum: 1838d52b826554d19eebedb587bea1f9
 SHA1: b6775a164ea59ed4b3efa803efe5c4c117121483
 SHA256: eaea029a0d9799b456ab959845ba561e4a904dd014fe82db38ccc674ef17b258
 SHA512: 2668a0dc820774e6954369fa37219bee0d622f7522b2f9126b720d667193b2a47cc2a177acb7ef4b21c130f714f16a1fd5c52f082afa2a50474f816797e90e72
-Section: 非常牛逼
+Section: 非常不牛逼
 Description: 系统崩溃日志分析，带分类，带自动解析
 Name: 崩溃日志分析
 Author: Axs <qiaozhani000@163.com>
@@ -278,7 +278,7 @@ MD5sum: 25282243750a3839b62de907ce886efe
 SHA1: a9b15d99502a6cd56f7a6ec1d013fc2a5777b94a
 SHA256: e3d450c0e607e0fe04d822b1d8de912cb3915b459a29d2a2dacf531931ad1bd9
 SHA512: d87dec7ae0f5d6286a36d43c6196001351ba75d75a379bf6d59c3312d64377ec4339a6dc66eb807dfbfbd139a03098b6e09ffdc82a8394b338abd96e2f0c09c1
-Section: 非常牛逼
+Section: 非常不牛逼
 Description: 更换系统字体，带预览
 A12: 1
 Name: 字体管理器
@@ -301,7 +301,7 @@ MD5sum: 2ad510d214b7b50b405819d86f9ab5be
 SHA1: 7c3e7f3ec19cc2480cc12690fe27cd1e4ea6dbed
 SHA256: 5763f4796a2deb30fdb7abcfd2d508369ee5e95fb2ae3e22277f4022030c782b
 SHA512: 400d15e8c7eadfb38d7f59bf0224dae74a37b8da562c974f37e3216a201964f64ae5ff42390ad2e8de6769da3d377572cb14224eae784dbf4b921949ef7639ca
-Section: 非常牛逼
+Section: 非常不牛逼
 Description: 设置美化，插件归类，条目隐藏
 Name: 设置美化
 Author: Nightwind
@@ -322,7 +322,7 @@ MD5sum: ffa6f6c4be94bd73766949ff6495acc8
 SHA1: 810688aa69cc2bb05d94bd10351f5a699dc6a639
 SHA256: 1f456883191f21ad7528f398bf8be26a7c49ab1bfada0edcfb962843ea61779a
 SHA512: 0da8b42a1bfca5d318a1fd1d6781ed7c6f15a0f6c9228be470f5cb07d3852efaf86123f985aa497b97bb7f042bc97562aa700a6c44d3b7ff37144e4c86498fd5
-Section: 非常牛逼
+Section: 非常不牛逼
 Description: 录像暂停
 Name: 录像暂停
 Author: PoomSmart
