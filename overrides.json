@@ -118,5 +118,9 @@
   "SleeperX闹钟优化-Rootless_3.0.5_iphoneos-arm64e.deb": {
     "name": "闹钟增强",
     "desc": "给系统闹钟增加各种功能，比如铃声渐响，铃声音量，铃声持续时间等"
+  },
+  "Snapper_4_5.2.0-45_iphoneos-arm64e.deb": {
+    "name": "Snapper4",
+    "desc": ""
   }
 }
