@@ -1,7 +1,7 @@
 {
   "sections": [
     {
-      "name": "牛逼",
+      "name": "牛逼不",
       "orig": "",
       "pkgs": [
         "byg.iosios.net.autofillfix",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "name": "太牛逼",
+      "name": "不太牛逼",
       "orig": "",
       "pkgs": [
         "com.yourepo.axs.fv",
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "name": "非常牛逼",
+      "name": "非常不牛逼",
       "orig": "",
       "pkgs": [
         "byg.iosios.net.denyphotoalbumsllld.rootless",
@@ -35,8 +35,18 @@
       ]
     },
     {
-      "name": "其它",
-      "orig": "其它",
+      "name": "太牛逼",
+      "orig": "太牛逼",
+      "pkgs": []
+    },
+    {
+      "name": "牛逼",
+      "orig": "牛逼",
+      "pkgs": []
+    },
+    {
+      "name": "非常牛逼",
+      "orig": "非常牛逼",
       "pkgs": []
     }
   ],
