@@ -197,6 +197,24 @@ Description: filza破解插件，安装正版filza后使用
 Name: filza破解插件
 Author: Netskao
 
+Package: com.yourepo.axs.fv
+Architecture: iphoneos-arm64e
+Version: 1.6.0-6
+Section: B-分屏插件
+Maintainer: Axs <qiaozhani000@163.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/Fv分屏破解版_1.6.0-6_iphoneos-arm64e.deb
+Size: 655188
+MD5sum: 6ca49bcb793cbfb75352cfb06990ebb5
+SHA1: 849aa04a91f38c4fe04c9db5a093768c95fb03a8
+SHA256: e329aef4dfe25ee6adba4517a9bbb7f71df8f8aae35ea7bb864f1b81497204a7
+SHA512: fdf57acd87f2090e0598e21b01d9fc426ffa9d5f0a72e89201285f5087cf2f121fd6e10c87ff28c5eb1922446c8f781e64af3f8ce450cc0e08c899805cb3efad
+Description: 流畅好用的免费分屏插件
+Name: fv分屏破解版
+Author: Axs-pojie <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/svp.png
+
 Package: cn.zqbb.fix120hz
 Architecture: iphoneos-arm64e
 Version: 3.3.3-3
