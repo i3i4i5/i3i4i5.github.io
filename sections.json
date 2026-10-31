@@ -1,8 +1,23 @@
 {
   "sections": [
     {
-      "name": "其它",
-      "orig": "其它",
+      "name": "微信",
+      "orig": "A-微信插件",
+      "pkgs": []
+    },
+    {
+      "name": "QQ",
+      "orig": "Axs-Tweaks",
+      "pkgs": []
+    },
+    {
+      "name": "陌陌",
+      "orig": "System",
+      "pkgs": []
+    },
+    {
+      "name": "soul",
+      "orig": "",
       "pkgs": []
     }
   ],
