@@ -379,6 +379,24 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
 
+Package: xyz.cypwn.sneakycam
+Architecture: iphoneos-arm64e
+Version: 2.2.2
+Section: Tweaks
+Maintainer: CyPwn
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: debs/SneakyCam_隐私相机_2.2.2_iphoneos-arm64e.deb
+Size: 106256
+MD5sum: f46a0ea0ecb2b289b7ceb76592d51233
+SHA1: 728f21137013153281ec9d92acb446e9990c11cd
+SHA256: f7ee8e5affbb1286a595f5a20d9a1882a56f5d8f56537cc2741a641b2699a4fb
+SHA512: 86f19a304ffe0c43be1c5efd9a60c5306a05ad5844303c4c036912a833dada367f6b7dfc39c88d62e37bc2ed4a174c112cf441ef8d76f1838bb91d5b35fd50c6
+Description: 16系统隐根专用，请合理合法使用
+Name: 隐私相机
+Author: Spark
+icon: https://huayuarc.github.io/icon/SneakyCam.png
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
