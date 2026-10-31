@@ -33,6 +33,11 @@
         "byg.iosios.net.onesettings",
         "byg.iosios.net.recordpause"
       ]
+    },
+    {
+      "name": "其它",
+      "orig": "其它",
+      "pkgs": []
     }
   ],
   "other": "其它"
