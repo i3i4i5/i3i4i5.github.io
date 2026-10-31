@@ -138,5 +138,9 @@
   "TouchTrail_5.2.0-56_iphoneos-arm64e.deb": {
     "name": "触摸轨迹",
     "desc": ""
+  },
+  "ZZFilter_5.2.0-8_iphoneos-arm64e.deb": {
+    "name": "转转筛选",
+    "desc": ""
   }
 }
