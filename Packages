@@ -813,6 +813,25 @@ Author: udevs
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: cn.llld.skineditor
+Architecture: iphoneos-arm64e
+Version: 0.0.21
+Section: 其它
+Maintainer: 来了老弟
+Installed-Size: 1540
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0)
+Filename: debs/皮肤编辑器_0.0.21_iphoneos-arm64e.deb
+Size: 995308
+MD5sum: d5fd3bdd8b56371ebc79df59ea13301b
+SHA1: 3e1de91decab00429dbbb77f292e9eb82925ce04
+SHA256: ace80ff51db309ff7128e1d15bc72e6a84f73fd89f3206ac5b82ca9e9af761bb
+SHA512: e5a61feb742e08be30d456998d323ca8cd9a4d5af2134cf9296ede1621259f973f5a2d1cc6fd9bb80c3acc8fb48f4130c2f99c443ccfd35beb9f879e756e3b32
+Description: 百度/微信输入法皮肤可视化编辑器
+Tag: purpose::uikit, compatible::ios14
+Name: 皮肤编辑器
+Author: 来了老弟
+
 Package: com.chengnuo.moonfocus
 Architecture: iphoneos-arm64e
 Version: 1.0.0
