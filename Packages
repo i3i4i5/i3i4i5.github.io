@@ -474,6 +474,29 @@ Name: 触摸轨迹
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/touchtrail.png
 
+Package: com.axs.zzfilter
+Architecture: iphoneos-arm64e
+Version: 5.2.0-8
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 372
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/ZZFilter_5.2.0-8_iphoneos-arm64e.deb
+Size: 65084
+MD5sum: a7afe275fabcfc9fb163a92725f61587
+SHA1: e8cbdc43ff5c9209d37dc179481d2f271001c829
+SHA256: e978489ecec1a60bb6c2f3b83ceccb971ccccde36e3240bbdd0a11c736bc6fd9
+SHA512: b4a37bccf66d3247ebdae224cadbd7e76d721db86d64c5ae28c599895a5bd695fa0de61e7f73faf3ed5ec66513799575dca0d24f70e15be1457a1a292176ae7e
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+Name: 转转筛选
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/zzfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
