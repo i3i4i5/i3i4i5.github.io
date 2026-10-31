@@ -1,20 +1,6 @@
 {
   "sections": [
     {
-      "name": "其它",
-      "orig": "其它",
-      "pkgs": [
-        "-com.axs.appselect",
-        "-byg.iosios.net.autofillfix",
-        "-com.axs.axon",
-        "-byg.iosios.net.ccborder.new",
-        "-com.dao.ccless",
-        "-com.opa334.choicys",
-        "-cn.octoforce.copyvault",
-        "-byg.iosios.net.denyphotoalbumsllld.rootless"
-      ]
-    },
-    {
       "name": "牛逼",
       "orig": "",
       "pkgs": [
