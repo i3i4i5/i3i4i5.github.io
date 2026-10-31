@@ -738,6 +738,10 @@ function askRepoName(defName){
       <div style="font-size:12px;color:var(--txt2,#8b949e);margin-bottom:6px">源名称（显示在 Sileo / Zebra 里）</div>
       <input id="__rn" type="text" value="${esc(defName)}" placeholder="例如：我的越狱源"
         style="width:100%;box-sizing:border-box;padding:11px 12px;border-radius:10px;border:1px solid rgba(128,128,128,.35);background:var(--bg2,rgba(128,128,128,.08));color:inherit;font-size:14px">
+      <label id="__rl" style="display:flex;align-items:flex-start;gap:8px;margin-top:14px;cursor:pointer">
+        <input id="__rf" type="checkbox" style="margin:3px 0 0;flex:0 0 auto;width:16px;height:16px">
+        <span style="font-size:12.5px;color:var(--txt2,#8b949e);line-height:1.6">覆盖已有源名称<br><span style="opacity:.8">仓库里已有 Release 时，也会用上面的名称重写</span></span>
+      </label>
       <div style="display:flex;gap:10px;margin-top:16px">
         <button id="__rc" style="flex:1;padding:12px;border-radius:10px;border:1px solid rgba(128,128,128,.3);background:transparent;color:inherit;font-size:14px">取消</button>
         <button id="__ro" style="flex:1.4;padding:12px;border-radius:10px;border:0;background:#1f6feb;color:#fff;font-size:14px;font-weight:600">开始建源</button>
@@ -745,13 +749,16 @@ function askRepoName(defName){
     </div>`;
     document.body.appendChild(ov);
     const inp = ov.querySelector('#__rn');
-    const done = (v)=>{ ov.remove(); resolve(v); };
-    ov.querySelector('#__rc').onclick = ()=>done(null);
+    const chk = ov.querySelector('#__rf');
+    // 点整行文字也能切换勾选
+    ov.querySelector('#__rl').addEventListener('click', e=>{ if(e.target!==chk){ e.preventDefault(); chk.checked = !chk.checked; } });
+    const done = (v, force)=>{ ov.remove(); resolve(v===null?null:{name:v, force}); };
+    ov.querySelector('#__rc').onclick = ()=>done(null, false);
     ov.querySelector('#__ro').onclick = ()=>{
       const v = inp.value.trim() || defName;
-      done(v);
+      done(v, chk.checked);
     };
-    ov.onclick = (e)=>{ if(e.target===ov) done(null); };
+    ov.onclick = (e)=>{ if(e.target===ov) done(null, false); };
     setTimeout(()=>{ try{ inp.focus(); inp.select(); }catch(e){} }, 50);
   });
 }
@@ -760,8 +767,10 @@ $('createbtn').onclick = async () => {
   const t = tok(); if(!t) return alert('请先填 PAT');
   const btn = $('createbtn');
   const defName = (repoOwner()||'') + ' 的源';
-  let srcName = await askRepoName(defName);
-  if(srcName === null) return;
+  const ans = await askRepoName(defName);
+  if(ans === null) return;
+  let srcName = ans.name;
+  const forceName = !!ans.force;
   // 源名称会写进 bash 脚本的双引号里，必须转义反斜杠、双引号、$ 和反引号
   srcName = String(srcName).replace(/\\/g,'\\\\').replace(/"/g,'\\"').replace(/\$/g,'\\$').replace(/`/g,'\\`');
   btn.disabled = true; btn.textContent = '创建中…';
@@ -866,7 +875,14 @@ $('createbtn').onclick = async () => {
     // ── 4. 写文件
     setStep(3,'cur');
     const files = buildRepoFiles(owner, srcName);
-    const paths = Object.keys(files);
+    let paths = Object.keys(files);
+    // 勾选「覆盖已有源名称」：只更新描述源名称的脚本，并立即触发一次索引重建，
+    // 这样已有的 Release 会被重写，而 Packages / deb 文件完全不动。
+    if(forceName){
+      paths = paths.filter(p=>p === 'scripts/make-index.sh' || p === 'index.html');
+      setStep(3,'cur','更新源名称脚本');
+      log('已勾选覆盖源名称：更新 make-index.sh 与首页，完成后重建索引');
+    }
     let okN = 0;
     for(const path of paths){
       setStep(3,'cur', `${okN+1}/${paths.length}　${path}`);
@@ -886,6 +902,16 @@ $('createbtn').onclick = async () => {
       okN++;
     }
     setStep(3,'done', paths.length+' 个文件全部写入');
+
+    // 覆盖模式：立刻触发一次索引重建，让 Release 里的 Origin/Label 变成新名称
+    if(forceName){
+      try{
+        const dr = await gh(`https://api.github.com/repos/${owner}/${repoName}/actions/workflows/build-repo.yml/dispatches`,'POST',{ref:'main', inputs:{reason:'rename'}});
+        log(dr.ok||dr.status===204 ? '已触发索引重建，约 1 分钟后 Release 中的名称生效' : '触发重建失败 HTTP '+dr.status+'，请稍后点「手动索引」');
+      }catch(e){
+        log('触发重建失败：'+e.message+'，请稍后点「手动索引」');
+      }
+    }
 
     // ── 5. Pages
     setStep(4,'cur');
