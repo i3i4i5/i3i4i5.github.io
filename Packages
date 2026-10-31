@@ -456,6 +456,24 @@ Name: 鱿鱼手势
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
+Package: com.yourepo.axs.touchtrail
+Architecture: iphoneos-arm64e
+Version: 5.2.0-56
+Section: System (Axs-Tweaks)
+Maintainer: Axs <qiaozhani000@163.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/TouchTrail_5.2.0-56_iphoneos-arm64e.deb
+Size: 45876
+MD5sum: 0a53e7e1ba8d824e469f024facb58660
+SHA1: 17f817931aee4ca4bc1e0430b986199de441bef4
+SHA256: 1d85d5a7d94a5c92ecdccb752826bb9852b07b67304643ae37c54f7aad47f1f4
+SHA512: 4b2f0a3d28321d1ef85f32d52bb9b4360dedf4358569c63c145600fd75a5fe65e059b3b94773bcd43b510553d6396229d0d94d1c4fc640858e2604998f2ac006
+Description: 全局触摸轨迹显示插件：在屏幕任意位置触摸时，实时显示手指触点和拖尾残影动画。* 1.适配录屏、演示、教程录制等场景，可设置仅录屏时显示。* 2.支持多指模式，参数可调（大小、透明度、动画时长等）。* 3.支持三种触点样式（颜色/图片/表情）。
+Name: 触摸轨迹
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/touchtrail.png
+
 Package: ellekit
 Architecture: iphoneos-arm64e
 Version: 1.2-3+deadlockfix1
