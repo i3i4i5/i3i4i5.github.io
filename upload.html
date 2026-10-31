@@ -727,10 +727,43 @@ function pgRender(steps){
 }
 function esc(s){ return String(s).replace(/[&<>"]/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 
+// 建源前弹窗：可填写源名称（显示在 Sileo / Zebra 的源列表里）
+function askRepoName(defName){
+  return new Promise(resolve=>{
+    const ov = document.createElement('div');
+    ov.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:9999;display:flex;align-items:center;justify-content:center;padding:20px;';
+    ov.innerHTML = `<div style="background:var(--bg,#161b22);border:1px solid rgba(128,128,128,.25);border-radius:14px;padding:18px;width:100%;max-width:420px;font-size:14px;color:var(--txt,#e6edf3)">
+      <div style="font-weight:600;font-size:16px;margin-bottom:10px">一键建源</div>
+      <div style="font-size:12px;color:var(--txt2,#8b949e);line-height:1.7;margin-bottom:12px">会先校验 PAT 与仓库，再写入源文件并开启 Pages。<br>若仓库已存在，只补齐缺失文件，不删除现有内容。</div>
+      <div style="font-size:12px;color:var(--txt2,#8b949e);margin-bottom:6px">源名称（显示在 Sileo / Zebra 里）</div>
+      <input id="__rn" type="text" value="${esc(defName)}" placeholder="例如：我的越狱源"
+        style="width:100%;box-sizing:border-box;padding:11px 12px;border-radius:10px;border:1px solid rgba(128,128,128,.35);background:var(--bg2,rgba(128,128,128,.08));color:inherit;font-size:14px">
+      <div style="display:flex;gap:10px;margin-top:16px">
+        <button id="__rc" style="flex:1;padding:12px;border-radius:10px;border:1px solid rgba(128,128,128,.3);background:transparent;color:inherit;font-size:14px">取消</button>
+        <button id="__ro" style="flex:1.4;padding:12px;border-radius:10px;border:0;background:#1f6feb;color:#fff;font-size:14px;font-weight:600">开始建源</button>
+      </div>
+    </div>`;
+    document.body.appendChild(ov);
+    const inp = ov.querySelector('#__rn');
+    const done = (v)=>{ ov.remove(); resolve(v); };
+    ov.querySelector('#__rc').onclick = ()=>done(null);
+    ov.querySelector('#__ro').onclick = ()=>{
+      const v = inp.value.trim() || defName;
+      done(v);
+    };
+    ov.onclick = (e)=>{ if(e.target===ov) done(null); };
+    setTimeout(()=>{ try{ inp.focus(); inp.select(); }catch(e){} }, 50);
+  });
+}
+
 $('createbtn').onclick = async () => {
   const t = tok(); if(!t) return alert('请先填 PAT');
   const btn = $('createbtn');
-  if(!confirm('确定一键建源？\n\n会先校验 PAT 与仓库，再逐个写入源文件并开启 Pages。\n若仓库已存在，只补齐缺失文件，不会删除现有内容。')) return;
+  const defName = (repoOwner()||'') + ' 的源';
+  let srcName = await askRepoName(defName);
+  if(srcName === null) return;
+  // 源名称会写进 bash 脚本的双引号里，必须转义反斜杠、双引号、$ 和反引号
+  srcName = String(srcName).replace(/\\/g,'\\\\').replace(/"/g,'\\"').replace(/\$/g,'\\$').replace(/`/g,'\\`');
   btn.disabled = true; btn.textContent = '创建中…';
   // 每轮开始先清空日志，避免上次的记录残留造成误判
   const lg = $('log'); lg.textContent = ''; lg.style.display = 'none';
@@ -832,7 +865,7 @@ $('createbtn').onclick = async () => {
 
     // ── 4. 写文件
     setStep(3,'cur');
-    const files = buildRepoFiles(owner);
+    const files = buildRepoFiles(owner, srcName);
     const paths = Object.keys(files);
     let okN = 0;
     for(const path of paths){
@@ -905,14 +938,14 @@ $('createbtn').onclick = async () => {
   btn.disabled = false; btn.textContent = '一键建源';
 };
 
-function buildRepoFiles(owner){
+function buildRepoFiles(owner, srcName){
   const indexHtml = `<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>${owner} 的越狱软件源</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>${srcName}</title>
 <style>body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#0d1117;color:#e6edf3;margin:0;padding:30px 16px;text-align:center}
 h1{font-size:24px}.sub{color:#8b949e;font-size:14px;margin:8px 0 24px}
 .btn{display:inline-block;padding:12px 20px;margin:6px;border-radius:12px;background:#1f6feb;color:#fff;text-decoration:none;font-weight:600}
 .url{color:#58a6ff;font-size:13px;margin-top:24px;word-break:break-all}</style></head>
-<body><h1>${owner} 的越狱软件源</h1><div class="sub">rootless / RootHide 双版本 · Sileo / Zebra 通用</div>
+<body><h1>${srcName}</h1><div class="sub">rootless / RootHide 双版本 · Sileo / Zebra 通用</div>
 <a class="btn" href="sileo://source/${encodeURIComponent(`https://${owner}.github.io/`)}">在 Sileo 中打开</a>
 <a class="btn" href="zbra://sources/add/${encodeURIComponent(`https://${owner}.github.io/`)}">在 Zebra 中打开</a>
 <div class="url">https://${owner}.github.io/</div></body></html>`;
@@ -934,9 +967,9 @@ gen_hashes(){ local alg="$1"; shift; local f; for f in "$@"; do [ -f "$f" ] || c
   local size; size=$(wc -c < "$f" | tr -d ' '); local h;
   case "$alg" in md5) h=$(md5sum "$f"|awk '{print $1}');; sha256) h=$(sha256sum "$f"|awk '{print $1}');; esac
   printf ' %s  %s %s\\n' "$h" "$size" "$f"; done; }
-{ echo "Origin: ${owner} 的源"; echo "Label: ${owner} 的源"; echo "Suite: stable"; echo "Version: 1.0";
+{ echo "Origin: ${srcName}"; echo "Label: ${srcName}"; echo "Suite: stable"; echo "Version: 1.0";
   echo "Codename: ios"; echo "Architectures: iphoneos-arm64 iphoneos-arm64e"; echo "Components: main";
-  echo "Description: ${owner} 的越狱软件源"; echo "Support: $REPO_URL";
+  echo "Description: ${srcName}"; echo "Support: $REPO_URL";
   echo "MD5Sum:"; gen_hashes md5 Packages Packages.gz; echo "SHA256:"; gen_hashes sha256 Packages Packages.gz; } > Release
 echo "索引完成: $(grep -c '^Package:' Packages) 个包"`;
   const applyOv = `import sys,json
