@@ -38,5 +38,9 @@
   "全屏相机-Rootless_0.1-2_iphoneos-arm64e.deb": {
     "name": "全屏相机",
     "desc": "拍照取景框全屏显示"
+  },
+  "微信输入法自定义_1.8_iphoneos-arm64e.deb": {
+    "name": "微信输入法自定义",
+    "desc": "微信输入法自定义颜色圆角之类"
   }
 }
