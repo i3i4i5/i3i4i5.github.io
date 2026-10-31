@@ -6,6 +6,9 @@ import sys,json
 #   2) orig 不为空时，原本属于该分类的包自动进本分类，"-包名" 表示踢出去
 #   3) 没有任何分类收走的包，统一进 other
 OTHER='其它'
+# 商店（Sileo/Zebra）按 Section 名的 Unicode 顺序排分类，「其」U+5176 会夹在「微信」「陌陌」中间。
+# 给兜底分类加一个全角波浪线前缀 U+FF5E，保证它在店里永远排最后，界面上仍然显示「其它」。
+OTHER_OUT='～'+OTHER
 try: cfg=json.load(open('sections.json',encoding='utf-8'))
 except Exception: cfg={}
 # 兼容老格式 {"keep":[...]}：当成「只保留这几个原分类」
@@ -13,6 +16,7 @@ raw=cfg.get('sections')
 if raw is None:
     raw=[{'name':k,'orig':k,'pkgs':[]} for k in (cfg.get('keep') or [])]
 OTHER=(cfg.get('other') or OTHER).strip() or OTHER
+OTHER_OUT='～'+OTHER   # cfg 可能改过兜底名，这里重新拼前缀
 if not raw:
     print('sections.json 没有分类配置，跳过'); sys.exit(0)
 sections=[]
@@ -25,10 +29,9 @@ for s in raw:
     })
 if not sections:
     print('分类配置为空，跳过'); sys.exit(0)
-# 与兜底分类同名的分类直接丢掉，否则会出现两个「其它」，Sileo 里会合并显示成一堆
+# 用户自己建的「其它」不丢弃：它的勾选并入兜底集合，最终仍然只有一个「其它」
+user_other=next((s for s in sections if s['name']==OTHER), None)
 sections=[s for s in sections if s['name']!=OTHER]
-if not sections:
-    print('分类配置里只有兜底分类，跳过'); sys.exit(0)
 
 txt=open('Packages',encoding='utf-8').read()
 SEP=chr(10)+chr(10); NL=chr(10)
@@ -40,7 +43,9 @@ for b in blocks:
     cur=''
     for l in b.split(NL):
         if l.startswith('Package:'): pkg=l.split(':',1)[1].strip()
-        elif l.startswith('Section:'): cur=l.split(':',1)[1].strip()
+        elif l.startswith('Section:'):
+            cur=l.split(':',1)[1].strip()
+            if cur==OTHER_OUT: cur=OTHER   # 带前缀的兜底分类还原成「其它」
     pkgs.append({'pkg':pkg,'sec':cur,'block':b})
 
 # 计算每个分类收哪些包
@@ -56,15 +61,22 @@ for s in sections:
             if p['sec']==s['orig']: st.add(p['pkg'])
     for x in s['pkgs']:
         if x.startswith('-'): st.discard(x[1:])
-    members[s['name']]=st
+    members[s['name']]=members.get(s['name'],set())|st
     claimed|=st
 rest=set(p['pkg'] for p in pkgs)-claimed
+# 用户自己建的「其它」分类：里面手动勾选的包也归兜底，最终只显示一个「其它」
+if user_other:
+    for x in (user_other.get('pkgs') or []):
+        if isinstance(x,str) and x and not x.startswith('-'): rest.add(x)
 
 # 输出：包按分类顺序展开，同一包属于多个分类就出现多条
 out=[]; multi=0
 bypkg={}
 for p in pkgs: bypkg.setdefault(p['pkg'],p)
+done_names=set()
 for s in sections:
+    if s['name'] in done_names: continue   # 同名分类已经合并输出过
+    done_names.add(s['name'])
     for name in [p['pkg'] for p in pkgs if p['pkg'] in members[s['name']]]:
         src=bypkg.get(name)
         if not src: continue
@@ -82,7 +94,7 @@ for name in [p['pkg'] for p in pkgs if p['pkg'] in rest]:
     at=len(lines)
     for i,l in enumerate(lines):
         if l.startswith('Description:'): at=i; break
-    lines.insert(at,'Section: '+OTHER)
+    lines.insert(at,'Section: '+OTHER_OUT)
     out.append(NL.join(lines)); multi+=1
 
 open('Packages','w',encoding='utf-8').write(SEP.join(out)+NL)
