@@ -1,6 +1,6 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{400, 202}",
+  "itemSize": "{487, 310}",
   "itemCornerRadius": 12,
   "banners": [
     {
