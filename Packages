@@ -78,6 +78,23 @@ Tag: purpose::uikit, compatible::ios14
 Name: xds文件管理器
 Author: 来了老弟
 
+Package: local.minis.hideairdrop
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Minis
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
+Filename: debs/去掉分享隔空投送等无用内容隐根.deb
+Size: 5244
+MD5sum: ba3f78b91ddbbdd00c9f50e913498460
+SHA1: 30e20dfd27526aee33038cc2b3ab460605022503
+SHA256: b6ca3385a297db249d83ed63800cf54190b3520200cfdfec72d8f065c4a6e745
+SHA512: 33d9dda25feb0f76b974aaa22104b3cacaba4913a0a600e79396c4febdcda038b2bb805bfd841a25a37c813fad526d594aa3e88c59bff42256341908f6479a67
+Description: 去掉共享后弹出菜单中的隔空投送图标，清除第一行建议
+Name: 去掉共享隔空投送
+Author: Minis
+
 Package: com.aptzh
 Architecture: iphoneos-arm64e
 Version: 1.3-3+debug
