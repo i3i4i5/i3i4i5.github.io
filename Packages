@@ -573,6 +573,21 @@ Description: 防止漏洞入侵
 Name: lockdown
 Author: roothide
 
+Package: cn.llld.adshield
+Architecture: iphoneos-arm64
+Version: 0.2.0-2
+Section: Tweaks
+Maintainer: 来了老弟 33225753@qq.com
+Filename: debs/safari-adshield去广告缩水版0.2.0-2-arm64_1.deb
+Size: 42732
+MD5sum: 0c23dcc617ab20f3827f9f5957109d84
+SHA1: b17de86494319f3cfce118c4537cace8d388f7ad
+SHA256: a1a5f6cbf0e11642499ac2e9c26fe946195982167aefea52e8075ffc6ecb3e0e
+SHA512: 071c8198b9745f4863a61addadb910ac8952167790e3fa9efd3513c1e44b2b9bb422fec3c3b6edf96336fd481a5ded92e9605c35a4b2aa4f4d8a6e92e8794537
+Description: safari去广告(缩水精简版)，(注入个别应用可以，但有限不能自定义等)，网页广告净化与拦截记录，仅用于自有设备上的内容净化学习。
+Name: safari-Ads
+Author: laileld 来了老弟
+
 Package: cn.llld.xds
 Architecture: iphoneos-arm64e
 Version: 1.6.11
