@@ -114,5 +114,9 @@
   "RecordPause录像暂停-Rootless_2.0.6_iphoneos-arm64e.deb": {
     "name": "录像暂停",
     "desc": "录像暂停"
+  },
+  "SleeperX闹钟优化-Rootless_3.0.5_iphoneos-arm64e.deb": {
+    "name": "闹钟增强",
+    "desc": "给系统闹钟增加各种功能，比如铃声渐响，铃声音量，铃声持续时间等"
   }
 }
