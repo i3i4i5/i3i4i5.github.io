@@ -4,9 +4,10 @@
   "itemCornerRadius": 12,
   "banners": [
     {
-      "url": "https://i3i4i5.github.io/banner.png",
+      "url": "https://i3i4i5.github.io/banner-v2.png",
       "title": "",
-      "hideShadow": true
+      "hideShadow": true,
+      "displayText": false
     }
   ]
 }
