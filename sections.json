@@ -17,6 +17,13 @@
     {
       "name": "我的",
       "orig": "",
+      "pkgs": [
+        "com.axs.appselect"
+      ]
+    },
+    {
+      "name": "你的",
+      "orig": "",
       "pkgs": []
     }
   ]
