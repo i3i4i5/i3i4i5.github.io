@@ -937,6 +937,25 @@ Author: Lessica
 icon: https://axs66.github.io/pro/icon/ohmyinsets.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ohmyinsetss/js.json
 
+Package: com.Axs.CCMusicPlayer
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: Axs
+Installed-Size: 628
+Depends: com.opa334.ccsupport,oldabi
+Filename: debs/com.Axs.CCMusicPlayer_1.0.1_iphoneos-arm64.deb
+Size: 86836
+MD5sum: d801055115bb1190d9dbafb397026b70
+SHA1: 393eac1e0312f08c69e2d28fed90a456c33bdd79
+SHA256: 7043f1a5ce92f4181fed096ff5b59c6ab8db73f0f3435a3f360252f431720a25
+SHA512: 36f022c050bcc605a28a8ab5cef7a8198d90a3fe3bbe1009b6680c0b85216ae0699df7a0e47b8429e84aee9ebeed9307219cbebb7d593ed4acf46c96dbad35ba
+Section: 插件
+Description: 控制中心音乐播放器，在手机设置控制中心添加模块后，点击模块名称右侧进入插件设置项。
+Name: CCMusicPlayer
+Author: A
+Icon: https://axs66.github.io/pro/icon/CCMusicPlayer.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/CCMusicPlayer/js.json
+
 Package: com.Axs.afn
 Architecture: iphoneos-arm64
 Version: 3.6.1
