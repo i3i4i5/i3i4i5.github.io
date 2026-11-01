@@ -2229,6 +2229,38 @@ Name: Vibrato全局自定义震动-rootless
 SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.vibrato/js_Vibrato_rootless.json
 Author: SynnyG 来了老弟
 
+Package: cn.llld.wxyybb
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Filename: debs/cn.llld.wxyybb_1.0_iphoneos-arm64.deb
+Size: 4476
+MD5sum: 2891902baaed9fbda1a58decadfbd0e6
+SHA1: b289a4e5d76cd817129b1eea6a04fcbd9570917b
+SHA256: e39c7bbbedb9f7804cc0463b57c05ac854538f704748cd9820fe1606ef602c14
+SHA512: 073021627f9ddf5373ad2962893a5b9364a768fb19c78ec49c1a365c11a9bcc9ae74ce5fb5f0d870b0ab62bdeb32c914c280f10d527321feb6ee5fe19e7f4399
+Section: 插件
+Description: 原名motherwc，作用：点击wx文本，语音播报信息,应多人需要再上架
+Name: wx文本语音播报-rootless
+Author: sunweiliang
+
+Package: cn.llld.ycdock
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Filename: debs/cn.llld.ycdock_1.0_iphoneos-arm64e.deb
+Size: 3796
+MD5sum: 775189d4574f80701d3005c134f75725
+SHA1: 32ddb6931ec62aac6af926506ed16b9f02b03ed9
+SHA256: 1f59bffbf88e387c01512fc3236b98d0ca8bff5e795186f92b4f6f0afc48a343
+SHA512: 5ce98797ae631a77d082517c027d50dfd4d02935116c3307ed3e78e549cecf061b80f28ab9ba0e50b2e56bcc00aea4b7c33b80e740353b8e611872912691b4a6
+Section: 插件
+Description: Hide Dock Bar Background透明Dock栏背景---roothide
+Name: 隐藏Dock背景-roothide
+Author: 来了老弟
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
