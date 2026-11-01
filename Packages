@@ -740,6 +740,24 @@ Author: 0xkuj
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.BubbleBox
+Architecture: iphoneos-arm64
+Version: 1.0-7
+Maintainer: 搬运工
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/byg.iosios.net.BubbleBox_1.0-7_iphoneos-arm64.deb
+Size: 2382862
+MD5sum: 2b42e6523c6c8d82c3c35cf0b7ddd2c7
+SHA1: 3da7aa8329ba323b88e0e4f7943f36e25d72ae8c
+SHA256: 34679569a414fc4e929945d045b14d874ae135a38bbdbb78da46d27861b8286c
+SHA512: 2a7bcf0e56299168ce72b626a9a0f58b375ac5a16e226ca4b49add3e4f6c2318315929612c1e1bfbcdcdfcb42af59932fe43a9aeb25dc3ed7fe50d974c7fb37d
+Section: 插件
+Description: 老猫开发的一款单独微信气泡盒子插件，专门搞气泡，有需要的小伙们可以下载试试！
+Name: 微信气泡盒子
+Author: Mao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ThemePro
 Architecture: iphoneos-arm64
 Version: 4.9.6
@@ -814,6 +832,26 @@ Section: 插件
 Description: 需付费使用！AppTools for iOS15-16 Rootless，强大的App类辅助插件，锁120帧！！！锁120Hz这个功能是免费的（不保证更新后一定如此），其它的需要付费激活！可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，25元自行购买激活。详情看截图介绍！
 Name: AppTools应用增强
 Author: aReo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.atria.rootless
+Architecture: iphoneos-arm64
+Version: 1.4.1-8
+Maintainer: 搬运工
+Installed-Size: 1008
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro,acreson.rootless.cj.atria
+Filename: debs/byg.iosios.net.atria.rootless_1.4.1-8_iphoneos-arm64.deb
+Size: 378238
+MD5sum: edabc8c251219fc05ac75f9bca1eab51
+SHA1: 15b41eba65e45eeae6ffa3b73b2084534c671aae
+SHA256: 3f92ce7553577e4dc12512f4fb90f6ce99a38cab53e22d23ee0eead38a57b619
+SHA512: 1a1cb8bfdf0f033dd9519990f35505e3bf236e35f9ae56407b0a0508c589a1f73409da9ae182bffa10176337f637ee43032fea71feb4eb1c73fb494439eec3d5
+Section: 插件
+Description: A proper homescreen layout editor for iOS 13-16自定义桌面图标布局，可以修改5x5布局，移除APP名称显示！美化桌面，非常的好看！本版是由原作者修复更新支持多巴胺，搬运工源水友SINI已更新汉化！感谢分享！搬运工源已修复安装此版本会自动删除你设备上已安装的旧版本！桌面点三下，快速进入插件设置！非常的好用，效果看截图！推荐使用本版本，源里的2.2版本其实是老版本，国人更新的，很久的版本了！
+Name: Atria桌面图标自定义
+Author: ren7995
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1047,6 +1085,25 @@ Section: 插件
 Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。支持 iOS 16.0 - 16.6、iOS 17.0 - 17.4。署名：chatgpt5.6（sol） · JaySuen。反馈 Bug 和建议：在酷安 App 搜索 JAYSuen 私信，或搜索 Evo Center 找到最新帖子评论。向 ccborder16、horizontalsliders、bettercc 致敬，感谢其设计与实现带来的启发。
 Name: Evo Center控制中心美化
 Author: chatgpt5.6（sol）, JaySuen
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.fakesignalbar
+Architecture: iphoneos-arm64
+Version: 0.1-7
+Maintainer: 搬运工
+Installed-Size: 404
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/byg.iosios.net.fakesignalbar_0.1-7_iphoneos-arm64.deb
+Size: 47420
+MD5sum: ff25b761d1df2b9384b2a5724582f40e
+SHA1: e7d587ac6eda8c052b8892a887ab9488478c26ce
+SHA256: 1257a10d464f44b9b219dbedecf61c9a36508f6ba470235bf2334f15b29cd21b
+SHA512: 3c1585021933c8187ec3af9126543f67e05249a3393f6dbaed08d7c9b0469a4066ae6483494efd99442560c0cb74b495292e3a0e66ef41bdafb0ab9752c6d5c8
+Section: 插件
+Description: 自定义运营商名称、信号强度、蜂窝连接等等！搬运工源群友思念变成海基于开源汉化编译。喜欢装b的小伙伴们可以试试啦！效果看截图！
+Name: FakeSignalBar伪装信号
+Author: alias20 & SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
