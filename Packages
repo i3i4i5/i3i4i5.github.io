@@ -711,6 +711,100 @@ Author: AFN Team
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/afn/js.json
 
+Package: com.Axs.liquidglass
+Architecture: iphoneos-arm64
+Version: 0.1.2.3-22+debug
+Maintainer: jl
+Installed-Size: 7016
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/com.Axs.liquidglass_0.1.2.3-22_debug_iphoneos-arm64.deb
+Size: 1895692
+MD5sum: d8b44edac87a1b3793091386c0c8bdde
+SHA1: 515aa282f2fd0522240e010cf13090d3dbeaf1ac
+SHA256: 4ff8b275399bb3b32ed9edafba55d99325a8abf4ad57699ff12d1caa71fdf6b8
+SHA512: 2ac59625c9004e80566befc263962ed1626fbf4ceacc263293a616f304dccea9570c6afd01c41b4c23b6dbd94812d14a159aab66d1062ed4daadb3868d65b17f
+Section: 插件
+Description: 开源二改版，据说卖58元，由一刀破解。
+Name: Liquidglass 液态玻璃
+Author: jl
+Icon: https://axs66.github.io/pro/icon/liquidglass.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/liquidglass/js.json
+
+Package: com.Axs.picsewvip
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: axs <qiaozhani000@163.com>
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.picsewvip_1.0.0_iphoneos-arm64.deb
+Size: 25292
+MD5sum: 39a79fa921978c435bc9be1cd26533a6
+SHA1: af6663e6ad19e715a011e734fab5c387d4c83525
+SHA256: fe39049133c9bceb6d815acdb3eac6a5cb48aa1397c9ec2e216a441d5321c112
+SHA512: 5a35d751809114d13b183368fb0bba73836b3285baa67577d5509e406009acd9108f1e0a12cd02808a09359b252397f477a7a31ca6d5247d505160aba2ca0f87
+Section: 插件
+Description: App Store搜索Picsew，一款非常好用的长截图软件！本插件已默认解除Pro权限，如果无效请删除重下软件，测试版本号为3.11.4！无任何广告弹窗！
+Name: Picsew长截图 vip
+Author: x <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/picsew.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.qsyy
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: liwhs
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.Axs.qsyy_1.2_iphoneos-arm64.deb
+Size: 21836
+MD5sum: 593cd2c7a27cd1d72c98103732c4644a
+SHA1: 892f4b13ed5d064367ac8c3ff6b99b9c183d50f0
+SHA256: 58118741c0795a1aa4408315c33dd740a421d167f7f396908ea3ea33887e5558
+SHA512: d22ab4430539a7777d00d2447612fc0d8a6350241a1c9972dfc8990b0e8e41360c51a564a842f91d630e56507af24c44a7f0c89c9c25cf80101ec4a51223b66a
+Section: 插件
+Description: 禁止开屏广告、秒过激励式视频
+Name: 汽水音乐
+Author: Starry6
+Icon: https://axs66.github.io/pro/icon/qsyy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/qsyy/js.json
+
+Package: com.Axs.wcplugins.rootless
+Architecture: iphoneos-arm64
+Version: 0.1-6
+Priority: optional
+Maintainer: Axs
+Depends: firmware (>= 5.0)
+Filename: debs/com.Axs.wcplugins.rootless_0.1-6_iphoneos-arm64.deb
+Size: 13524
+MD5sum: 658888054c1994ea456dd936c285bf0e
+SHA1: 027b03942a44b1890bc09cade47b7852473a3c65
+SHA256: 18f5508a888bda93506319a45846064ced16784e4a826d22599df4bc81f51d6f
+SHA512: 5a7a31fae79257dd3602339a64ef435fd0d0bc50c6e2ec6e525fb9730ca8754821d0f7079218eda2b294fc2e5e332e5e9b42d0cb2f4b558d8d2e372255e4603c
+Section: 插件
+Description: 将主流插件集中管理。
+Name: 微信插件管理
+Author: Mao
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/wcplugins/js.json
+
+Package: com.Axs.wechat-push-msg-page
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Maintainer: be-huge
+Installed-Size: 232
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.Axs.wechat-push-msg-page_0.0.5_iphoneos-arm64.deb
+Size: 23328
+MD5sum: 6cef512289d69f4b833de4d12876013a
+SHA1: 584f647fc55a1c56632f919326f14a432287a93c
+SHA256: 88103e754f3c29ec68e703a15848c9b212d5a63e6bbf1a4e5449fa671c2d9098
+SHA512: a4a4f05596e98301d33d82aadc1d5cb8afc95b97896d5ec50967e25537be8f9d3b491b4ae8ed211ff7783e06f8a048d58aef361605770bfe7881b6138ecde1bd
+Section: 插件
+Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口。
+Name: 微信消息直达
+Author: be-huge
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/wechat-push-msg-page/js.json
+
 Package: com.opa334.libsandy
 Architecture: iphoneos-arm64e
 Version: 1.1.3-3-1+debug
