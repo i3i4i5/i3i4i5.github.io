@@ -1559,6 +1559,23 @@ Description: igg汉化，iGameGod汉化，神秘靓仔定制汉化-rootless
 Name: igg汉化-rootless
 Author: 来了老弟
 
+Package: cn.llld.jyxlss
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/cn.llld.jyxlss_0.0.1_iphoneos-arm64.deb
+Size: 4156
+MD5sum: 596f1a77c27bb49843f540b838459615
+SHA1: 1b8d3306a67b55ace1e3c9cbf68293b1d20d84e5
+SHA256: c8282920d661f0c5d388913ac912bcee42b1945b2e3a6f6c6d50111c2f80614d
+SHA512: 600f4db0139802866c937673c21aabaaa32d7abfa159e3b319abc05c346cad8d905a3c95ad2ef9ca7ea1613f83e830bcb9081c039c5a041c3080cdd8724e76ac
+Section: 插件
+Description: Disable home screen dropdown search。禁用主屏幕下拉搜索。
+Name: 禁用主屏幕下拉搜索-rootless
+Author: 来了老弟 X：h_h_x_t
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
