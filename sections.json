@@ -6,15 +6,6 @@
       "pkgs": []
     },
     {
-      "name": "微信",
-      "orig": "",
-      "pkgs": [
-        "com.dao.ccless",
-        "com.opa334.choicys",
-        "com.axs.appselect"
-      ]
-    },
-    {
       "name": "我的",
       "orig": "",
       "pkgs": [
