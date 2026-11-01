@@ -20,6 +20,13 @@
         "byg.iosios.net.ccborder.new",
         "com.dao.ccless"
       ]
+    },
+    {
+      "name": "我爱的",
+      "orig": "",
+      "pkgs": [
+        "com.dao.ccless"
+      ]
     }
   ]
 }
