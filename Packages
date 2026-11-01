@@ -1783,6 +1783,40 @@ Description: ***关于兼容层（oldabi）若插件有问题，多巴胺环境�
 Name: Aa1空包仅声明作用
 Author: 空白
 
+Package: cn.llld.notihh
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.notihh_0.0.1_iphoneos-arm64.deb
+Size: 7226
+MD5sum: 8fc8742eae5b878497da14dba75ac5a7
+SHA1: c7f8cac74f868359b1545cc4a4a5d65d3af6cd53
+SHA256: 23321c29d6e3fadd0697b927a2339e50a0049cc83a9303f6d09507a7956704dd
+SHA512: d661fd1369262a44dde8ea227fce98571812695385629cbecd8beef74a3211a3a38ab5bc85dc5bb1a35c5eb6ee93363759cb3182d80495ccdda69f6fae73b67e
+Section: 插件
+Description: Notiblock通知过滤--(rootless)简体中文包
+Name: notiblock通知过滤汉化-rootless
+Author: 来了老弟 X: h_h_x_t
+
+Package: cn.llld.notirootful
+Architecture: iphoneos-arm
+Version: 0.0.1
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.notirootful_0.0.1_iphoneos-arm.deb
+Size: 7136
+MD5sum: 1f0f8a083ed7fe191898f982b9fe0415
+SHA1: 31b6eb53142bcbc3fa41dae8bc6b6e4b11a313bc
+SHA256: 2b1392a00c8ed10b6706294769bccb9be41d53a680682002c799784a825df8b7
+SHA512: 0bfb30335abdac85e28d358e083218eb6273ed47e203f9e8a7131f94a53031925db6d2b78b661f29f96dee28c129c2f165b0a5d7213c1f4c4e3848d4fe8d7a72
+Section: 插件
+Description: Notiblock通知过滤--(rootful)简体中文包
+Name: notiblock通知过滤汉化-rootful
+Author: 来了老弟 X: h_h_x_t
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
