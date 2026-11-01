@@ -818,6 +818,44 @@ Author: Nepeta & Baw Appie & daodao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.bindfs
+Architecture: iphoneos-arm64
+Version: 0.6.0
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: plistbuddy
+Filename: debs/byg.iosios.net.bindfs_0.6.0_iphoneos-arm64.deb
+Size: 22764
+MD5sum: 3f962a22bce9894719ab10b73a71724c
+SHA1: c56831275cdd68f83ec775706cc1716dfb42d34a
+SHA256: c9e8fbb2a27f201634ac773f43551d6095e5262c280f015ebe1e62b1b3fce34c
+SHA512: 4b746fefb80be8385e8bf6f874b27aa87963f69b45dcfe7443fcee3376503f82b8180f62757bf483c92d76d6e3d9fba44f66a75edaf704cea8937c1d024be7bf
+Section: 插件
+Description: 众所周知iOS15-iOS16多巴胺是无根越狱，就是没有修改系统目录的权限，可以理解为没办法直接换字体！本插件是多巴胺挂载工具，配合终端软件，可以挂载系统目录，进行系统字体更换或者其它功能，不懂的可以进搬运工源里看教程如何使用！挂载映射换字体比滑雪板好用！因为是全局替换！但是你别问我一些奇奇怪怪的路径，我也不知道！搬运工源一直在用心为用户服务！
+Name: mount_bindfs多巴胺挂载工具-Rootless
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.bottomx
+Architecture: iphoneos-arm64
+Version: 0.2.71
+Maintainer: 搬运工
+Installed-Size: 3044
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.bottomx_0.2.71_iphoneos-arm64.deb
+Size: 1218718
+MD5sum: f47e8d32e7c8053e35d9bd787bd12a66
+SHA1: 921b2e1e48de7d6ade3e43d8f16b0605ba97abf9
+SHA256: 172454b514e14fde4fea18de78386d05ac8cdc0560c7c8b40f4563bd2a7cf24c
+SHA512: 07bca30d52a127cb6ce1ba0bc5fd1510939b324650c004a4b05103cbfdd71ca7d977d4f195bb05e35d4dec9f732b389db6f062e619bba3aa66e0eae0d5dc3cd6
+Section: 插件
+Description: 类似于安卓的返回按钮功能，只要点击底部小白条逐级返回，到app最顶层就会返回桌面，新增学习返回模式，视觉返回保留。一款不错的小插件，想体验安卓功能的小伙们可以试试！
+Name: Bottom-X返回按钮
+Author: Color Black
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bypassccbank
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -1346,6 +1384,25 @@ Author: Chloe
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.qqnotiavatar
+Architecture: iphoneos-arm64
+Version: 1.2-3
+Maintainer: 搬运工
+Installed-Size: 236
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.qqnotiavatar_1.2-3_iphoneos-arm64.deb
+Size: 48320
+MD5sum: 000af3ef6f56b690ecd447aec3afd4b5
+SHA1: 9a5431559ba787814efd74845d5e60315a41a941
+SHA256: c2264088a4e474c96947cfa7062768931d92c8bb26fe252a56cbd6f2dabbb5e7
+SHA512: 8176a48afa5ad7eeee095ec3a91e9e05f1bb1fabe0fd4db758811b03417cf72b11de9902e00d293e5236819fec7c09a575e3e79e2cb1ecaa6aa1ef6a8c2ffb47
+Section: 插件
+Description: Display Notification Avatars for QQ App using iOS15 APIs为QQ来消息通知显示头像信息！可以说是非常的骚气，效果看截图，配合灵动岛岂不是上天！
+Name: QQ头像-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.rainbowkeyboard
 Architecture: iphoneos-arm64
 Version: 1.0.26~lite4
@@ -1670,6 +1727,25 @@ Section: 插件
 Description: 作者朋友需要才制作了此插件.APP设置界面右上角打开插件设置，或者双指长按设置界面。 功能：默认移除一些广告 -- 无水印保存图片-视频-live图 -- 长按复制文案标题(关注板块需要长按外面的视图 里面无效)。搬运工源，永久提供免费服务！
 Name: 小红书图层
 Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.zone
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Maintainer: 搬运工
+Installed-Size: 1164
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: debs/byg.iosios.net.zone_2.1.0_iphoneos-arm64.deb
+Size: 352472
+MD5sum: c5ef992ffff2e5461d11898b436674d2
+SHA1: 58b933991a90b622a715462862a26c03481b850d
+SHA256: 4724bbc6b5c6decfde44172c9a626e95fc26c268cb346db6d5a16b8d33211599
+SHA512: d39a4868537690e366a2e89d8167667b4d98e8a5854a9405c9dd925523d7d461fed0f28acac8f83e815c6d9d374844ac49b226b7a6b039f55deb26c05e18cd45
+Section: 插件
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Name: Zone视频壁纸
+Author: iosdump
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
