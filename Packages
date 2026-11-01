@@ -672,6 +672,58 @@ Author: 5hux1n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: cn.llld.dhjj
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.dhjj_1.0_iphoneos-arm64.deb
+Size: 4184
+MD5sum: c024db1b68f04f6f2abdede2949b5371
+SHA1: 1071374368a1f62a9157b13ea38c24fbcd98243a
+SHA256: 50d8d645cf4b8060b3bf5780501409a257b52475eed01c9f066a664c18024299
+SHA512: 063076169ecaaeb99e01d770241c874237dac2fb2fa7df5145a52766d6f4e5f81103cb5e6ceaf131a9f31943bf5e5b5ee8318ef6313a1ce797545102325ab6de
+Section: 插件
+Description: Telephone streamlining personal collection and voice messages。电话精简个人收藏和语音留言
+Name: 电话精简收藏和语音留言-rootless
+Author: 来了老弟 h_h_x_t
+
+Package: cn.llld.dyy
+Architecture: iphoneos-arm64e
+Version: 1.4
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.dyy_1.4_iphoneos-arm64e.deb
+Size: 4244
+MD5sum: d6f0b3e96637bc5a0809e0f077587df0
+SHA1: 18b3f84a04e66c6c894ebd681b9956d83fc403a9
+SHA256: 61b7a34074da861ab9fbe951c5011d2a0f7beb9999913cb802e2a72d950e8bc3
+SHA512: f5865dd1911b27503a995feacc94bcf151709b20dffd5a4bc293f3a82713b6041a2d1ceb3b155b99bdfd5d495d129eae63e7c4527fd3465e8d07f60c0500acf8
+Section: 插件
+Description: Custom phone image, image path （/var/mobile/llld.jpg）png Format is also acceptable.靓仔定制自定义电话图片，图片路径（/var/mobile/llld.jpg）llld.png也可以，作用：拨打电话或来电都是你指定的背景图。已知问题：上下滑通知会闪一下
+Name: 自定义电话图片-roothide
+Author: 来了老弟 h_h_x_t
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.dyy/dyy-rootless.json
+
+Package: cn.llld.hidejb
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.hidejb_1.0_iphoneos-arm64e.deb
+Size: 3552
+MD5sum: e95a578e1011aad75ab0fe4760a8bfec
+SHA1: b284762aeed1623301ed0f7fd02d01b6af6f163a
+SHA256: e0b2428b1c2b9f57c36065ebf946817e47828147f4bbe557ab82674da80f5162
+SHA512: 90a8ff7a462155498be6a33d33b0e69fae439caa87985a4a95aabc80edf5683b2b011f5b65fdef3e3682250baf07cff774cdb82ec3ed349b4fdcf7add3db5897
+Section: 插件
+Description: Hide IconBadge。隐藏桌面角标(消息提示)-roothide
+Name: 隐藏桌面角标-roothide
+Author: 来了老弟 h_h_x_t
+
 Package: com.25mao.BubbleBox
 Architecture: iphoneos-arm64
 Version: 1.0-7
