@@ -18,6 +18,67 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/appselect.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
 
+Package: com.axs.axon
+Architecture: iphoneos-arm64e
+Version: 5.2.0-55
+Maintainer: Axs
+Installed-Size: 552
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: debs/Axon_5.2.0-55_iphoneos-arm64e.deb
+Size: 68232
+MD5sum: 54508825ca1fbc7d4a3c9799cde527c9
+SHA1: 1197d833ca5ba786dbd2f6b7d2039702682ca415
+SHA256: 3db5f4bed6619300f1ac2be101bae0d0d17b62666b7f3198011e309b662924fe
+SHA512: 0bde87d393c5d3b5ba6d96905bdd2873d876cc1494682e5f44af43361f1387eb68a41da0f631945efd019a4922aefad952f3203f4991b860e32f5774a033a1dd
+Section: 你的
+Description: 通知美化，按app收纳通知
+Name: 通知美化
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/axon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
+
+Package: byg.iosios.net.ccborder.new
+Architecture: iphoneos-arm64e
+Version: 1.1.2-39
+Maintainer: 搬运工
+Installed-Size: 1004
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
+Filename: debs/CCBorder控制中心美化_1.1.2-39_iphoneos-arm64e.deb
+Size: 206420
+MD5sum: 146f142ff4a5f6f5420b9c52ba5108f0
+SHA1: c5b8800d0083217aa3f5d5349d96a16a147fcf87
+SHA256: 35c537420d249d8b1b94edcecf63a13b5254f749d8dbf88445aaa3cb0fdebd60
+SHA512: e5711f91d6aa6f748f1535009cc3f40bea2f901f282aeea8e0085a962d9d01e69e4ba6758ccfd9c1a32166c6f7a529dd831ead2892de190e1df37c1be2a63f7c
+Section: 你的
+Description: 控制中心美化
+Name: 控制中心美化
+Author: Fiore & p2kdev & SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.dao.ccless
+Architecture: iphoneos-arm64e
+Version: 2.1.0.1
+Maintainer: 妖刀
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: debs/CCLess_RootHide_2.1.0.1_iphoneos-arm64e.deb
+Size: 498480
+MD5sum: ae69caae2987f8c3a34ba59f37fb97aa
+SHA1: 0c992d7b8579c291346d6a437cfdd43a79fb040c
+SHA256: 3359cd5d3ac5a377071e7e04e9e19c9a079c147319332fd2511f9dc52639a829
+SHA512: 4c8f2dc4282079049d8c310fe1deabe755bfcfec3dc77f133be00d4bc83f8938058a71b9c942b677e58a1555cb45dc6e7f161c85ec37067737addf671bba16ad
+Section: 你的
+Description: 为控制中心增加各种功能，强烈推荐
+Name: 控制中心增强
+Author: 妖刀
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+
 Package: com.axs.ahsfilter
 Architecture: iphoneos-arm64e
 Version: 5.2.0-3
@@ -56,67 +117,6 @@ Name: 短信验证码自动填充
 Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.axs.axon
-Architecture: iphoneos-arm64e
-Version: 5.2.0-55
-Maintainer: Axs
-Installed-Size: 552
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Filename: debs/Axon_5.2.0-55_iphoneos-arm64e.deb
-Size: 68232
-MD5sum: 54508825ca1fbc7d4a3c9799cde527c9
-SHA1: 1197d833ca5ba786dbd2f6b7d2039702682ca415
-SHA256: 3db5f4bed6619300f1ac2be101bae0d0d17b62666b7f3198011e309b662924fe
-SHA512: 0bde87d393c5d3b5ba6d96905bdd2873d876cc1494682e5f44af43361f1387eb68a41da0f631945efd019a4922aefad952f3203f4991b860e32f5774a033a1dd
-Section: 插件
-Description: 通知美化，按app收纳通知
-Name: 通知美化
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/axon.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
-
-Package: byg.iosios.net.ccborder.new
-Architecture: iphoneos-arm64e
-Version: 1.1.2-39
-Maintainer: 搬运工
-Installed-Size: 1004
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, firmware (>= 16.0)
-Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
-Filename: debs/CCBorder控制中心美化_1.1.2-39_iphoneos-arm64e.deb
-Size: 206420
-MD5sum: 146f142ff4a5f6f5420b9c52ba5108f0
-SHA1: c5b8800d0083217aa3f5d5349d96a16a147fcf87
-SHA256: 35c537420d249d8b1b94edcecf63a13b5254f749d8dbf88445aaa3cb0fdebd60
-SHA512: e5711f91d6aa6f748f1535009cc3f40bea2f901f282aeea8e0085a962d9d01e69e4ba6758ccfd9c1a32166c6f7a529dd831ead2892de190e1df37c1be2a63f7c
-Section: 插件
-Description: 控制中心美化
-Name: 控制中心美化
-Author: Fiore & p2kdev & SINI
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.dao.ccless
-Architecture: iphoneos-arm64e
-Version: 2.1.0.1
-Maintainer: 妖刀
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
-Filename: debs/CCLess_RootHide_2.1.0.1_iphoneos-arm64e.deb
-Size: 498480
-MD5sum: ae69caae2987f8c3a34ba59f37fb97aa
-SHA1: 0c992d7b8579c291346d6a437cfdd43a79fb040c
-SHA256: 3359cd5d3ac5a377071e7e04e9e19c9a079c147319332fd2511f9dc52639a829
-SHA512: 4c8f2dc4282079049d8c310fe1deabe755bfcfec3dc77f133be00d4bc83f8938058a71b9c942b677e58a1555cb45dc6e7f161c85ec37067737addf671bba16ad
-Section: 插件
-Description: 为控制中心增加各种功能，强烈推荐
-Name: 控制中心增强
-Author: 妖刀
-SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
 Package: com.opa334.choicys
 Architecture: iphoneos-arm64e
