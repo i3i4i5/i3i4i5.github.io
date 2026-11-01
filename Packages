@@ -1726,6 +1726,25 @@ Author: Simon
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.speedster
+Architecture: iphoneos-arm64
+Version: 2.2.2
+Maintainer: 搬运工
+Installed-Size: 428
+Depends: firmware (>=13.0)
+Filename: debs/byg.iosios.net.speedster_2.2.2_iphoneos-arm64.deb
+Size: 60710
+MD5sum: fd1e0f1205190983425422448887dd3b
+SHA1: 93784c9fe4df4b22189b879d3681a3dcf1a9f688
+SHA256: 72a7215cf229a3c978fc8da6d3981bc0d4017aa198eacd58a9908c5801eb876a
+SHA512: f5d832f5ddb60c9df17cd30cd6c777fe9572e102ad5d4308300ecb43b04ed3115b568164a7d0b6d1faee7abefdc303de6a107cb07b3426255a78e4adcfe3bc5c
+Section: 插件
+Description: 加速系统的一些动画效果，为旧手机提速！效果非常的不错！冲冲冲，已汉化，免费插件尽在搬运工源！
+Name: Speedster系统动画加速
+Author: Hoangdus、daodao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.touchvis
 Architecture: iphoneos-arm64
 Version: 4.2
