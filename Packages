@@ -11,52 +11,12 @@ MD5sum: 2f82cd10d6207637ac62e7a530c49d27
 SHA1: 14f3675886a4ae71210e39fa64b24950a6ed12c9
 SHA256: 886a391d245448d317f6fadb98c3aba5576eddc3e515d8b5513e65a60c8f0ee4
 SHA512: fcaac9daa16bdbdcdbde218ef943acca240f8e4d28de1fadb5c75e99df6afa57c5d386bebe7bcf4869559d8afb9cfe6f3ae42fe7f4ea0ebc9f03f3358b27a8ef
-Section: 微信
+Section: 我的
 Description: 设置各种app跳转指向
 Name: 跳转拦截
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/appselect.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
-
-Package: com.dao.ccless
-Architecture: iphoneos-arm64e
-Version: 2.1.0.1
-Maintainer: 妖刀
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
-Filename: debs/CCLess_RootHide_2.1.0.1_iphoneos-arm64e.deb
-Size: 498480
-MD5sum: ae69caae2987f8c3a34ba59f37fb97aa
-SHA1: 0c992d7b8579c291346d6a437cfdd43a79fb040c
-SHA256: 3359cd5d3ac5a377071e7e04e9e19c9a079c147319332fd2511f9dc52639a829
-SHA512: 4c8f2dc4282079049d8c310fe1deabe755bfcfec3dc77f133be00d4bc83f8938058a71b9c942b677e58a1555cb45dc6e7f161c85ec37067737addf671bba16ad
-Section: 微信
-Description: 为控制中心增加各种功能，强烈推荐
-Name: 控制中心增强
-Author: 妖刀
-SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
-
-Package: com.opa334.choicys
-Architecture: iphoneos-arm64e
-Version: 1.5.2-2
-Maintainer: opa334
-Installed-Size: 888
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
-Conflicts: com.opa334.choicy
-Filename: debs/Choicy_禁止注入_1.5.2-2_iphoneos-arm64e.deb
-Size: 164204
-MD5sum: d2b814d3719d0258b14d10a2a2bd2066
-SHA1: 12315ccbbcbe5d7a75fa29799b040451a22cfd32
-SHA256: 46efdf4f25532e09be1c9959140e0d34f9997cd4f48ac18d0728ca96f9d50fa4
-SHA512: 5a8600477dce5c2e1eadf8307617f8d4951d9d0ed67c863c2d23a2a2fd357880454823abdef4a0733aa1a0281ee629ef4298a832fae9706cf049a9f8e43dfbed
-Section: 微信
-Description: 越狱必备
-Name: 禁止注入
-Author: opa334
-icon: https://TrollStoreX.Github.io/sileodepiction/Choicy/icon.png
-SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Choicy/js.json
 
 Package: com.axs.ahsfilter
 Architecture: iphoneos-arm64e
@@ -138,6 +98,46 @@ Name: 控制中心美化
 Author: Fiore & p2kdev & SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.dao.ccless
+Architecture: iphoneos-arm64e
+Version: 2.1.0.1
+Maintainer: 妖刀
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: debs/CCLess_RootHide_2.1.0.1_iphoneos-arm64e.deb
+Size: 498480
+MD5sum: ae69caae2987f8c3a34ba59f37fb97aa
+SHA1: 0c992d7b8579c291346d6a437cfdd43a79fb040c
+SHA256: 3359cd5d3ac5a377071e7e04e9e19c9a079c147319332fd2511f9dc52639a829
+SHA512: 4c8f2dc4282079049d8c310fe1deabe755bfcfec3dc77f133be00d4bc83f8938058a71b9c942b677e58a1555cb45dc6e7f161c85ec37067737addf671bba16ad
+Section: 插件
+Description: 为控制中心增加各种功能，强烈推荐
+Name: 控制中心增强
+Author: 妖刀
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+
+Package: com.opa334.choicys
+Architecture: iphoneos-arm64e
+Version: 1.5.2-2
+Maintainer: opa334
+Installed-Size: 888
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy
+Filename: debs/Choicy_禁止注入_1.5.2-2_iphoneos-arm64e.deb
+Size: 164204
+MD5sum: d2b814d3719d0258b14d10a2a2bd2066
+SHA1: 12315ccbbcbe5d7a75fa29799b040451a22cfd32
+SHA256: 46efdf4f25532e09be1c9959140e0d34f9997cd4f48ac18d0728ca96f9d50fa4
+SHA512: 5a8600477dce5c2e1eadf8307617f8d4951d9d0ed67c863c2d23a2a2fd357880454823abdef4a0733aa1a0281ee629ef4298a832fae9706cf049a9f8e43dfbed
+Section: 插件
+Description: 越狱必备
+Name: 禁止注入
+Author: opa334
+icon: https://TrollStoreX.Github.io/sileodepiction/Choicy/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Choicy/js.json
 
 Package: cn.octoforce.copyvault
 Architecture: iphoneos-arm64e
