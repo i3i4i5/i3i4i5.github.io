@@ -17,30 +17,29 @@
       "orig": "",
       "pkgs": [
         "com.axs.axon",
-        "byg.iosios.net.ccborder.new",
-        "com.dao.ccless"
+        "byg.iosios.net.ccborder.new"
       ]
     },
     {
-      "name": "我爱的",
+      "name": "我爱的你",
       "orig": "",
       "pkgs": [
-        "com.dao.ccless"
+        "com.dao.ccless",
+        "com.axs.ahsfilter"
       ]
     },
     {
       "name": "哦哦",
       "orig": "",
-      "pkgs": [
-        "byg.iosios.net.autofillfix",
-        "com.opa334.choicys"
-      ]
+      "pkgs": []
     },
     {
       "name": "你爱的",
       "orig": "",
       "pkgs": [
-        "com.dao.ccless"
+        "cn.octoforce.copyvault",
+        "byg.iosios.net.denyphotoalbumsllld.rootless",
+        "cn.llld.qsyy"
       ]
     },
     {
@@ -48,7 +47,10 @@
       "orig": "",
       "pkgs": [
         "byg.iosios.net.autofillfix",
-        "com.opa334.choicys"
+        "com.opa334.choicys",
+        "com.yourepo.axs.fv",
+        "cn.zqbb.fix120hz",
+        "com.axs.ipslog"
       ]
     }
   ]
