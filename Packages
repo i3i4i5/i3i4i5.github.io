@@ -1835,22 +1835,40 @@ Name: Pixact-Pro
 Author: 来了老弟 X：h_h_x_t
 
 Package: cn.llld.playerbj
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 1.0
 Maintainer: 来了老弟 h_h_x_t
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.llld.playerbj_1.0_iphoneos-arm64.deb
-Size: 3700
-MD5sum: c0169e2cb697111ae81405fd9fe720b9
-SHA1: c104d262eb73ef37767d8948016d002f3c0ccc02
-SHA256: bc218983e3a191a2ba1df2b3ff173c27616e66859a213063ef9a5ba02b56d8f5
-SHA512: 6892f83713befe3e66256cb2dc8b40252b3a245968934e4326bcab29a989e8450cacd33e13079741710a3f62defeaa8cdee3a18f60e48f8b414ca75f0f1897e7
+Filename: debs/cn.llld.playerbj_1.0_iphoneos-arm.deb
+Size: 3548
+MD5sum: b002ecfc3eb52dc74b86b2fa1783ce80
+SHA1: 0d65eb45695dc49bdc6907f3e4d666322a74f8f4
+SHA256: 4722db221559cdf6c3d79ae6f03a3f43a3c54cfea7b2a865068fe363d6f4cc3c
+SHA512: 39618775caf3dac1c500b4ef6d9040f3bcaf6ba6e880fd6c34cf689f0da198cbfde9fe6da13243241d18b9e6555b642665df04442be988214febca8dd97b047a
 Section: 插件
-Description: Hide player Notification background。全透版本，隐藏播放器通知背景-rootless
-Name: 隐藏播放器通知背景-rootless
+Description: Hide player Notification background。全透版本，隐藏播放器通知背景-rootful
+Name: 隐藏播放器通知背景-rootful
 Author: 来了老弟 h_h_x_t
-SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.playerbj/playerbj-rootless.json
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.playerbj/playerbj-rootful.json
+
+Package: cn.llld.ppgxll
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 来了老弟
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/cn.llld.ppgxll_1.1_iphoneos-arm64.deb
+Size: 17748
+MD5sum: 62b191a9f3215fefb2cc298e0b609e3e
+SHA1: 8bb1d4e1e78774eab08bdda3f2ff9202a9654f62
+SHA256: 5cc99918910e80bfeff84cf0310999e2d1f65322e4ad6d4368ae843433733b06
+SHA512: fb044edf84ebb4d8fe861b56b0ce8341a25f4a85efc947ef4cca48b8c48284fd12c0d7d4ad660f11772f5aea7c45803bc517c2b30b47e5c23809018324074a8a
+Section: 插件
+Description: 皮皮搞笑绿化，可注入可越狱使用，去除视频下载水印，禁用评论区推荐广告，禁用信息流广告，禁用角标红点消息气泡，禁用右下角悬浮刷新按钮，禁用下载视频后的分享界面，禁用启动视频图片摇一摇广告，等等。***在'主页'长按顶栏 和帖子写评论下方长按 和'我的'页面长按下面任意功能，弹出设置。***调试版本：2.90.0，进入播放页右上角无水印下载。
+Name: 皮皮搞笑绿化-rootless
+Author: 来了老弟
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.ppgxll/ppgxll.json
 
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
