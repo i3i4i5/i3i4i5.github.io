@@ -1358,6 +1358,140 @@ Description: Solve the problem of phone keyboard shrinking and shifting after ch
 Name: phonefix-rootless
 Author: 来了老弟 h_h_x_t
 
+Package: cn.llld.flexcopy
+Architecture: iphoneos-arm
+Version: 1.0
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.flexcopy_1.0_iphoneos-arm.deb
+Size: 4572
+MD5sum: f37422e792c6aee643cf6a6ee7b308a8
+SHA1: 6a9e7d50ff5cb859a4c3d6b8b772a10e78554bd5
+SHA256: 4c8bc42dfc0a2f59d8d3f1904e44dd04f787cce80dd2a4f1f89a6fc3449f21ab
+SHA512: 71bdaf5899d3af7d4a620092ba68c1d6d98b93785fd5f0aaa46a76f45a7a7a7b6efe486562478a342bf96d99b5dfe9885763b884336b1ae6a891316e2c889071
+Section: 插件
+Description: Specifically customized for Flex3, long press to copy the description or popup content, combined with translation tools or software, making it convenient for you to understand languages you don't know.（专门为flex3定制，长按描述或者弹窗复制内容，配合翻译工具或者软件，方便你去了解不懂的语言）
+Name: flexcopy-rootful
+Author: 来了老弟
+
+Package: cn.llld.flexlist
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.flexlist_0.0.4_iphoneos-arm64.deb
+Size: 11748
+MD5sum: 56210e410fb755bbdb5a86e032b17409
+SHA1: 0957d3cf623395d317d85857b5da1fd53220a2d7
+SHA256: 1d311f9b12edb75d8ea1ad9b6463b6123ae93849d804e598dd88fa49f40cabe6
+SHA512: 1c5c343ca6b1d598019e9e1ccba690aebd66025cb7a74009daf1101219df10e7990bce52af537118fcd72d5c5967678306461b437a61dc0fa72cd28fe49e9fb2
+Section: 插件
+Description: Flexlist，Flexing,Flexible,Flexall等调试工具--(rootless)简体中文包，(231130解决搜狗输入法不能删除的问题)，默认对全局应用生效，不需要的应用请仅允许或者仅禁止此汉化包的注入
+Name: Flexlist，Flexing汉化-rootless
+Author: 来了老弟 h_h_x_t
+
+Package: cn.llld.flexroothide
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.flexroothide_1.0_iphoneos-arm64e.deb
+Size: 12336
+MD5sum: ebbe54b4861ac5bdb65df64dc630ded0
+SHA1: ee2dd9bb6a78458d85ed4f66986fa3a56106168c
+SHA256: 27a4b228f1bdcef202bca6bdeae7ce1ff390dc4ffd3a99384bb2cfcda893fd75
+SHA512: 3c46a1694b21155cc1cbb4880150a3fd840bcb924d1ed0e4f703d07116e076058013bf0ef19146f6f8df6e96c43b1492382482cc14aeb18b34d97cba10574d79
+Section: 插件
+Description: Flex3--(roothide专用)简体中文包
+Name: Flex3汉化包-roothide
+Author: 来了老弟
+
+Package: cn.llld.folded
+Architecture: iphoneos-arm64
+Version: 1.2.01
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, preferenceloader, com.creaturesurvive.libcscolorpicker, cn.llld.hhxt, oldabi
+Conflicts: com.burritoz.cartella, com.thomz.foldy, com.spark.snowboard.dock
+Replaces: com.burritoz.cartella, com.thomz.foldy
+Filename: debs/cn.llld.folded_1.2.01_iphoneos-arm64.deb
+Size: 415964
+MD5sum: 51a186f6526350abcbd68bb648fe558e
+SHA1: 1854090fea181aa068a2319105783b4ed93ba036
+SHA256: 71e993a439c4467afbf416cd06832937953c6b50ea910c64089f0c2a38dc8d60
+SHA512: b5a4eb581fb6e9ea7c95e5193004b880feb894652cd7bd7851fed672661bf88934bbfcaa2b213fd3c5f08b902d140644d62150feffbcdcf1a06cee9c0723ee5f
+Section: 插件
+Description: Customize your folders with the most feature-rich folder tweak。自定义你的文件夹，功能最丰富的文件夹插件。出现弹窗则这个路径创立文件/var/lib/dpkg/info/xyz.burritoz.thomz.folded.list
+Name: Folded文件夹增强-rootless
+Author: Thomz and burrit0z
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.folded/folded.json
+
+Package: cn.llld.fsqsy
+Architecture: iphoneos-arm
+Version: 0.0.1
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.fsqsy_0.0.1_iphoneos-arm.deb
+Size: 5840
+MD5sum: 8dbd9e6a66930bdeac97f6ea5b731604
+SHA1: 78b99309c22dae4c7af89297ff683d245e2152f8
+SHA256: b93a899493920a69557aa0e08380392864cb0b0173c478e7afa0dd02a195b4af
+SHA512: ff8d7dd61836a26daca9233e0910a61943781a06df35cfd35e54c33872fffd19a8903fa93d2afbeb800fb4cc73c7e45c118386a4ab5a24272931f262940f344a
+Section: 插件
+Description: FaceSwapper去除预览水印和导出水印，网上有开心版。
+Name: FaceSwapper
+Author: 来了老弟 X：h_h_x_t
+
+Package: cn.llld.ftt
+Architecture: iphoneos-arm64
+Version: 0.1
+Maintainer: 来了老弟 h_h_x_t
+Filename: debs/cn.llld.ftt_0.1_iphoneos-arm64.deb
+Size: 42916
+MD5sum: 236c22a2442a1a8ded2721c719507836
+SHA1: f293e03e009368737971e8310c31dcbcf9a1c0dc
+SHA256: 2fc0f08c4b1741149e79f1011d36d56ce21b68b339aab285ad6e3be4585b0642
+SHA512: d3fd8ca48904811811fc6232ba45da3345ee61da4e383743040eaa245b79523ab731d8cdf41b800429a49c73b22f6b22d861a7f428a02e0db5da7ee86b044618
+Section: 插件
+Description: This is just the Chinese version of "ftt", the English version in（ https://github.com/randy-420/ftt ）Download。。。。工具作用：把Flex3补丁转换为Theos项目，原版(https://github.com/Randy-420/ftt)，补丁路径：/var/mobile/Library/Application Support/Flex3/patches.plist或前面加/var/jb
+Name: ftt中文版-rootless
+Author: iPadKid358 Randy420
+
+Package: cn.llld.hhxt
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 来了老弟 X :h_h_x_t
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/cn.llld.hhxt_1.1_iphoneos-arm64.deb
+Size: 9004
+MD5sum: 9a092aa67e1db12ff442f152cbb50d3f
+SHA1: f5d1f4421767e7a46f08cade8d7bb4da06d0d3c5
+SHA256: 5166be4ed5023b9f3c08840b9b1380cfcf64937033d15c7052f2f1072ff50c96
+SHA512: 32d6a9350b857bb308d7367699149772dd12818811e6a5f0f6a60f862bab014762c3a837e34ec7f5dcbebbc307f14d2d4750dcbed258267f557f153f44a6a9f2
+Section: 插件
+Description: rootful tweak can be used on xina2 or rootless (first release the first version, the root tweak is waiting for me to upload it, it is useless to install it alone, it needs to be combined with the tweak I uploaded)。让有根插件可以在xina2或者rootless上使用，(先发个初版，单独装这个没用，需要搭配我上传的插件,目前部分插件在：兼容层oldabi-rootless，以后（有别的分区或修复去掉oldabi,仅装这个即可）
+Name: xina2-rootless串联
+Author: 来了老弟 h_h_x_t
+
+Package: cn.llld.hideallbar
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: 来了老弟
+Depends: mobilesubstrate,oldabi
+Filename: debs/cn.llld.hideallbar_1.0_iphoneos-arm64e.deb
+Size: 4080
+MD5sum: 92eccc8828dd16e7733ca3a8ae60b6dc
+SHA1: 1a23cb6355d74b69d0d50dbe4a1e6b676496ca6b
+SHA256: 6a660e9f4981fce885766bd012ae1d5142bc7cdfd0e10837be9706f4b3a5d61b
+SHA512: b28ab145624750d6db38b794b37a6a9973093570853b103cac3720de1101c0bbc3ffe66a7362fe65b509602bdfb7356f028272c87eb87669907c61f901673370
+Section: 插件
+Description: Hide home bar隐藏底部横条，需要安装Legacy arm64e Support，介意卸载---roothide
+Name: 隐藏底部横条-roothide
+Author: netskao
+
 Package: cn.llld.hidejb
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -1374,6 +1508,56 @@ Section: 插件
 Description: Hide IconBadge。隐藏桌面角标(消息提示)-roothide
 Name: 隐藏桌面角标-roothide
 Author: 来了老弟 h_h_x_t
+
+Package: cn.llld.hidepagedots
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: 来了老弟
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.hidepagedots_1.0_iphoneos-arm64e.deb
+Size: 2580
+MD5sum: 97003bf11fb43c92ae97691f68ecd851
+SHA1: 5b7e03428b64b04a68e281f195263994be58e91f
+SHA256: 5ddea9f739ec92539b136e7b6dad5507bbe7fe33377bac220f0e4b6a7f0960a6
+SHA512: 6de14751ca3569f71e2b3496f8826e04e33469e5f55461e8b6368bb9437842b40a1f230177d20ebae7e5b6b809e4d92506f36e26cdb040bee4c0a199f50046b2
+Section: 插件
+Description: hide page dots隐藏页面点---roothide
+Name: 隐藏桌面翻页点-roothide
+Author: 来了老弟
+
+Package: cn.llld.htmh
+Architecture: iphoneos-arm
+Version: 1.0
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.htmh_1.0_iphoneos-arm.deb
+Size: 3244
+MD5sum: 01dd3dc9a441ccd542ef13cc2c7af6c1
+SHA1: 014abd9e9298b8edd5acca2547e58453d5981903
+SHA256: a8c2b92096ca1425ec8f552fb1964410216a399ce0df1ab9686493d00ea8781b
+SHA512: 42894410df80efcc4cfe0337d143011b141e00bab7301605ec1de2988c3a4e50e341c7444177d9f84fa1ba0eef09539c92e98b225c625130bc55406fc96903e0
+Section: 插件
+Description: Switch the background blur effect.切换后台模糊效果,非高斯模糊，没找到好的写法，要么只能五颜六色，先发个版本（低斯模糊）凑合下，有针对所有后台应用时再更新
+Name: 切换后台app模糊-rootful
+Author: 来了老弟 h_h_x_t
+
+Package: cn.llld.igg
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 来了老弟
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.igg_0.0.2_iphoneos-arm64.deb
+Size: 6668
+MD5sum: d921c857731e661cb2245314361ce393
+SHA1: d5af692d9c6a77f1eaacaff6d5bb1f5d896a2094
+SHA256: d4f571b0f8429995723fbb6f976109a972a2b5df2fe6a83da4c264c74f1a1971
+SHA512: 02ec5d69df678c1d01876208b4199ead4a256838099d251ee8527ee50b7322767ec3a85e37de51f0516c86834392c2d60ae56c47070eb7ac3cbb8ee6d98bf153
+Section: 插件
+Description: igg汉化，iGameGod汉化，神秘靓仔定制汉化-rootless
+Name: igg汉化-rootless
+Author: 来了老弟
 
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
