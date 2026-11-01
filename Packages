@@ -1907,6 +1907,24 @@ Author: 来了老弟 X：h_h_x_t
 Icon: file:///Library/PreferenceBundles/qqdsqprefs.bundle/icons/tubiao1.png
 SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.qqdsq/qqdsq-rootless.json
 
+Package: cn.llld.qqdsqqc
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 464
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/cn.llld.qqdsqqc_1.0_iphoneos-arm64.deb
+Size: 79068
+MD5sum: 5092259688049aa7206ad175491d1879
+SHA1: dfebd75abf34f2bc80320e2fc34a756b3146c73d
+SHA256: 0bb960861f1dee187d68c142a2244a6e4d3e803aaa217d8612e10ab06020922b
+SHA512: 98a28a6c866610d76c5a5eae0770feaea2ff764515d03882796fda559eaa6209ea46ae25dcb953f925e526a5005047e626cb8b31329470c18b6c4fe0d4d77d5e
+Section: 插件
+Description: 芭比Q精简功能版，去除 全局视图颜色控制和全局视图透明调节 功能。插件功能在手机"系统设置"。调试版本号：v8.9.58和v9.0.20，别的版本需自测。
+Name: 芭比QQ精简版-rootless
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
