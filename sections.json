@@ -4,6 +4,37 @@
       "name": "插件",
       "orig": "",
       "pkgs": []
+    },
+    {
+      "name": "自用",
+      "orig": "",
+      "pkgs": [
+        "byg.iosios.net.autofillfix",
+        "com.axs.axon",
+        "byg.iosios.net.ccborder.new",
+        "com.dao.ccless",
+        "com.opa334.choicys",
+        "cn.octoforce.copyvault",
+        "byg.iosios.net.denyphotoalbumsllld.rootless",
+        "cn.llld.qsyy",
+        "com.dao.filzacrack",
+        "com.yourepo.axs.fv",
+        "com.axs.ipslog",
+        "byg.iosios.net.onesettings",
+        "byg.iosios.net.recordpause",
+        "cn.llld.snapshottool",
+        "byg.iosios.net.sleeperx",
+        "com.axs.snapper4",
+        "xyz.cypwn.sneakycam",
+        "cn.octoforce.squidextender",
+        "cn.octoforce.squidgesturepro",
+        "com.yourepo.axs.touchtrail",
+        "com.tigisoftware.filza64bits",
+        "com.xybp888.callassist16.dopamine.roothide",
+        "ellekit",
+        "byg.iosios.net.icleanerpro",
+        "com.roothide.lockdown"
+      ]
     }
   ]
 }
