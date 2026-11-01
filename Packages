@@ -2834,6 +2834,129 @@ Name: libnotifications
 Author: CokePokes <cokepokes@gmail.com>
 dev: cokepokes
 
+Package: com.llld.flexrootless
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.llld.flexrootless_0.0.2_iphoneos-arm64.deb
+Size: 9768
+MD5sum: dabbc7837c1883c576e487d86ba03098
+SHA1: 57f90bcee7e21fdd5623c00d1caffbda05573b7d
+SHA256: a6fa4a45b037a7414387a77458bac4fd9e354cde291021a28a7b501fe228089a
+SHA512: 6035a62dc35f48b623c09c49d3055c934aafe6c795e5a4870e86f09c1b8fb40270dad29dc8e22a6fceccd9c918ca950dba13e8a89e1132438fa251b0b050eb85
+Section: 插件
+Description:  Flex3--(rootless专用)简体中文包
+Name:  Flex3汉化包-rootless
+Author: 来了老弟
+
+Package: com.llld.fugap
+Architecture: iphoneos-arm64
+Version: 2.2.4
+Maintainer: 来了老弟
+Installed-Size: 584
+Depends: mobilesubstrate
+Filename: debs/com.llld.fugap_2.2.4_iphoneos-arm64.deb
+Size: 143560
+MD5sum: 76b2b4288fdf250a4c7cff25fd107efe
+SHA1: 652ebaa178389f969fb10835f0cc16d6cdb6069e
+SHA256: 69a600d9b86088662d4a005ac0b7b3a47730c1d5ed876347fa53085cef02ce32
+SHA512: 6d3059a3dbf69b49d6ac13381f48fbfabde12f9db6bc6da4f8a570b177158b8f27a391668dc9795633126d987b04cd99cacc77a2cfd908ca8cbd1a2cef029870
+Section: 插件
+Description: Adjust the blank part of the control center and hide the status bar调节控制中心空白部分以及隐藏状态栏_________仅测试，有问题请卸载
+Name: FUGap控制中心间距-rootless
+Author: smokin1337
+
+Package: com.llld.livecalltranslator
+Architecture: iphoneos-arm
+Version: 0.0.1
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.llld.livecalltranslator_0.0.1_iphoneos-arm.deb
+Size: 8388
+MD5sum: 2294ea7e71ad2aa58019170f15318649
+SHA1: eb95733cc1ea8b4b4ab196b507ee9a4e86c5a1e2
+SHA256: cd819e67cad9ba4230cc361c1714217012f719904cc4c242102537c28e97de04
+SHA512: b69102ee721d310d065026dd9ae1a506a88f0329ad032a37f7b234c7b47cf5109b24a7afe67252d7a5e035806412bd48fe9448eed1f6196831bf5f26124709c2
+Section: 插件
+Description: LiveCallTranslator汉化--(rootful)简体中文包
+Name: LiveCallTranslator汉化包-rootful
+Author: 来了老弟 h_h_x_t
+
+Package: com.llld.runerootful
+Architecture: iphoneos-arm
+Version: 0.0.1
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.llld.runerootful_0.0.1_iphoneos-arm.deb
+Size: 9474
+MD5sum: 24b8b74d076111c03146553119f4cccf
+SHA1: 2bc2c5eb3961cc6a3db874146a9e3c9ca273a42f
+SHA256: d1c5b5eb2ddd4d9efaa01d7c9d15d5ceeb77419a4f60d772825278853a1798c9
+SHA512: 5a3da90ff7d5c5e8a9b527ad892e2626b99f0776b0ffbbbbfa5a404747bf77e2781b75072cd1ec1c1990d98f6a22cb893548aa020d942aef42cd258fb58da21c
+Section: 插件
+Description: Rune汉化--(rootful)简体中文包
+Name: Rune汉化包-rootful
+Author: 来了老弟 h_h_x_t
+
+Package: com.llld.runeroothide
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.llld.runeroothide_0.0.1_iphoneos-arm64e.deb
+Size: 9404
+MD5sum: e954f70ef38acb0545adbfe615ea31f3
+SHA1: 588706338e6c0c2b66d09bfc8bb6c191030a100e
+SHA256: 9af33b7d664034c92b3a38faf9295eedf14e31e3e97a672b938fd461c4795afc
+SHA512: a586747b5ea5414cf749ecb1e96a727b506e5f7e744256d1dad721cb56ec435e11afdc0bd3a652daa2c3bae5b26e452b0e9d9884b5431bf820384d13e2b6ed7f
+Section: 插件
+Description: Rune汉化--(roothide)简体中文包
+Name: Rune汉化包-roothide
+Author: 来了老弟 h_h_x_t
+
+Package: com.llld.runerootless
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.llld.runerootless_0.0.1_iphoneos-arm64.deb
+Size: 9516
+MD5sum: 0ad57ec30b5a0ae92e9235f39bafcaca
+SHA1: 69638445b9f88f13b25f179955272b56af7e65b5
+SHA256: 7f2728e94854c1da461f7df9e1e09940e3b9d3ab487e3c2fa4a185391a666137
+SHA512: 3abefc3c917c794f6d48d68b402fc4fcd1d2dbd1c8921531bade7fd90960edacfde0f6c33f9c03d88f213692d5a55605716fc45df8c15aa1dd01c8b26988728b
+Section: 插件
+Description: Rune汉化--(rootless)简体中文包
+Name: Rune汉化包-rootless
+Author: 来了老弟 h_h_x_t
+
+Package: com.miguelaka95.bettercc
+Architecture: iphoneos-arm64e
+Version: 0.0.51
+Maintainer: 来了老弟
+Installed-Size: 1828
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: debs/com.miguelaka95.bettercc_0.0.51_iphoneos-arm64e.deb
+Size: 141736
+MD5sum: 762e7cabc175eed53adf1041a9ea4eb4
+SHA1: 986550aced4408079237c589fd0869dbb8941784
+SHA256: 938efe3cbc767f800bf832f7ddcf0fc712ea5c653b45fead225eac10ca9a90fa
+SHA512: 309c638fd69836dc1e9658997be9da679e78561787af6db90408521a594345c7aa58733bd03c5e6acb67047a2361c612c6630dbda7722172eb55b5571a11a958
+Section: 插件
+Description: Customize your Control Center!_________仅测试用,有问题卸载---roothide
+ Invisible Modules.
+ Rearrange Connectivity Toggles.
+ Change Modules Size.
+ Weather Widget.
+Name: BetterCC-roothide
+Author: Miguelaka95 <miguelaka95@gmail.com>
+
 Package: com.opa334.libsandy
 Architecture: iphoneos-arm64e
 Version: 1.1.3-3-1+debug
@@ -2853,6 +2976,23 @@ Name: libSandy
 Author: opa334
 Depiction: https://apt.htv123.com/view/476
 SileoDepiction: https://apt.htv123.com/sileo/476
+
+Package: com.ryannair05.audiosnapshotserver
+Architecture: iphoneos-arm64
+Version: 2.1.2
+Maintainer: 来了老弟 h_h_x_t
+Provides: io.ominousness.ass, me.conorthedev.audiosnapshotserver
+Replaces: io.ominousness.ass, me.conorthedev.audiosnapshotserver
+Filename: debs/com.ryannair05.audiosnapshotserver_2.1.2_iphoneos-arm64.deb
+Size: 5200
+MD5sum: f4119cbdb30e2133961953d76db48a6e
+SHA1: f4ac196719f6a6f0cdfac839dcff9e55f7b1aab0
+SHA256: 966b4f8659084eae9efd45a8996bf5b1ad5508efafae2ce7c5b3d441451fd661
+SHA512: 88fb64b0f7ee45eecd8e88e5019e7273521065a87fa80fbd0eb6367308fe446196eee99104fbc30419cbe75b23fc31683005ae7682482ef7507e634f498341ef
+Section: 插件
+Description: A modified iOS mediaserverd hook to serve snapshots of current audio buffer via TCP/IP
+Name: AudioSnapshotServer-依赖
+Author: Ryan Nair and Nepeta <ryannairtweaks@gmail.com>
 
 Package: preferenceloader
 Architecture: iphoneos-arm64
