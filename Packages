@@ -758,6 +758,27 @@ Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.MikotoHelper
+Architecture: iphoneos-arm64
+Version: 1.3.6-10
+Maintainer: 搬运工
+Provides: MikotoHelper
+Depends: mobilesubstrate
+Conflicts: MikotoHelper
+Replaces: MikotoHelper
+Filename: debs/byg.iosios.net.MikotoHelper_1.3.6-10_iphoneos-arm64.deb
+Size: 29258098
+MD5sum: d3a467085d56ff2fa853e0d350bdff88
+SHA1: 901c50c3173ba024144c882a932e3d340e467bd3
+SHA256: d85f815c100a4d8028955613544efd67ee220e43a391bc8d649fb860ba735f0b
+SHA512: 4a29878d740b2e1ef97b4160df6eb446548854d5829e23b4d68f44ae3a7056d50e60d6ab8391dd64acf00f9a665d9de77a606691501a2957b09def36ce507d5f
+Section: 插件
+Description: 微信Misaka增强版，价值200块，作者格局太大了，现在免费使用，但是不会再更新了，越狱圈有这作者真好，有能力的去赞助一下也是可以的，插件功能非常的多，deepseek、语音包、跟发朋友圈、防撤回等等，大家自行体验！和Misaka不能共存，二者选其一，感谢大爱作者，冲冲冲，搬运工源，搬你所想！
+Name: 微信MikotoHelper助手
+Author: Mikoto
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ThemePro
 Architecture: iphoneos-arm64
 Version: 4.9.6
@@ -1045,6 +1066,25 @@ Section: 插件
 Description: 锤子助手插件，感觉就是微信净化换了个名字重现江湖，至于有没有什么其它限制，暂时不清楚，喜欢微信净化的用户可以试试此插件，可以防撤回，抢红包，转发语音等功能，自行体验！感谢搬运工源群管理GODW分享，越狱因为分享更精彩！
 Name: 锤子助手
 Author: DumpApp
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.dynamicislandring
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: 搬运工
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Filename: debs/byg.iosios.net.dynamicislandring_1.1.0_iphoneos-arm64.deb
+Size: 81926
+MD5sum: 709393a143115718745af686a0877d74
+SHA1: 39f8ee7cbf054bd748c9dd2008e6c60cd8b3bc5a
+SHA256: 3d363f232641b6f23e8600336736e240d6bf6ef04d4fe186c5666fb7f0f67604
+SHA512: 934723dc70af763a3ccdfee66c140d2a3c8cd63e78db53f6f63b688c4bb607fada2d196eeaac543ad64045da2c24c2ebc5b6279ccc651417876cbbef3ea02786
+Section: 插件
+Description: 灵动岛音乐进度环增强插件，放歌的时候，专辑上会有进度环，由搬运工源管理夜辰开发，感谢分享！搬运工源永久免费！
+Name: 灵动岛进度环
+Author: 夜辰
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
