@@ -3105,6 +3105,22 @@ Author: Dustin Howett
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: qcjpyc.llld
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 来了老弟
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/qcjpyc.llld_1.0_iphoneos-arm64.deb
+Size: 3444
+MD5sum: d87e2bd73a7e1346cd0c55c4411edcd4
+SHA1: ef7bab5eecbafc0d6cc65ed6d039b32a889ec72f
+SHA256: b7be7ea88ce4193fe832559459da9321b5bafc0424dac74f27e9a8832a829819
+SHA512: 6dce19c31d8560d5247b0a7db25198e288b04fe91feca14afb7e06e932df69c997410dd34c73474645c632467dfa3cc032c2e85e69e937f71ff74b66fb20cbca
+Section: 插件
+Description: 去除键盘的延迟(主用作于第三方，若没有延迟，则不用装)，安装即生效。
+Name: 去除键盘延迟-rootless
+Author: 来了老弟
+
 Package: cn.llld.xds
 Architecture: iphoneos-arm64e
 Version: 1.6.11
