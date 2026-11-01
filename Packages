@@ -632,6 +632,22 @@ Description: MisakaHelper
 Name: MisakaHelper
 Author: Misaka
 
+Package: Nets.llld.actionbarreborn
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Maintainer: Nets
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/Nets.llld.actionbarreborn_1.1-2_iphoneos-arm64e.deb
+Size: 161972
+MD5sum: 294463ac35d7d816cc26d835cf84081e
+SHA1: ba25dafb6064acecafa2b9273786c3ad914c0e14
+SHA256: 1659e49486bc6025ac7e3a7535644c9c20220d2eee1f0d454b178b74c690fc77
+SHA512: 9511707357945cb0d244f44568cf1462593a6927de38f25acaaca010ce511d86ca64c93a1785aa405d4950abac159839211c0778a7597d015143a4f8a3816536
+Section: 插件
+Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition,键盘底部的撤消、重做、全选、复制、剪切和粘贴操作。 ActionBar 免费重生版，感谢Netskao辛勤劳作
+Name: ActionBar Reborn-roothide
+Author: Netskao
+
 Package: cn.llld.urljg.roothide
 Architecture: iphoneos-arm64e
 Version: 1.1.7
