@@ -2312,6 +2312,73 @@ Description: Hide folder background隐藏文件夹背景-roothide
 Name: HideFolderBackground-roothide
 Author: 来了老弟
 
+Package: cn.llld.ycxbt
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.ycxbt_0.0.1_iphoneos-arm64e.deb
+Size: 2960
+MD5sum: 098255a102c57d9080ac920b65bd320c
+SHA1: 0d703b1d17f2fa04bc8e5862ae3d7b7a1eed6ec9
+SHA256: fda4ea360b7c11faaac7f2ca68076405101de280a420e9e252101388a4eceabe
+SHA512: 122dc7e01784a5f8ff911a7412fcb5f743b31a16bc5c3ced8ead8c1918b9b898c58823bbab83b7f21d6b4a6dcd6fd081f12223b943e6b60c0b9a0c3be17a4883
+Section: 插件
+Description: HideNoHomeBar隐藏底部小白条-roothide
+Name: HideNoHomeBar-roothide
+Author: 来了老弟 h_h_x_t
+
+Package: cn.llld.yghsh
+Architecture: iphoneos-arm
+Version: 1.1
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.yghsh_1.1_iphoneos-arm.deb
+Size: 2946
+MD5sum: 00efd9f66ed5dccf074514263a0c2676
+SHA1: 9b98cdd1555d865b31877b57c5c45446a06b9f04
+SHA256: 3db90ddbbef3e57b41080f0b3ab300656db7c7f976fe008c4139752ba4e9d7dd
+SHA512: f2fe2c1f27d57df7d8601f73c983926437bda40dc675e23fb6efc0acbc8fa68c8da1ed8c53a47a5dc9d20e770181a574796fdafe85a7967f81a9f1247dbe082f
+Section: 插件
+Description: 去掉(阳光惠生活)越狱提示，不影响任何插件注入使用
+Name: 阳光惠生活去越狱提示-rootful
+Author: 来了老弟 h_h_x_t
+
+Package: cn.llld.zenith
+Architecture: iphoneos-arm64e
+Version: 1.2.6
+Maintainer: 来了老弟
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14),oldabi
+Filename: debs/cn.llld.zenith_1.2.6_iphoneos-arm64e.deb
+Size: 231736
+MD5sum: a72d5c6e7dd8f3c45cf80872d398fda5
+SHA1: b8a8569e899ddd28c810342a09b3eb0f4c008cf2
+SHA256: 6c463f0dd3e0743f5b1b1a66811874567bb53c2c612b68006765c831da954527
+SHA512: e847841eb871a48a1465b81cabcc9b5d42c7f88700dfd148f3a2023f19fd46b8ca877b21266e3634c3ed89e56bebfe053e6e2adcbc08b8541e9e031b0e59355c
+Section: 插件
+Description: Store desktop apps, stack apps。This is the first version with fixes (the + icon is not displayed but can be used, it will be fixed in the next version)。插件用途：一个桌面图标通过上划或下滑手势，存着多个应用。收纳桌面App，堆叠App，这是发出修复的初版(+号图标不显示但能用，下版本修复)_________仅测试用,有问题卸载---roothide
+Name: Zenith(Apex)App堆叠-roothide
+Author: Muirey03 来了老弟
+
+Package: cn.llld.zfbb
+Architecture: iphoneos-arm64
+Version: 1.3
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 188
+Depends: mobilesubstrate
+Filename: debs/cn.llld.zfbb_1.3_iphoneos-arm64.deb
+Size: 13600
+MD5sum: 7cc5641d75015001fd62db55dcf751fb
+SHA1: 008c68b934dcc707f91608245cf06ca3006b902b
+SHA256: 4d59d8dd3f82bfb674f15c216333e41abb087bbd09963f7c74047f24054e72f5
+SHA512: 836d8700706ec182864aaff6dfd30586467cb052d992e3df3b3222e4379ea43937359197905f229f4b449b06525ce668e10cbda5e498a3a3f7b7b5d98aee6166
+Section: 插件
+Description: 可注入可越狱使用。自定义步数，精简主页显示内容.***长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置***,支持任意版本。250524:最好巨魔注入使用
+Name: 支付宝步数XD-rootless
+Author: 来了老弟 X：h_h_x_t
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
