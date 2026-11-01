@@ -1459,6 +1459,25 @@ Author: Chloe
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.pkc
+Architecture: iphoneos-arm64
+Version: 0.9-8
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 5.0)
+Filename: debs/byg.iosios.net.pkc_0.9-8_iphoneos-arm64.deb
+Size: 1911470
+MD5sum: 2903d98ade92b215d6e07160ca5355cb
+SHA1: 44b398dd7bea71b2ca112f9b848292ed2a045c04
+SHA256: fa1a1a08965fc5c077a7ae95a6d218e5e7d759cd34364971177811e5b19cc052
+SHA512: 3b351a3a2eb91324b91ad446eae2cca6a84109ff60eb1d77731879831ac771464bf3b81bd25addbe1ab6d9728e42192dcb1cc7052b1c10e8f8a010f3060875d3
+Section: 插件
+Description: 群管理Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、[每天60s读懂世界]自动发送信息、文字转语音等功能，非常的不错，认准搬运工源更新即可！
+Name: PKC微信助手
+Author: Curtin
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.qqnotiavatar
 Architecture: iphoneos-arm64
 Version: 1.2-3
