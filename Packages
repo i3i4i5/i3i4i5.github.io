@@ -591,6 +591,27 @@ Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 17.png
 
+Package: MisakaHelper
+Architecture: iphoneos-arm64
+Version: 2.0-0
+Priority: optional
+Essential: no
+Maintainer: Misaka
+Provides: MisakaHelper
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Filename: debs/MisakaHelper_2.0-0_iphoneos-arm64.deb
+Size: 11817640
+MD5sum: de4b0d7a9d34ba1410976640b8a3447f
+SHA1: 63f2d01dcac98e500838bd7c96fca321651f2c60
+SHA256: b882179f191ea72e852c88148e130c9ba0a362639ae0a4285d57017f45f9fdcf
+SHA512: ca2ba106dac6a4046c4ac081603571ceee6f2fa519e94c6ff25235ba3464ff1a8e5b6aa5f3e90ea87c33a7c3cd98bcea510d660a10f6afafb7c4effa2c1b7440
+Section: 插件
+Description: MisakaHelper
+Name: MisakaHelper
+Author: Misaka
+
 Package: cn.llld.urljg.roothide
 Architecture: iphoneos-arm64e
 Version: 1.1.7
