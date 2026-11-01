@@ -7,17 +7,12 @@
     },
     {
       "name": "QQ1",
-      "orig": "QQ",
+      "orig": "QQ1",
       "pkgs": [
-        "com.yourepo.axs.wxkeyboarduihook",
-        "byg.iosios.net.autofillfix",
-        "byg.iosios.net.ccborder.new"
+        "com.axs.ahsfilter",
+        "com.axs.appselect",
+        "com.axs.axon"
       ]
-    },
-    {
-      "name": "微信",
-      "orig": "微信",
-      "pkgs": []
     }
   ]
 }
