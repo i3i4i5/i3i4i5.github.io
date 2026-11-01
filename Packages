@@ -1,60 +1,63 @@
-Package: byg.iosios.net.autofillfix
+Package: com.axs.ahsfilter
 Architecture: iphoneos-arm64e
-Version: 0.1
-Maintainer: 搬运工
+Version: 5.2.0-3
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 712
 Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/Auto短信验证码自动填充-Rootless_0.1_iphoneos-arm64e.deb
-Size: 4300
-MD5sum: 85ef05c586648042a7e0d74dabd1ffa6
-SHA1: be497b8d395cb7e7ad6f3e58611b5119bec96aed
-SHA256: 38d8653521c912e1fd6932139c3556768a2918b2696fe3ffdc27688d0e27d267
-SHA512: cc36941b9fcc48122972782f7f312d2714810f14de9626c11160e0e585774a3ec8659682c5ee66a00f6221f8206a697cfe155b141c9d4e8ac8cea6f5a05ea3c4
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/AhsFilter_5.2.0-3_iphoneos-arm64e.deb
+Size: 128944
+MD5sum: 9a9bba17dc14ee3fd79f780db1868dd9
+SHA1: 9edb3c1343d53d2fb120ff8b0410e9165c869721
+SHA256: 030252a386e7ee2b908492cf9e05223fcfa681d7999c663d885ccd2d64c2f907
+SHA512: a11b52c6634ce58476f53f9436d90741fc923ce8b65be49adbcfac985b200b1a5d074789ac174f954b52ac2ea99990ee09912fd4dfd220a22a5ceb9dbde8ee61
 Section: QQ1
-Description: 短信验证码自动填充
-Name: 短信验证码自动填充
-Author: P2KDev
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
+Description: 爱回收筛选
+Name: 爱回收
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ahsfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ahsfilter/js.json
 
-Package: byg.iosios.net.ccborder.new
+Package: com.axs.appselect
 Architecture: iphoneos-arm64e
-Version: 1.1.2-39
-Maintainer: 搬运工
-Installed-Size: 1004
+Version: 5.2.0-12
+Maintainer: Axs
+Installed-Size: 456
 Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, firmware (>= 16.0)
-Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
-Filename: debs/CCBorder控制中心美化_1.1.2-39_iphoneos-arm64e.deb
-Size: 206420
-MD5sum: 146f142ff4a5f6f5420b9c52ba5108f0
-SHA1: c5b8800d0083217aa3f5d5349d96a16a147fcf87
-SHA256: 35c537420d249d8b1b94edcecf63a13b5254f749d8dbf88445aaa3cb0fdebd60
-SHA512: e5711f91d6aa6f748f1535009cc3f40bea2f901f282aeea8e0085a962d9d01e69e4ba6758ccfd9c1a32166c6f7a529dd831ead2892de190e1df37c1be2a63f7c
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/AppSelect_5.2.0-12_iphoneos-arm64e.deb
+Size: 45364
+MD5sum: 2f82cd10d6207637ac62e7a530c49d27
+SHA1: 14f3675886a4ae71210e39fa64b24950a6ed12c9
+SHA256: 886a391d245448d317f6fadb98c3aba5576eddc3e515d8b5513e65a60c8f0ee4
+SHA512: fcaac9daa16bdbdcdbde218ef943acca240f8e4d28de1fadb5c75e99df6afa57c5d386bebe7bcf4869559d8afb9cfe6f3ae42fe7f4ea0ebc9f03f3358b27a8ef
 Section: QQ1
-Description: 控制中心美化
-Name: 控制中心美化
-Author: Fiore & p2kdev & SINI
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
+Description: 设置各种app跳转指向
+Name: 跳转拦截
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/appselect.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
 
-Package: com.yourepo.axs.wxkeyboarduihook
+Package: com.axs.axon
 Architecture: iphoneos-arm64e
-Version: 1.8
-Maintainer: Doki <qiaozhani000@163.com>
+Version: 5.2.0-55
+Maintainer: Axs
+Installed-Size: 552
 Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/微信输入法自定义_1.8_iphoneos-arm64e.deb
-Size: 82592
-MD5sum: 2781240f9f739938b7d9347154313471
-SHA1: c1e63786c987d0d11ff79c8aac22ae48ff467360
-SHA256: df04f4853438a05a469dc237216ee38bd7055582592d37b6a2db5e6e564c4f6a
-SHA512: b053f73156aa86374c47b67e406f9dac806d14bec099b82cec278c81a66ecb202629fdad91750b2a3ebe617ef7f582f89b875179684d57df63849e5babc0070e
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: debs/Axon_5.2.0-55_iphoneos-arm64e.deb
+Size: 68232
+MD5sum: 54508825ca1fbc7d4a3c9799cde527c9
+SHA1: 1197d833ca5ba786dbd2f6b7d2039702682ca415
+SHA256: 3db5f4bed6619300f1ac2be101bae0d0d17b62666b7f3198011e309b662924fe
+SHA512: 0bde87d393c5d3b5ba6d96905bdd2873d876cc1494682e5f44af43361f1387eb68a41da0f631945efd019a4922aefad952f3203f4991b860e32f5774a033a1dd
 Section: QQ1
-Description: 微信输入法自定义颜色圆角之类
-Name: 微信输入法自定义
-Author: Doki <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/wechat.png
+Description: 通知美化，按app收纳通知
+Name: 通知美化
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/axon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
 
 Package: com.axs.ahsfilter
 Architecture: iphoneos-arm64e
