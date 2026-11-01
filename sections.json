@@ -8,11 +8,7 @@
     {
       "name": "QQ1",
       "orig": "Axs-Tweaks",
-      "pkgs": [
-        "com.axs.ahsfilter",
-        "com.axs.appselect",
-        "com.axs.axon"
-      ]
+      "pkgs": []
     }
   ]
 }
