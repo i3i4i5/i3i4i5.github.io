@@ -83,10 +83,14 @@ out=[]; multi=0
 bypkg={}
 for p in pkgs: bypkg.setdefault(p['pkg'],p)
 done_names=set()
+emitted=set()   # 已写出的包名，保证每个包只出现一次
 for s in sections:
     if s['name'] in done_names: continue   # 同名分类已经合并输出过
     done_names.add(s['name'])
-    for name in [p['pkg'] for p in pkgs if p['pkg'] in members[s['name']]]:
+    # 同一包名在 Packages 里可能出现多次（历史重复数据），这里按包名去重，避免写出重复段落
+    for name in dict.fromkeys(p['pkg'] for p in pkgs if p['pkg'] in members[s['name']]):
+        if name in emitted: continue
+        emitted.add(name)
         src=bypkg.get(name)
         if not src: continue
         lines=[l for l in src['block'].split(NL) if not l.startswith('Section:')]
@@ -96,7 +100,9 @@ for s in sections:
             if l.startswith('Description:'): at=i; break
         lines.insert(at,'Section: '+s['name'])
         out.append(NL.join(lines)); multi+=1
-for name in [p['pkg'] for p in pkgs if p['pkg'] in rest]:
+for name in dict.fromkeys(p['pkg'] for p in pkgs if p['pkg'] in rest):
+    if name in emitted: continue
+    emitted.add(name)
     src=bypkg.get(name)
     if not src: continue
     lines=[l for l in src['block'].split(NL) if not l.startswith('Section:')]
