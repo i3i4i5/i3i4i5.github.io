@@ -1226,6 +1226,25 @@ Author: Banana
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.jumpselect
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.jumpselect_1.0.0_iphoneos-arm64.deb
+Size: 100506
+MD5sum: aedca268aee703d79e0acb75b88ad42e
+SHA1: 151b0623877d7f22c9f7e7e22d8b086efd6072aa
+SHA256: e3e93168cdb49038ab0f124bde65668f6fd14486aaedf1085b1021c3b0f46423
+SHA512: a5f82d79e99094db774e6aea6c13da00938785306d4e5c37ec38a7bac81edf73fb89f3c47a474f0acb66c2290cf01567ed26b7b609ec51e1456434492b0431fa
+Section: 插件
+Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
+Name: JumpSelect多开跳转
+Author: iosdump
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.kayoko
 Architecture: iphoneos-arm64
 Version: 4.1.2
