@@ -3,16 +3,21 @@
     {
       "name": "QQ",
       "orig": "QQ",
-      "pkgs": []
+      "pkgs": [
+        "com.yourepo.axs.wxkeyboarduihook",
+        "cn.llld.xds",
+        "byg.iosios.net.autofillfix",
+        "byg.iosios.net.ccborder.new"
+      ]
     },
     {
-      "name": "微信",
+      "name": "微信1",
       "orig": "微信",
       "pkgs": []
     },
     {
-      "name": "陌陌",
-      "orig": "陌陌",
+      "name": "插件",
+      "orig": "",
       "pkgs": []
     }
   ]
