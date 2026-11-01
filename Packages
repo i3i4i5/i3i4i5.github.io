@@ -1035,6 +1035,108 @@ Description: AppStore++汉化(rootless简易汉化包)
 Name: AppStore++汉化-rootless
 Author: 来了老弟
 
+Package: cn.llld.bbqzr
+Architecture: iphoneos-arm64
+Version: 0.6.10
+Maintainer: 来了老弟
+Installed-Size: 404
+Depends: mobilesubstrate
+Filename: debs/cn.llld.bbqzr_0.6.10_iphoneos-arm64.deb
+Size: 66414
+MD5sum: 161459404051a045d2eb20e51c67dcc7
+SHA1: 37c635102da4fdfec2d2d8670e4542fdd25f7f40
+SHA256: 0d5b8527fb5e32ecd4cdc00f45a04589395c48a5b3875e9f32948ea91604cd97
+SHA512: 53d692d5153394dc019e88b0cdbeb24fdd574d90b674537740a7c78c45491a80a6674e86d30a19526cf8e2bd6697a87d3cdbe53bff1bab83ec5d2de9adf8ebb9
+Section: 插件
+Description: ***给QQ加些精简功能，芭比Q可注入可越狱使用，***。QQ对话消息页面长按表情，QQ侧边栏长按 日间 天气，QQ设置右上角都可以进入插件窗口。。。因版本不同 某些函数改动也不同
+Name: QQ绿化_芭比Q-rootless
+Author: 来了老弟
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.bbqzr/bbq.json
+
+Package: cn.llld.biaoji
+Architecture: iphoneos-arm64
+Version: 2.0-1+debug
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 328
+Depends: mobilesubstrate
+Filename: debs/cn.llld.biaoji_2.0-1_debug_iphoneos-arm64.deb
+Size: 75620
+MD5sum: b32b41b91d99889e26bd076db2cf6920
+SHA1: a086ba9fbe24c864096b989919ea39dd9b985248
+SHA256: 37ec92e91610b4394c66728e3fda659f80cfc453958cf9aab1ccfa533d3ec1a3
+SHA512: d36545ad61450b72f98b135005107e741ef84dfc01bcff890193a5394691d11450b2ce019ecda9329d66fda26a0ff4fc6645f54ee5c3e0059e5ef5875dba946e
+Section: 插件
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存，高亮，文字等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
+Name: 截图标记-rootless
+Author: 来了老弟 X: h_h_x_t
+
+Package: cn.llld.callblocker13
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, preferenceloader, cn.llld.hhxt,oldabi
+Filename: debs/cn.llld.callblocker13_2.0.3_iphoneos-arm64.deb
+Size: 52772
+MD5sum: c9a6b5dbd02b8018d40345d5abefc725
+SHA1: 01e4d5c2c8192486673639694007caef52c77d27
+SHA256: c4beb130417f33b70857f1a67c6b02dfbd5c7fd168b36ef475862bd5794cb425
+SHA512: 7c769c07ee209c1077251ccd51e111f30dee67387be15529ed94a116f357d494b6d7d99896b4838b4984a4b5c5df17bda992a62263f0d3aa063de67ec09ba4c9
+Section: 插件
+Description: Lightweight call blacklist。轻量级来电黑名单，原理：黑名单秒挂。
+Name: CallBlocker来电黑名单-rootless
+Author: P2KDev <p2kdev@gmail.com>
+
+Package: cn.llld.cocoatop
+Architecture: iphoneos-arm64
+Version: 0.0.1-1
+Maintainer: 来了老弟
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.cocoatop_0.0.1-1_iphoneos-arm64.deb
+Size: 19072
+MD5sum: 027d1d1eac443cfb20644afdf6457d09
+SHA1: 0538f99bf7423a771c3fd600fbbded023acd8728
+SHA256: e508312601c3283dd778382125d3e8f3c0307bb96fece23aafd7d299384be7d1
+SHA512: 556a9f9beba038ebb7e10798ffe2b32213c20c07bd40e60ca75788aeb85af001af84cfce34ef9fadc86e6f5037fcaa4b21b7dc7ac8c9c7cf8478d0b07aab7762
+Section: 插件
+Description: CocoaTop简易汉化（多巴胺专用）
+Name: CocoaTop汉化-rootless
+Author: 来了老弟
+
+Package: cn.llld.colorbadges
+Architecture: iphoneos-arm64
+Version: 1.5.0
+Maintainer: 来了老弟 h_h_x_t
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5.000), preferenceloader,oldabi
+Conflicts: com.haoerloveyou.colorbadges
+Filename: debs/cn.llld.colorbadges_1.5.0_iphoneos-arm64.deb
+Size: 61108
+MD5sum: 75d559a3ec1abbca0c043c43a0fb0248
+SHA1: a4c6354819d9c798d4cd5642c59f86a13df46df6
+SHA256: 014167860c24c8d63c998b1a22cdf985940338eed6eda3f941350ad6e8cb15e7
+SHA512: 6d6d2c9db1664118322a9b19f66bb4340a274259b09b02d295a49807059017fbd1ecced2d32eb2ac734ffbaaf8d109d3ccf06315cc965fac07bc898c92895132
+Section: 插件
+Description: The color of the corner mark automatically changes with the color of the App icon。角标颜色随App图标颜色自动改变，最受欢迎需要oldabi的插件😆
+Name: ColorBadges彩色角标-rootless
+Author: David Goldman
+
+Package: cn.llld.conditional
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Maintainer: 来了老弟
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: debs/cn.llld.conditional_0.0.2_iphoneos-arm64e.deb
+Size: 2716
+MD5sum: 8a0d8bac8a5d79ce43d4cb6cb331b18b
+SHA1: 9bdcabebcde9d3d12622a00d89928c93d2dc0100
+SHA256: 9809078254c73d4380f1cd168a5e7f1debb1a348fcabf72c6a2eae1771d2cd30
+SHA512: 497e9db916eea99333514371778ce57d9a0a7aab2734598fcd7287771c294d902cde1800ecc79ce1af398580c6e2018d298f135ce7451f229aa9f1b3a8ce0e61
+Section: 插件
+Description: Add network permission control for APP’s WiFi and data in settings设置中添加APP的WiFi和数据的网络权限控制 只推荐非国行手机安装 本意是模仿国行手机_________仅测试用,有问题卸载---roothide
+Name: Conditional 网络控制-roothide
+Author: daniel
+
 Package: cn.llld.dhjj
 Architecture: iphoneos-arm64
 Version: 1.0
