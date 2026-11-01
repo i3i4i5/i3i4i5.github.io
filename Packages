@@ -818,6 +818,25 @@ Author: Nepeta & Baw Appie & daodao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.bypassccbank
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.bypassccbank_0.0.1_iphoneos-arm64.deb
+Size: 3512
+MD5sum: a8485cb9dd339d34a073bf90dc6eaa3c
+SHA1: ebf2f8287830ce5d06292184e07688600d5a68a4
+SHA256: 9a7d4bea0c40107e78b58dd6bf8ec77f199b40cb54aa7bdea1c9eeeec9397737
+SHA512: fed3d30594c19e29927ed18e64c48a169da1449dc806dbca1f75107df86d839254291fad2fb48d6e3ce2df63499d1caa0ed2c89a90589948bf317466ef240b41
+Section: 插件
+Description: 屏蔽建设银行越狱环境下强制退出的弹窗，不要屏蔽本插件注入建设银行。由搬运工源水友KK开发分享，十分感谢！是否有效，请大家自行尝试！无效就卸载！
+Name: 建设银行屏蔽越狱
+Author: kk
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.classicfolders3
 Architecture: iphoneos-arm64
 Version: 3.5.1
@@ -1150,6 +1169,26 @@ Author: Dcsyhi
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.kwcrack
+Architecture: iphoneos-arm64
+Version: 0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: com.macxk.kwcrack
+Filename: debs/byg.iosios.net.kwcrack_0.1_iphoneos-arm64.deb
+Size: 5598
+MD5sum: 8e1170c7af0991b2d9a0d5e0bf3c8987
+SHA1: 45a401048e7af4db5511db5cf0493752b2e4a986
+SHA256: d19cdf89ad082d947bbad3822ec92ca6db5a8d470e60f73ad8edd3e723c6c356
+SHA512: 1e6ae2024011440ea0cd35748230dfa6ef7c27e04c692ed996c61cef85f65a7f55a8cf6fcf811cf9a31d5ea1c0d8c041d47e3c08b480e2eae91e4527c5ef0cde
+Section: 插件
+Description: 酷我音乐纯净版（版本1.0.5）破解插件。随时可能失效，失效就卸载！
+Name: KWSimpleCrack酷我音乐
+Author: MacXK
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.liquidas
 Architecture: iphoneos-arm64
 Version: 0.1.1b+banana54
@@ -1226,6 +1265,26 @@ Author: Hmmzzz
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.mikkyy
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Installed-Size: 1500
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.m4fn3.mikkyy
+Filename: debs/byg.iosios.net.mikkyy_1.0.1_iphoneos-arm64.deb
+Size: 514834
+MD5sum: 4af5139a983112def9eb3935ad2ff740
+SHA1: 16e24d80845ce86eca03749996d7500c64595cdb
+SHA256: 8b63c87e93d955abbd60d74286fb37f2348da743080d552e9e489f791c7eaf25
+SHA512: 8a2337125345063994ab16606948ba0933c788f50d5a464d388b2c8339f05db3c702841f506f3da03359bd9578ba5dc06a246fd20106d2e526d7bd00c166440a
+Section: 插件
+Description: iOS 越狱主题管理插件* 现代、轻量级的主题引擎，支持 iOS 16 至 iOS 26。* 可将图标主题应用于主屏幕、Dock 栏、App 切换器、共享菜单、设置界面、文件夹预览，以及实时更新的日历和时钟图标。
+Name: Mikkyy 主题插件
+Author: m4fn3
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.mobilemeadowreborn
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -1262,6 +1321,28 @@ Section: 插件
 Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
 Name: CPU去温控
 Author: Huayuarc
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.physpringboard
+Architecture: iphoneos-arm64
+Version: 1.9.0
+Maintainer: 搬运工
+Installed-Size: 496
+Provides: com.chloe.gravitation17
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.chloe.gravitation17, com.chloe.physpringboard
+Replaces: com.chloe.gravitation17
+Filename: debs/byg.iosios.net.physpringboard_1.9.0_iphoneos-arm64.deb
+Size: 111904
+MD5sum: 585c43346ba6cf2adef1913412bd4fd8
+SHA1: 95c5c6df420b053cc184d6c9681e91b049ce7dba
+SHA256: 0730780bea70244e0e0dbb12b1b4631f3aa94b5ec0f76de694cb18d76051c406
+SHA512: 1a104291428be9d86d6e51990ba7a4e4a57b108db074424ded44efb7b44ec7e993b68b456028cc533049376836c85455919fc8dda3057ff5da7e71b73e3253a9
+Section: 插件
+Description: 在主屏幕摇晃设备，图标会因重力感应下坠* 再次摇晃设备，将恢复原样* 长按桌面，图标会被吸引过去。
+Name: Physpringboard 图标重力感应
+Author: Chloe
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
