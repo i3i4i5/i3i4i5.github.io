@@ -2379,6 +2379,22 @@ Description: 可注入可越狱使用。自定义步数，精简主页显示内�
 Name: 支付宝步数XD-rootless
 Author: 来了老弟 X：h_h_x_t
 
+Package: cn.tool.aphrodite-debug
+Architecture: iphoneos-arm64
+Version: 0.6.13~Modify
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/cn.tool.aphrodite-debug_0.6.13_Modify_iphoneos-arm64.deb
+Size: 1582412
+MD5sum: bb135ec0b36dd5d25f8eafadb718ce25
+SHA1: 0f752abebe018f95a8460a4a16d69fe524c31cf2
+SHA256: 6b83e9049af225fecb9222be7c255c99f49d23d208a6b593eea56511078794e1
+SHA512: 55028481dde41470c68ca5da8d237e600c5e03dca0d2012b2a0ecf3ca3a65fcdb9f63bb7747e0178e31f7fe20d79a46772af212cea9178853d6da0cbf4f5bb92
+Section: 插件
+Description: Asset.car,View the resource pictures in the native system car and save the necessary ones，查看原生系统car文件中的资源图片，保存有需要的
+Name: Aphrodite-Assets文件查看
+Author: Joey GM & Acreson
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -2799,6 +2815,24 @@ Name: 微信消息直达
 Author: be-huge
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/wechat-push-msg-page/js.json
+
+Package: com.cokepokes.libnotifications
+Architecture: iphoneos-arm64
+Version: 0.3-5
+Maintainer: 来了老弟 h_h_x_t
+Depends: firmware (>= 8.0),cn.llld.hhxt
+Filename: debs/com.cokepokes.libnotifications_0.3-5_iphoneos-arm64.deb
+Size: 104510
+MD5sum: 2241aa1a7fef79362b4a0608705d583b
+SHA1: 130690bffab418c8bd2d79f7c2b48482d152e820
+SHA256: 54bc6edd12a95579b9189b9ebd2d0614b3d140e520f3737e9da2a87540b2e487
+SHA512: d308fa4ce0ea9885af5641a104479884d73c2ff63fa4491f143c53f83a2f5fa5d3c98b74d3fb3bb0bb1c4fb78cd6f01e5834aaa5823a31520b0a6893410bbd6a
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
+Section: 插件
+Description: App notification library.
+Name: libnotifications
+Author: CokePokes <cokepokes@gmail.com>
+dev: cokepokes
 
 Package: com.opa334.libsandy
 Architecture: iphoneos-arm64e
