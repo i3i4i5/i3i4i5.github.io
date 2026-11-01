@@ -740,6 +740,24 @@ Author: 0xkuj
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.appdata-rootless
+Architecture: iphoneos-arm64
+Version: 2.7.5
+Maintainer: 搬运工
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.appdata-rootless_2.7.5_iphoneos-arm64.deb
+Size: 2073598
+MD5sum: 8e13dccaeb8bd3a3847be9e6627c023b
+SHA1: 51475690c0a9bf7dc8b899fee606efcd8f1afdbc
+SHA256: 14f728366bac36464ef6caf43047eaa3bc2094edbfa6fc48b2aaa8754e785ed9
+SHA512: 01590befb3d618af10f0e9337a6da91e7d897546a560fa2c267901d115c57eb318a9c604302a2c05447aef27fdd2edb1048ef45425796e0d0aac181149aeb03a
+Section: 插件
+Description: 本插件功能非常的强大，可以降级APP软件版本，这是最nice的功能，还可以查看软件所占内存的大小，可以清除APP缓存，修改软件名称，修改角标数量，可以重置APP到刚下载时候的设置！可以查看软件的bundleID，可以直接跳转到软件的缓存及安装路径，可谓越狱必装插件，效果看截图介绍！安装之后去设置里开启插件唤醒的方式，然后注销即可，可以选择长按或者上滑软件，任君选择，搬运工源，永久免费！本插件由iosdump大神修复更新！感谢iosdump！
+Name: AppData软件降级-Rootless
+Author: Fouad Raheb
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.axon.rootless
 Architecture: iphoneos-arm64
 Version: 2.6
@@ -936,6 +954,26 @@ Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.goodwifi16
+Architecture: iphoneos-arm64
+Version: 1.7.3
+Maintainer: 搬运工
+Installed-Size: 464
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Conflicts: com.julioverne.goodwifi, com.daodao.goodwifi
+Filename: debs/byg.iosios.net.goodwifi16_1.7.3_iphoneos-arm64.deb
+Size: 100312
+MD5sum: e2bad7f67d033ffc6621208689e0f766
+SHA1: ed76b44f3e1c706ac5942de5b8dc97e3cbfb82dc
+SHA256: a0790c706683ae5f289a345acd7aa9e5ba7993c2256bb716d23f15dfc9a305e7
+SHA512: 92914edde700e08edc32b2ff57c9e60587d3af95409284a64d61cafd2593448f57d522e5669f21484247913c6f9058431397cea6be6c584f02f51500ee854714
+Section: 插件
+Description: 应群友要求上架！本款插件拥有更好的的 WiFi 配置，可查看连接的 WiFi 信道、加密方式、信号值，去除 RSSI 限制，显示 MAC 地址等，简体中文版，新年快乐！iOS15的用户也可以用这个版本了，卸载之前的iOS15版本插件！
+Name: GoodWiFi中文版
+Author: julioverne & 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.hongguofn.helper
 Architecture: iphoneos-arm64
 Version: 2.1.0
@@ -1011,6 +1049,25 @@ Section: 插件
 Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
 Name: CPU去温控
 Author: Huayuarc
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.rainbowkeyboard
+Architecture: iphoneos-arm64
+Version: 1.0.26~lite4
+Maintainer: 搬运工
+Installed-Size: 672
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.rainbowkeyboard_1.0.26_lite4_iphoneos-arm64.deb
+Size: 224996
+MD5sum: 2b65aac77896d5fa91cb3cb6a673b4e9
+SHA1: fd7f838be226cf8471ba88fd38e5f3b6378339b2
+SHA256: 1b97561aca57d16ffd7a85a7145763d4d3453d28e7811d6114c31579a4b30f39
+SHA512: 6f3378a8838e94bbc861e93b0bff8ae880cb71293d121a0a129a732dec179b1d31c3b748aaa7d0d7142efe73a99121c54c5ceed1d6663f1dfab6f5bc6297af0d
+Section: 插件
+Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法。四种固定预设、三星风格扩散与霓虹圆环两种样式。自定义键盘底色和键帽颜色，保留按下态及跨 App 配色兼容。键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
+Name: 彩虹键盘
+Author: MoWang
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
