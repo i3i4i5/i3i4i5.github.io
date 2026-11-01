@@ -778,6 +778,25 @@ Author: Nepeta & Baw Appie & daodao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.classicfolders3
+Architecture: iphoneos-arm64
+Version: 3.5.1
+Maintainer: 搬运工
+Installed-Size: 3924
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.classicfolders3_3.5.1_iphoneos-arm64.deb
+Size: 3287966
+MD5sum: c1ad414a37827ebdc75689e7b1d8c9af
+SHA1: abe67ab3c4c7a4ce9af4abd018026ce9f32afa5e
+SHA256: 299c20d644143740c70382ad176de5786bcc8be432cd7bdb98095e02d7b3161d
+SHA512: 9deecf94e36005a91df80dca8d177bc565af5f7abbcbfa625b34cf670f6d185ea3e2aa6a04cea3891ce721c57431fbb1c986276ea6634fd7b2c1d584bb354047
+Section: 插件
+Description: iOS 6 folders with a modern twist.一款比较经典的文件夹插件，可能有些人会喜欢吧，由搬运工源水友思恋变成海根据作者开源代码编译而成，非常的不错，有需要的小伙们可以试试，觉得不好看可以卸载!
+Name: ClassicFolders3经典文件夹
+Author: CoolStar
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.classickeyboardxs-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-9
