@@ -798,6 +798,25 @@ Author: Fouad Raheb
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.apptools15rootless
+Architecture: iphoneos-arm64
+Version: 2.7.3
+Maintainer: 搬运工
+Depends: firmware (>=15.0), mobilesubstrate
+Conflicts: com.flex2areo.apptools15rootless, com.flex2areo.apptools15
+Filename: debs/byg.iosios.net.apptools15rootless_2.7.3_iphoneos-arm64.deb
+Size: 1710106
+MD5sum: 48a7442232152a5c027fd83397b7e3a1
+SHA1: 2b05010b13d3f6d6a4595e4f057dfc59771ba6c8
+SHA256: 9a8286d0e79151e699600f940cb3bd8852952a715d6fdcec8fcf001bfb6170a6
+SHA512: a2ba6b55ea6e5b3c632011ad84aa04661c818530d0e15c0264c2bfd8ed370facf9cec47a42808a79e72e22e73eec005338e8b0cebd289fc50c8fcd4386882350
+Section: 插件
+Description: 需付费使用！AppTools for iOS15-16 Rootless，强大的App类辅助插件，锁120帧！！！锁120Hz这个功能是免费的（不保证更新后一定如此），其它的需要付费激活！可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，25元自行购买激活。详情看截图介绍！
+Name: AppTools应用增强
+Author: aReo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.axon.rootless
 Architecture: iphoneos-arm64
 Version: 2.6
