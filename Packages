@@ -1731,6 +1731,24 @@ Author: 来了老弟
 Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
 SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
 
+Package: cn.llld.ldd
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 1108
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/cn.llld.ldd_1.0_iphoneos-arm64e.deb
+Size: 776978
+MD5sum: 747acee2121efe4bde599fbeceafa040
+SHA1: 4a4e784db37ec6496e2a69a89c3429d6fb891ed3
+SHA256: 5bb29d0d4b7b956000cbbd2ccfcdb9f1113731484fc6f6ca68f0a290aeaf1981
+SHA512: 4634fa0e30e0328fee878d5adf414961f2bde4fa8079c4a98b48f4b9e35ea0bb9ea1d625d1f6b0af8ea940bc47819fbac2c0f7846dd6020205d9aa5a9cb60106
+Section: 插件
+Description: Adjust the upper and lower offset, left and right offset of the smart island。设置在手机系统设置中，***调节灵动岛上下的偏移，左右的偏移***,这是辅助工具，自备灵动岛
+Name: 灵动岛偏移-roothide
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/ldd1.png
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
