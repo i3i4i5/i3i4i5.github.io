@@ -1035,6 +1035,57 @@ Description: AppStore++汉化(rootless简易汉化包)
 Name: AppStore++汉化-rootless
 Author: 来了老弟
 
+Package: cn.llld.arkrome
+Architecture: iphoneos-arm64e
+Version: 1.012
+Priority: optional
+Maintainer: 来了老弟
+Installed-Size: 111
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: com.dpkg.batterypercent12, com.dpkg.batterypercenta12
+Filename: debs/cn.llld.arkrome_1.012_iphoneos-arm64e.deb
+Size: 3236
+MD5sum: ed64a049f1389b07b32b6fd7b5a473cf
+SHA1: e110590986da32ae7c43e93812dc110d1aba0087
+SHA256: a98c375733d602cd752093e309ba1ef87d57502155fee367db8f49ca87950421
+SHA512: 30d33c4c9838e9befb3683ede6d48856c599bf2d16d774e193e260b9a5bde8c2064732a69f495c9b686b7f22f5e4467b6a197d928f372902e8109e29800a0bdd
+Section: 插件
+Description: Add percentage inside battery icon在电池图标内添加百分比_________仅测试用,有问题卸载---roothide
+Name: Arkrome电池百分比-roothide
+Author: Dpkg9510
+
+Package: cn.llld.autoscroll
+Architecture: iphoneos-arm64e
+Version: 1.1
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Filename: debs/cn.llld.autoscroll_1.1_iphoneos-arm64e.deb
+Size: 4268
+MD5sum: c6d575da850a3e84d68fe85d7fdc36ad
+SHA1: 313568a67562507bbd9c0411ab8124cde6b978dc
+SHA256: aaecc0653ddf096296d1fa20fc302d13c1025474a0b4e48a60e3e631e98f1bc0
+SHA512: 91bf24ae358db49315753dcd51b9b546508d82b05cba5aceb19a7717eb12360d122c070043ab609201777b70ed88adc2a05f21f3bf7687ad474c900df595d0dd
+Section: 插件
+Description: Prevent finger fatigue. It will automatically continue when you slide an option or view, no need to keep touching with your finger, and the speed is determined by your strength.防止手指疲劳，在你滑动选项或视图时会自动延续，不用手指一直触摸，速度根据你的力道来决定。_________仅测试用,有问题卸载---roothide
+Name: AutoScroll-roothide
+Author: pxcex
+
+Package: cn.llld.avphotos
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 来了老弟
+Depends: firmware (>=14.0), mobilesubstrate
+Filename: debs/cn.llld.avphotos_1.0.1_iphoneos-arm64.deb
+Size: 7204
+MD5sum: f237dd2f61b56af8b88d473f8812e1e6
+SHA1: eedd44d633e7bd291bc82fe3a1a9765c7e8abdbc
+SHA256: cb8b6dfc99143ee2e9bfb06800c1945a60c514de9eda793738e507e7666cfe20
+SHA512: 088d6087f0d28ee1b0f5e0b774890754437dd707cf7dab5c11920b196a0dcf467242537a8e9280fdff090c58120c68816d43d19eec01829615388453f2c28690
+Section: 插件
+Description: Playing photos and videos in the album can produce picture-in-picture effects!在相册中播放照片视频可以画中画效果！_________仅测试，有问题请卸载
+Name: AVPhotos照片视频画中画-rootless
+Author: MiRO 来了老弟
+
 Package: cn.llld.bbqzr
 Architecture: iphoneos-arm64
 Version: 0.6.10
@@ -1136,6 +1187,23 @@ Section: 插件
 Description: Add network permission control for APP’s WiFi and data in settings设置中添加APP的WiFi和数据的网络权限控制 只推荐非国行手机安装 本意是模仿国行手机_________仅测试用,有问题卸载---roothide
 Name: Conditional 网络控制-roothide
 Author: daniel
+
+Package: cn.llld.coolcc
+Architecture: iphoneos-arm64e
+Version: 2.01
+Maintainer: 来了老弟
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/cn.llld.coolcc_2.01_iphoneos-arm64e.deb
+Size: 24536
+MD5sum: 2357c7d039d4879ae08e2fd7ffea873c
+SHA1: fff7271751ce0834953a24341ff75913eed74da8
+SHA256: 30b6332127e8a6d6bae51ed2969b8f14672268e476f52ee35682d6693a2c06bb
+SHA512: 9afc4120f9cd378bd6eaa5cdcfb40bb1796da56432f82aac366116a0507ab24c0cd72d59f7af6dde320f3b9ef93b7ae57e658136ef727c2bc712e6e8a87ce088
+Section: 插件
+Description: This tweak makes ControlCenter cool! Compatible with iOS 15/roothide.控制中心模块加边框
+Name: CoolCC Reborn-roothide
+Author: alias20
 
 Package: cn.llld.customizeccrootful
 Architecture: iphoneos-arm
