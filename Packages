@@ -1,44 +1,3 @@
-Package: com.axs.ahsfilter
-Architecture: iphoneos-arm64e
-Version: 5.2.0-3
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 712
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/AhsFilter_5.2.0-3_iphoneos-arm64e.deb
-Size: 128944
-MD5sum: 9a9bba17dc14ee3fd79f780db1868dd9
-SHA1: 9edb3c1343d53d2fb120ff8b0410e9165c869721
-SHA256: 030252a386e7ee2b908492cf9e05223fcfa681d7999c663d885ccd2d64c2f907
-SHA512: a11b52c6634ce58476f53f9436d90741fc923ce8b65be49adbcfac985b200b1a5d074789ac174f954b52ac2ea99990ee09912fd4dfd220a22a5ceb9dbde8ee61
-Section: 自用的
-Description: 爱回收筛选
-Name: 爱回收
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/ahsfilter.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/ahsfilter/js.json
-
-Package: com.axs.axon
-Architecture: iphoneos-arm64e
-Version: 5.2.0-55
-Maintainer: Axs
-Installed-Size: 552
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Filename: debs/Axon_5.2.0-55_iphoneos-arm64e.deb
-Size: 68232
-MD5sum: 54508825ca1fbc7d4a3c9799cde527c9
-SHA1: 1197d833ca5ba786dbd2f6b7d2039702682ca415
-SHA256: 3db5f4bed6619300f1ac2be101bae0d0d17b62666b7f3198011e309b662924fe
-SHA512: 0bde87d393c5d3b5ba6d96905bdd2873d876cc1494682e5f44af43361f1387eb68a41da0f631945efd019a4922aefad952f3203f4991b860e32f5774a033a1dd
-Section: 自用的
-Description: 通知美化，按app收纳通知
-Name: 通知美化
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/axon.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
-
 Package: com.axs.appselect
 Architecture: iphoneos-arm64e
 Version: 5.2.0-12
@@ -99,6 +58,26 @@ Author: opa334
 icon: https://TrollStoreX.Github.io/sileodepiction/Choicy/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Choicy/js.json
 
+Package: com.axs.ahsfilter
+Architecture: iphoneos-arm64e
+Version: 5.2.0-3
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 712
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/AhsFilter_5.2.0-3_iphoneos-arm64e.deb
+Size: 128944
+MD5sum: 9a9bba17dc14ee3fd79f780db1868dd9
+SHA1: 9edb3c1343d53d2fb120ff8b0410e9165c869721
+SHA256: 030252a386e7ee2b908492cf9e05223fcfa681d7999c663d885ccd2d64c2f907
+SHA512: a11b52c6634ce58476f53f9436d90741fc923ce8b65be49adbcfac985b200b1a5d074789ac174f954b52ac2ea99990ee09912fd4dfd220a22a5ceb9dbde8ee61
+Section: 插件
+Description: 爱回收筛选
+Name: 爱回收
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ahsfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ahsfilter/js.json
+
 Package: byg.iosios.net.autofillfix
 Architecture: iphoneos-arm64e
 Version: 0.1
@@ -117,6 +96,27 @@ Name: 短信验证码自动填充
 Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.axs.axon
+Architecture: iphoneos-arm64e
+Version: 5.2.0-55
+Maintainer: Axs
+Installed-Size: 552
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: debs/Axon_5.2.0-55_iphoneos-arm64e.deb
+Size: 68232
+MD5sum: 54508825ca1fbc7d4a3c9799cde527c9
+SHA1: 1197d833ca5ba786dbd2f6b7d2039702682ca415
+SHA256: 3db5f4bed6619300f1ac2be101bae0d0d17b62666b7f3198011e309b662924fe
+SHA512: 0bde87d393c5d3b5ba6d96905bdd2873d876cc1494682e5f44af43361f1387eb68a41da0f631945efd019a4922aefad952f3203f4991b860e32f5774a033a1dd
+Section: 插件
+Description: 通知美化，按app收纳通知
+Name: 通知美化
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/axon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
 
 Package: byg.iosios.net.ccborder.new
 Architecture: iphoneos-arm64e
