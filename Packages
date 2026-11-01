@@ -632,6 +632,44 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/zzfilter.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
+Package: byg.iosios.net.3dappversionspoofer
+Architecture: iphoneos-arm64
+Version: 2.1.1-1
+Maintainer: 搬运工
+Installed-Size: 492
+Depends: com.opa334.altlist
+Filename: debs/byg.iosios.net.3dappversionspoofer_2.1.1-1_iphoneos-arm64.deb
+Size: 84596
+MD5sum: bbe72e5b1520764c08e9f2daca1ef074
+SHA1: 32b9d180394f4aee5b3586284237a4a0409504cf
+SHA256: 1fb5ac6e5739c38e325b37251c4d0377695c294cc9e256a1f1d9d78ad98f8399
+SHA512: a5e0ea0957f457179b8006298542509132d7b8898e4f9757f99a15050438303883c439e3b9559aefc03715c41837be0f74f1252d829598efbc86304a2b3ab770
+Section: 插件
+Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs自定义修改软件版本号，可以开启长按软件图标修改软件版本号以达到解决app内部检测更新问题，不保证所有APP都生效，自行尝试！系统版本号也可进行伪装，有什么用自己去研究！搬运工源，搬你所想！
+Name: 伪装版本号
+Author: 0xkuj
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.classickeyboardxs-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Maintainer: 搬运工
+Installed-Size: 1044
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.classickeyboardxs-rootless_1.1-9_iphoneos-arm64.deb
+Size: 399696
+MD5sum: ba09881c2728e5bedd13d0028d628a22
+SHA1: 1baf8f90891946d641765cff2b57cc44169d39b0
+SHA256: 5979a02a9ebc52c3cc0379f875dbdd2ee9bf5d877f494e5f21dd534c260c4d0e
+SHA512: 7ea853370865de08356f523a7b72ef716da6be1d27d908bb48feaf46ad564e22c10e642bb84491bb1ed8d1464dd1650da1f75e877d4040dc0508e7f3de6d0810
+Section: 插件
+Description: 自定义X键盘底部高度，地球底部高度等，非常不错的一个插件，键盘低了，用起来很舒服，搬运工源，永久免费，大家多多推荐！
+Name: 原生键盘高度调整
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.cracklock.7513
 Architecture: iphoneos-arm64
 Version: 1.0.4
@@ -672,6 +710,25 @@ Author: DumpApp
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.dyyy
+Architecture: iphoneos-arm64
+Version: 2.3-0
+Maintainer: 搬运工
+Installed-Size: 2184
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/byg.iosios.net.dyyy_2.3-0_iphoneos-arm64.deb
+Size: 1081612
+MD5sum: 55cc25132d6866134291427c6bdab1e0
+SHA1: 3780d12c51cbcc68daf080770fa9206570b51785
+SHA256: efd05f98f3f8cb7cf3f28872725f383bf667272172036841e0e92f0d4dad2459
+SHA512: c3ab50c961a9869dcedd46efa76b1c727784a9b43647b5423ec7ee115a395b1c849af6684f3a73f0f7e27f857982303e5527393c3f4d9f96f93aea08c38cb9fc
+Section: 插件
+Description: 插件功能如下：设置顶栏透明 、设置全局透明度、隐藏全屏观看、隐藏底栏加号、开启弹幕改色，IP显示，移除各种广告，搬运工源，万古长青！净化抖音，解析视频，下载视频！
+Name: 抖音DYYY
+Author: huami&vita
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.fanqiefn.helper
 Architecture: iphoneos-arm64
 Version: 3.1.2
@@ -707,6 +764,84 @@ Section: 插件
 Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载。适配7.4.1版本
 Name: 红果净化
 Author: 5hux1n
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.mobilemeadowreborn
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Installed-Size: 3848
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.mobilemeadowreborn_1.0.2_iphoneos-arm64.deb
+Size: 2590486
+MD5sum: 083d8a58b23fded74ca9f1338237148f
+SHA1: b52cbbf8a9dbfaeec8ea7190d5090aa0f3d8f64f
+SHA256: b0af41211be8f2d45f94cd4b545573cec0ac0d8b2683565ac180fe3dcaeac3a4
+SHA512: 62711ffd37392bf96d680e0badd14df410794fd059355b33bbf4231b95ba168f4a257e8450bba7f8b397d9c9617cacfaa3475f3a62d898df8855487aaead94cb
+Section: 插件
+Description: 这款插件，它将你的手机Dock栏变成一片宁静的草地，你的应用程序上盛开着鲜艳的花朵，优雅的鸟儿在你的屏幕上自由翱翔。让大自然接管你的数字世界，为每一次点击和滑动带来宁静和美丽的感觉。效果看截图！
+Name: Dock鲜花草地
+Author: pkgFiles
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.shijima-ios
+Architecture: iphoneos-arm64
+Version: 1.3.3
+Maintainer: 搬运工
+Installed-Size: 4932
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Recommends: libarchive13 (>= 3.7.2), com.opa334.altlist (>= 1.0.10)
+Filename: debs/byg.iosios.net.shijima-ios_1.3.3_iphoneos-arm64.deb
+Size: 1722300
+MD5sum: 506bfc39d75365fdfbc138ffb56e8967
+SHA1: 88249038c9f9bf5f085bc03a4bca603fba9e7db1
+SHA256: df8f26bb5c42f4ba35465d26a34e769a499d7a189be86680d266aad92f4eb721
+SHA512: d5a3aa02496f87fe82fc45e40834cd3e410433d12ab34e91d8627e708e4077318d602ae3a5988188709667879f7389b79a5cdc66b76d1a8745d2f3114a9b9a29
+Section: 插件
+Description: A shimeji simulator for iOS一款桌面宠物插件，插件下载后在桌面，不在设置里。之前付费，现在免费下载，可以自定义宠物，还不错！暂时没汉化，自行研究一下怎么使用，搬运工源，你值得拥有，永久免费！
+Name: Shijima桌面宠物
+Author: pixelomer
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.singlemutes
+Architecture: iphoneos-arm64
+Version: 1.7
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: firmware (>= 14.0)
+Conflicts: com.82flex.singlemute
+Filename: debs/byg.iosios.net.singlemutes_1.7_iphoneos-arm64.deb
+Size: 41418
+MD5sum: db8718d76e683e3cb1edcf29fbfca71f
+SHA1: 359004e9ed8eb4628adda8834bdebea9bf899d7d
+SHA256: 9dce7bbcbcd07f3389df4048c99856b46b795f117c7771612ed3c3b88714d97b
+SHA512: 34e531987a0869c712df67e30c7027f60fdcca9455d3725bcb0e95d6c454e919a4cbdeac3f4176f4b096070b75c8434799bbda1f95fd05872961ea83a76f6a86
+Section: 插件
+Description: 听说这是一位越狱爱好者自费500元定制的插件，感谢其无私奉献，插件作用是在状态栏左上角显示静音图标，如截图所示，有需要的小伙伴也可以下载试试看，是否物超所值！
+Name: Single Mute静音图标
+Author: 82Flex
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.xhshook
+Architecture: iphoneos-arm64
+Version: 2.0.7
+Maintainer: 搬运工
+Installed-Size: 9412
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.xhshook_2.0.7_iphoneos-arm64.deb
+Size: 4998738
+MD5sum: cb8f600fed24130620203b74108fa0ae
+SHA1: 8fa116985a006c6f7e3042861f4a8916e91c325f
+SHA256: d3c8d5306e7ce88845bafc55be67aa1dd79b8fa7d7df0cc2424dce82eae5ec8c
+SHA512: fe555123d8e8c3da872f1b31052768369cd3c6741ca5fd7001dc24ffee79b9737332099afd75532d4d5eb2acc3237b0646ef37c49c7623a332d60ec9939b3aad
+Section: 插件
+Description: 作者朋友需要才制作了此插件.APP设置界面右上角打开插件设置，或者双指长按设置界面。 功能：默认移除一些广告 -- 无水印保存图片-视频-live图 -- 长按复制文案标题(关注板块需要长按外面的视图 里面无效)。搬运工源，永久提供免费服务！
+Name: 小红书图层
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
