@@ -1137,6 +1137,57 @@ Description: Add network permission control for APP’s WiFi and data in setting
 Name: Conditional 网络控制-roothide
 Author: daniel
 
+Package: cn.llld.customizeccrootful
+Architecture: iphoneos-arm
+Version: 1.21
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.customizeccrootful_1.21_iphoneos-arm.deb
+Size: 12134
+MD5sum: 4ab4cc3cb961c579ad0130d8838de007
+SHA1: ae1a42f2582507853dd26b0179d7f1933c3f3278
+SHA256: 2bc7cc0b8b4f2abe0d4270612b61816e6340b4bed8d541a84f4dd4c66883fd66
+SHA512: f413f5bcaee979486eab4212ca882134aacecdb098027971d98d9aae8ba0de1db55ee8776fb5ed812ca3cbfd678d82160d2a4228650b1ef257a3eeacda547907
+Section: 插件
+Description: CustomizeCC汉化-rootful
+Name: CustomizeCC汉化-rootful
+Author: 来了老弟
+
+Package: cn.llld.customizeccroothide
+Architecture: iphoneos-arm64e
+Version: 1.21
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.customizeccroothide_1.21_iphoneos-arm64e.deb
+Size: 12192
+MD5sum: dd10725c3f2b4d1d7e1b4190a0e314b1
+SHA1: 88f438939e105bfda5dc11cdbfd0f5514af5f29a
+SHA256: 335606730d378899d9b2ea9ecf73702419b8b71cd74a950c3a246d63075f44b9
+SHA512: 5444bd8b9edfe96247a920d548e260e777639252fb5087a22e2e7de96e00200c3d1c5a2d91b58542e241862c1587f82457fb9707d52cd4a7e3aad68c67c30000
+Section: 插件
+Description: CustomizeCC汉化-roothide
+Name: CustomizeCC汉化-roothide
+Author: 来了老弟
+
+Package: cn.llld.customizeccrootless
+Architecture: iphoneos-arm64
+Version: 1.22
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.customizeccrootless_1.22_iphoneos-arm64.deb
+Size: 12116
+MD5sum: 9d4cc3796c01803615775c43591028c5
+SHA1: 46160bd81a8610b2869c55565bdfd724f8b778af
+SHA256: f3c50d9bd5ac338e7b632896caaaa4c81f8e3cbfb56e649f22609a288b53a20c
+SHA512: 21e3645098ca5cc1a9862323b53d0a89248831dcdeec2d4d8ae31d30bdd7b59734a434370b26758c0ad70625d83fe4300cac7bdcb517af892bc304f388cf7187
+Section: 插件
+Description: CustomizeCC汉化-rootless,231130更新处理任何汉化冲突问题
+Name: CustomizeCC汉化-rootless
+Author: 来了老弟
+
 Package: cn.llld.dhjj
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -1154,21 +1205,71 @@ Description: Telephone streamlining personal collection and voice messages。电
 Name: 电话精简收藏和语音留言-rootless
 Author: 来了老弟 h_h_x_t
 
-Package: cn.llld.dyy
+Package: cn.llld.dndmyrecording
 Architecture: iphoneos-arm64e
+Version: 1.2.1
+Maintainer: 来了老弟
+Installed-Size: 196
+Depends: mobilesubstrate
+Filename: debs/cn.llld.dndmyrecording_1.2.1_iphoneos-arm64e.deb
+Size: 3748
+MD5sum: 690f67c9885e332e92d7317358d3667c
+SHA1: b69e9878e4dafcf146ed6212c533ae493d93d2c2
+SHA256: 215623c0b5345528545f4770013e0a437d28450aada3b30c08b838b6e0492933
+SHA512: 09366f4eb261fbcbc6f41652686e5cdad150ccb08d37af1dc3f692f4de14c6e8e8774b4e634e475618d351e1727d19b6e13e51656752ffccf46589a83bea5671
+Section: 插件
+Description: The phone automatically turns on Do Not Disturb mode when recording the screen.手机在录屏时，自动开启勿扰模式_________仅测试用,有问题卸载---roothide
+Name: DNDMyRecording录屏勿扰模式-roothide
+Author: gilshahar7, 0xkuj
+
+Package: cn.llld.dock5
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Filename: debs/cn.llld.dock5_1.0_iphoneos-arm64e.deb
+Size: 2968
+MD5sum: 068c229d23e1a9e6943bc8013588fe73
+SHA1: bb36c7f96796fff218dab19fd3e78d3cb76fb9cc
+SHA256: cfea3cc651581dc841e28802b8914f6ea5ad4d397fda5f2427f185bbccc378cf
+SHA512: cbcb9fb15fa0d5ef59b99ed90b3b98d99d5857018f66ac2089f50d78804360f364a4c548ffb84a988ab4b0c8e34431a0b431d411c9d574b4ce6f85f89ac68b3e
+Section: 插件
+Description: Dock 5 icons (Dock5个图标)---roothide
+Name: Dock5个图标-roothide
+Author: 来了老弟
+
+Package: cn.llld.dyst
+Architecture: iphoneos-arm
+Version: 1.1
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.dyst_1.1_iphoneos-arm.deb
+Size: 3216
+MD5sum: c9dc05880eeaa5799cd34a768a180c00
+SHA1: 2fc17b4c4615c404b48e576965a557adf4831aae
+SHA256: 7445646890c7eedba33086a9410c858d56969e274b855edad25daa0ef7987b3a
+SHA512: ff6aef97102cab06b904480c7034c83744341bd3ad5912a01acaf77196091520f391c9595327864491a6d7d429e2fffacb3670096021628d18aa8f62a053f747
+Section: 插件
+Description: 透明(爱心,评论,收藏,分享)的图层，保留原先文字数量及点击功能，让观赏视频的视野更开阔，支持抖音极速版
+Name: DY抖音图层透明-rootful
+Author: 来了老弟 h_h_x_t
+
+Package: cn.llld.dyy
+Architecture: iphoneos-arm64
 Version: 1.4
 Maintainer: 来了老弟 h_h_x_t
 Installed-Size: 88
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.llld.dyy_1.4_iphoneos-arm64e.deb
-Size: 4244
-MD5sum: d6f0b3e96637bc5a0809e0f077587df0
-SHA1: 18b3f84a04e66c6c894ebd681b9956d83fc403a9
-SHA256: 61b7a34074da861ab9fbe951c5011d2a0f7beb9999913cb802e2a72d950e8bc3
-SHA512: f5865dd1911b27503a995feacc94bcf151709b20dffd5a4bc293f3a82713b6041a2d1ceb3b155b99bdfd5d495d129eae63e7c4527fd3465e8d07f60c0500acf8
+Filename: debs/cn.llld.dyy_1.4_iphoneos-arm64.deb
+Size: 3956
+MD5sum: 6a0175c014ea64e33389d1afa6b71354
+SHA1: 408ce9775439a0a86599c64add3029d3d4f2988d
+SHA256: 09eccd13478731736400685932da20eaded235815fa5b6366dd76d51d04e85ad
+SHA512: 0593bd5ecd82cfd6fa742ab47b68580cbdaa5e0be9aba107c02632b87225f28c6ab2351e03f064549224fe6e42a5fa7cb891d9245cab20d381592047485e5805
 Section: 插件
-Description: Custom phone image, image path （/var/mobile/llld.jpg）png Format is also acceptable.靓仔定制自定义电话图片，图片路径（/var/mobile/llld.jpg）llld.png也可以，作用：拨打电话或来电都是你指定的背景图。已知问题：上下滑通知会闪一下
-Name: 自定义电话图片-roothide
+Description: Custom phone image, image path （/var/mobile/llld.jpg）png Format is also acceptable.靓仔定制自定义电话图片，图片路径（/var/mobile/llld.jpg）llld.png也可以，作用：拨打电话或来电都是你指定的背景图。
+Name: 自定义电话图片-rootless
 Author: 来了老弟 h_h_x_t
 SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.dyy/dyy-rootless.json
 
