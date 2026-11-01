@@ -838,6 +838,25 @@ Author: DumpApp
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.dynamicx
+Architecture: iphoneos-arm64
+Version: 1.5.1
+Maintainer: 搬运工
+Installed-Size: 2308
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.dynamicx_1.5.1_iphoneos-arm64.deb
+Size: 393636
+MD5sum: 51f3675b798fd211150f566164b4c725
+SHA1: 89614fee63c4ec2b8aaae6dd2053f035cb8c1af3
+SHA256: c002250881a868da85060f7a5447bca54aa20b3d8292aee70e607344a017423c
+SHA512: 95a46904598d25ecdce7e0e8beeaee7f7a7b5a14c8b827881d6da24d3d5377a416ff0506aaf481ad3762903a11999bbdf852251a9f2f8b7e4086658989657149
+Section: 插件
+Description: 万物皆上岛，一些自带的软件，手电筒、蓝牙什么的，具体的看插件截图介绍！
+Name: DynamicX应用上岛
+Author: 半生年华
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.dyyy
 Architecture: iphoneos-arm64
 Version: 2.3-0
