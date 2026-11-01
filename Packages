@@ -1,3 +1,23 @@
+Package: com.axs.ahsfilter
+Architecture: iphoneos-arm64e
+Version: 5.2.0-3
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 712
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/AhsFilter_5.2.0-3_iphoneos-arm64e.deb
+Size: 128944
+MD5sum: 9a9bba17dc14ee3fd79f780db1868dd9
+SHA1: 9edb3c1343d53d2fb120ff8b0410e9165c869721
+SHA256: 030252a386e7ee2b908492cf9e05223fcfa681d7999c663d885ccd2d64c2f907
+SHA512: a11b52c6634ce58476f53f9436d90741fc923ce8b65be49adbcfac985b200b1a5d074789ac174f954b52ac2ea99990ee09912fd4dfd220a22a5ceb9dbde8ee61
+Section: 插件
+Description: 爱回收筛选
+Name: 爱回收
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ahsfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ahsfilter/js.json
+
 Package: com.axs.appselect
 Architecture: iphoneos-arm64e
 Version: 5.2.0-12
@@ -11,12 +31,31 @@ MD5sum: 2f82cd10d6207637ac62e7a530c49d27
 SHA1: 14f3675886a4ae71210e39fa64b24950a6ed12c9
 SHA256: 886a391d245448d317f6fadb98c3aba5576eddc3e515d8b5513e65a60c8f0ee4
 SHA512: fcaac9daa16bdbdcdbde218ef943acca240f8e4d28de1fadb5c75e99df6afa57c5d386bebe7bcf4869559d8afb9cfe6f3ae42fe7f4ea0ebc9f03f3358b27a8ef
-Section: 我的
+Section: 插件
 Description: 设置各种app跳转指向
 Name: 跳转拦截
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/appselect.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
+
+Package: byg.iosios.net.autofillfix
+Architecture: iphoneos-arm64e
+Version: 0.1
+Maintainer: 搬运工
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/Auto短信验证码自动填充-Rootless_0.1_iphoneos-arm64e.deb
+Size: 4300
+MD5sum: 85ef05c586648042a7e0d74dabd1ffa6
+SHA1: be497b8d395cb7e7ad6f3e58611b5119bec96aed
+SHA256: 38d8653521c912e1fd6932139c3556768a2918b2696fe3ffdc27688d0e27d267
+SHA512: cc36941b9fcc48122972782f7f312d2714810f14de9626c11160e0e585774a3ec8659682c5ee66a00f6221f8206a697cfe155b141c9d4e8ac8cea6f5a05ea3c4
+Section: 插件
+Description: 短信验证码自动填充
+Name: 短信验证码自动填充
+Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.axs.axon
 Architecture: iphoneos-arm64e
@@ -32,7 +71,7 @@ MD5sum: 54508825ca1fbc7d4a3c9799cde527c9
 SHA1: 1197d833ca5ba786dbd2f6b7d2039702682ca415
 SHA256: 3db5f4bed6619300f1ac2be101bae0d0d17b62666b7f3198011e309b662924fe
 SHA512: 0bde87d393c5d3b5ba6d96905bdd2873d876cc1494682e5f44af43361f1387eb68a41da0f631945efd019a4922aefad952f3203f4991b860e32f5774a033a1dd
-Section: 你的
+Section: 插件
 Description: 通知美化，按app收纳通知
 Name: 通知美化
 Author: Axs
@@ -53,32 +92,12 @@ MD5sum: 146f142ff4a5f6f5420b9c52ba5108f0
 SHA1: c5b8800d0083217aa3f5d5349d96a16a147fcf87
 SHA256: 35c537420d249d8b1b94edcecf63a13b5254f749d8dbf88445aaa3cb0fdebd60
 SHA512: e5711f91d6aa6f748f1535009cc3f40bea2f901f282aeea8e0085a962d9d01e69e4ba6758ccfd9c1a32166c6f7a529dd831ead2892de190e1df37c1be2a63f7c
-Section: 你的
+Section: 插件
 Description: 控制中心美化
 Name: 控制中心美化
 Author: Fiore & p2kdev & SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.axs.ahsfilter
-Architecture: iphoneos-arm64e
-Version: 5.2.0-3
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 712
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/AhsFilter_5.2.0-3_iphoneos-arm64e.deb
-Size: 128944
-MD5sum: 9a9bba17dc14ee3fd79f780db1868dd9
-SHA1: 9edb3c1343d53d2fb120ff8b0410e9165c869721
-SHA256: 030252a386e7ee2b908492cf9e05223fcfa681d7999c663d885ccd2d64c2f907
-SHA512: a11b52c6634ce58476f53f9436d90741fc923ce8b65be49adbcfac985b200b1a5d074789ac174f954b52ac2ea99990ee09912fd4dfd220a22a5ceb9dbde8ee61
-Section: 我爱的你
-Description: 爱回收筛选
-Name: 爱回收
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/ahsfilter.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/ahsfilter/js.json
 
 Package: com.dao.ccless
 Architecture: iphoneos-arm64e
@@ -93,29 +112,32 @@ MD5sum: ae69caae2987f8c3a34ba59f37fb97aa
 SHA1: 0c992d7b8579c291346d6a437cfdd43a79fb040c
 SHA256: 3359cd5d3ac5a377071e7e04e9e19c9a079c147319332fd2511f9dc52639a829
 SHA512: 4c8f2dc4282079049d8c310fe1deabe755bfcfec3dc77f133be00d4bc83f8938058a71b9c942b677e58a1555cb45dc6e7f161c85ec37067737addf671bba16ad
-Section: 我爱的你
+Section: 插件
 Description: 为控制中心增加各种功能，强烈推荐
 Name: 控制中心增强
 Author: 妖刀
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 
-Package: com.dao.filzacrack
+Package: com.opa334.choicys
 Architecture: iphoneos-arm64e
-Version: 1.1-9
-Maintainer: Nets
+Version: 1.5.2-2
+Maintainer: opa334
+Installed-Size: 888
 Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
-Filename: debs/Filza_Crack_RootHide_1.1-9_iphoneos-arm64e.deb
-Size: 28900
-MD5sum: 6afc512709f15f3e7bf49bbf3b01a2b2
-SHA1: 8143aa905e061fb914d95bde9c45477e16630a23
-SHA256: 062d468bd29cbf80fd543ba9064173464d8dc6f4bc936e774805ece0d486e6d2
-SHA512: 7bcf9fce7c510d6753afc6bda5ade6cb7845168fe9f6d152ca31f50b0e37f4ca20ec6978bdbc1eef344c342cd2d8619c7fcbcca0e3f9fdee0eda9c68610a378d
-Section: 哦哦
-Description: filza破解插件，安装正版filza后使用
-Name: filza破解插件
-Author: Netskao
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy
+Filename: debs/Choicy_禁止注入_1.5.2-2_iphoneos-arm64e.deb
+Size: 164204
+MD5sum: d2b814d3719d0258b14d10a2a2bd2066
+SHA1: 12315ccbbcbe5d7a75fa29799b040451a22cfd32
+SHA256: 46efdf4f25532e09be1c9959140e0d34f9997cd4f48ac18d0728ca96f9d50fa4
+SHA512: 5a8600477dce5c2e1eadf8307617f8d4951d9d0ed67c863c2d23a2a2fd357880454823abdef4a0733aa1a0281ee629ef4298a832fae9706cf049a9f8e43dfbed
+Section: 插件
+Description: 越狱必备
+Name: 禁止注入
+Author: opa334
+icon: https://TrollStoreX.Github.io/sileodepiction/Choicy/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Choicy/js.json
 
 Package: cn.octoforce.copyvault
 Architecture: iphoneos-arm64e
@@ -130,7 +152,7 @@ MD5sum: 0011d94a565e6852844745e63ae68bf3
 SHA1: f17c2ca777f5d93bb0e7a608c15bc4537eae61af
 SHA256: 57eb105fad9233cfdcebda3d5d8e01674aa2545d71054e8ae6c6284e0b0cda08
 SHA512: 6cc6259bd1321182a0a66e6ba99848c16e90b9d080de8b2915f1e18ac7eaab584546af3244de5a832bf8cf3494ca8c715626df05a99d74733d0b42f39c9b87e9
-Section: 你爱的
+Section: 插件
 Description: 鱿鱼剪切板正版激活码版
 Name: 鱿鱼剪切
 Author: SquidForce, Backup
@@ -150,7 +172,7 @@ MD5sum: 8c9ee416710f02ddf3c3a9761a294e6d
 SHA1: c374242afdd3f3e5bed68369ded49ef9e4409526
 SHA256: b9aa5e79f1371c368a002562fa3aa9a4f2692e97a287ffe1db021e4bedd592e2
 SHA512: 248bfba2773e4c9618d91bda1aefc11b542068a1fba3a69c7c95f80c94053615ef96b2ec2fc216a00c9dbcc4c2b22773aa8f88b62caf7d1229b72a53f88c2798
-Section: 你爱的
+Section: 插件
 Description: 精简相册
 Name: 相册增强
 Author: CydiaGeek
@@ -169,50 +191,28 @@ MD5sum: b177154afe43f5ae092f3e9c68079128
 SHA1: 78c10086da725a5d5b6eeea22bfe0a0352e37e4a
 SHA256: 528c94e6e48b8fb19e86add006eccd996cfc14e361346ac3f9b284675adc72de
 SHA512: e4f907dc646d912820f5a5b20f272288aa41172112ed93e1e261d0aeeea5b9f56d07cbc82c3714ddf067f5d58f9e506f44792a0cc2cf3b1afb072e8e47e4502b
-Section: 你爱的
+Section: 插件
 Description: 悬浮窗批量替换改文字与翻译工具等
 Name: FT悬浮文本3.6
 Author: 来了老弟
 
-Package: byg.iosios.net.autofillfix
+Package: com.dao.filzacrack
 Architecture: iphoneos-arm64e
-Version: 0.1
-Maintainer: 搬运工
+Version: 1.1-9
+Maintainer: Nets
 Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/Auto短信验证码自动填充-Rootless_0.1_iphoneos-arm64e.deb
-Size: 4300
-MD5sum: 85ef05c586648042a7e0d74dabd1ffa6
-SHA1: be497b8d395cb7e7ad6f3e58611b5119bec96aed
-SHA256: 38d8653521c912e1fd6932139c3556768a2918b2696fe3ffdc27688d0e27d267
-SHA512: cc36941b9fcc48122972782f7f312d2714810f14de9626c11160e0e585774a3ec8659682c5ee66a00f6221f8206a697cfe155b141c9d4e8ac8cea6f5a05ea3c4
-Section: 我们
-Description: 短信验证码自动填充
-Name: 短信验证码自动填充
-Author: P2KDev
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.opa334.choicys
-Architecture: iphoneos-arm64e
-Version: 1.5.2-2
-Maintainer: opa334
-Installed-Size: 888
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
-Conflicts: com.opa334.choicy
-Filename: debs/Choicy_禁止注入_1.5.2-2_iphoneos-arm64e.deb
-Size: 164204
-MD5sum: d2b814d3719d0258b14d10a2a2bd2066
-SHA1: 12315ccbbcbe5d7a75fa29799b040451a22cfd32
-SHA256: 46efdf4f25532e09be1c9959140e0d34f9997cd4f48ac18d0728ca96f9d50fa4
-SHA512: 5a8600477dce5c2e1eadf8307617f8d4951d9d0ed67c863c2d23a2a2fd357880454823abdef4a0733aa1a0281ee629ef4298a832fae9706cf049a9f8e43dfbed
-Section: 我们
-Description: 越狱必备
-Name: 禁止注入
-Author: opa334
-icon: https://TrollStoreX.Github.io/sileodepiction/Choicy/icon.png
-SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Choicy/js.json
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: debs/Filza_Crack_RootHide_1.1-9_iphoneos-arm64e.deb
+Size: 28900
+MD5sum: 6afc512709f15f3e7bf49bbf3b01a2b2
+SHA1: 8143aa905e061fb914d95bde9c45477e16630a23
+SHA256: 062d468bd29cbf80fd543ba9064173464d8dc6f4bc936e774805ece0d486e6d2
+SHA512: 7bcf9fce7c510d6753afc6bda5ade6cb7845168fe9f6d152ca31f50b0e37f4ca20ec6978bdbc1eef344c342cd2d8619c7fcbcca0e3f9fdee0eda9c68610a378d
+Section: 插件
+Description: filza破解插件，安装正版filza后使用
+Name: filza破解插件
+Author: Netskao
 
 Package: com.yourepo.axs.fv
 Architecture: iphoneos-arm64e
@@ -226,7 +226,7 @@ MD5sum: 6ca49bcb793cbfb75352cfb06990ebb5
 SHA1: 849aa04a91f38c4fe04c9db5a093768c95fb03a8
 SHA256: e329aef4dfe25ee6adba4517a9bbb7f71df8f8aae35ea7bb864f1b81497204a7
 SHA512: fdf57acd87f2090e0598e21b01d9fc426ffa9d5f0a72e89201285f5087cf2f121fd6e10c87ff28c5eb1922446c8f781e64af3f8ce450cc0e08c899805cb3efad
-Section: 我们
+Section: 插件
 Description: 流畅好用的免费分屏插件
 Name: fv分屏破解版
 Author: Axs-pojie <qiaozhani000@163.com>
@@ -245,7 +245,7 @@ MD5sum: 812ada8f703085e5980a8709e6f0cbdb
 SHA1: 01bbcfc36f616dacc0c2dc0d51f0fc5d935e0962
 SHA256: 7f50c36dada4a8ff67409d41fbf6dbcc99ccc383fcf2fa6f8045a66f19d96c5a
 SHA512: 5f4a98018d87d7bec3573bd009a861f14e49cc07591a3bd9b07c6127bf7d20679f27620e2fc4aae85eee26efd8ba15e25375d95a88fad669a48d55f50c4890db
-Section: 我们
+Section: 插件
 Description: 
  - Unlock dynamic refresh rate from 80hz to 120hz
  - .
@@ -267,7 +267,7 @@ MD5sum: 1838d52b826554d19eebedb587bea1f9
 SHA1: b6775a164ea59ed4b3efa803efe5c4c117121483
 SHA256: eaea029a0d9799b456ab959845ba561e4a904dd014fe82db38ccc674ef17b258
 SHA512: 2668a0dc820774e6954369fa37219bee0d622f7522b2f9126b720d667193b2a47cc2a177acb7ef4b21c130f714f16a1fd5c52f082afa2a50474f816797e90e72
-Section: 我们
+Section: 插件
 Description: 系统崩溃日志分析，带分类，带自动解析
 Name: 崩溃日志分析
 Author: Axs <qiaozhani000@163.com>
