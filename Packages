@@ -1052,6 +1052,43 @@ Author: dylv
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.lockglass17
+Architecture: iphoneos-arm64
+Version: 1.4
+Maintainer: 搬运工
+Depends: firmware (>= 16.0)
+Filename: debs/byg.iosios.net.lockglass17_1.4_iphoneos-arm64.deb
+Size: 1521964
+MD5sum: 810205883da0889d6b8bbefec9d80d66
+SHA1: d4a839ef0b4f68ebbacd683ce024c8406fd5d7de
+SHA256: 69474579439b3456778818720991355c4af162a536f96dbc0180665d6345b925
+SHA512: caff149383274e777b96e61b99c60d465f5028aa004481116863825acb2d31435be8de3e07838a6d8f9494c389cf737b40416bfbb46a8992190becfc76419e49
+Section: 插件
+Description: Customize and change your Lock Screen.你就说好不好看，锁屏状态显示液态玻璃，有需要的小伙们可以试试，如果没效果就直接卸载，搬运工源，万古长青！
+Name: LockGlass锁屏玻璃
+Author: Jailbreak Tweaker
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.mango
+Architecture: iphoneos-arm64
+Version: 1.0-Beta7-1
+Maintainer: 搬运工
+Installed-Size: 3888
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.mango_1.0-Beta7-1_iphoneos-arm64.deb
+Size: 1413324
+MD5sum: 8f6e0e2940b97faae81bb57aa577c254
+SHA1: 4e2d2cfb527db9ce98327dbc6e9b83063f9bc980
+SHA256: 5d3f201b45f29c9bade54e776768f6cd774b45397d48b1761dadc6651f6bd6ce
+SHA512: 5f94cc1dd07245e2108a6d40f86614607ed85ee512dc89de0c933bddab378c499c25b5e719ebf8786d1aa75da9bcadaac20d230996cc51fdfd3f1f1d3b8fc790
+Section: 插件
+Description: 一款非常不错的分屏插件，需要授权才能使用，但是免费功能可以液态玻璃 视频壁纸 双击锁屏 音量键锁屏等等，还是可以的，大家可以自行看看是否是自己需要的，觉得不错的可以支持一下！
+Name: Mango芒果分屏
+Author: go
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.mobilemeadowreborn
 Architecture: iphoneos-arm64
 Version: 1.0.2
