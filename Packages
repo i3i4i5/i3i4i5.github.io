@@ -956,6 +956,101 @@ Author: Mao
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/BubbleBox/js.json
 
+Package: com.25mao.miyou.rootless
+Architecture: iphoneos-arm64
+Version: 3.9-5
+Priority: optional
+Maintainer: Axs
+Depends: firmware (>= 5.0)
+Filename: debs/com.25mao.miyou.rootless_3.9-5_iphoneos-arm64.deb
+Size: 5108912
+MD5sum: 88c90ed4c0082fbed5e1fc829826c6ce
+SHA1: 875425b60ec58218c6e6e0c84730e845e6ec63df
+SHA256: 00f8bdcd3b7624e565684d695fde575ffb307b488413691c03161bc75c852643
+SHA512: 4c4de1bf3279a2381c6ef3cdc20fa68e23e9ae5115f8723d4b05785f950fc4b7894392af887000aff6fca289c22744b3dcea64eec73bee2432b44bcb518d2e99
+Section: 插件
+Description: 微信助手-Rootless版
+Name: 微信助手
+Author: Mao
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/miyou/js.json
+
+Package: com.82flex.amlyrics
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 188
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.82flex.amlyrics_1.0_iphoneos-arm64.deb
+Size: 12120
+MD5sum: ab96c4685b40abbd18b4ec1915aaa3eb
+SHA1: 056cff333509bca1a4a82bcff0920c5215252677
+SHA256: f894ba35db79178055193157db909816f5e9b774a5191d1cbce146a15a0510d0
+SHA512: c3090e6ff83c8f69b40573377e6e223532743364693e437da6ec7a9383962d64e21767eb90f55368d57e0cd844edc2422a3738d800d16b61454d442829b835f2
+Section: 插件
+Description: 该插件可以让系统自带的AppleMusic歌词进行优化，配合活字印刷术效果更棒。
+Name: AMLyrics苹果音乐歌词
+Author: Lessica <82flex@gmail.com>
+Icon: https://axs66.github.io/pro/icon/amlyrics.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/amlyrics/js.json
+
+Package: com.82flex.artworkspinner
+Architecture: iphoneos-arm64
+Version: 1.6
+Maintainer: Lessica
+Installed-Size: 424
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.82flex.artworkspinner_1.6_iphoneos-arm64.deb
+Size: 39160
+MD5sum: 4daa486df34aa10c2615a1f52db961a9
+SHA1: 7ca4f9f692b85f72922a3be05b964fdae25b530e
+SHA256: e87a15b810749dcc62e7cdb99018fa8898f72c35b653a393397b24da1c6fc0c5
+SHA512: d62c287b57b9733c467742be0b2111ad1af27c1dfe120a4ee532b9b24d812705cefbc40d3c4f59eefea5932646089cbd64646ab907020d3102c1c8bc8a409c79
+Section: 插件
+Description: 旋转专辑插图，支持灵动岛，控制中心，锁屏界面播放。配合源里面N95使用。
+Name: 旋转专辑插图
+Author: Lessica
+Icon: https://axs66.github.io/pro/icon/artworkspinner.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/artworkspinner/js.json
+
+Package: com.82flex.iconrestore
+Architecture: iphoneos-arm64
+Version: 1.7
+Maintainer: Lessica
+Installed-Size: 444
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.82flex.iconrestore_1.7_iphoneos-arm64.deb
+Size: 32040
+MD5sum: 578926da4d37baf9b851ff263b529382
+SHA1: 133d30534636fb8efba3d913d9c75d97457ab8b7
+SHA256: 17d188260f0015e45fa9db8c1344af5d07e8a0cae45e3fabb1aadeeb98369959
+SHA512: 8adf75f78f8183dfd4b56aea24a55e964d66d2c28c540b1e29f95e7966269230d04b06bd6dcae3359b7ec1fbddceb1f9fa5ba3bc94052d9c9e008c381b6990b4
+Section: 插件
+Description: Save and restore the layout of your icons.保存并还原图标的布局。
+Name: Icon Restore 图标布局备份
+Author: Lessica
+Icon: https://axs66.github.io/pro/icon/iconrestore.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.82flex.noredirect
+Architecture: iphoneos-arm64
+Version: 1.9
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 576
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: debs/com.82flex.noredirect_1.9_iphoneos-arm64.deb
+Size: 54008
+MD5sum: fbb7e8b331e8a295d2dd5fcfb9550b33
+SHA1: 9fa9b65692a978a7cccf70e5ee26969a178f30f6
+SHA256: 99fcd01eb6c91aea0703bf60cddc50926dfed4cc97e697894a9e410f89f6f8ab
+SHA512: 77a2f88672208d975b76638327adc7e72b3108c9d7db33cefa40901bfa8aa41bfc470ec08aa12fb124ba6a96036b989baf69484bdf8543c9d5f21704eb285463
+Section: 插件
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Name: No Redirect
+Author: Lessica <82flex@gmail.com>
+Icon: https://axs66.github.io/pro/icon/noredirect.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: com.82flex.ohmyinsetss
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -976,6 +1071,44 @@ Name: Oh My Insets 控制中心五列
 Author: Lessica
 icon: https://axs66.github.io/pro/icon/ohmyinsets.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ohmyinsetss/js.json
+
+Package: com.82flex.removewidgetbg
+Architecture: iphoneos-arm64
+Version: 1.7
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 384
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: debs/com.82flex.removewidgetbg_1.7_iphoneos-arm64.deb
+Size: 29792
+MD5sum: 6ac9f7f607e572a1147e801567274eee
+SHA1: 409f87e4571c1964933e25a63facaed6a8498d5c
+SHA256: c0efe0f0975ec801628045625621952ec40f0fee0d7160baf55ea4d89d7e65d2
+SHA512: c0269a7b5eecda7e451ca5f3f28785b7b105f52ecd54fad37962509147226f7ae2f9e5f19340075bb053e201208e1060a2a1fc8136902bf08e94ac335433273c
+Section: 插件
+Description: Remove the background of the widgets on the home screen.
+Name: Remove Widget Background
+Author: Lessica <82flex@gmail.com>
+Icon: https://axs66.github.io/pro/icon/ycxzjbj.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.82flex.singlevpn
+Architecture: iphoneos-arm64
+Version: 1.6
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 384
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.82flex.singlevpn_1.6_iphoneos-arm64.deb
+Size: 28972
+MD5sum: 73d7a6f7698c0cbf1f8240b1e8804946
+SHA1: 9979997f4e4a447efe76043ce30c06e4fdd1994a
+SHA256: 496c3adfe52f138ac7e6b5e9f9c09efb707c0c0a689558900911dfb965dd6680
+SHA512: 5d34a90604bd449683fcda9675bafac235aaf328d4316bc2f51f9e2e5351466f2f46bef6db258f0eccf00abda9ffeab5220f210558c7fc79b46da63e2d9d6a9f
+Section: 插件
+Description: 将VPN状态和无线状态组合到一个图标中。
+Name: Single VPN
+Author: 82Flex <82flex@gmail.com>
+Icon: https://axs66.github.io/pro/icon/singlevpn.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
 Package: com.Axs.CCMusicPlayer
 Architecture: iphoneos-arm64
