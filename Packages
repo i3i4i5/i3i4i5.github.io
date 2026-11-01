@@ -994,6 +994,45 @@ Author: pkgFiles
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.monitor
+Architecture: iphoneos-arm64
+Version: 1.6.2-105
+Maintainer: 搬运工
+Installed-Size: 1900
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.shadow.fuckthermal
+Filename: debs/byg.iosios.net.monitor_1.6.2-105_iphoneos-arm64.deb
+Size: 293214
+MD5sum: 297ee75aa2fecc683433c818ebb5e40c
+SHA1: 90551f03000f89ea15df747adac1dca6b704e3c6
+SHA256: cd4386396e898e7963654976c9bff2f86b31546b5ce7345aac907c2456c5f1fa
+SHA512: 6cec92e7c3956873cceb75863cfc8a1a222dab7ce217b1e5f1673a9aa6580e35a9b159d3630c482e22c63016f586f303c69ba3a483ba2670bdf5d02af6d620a1
+Section: 插件
+Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
+Name: CPU去温控
+Author: Huayuarc
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.releasefugu15
+Architecture: iphoneos-arm64
+Version: 6.2.9-1
+Maintainer: 搬运工
+Installed-Size: 2576
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.releasefugu15_6.2.9-1_iphoneos-arm64.deb
+Size: 1042170
+MD5sum: 85bae5ee1ef64c749b2d57f57a65d447
+SHA1: dc4dc8f222da76a8f0d41f69669582e23a366471
+SHA256: 5b1520944710f49d81c4121144369a6b7523d54908cb0ffdad8833b513e6ab58
+SHA512: a892f0d2b3d7578509ae150ae7136a517b0e70e9ffd9a59e929179e214bda32e87cfed5ab289d20bdf3253aa5ddf95eb8c9e1cf1214deab5fd9fa49cdd7520b2
+Section: 插件
+Description: 把主题用filza放到对应文件夹，然后加载即可。主题包自己找，或者搬运工源群文件里有几个，不多！不要再问怎么用，插件里都写的很清楚，动动你们的小脑袋，还不行就百度一下你就知道！
+Name: 微信酸果主题工具
+Author: 苏兔
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.sbcpu.floating
 Architecture: iphoneos-arm64
 Version: 6.4
