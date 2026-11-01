@@ -1749,6 +1749,40 @@ Name: 灵动岛偏移-roothide
 Author: 来了老弟 X：h_h_x_t
 Icon: file:///Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/ldd1.png
 
+Package: cn.llld.litten.rose
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0),cn.llld.hhxt
+Conflicts: love.litten.rose
+Filename: debs/cn.llld.litten.rose_1.0.9_iphoneos-arm64.deb
+Size: 449740
+MD5sum: 7ded776fbdfcfcdbfa1673dd4366dd3c
+SHA1: 04529d8852a185717b7edd1dfb46787402d1fc2d
+SHA256: 80d5be4058841b19163f671abf35ae3efd70c1019010436fb0903438beb47af6
+SHA512: cc8c4b19e9e095d9ef13bf3226623eb4ca5a61bc71646ab4d0f1fa6599116c057ebc77656387dff5aa200007a2ca65d6be21aa419cbe7b04d5f964ea802ed0a5
+Section: 插件
+Description: Global vibration configuration, covering almost any vibration adjustment that can be touched，全局震动配置，几乎覆盖能触摸的任意震感调节
+Name: Rose (振动配置)-rootless
+Author: Litten 来了老弟
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.litten.rose/rose_rootless.json
+
+Package: cn.llld.llld
+Architecture: iphoneos-arm64
+Version: 9.99.9
+Maintainer: 来了老弟 h_h_x_t
+Depends: firmware (>= 15.50), mobilesubstrate (>= 0.9.5.000), preferenceloader, cn.llld.hhxt,oldabi
+Filename: debs/cn.llld.llld_9.99.9_iphoneos-arm64.deb
+Size: 1728
+MD5sum: b02dbe3f6880a93bfd87c137b0b375fd
+SHA1: 5ee4dafb0e9fe5b1a42bef58f8c5b00d1baba012
+SHA256: 5a8040b36fcc06620f88d255a23228a7fd480821edf379a02cee445f7c98eda2
+SHA512: 9ea6ed4a30c9eb4fde42e00c42d473dab2e0aa1b7348f57325987038cad9c42ee82b9df812e0e51e341291502dd3413ddf2e3215b918d6c42862dd05c5a20e56
+Section: 插件
+Description: ***关于兼容层（oldabi）若插件有问题，多巴胺环境禁止插件注入，卸载，xina2则安全模式，卸载。若某插件不生效请单独开启仅允许看看是否能生效(会不会有冲突的可能)，再说个重点(xina2-rootless串联)会增加某个别应用场景越狱被检测的概率，除非必要喜欢，否则不用对应的插件，若屏蔽无效，直接卸载它和对应插件，没有屏蔽的需求，则过滤这条消息***。xina2用户请用xina专属的oldabi，XinaA15源的oldabi-xina(Legacy arm64e Support),xina2用户一定不要装错源了。xina2用户一定不要装错源了。xina2用户一定不要装错源了。我所发之物也是有人需求，就给大家提供，并不是我自己总是常用很久，实测2手机没问题才发出上源。另外每人手机环境不一，各种可能性都有，经常有人问到的就是插件不生效，多数是禁止注入或屏蔽应用了，所以插件无处生效，擅用choicy和同类工具，如设置有异样，就是没装依赖，根据提示翻译安装就可以了，插件设置空白则更换PreferenceLoader。不想和任何人有纠纷，请给越狱圈一片明朗的天空，用不上就不用，非强制，莫做背后道人长短的xx，理智玩机。
+Name: Aa1空包仅声明作用
+Author: 空白
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
