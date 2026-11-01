@@ -1712,6 +1712,25 @@ Description: Disable home screen dropdown search。禁用主屏幕下拉搜索�
 Name: 禁用主屏幕下拉搜索-rootless
 Author: 来了老弟 X：h_h_x_t
 
+Package: cn.llld.kbtool
+Architecture: iphoneos-arm
+Version: 2.3.5-3
+Maintainer: 来了老弟
+Installed-Size: 7640
+Depends: mobilesubstrate
+Filename: debs/cn.llld.kbtool_2.3.5-3_iphoneos-arm.deb
+Size: 3122246
+MD5sum: fc15dfaee970e901fa598d11abd6f4c3
+SHA1: d378ba47ae381b6816d8b30c76ce5af03757051e
+SHA256: 0fa3fa7f7c21af85ba09d100a57a5abf06fd0907a43dddb442d25a05b857171a
+SHA512: 4bea5a65faf85f829035f8086b0a98707b6774d69380568d6c2a75935a9444aeefeaef8facf96ed3fb732a37934ddb9a30975339a5064756ef2ff274ff0b2384
+Section: 插件
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
+Name: PTools(keyboard)
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
