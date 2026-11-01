@@ -916,6 +916,27 @@ Author: Mao
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/BubbleBox/js.json
 
+Package: com.82flex.ohmyinsetss
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: Lessica
+Installed-Size: 236
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.82flex.ohmyinsetss_1.2_iphoneos-arm64.deb
+Size: 209964
+MD5sum: b624a73ce966e859e073f281282287d2
+SHA1: 714358745be4b093b42b2d2b797e4d5b8f37fa9d
+SHA256: 6468c16749537e64d3655642b7694918a7ca9443cab6e472252c19ce418bfcb6
+SHA512: 4431aca6ddf634ee0a304173a5ab9077423bbbc8975e57c88a9c3244b7920b67c128f64fb0a4780a60723589df1f2c8a18d5496db9b83f54ec0423d799226eae
+Section: 插件
+Description:
+ 控制中心模块五列显示
+  * Control Center module five-column layout
+Name: Oh My Insets 控制中心五列
+Author: Lessica
+icon: https://axs66.github.io/pro/icon/ohmyinsets.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ohmyinsetss/js.json
+
 Package: com.Axs.afn
 Architecture: iphoneos-arm64
 Version: 3.6.1
