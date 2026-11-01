@@ -918,6 +918,25 @@ Description: Hide IconBadge。隐藏桌面角标(消息提示)-roothide
 Name: 隐藏桌面角标-roothide
 Author: 来了老弟 h_h_x_t
 
+Package: co.dynastic.ios.lib.flora
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Axs
+Installed-Size: 492
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/co.dynastic.ios.lib.flora_1.0_iphoneos-arm64.deb
+Size: 91912
+MD5sum: ed58242a8792044230ab452b36149af4
+SHA1: c89eba8042f49c99a6cbc11cccdee00e318fa912
+SHA256: e56375e46ba6b88af674eb6020605149238feba3449fbd22eb64172ff76d5e85
+SHA512: 1810a10217e1a6d9c47982eee05cf9714ee22126c0f5df5a752ec6f8a99dbfa5270e26f146bf80dc22d50453f9871aafdf0f59cb4cb0d540b569c5c441e663be
+Section: 插件
+Description: Common Dynastic utilities.依赖！ShortLook插件依赖！
+Tag: role::developer
+Name: libflora插件依赖-Rootless
+Author: Dynastic
+Sponsor: Axs
+
 Package: com.25mao.BubbleBox
 Architecture: iphoneos-arm64
 Version: 1.0-7
