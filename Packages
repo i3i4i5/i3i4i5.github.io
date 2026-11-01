@@ -956,6 +956,44 @@ Author: Mao
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/BubbleBox/js.json
 
+Package: com.25mao.doutu.rootless
+Architecture: iphoneos-arm64
+Version: 3.1-8
+Priority: optional
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: debs/com.25mao.doutu.rootless_3.1-8_iphoneos-arm64.deb
+Size: 786588
+MD5sum: b3b9fd55e9900a80ad81525a792aa0c9
+SHA1: 1af07194eb91b7fb3f69c176feca5a038cd1e0c3
+SHA256: 2a4308eac6ded00dabc6021c7f8095e27370dcfb378cff146b0bbcdd95368b92
+SHA512: 42540ed9faf7cf5368158f3b10ec3dbb9beb366d04ecb53ed510ba27169cdf2e3ec4f58c636184eaf0b2b87b5078c4b74f8bfaa82279fce939d22fad41dcf04c
+Section: 插件
+Description: 微信斗图助手
+Name: 斗图助手
+Author: Mao
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/doutu/js.json
+
+Package: com.25mao.leftpan.rootless
+Architecture: iphoneos-arm64
+Version: 2.0
+Priority: optional
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Filename: debs/com.25mao.leftpan.rootless_2.0_iphoneos-arm64.deb
+Size: 32548
+MD5sum: 319da982768fb515598f0232e39663ce
+SHA1: dc8d745b1f4272f23fbe0c3d6571c759d312ea73
+SHA256: 3abadaa0417d110444698c50ca2643338894cfa37ad3845a2e15a9026014db5f
+SHA512: fe25b2949c673f4b11eb140f2aff11fd3e32e55e873cbafae96b97dd886a47dc2ae0d093964dc89949aff9b4f9c992685432293b111361b1ccdc792202c8cf9c
+Section: 插件
+Description: 左滑返回上一页面
+Name: 左滑返回
+Author: Mao
+Icon: https://axs66.github.io/pro/icon/zuohua.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: com.25mao.miyou.rootless
 Architecture: iphoneos-arm64
 Version: 3.9-5
@@ -1109,6 +1147,64 @@ Name: Single VPN
 Author: 82Flex <82flex@gmail.com>
 Icon: https://axs66.github.io/pro/icon/singlevpn.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.3dappversionspoofer
+Architecture: iphoneos-arm64
+Version: 2.1.1
+Maintainer: 0xkuj
+Installed-Size: 408
+Depends: com.opa334.altlist
+Filename: debs/com.Axs.3dappversionspoofer_2.1.1_iphoneos-arm64.deb
+Size: 60196
+MD5sum: 082c7dbaeb6263d2e66330a370ddfaa5
+SHA1: 7aa0198c57eb8fb490f6cac854e7e6aa06b0ce7f
+SHA256: b1d3d9d7b1c729d25388cb1f683197765b05814f06bde330ecc7cf669101ae33
+SHA512: 0510c6113a1f1121b3ae17a1b03b890b7195b26036c805d8c22bec934dc819944afa8ba3a868a1d74d89a99dfa10ca7e3184b398e860087ee5065569fd8118da
+Section: 插件
+Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
+Name: 3DAppVersionSpoofer
+Author: 0xkuj
+Icon: https://axs66.github.io/pro/icon/3dappversionspoofer.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.Axon
+Architecture: iphoneos-arm64
+Version: 2.1.3
+Maintainer: Axs
+Installed-Size: 712
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.Axs.Axon_2.1.3_iphoneos-arm64.deb
+Size: 144248
+MD5sum: 5a80a4a844038d62defe54dc63faab3d
+SHA1: 18a5d8336733e12ce38f5594f95d095e5697eee4
+SHA256: efffcae21d71cfa513e6dcef2a8c047d0a1dfa27f18524618a1bf518868cdb2c
+SHA512: a62f7ad76b727ad3ae46901f582570958419124f91f9b969fb322eed11f31786ba99ae16a4eb95eced47bb9904b0bf3cf8629dd17833b4aba2d9801f7a7a6524
+Section: 插件
+Description: 本插件非常的好用！推荐！
+Author: Axs
+Name: Axon美化通知
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/Axon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/Axon/js.json
+
+Package: com.Axs.BebopKeys
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: Axs
+Depends: com.axs.laetus
+Filename: debs/com.Axs.BebopKeys_1.1_iphoneos-arm64.deb
+Size: 199648
+MD5sum: 62b86cecb57bcdd1a0b4c42e07570309
+SHA1: 0a3f93638685c199540ec1cbac7d7f0b95215570
+SHA256: b9237a8836b74f67affccab091b6394984302d40c0fcad7683b7eac52b673e2d
+SHA512: 641f3e84c65905c4042e48a4a613e294b776c958794cb6478c2272c961ebf019f53bc431e08cbd7f52f9b28580663ec277b5994969309d938f57ba3e76aea4f6
+Section: 插件
+Description: 通过Laetus插件激活的输入法键盘专用主题。
+Name: BebopKeys 系统键盘主题
+Author: rahwan3d
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/BebopKeys.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/BebopKeys/js.json
 
 Package: com.Axs.CCMusicPlayer
 Architecture: iphoneos-arm64
