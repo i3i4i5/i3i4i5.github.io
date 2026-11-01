@@ -1,18 +1,22 @@
 {
   "sections": [
     {
-      "name": "QQ",
-      "orig": "Axs-Tweaks",
+      "name": "插件",
+      "orig": "",
       "pkgs": []
+    },
+    {
+      "name": "QQ1",
+      "orig": "QQ",
+      "pkgs": [
+        "com.yourepo.axs.wxkeyboarduihook",
+        "byg.iosios.net.autofillfix",
+        "byg.iosios.net.ccborder.new"
+      ]
     },
     {
       "name": "微信",
-      "orig": "A-微信插件",
-      "pkgs": []
-    },
-    {
-      "name": "插件",
-      "orig": "",
+      "orig": "微信",
       "pkgs": []
     }
   ]
