@@ -27,6 +27,14 @@
       "pkgs": [
         "com.dao.ccless"
       ]
+    },
+    {
+      "name": "哦哦",
+      "orig": "",
+      "pkgs": [
+        "byg.iosios.net.autofillfix",
+        "com.opa334.choicys"
+      ]
     }
   ]
 }
