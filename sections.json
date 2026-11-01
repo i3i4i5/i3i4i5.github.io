@@ -4,6 +4,17 @@
       "name": "插件",
       "orig": "",
       "pkgs": []
+    },
+    {
+      "name": "自用",
+      "orig": "",
+      "pkgs": [
+        "com.axs.ahsfilter",
+        "com.axs.axon",
+        "byg.iosios.net.ccborder.new",
+        "com.dao.ccless",
+        "com.opa334.choicys"
+      ]
     }
   ]
 }
