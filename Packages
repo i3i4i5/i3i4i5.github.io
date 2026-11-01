@@ -993,6 +993,45 @@ Author: 5hux1n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.iphoneduoicon
+Architecture: iphoneos-arm64
+Version: 0.1.21
+Maintainer: 搬运工
+Installed-Size: 728
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.singlevpn
+Filename: debs/byg.iosios.net.iphoneduoicon_0.1.21_iphoneos-arm64.deb
+Size: 199646
+MD5sum: 93f3ac61cd5afe145727575ca28e7e06
+SHA1: 789ffe0c50f2acebeddf34d8a08900b5cc4b384d
+SHA256: bc49c8df1e0c13e38ed0762ab375782311af898c270c05cbec1988cae4e3d101
+SHA512: c9069adaf241014767053461a59f17d4b435f1cbe0a213a869b86cfb5feb87801da00ff81f5e0369ed8fa43c3abd6499888521be8b7336cfe11bc6184fb42a8a
+Section: 插件
+Description: Combined battery, Wi-Fi and dual-line cellular status icon.电量、wi-Fi与蜂窝信号一体化，提供星环和胶囊两种状态栏样式。效果看截图，还是非常的不错的，搬运工源永久免费更新！
+Name: iPhoneDuo圆形图标
+Author: Banana
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.kbappdock
+Architecture: iphoneos-arm64
+Version: 1.8.5
+Maintainer: 搬运工
+Installed-Size: 2088
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.kbappdock_1.8.5_iphoneos-arm64.deb
+Size: 1192256
+MD5sum: 99cbe1e93260534a138b7d91ee1b9012
+SHA1: c1aa2e8363c4e194ec20f80b0f9f432e4baa0083
+SHA256: 8b9f7542c2c82ad769ce1dca75153785c5300518875f02ad37c43e9f080f5379
+SHA512: 00273a1fb4a7c37cb395197c46035411dae3971930ab876fd6d9ddd070393c66120ff81b791c676d6a18bdf44fcbadbf473ba1f695a993f1e0e3b99db194acfd
+Section: 插件
+Description: You can arrange apps on the dock of keyboard ⌨️.键盘上增加APP跳转，看截图介绍，第三方键盘也可以！搬运工源，永久免费更新分享，请大家多多支持！
+Name: KBAPP键盘增加APP跳转
+Author: Dcsyhi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.liquidas
 Architecture: iphoneos-arm64
 Version: 0.1.1b+banana54
