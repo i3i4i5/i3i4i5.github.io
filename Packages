@@ -532,6 +532,26 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/zzfilter.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
+Package: com.opa334.libsandy
+Architecture: iphoneos-arm64e
+Version: 1.1.3-3-1+debug
+Maintainer: opa334
+Installed-Size: 416
+Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
+Filename: debs/com.opa334.libsandy_1.1.3-3-1_debug_iphoneos-arm64e.deb
+Size: 20938
+MD5sum: 2bebfa31a375f2acf58d0dc2448fc6a2
+SHA1: 2af651cb9aa64dbac977b31121843a6b3c0f992b
+SHA256: 9516e1b424d0b484637f1a7effe386e263f8f668a25e49a1ccd569803f8fc401
+SHA512: 5e3c031cd9c1a26ca37a156078bbdaa91461258539f0726fd617c4946c8a8f011003de28fdbdd6d97419d2b49e8e70ed2c6746705393deb9949a4b1bd8c0b250
+Section: 插件
+Description: Securely extend the sandbox of system processes and user applications
+Tag: role::developer
+Name: libSandy
+Author: opa334
+Depiction: https://apt.htv123.com/view/476
+SileoDepiction: https://apt.htv123.com/sileo/476
+
 Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
 Version: 4.0.1-4~roothide
@@ -553,6 +573,25 @@ Name: Filza 文件管理器
 Author: TIGI Software
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
 Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
+
+Package: com.xybp888.callassist16.dopamine.roothide
+Architecture: iphoneos-arm64e
+Version: 3.3.3
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.xybp888.callassist16.dopamine.roothide_3.3.3_iphoneos-arm64e.deb
+Size: 3573356
+MD5sum: 67139c31636ba1a67937596ad4bfc080
+SHA1: 0429b5999c4ae0cd7b63bb82fe8fd7a3978f8c35
+SHA256: a4f0c402640d4c96f8d90df76afeeeef43f2149bb9ed3e0dc9fa0aebba7f60ac
+SHA512: 844785173c452079195c110e8db222423af8d1da98e197ee7a9c7c1f1c0d27578c47fa69e16aec45fccd83bde908c1a879a4589d14cadbfc6624d7a62053cfba
+Section: 插件
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS16-正式版(Roothide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/1119
+SileoDepiction: https://apt.htv123.com/sileo/1119
 
 Package: ellekit
 Architecture: iphoneos-arm64e
@@ -612,6 +651,25 @@ Section: 插件
 Description: 防止漏洞入侵
 Name: lockdown
 Author: roothide
+
+Package: preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.2.6-8+debug
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 264
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_2.2.6-8_debug_iphoneos-arm64e.deb
+Size: 20124
+MD5sum: 2be207d92f7ec3b380ff685840ec20b1
+SHA1: 24cb38b11a84510a93da2dbb6618d978581abebe
+SHA256: 195bf6c04f95c8215d9c78dbe52fc9171cec57b7970cbc3d69a60eb2c32105f4
+SHA512: 9626af6faed9ddeaab7412460d26a764aa21156c18bfa8ac7f5253e223d3e3804e2e18bea94fd1c041ef0d60a655b760843926ac9487540f260cc8cf10fc510b
+Section: 插件
+Description: load preferences in style
+Name: PreferenceLoader
+Author: Dhinak G <dhinak@dhinak.net>
+Depiction: https://apt.htv123.com/view/477
+SileoDepiction: https://apt.htv123.com/sileo/477
 
 Package: cn.llld.adshield
 Architecture: iphoneos-arm64
