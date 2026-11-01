@@ -857,6 +857,27 @@ Author: huami&vita
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.evocenter
+Architecture: iphoneos-arm64
+Version: 3.1.0-beta.1
+Maintainer: 搬运工
+Installed-Size: 25660
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloade
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/byg.iosios.net.evocenter_3.1.0-beta.1_iphoneos-arm64.deb
+Size: 3561720
+MD5sum: 48e36e3a3460c5b2f40c15731e7aaa1f
+SHA1: c8de9189e150f778892dd18aea90739ae520e896
+SHA256: 51b3751ff539fde68026a171b2cfb92ac7c731711e93e14751be824432dfd7d0
+SHA512: 263fc3853c1722d735d36b7dd9d4b2acc7780ddbf47476375b1faa36c92fb9ab32dadd8414b4814e8ecdfa28dcd255b41bb25e325a53dd760f5e88c660a15b67
+Section: 插件
+Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。支持 iOS 16.0 - 16.6、iOS 17.0 - 17.4。署名：chatgpt5.6（sol） · JaySuen。反馈 Bug 和建议：在酷安 App 搜索 JAYSuen 私信，或搜索 Evo Center 找到最新帖子评论。向 ccborder16、horizontalsliders、bettercc 致敬，感谢其设计与实现带来的启发。
+Name: Evo Center控制中心美化
+Author: chatgpt5.6（sol）, JaySuen
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.fanqiefn.helper
 Architecture: iphoneos-arm64
 Version: 3.1.2
