@@ -691,6 +691,26 @@ Author: Mao
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/BubbleBox/js.json
 
+Package: com.Axs.afn
+Architecture: iphoneos-arm64
+Version: 3.6.1
+Maintainer: AFN Team
+Installed-Size: 7968
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.tencent.xin.dkhelper, com.dkjone.dkhelper, com.afn.helper, com.xiaoxin.helper
+Filename: debs/com.Axs.afn_3.6.1_iphoneos-arm64.deb
+Size: 2763828
+MD5sum: 6295247f505a7d2fbd5ba2fdbced7a5f
+SHA1: e3c556aa687f3882833eb62c4d532f462aee61d1
+SHA256: ecc83c7594e1bb312c437c30a3366f85a48980bd6f95545b9dc61f94fb3c1b9f
+SHA512: 0c0f72dcf23ac68ad9749dd15d0149d2b5a6abd6a7c8cb5d2db8f38ac29f714b3c9014ee358aae2a6666c407d2ba5c5193fac1751cacade63fba4cf24e079a2c
+Section: 插件
+Description: 这是一个微信插件。
+Name: AFN
+Author: AFN Team
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/afn/js.json
+
 Package: com.opa334.libsandy
 Architecture: iphoneos-arm64e
 Version: 1.1.3-3-1+debug
