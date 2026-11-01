@@ -1226,6 +1226,25 @@ Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.trollstorehelper
+Architecture: iphoneos-arm64
+Version: 2.1.1-2
+Maintainer: 搬运工源
+Installed-Size: 8140
+Depends: ldid
+Filename: debs/byg.iosios.net.trollstorehelper_2.1.1-2_iphoneos-arm64.deb
+Size: 3385888
+MD5sum: 2dea47188afe9d38ee8757e0ff585493
+SHA1: a517e2867b8ef48e749fb8d867c6e701129edd11
+SHA256: 98e96fdef1e44ff8a4c8ee7a2ad2dbffeaa0aae62e30ab6f515a34e82fa5c022
+SHA512: 91c9f729be4e6fff50fec173114ea9f8e8327769bc863a6b21181476c95e7c86196162e62c2da20977d729ce921fe5d10cd6d23753f341a7aaad90afd5e38a77
+Section: 插件
+Description: Helper utility to install and manage TrollStore!正常情况是先装巨魔再越狱，但也有少数人先越狱了没巨魔，或者不小心删了巨魔，本插件的作用就是在越狱环境下安装巨魔，这样你的巨魔就又回来了，无法安装请切换网络环境，或者使用梯子，因为巨魔在国外网站，你得先连上才行！白巨魔，只有越狱环境才能用的巨魔，没越狱，安装的软件就打不开！
+Name: TrollStoreLite白巨魔安装器
+Author: opa334
+Sponsor: 搬运工源
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.wbb
 Architecture: iphoneos-arm64
 Version: 1.2.4
