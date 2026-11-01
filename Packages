@@ -2261,6 +2261,57 @@ Description: Hide Dock Bar Background透明Dock栏背景---roothide
 Name: 隐藏Dock背景-roothide
 Author: 来了老弟
 
+Package: cn.llld.yckzzxwb
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.yckzzxwb_0.0.1_iphoneos-arm64e.deb
+Size: 3028
+MD5sum: c2990385c157936a6ef12e17a58db527
+SHA1: 66c245cf27c32d3993d7ab8aff0bf57bf6ca5ab6
+SHA256: 6acad5cede64fd6baeb459472aed69b859524c667e69b8e04688d50cb5683fda
+SHA512: aec82f93abc8e18c72403e63d1625e441abbe8a399e380136b718d7cbb9a86206c5edf850b53661e814298c20ded20b1ee1f5038eb5b8cd4628d729ac79a3bcb
+Section: 插件
+Description: Hide NotificationCenter Text隐藏“通知中心”文本-roothide
+Name: HideNotificationCenterText-roothide
+Author: 来了老弟
+
+Package: cn.llld.ycst
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.ycst_0.0.1_iphoneos-arm64e.deb
+Size: 2968
+MD5sum: 09303a4528837081c6f3e15a7ef61861
+SHA1: 47df8eb952f08bcdfc7934d0df2e538f3b6a0d00
+SHA256: 21fe3a53f7b75abd238a304dc0f7272196c0cdf4f67ebd2b0b1fbb10f0690d99
+SHA512: ecaaea1a87440147c9686af1d3de20c8459a578605d214e5cd39c95013a1e4c126ca2a3a3ae58594fee6e000d6b06bfc4a393045e7a88683577ebc9a84222d4e
+Section: 插件
+Description: NoPadlock隐藏锁头-roothide
+Name: NoPadlock-roothide
+Author: 来了老弟
+
+Package: cn.llld.ycwjjbj
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.ycwjjbj_0.0.1_iphoneos-arm64e.deb
+Size: 2996
+MD5sum: 564c02a5a44f0f77bda1cadf7abac0e2
+SHA1: d01fa8b998678dcd20748526de6d7c9cb3731c4c
+SHA256: 4fbf74c59236bcdd286bde46a361345c97b28b77b0d9d5a4345568751cc8abe4
+SHA512: cc857099ed3144175ee34dd9a4b3fd55123e7ca9a76446a3ff6dc9f9e126d9a2fd5cdecfb87e2fe26edb20267ddbe56b378210c44a0ba5114526169821c98251
+Section: 插件
+Description: Hide folder background隐藏文件夹背景-roothide
+Name: HideFolderBackground-roothide
+Author: 来了老弟
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
