@@ -2076,6 +2076,23 @@ Name: SmartLight快捷手电-rootless
 Author: smokin1337
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 
+Package: cn.llld.smartnotifications2
+Architecture: iphoneos-arm64
+Version: 1.7.1
+Maintainer: 来了老弟 X：h_h_x_t
+Depends: mobilesubstrate, com.spark.libsparkapplist, com.cokepokes.libnotifications, cn.llld.hhxt
+Conflicts: com.eliassfeir.SmartNotifications
+Filename: debs/cn.llld.smartnotifications2_1.7.1_iphoneos-arm64.deb
+Size: 2473856
+MD5sum: d747065a17fe3dadafe64b22b7643d49
+SHA1: 55c1fa149e1cd00267d266babcacc0d1e83f62fa
+SHA256: fdb6cf714b0870b5810ec2ef62d3f994e3f59b215aa16007e9d9b49cb9b42c44
+SHA512: b64ed0751743c44c5f8018ff9c2898e33787418c7a68019a49b9170b331a710d6be5d7a248fe0e325b04e812763fe932acff459b5e0c7ef6f3a89558297fd4f9
+Section: 插件
+Description: The ultimate tweak to customize your notifications such as adding custom ringtones for apps, enable time frame, snooze notifications, block contacts and much more。（Don't turn on the custom volume level）自定义通知的终极调整，为应用程序添加自定义通知铃声、启用时间框架、暂停某个时间段的通知、阻止联系人，通知闪光灯等。待处理问题：(自定义音量级别不要开，会引发注销，需要等我打个补丁)
+Name: SmartNotifications 2-rootless
+Author: Elias Sfeir
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
