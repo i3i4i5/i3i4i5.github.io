@@ -1959,6 +1959,123 @@ Description: The buttons and sliders of the control center are rounded。控制�
 Name: RoundedCC控制中心圆角化-rootless
 Author: neoney 来了老弟
 
+Package: cn.llld.searchy
+Architecture: iphoneos-arm64
+Version: 3.2
+Maintainer: 来了老弟
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: debs/cn.llld.searchy_3.2_iphoneos-arm64.deb
+Size: 6668
+MD5sum: 97b0a5a263b57fdfcfce9af27fc6cd77
+SHA1: 2c8b5a3f7cf661c131018de62648d7e3583fdf24
+SHA256: 5ee89907f5be501e4dbc872cc9c4b21179ff9123cd4221cc177bdef592183e18
+SHA512: 1def477e514cf018c039d49c3e1ade0451d3dcb75d76d19923230224fda3ae7bd687883ce814a5b53752c5677e40aa2ab3243d664e1d22c1cf4a6a8977399340
+Section: 插件
+Description: Recently, a search box has been added to the call.最近通话添加(搜索栏)，无设置，直接生效。
+Name: 最近通话增加搜索框-rootless
+Author: 来了老弟
+
+Package: cn.llld.settingsudid
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: 来了老弟
+Installed-Size: 140
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.settingsudid_1.0_iphoneos-arm64e.deb
+Size: 3648
+MD5sum: 5dd5efe3d6f258f8436311ce503faae8
+SHA1: f8757f9801c94b3d1b34a3c6bde335ed35e981a3
+SHA256: 9ae03701e07b2190846e87d558dee294e31e061c04968204acb3b560dc570e33
+SHA512: b425d04b735c2658983137c23667b63b0a5ce4fac8c61dea3bc6de5e0797bec6f6efb9983aba8024094c615b8b7a38bb96132debb8e3096ba6216084bf541630
+Section: 插件
+Description: Check your UDID from the Settings > General > About phone page!从“设置”>"通用">“关于手机”页查看您的UDID！_________仅测试用,有问题卸载---roothide
+Name: SettingsUDID-roothide
+Author: iCraze
+
+Package: cn.llld.shelly
+Architecture: iphoneos-arm
+Version: 0.0.2
+Maintainer: 来了老弟
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.shelly_0.0.2_iphoneos-arm.deb
+Size: 14350
+MD5sum: 5d338862a5477368fa29d46047d02ed5
+SHA1: 7ca4b90715439d517e53b7983cac7e355f0669f3
+SHA256: d0a47dfa3fd43813c1ee5999bf07b7862d3ca68b0f676ebb91f510a599610302
+SHA512: fb15535f4217b149d71a0206e50b52b7af0c79d1bd6ad3436f9bf07581ba3d107f7cb34ecebad79799246ed559af5c6c75bb43d2710140333415f754365767a6
+Section: 插件
+Description: Shelly--(rootful)简体中文包
+Name: shelly汉化-rootful
+Author: 来了老弟 h_h_x_t
+
+Package: cn.llld.sjhx
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: 来了老弟
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.sjhx_1.0_iphoneos-arm64e.deb
+Size: 3124
+MD5sum: b2a208741ec75cfb60dbfd103e2f75d0
+SHA1: 8855d70fa3a0c5002d92bca6296fcaa2afca2705
+SHA256: cd244ed14b0641558e47e5eb4a82ece2e974a4169de2b8a16ae913f0e1b409b1
+SHA512: 90e55c62f5503ed06c6050456e5026fa3cd298a4edcdcac8e3c74bad5629a15c6d7dd40d340528cae18cdeeafddd4093f2c7be42e225d589581ad9eb78124b66
+Section: 插件
+Description: Change single-click to wake to double-click to wake (Settings-Accessibility-Touch-Tap to wake)单击唤醒改为双击唤醒(设置-辅助功能-触控-轻点唤醒)---roothide
+Author: 来了老弟
+Name: 双击唤醒-roothide
+dev: 来了老弟
+
+Package: cn.llld.sjsp
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Filename: debs/cn.llld.sjsp_1.0_iphoneos-arm64.deb
+Size: 8496
+MD5sum: 73506e428509aa56d9218ff8d4d95bb5
+SHA1: ce6b94aae95468de1207f22ac37975b0a9cf69bc
+SHA256: a94935f4fcccf89e652da35a8e6a171af355bcbeadb9669cfc916e2cbdb0af0a
+SHA512: 12dd6d6330a71906d56ce5a4e2a5c2f9a815ffa2442f3789d0b2b9136b59b216d7599181b201df409bb64e9f848ed4be63d52244341ff3f6a8965d154e46f9ac
+Section: 插件
+Description: Double-click the home screen to lock the device双击锁屏-rootless
+Name: 双击锁屏-rootless
+Author: 来了老弟
+
+Package: cn.llld.smarthh
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.smarthh_0.0.2_iphoneos-arm64.deb
+Size: 10656
+MD5sum: b5f2c6ad244e965ef5fb29b787c3536e
+SHA1: 35ffe49333cca80153e453208c5586cbce0e5082
+SHA256: cf339df0debd472512c15c736f9aaec07dab27f70f4ce7ea875170baae29f10f
+SHA512: 8bf5fb1d1ec4f8811d7bb73348235bcf607d550837b953423818b7e6d78628ca9c88e029a6a381c870c196abf754022919750446085c05712cbd4343e6dac7c7
+Section: 插件
+Description: SmartNotifications和SmartNotifications2汉化(已处理任何汉化冲突的问题)，0325新增几个单词-中文语言包-rootless
+Name: SmartNotifications汉化-rootless
+Author: 来了老弟 X：h_h_x_t
+
+Package: cn.llld.smartlight
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: 来了老弟
+Installed-Size: 168
+Filename: debs/cn.llld.smartlight_1.0.5_iphoneos-arm64.deb
+Size: 5604
+MD5sum: 4361babb318487d23acfcedb488fa574
+SHA1: 44ff53ba8488803f33d6a9a06b27ea02e16237bf
+SHA256: ebe1d7bae06a3e95fda789d6e348fd9fee76104f12a3a69eaedc2af97b8886d7
+SHA512: d492b9e84ad3f2045a371ffec374457369150aea62487f80a2e627d5cf6bb49ede8c3a6e2b27357d221c8fc199ed113d5929abba921f1aaaa68e34fb19e0fb38
+Section: 插件
+Description: 用音量减和电源键激活手电筒，并通过音量加和音量减锁定更改亮度级别！
+Name: SmartLight快捷手电-rootless
+Author: smokin1337
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
