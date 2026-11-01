@@ -2128,6 +2128,39 @@ Description: SwipeExtenderX汉化，swipeextenderx汉化--(rootess)简体中文�
 Name: SwipeExtenderX汉化-rootless
 Author: 来了老弟
 
+Package: cn.llld.tapflash
+Architecture: iphoneos-arm64e
+Version: 1.1
+Maintainer: 来了老弟
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.tapflash_1.1_iphoneos-arm64e.deb
+Size: 3396
+MD5sum: 6dfacefd0ec2b5871c13b252bae873be
+SHA1: 61a68d9df128d135e85ec19f3a91937089f549f0
+SHA256: 3a782203fb657087767e4606e479f3e05428bdb63f65247939d88c71ff991428
+SHA512: ee01edff6bcd7756681508079209fc51fb344e0d7f6cffbd3d807c356fa779843401d74654c250651ae1b9983a26831ceee2ec3d392ffa6db24c741f6920649c
+Section: 插件
+Description: Press the volume up and down buttons simultaneously to quickly turn on the flashlight同时按下音量加和减按钮快速打开手电筒_________仅测试用,有问题卸载---roothide
+Name: TapFlash快速手电筒-roothide
+Author: Chr1s
+
+Package: cn.llld.tgsg
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.tgsg_0.0.1_iphoneos-arm64.deb
+Size: 6488
+MD5sum: 65ac93cae37f719d2f9091786a3dbd6a
+SHA1: b5a3c3bd1b5a3b1afc7e197d4bfeca1496309242
+SHA256: a47550fe81292f3eb2600927063e1dc6b804d1c8d2d2080046251b671792d5cb
+SHA512: 2cebb2120f78aab5987f80fed21964af36cd40f35752671458750b56c835981ea9b0e45aed2d5ba7729f4fbb2f7eaad6892adb7bdec1c8450a50c593e2c9b547
+Section: 插件
+Description: Text discoloration of commonly used music listening software。常用听歌软件文字变色，土嗨插件，体验完即可卸载。。。。。通知和SpringBoard跑马灯我已注销代码了(有一点点耗电)，目前发出的版本电量方面使用和平常没有啥区别。
+Name: 土嗨变色MusicTextcolour-rootless
+Author: 来了老弟 h_h_x_t
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
