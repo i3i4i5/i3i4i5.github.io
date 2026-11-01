@@ -3,13 +3,14 @@ Label: 牛逼源
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 常用插件精选整理
-
+Description: 牛逼源
+Support: https://i3i4i5.github.io/
+Icon: https://i3i4i5.github.io/CydiaIcon.png
 MD5Sum:
- 227c43c889ca4e6edf174df6e19d3f8c 41213 Packages
- 5a6230c20efaaf382ce1b501f8adbef6 15837 Packages.gz
+ 22a0ae92a9e415e584b4409f2c8b635d  38202 Packages
+ 396bc96fda43b81e035f4826d902c59f  15763 Packages.gz
 SHA256:
- 62c2195b40397bc030e825eb4588af3a0d48b603beb26ab9a51d2d7d738be209 41213 Packages
- 674aa38f84b14cad166b92337668eccf63a7e565f85384bbab8d2ca661641b87 15837 Packages.gz
+ 132a0dc27f1f9f42825c0ce56a489500fb3194ca404637058fd473d7bc5f3ef5  38202 Packages
+ 089279f12ae4a7a69c4cac2eb2e25bb4362ecab0eea0bcec5ac905d7352a1ae2  15763 Packages.gz

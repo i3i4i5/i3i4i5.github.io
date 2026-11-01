@@ -1,21 +1,3 @@
-Package: com.yourepo.axs.wxkeyboarduihook
-Architecture: iphoneos-arm64e
-Version: 1.8
-Maintainer: Doki <qiaozhani000@163.com>
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/微信输入法自定义_1.8_iphoneos-arm64e.deb
-Size: 82592
-MD5sum: 2781240f9f739938b7d9347154313471
-SHA1: c1e63786c987d0d11ff79c8aac22ae48ff467360
-SHA256: df04f4853438a05a469dc237216ee38bd7055582592d37b6a2db5e6e564c4f6a
-SHA512: b053f73156aa86374c47b67e406f9dac806d14bec099b82cec278c81a66ecb202629fdad91750b2a3ebe617ef7f582f89b875179684d57df63849e5babc0070e
-Section: QQ
-Description: 微信输入法自定义颜色圆角之类
-Name: 微信输入法自定义
-Author: Doki <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/wechat.png
-
 Package: com.axs.ahsfilter
 Architecture: iphoneos-arm64e
 Version: 5.2.0-3
@@ -29,7 +11,7 @@ MD5sum: 9a9bba17dc14ee3fd79f780db1868dd9
 SHA1: 9edb3c1343d53d2fb120ff8b0410e9165c869721
 SHA256: 030252a386e7ee2b908492cf9e05223fcfa681d7999c663d885ccd2d64c2f907
 SHA512: a11b52c6634ce58476f53f9436d90741fc923ce8b65be49adbcfac985b200b1a5d074789ac174f954b52ac2ea99990ee09912fd4dfd220a22a5ceb9dbde8ee61
-Section: QQ
+Section: 插件
 Description: 爱回收筛选
 Name: 爱回收
 Author: Axs <qiaozhani000@163.com>
@@ -49,12 +31,31 @@ MD5sum: 2f82cd10d6207637ac62e7a530c49d27
 SHA1: 14f3675886a4ae71210e39fa64b24950a6ed12c9
 SHA256: 886a391d245448d317f6fadb98c3aba5576eddc3e515d8b5513e65a60c8f0ee4
 SHA512: fcaac9daa16bdbdcdbde218ef943acca240f8e4d28de1fadb5c75e99df6afa57c5d386bebe7bcf4869559d8afb9cfe6f3ae42fe7f4ea0ebc9f03f3358b27a8ef
-Section: QQ
+Section: 插件
 Description: 设置各种app跳转指向
 Name: 跳转拦截
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/appselect.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
+
+Package: byg.iosios.net.autofillfix
+Architecture: iphoneos-arm64e
+Version: 0.1
+Maintainer: 搬运工
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/Auto短信验证码自动填充-Rootless_0.1_iphoneos-arm64e.deb
+Size: 4300
+MD5sum: 85ef05c586648042a7e0d74dabd1ffa6
+SHA1: be497b8d395cb7e7ad6f3e58611b5119bec96aed
+SHA256: 38d8653521c912e1fd6932139c3556768a2918b2696fe3ffdc27688d0e27d267
+SHA512: cc36941b9fcc48122972782f7f312d2714810f14de9626c11160e0e585774a3ec8659682c5ee66a00f6221f8206a697cfe155b141c9d4e8ac8cea6f5a05ea3c4
+Section: 插件
+Description: 短信验证码自动填充
+Name: 短信验证码自动填充
+Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.axs.axon
 Architecture: iphoneos-arm64e
@@ -70,204 +71,12 @@ MD5sum: 54508825ca1fbc7d4a3c9799cde527c9
 SHA1: 1197d833ca5ba786dbd2f6b7d2039702682ca415
 SHA256: 3db5f4bed6619300f1ac2be101bae0d0d17b62666b7f3198011e309b662924fe
 SHA512: 0bde87d393c5d3b5ba6d96905bdd2873d876cc1494682e5f44af43361f1387eb68a41da0f631945efd019a4922aefad952f3203f4991b860e32f5774a033a1dd
-Section: QQ
+Section: 插件
 Description: 通知美化，按app收纳通知
 Name: 通知美化
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/axon.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
-
-Package: com.axs.ipslog
-Architecture: iphoneos-arm64e
-Version: 5.2.0-30
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 496
-Depends: preferenceloader
-Filename: debs/IPSLog_5.2.0-30_iphoneos-arm64e.deb
-Size: 84356
-MD5sum: 1838d52b826554d19eebedb587bea1f9
-SHA1: b6775a164ea59ed4b3efa803efe5c4c117121483
-SHA256: eaea029a0d9799b456ab959845ba561e4a904dd014fe82db38ccc674ef17b258
-SHA512: 2668a0dc820774e6954369fa37219bee0d622f7522b2f9126b720d667193b2a47cc2a177acb7ef4b21c130f714f16a1fd5c52f082afa2a50474f816797e90e72
-Section: QQ
-Description: 系统崩溃日志分析，带分类，带自动解析
-Name: 崩溃日志分析
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/ips.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
-
-Package: com.axs.snapper4
-Architecture: iphoneos-arm64e
-Version: 5.2.0-45
-Maintainer: Axs <qiaozhini000@163.com>
-Installed-Size: 1620
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.jontelang.snapper3, com.susudear.stayshot, com.axs.snapper3tag, com.iosdump.shellx
-Filename: debs/Snapper_4_5.2.0-45_iphoneos-arm64e.deb
-Size: 238036
-MD5sum: 57333167e48099d11b842a282a8586db
-SHA1: fdea3999bc44897209d767a1b0fe5d436593d2b9
-SHA256: 9f652d37fe48bc604fc849ed2eb9ab46a5fe9ba12f6df42488bf172018dea98c
-SHA512: 98ba80a9ae5fea53a34a7977d171de636cafd737706c546453146b2e5c581f2c92fd2f4a4aae9836c7d3f3dda85c387cee09c2f844a0095e664f99cff68e93fa
-Section: QQ
-Description: 这是一款截图工具。
- * 一、基本设置
- * 1、移动标记：开启后标注内容可拖动调整位置；
- * 2、功能开关与排序：设置面板内可开关并拖拽排序全部功能。
- * 二、触发方式
- * 1、音量增+电源键=：可选系统截图或插件截图；
- * 2、长按音量减→插件截图：开启后长按音量减约 0.2 秒调出冻结模式。
- * 三、截图设置
- * 1、截图仅复制：截图后仅复制到剪贴板；
- * 2、长截图方式：滚动拼接 / 一镜到底，智能帧匹配自动拼接；
- * 四、AI 服务（识别与翻译）
- * 1、Sileo：Sileo 描述页长按翻译纯文本，翻译方式可选百度翻译或 AI 翻译；
- * 2、AI 互译与问答：中英文互译与中文问答，支持自定义提示词与 AI 对话模式，半屏浮层展示；
- * 3、文字识别 (OCR)：模型识别截图文字，半屏浮层展示、涂抹选择、一键复制；
- * 4、百度翻译：自动检测语言双向翻译（中文↔外语），支持图片翻译 / 文本翻译双通道。
- * 五、扩展功能
- * 1、截图标记：颜色/箭头/自由画线/文字/矩形/圆形/高亮/马赛克/撤回/删除/保存/复制；
- * 2、URL 触发：支持手势插件通过 prefs:root=snapper4_freeze（冻结）/ prefs:root=snapper4_long（长截图）系统深链触发。
-Name: Snapper4
-Author: Axs <qiaozhini000@163.com>
-Icon: https://axs66.github.io/pro/icon/snapper.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
-
-Package: com.axs.zzfilter
-Architecture: iphoneos-arm64e
-Version: 5.2.0-8
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 372
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/ZZFilter_5.2.0-8_iphoneos-arm64e.deb
-Size: 65084
-MD5sum: a7afe275fabcfc9fb163a92725f61587
-SHA1: e8cbdc43ff5c9209d37dc179481d2f271001c829
-SHA256: e978489ecec1a60bb6c2f3b83ceccb971ccccde36e3240bbdd0a11c736bc6fd9
-SHA512: b4a37bccf66d3247ebdae224cadbd7e76d721db86d64c5ae28c599895a5bd695fa0de61e7f73faf3ed5ec66513799575dca0d24f70e15be1457a1a292176ae7e
-Section: QQ
-Description: 转转筛选助手
- * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
- * 2.按机型/电池/系统版本/成色/内存筛选
- * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
-Name: 转转筛选
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/zzfilter.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
-
-Package: cn.llld.xds
-Architecture: iphoneos-arm64e
-Version: 1.6.11
-Maintainer: 来了老弟
-Installed-Size: 20408
-Depends: firmware (>= 14.0)
-Filename: debs/xds_1.6.11_-arm64e.deb
-Size: 6563112
-MD5sum: 4a594fee9e5ad64d9a9388d813d03443
-SHA1: a5c3d50cedd55ade0cf6011b3c5aaad78bf75302
-SHA256: 8c0da9f36c5b5977bbc6be1f9eef744c14c3841a9a6e566244f69780877021fc
-SHA512: 709fbffd39c25edf7e05dd128b518f5ab6b412e152246038f0d41e3298a70e1602fee54646b5a39bb8e57da126e1768d2d95335bd7735ade67bca2a4c05749df
-Section: QQ
-Description: XDS单双列可切换文件管理器（rootless 脱沙盒 + 受控 Root helper）
-Tag: purpose::uikit, compatible::ios14
-Name: xds文件管理器
-Author: 来了老弟
-
-Package: byg.iosios.net.autofillfix
-Architecture: iphoneos-arm64e
-Version: 0.1
-Maintainer: 搬运工
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/Auto短信验证码自动填充-Rootless_0.1_iphoneos-arm64e.deb
-Size: 4300
-MD5sum: 85ef05c586648042a7e0d74dabd1ffa6
-SHA1: be497b8d395cb7e7ad6f3e58611b5119bec96aed
-SHA256: 38d8653521c912e1fd6932139c3556768a2918b2696fe3ffdc27688d0e27d267
-SHA512: cc36941b9fcc48122972782f7f312d2714810f14de9626c11160e0e585774a3ec8659682c5ee66a00f6221f8206a697cfe155b141c9d4e8ac8cea6f5a05ea3c4
-Section: QQ
-Description: 短信验证码自动填充
-Name: 短信验证码自动填充
-Author: P2KDev
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.ccborder.new
-Architecture: iphoneos-arm64e
-Version: 1.1.2-39
-Maintainer: 搬运工
-Installed-Size: 1004
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, firmware (>= 16.0)
-Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
-Filename: debs/CCBorder控制中心美化_1.1.2-39_iphoneos-arm64e.deb
-Size: 206420
-MD5sum: 146f142ff4a5f6f5420b9c52ba5108f0
-SHA1: c5b8800d0083217aa3f5d5349d96a16a147fcf87
-SHA256: 35c537420d249d8b1b94edcecf63a13b5254f749d8dbf88445aaa3cb0fdebd60
-SHA512: e5711f91d6aa6f748f1535009cc3f40bea2f901f282aeea8e0085a962d9d01e69e4ba6758ccfd9c1a32166c6f7a529dd831ead2892de190e1df37c1be2a63f7c
-Section: QQ
-Description: 控制中心美化
-Name: 控制中心美化
-Author: Fiore & p2kdev & SINI
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.yourepo.axs.wxkeyboarduihook
-Architecture: iphoneos-arm64e
-Version: 1.8
-Maintainer: Doki <qiaozhani000@163.com>
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/微信输入法自定义_1.8_iphoneos-arm64e.deb
-Size: 82592
-MD5sum: 2781240f9f739938b7d9347154313471
-SHA1: c1e63786c987d0d11ff79c8aac22ae48ff467360
-SHA256: df04f4853438a05a469dc237216ee38bd7055582592d37b6a2db5e6e564c4f6a
-SHA512: b053f73156aa86374c47b67e406f9dac806d14bec099b82cec278c81a66ecb202629fdad91750b2a3ebe617ef7f582f89b875179684d57df63849e5babc0070e
-Section: 微信1
-Description: 微信输入法自定义颜色圆角之类
-Name: 微信输入法自定义
-Author: Doki <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/wechat.png
-
-Package: cn.llld.xds
-Architecture: iphoneos-arm64e
-Version: 1.6.11
-Maintainer: 来了老弟
-Installed-Size: 20408
-Depends: firmware (>= 14.0)
-Filename: debs/xds_1.6.11_-arm64e.deb
-Size: 6563112
-MD5sum: 4a594fee9e5ad64d9a9388d813d03443
-SHA1: a5c3d50cedd55ade0cf6011b3c5aaad78bf75302
-SHA256: 8c0da9f36c5b5977bbc6be1f9eef744c14c3841a9a6e566244f69780877021fc
-SHA512: 709fbffd39c25edf7e05dd128b518f5ab6b412e152246038f0d41e3298a70e1602fee54646b5a39bb8e57da126e1768d2d95335bd7735ade67bca2a4c05749df
-Section: 插件
-Description: XDS单双列可切换文件管理器（rootless 脱沙盒 + 受控 Root helper）
-Tag: purpose::uikit, compatible::ios14
-Name: xds文件管理器
-Author: 来了老弟
-
-Package: byg.iosios.net.autofillfix
-Architecture: iphoneos-arm64e
-Version: 0.1
-Maintainer: 搬运工
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate
-Filename: debs/Auto短信验证码自动填充-Rootless_0.1_iphoneos-arm64e.deb
-Size: 4300
-MD5sum: 85ef05c586648042a7e0d74dabd1ffa6
-SHA1: be497b8d395cb7e7ad6f3e58611b5119bec96aed
-SHA256: 38d8653521c912e1fd6932139c3556768a2918b2696fe3ffdc27688d0e27d267
-SHA512: cc36941b9fcc48122972782f7f312d2714810f14de9626c11160e0e585774a3ec8659682c5ee66a00f6221f8206a697cfe155b141c9d4e8ac8cea6f5a05ea3c4
-Section: 插件
-Description: 短信验证码自动填充
-Name: 短信验证码自动填充
-Author: P2KDev
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: byg.iosios.net.ccborder.new
 Architecture: iphoneos-arm64e
@@ -446,6 +255,25 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
+Package: com.axs.ipslog
+Architecture: iphoneos-arm64e
+Version: 5.2.0-30
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 496
+Depends: preferenceloader
+Filename: debs/IPSLog_5.2.0-30_iphoneos-arm64e.deb
+Size: 84356
+MD5sum: 1838d52b826554d19eebedb587bea1f9
+SHA1: b6775a164ea59ed4b3efa803efe5c4c117121483
+SHA256: eaea029a0d9799b456ab959845ba561e4a904dd014fe82db38ccc674ef17b258
+SHA512: 2668a0dc820774e6954369fa37219bee0d622f7522b2f9126b720d667193b2a47cc2a177acb7ef4b21c130f714f16a1fd5c52f082afa2a50474f816797e90e72
+Section: 插件
+Description: 系统崩溃日志分析，带分类，带自动解析
+Name: 崩溃日志分析
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ips.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
+
 Package: com.cydiabc.fontmanager-roothide
 Architecture: iphoneos-arm64e
 Version: 0.3.8
@@ -551,6 +379,43 @@ Author: Joshua Seltzer
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.axs.snapper4
+Architecture: iphoneos-arm64e
+Version: 5.2.0-45
+Maintainer: Axs <qiaozhini000@163.com>
+Installed-Size: 1620
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot, com.axs.snapper3tag, com.iosdump.shellx
+Filename: debs/Snapper_4_5.2.0-45_iphoneos-arm64e.deb
+Size: 238036
+MD5sum: 57333167e48099d11b842a282a8586db
+SHA1: fdea3999bc44897209d767a1b0fe5d436593d2b9
+SHA256: 9f652d37fe48bc604fc849ed2eb9ab46a5fe9ba12f6df42488bf172018dea98c
+SHA512: 98ba80a9ae5fea53a34a7977d171de636cafd737706c546453146b2e5c581f2c92fd2f4a4aae9836c7d3f3dda85c387cee09c2f844a0095e664f99cff68e93fa
+Section: 插件
+Description: 这是一款截图工具。
+ * 一、基本设置
+ * 1、移动标记：开启后标注内容可拖动调整位置；
+ * 2、功能开关与排序：设置面板内可开关并拖拽排序全部功能。
+ * 二、触发方式
+ * 1、音量增+电源键=：可选系统截图或插件截图；
+ * 2、长按音量减→插件截图：开启后长按音量减约 0.2 秒调出冻结模式。
+ * 三、截图设置
+ * 1、截图仅复制：截图后仅复制到剪贴板；
+ * 2、长截图方式：滚动拼接 / 一镜到底，智能帧匹配自动拼接；
+ * 四、AI 服务（识别与翻译）
+ * 1、Sileo：Sileo 描述页长按翻译纯文本，翻译方式可选百度翻译或 AI 翻译；
+ * 2、AI 互译与问答：中英文互译与中文问答，支持自定义提示词与 AI 对话模式，半屏浮层展示；
+ * 3、文字识别 (OCR)：模型识别截图文字，半屏浮层展示、涂抹选择、一键复制；
+ * 4、百度翻译：自动检测语言双向翻译（中文↔外语），支持图片翻译 / 文本翻译双通道。
+ * 五、扩展功能
+ * 1、截图标记：颜色/箭头/自由画线/文字/矩形/圆形/高亮/马赛克/撤回/删除/保存/复制；
+ * 2、URL 触发：支持手势插件通过 prefs:root=snapper4_freeze（冻结）/ prefs:root=snapper4_long（长截图）系统深链触发。
+Name: Snapper4
+Author: Axs <qiaozhini000@163.com>
+Icon: https://axs66.github.io/pro/icon/snapper.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
+
 Package: xyz.cypwn.sneakycam
 Architecture: iphoneos-arm64e
 Version: 2.2.2
@@ -643,6 +508,29 @@ Description: URL管家（RootHide 版）— 统一接管本机 URL Scheme（隐�
 Tag: purpose::uikit, compatible::ios14
 Name: URL管家-隐根
 Author: 来了老弟
+
+Package: com.axs.zzfilter
+Architecture: iphoneos-arm64e
+Version: 5.2.0-8
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 372
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/ZZFilter_5.2.0-8_iphoneos-arm64e.deb
+Size: 65084
+MD5sum: a7afe275fabcfc9fb163a92725f61587
+SHA1: e8cbdc43ff5c9209d37dc179481d2f271001c829
+SHA256: e978489ecec1a60bb6c2f3b83ceccb971ccccde36e3240bbdd0a11c736bc6fd9
+SHA512: b4a37bccf66d3247ebdae224cadbd7e76d721db86d64c5ae28c599895a5bd695fa0de61e7f73faf3ed5ec66513799575dca0d24f70e15be1457a1a292176ae7e
+Section: 插件
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+Name: 转转筛选
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/zzfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
 Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
@@ -740,6 +628,24 @@ Description: safari去广告(缩水精简版)，(注入个别应用可以，但�
 Name: safari-Ads
 Author: laileld 来了老弟
 
+Package: cn.llld.xds
+Architecture: iphoneos-arm64e
+Version: 1.6.11
+Maintainer: 来了老弟
+Installed-Size: 20408
+Depends: firmware (>= 14.0)
+Filename: debs/xds_1.6.11_-arm64e.deb
+Size: 6563112
+MD5sum: 4a594fee9e5ad64d9a9388d813d03443
+SHA1: a5c3d50cedd55ade0cf6011b3c5aaad78bf75302
+SHA256: 8c0da9f36c5b5977bbc6be1f9eef744c14c3841a9a6e566244f69780877021fc
+SHA512: 709fbffd39c25edf7e05dd128b518f5ab6b412e152246038f0d41e3298a70e1602fee54646b5a39bb8e57da126e1768d2d95335bd7735ade67bca2a4c05749df
+Section: 插件
+Description: XDS单双列可切换文件管理器（rootless 脱沙盒 + 受控 Root helper）
+Tag: purpose::uikit, compatible::ios14
+Name: xds文件管理器
+Author: 来了老弟
+
 Package: byg.iosios.net.camera.rootless
 Architecture: iphoneos-arm64e
 Version: 0.1-2
@@ -830,6 +736,24 @@ Name: 彩虹键盘
 Author: MoWang
 Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+
+Package: com.yourepo.axs.wxkeyboarduihook
+Architecture: iphoneos-arm64e
+Version: 1.8
+Maintainer: Doki <qiaozhani000@163.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/微信输入法自定义_1.8_iphoneos-arm64e.deb
+Size: 82592
+MD5sum: 2781240f9f739938b7d9347154313471
+SHA1: c1e63786c987d0d11ff79c8aac22ae48ff467360
+SHA256: df04f4853438a05a469dc237216ee38bd7055582592d37b6a2db5e6e564c4f6a
+SHA512: b053f73156aa86374c47b67e406f9dac806d14bec099b82cec278c81a66ecb202629fdad91750b2a3ebe617ef7f582f89b875179684d57df63849e5babc0070e
+Section: 插件
+Description: 微信输入法自定义颜色圆角之类
+Name: 微信输入法自定义
+Author: Doki <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/wechat.png
 
 Package: com.axs.screenrecording
 Architecture: iphoneos-arm64
@@ -943,4 +867,3 @@ Author: roothide
 Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
 Depiction: https://github.com/roothide/RootHidePatcher
 Support: https://github.com/roothide/RootHidePatcher
-
