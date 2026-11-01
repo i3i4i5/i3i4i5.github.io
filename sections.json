@@ -6,14 +6,20 @@
       "pkgs": []
     },
     {
-      "name": "自用",
+      "name": "自用的",
       "orig": "",
       "pkgs": [
         "com.axs.ahsfilter",
-        "com.axs.axon",
-        "byg.iosios.net.ccborder.new",
+        "com.axs.axon"
+      ]
+    },
+    {
+      "name": "微信",
+      "orig": "",
+      "pkgs": [
         "com.dao.ccless",
-        "com.opa334.choicys"
+        "com.opa334.choicys",
+        "com.axs.appselect"
       ]
     }
   ]
