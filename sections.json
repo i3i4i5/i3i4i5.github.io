@@ -31,7 +31,9 @@
     {
       "name": "哦哦",
       "orig": "",
-      "pkgs": []
+      "pkgs": [
+        "com.dao.filzacrack"
+      ]
     },
     {
       "name": "你爱的",
