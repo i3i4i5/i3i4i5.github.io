@@ -1205,6 +1205,23 @@ Description: This tweak makes ControlCenter cool! Compatible with iOS 15/roothid
 Name: CoolCC Reborn-roothide
 Author: alias20
 
+Package: cn.llld.copy1
+Architecture: iphoneos-arm
+Version: 1.4.4
+Maintainer: 来了老弟
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.copy1_1.4.4_iphoneos-arm.deb
+Size: 8900
+MD5sum: e61292add733451332bd0b66c4a94de7
+SHA1: 19f303cbb0591f960746c703c25b3d57c57f2f5c
+SHA256: acbdb0853c630813b5407c2cfd4e51267c16ba795d075f28151bc95300bec158
+SHA512: eb30c37f54f358ec5fd9aaee1bcc96db3f23d74ce40f43cced104b9d0ab479f2fc62f25d56c0f3927f89ecfd7c4e484f103d51fb358a1545b4795a855d4bc1f4
+Section: 插件
+Description: Short-click to copy the text content.***使用方法：短按复制文本内容***，现处于测试阶段等后续更新支持更多,支持应用就不一一列举了，设置，电话，短信，appstore，QQ，贴吧，trollstore等,此版本不支持roothide
+Name: Copy-text-rootful
+Author: 来了老弟 h_h_x_t
+
 Package: cn.llld.customizeccrootful
 Architecture: iphoneos-arm
 Version: 1.21
