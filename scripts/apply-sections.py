@@ -54,6 +54,9 @@ for b in blocks:
 members={}   # 分类名 -> [包名]
 claimed=set()
 SEC_NAMES=set(s['name'] for s in sections)
+# 分类唯一：一个包只能属于一个分类。按分类顺序，先认领的分类独占，
+# 后面的分类即使勾选了同一包也拿不到（前端编辑界面也会把已归属的包置灰）
+_taken=set()
 for s in sections:
     st=set()
     for x in s['pkgs']:
@@ -64,7 +67,9 @@ for s in sections:
             if p['sec']==s['orig']: st.add(p['pkg'])
     for x in s['pkgs']:
         if x.startswith('-'): st.discard(x[1:])
+    st -= _taken                      # 已被前面分类独占的包，本分类不能再拿
     members[s['name']]=members.get(s['name'],set())|st
+    _taken |= st
     claimed|=st
 rest=set(p['pkg'] for p in pkgs)-claimed
 # 兜底分类自愈（这一段之前只写在 sections 循环里，但「插件」在循环前就被滤掉了，永远跑不到）：
