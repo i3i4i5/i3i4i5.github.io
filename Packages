@@ -1273,6 +1273,91 @@ Name: 自定义电话图片-rootless
 Author: 来了老弟 h_h_x_t
 SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.dyy/dyy-rootless.json
 
+Package: cn.llld.errorfilter
+Architecture: iphoneos-arm
+Version: 1.0.1
+Maintainer: 来了老弟
+Installed-Size: 952
+Depends: mobilesubstrate
+Filename: debs/cn.llld.errorfilter_1.0.1_iphoneos-arm.deb
+Size: 612916
+MD5sum: e79d7d2c99238c86ae4db0a2b30bda4c
+SHA1: ec38945c3595bd9e6240f4099754971600048fbe
+SHA256: 4b206cd31a66fc5b08c8a45471f0e64b5625e7f8ba2e04baf447d92de741b2f5
+SHA512: e3460408b780d1940ed1416704bcb8fe3de7331e97b2bff59bec1cf5522717ae9c4d07c94ea9f4e5cde78597f13b6555f49952be6a28fd5469781a6195204b3a
+Section: 插件
+Description: tweak exception error crash log filter, settings to see instructions，插件异常错误崩溃日志过滤器，在设置看说明。
+Name: 插件异常崩溃日志过滤XD
+Author: 来了老弟
+Icon: file:///Library/PreferenceBundles/errorllldprefs.bundle/icons-llld/Errorfilter.png
+
+Package: cn.llld.fivecolumnscc
+Architecture: iphoneos-arm64
+Version: 1.0~beta4
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate
+Filename: debs/cn.llld.fivecolumnscc_1.0_beta4_iphoneos-arm64.deb
+Size: 5320
+MD5sum: 19116d0a1dbf60f79e04a261aef51efd
+SHA1: 83d77e7b8177202b035a7d3a1b5c1999eb5511d7
+SHA256: 32e1fa8c90010ec88172169a1bad2bd01dbe79d00c8f5e2f2c436b2c80ca0387
+SHA512: f28f1a70809ed4447c33e82747a15ba38e6059fc7c74c0bf50a040339258bf4a0b1e1f854e1774c10b0f4e85550953fb6cab777d16eb6eff9ab554cafbbfdbb7
+Section: 插件
+Description: Five rows of settings arranged in the control center。控制中心排列五行设定。
+Name: FiveColumnsCC控制中心增强
+Author: 4nni3 <4nni3.14@gmail.com>
+
+Package: cn.llld.fivehome
+Architecture: iphoneos-arm64e
+Version: 0.1
+Maintainer: 来了老弟
+Depends: mobilesubstrate
+Conflicts: gsc.ipad
+Filename: debs/cn.llld.fivehome_0.1_iphoneos-arm64e.deb
+Size: 3840
+MD5sum: 1ee3b008cb500080133ad5b9146396a1
+SHA1: 6faecddc02097909dcc24ec8639b38f0327c44bd
+SHA256: 25a179a1067ea0ee3042eb58446b8e41ed8c97268ed3a5b35801e7f74fc94f2b
+SHA512: 717fee5c96a6c2f15f9f126aa9de590d0b4bddc909ee1b5368d3534f4a2e1e2071b32c2e9465fe2e9b227ffde1a998d86eab47696926420cdd7e163f5e69355b
+Section: 插件
+Description: The arrangement of icons on the home screen has been changed to five in one column, and there is a bug in the negative one screen主屏幕图标排列更改为五个一列，负一屏有bug_________仅测试用,有问题卸载---roothide
+Name: FiveColumnHomeScreen主屏幕五图标-roothide
+Author: ichitaso 来了老弟
+
+Package: cn.llld.fixdh1
+Architecture: iphoneos-arm
+Version: 0.0.1
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.fixdh1_0.0.1_iphoneos-arm.deb
+Size: 4010
+MD5sum: 198b10070f283efcf1b0d2b3c159f9a2
+SHA1: 4ef7fa37a4db5cdab67a9948bf7f1388db5a6590
+SHA256: 0761e849e688609e76058ffaa7904eba10c3740a09f823f304f370a1b1d1178d
+SHA512: b900fc88df75b81741628823bacfba6dfc124bf7928f5fe031933a700b7677c2321fffe4f0f6041211f6d05909e9af4998955fda58ba73370286da42974817f2
+Section: 插件
+Description: 解决更改很大分辨率后键盘缩小和移位的问题（适用于分辨率高度2800-3050）
+Name: phonefix
+Author: 来了老弟
+
+Package: cn.llld.fixdh
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.fixdh_0.0.2_iphoneos-arm64.deb
+Size: 4174
+MD5sum: 7c775b2d0d73ae283fbf1340ebf303ba
+SHA1: f939623420d38e2ec39b180f3a402c910792d9bf
+SHA256: c3fbcf3ac9712689d901cfc1327e6ab06d1fef1d9e03e80e2249626a4058c2c2
+SHA512: c093d1c7cd8c87631b393b1827ec932acaed0fda1720b685fa10b90570a8cc7aa4dc36a5a46b9b8350a8272b4d8f1ecc68b0077969f9c131873c8192935a83c8
+Section: 插件
+Description: Solve the problem of phone keyboard shrinking and shifting after changing a large resolution.解决更改很大分辨率后电话键盘缩小和移位的问题。（适用于分辨率高度3050-3350）
+Name: phonefix-rootless
+Author: 来了老弟 h_h_x_t
+
 Package: cn.llld.hidejb
 Architecture: iphoneos-arm64e
 Version: 1.0
