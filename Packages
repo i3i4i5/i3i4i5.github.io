@@ -1636,6 +1636,24 @@ Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wechatyouhua
+Architecture: iphoneos-arm64
+Version: 2.0-3
+Maintainer: 搬运工
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/byg.iosios.net.wechatyouhua_2.0-3_iphoneos-arm64.deb
+Size: 13041012
+MD5sum: 6aa3d63370508d8cb682f80e762bf2b1
+SHA1: aff2ec2e506e9d4217d40cf4e3bc0b773ac484ce
+SHA256: c6cea6ab8240f9c1f157cfdd8cb905ee8d3f2a18fdee43815a9e06af3de70b31
+SHA512: 6c89a512a79e781ff1f9b48bfd99f99d0cda7d7f48d8e3b607a35affc6e55596ccc21f437f136b14c9d33d857b1b8f2b0962d79b461ee2ecea0ab5a93dd2fdef
+Section: 插件
+Description: 微信优化，基于茶愫1.1-9开源版优化，此版本由热心网友与Xuegao维护。可以伪装已送达和已读！其它的功能都差不多，自行体验！
+Name: 微信优化
+Author: 热心网友
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.xhshook
 Architecture: iphoneos-arm64
 Version: 2.0.7
