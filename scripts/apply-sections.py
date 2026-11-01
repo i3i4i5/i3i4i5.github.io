@@ -5,18 +5,20 @@ import sys,json
 #   1) pkgs 里点名的包进本分类（可以同时属于多个分类）
 #   2) orig 不为空时，原本属于该分类的包自动进本分类，"-包名" 表示踢出去
 #   3) 没有任何分类收走的包，统一进 other
-OTHER='其它'
-# 商店（Sileo/Zebra）按 Section 名的 Unicode 顺序排分类，「其」U+5176 会夹在「微信」「陌陌」中间。
-# 给兜底分类加一个全角波浪线前缀 U+FF5E，保证它在店里永远排最后，界面上仍然显示「其它」。
-OTHER_OUT='～'+OTHER
+OTHER='插件'
+# 兜底分类：没被任何分类收走的包统一放这里，默认不可删除、不在分类列表显示
+OTHER_OUT=OTHER
 try: cfg=json.load(open('sections.json',encoding='utf-8'))
 except Exception: cfg={}
 # 兼容老格式 {"keep":[...]}：当成「只保留这几个原分类」
 raw=cfg.get('sections')
 if raw is None:
     raw=[{'name':k,'orig':k,'pkgs':[]} for k in (cfg.get('keep') or [])]
-OTHER=(cfg.get('other') or OTHER).strip() or OTHER
-OTHER_OUT='～'+OTHER   # cfg 可能改过兜底名，这里重新拼前缀
+# 兜底分类名固定为「插件」：不再读老配置里的 "other" 字段，
+# 之前正是这个字段让「～其它」一路传下来。
+_oc=(cfg.get('other') or '').strip()
+if _oc and _oc!=OTHER: print('提示：忽略旧配置里的 other=%r，兜底分类固定为「%s」' % (_oc, OTHER))
+OTHER_OUT=OTHER
 if not raw:
     print('sections.json 没有分类配置，跳过'); sys.exit(0)
 sections=[]
@@ -29,8 +31,8 @@ for s in raw:
     })
 if not sections:
     print('分类配置为空，跳过'); sys.exit(0)
-# 用户自己建的「其它」不丢弃：它的勾选并入兜底集合，最终仍然只有一个「其它」
-user_other=next((s for s in sections if s['name']==OTHER), None)
+# 已废弃的「其它」兜底分类：配置里若还残留就丢掉，不再参与分组
+o_sections=[s for s in sections if s['name']!=OTHER]   # 真实分类（不含兜底）
 sections=[s for s in sections if s['name']!=OTHER]
 
 txt=open('Packages',encoding='utf-8').read()
@@ -51,6 +53,7 @@ for b in blocks:
 # 计算每个分类收哪些包
 members={}   # 分类名 -> [包名]
 claimed=set()
+SEC_NAMES=set(s['name'] for s in sections)
 for s in sections:
     st=set()
     for x in s['pkgs']:
@@ -64,10 +67,16 @@ for s in sections:
     members[s['name']]=members.get(s['name'],set())|st
     claimed|=st
 rest=set(p['pkg'] for p in pkgs)-claimed
-# 用户自己建的「其它」分类：里面手动勾选的包也归兜底，最终只显示一个「其它」
-if user_other:
-    for x in (user_other.get('pkgs') or []):
-        if isinstance(x,str) and x and not x.startswith('-'): rest.add(x)
+# 兜底分类自愈（这一段之前只写在 sections 循环里，但「插件」在循环前就被滤掉了，永远跑不到）：
+# 把落在"无效分区"里的包认领给兜底分类。无效分区 = 既不是任何分类的显示名，
+# 也不是任何分类的 orig，典型就是历史遗留的「～其它」/「其它」。
+# 没有这一段，一旦线上被写成「～其它」，兜底分类永远认领不到，全源会卡死。
+_sec_names=set(s['name'] for s in sections)|set([OTHER])
+_orig_names=set(s['orig'] for s in sections if s['orig'])
+for p in pkgs:
+    sec=p['sec']
+    if not sec or sec in _sec_names or sec in _orig_names: continue
+    rest.add(p['pkg'])
 
 # 输出：包按分类顺序展开，同一包属于多个分类就出现多条
 out=[]; multi=0
@@ -94,12 +103,24 @@ for name in [p['pkg'] for p in pkgs if p['pkg'] in rest]:
     at=len(lines)
     for i,l in enumerate(lines):
         if l.startswith('Description:'): at=i; break
+    # 没被任何分类收走的包统一进「插件」（默认兜底分类）
     lines.insert(at,'Section: '+OTHER_OUT)
     out.append(NL.join(lines)); multi+=1
 
+total=len(set(p['pkg'] for p in pkgs))
+# 硬规则：结果里只允许出现配置内的分类名，「～其它」这类历史遗留分区一律不许写出去。
+# 兜底分类已经接管了所有认领不到的包，所以正常情况 rest 会兜住全部。
+# 唯一的中止条件：配置里的分类全都认领不到，而且兜底也一个包都收不到——那说明配置本身烂了。
+dead=[s['name'] for s in o_sections if not (members.get(s['name']) or set())]
+if total>0 and not rest and not claimed:
+    print('已中止：所有插件都无法归入任何分类，配置可能有误。Packages 未改动。')
+    sys.exit(0)
+if dead:
+    print('提示：分类 %s 暂时没有认领到插件（原分区已不存在），其插件已归入「%s」。'
+          % ('、'.join(dead), OTHER_OUT))
 open('Packages','w',encoding='utf-8').write(SEP.join(out)+NL)
 names=', '.join(s['name'] for s in sections)
 # 统计一律按「插件」算，不按分类记录算：一个插件跨 3 个分类也只算 1 个
 uniq=len(set(p['pkg'] for p in pkgs))
-print('分类完成：%d 个插件（%d 个进「其它」）；分类 %d 个: %s'
+print('分类完成：%d 个插件（%d 个进「插件」）；分类 %d 个: %s'
       % (uniq, len(rest), len(sections), names))
