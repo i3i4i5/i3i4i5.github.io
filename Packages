@@ -1613,6 +1613,25 @@ Author: Curtin
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.qqhook
+Architecture: iphoneos-arm64
+Version: 1.3
+Maintainer: 搬运工
+Installed-Size: 1032
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.qqhook_1.3_iphoneos-arm64.deb
+Size: 1503482
+MD5sum: cce786813adedcac0677b418f03ef61c
+SHA1: 2067e6b05e7ea3f635c8566f57ab5a33a286b97d
+SHA256: 3cc337d6b7a4960ffe87136883e19a3a30a2eaaa775405cad8bc5828db71c86b
+SHA512: 28e3cc06ae9b31d3800d25aeacd895a22c028972c1b16c928a87068c75a85eb331c41c76fbc24f9a85533ee12c8b9c81f678ce98fc245c58ecb92dc9d9c1e242
+Section: 插件
+Description: QQ图层插件，非常的好用。仔细看-插件设置项在QQ设置-辅助功能-右上角开启！移除广告，移除侧滑直播，移除超级QQ秀，移除QQ钱包，移除个性装扮，防撤回，应该是无撤回提示，仅支持9.0.20及以上版本 Tim4.0.95以上版本|| 开启了模拟机型iPhone 15 Pro Max。旧版本QQ请使用QQ净化插件，但是QQ版本要在8.9.58以下，新版QQ请使用本插件！非常的好用！
+Name: QQ图层-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.qqnotiavatar
 Architecture: iphoneos-arm64
 Version: 1.2-3
