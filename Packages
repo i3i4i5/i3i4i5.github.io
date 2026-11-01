@@ -1462,6 +1462,25 @@ Author: 82Flex
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.snapshottool
+Architecture: iphoneos-arm64
+Version: 4.2-5+debug
+Maintainer: 搬运工
+Installed-Size: 2640
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.snapshottool_4.2-5_debug_iphoneos-arm64.deb
+Size: 1671078
+MD5sum: e3919d9525c18f40b057ee29b3250016
+SHA1: 8961dc8909e51e428c8415d9c4d55dba4d890e67
+SHA256: b906f30beb0eea57f7332d1e2aa182f9e7de98a70d69a8b8a40e8cbb163f0802
+SHA512: 453b89f6962a83a9d68cadb36b84ebaa73fa2af2a8dcba76e9c6078f8b27162111a03b759dab6c764fce58d9a2a2ce75983bf1936c4065e727291bc7a8ebafdb
+Section: 插件
+Description: 来了老弟新作，欢迎回归！功能：---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)搬运工源更新最快，永久免费！
+Name: STTool图片工具
+Author: 来了老弟
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.spectrums
 Architecture: iphoneos-arm64
 Version: 3.0.9
@@ -1556,6 +1575,25 @@ SHA512: 53cc03aee28193383105cf688336d04347a2bd7e398255046b7480140b29eac55fba0bc8
 Section: 插件
 Description: vivo OriginOS 风格的陀螺仪「翻转卡片」锁屏壁纸 —— 倾斜手机时，可在自己的照片之间进行交叉淡入淡出切换，并带有视差景深效果。
 Name: VivoStyle翻转卡片
+Author: 34306
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.watched
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/byg.iosios.net.watched_2.0_iphoneos-arm64.deb
+Size: 9742
+MD5sum: 83fcf261f70c4d94f9405308f994c3cd
+SHA1: 689a482e0e8d49510fc2bdb48496c46eaaaae832
+SHA256: 5f0672ae0b771dc279efe19f6287d282b55771c606a60396b252219a2439453c
+SHA512: 2f465cd97f2a2abc9f60cff92bbaad96034ad1e6cd74d86f5b3526985b09986671abfb9e8077b56b14dded1b28d73ff0e809265afd2d12563f796df187fdc33e
+Section: 插件
+Description: Paired your Apple Watch on new watchOS with older iOS另一款手表配对插件，不行就用这个！无需升级系统，低版本系统设备也可以配对高版本系统的手表。如果不行就换源里的另一款！
+Name: Watched手表配对
 Author: 34306
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
