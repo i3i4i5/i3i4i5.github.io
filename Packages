@@ -1925,6 +1925,40 @@ Name: 芭比QQ精简版-rootless
 Author: 来了老弟 X：h_h_x_t
 Icon: file:///var/jb/Library/PreferenceBundles/qqdsqprefs.bundle/icons-llld/tubiao1.png
 
+Package: cn.llld.reddit
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.reddit_0.0.2_iphoneos-arm64.deb
+Size: 11036
+MD5sum: fe0ba010fe816f43f6ed34f635bcac79
+SHA1: baf90933963617733d29d0f984da4f06284d8acb
+SHA256: 515eef70efcb5c3488e709f14037508eaa7e0264fe881c1cca68eefe1c40f104
+SHA512: 0bf0360da18d731cd2c997448825bf9937a2ca314853f3019b811d2d0fc7c72e73623b657a6dfc9272d313ffd68b29610d72350085354c7b4632e9138c56bfc6
+Section: 插件
+Description: Reddit界面、设置、功能汉化(rootless)简体中文包
+Name: Reddit汉化-rootless
+Author: 来了老弟
+
+Package: cn.llld.roundedcc
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: 来了老弟
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: debs/cn.llld.roundedcc_1.0.3_iphoneos-arm64.deb
+Size: 5680
+MD5sum: 104539d9fe3ee57aae6c02d76fac8bf3
+SHA1: 16a9804f87f8d5f120839aec856228ccbebb569e
+SHA256: a9433d1747d03e72767dd3ab2d13c341e46e1ef43dc0668249ad43f1e101fb3c
+SHA512: d280c9f4d09d6a47aa31311f6a9504cb7e548d43af331d77f6bb77bd53728e035f3dc45142620fbd71155553cc6573d9ebf563584d8e6ce5f608697a6cc38745
+Section: 插件
+Description: The buttons and sliders of the control center are rounded。控制中心的按钮和滑块圆角化_________仅测试，有问题请卸载
+Name: RoundedCC控制中心圆角化-rootless
+Author: neoney 来了老弟
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
