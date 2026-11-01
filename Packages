@@ -761,6 +761,25 @@ Author: MustangYM
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.adkeyboard
+Architecture: iphoneos-arm64
+Version: 1.4
+Maintainer: 搬运工
+Installed-Size: 812
+Depends: mobilesubstrate,preferenceloader
+Filename: debs/byg.iosios.net.adkeyboard_1.4_iphoneos-arm64.deb
+Size: 427442
+MD5sum: 11422c0aec8307093bfabda8064f3860
+SHA1: 565878bca13d7738f936d49cf32b253a3f7b3b91
+SHA256: 22acbfbfeac996e3a89221c9e2fc4ac71700dec2174a41665967fb7163221f3f
+SHA512: aa7fe8a2b8d0391a359d7873aa2cb72d8c6ad03111120bea197f322a6e8ce0536485abd97f0733e28ac8e933d3ba1b9f126e08a2f80893700b18dfce757246f6
+Section: 插件
+Description: Make keyboard color adaptive to app color.键盘颜色根据APP颜色自行调整，个人觉得，呃呃呃 不好看 哈哈哈哈。搬运工源，万古长青！
+Name: 键盘颜色自适应
+Author: Dcsyhi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.appdata-rootless
 Architecture: iphoneos-arm64
 Version: 2.7.5
