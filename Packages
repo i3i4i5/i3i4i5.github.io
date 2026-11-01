@@ -973,6 +973,25 @@ Author: MoWang
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.shellx
+Architecture: iphoneos-arm64
+Version: 11.3
+Maintainer: 搬运工
+Installed-Size: 11532
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/byg.iosios.net.shellx_11.3_iphoneos-arm64.deb
+Size: 4277320
+MD5sum: 8ed9e25eba55cf12787efee56230f55b
+SHA1: 82692242ce4e8473b390f776f9f79bec814df4c3
+SHA256: 0dabe7eb2294a94a21d25628952bbc80061a16759719610219e228d8b993d7f0
+SHA512: c65c781f666ada82f33ef85268fb74eaaea1592f20b578a2a190e93fa802e21845abd57f88d4e7e04aa61e6ffaa9b98f6ff4d4b79ab45e92112425121c285d34
+Section: 插件
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱，插件介绍看截图！搬运工源永久免费，大家多多支持！初心未改！
+Name: SHELLX带壳截图/录屏
+Author: iosdump
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.shijima-ios
 Architecture: iphoneos-arm64
 Version: 1.3.3
