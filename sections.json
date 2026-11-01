@@ -4,56 +4,6 @@
       "name": "插件",
       "orig": "",
       "pkgs": []
-    },
-    {
-      "name": "我的",
-      "orig": "",
-      "pkgs": [
-        "com.axs.appselect"
-      ]
-    },
-    {
-      "name": "你的",
-      "orig": "",
-      "pkgs": [
-        "com.axs.axon",
-        "byg.iosios.net.ccborder.new"
-      ]
-    },
-    {
-      "name": "我爱的你",
-      "orig": "",
-      "pkgs": [
-        "com.dao.ccless",
-        "com.axs.ahsfilter"
-      ]
-    },
-    {
-      "name": "哦哦",
-      "orig": "",
-      "pkgs": [
-        "com.dao.filzacrack"
-      ]
-    },
-    {
-      "name": "你爱的",
-      "orig": "",
-      "pkgs": [
-        "cn.octoforce.copyvault",
-        "byg.iosios.net.denyphotoalbumsllld.rootless",
-        "cn.llld.qsyy"
-      ]
-    },
-    {
-      "name": "我们",
-      "orig": "",
-      "pkgs": [
-        "byg.iosios.net.autofillfix",
-        "com.opa334.choicys",
-        "com.yourepo.axs.fv",
-        "cn.zqbb.fix120hz",
-        "com.axs.ipslog"
-      ]
     }
   ]
 }
