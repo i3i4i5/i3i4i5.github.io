@@ -42,4 +42,14 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -B main
           git add -A
-          if git diff --cached --quiet; then echo "索引无变化，跳过"; else git commit -m "chore: rebuild repo index" && git push -f origin main; fi
+          if git diff --cached --quiet; then echo "索引无变化，跳过"; else
+            git commit -m "chore: rebuild repo index"
+            # 拉取最新 main 并 rebase，避免用旧快照覆盖别人的提交
+            for i in 1 2 3; do
+              git fetch origin main || true
+              git rebase origin/main && git push origin HEAD:main && break
+              echo "推送冲突，第 $i 次重试..."
+              git rebase --abort 2>/dev/null || true
+              sleep 3
+            done
+          fi
