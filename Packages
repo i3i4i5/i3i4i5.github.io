@@ -1282,6 +1282,26 @@ Author: opa334
 Sponsor: 搬运工源
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.vivostyle
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 456
+Depends: ellekit, preferenceloader, firmware (>= 15.0)
+Conflicts: com.vivostyle.tweak
+Filename: debs/byg.iosios.net.vivostyle_1.2_iphoneos-arm64.deb
+Size: 81874
+MD5sum: a74662160f6ba65e0dad63095c42c427
+SHA1: 6843ee35b179f4ae77901a8c9e81e5e34bec6c93
+SHA256: 1be385f15eef926c28aa360248513bbd2ab10017213fbeab281b2ef473a2d926
+SHA512: 53cc03aee28193383105cf688336d04347a2bd7e398255046b7480140b29eac55fba0bc8ae37f2e98cb2c3959a9b37efd0e3ca2e1baf7a1b7f7f76fc5e8e1a5d
+Section: 插件
+Description: vivo OriginOS 风格的陀螺仪「翻转卡片」锁屏壁纸 —— 倾斜手机时，可在自己的照片之间进行交叉淡入淡出切换，并带有视差景深效果。
+Name: VivoStyle翻转卡片
+Author: 34306
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.wbb
 Architecture: iphoneos-arm64
 Version: 1.2.4
