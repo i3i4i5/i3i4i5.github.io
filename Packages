@@ -974,6 +974,26 @@ Author: Junhong
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.fontchanges
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: 搬运工
+Installed-Size: 2016
+Depends: firmware (>= 15.0), unzip
+Conflicts: com.moxuan.fontchange
+Filename: debs/byg.iosios.net.fontchanges_1.1.1_iphoneos-arm64.deb
+Size: 1679708
+MD5sum: 158751be95d69993e5a50e4cc0e796bd
+SHA1: b0eca5a24d7f7f97d3bf36b56d9bc572ccd48dc8
+SHA256: 9ee73826de35c293fc87334f1acaaa23a8cd739603a67d803e7ac05384f6cb5a
+SHA512: ad8472cd4432f30e892444b61ea9250903512c0a798df47daa92b8ec4a8c31ab89ceb7b790ecc50c4a9e3631bcecdce9c3d4703ddc65f99ece7165bd7d82c59e
+Section: 插件
+Description: 界面与操作：点击“导入字体”，选择全局字体压缩包或自定义锁屏时钟字体。在“字体方案”中选择需要使用的组合。点击上方预览卡片，在全局字体与自定义锁屏时钟之间切换预览。点击“检查并开始执行”。FontChange 会依次完成字体替换、临时语言环境切换、全局字体缓存重建、原语言恢复和用户空间重启。如需撤销，点击右上角恢复按钮即可恢复系统原生字体。请将字体文件保存到「我的 iPhone」，不要直接从 iCloud 云盘导入。也可以从其他 App 使用系统分享菜单发送到 FontChange。功能亮点：真正的一键替换与缓存刷新：一次确认即可自动完成字体包校验、字体挂载、语言环境切换、全局字体缓存重建、原语言恢复和用户空间重启，无需手动进入设置反复切换语言。利用系统语言环境刷新全局字体缓存：不是简单覆盖文件或只清理普通缓存，而是调用 iOS 原生语言切换流程促使系统重新加载全局字体，同时由后台恢复任务保障语言设置能够自动还原。全局字体与锁屏时钟自由组合：既可以只替换全局字体或锁屏时钟，也可以为每套全局字体搭配独立的自定义锁屏时钟，所见即所得的实时预览。
+Name: FontChange字体挂载管理
+Author: moxuan1121
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.fontmanager
 Architecture: iphoneos-arm64
 Version: 0.3.7
@@ -1397,6 +1417,27 @@ Description: Helper utility to install and manage TrollStore!正常情况是先�
 Name: TrollStoreLite白巨魔安装器
 Author: opa334
 Sponsor: 搬运工源
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.velvet
+Architecture: iphoneos-arm64
+Version: 2.3
+Maintainer: 搬运工
+Installed-Size: 684
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.initwithframe.velvet
+Filename: debs/byg.iosios.net.velvet_2.3_iphoneos-arm64.deb
+Size: 183322
+MD5sum: a69b2cd4df181785cc73b3d0cd1bb3bb
+SHA1: eb67bde5b4498d6f206fe9bbaa2bfe07eaf5b599
+SHA256: 4757a689213135a392fa106910490b80926eae56410a612077a9dd749e182ef9
+SHA512: 730d612dae9d59326c158a6cdac91bc19bb4ba9db69d9219fb9cdd6fb127d0ba93aec1d59a71b675287f619f8e5c9e7482910815f416a853093f0c553574a4e6
+Section: 插件
+Description: 一款非常好看的彩色通知条幅插件，让你的通知条幅自适应颜色，非常的酷拉炫，使用了妖刀的汉化文件，同步新源码，更新支持iOS16！自带中文，设置非常简单，真的很好看的一款插件！
+Tag: compatible_min::ios15.0
+Name: Velvet 2彩色通知
+Author: NoisyFlake
+Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: byg.iosios.net.vivostyle
