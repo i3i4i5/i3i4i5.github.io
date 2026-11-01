@@ -1900,6 +1900,25 @@ Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wcpulse
+Architecture: iphoneos-arm64
+Version: 1.5-9
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.wcpulse
+Filename: debs/byg.iosios.net.wcpulse_1.5-9_iphoneos-arm64.deb
+Size: 11736782
+MD5sum: 36120ee34435cbc960c2e10497b0c6a4
+SHA1: 53804c1818e743d9d0b4385c580da0f902da2f43
+SHA256: 92ef44c01948bca2e06d5a902087e8de1131a6de862181c7507fb9ae254384f9
+SHA512: c7267f2e3b05429e7450bea3f67a6f75098f9e212d02b07bf428e46798c451a20dffbf0e9d522297901ceebaad43b5379a3f6e263573c6ed42af53d40611f37f
+Section: 插件
+Description: 微信实用小插件* 启用视频倍速手势* 启用头像时间标签* 自定义防撤回功能* 插件管理排序功能* 默认绕过多开人脸、无后台限制！搬运工源，一个源抵一万个，一个就足以！无人不知搬运工！
+Name: 微信 WCPulse
+Author: huami
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.wechatyouhua
 Architecture: iphoneos-arm64
 Version: 2.0-3
