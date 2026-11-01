@@ -42,6 +42,14 @@
       "pkgs": [
         "com.dao.ccless"
       ]
+    },
+    {
+      "name": "我们",
+      "orig": "",
+      "pkgs": [
+        "byg.iosios.net.autofillfix",
+        "com.opa334.choicys"
+      ]
     }
   ]
 }
