@@ -1817,6 +1817,41 @@ Description: Notiblock通知过滤--(rootful)简体中文包
 Name: notiblock通知过滤汉化-rootful
 Author: 来了老弟 X: h_h_x_t
 
+Package: cn.llld.pixactpro
+Architecture: iphoneos-arm
+Version: 0.0.1
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.pixactpro_0.0.1_iphoneos-arm.deb
+Size: 5296
+MD5sum: 61cb5122c4c2f23201cf56414771d3c4
+SHA1: 58cf532e2ea255c460f8541291126b803a012c1c
+SHA256: 8e33bae3a96fa2b91e1a51cb736ee73b4e867056db4bfe66acabd02bab543b66
+SHA512: 321d9645c55c85495fdf140682b8975fb65e199a523007a2b593b73dc3212bd137530d20c060a52aa8ea78a3d45d9a1aa6a1c2a2eb399702bcf243370428b0dc
+Section: 插件
+Description: Pixact专业版
+Name: Pixact-Pro
+Author: 来了老弟 X：h_h_x_t
+
+Package: cn.llld.playerbj
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 来了老弟 h_h_x_t
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.playerbj_1.0_iphoneos-arm64.deb
+Size: 3700
+MD5sum: c0169e2cb697111ae81405fd9fe720b9
+SHA1: c104d262eb73ef37767d8948016d002f3c0ccc02
+SHA256: bc218983e3a191a2ba1df2b3ff173c27616e66859a213063ef9a5ba02b56d8f5
+SHA512: 6892f83713befe3e66256cb2dc8b40252b3a245968934e4326bcab29a989e8450cacd33e13079741710a3f62defeaa8cdee3a18f60e48f8b414ca75f0f1897e7
+Section: 插件
+Description: Hide player Notification background。全透版本，隐藏播放器通知背景-rootless
+Name: 隐藏播放器通知背景-rootless
+Author: 来了老弟 h_h_x_t
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.playerbj/playerbj-rootless.json
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
