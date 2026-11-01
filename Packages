@@ -11,12 +11,94 @@ MD5sum: 9a9bba17dc14ee3fd79f780db1868dd9
 SHA1: 9edb3c1343d53d2fb120ff8b0410e9165c869721
 SHA256: 030252a386e7ee2b908492cf9e05223fcfa681d7999c663d885ccd2d64c2f907
 SHA512: a11b52c6634ce58476f53f9436d90741fc923ce8b65be49adbcfac985b200b1a5d074789ac174f954b52ac2ea99990ee09912fd4dfd220a22a5ceb9dbde8ee61
-Section: 插件
+Section: 自用
 Description: 爱回收筛选
 Name: 爱回收
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/ahsfilter.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ahsfilter/js.json
+
+Package: com.axs.axon
+Architecture: iphoneos-arm64e
+Version: 5.2.0-55
+Maintainer: Axs
+Installed-Size: 552
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: debs/Axon_5.2.0-55_iphoneos-arm64e.deb
+Size: 68232
+MD5sum: 54508825ca1fbc7d4a3c9799cde527c9
+SHA1: 1197d833ca5ba786dbd2f6b7d2039702682ca415
+SHA256: 3db5f4bed6619300f1ac2be101bae0d0d17b62666b7f3198011e309b662924fe
+SHA512: 0bde87d393c5d3b5ba6d96905bdd2873d876cc1494682e5f44af43361f1387eb68a41da0f631945efd019a4922aefad952f3203f4991b860e32f5774a033a1dd
+Section: 自用
+Description: 通知美化，按app收纳通知
+Name: 通知美化
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/axon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
+
+Package: byg.iosios.net.ccborder.new
+Architecture: iphoneos-arm64e
+Version: 1.1.2-39
+Maintainer: 搬运工
+Installed-Size: 1004
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
+Filename: debs/CCBorder控制中心美化_1.1.2-39_iphoneos-arm64e.deb
+Size: 206420
+MD5sum: 146f142ff4a5f6f5420b9c52ba5108f0
+SHA1: c5b8800d0083217aa3f5d5349d96a16a147fcf87
+SHA256: 35c537420d249d8b1b94edcecf63a13b5254f749d8dbf88445aaa3cb0fdebd60
+SHA512: e5711f91d6aa6f748f1535009cc3f40bea2f901f282aeea8e0085a962d9d01e69e4ba6758ccfd9c1a32166c6f7a529dd831ead2892de190e1df37c1be2a63f7c
+Section: 自用
+Description: 控制中心美化
+Name: 控制中心美化
+Author: Fiore & p2kdev & SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.dao.ccless
+Architecture: iphoneos-arm64e
+Version: 2.1.0.1
+Maintainer: 妖刀
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: debs/CCLess_RootHide_2.1.0.1_iphoneos-arm64e.deb
+Size: 498480
+MD5sum: ae69caae2987f8c3a34ba59f37fb97aa
+SHA1: 0c992d7b8579c291346d6a437cfdd43a79fb040c
+SHA256: 3359cd5d3ac5a377071e7e04e9e19c9a079c147319332fd2511f9dc52639a829
+SHA512: 4c8f2dc4282079049d8c310fe1deabe755bfcfec3dc77f133be00d4bc83f8938058a71b9c942b677e58a1555cb45dc6e7f161c85ec37067737addf671bba16ad
+Section: 自用
+Description: 为控制中心增加各种功能，强烈推荐
+Name: 控制中心增强
+Author: 妖刀
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
+
+Package: com.opa334.choicys
+Architecture: iphoneos-arm64e
+Version: 1.5.2-2
+Maintainer: opa334
+Installed-Size: 888
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy
+Filename: debs/Choicy_禁止注入_1.5.2-2_iphoneos-arm64e.deb
+Size: 164204
+MD5sum: d2b814d3719d0258b14d10a2a2bd2066
+SHA1: 12315ccbbcbe5d7a75fa29799b040451a22cfd32
+SHA256: 46efdf4f25532e09be1c9959140e0d34f9997cd4f48ac18d0728ca96f9d50fa4
+SHA512: 5a8600477dce5c2e1eadf8307617f8d4951d9d0ed67c863c2d23a2a2fd357880454823abdef4a0733aa1a0281ee629ef4298a832fae9706cf049a9f8e43dfbed
+Section: 自用
+Description: 越狱必备
+Name: 禁止注入
+Author: opa334
+icon: https://TrollStoreX.Github.io/sileodepiction/Choicy/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Choicy/js.json
 
 Package: com.axs.appselect
 Architecture: iphoneos-arm64e
@@ -56,88 +138,6 @@ Name: 短信验证码自动填充
 Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.axs.axon
-Architecture: iphoneos-arm64e
-Version: 5.2.0-55
-Maintainer: Axs
-Installed-Size: 552
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
-Filename: debs/Axon_5.2.0-55_iphoneos-arm64e.deb
-Size: 68232
-MD5sum: 54508825ca1fbc7d4a3c9799cde527c9
-SHA1: 1197d833ca5ba786dbd2f6b7d2039702682ca415
-SHA256: 3db5f4bed6619300f1ac2be101bae0d0d17b62666b7f3198011e309b662924fe
-SHA512: 0bde87d393c5d3b5ba6d96905bdd2873d876cc1494682e5f44af43361f1387eb68a41da0f631945efd019a4922aefad952f3203f4991b860e32f5774a033a1dd
-Section: 插件
-Description: 通知美化，按app收纳通知
-Name: 通知美化
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/axon.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
-
-Package: byg.iosios.net.ccborder.new
-Architecture: iphoneos-arm64e
-Version: 1.1.2-39
-Maintainer: 搬运工
-Installed-Size: 1004
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, firmware (>= 16.0)
-Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
-Filename: debs/CCBorder控制中心美化_1.1.2-39_iphoneos-arm64e.deb
-Size: 206420
-MD5sum: 146f142ff4a5f6f5420b9c52ba5108f0
-SHA1: c5b8800d0083217aa3f5d5349d96a16a147fcf87
-SHA256: 35c537420d249d8b1b94edcecf63a13b5254f749d8dbf88445aaa3cb0fdebd60
-SHA512: e5711f91d6aa6f748f1535009cc3f40bea2f901f282aeea8e0085a962d9d01e69e4ba6758ccfd9c1a32166c6f7a529dd831ead2892de190e1df37c1be2a63f7c
-Section: 插件
-Description: 控制中心美化
-Name: 控制中心美化
-Author: Fiore & p2kdev & SINI
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.dao.ccless
-Architecture: iphoneos-arm64e
-Version: 2.1.0.1
-Maintainer: 妖刀
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
-Filename: debs/CCLess_RootHide_2.1.0.1_iphoneos-arm64e.deb
-Size: 498480
-MD5sum: ae69caae2987f8c3a34ba59f37fb97aa
-SHA1: 0c992d7b8579c291346d6a437cfdd43a79fb040c
-SHA256: 3359cd5d3ac5a377071e7e04e9e19c9a079c147319332fd2511f9dc52639a829
-SHA512: 4c8f2dc4282079049d8c310fe1deabe755bfcfec3dc77f133be00d4bc83f8938058a71b9c942b677e58a1555cb45dc6e7f161c85ec37067737addf671bba16ad
-Section: 插件
-Description: 为控制中心增加各种功能，强烈推荐
-Name: 控制中心增强
-Author: 妖刀
-SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
-
-Package: com.opa334.choicys
-Architecture: iphoneos-arm64e
-Version: 1.5.2-2
-Maintainer: opa334
-Installed-Size: 888
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
-Conflicts: com.opa334.choicy
-Filename: debs/Choicy_禁止注入_1.5.2-2_iphoneos-arm64e.deb
-Size: 164204
-MD5sum: d2b814d3719d0258b14d10a2a2bd2066
-SHA1: 12315ccbbcbe5d7a75fa29799b040451a22cfd32
-SHA256: 46efdf4f25532e09be1c9959140e0d34f9997cd4f48ac18d0728ca96f9d50fa4
-SHA512: 5a8600477dce5c2e1eadf8307617f8d4951d9d0ed67c863c2d23a2a2fd357880454823abdef4a0733aa1a0281ee629ef4298a832fae9706cf049a9f8e43dfbed
-Section: 插件
-Description: 越狱必备
-Name: 禁止注入
-Author: opa334
-icon: https://TrollStoreX.Github.io/sileodepiction/Choicy/icon.png
-SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Choicy/js.json
 
 Package: cn.octoforce.copyvault
 Architecture: iphoneos-arm64e
