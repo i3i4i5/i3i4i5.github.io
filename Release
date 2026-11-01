@@ -9,8 +9,8 @@ Description: 我的牛逼源
 Support: https://i3i4i5.github.io/
 Icon: https://i3i4i5.github.io/CydiaIcon.png
 MD5Sum:
- 4a6c081df71a84dc0120e666722980a0  132044 Packages
- 6da3eec08f9289fd8da1d4e914635ab8  53435 Packages.gz
+ 53b4c36095c3fea90d5dfd1af7e0c875  135936 Packages
+ 711345558f0ec3ec1fa1adf5bc9bdaad  54922 Packages.gz
 SHA256:
- dbaac842a16948366407398ff5885b8b3a0b69aca84eea4cfe28ce17200d8b56  132044 Packages
- 1b3f830f7c789109264d102e039018a0f58e14300b3f6e5e0b2aaf851aef2bba  53435 Packages.gz
+ 359e88055917ee058dac2811d92940a486f6a3bf1c4377d0ef7ba28634949018  135936 Packages
+ bbd0159dcfdf990f9b35540400604876b0d8a0b8983a8cc523041fe1418d88f9  54922 Packages.gz

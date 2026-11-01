@@ -2161,6 +2161,74 @@ Description: Text discoloration of commonly used music listening software。常�
 Name: 土嗨变色MusicTextcolour-rootless
 Author: 来了老弟 h_h_x_t
 
+Package: cn.llld.tmts
+Architecture: iphoneos-arm64e
+Version: 0.1
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 448
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/cn.llld.tmts_0.1_iphoneos-arm64e.deb
+Size: 116738
+MD5sum: 3c7889fcc774c2d982dc252fa99513ec
+SHA1: e6198c89fb6548312328320e1b60f7a74c189623
+SHA256: e2ab45a6ba7e40af293fe3962abdfb0b82a354b6d84094b3836769e625b7f883
+SHA512: f194cac3ba8233b378910f83091acb941dbbd8bcbe1d37d0422bb07680aca5a168ef1463cab9a3b48790f94fa1dc9509a5ceea827c0069581a23d0477716ec1d
+Section: 插件
+Description: Customize notifications, control center, multitasking background module transparency。自定义全局透明度(包含 播放器，负一屏，通知，控制中心，多任务后台模块等，有空就更)
+Name: 全局透明Max-roothide
+Author: 来了老弟 X：h_h_x_t
+Icon: file:///Library/PreferenceBundles/tmllldprefs.bundle/icons-llld/qjtmmax.png
+
+Package: cn.llld.togglow
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker, cn.llld.hhxt,oldabi
+Filename: debs/cn.llld.togglow_1.0.8_iphoneos-arm64.deb
+Size: 340224
+MD5sum: 781df4676ad1560c77fedf1e1c88a73d
+SHA1: da5ef52053e7c1398e2d02a108eafd9248107d91
+SHA256: 7481000fe8222581c6cf5f86e1126004e76e7b7147d1dda1fea1aab2f77c61c1
+SHA512: 46c1323399a74d110a7dd1a0762fa1ee98d8a77ee16a021ede0428c2d7d7daa16c036171e985421bd71ec29b7b6199086765a6474c255093accc92ec342b9fe7
+Section: 插件
+Description: Personalized control center lets the outer ring of the control center shine。个性化控制中心 让控制中心外圈发光，20231206：全功能可改色可读取写入配置，作者本人没有更新的插件，不要去打扰他索要新功能等，有问题卸载，无偿奉献，不想听到不好的声音，谢谢了
+Name: Togglow控制中心按钮特效-rootless
+Author: smokin1337 来了老弟
+
+Package: cn.llld.vartaman
+Architecture: iphoneos-arm64
+Version: 1.2.9
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin,cn.llld.hhxt,oldabi
+Filename: debs/cn.llld.vartaman_1.2.9_iphoneos-arm64.deb
+Size: 66712
+MD5sum: aa5c84145ef2768c2a7d2f20b753b163
+SHA1: e9c26a798adfd16a75b13773f5ef7289983f930e
+SHA256: c75a7c5a8497186cc5210229846f686efe42817d33d1be92d322edf1a0978741
+SHA512: 6b85b55b8d0c2d33454de6752aab07489f88a1f6bd5610a17127f4d4e99578253eba7146d6c0e4c7eca0b65729a008ba770d63e248da914bb9e8eb12566ad895
+Section: 插件
+Description: Regularly update the home screen or lock screen wallpaper (available rootless),The screenshot is in the local language Chinese, but it is actually the English version.。插件作用：定期更新主屏幕或者锁屏壁纸(此包仅rootless可用，因xina2部分环境不读配置，下架了，我再看看)。X：h_h_x_t 来了老弟
+Name: Vartaman-rootless
+Author: P2KDev 来了老弟
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.vartaman/vartaman_rootless.json
+
+Package: cn.llld.vibrato
+Architecture: iphoneos-arm64
+Version: 2.12
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11), preferenceloader
+Filename: debs/cn.llld.vibrato_2.12_iphoneos-arm64.deb
+Size: 195992
+MD5sum: 0402f53a92c9d6a3f2ef4fb416e69c82
+SHA1: c8e04d4d66cf3141b8d8b55324d5423bdff40a1b
+SHA256: 3c77137b0598cf6b2d62b80a55ce67b977ad7dae5ce6155c3a2a0b98a6046db2
+SHA512: 535d81dd6ed029fb638202a54e4031644e7b68a0cc58a9b14485dee3ee43385cadbe8674a48045638989e623155631fce47a168958792f2e4517e0dbd6af1666
+Section: 插件
+Description: Global custom vibration feedback全局自定义震动反馈，设置若显示空白，则换PreferenceLoader版本_________仅测试用,有问题卸载
+Name: Vibrato全局自定义震动-rootless
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.vibrato/js_Vibrato_rootless.json
+Author: SynnyG 来了老弟
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
