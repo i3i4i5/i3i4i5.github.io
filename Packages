@@ -740,6 +740,27 @@ Author: 0xkuj
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ThemePro
+Architecture: iphoneos-arm64
+Version: 4.9.6
+Maintainer: 搬运工
+Provides: ThemePro
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Filename: debs/byg.iosios.net.ThemePro_4.9.6_iphoneos-arm64.deb
+Size: 11997578
+MD5sum: 825eb740d49585eca2a88139cd7c2e04
+SHA1: 7a44f2e468bfcbd2d60f48860d0837d796daa251
+SHA256: 91ad74c4471c56339b4f0179444a91c288e2e13dd1255295fcd11545c41d819a
+SHA512: 961206d9bd57f772938dad1bfbc1a70bd48eb6b3a9b135ec7dcda944c00b35d1ca71cd8b6c6d3b58c103a505d76f27c5b9d8f4ec9cab23e5648ec679f39b2ec1
+Section: 插件
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!主题文件搬运工源也没有，自己看插件作者公众号找！主题好像要授权，自行研究吧，本插件提供给有需要的人！
+Name: ThemePro菠萝微信主题
+Author: MustangYM
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.appdata-rootless
 Architecture: iphoneos-arm64
 Version: 2.7.5
