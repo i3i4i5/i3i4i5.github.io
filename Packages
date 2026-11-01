@@ -915,6 +915,26 @@ Author: 5hux1n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.liquidas
+Architecture: iphoneos-arm64
+Version: 0.1.1b+banana54
+Maintainer: 搬运工
+Installed-Size: 9336
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass
+Filename: debs/byg.iosios.net.liquidas_0.1.1b_banana54_iphoneos-arm64.deb
+Size: 5386222
+MD5sum: ec4d2f5f05bd8dc0f9215605b55b23c4
+SHA1: 1f1b64de0117f345b20494737f4d43681227e690
+SHA256: 53094582a75095eccca1e0fe14b37df5603bfb6fa9b5db84d87b4359a8457174
+SHA512: c52478985ae9f3f3d5635fa8f5e7cbf84bb01a1ffab73136e395c9d2d4ebb4ae4ab20ab695bccdff6abf9e0fedf36b8494c434208a748b97f68d7574e92bb79e
+Section: 插件
+Description: 让你的旧设备体验 Liquid Glass 液态玻璃。
+Name: Liquid (Gl)ass 液态玻璃
+Author: dylv
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.mobilemeadowreborn
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -931,6 +951,25 @@ Section: 插件
 Description: 这款插件，它将你的手机Dock栏变成一片宁静的草地，你的应用程序上盛开着鲜艳的花朵，优雅的鸟儿在你的屏幕上自由翱翔。让大自然接管你的数字世界，为每一次点击和滑动带来宁静和美丽的感觉。效果看截图！
 Name: Dock鲜花草地
 Author: pkgFiles
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.sbcpu.floating
+Architecture: iphoneos-arm64
+Version: 6.4
+Maintainer: 搬运工
+Installed-Size: 3544
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.sbcpu.floating_6.4_iphoneos-arm64.deb
+Size: 922440
+MD5sum: ef341fa577e3752e08fd00a7160a5fd4
+SHA1: 1c8abd85cfeab1b471374768913d0a8b71e38005
+SHA256: 2406ccb54649ade208f5285752ca5a2f58b9a73763d09fffdf7db8a0e09c906d
+SHA512: 1ec5e944aafa92e1ab9e1fbb495e3163c9ef152acd3f4f3e16fc68870e19a2f77501250dc1b2d78e5b2e0557c48021877f7d64e37f81e5cfb6e5dc43569a5af3
+Section: 插件
+Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
+Name: 灵动监测
+Author: MoWang
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
