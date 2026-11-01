@@ -974,6 +974,26 @@ Author: Junhong
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.fontmanager
+Architecture: iphoneos-arm64
+Version: 0.3.7
+Maintainer: 搬运工
+Installed-Size: 2528
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt, com.hmmzzz.fontmanager
+Filename: debs/byg.iosios.net.fontmanager_0.3.7_iphoneos-arm64.deb
+Size: 916674
+MD5sum: 68d58948c432fe700973b2932ab9ccb5
+SHA1: 39a1d63844056aa2d4e0084a8b58464ed4c75047
+SHA256: dbaff789107a769bf730be4814bb429c212620cd51533e5ae28106c79084ed24
+SHA512: 674ddf190990a7c9858776151bfcc9a4bfc454f5772b0b5e87b90994852d6d20144a98e0bae6d10c35bd5be39a51dcd684d4115d76e327b549a8a796ac121310
+Section: 插件
+Description: iOS 全局字体管理器* 支持 iOS 16.0 及以上版本* 支持 Rootless 和 RootHide* 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体* MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。安装前请注意，如果安装过其他字体挂载插件并已挂载字体，请先取消挂载，再卸载对应插件字体文件不完整或与系统不兼容可能导致文字空白或界面不可用，安装前请确保你能够进入当前越狱的安全模式并移除软件包。MarkFont 不提供或分发第三方字体，请仅使用你有权安装的字体文件。
+Name: MarkFont 字体管理器
+Author: Hmmzzz
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.gaodemap.rootless
 Architecture: iphoneos-arm64
 Version: 0.9.21
@@ -1011,6 +1031,25 @@ Section: 插件
 Description: 应群友要求上架！本款插件拥有更好的的 WiFi 配置，可查看连接的 WiFi 信道、加密方式、信号值，去除 RSSI 限制，显示 MAC 地址等，简体中文版，新年快乐！iOS15的用户也可以用这个版本了，卸载之前的iOS15版本插件！
 Name: GoodWiFi中文版
 Author: julioverne & 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.griddy
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Maintainer: 搬运工
+Installed-Size: 236
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.griddy_1.2.3_iphoneos-arm64.deb
+Size: 31250
+MD5sum: 15c7e692eece55b34afa9218d5066cc2
+SHA1: fd0090ec10061949a68a8ee9e56cef12d00da4cc
+SHA256: 3ca53c834c38f58c2a23de1cea71e8afda6aa72402b666054a6868fdecf94e6e
+SHA512: f4e20b08ed3eaf8a31e30948b6f70338da7a1701eb8622e8d2e28de17e91fe1c3a345c4c61d8d78b4dc740e6b8c220008155fe7fb17442a390f9fcdbeb2d1e39
+Section: 插件
+Description: 小伙们期待的图标随意摆的插件终于来了，不少小伙们一直问机车主无根有没有这个插件，今天它来了。原价1.49美元，有能力的请购买正版支持作者！插件安装注销即可生效，暂时无设置项！支持主屏幕、dock和文件夹中的自定义布局、支持任何大小的图标或小部件！搬运工源，真的用心在做免费！
+Name: Griddy图标随意摆
+Author: mikifp
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
