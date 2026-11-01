@@ -1207,6 +1207,24 @@ Author: Banana
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.kayoko
+Architecture: iphoneos-arm64
+Version: 4.1.2
+Maintainer: 搬运工
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.kayoko_4.1.2_iphoneos-arm64.deb
+Size: 592906
+MD5sum: cb5f1951896c67d0bb393c4dd51d5116
+SHA1: 8905b06fbeebc9407f2c1cab977cbd8003cfc3b8
+SHA256: 10dbd2af84c3948a2f146fe8a5f5e3d07a96cdc33646c139aa8bc7721a7794c2
+SHA512: 9a74d278db2842a7423e25a85a263466cf3b02c6d7892253d657ec21833c96bd52595c70f92614920fe7f9c3060c98737362c04be3e2731a36239c9b46d4b249
+Section: 插件
+Description: 一款剪贴板神器，类似于Copylog和Nicelog，但是这是一块免费插件，非常的好用！支持复制图片到另一个软件，棒！其他开发者编译纯自用。适配多巴胺，此版本修改设置可以生效，自带中文翻译！82flex修复支持iOS16，非常的好用且免费，有问题请等更新修复！
+Name: Kayoko剪贴板神器
+Author: Traurige
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.kbappdock
 Architecture: iphoneos-arm64
 Version: 1.8.5
@@ -1457,6 +1475,24 @@ Section: 插件
 Description: 把主题用filza放到对应文件夹，然后加载即可。主题包自己找，或者搬运工源群文件里有几个，不多！不要再问怎么用，插件里都写的很清楚，动动你们的小脑袋，还不行就百度一下你就知道！
 Name: 微信酸果主题工具
 Author: 苏兔
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.rootless.bhtwitter
+Architecture: iphoneos-arm64
+Version: 5.8
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.rootless.bhtwitter_5.8_iphoneos-arm64.deb
+Size: 10684018
+MD5sum: 47c6695367eb2fed4960b8c70298febf
+SHA1: a1537e010603722c4beafaba2413aac24a817f0f
+SHA256: 0b4376494993ea2802677ac84551ebc95e0ef31d9c804dacd33fce3d308a0b9f
+SHA512: 6f0a76582654aefe962157cd67baf338b77a5f183104bd99c44c6f7cb1891707071cb836a6062959e9f99ccafbffbbea9dfc850cfdba58666807b16d472a5632
+Section: 插件
+Description: Awesome tweak for Twitter去广告，视频下载，自定义设置，插件设置位于推特设置顶部！一款综合性能比较强的插件，有需要的小伙伴可以下载试试！
+Name: BHTwitter推特优化
+Author: Bandar Alruwaili
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
