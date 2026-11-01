@@ -759,6 +759,25 @@ Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.cputhermal.zl
+Architecture: iphoneos-arm64
+Version: 2.0.292
+Maintainer: 搬运工
+Installed-Size: 4108
+Depends: firmware (>= 16.0)
+Filename: debs/byg.iosios.net.cputhermal.zl_2.0.292_iphoneos-arm64.deb
+Size: 1198148
+MD5sum: 623d862fdc5b5ab33fd8c5bb9ea6f4c9
+SHA1: 2b3fabe6e4a170408a3c262ffe86b5eeef7e26f2
+SHA256: 9ad7f0c1911c997db25bf76a13d5fabd7ff00fcf01536598dadf4d078631a5f3
+SHA512: 1f9a2b528aa26db19f65ab747eb8bf227de6ea20e1cb95c42f091536672fb9a023235b8d29d8b31c68e801a1a2d4e3f017737d01c1d12e2b0efb197d68420e3d
+Section: 插件
+Description: 又是一款温控插件，层出不穷。这一款大家也可以试试。三种模式一键切换的智能温控管理。智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；低功耗：全局省电，可放行个别应用；解除温控：全局满频，可单独压低指定应用；每个应用可单独设置档位。
+Name: CPU智能温控
+Author: 391160
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.cracklock.7513
 Architecture: iphoneos-arm64
 Version: 1.0.4
@@ -837,6 +856,26 @@ Author: Junhong
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.gaodemap.rootless
+Architecture: iphoneos-arm64
+Version: 0.9.21
+Maintainer: 搬运工
+Installed-Size: 352
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: byg.iosios.net.advertisement
+Filename: debs/byg.iosios.net.gaodemap.rootless_0.9.21_iphoneos-arm64.deb
+Size: 110390
+MD5sum: 1960b978c086d7ca926e2d8167d579ae
+SHA1: 8c824842e054e3074baf7c3b21a8c05b2d824faf
+SHA256: 0778d773f0324ab8f611e16e315ec00db49b7b1667e295dbcfad1d079c736e7c
+SHA512: 5ac31fc6553420886ea1cf371442c3cc7b48d81cc46ae6e176e3571b22a357f5f443698f79d0b1cbd062b6721cae5521bc6939cbfa5235bb3a7c2acc8e24b0b5
+Section: 插件
+Description: 高德地图界面精简 · 纯本地运行 把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。 . 添加源 https://gan-jibamao.github.io 后搜索 GaodeClean 即可安装（RootHide 选 arm64e， Dopamine / rootless 选 arm64，两者不可同时安装）。 . 界面精简： • 去底栏「上拉发现」引导提示，去上拉白雾与闪白 • 去顶部高斯模糊带，去首页白块 . 位置归位（对表高德原生布局）： • 搜索栏 / 天气行 / 连接车机 / 2D·3D / 定位·路线胶囊，各归其位 • 2D·3D 按钮回到定位·路线胶囊正上方 • 连接车机按钮位于天气行上方，天气行与按钮左对齐 . 稳定不闪： • 切页、切 2D·3D 不再跳动 • 冷启动全程不会在屏幕中部闪出按钮 . 全版本自适应：按控件特征判定，不绑定具体高德版本号。 只改界面显示，不影响搜索、导航、路线规划等原有功能。 装后请注销（sbreload）或重启用户空间再打开高德。 . 常用说明与更新日志见仓库 Release 页面。
+Name: 高德地图-Rootless
+Author: iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.hongguofn.helper
 Architecture: iphoneos-arm64
 Version: 2.1.0
@@ -912,6 +951,25 @@ Section: 插件
 Description: 听说这是一位越狱爱好者自费500元定制的插件，感谢其无私奉献，插件作用是在状态栏左上角显示静音图标，如截图所示，有需要的小伙伴也可以下载试试看，是否物超所值！
 Name: Single Mute静音图标
 Author: 82Flex
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.touchvis
+Architecture: iphoneos-arm64
+Version: 4.2
+Maintainer: 搬运工
+Installed-Size: 3644
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.touchvis_4.2_iphoneos-arm64.deb
+Size: 1193296
+MD5sum: 706574b3c78a9a1b78d00ec7a58c91d2
+SHA1: 462a3b99f146199085df9ecce1e12fb6a69cfd95
+SHA256: 5e27373284da807378835f057807cfbd2e7178aeb4c0a7cf5a4c36bdce85ec74
+SHA512: 0c493dda1249388e6b1cbc012f17fcfd4af4689ea353df9b01ef65c1f8e227ad5b143e75f94b991d287c9d8760b55897fb7d785066f10b5ad3be9e111bd68f18
+Section: 插件
+Description: 一款新的触摸显示轨迹插件。由乌龙工作室 82flex 开发。原价$1.99，现已免费。支持多巴胺无根，支持Relaxin 隐根，支持多巴胺隐根。更好的动画和绘图性能，没有烦恼的触摸阻隔。支持仅录屏时显示，支持多点触控，支持使用图片效果，支持 iPad。支持控制中心一键开关。
+Name: Touch-Viz触摸轨迹
+Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
