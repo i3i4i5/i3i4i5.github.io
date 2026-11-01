@@ -1645,20 +1645,54 @@ Name: 切换后台app模糊-rootful
 Author: 来了老弟 h_h_x_t
 
 Package: cn.llld.igg
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Version: 0.0.2
 Maintainer: 来了老弟
-Installed-Size: 88
+Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.llld.igg_0.0.2_iphoneos-arm64.deb
-Size: 6668
-MD5sum: d921c857731e661cb2245314361ce393
-SHA1: d5af692d9c6a77f1eaacaff6d5bb1f5d896a2094
-SHA256: d4f571b0f8429995723fbb6f976109a972a2b5df2fe6a83da4c264c74f1a1971
-SHA512: 02ec5d69df678c1d01876208b4199ead4a256838099d251ee8527ee50b7322767ec3a85e37de51f0516c86834392c2d60ae56c47070eb7ac3cbb8ee6d98bf153
+Filename: debs/cn.llld.igg_0.0.2_iphoneos-arm.deb
+Size: 8192
+MD5sum: 120142a60518c7c82122d03d9f6c0bc6
+SHA1: 016077a9f33f52735ec9b2a0bdb08cc8860d83bd
+SHA256: fadc42de6f2ddf65f5b8bcdc7d2ca2480090aa0720039744a46076723f1f2810
+SHA512: 745081a8708df7c2d4a795822da32a3d339f6ecabe50ed8139620e9eeb90323a5d280530e111021feb7603cf8353873586204b3eb61930c4b0bccce118a26748
 Section: 插件
-Description: igg汉化，iGameGod汉化，神秘靓仔定制汉化-rootless
-Name: igg汉化-rootless
+Description: igg汉化，iGameGod汉化，神秘靓仔定制汉化-rootful
+Name: igg汉化-rootful
+Author: 来了老弟
+
+Package: cn.llld.iyzico
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.iyzico_0.0.1_iphoneos-arm64.deb
+Size: 3106
+MD5sum: c690e8c12956553a30b95fc44ccc93d3
+SHA1: 54c52536e25cd29a72a5cddae18517ca6c530d39
+SHA256: e6a36442fd284206c63f87039a8283f8faf8d22499533a926811119b944b4cfa
+SHA512: 86ddda145176fc8e8c94526520a1890363fc99305e86b5c4722896619757c5203860b6f768f420c27f528f7729da51c3f8c620116286895686bf06f8d08457a9
+Section: 插件
+Description: Skip jailbreak detection(iyzico跳过越狱检测)-rootless
+Name: iyzico过越狱检测-rootless
+Author: 来了老弟
+
+Package: cn.llld.jxydt
+Architecture: iphoneos-arm64
+Version: 0.6
+Maintainer: 来了老弟
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/cn.llld.jxydt_0.6_iphoneos-arm64.deb
+Size: 20376
+MD5sum: 5a590f3242884987a071212c204ce4cb
+SHA1: da4e20bce938921345314f74143a74d3a083aeff
+SHA256: 8573f285e7d794df9e1207dff1dad18a4f216ae03c1572bd5f2cfd90c9f7e6e7
+SHA512: 48c0080105410b257b03277777a09264497f49a4ff438adeac3ee8b3f262230b7dae7cd7d556eecf31d3d1ce1a58fa3489f309b384d08b69e1b3a16555e081d5
+Section: 插件
+Description: 可注入可越狱使用，祝各位拿证到手。默认去除开屏广告和动画(关梯子使用)，长按首页(底部功能栏)，或任何页面（答题）或（背题）或 (考前直播) 或(直播刷题) 弹出更多功能设置。 调试一点通版本15.4.1
+Name: 驾校一点通绿化-rootless
 Author: 来了老弟
 
 Package: cn.llld.jyxlss
