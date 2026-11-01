@@ -653,6 +653,44 @@ Author: 7513
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.dumpapp.wechat-rootless
+Architecture: iphoneos-arm64
+Version: 2.7.5
+Maintainer: 搬运工
+Installed-Size: 15632
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/byg.iosios.net.dumpapp.wechat-rootless_2.7.5_iphoneos-arm64.deb
+Size: 7864616
+MD5sum: 33bf74feb972dc20a6848694233a007e
+SHA1: 689543b772bdb539b078dc9975f133e3593e7ebd
+SHA256: df60c9ab8bf3bf5789edae747d839495bd8b443ba09418d61ddde708d077c0d8
+SHA512: 6d1b1707d1a18d2c696cc3b57df51c19a00f94d16e692b207fcc53c083c3254d8e775ea5c08ccacde137ee65f43719d247cf0a00dcbd00d8f2da93c83c226481
+Section: 插件
+Description: 锤子助手插件，感觉就是微信净化换了个名字重现江湖，至于有没有什么其它限制，暂时不清楚，喜欢微信净化的用户可以试试此插件，可以防撤回，抢红包，转发语音等功能，自行体验！感谢搬运工源群管理GODW分享，越狱因为分享更精彩！
+Name: 锤子助手
+Author: DumpApp
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.fanqiefn.helper
+Architecture: iphoneos-arm64
+Version: 3.1.2
+Maintainer: 搬运工
+Installed-Size: 3008
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.fanqiefn.helper_3.1.2_iphoneos-arm64.deb
+Size: 1803286
+MD5sum: 440c2227029f03f4cc4d3ea152d16eed
+SHA1: 3cda8f844816d28d18034e6ed2f3f6b116bd2713
+SHA256: 3c135de480fdcf3e2c9f1f814cbaedd6401763d9e6665b4fb9e756589cd5526c
+SHA512: 2916efed172cd3b0cabff53461fda3ab440dfd4c877201f6c04fc8f24732aaee7d81e7f19be1e2b6caf596c347afd791efe0a1db28de164960be3fc099aff4fc
+Section: 插件
+Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
+Name: 番茄净化
+Author: Junhong
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.hongguofn.helper
 Architecture: iphoneos-arm64
 Version: 2.1.0
