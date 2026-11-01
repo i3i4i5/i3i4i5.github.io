@@ -2093,6 +2093,41 @@ Description: The ultimate tweak to customize your notifications such as adding c
 Name: SmartNotifications 2-rootless
 Author: Elias Sfeir
 
+Package: cn.llld.speaknotification
+Architecture: iphoneos-arm64
+Version: 1.8.19
+Maintainer: 来了老弟
+Installed-Size: 888
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 1.0.2)
+Filename: debs/cn.llld.speaknotification_1.8.19_iphoneos-arm64.deb
+Size: 250704
+MD5sum: 72b69bd6992d02ac9c24b41c9a73f4f9
+SHA1: 7f90f6f4e1e2658e81ec6c4ae3f7b8e5a56a8106
+SHA256: 9e06054d17cde9d6ea2e086cde3126d355d3093154868f8359ddeb9462ca57c6
+SHA512: 32a685e7cff6acbd38f6a8b03996d8dbf149e1c31101b81b2579350500ea48c32203d1117f2dcd5ed944dd8fc0d97d29f21fd7e8282b2843f6a922f1041167a8
+Section: 插件
+Description: Siri speaks out any notifications in a fully customised way.以Siri形式朗读任何，不限于来电，短信，应用，通知等，规则可以自定义---rootless
+Name: Speak Notification 通知朗读-rootless
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.speaknotification/js_SpeakNotification.json
+Author: merdok 来了老弟
+
+Package: cn.llld.swipeextenderx
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.llld.swipeextenderx_0.0.2_iphoneos-arm64.deb
+Size: 10250
+MD5sum: 20635ef1606a62f68a0692404aa85fa2
+SHA1: 301d207a82b4f26a8c06276b746cd325321917b9
+SHA256: 88b90dc7c2f77331f27b2b7f13f9d60a26402af03da589340c8d9c473a2bba5e
+SHA512: e94677d612f4b357ce4d10b15628d67aa4efab8e7c08de1ab1ef879cb588eb00dc329277135bdde5b0d9504018d0adc0ce844c40549c8c032485e2c3772cf73b
+Section: 插件
+Description: SwipeExtenderX汉化，swipeextenderx汉化--(rootess)简体中文包，更新：防止与任何汉化冲突，现在任意装
+Name: SwipeExtenderX汉化-rootless
+Author: 来了老弟
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
