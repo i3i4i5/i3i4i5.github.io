@@ -1089,6 +1089,25 @@ Author: go
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.marktheme
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Maintainer: 搬运工
+Installed-Size: 8668
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Filename: debs/byg.iosios.net.marktheme_0.3.0_iphoneos-arm64.deb
+Size: 3525384
+MD5sum: 7568aad43432afe8f6925a1df089225d
+SHA1: 117f7141fb458407d53be2e30e473abceedeb017
+SHA256: f576bfd79447278528017f8acca74b7bf39825bae692a0ed7db8d4d69e119166
+SHA512: ecb27523c214906fc7c2cdbc8b1cd10f1fd453a9dd31a2e633531c832c728153efb4372822c3407d9ffcc4c5e0fc6adb75783be6091f7594cc5ec076bbd1b60b
+Section: 插件
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。MarkTheme 0.1.8 支持导入 SnowBoard / IconBundles 风格主题，并在安装前完成归档、清单与图像资源校验。可主题化主屏幕与通知中心图标、文件夹、角标、Spotlight、设置、电话、照片分享页、系统分享页与状态栏资源，支持作者遮罩和系统原生圆角遮罩。提供 conventional rootless 与RootHide 独立软件包，面向 iOS 16.0 至 18.x；更高版本会按实时 ABI 校验结果安全回退。请安装与你的越狱环境匹配的架构，两个软件包不可混装。所有主题解析与编译均在管理器 App 内完成；注入进程只运行精简 Runtime。身份、ABI 或资源校验失败时自动保留系统原生外观。
+Name: MarkTheme主题管理器
+Author: Hmmzzz
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.mobilemeadowreborn
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -1244,6 +1263,25 @@ Author: 82Flex
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.spectrums
+Architecture: iphoneos-arm64
+Version: 3.0.9
+Maintainer: 搬运工
+Installed-Size: 1300
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.spectrums_3.0.9_iphoneos-arm64.deb
+Size: 358476
+MD5sum: 2c12a186fdcfb71fe3a0bca4fb951aa7
+SHA1: 3b48e93af1a460dbc011b1a068bf017964b16cfe
+SHA256: 051f24d16a5eac6fe258367a37507da844f64052095914af024450a99f3abd19
+SHA512: d5ced05804f7ca8dd83ef44e249ef1efa0ec82072135bf7d732ca28d83b2a321443059043d9ce3f5bad503fd81e9611352b87cfc4d088801fece906c6075b680
+Section: 插件
+Description: 去掉音轨在17系统上面的小黑块，动感专辑圆环均衡器，17系统不再卑微！无效请卸载！
+Name: spectrums灵动音谱
+Author: Simon
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.touchvis
 Architecture: iphoneos-arm64
 Version: 4.2
@@ -1318,6 +1356,25 @@ Section: 插件
 Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。闪退后，下次打开会提示并可以导出日志。三指双击打开设置，长按底栏「我」开关设置
 Name: 微博优化-Rootless
 Author: ioswary
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wcplugins.rootless
+Architecture: iphoneos-arm64
+Version: 0.1-7
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 5.0)
+Filename: debs/byg.iosios.net.wcplugins.rootless_0.1-7_iphoneos-arm64.deb
+Size: 19696
+MD5sum: 098aa2ca3439863b1c98047f04bf7e8b
+SHA1: ae9504bcd83368327d3dfe754d7e97021d3df539
+SHA256: fbf96d071804cadb8a27096cbc561a37e8e23d4dac10d48c7defcbd2f0f9d5dc
+SHA512: c1c6916e5fcbff1e1bc37132d7bb3caf719b0bc02f89aa1c60757f875fe81fb167c6dbbf6dabbed9b852a8edb342f6d4770ecf15009f7d6eb9125f7726635c81
+Section: 插件
+Description: 描述：解决新版本微信，插件设置不显示问题！而且搬运工源这是微信插件收纳可隐藏版，入口在我页面，长按图标开启密码，开启后需输入密码才能显示插件！在首页或通讯录页面的搜索框中输入密码！非常的棒，搬运工源，万古长青！
+Name: 微信插件管理
+Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
