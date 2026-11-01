@@ -39,7 +39,9 @@
     {
       "name": "你爱的",
       "orig": "",
-      "pkgs": []
+      "pkgs": [
+        "com.dao.ccless"
+      ]
     }
   ]
 }
