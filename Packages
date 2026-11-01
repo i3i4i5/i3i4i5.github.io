@@ -932,6 +932,25 @@ Author: kk
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.cc26
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Maintainer: 搬运工
+Installed-Size: 1496
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 13.0), firmware (<< 18.0)
+Filename: debs/byg.iosios.net.cc26_1.0.6_iphoneos-arm64.deb
+Size: 876634
+MD5sum: 4b5f0f94f63a3ff9288906523f40669e
+SHA1: d76a7dfb75e1b052a3c2ef69d37e4f5e7001c2d9
+SHA256: 773a6d96d5e5d68b91381369ab2b72787999612d5783bece5b3d83cabfb94fbc
+SHA512: 92466512235238334786172fe83ece8cefc5822b9b1412826af29dd8543f4064a845b606dcb7bd407301e565395527cdd516e8e7c8375647883ba445a42f443b
+Section: 插件
+Description: 据说这是一款模仿iOS26样式的控制中心插件，安装之后注销生效，无效也不用反馈，卸载即可！
+Name: iOS26控制中心
+Author: therealhoodboy
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.classicfolders3
 Architecture: iphoneos-arm64
 Version: 3.5.1
