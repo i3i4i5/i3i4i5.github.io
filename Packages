@@ -740,6 +740,26 @@ Author: 0xkuj
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.axon.rootless
+Architecture: iphoneos-arm64
+Version: 2.6
+Maintainer: 搬运工
+Installed-Size: 720
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi
+Filename: debs/byg.iosios.net.axon.rootless_2.6_iphoneos-arm64.deb
+Size: 234424
+MD5sum: d6128f7d9d5ba77d19d2a5b3a2b8a2ee
+SHA1: 067aaf01fc8f5532c6b7d313c5e515310250c51e
+SHA256: ff7e38a85b746553785604cb29b60269a297ece5290c2d6ea276329aaf747c09
+SHA512: 13cc517e6648e1f4020d81eba47ec04d15a2687b9da78b2f9f9f61595eb89e8da0aee73c05af7ad9458182fe11d58b697d635258200b44f17a12faebf963a9c5
+Section: 插件
+Description: 锁屏通知美化。妖刀修复更新支持iOS 16、iOS 17，效果很独特，具体可以看截图介绍！搬运工源这么多年了一直免费，感谢你的支持！
+Name: Axon美化通知
+Author: Nepeta & Baw Appie & daodao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.classickeyboardxs-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-9
@@ -970,6 +990,25 @@ Section: 插件
 Description: 一款新的触摸显示轨迹插件。由乌龙工作室 82flex 开发。原价$1.99，现已免费。支持多巴胺无根，支持Relaxin 隐根，支持多巴胺隐根。更好的动画和绘图性能，没有烦恼的触摸阻隔。支持仅录屏时显示，支持多点触控，支持使用图片效果，支持 iPad。支持控制中心一键开关。
 Name: Touch-Viz触摸轨迹
 Author: Lessica
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wbb
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Maintainer: 搬运工
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.wbb_1.2.4_iphoneos-arm64.deb
+Size: 143182
+MD5sum: b390cddf7a0ec9a864e3da2ff9639433
+SHA1: de40063d263681354460130137968d07be360918
+SHA256: 973ecf4f0a08d326496dc920d5d3d579e78ee68d9649bdf5f9032610f0e86749
+SHA512: 9a9270b626c29fea64038a4e66f0b1643a72cb24e1fbd2a46a66595ee0e61422758833c4cf054890904a6ae52f6e7ffc5e72b03e8ceb1344aecd8fffcfdb1fc7
+Section: 插件
+Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。闪退后，下次打开会提示并可以导出日志。三指双击打开设置，长按底栏「我」开关设置
+Name: 微博优化-Rootless
+Author: ioswary
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
