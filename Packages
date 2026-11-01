@@ -532,6 +532,46 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/zzfilter.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
+Package: byg.iosios.net.cracklock.7513
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: 搬运工
+Installed-Size: 1852
+Provides: com.cracklock.shatter
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Filename: debs/byg.iosios.net.cracklock.7513_1.0.4_iphoneos-arm64.deb
+Size: 1247802
+MD5sum: 06dffaa2b2761c17bba2ab7eda2c968a
+SHA1: 3cb1f1dfd7e93be84d4470dee04bf204d0dc8124
+SHA256: d055cff09ff30fe975a1edeeb0930700205e563ba71417a615f2e89da85295ff
+SHA512: 8fb4ecc56da1299a9f918b765a91762e276fdaf44393d59230425e688dbdc47252c0aefd9954b84a09753ad27906ba896f1925f1c34c76006618dc702f601a9b
+Section: 插件
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素溶解 / 百叶窗 / 故障闪烁 / CRT 关机 / 3D 翻转 / 旋涡内爆 / 灰烬上升 / 沙化 / 融化坠落 / 波纹扭曲 / 拼图崩落 / 旋卷飞散 / 剥落坠落 / 闪烁熄灭 / 墨色飘散），每种可单独调参。
+Name: 息屏幻术
+Author: 7513
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.hongguofn.helper
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Maintainer: 搬运工
+Installed-Size: 4700
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.hongguofn.helper_2.1.0_iphoneos-arm64.deb
+Size: 2835352
+MD5sum: fdffd2546ade6a2f9f50972bef1aead3
+SHA1: f35c831246d1d91455b31514c662c1bacddde1c8
+SHA256: 9fbc3779d1cab4e9d20ee152902bcb0d0be0311b2a55a56029eb142ee03ee821
+SHA512: 4df4167e49757dd8cbbccf2c7b81fc5c407f1cd7d5d82eafac66b1beb56dd7a66863ba94ccbcf6ae6bcbd96a89cbe715f86c8fc2d853d77629240aa95cbd58cc
+Section: 插件
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载。适配7.4.1版本
+Name: 红果净化
+Author: 5hux1n
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.25mao.BubbleBox
 Architecture: iphoneos-arm64
 Version: 1.0-7
@@ -672,23 +712,26 @@ Name: lockdown
 Author: roothide
 
 Package: preferenceloader
-Architecture: iphoneos-arm64e
-Version: 2.2.6-8+debug
-Maintainer: ProcursusTeam <support@procurs.us>
-Installed-Size: 264
-Depends: mobilesubstrate
-Filename: debs/preferenceloader_2.2.6-8_debug_iphoneos-arm64e.deb
-Size: 20124
-MD5sum: 2be207d92f7ec3b380ff685840ec20b1
-SHA1: 24cb38b11a84510a93da2dbb6618d978581abebe
-SHA256: 195bf6c04f95c8215d9c78dbe52fc9171cec57b7970cbc3d69a60eb2c32105f4
-SHA512: 9626af6faed9ddeaab7412460d26a764aa21156c18bfa8ac7f5253e223d3e3804e2e18bea94fd1c041ef0d60a655b760843926ac9487540f260cc8cf10fc510b
+Architecture: iphoneos-arm64
+Version: 2.2.5
+Maintainer: 搬运工
+Installed-Size: 308
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/preferenceloader_2.2.5_iphoneos-arm64.deb
+Size: 20356
+MD5sum: 70ea182105736e2d380dd4673821e4a0
+SHA1: ada6a5a5044771dfc294fd113ec3890ba1e3a017
+SHA256: 932ca68dee553ed15401b1bb3439d3fdead592aa89a1e91d3042d38a73d70078
+SHA512: 2b0b5e3f5bd0a9d8bb9a187de0e74d1dbfd8784ecd9be2f36472ba123f505c77bc960622a83b9a83421651164cc289290564bbd5985199118c1496ca6438a7ea
 Section: 插件
 Description: load preferences in style
+ 此版本是无根版本,其他越狱不要安装或更新
+ 本站基本上不搬运依赖，因fugu15越狱的特殊性，如果没有此插件依赖，设置选项会不显示插件，应群友要求，特此上架更新！
+Tag: role::hacker, purpose::library
 Name: PreferenceLoader
-Author: Dhinak G <dhinak@dhinak.net>
-Depiction: https://apt.htv123.com/view/477
-SileoDepiction: https://apt.htv123.com/sileo/477
+Author: Dustin Howett
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: cn.llld.adshield
 Architecture: iphoneos-arm64
