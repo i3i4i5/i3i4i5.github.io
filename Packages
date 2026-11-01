@@ -1168,6 +1168,25 @@ Author: 5hux1n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.infuseplus
+Architecture: iphoneos-arm64
+Version: 2.6
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Conflicts: com.dvntm.infuseplus
+Filename: debs/byg.iosios.net.infuseplus_2.6_iphoneos-arm64.deb
+Size: 548958
+MD5sum: 79a7f495f9eaba74a4cee7b7a833d616
+SHA1: 8b794335f0009fb970adc95429fc7ba53fd46d79
+SHA256: 0068cae19dd9c99f5885bd42b5277f0acd939e0964e3973c84e8d71c8b4755d4
+SHA512: 8e55195e249737cb9bd7b47192a9651f7b5b2780105988412771a02a17dbee35b8d42a47b443519facd3d8de644c16872e67b2a6fdc9846b899beeae5ba18586
+Section: 插件
+Description: InfuseiOS应用程序的增强器，专业功能强制后台播放，双击播放/暂停手势，向前/向后搜索按钮的自定义搜索时间，自定义双击可跳过时间播放设置菜单中的播放速度。播放设置菜单中的音量增强，在通知中心自定义海报和名称，您可以在“设置”选项卡中找到 Infuse Plus 首选项具体功能，参见浏览截图。
+Name: Infuse Plus播放器增强
+Author: dvntm
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.iphoneduoicon
 Architecture: iphoneos-arm64
 Version: 0.1.21
