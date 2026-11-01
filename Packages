@@ -2994,6 +2994,95 @@ Description: A modified iOS mediaserverd hook to serve snapshots of current audi
 Name: AudioSnapshotServer-依赖
 Author: Ryan Nair and Nepeta <ryannairtweaks@gmail.com>
 
+Package: com.shemeshapps.notiblock
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Maintainer: 来了老弟 h_h_x_t
+Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common, preferenceloader, applist, cn.llld.hhxt,oldabi
+Filename: debs/com.shemeshapps.notiblock_0.0.6_iphoneos-arm64.deb
+Size: 360284
+MD5sum: 27b0f2b91b253456053bb1286dd442c6
+SHA1: 7c57ed1511c45a775d9c9fa67794f99df2dcbfc4
+SHA256: 1d2e8bd9a5c3924eec05561c4bc26b596265da78004d1566ae758c372334ff2f
+SHA512: 5914c35e07bf91f082f7503f0787d58b19f5aa4ceb113cac13132122d17c3a7ea5e27b0dccb5ce7b39f237eedca961bedbb0116bd71de201f2c86a43fe7e4914
+Section: 插件
+Description: Block notifications and take control of your digital well-being。(You can receive notifications while excluding sounds and brightening the screen.)插件作用：过滤应用通知。(可以收到通知的同时排除声音和亮屏)，作者停更，莫打扰，有其他需求的自行去开源库中下载编译。
+Author: ShemeshApps <tomerjshemesh@gmail.com>
+Name: NotiBlock-通知过滤-rootless
+dev: shemeshapps
+
+Package: com.tomaszpoliszuk.homescreenquickactions
+Architecture: iphoneos-arm64
+Version: 1.6.5-1
+Maintainer: BigBoss 来了老弟
+Installed-Size: 808
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: debs/com.tomaszpoliszuk.homescreenquickactions_1.6.5-1_iphoneos-arm64.deb
+Size: 119996
+MD5sum: b2f1bf64452e565b5f71c5cc5e44663d
+SHA1: 7ffdf66896a3c975b7b4e40cdd38bf829b0fb656
+SHA256: bafa7ed2e7f9b5dca139b05d8e43e333ce69d940efa87df904db78d45720373b
+SHA512: 9067eac161dfba6578a42c405ab79e408363d359930a444c6b1fb72b58adbe2a415868a5a957896cdfa112053b46f8e4a6887f189fd4397b8b2c127b82dc87f1
+Section: 插件
+Description: Control Home Screen Quick Actions on your device。根据开源修改编译，自定义主屏幕快捷操作，不限于文件夹或应用，快捷复制，打开，清理，重置等，比appdata功能多，但操作形式是按压。
+Name: Home Screen Quick Actions-rootless
+Author: Tomasz Poliszuk 来了老弟
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: tomaszpoliszuk 来了老弟
+Icon: file:///var/jb/Library/PreferenceBundles/HomeScreenQuickActionsSettings.bundle/icons/HomeScreenQuickActions@3x.png
+
+Package: com.xx.dyhook
+Architecture: iphoneos-arm
+Version: 1.0.2
+Maintainer: x✨
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.dyhook_1.0.2_iphoneos-arm.deb
+Size: 34612
+MD5sum: 694d0f7cbe21b13dd91308bcd4d2762b
+SHA1: 393972b6da7f5fd075a18d2d7b2f4e9eb9dc8c03
+SHA256: ae8c5d16102127bc90ffe7044d713f405cb4d3b1035731ef852b440969c0b6d9
+SHA512: f3f20ac25c3f9e8d4fddd6ac1e4439d3ec336520d55637338b8f707b18bd53575122c5e0be84ecd3931e352d0b9321ed3868b09fcee548dd616b74266ebfe695
+Section: 插件
+Description: 作者为人低调，这是他自用 (我也用)，首页视频界面双指双击弹出设置UI，作用：抖音顶部或侧面的功能，图层隐藏调节透明度
+Name: 抖音图层调整-rootful
+Author: x✨
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/com.xx.dyhook/dyhook-rootless.json
+
+Package: llld.keyboard
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/llld.keyboard_2.0_iphoneos-arm64.deb
+Size: 4164
+MD5sum: 0353977b8885498f3e6a4fc569042061
+SHA1: 16f563bd168032a9a381043be00103506f48b36a
+SHA256: cc385c8732dbe808973ccd1bdda70d0732ae4440a8fbc71dc79d5caa475de984
+SHA512: 7dbdfd3257d95762b9506b8ac1d8a9b774df94c39bb121f109520e3340f16f7034636c09feff011396517cbbe2a8f910abfd2603ebc26e2000eebc60d7f16a27
+Section: 插件
+Description: Function: Allow third-party input methods in any password box。***强制第三方输入法（键盘），作用：在任意密码框可允许第三方输入法输入（银行等特制键盘除外），20240104:更新版本号。***
+Name:  强制第三方输入法-rootless
+Author: 来了老弟
+
+Package: netskao.doubleclickwake
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 来了老弟
+Installed-Size: 140
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/netskao.doubleclickwake_1.1-2_iphoneos-arm64.deb
+Size: 3876
+MD5sum: 83fcde236eca41d77c17fde5e0751023
+SHA1: bc652180a6a354b28b040d861b305a35403a5d85
+SHA256: c32cc5da2b78789877bd968d7b76fa2af126eb6d001ff6e212e5855692e53868
+SHA512: ce7284aac15ef294b6e0d4512cbfadd6638681058292d562544a1e2e9ced10903863251b206a9e9b54a00591cf1f14c89d469173b4ddca0bd0478461ece27bd7
+Section: 插件
+Description: Click to wake up and double-click to wake up.单击唤醒改为双击唤醒(设置-辅助功能-触控-轻点唤醒)_________仅测试用,有问题卸载
+Author: Netskao <netskao@gmail.com>
+Name: DoubleClickWake-rootless
+dev: netskao
+
 Package: preferenceloader
 Architecture: iphoneos-arm64
 Version: 2.2.5
