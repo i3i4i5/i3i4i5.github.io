@@ -1959,6 +1959,26 @@ Author: huami
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wechatpurification-rootless.old
+Architecture: iphoneos-arm64
+Version: 2026.04-End
+Maintainer: 搬运工
+Installed-Size: 23256
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: netskao.wcpureextension-rootless,byg.iosios.net.time
+Filename: debs/byg.iosios.net.wechatpurification-rootless.old_2026.04-End_iphoneos-arm64.deb
+Size: 10928530
+MD5sum: 8a4c3205017c8b06e1d3d02311729f57
+SHA1: 0ddb859a2fedeecae4620918dd136a6204fa9518
+SHA256: ed9cc77ac7490179ddeda61285ebaaf8d389873c53cbe54c426380bde162336e
+SHA512: 01106834f3a0c30c3772fd2a013d205f5126f85ea30a582ed438a94cc85e555f60bacd0e8c2be4673bbcbdf76cbf0b095177dcf3b12c4ca0cadafe4147052ee1
+Section: 插件
+Description: 原作者Netsko基于2023年版本进行更新修复热更新插件消失问题，并没有适配高版本微信，请知悉！有问题请降级微信版本！完整无阄割版微信净化！支持抢红包！这可能是最后一个版本了，感谢大佬无私奉献！微信净化还原聊天本质，干净的微信给你，完美支持8.0.29及以上8.0.46以下版本，高版本微信也可以使用，但是转发朋友圈或者其他功能可能会因年久失修而失效！设置位于微信-设置，请不要屏蔽微信越狱，不然不显示插件！微信净化是多少人的信仰插件，冲！也可以安装锤子助手，同样的功能！
+Name: 微信净化
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.wechatyouhua
 Architecture: iphoneos-arm64
 Version: 2.0-3
