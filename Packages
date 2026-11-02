@@ -4774,6 +4774,26 @@ Name: libnotifications
 Author: CokePokes <cokepokes@gmail.com>
 dev: cokepokes
 
+Package: com.ginsu.comet
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Maintainer: 搬运工
+Installed-Size: 2136
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: debs/com.ginsu.comet_1.0.9_iphoneos-arm64.deb
+Size: 943664
+MD5sum: 83bc6c6c371b18e5d524cc5faf86e980
+SHA1: 4cc72202497556ee52a95a6b03597d5c24d079eb
+SHA256: 2e196c6e84b522b24a30ed432945f8b9469d7eb2aee91eecd943a1e8bb9ab1e1
+SHA512: 30a8dec96861ff8ed48fcce46be4042012be12f52f2a309c090519288a1fd74c1732c4dc0d91b3d3980adcb1b5d4d7ee72ff05d5680c7bbb5de86e2fefaf183e
+Section: 插件
+Description: A SwiftUI Prefs Framework dodo锁屏依赖，用不到的请卸载
+Tag: compatible_min::ios14.0
+Name: Comet
+Author: Ginsu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.ginsu.gscore
 Architecture: iphoneos-arm64
 Version: 1.1.0
