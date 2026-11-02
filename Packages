@@ -777,6 +777,25 @@ Author: 77Theme
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.Bswbw.time
+Architecture: iphoneos-arm64
+Version: 20
+Maintainer: 搬运工
+Installed-Size: 123
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.Bswbw.time_20_iphoneos-arm64.deb
+Size: 50690
+MD5sum: f94543431648d607ce84fbcc299a5367
+SHA1: 293425a87b289718b4beb199df57d37a257dd89b
+SHA256: b9800fad100a5338ce47bb4805276134fb6b2aa9b7239a772dcd5d0076303a5d
+SHA512: 3325eeeb8c2e6879bff49e7635d8e245e6601f59ca2907297156c1135297a20ba85acd4a11eee636f3a88abbdb7b4709c8ea503cf9e8f4de6244dc6a8649714b
+Section: 插件
+Description: 修复微信净化，抖音净化失效问题，应该是装上这个就能阻止其失效消失了，小编测试装上之后微信闪退，微信是8.0.31版本，可能太低了，可以用8.0.56试试，如果有其它问题就缷载等更新！
+Name: 修复净化失效
+Author: gblw
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.BubbleBox
 Architecture: iphoneos-arm64
 Version: 1.0-7
@@ -1047,6 +1066,24 @@ Author: PoomSmart
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.apibugtexttovoice
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.apibugtexttovoice_1.0.5_iphoneos-arm64.deb
+Size: 251248
+MD5sum: 9ff98fd1e38e915132e42aa68f3c0233
+SHA1: cec4af4e73bbf40ac4eb02cef03f50d0c271fae1
+SHA256: 6c52a9448aec2b2ff289347bc5bfb3d6d456235b1b9b3ad049bdae6c1f44c936
+SHA512: 258a9450e7aa97413d66d659b1aa2990d1f8630950d4f5429c67a232975265229eac03e75e08012d1d8c100fdf10c3d208fd7edf8d7919d85e779c65516adcfa
+Section: 插件
+Description: Apibug 微信文字转语音插件* 开关位于微信设置内，聊天窗口发送 ys 打开菜单，这个语音接口大概率是需要付费使用的，不是很推荐，只是上传源里备份插件，如果小伙们不会用，推荐使用pkc微信助手里的文字转语音功能！
+Name: 微信文字转语音
+Author: Apibug
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.appdata-rootless
 Architecture: iphoneos-arm64
 Version: 2.7.5
@@ -1062,6 +1099,26 @@ Section: 插件
 Description: 本插件功能非常的强大，可以降级APP软件版本，这是最nice的功能，还可以查看软件所占内存的大小，可以清除APP缓存，修改软件名称，修改角标数量，可以重置APP到刚下载时候的设置！可以查看软件的bundleID，可以直接跳转到软件的缓存及安装路径，可谓越狱必装插件，效果看截图介绍！安装之后去设置里开启插件唤醒的方式，然后注销即可，可以选择长按或者上滑软件，任君选择，搬运工源，永久免费！本插件由iosdump大神修复更新！感谢iosdump！
 Name: AppData软件降级-Rootless
 Author: Fouad Raheb
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.apppad
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Maintainer: 搬运工
+Installed-Size: 172
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4), firmware (>= 9.0)
+Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
+Filename: debs/byg.iosios.net.apppad_1.1.3_iphoneos-arm64.deb
+Size: 7112
+MD5sum: 9ca22cbddbf4abbbd83aade8a4bc59e9
+SHA1: 20eef5bd058bd0ebb2af2aa79ec3098cc8d74e04
+SHA256: 9e969efba76eeb01a2a327f64d884b5471db7eb0876f7289e116786f8fd4f728
+SHA512: 35595f577d83145cf9dbcfb7266d5901c51863496b35423878d3bc36832998aafeda578aea97b3a4938eb6f8772edb7d67354f69249085f4b8027ab8ee6455b9
+Section: 插件
+Description: 在ipad上任意应用强制全屏/强制竖横屏，iPhone应该无效，请自己测试，无效就缷载！搬运工源，永远免费！
+Name: 平板应用强制全屏/竖横屏
+Author: PoomSmart
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2103,6 +2160,27 @@ Author: developlab
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ikset
+Architecture: iphoneos-arm64
+Version: 3.4
+Maintainer: 搬运工
+Installed-Size: 424
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.yourepo.ikghd.ikset, pro.ikghd.ikset, pro.ikghd.iksettings
+Replaces: com.yourepo.ikghd.ikset, pro.ikghd.ikset, pro.ikghd.iksettings
+Filename: debs/byg.iosios.net.ikset_3.4_iphoneos-arm64.deb
+Size: 66048
+MD5sum: 7d6fd7ae6cec273518185ff2d5e9ace1
+SHA1: e81d7b39571a24dd823f9ec5b802ec3538181735
+SHA256: f514cc9d6c960e598887de77b7e05afd2153d5cad832fd9fb7bd704fc390992c
+SHA512: 9d96f49347b1fa2743dbabc1e22e3c71b940c5c4e2e9ee5dbd98f7a9e6d46fd990743c52ff3a3777819810b045ef7e10db1a63ca3db86104e6c090a85e975ad6
+Section: 插件
+Description: 美化设置，隐藏设置某些选项等各项功能、自定义文本（汉化：lans233）具体请看插件截图介绍，搬运工源，一个抵一万个，越狱必备！
+Name: iKSettings设置美化
+Author: iKarwan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.indicators
 Architecture: iphoneos-arm64
 Version: 1.2-22
@@ -2461,6 +2539,25 @@ Author: Jailbreak Tweaker
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.macpass
+Architecture: iphoneos-arm64
+Version: 1.4
+Maintainer: 搬运工
+Installed-Size: 876
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, ws.hbang.common
+Filename: debs/byg.iosios.net.macpass_1.4_iphoneos-arm64.deb
+Size: 317602
+MD5sum: 4d841887f6aafdd3ca5b9e12ed14c3bb
+SHA1: 99ed745ea6f2346540251dcc911850badc85ec60
+SHA256: d920b92aa5d8c4ba7053a4e1f46444dda970fc7362f27eee094db9d513bdf350
+SHA512: c6adbf7f26a6b25a5b82e81fb675391b15368802a0cb1eb76ab18a175989bbfafccdf301011256e1ee91ae200e231385117953187bc4eed0aba45305d5ada953
+Section: 插件
+Description: macos风格的密码解锁，非常好看，强烈推荐！（汉化：lans233）搬运工源，万古长青！
+Name: Macos风格密码解锁
+Author: Ethan Whited
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.mango
 Architecture: iphoneos-arm64
 Version: 1.0-Beta7-1
@@ -2793,6 +2890,25 @@ Author: daodao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.pinanim
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: 搬运工
+Installed-Size: 604
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Filename: debs/byg.iosios.net.pinanim_2.0_iphoneos-arm64.deb
+Size: 133942
+MD5sum: 7c047005a859c5725672f977393c2194
+SHA1: c7c044c0a313a6f9ae2f54d1f2bf188de0080cc4
+SHA256: c0919e4a1b3968f4114f6e423e23090e07d52941bb819b6a78809facb9613809
+SHA512: e22d2dab5fdfb614c05c01f4bc51d60df57071d8926a65f72ebfe5e1dcef2d99f0e4c2ac10fffe0b5fe7ead3334d930553d4fe77ffdc06f925c07c6f98b8d78f
+Section: 插件
+Description: 输密码界面的密码弹跳动画，非常丝滑酷炫！多巴胺里注销生效，无设置！如果无效请缷载！搬运工源，万古长青！
+Name: PinAnim密码弹跳动画
+Author: sourcelocation
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.pkc.rootfull
 Architecture: iphoneos-arm
 Version: 0.7-3
@@ -2828,6 +2944,27 @@ Section: 插件
 Description: 群管理Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、[每天60s读懂世界]自动发送信息、文字转语音等功能，非常的不错，认准搬运工源更新即可！
 Name: PKC微信助手
 Author: Curtin
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.pmp
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: 搬运工
+Installed-Size: 792
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Conflicts: pro.ikghd.pmp
+Replaces: pro.ikghd.pmp
+Filename: debs/byg.iosios.net.pmp_2.0_iphoneos-arm64.deb
+Size: 123076
+MD5sum: 2afebb10c47695c9ca642ae541af84cb
+SHA1: 54a56a6e84bfa51fb57000b48779d2773415be6d
+SHA256: 8cd407c7c89f21f33ea55fe00788d3831ac84786a5c7641ab03525ec1d03c566
+SHA512: f7d1585d96312039b86ba8c86b0e069f70fa4d891e7dc3963537f87ac6cc0a9baa5e56c7335c07a620baf118b98de53f1c5de659041a9d494352482db741eacf
+Section: 插件
+Description: 可以一键隐藏所有照片等功能，在控制中心开启！极限的保护你的隐私，需要输入密码才能看到。安装本插件之后去系统设置里控制中心添加，然后注销，下滑显示控制中心点开就行了！搬运工源，搬你所想！
+Name: PMP隐私保护隐藏照片
+Author: iKarwan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2941,6 +3078,25 @@ Section: 插件
 Description: 给QQ加点小功能，功能在手机系统设置里，不是QQ里。若不行，请升级新版QQ。已经在研究转发语音和空间跟圈，去广告，防撤回等一些功能还莫急，会上！慢慢更新！
 Name: QQ芭比Q-Rootless
 Author: 来了老弟 X：h_h_x_t
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.qqhook.rootful
+Architecture: iphoneos-arm
+Version: 1.1.5
+Maintainer: 搬运工
+Installed-Size: 2060
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.qqhook.rootful_1.1.5_iphoneos-arm.deb
+Size: 815100
+MD5sum: 717dc61072e0afd060ed2d5d53aff173
+SHA1: 2e7525af250277f97e25b864aea7a49af1546021
+SHA256: 5db31f44cae4d761c198e602905fdeb166ac6901b06fe3c6e990f59ba719c520
+SHA512: 7f72de931eb75d7f472c3acedce70cb462d0b234768ca324e59ad00afb1caed439876e4d201506246453acfddc7fe8d5ac84d91fb7afedaa9f0084f635f35497
+Section: 插件
+Description: QQ图层插件，非常的好用。仔细看-插件设置项在QQ设置-辅助功能-右上角开启！移除广告，移除侧滑直播，移除超级QQ秀，移除QQ钱包，移除个性装扮，防撤回，应该是无撤回提示，仅支持9.0.20及以上版本 || 开启了模拟机型iPhone 15 Pro Max。旧版本QQ请使用QQ净化插件，但是QQ版本要在8.9.58以下，新版QQ请使用本插件！非常的好用！
+Name: QQ图层
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3204,6 +3360,24 @@ Section: 插件
 Description: 灵动监测：CPU、帧率、电池和系统状态浮窗；长按查看详细数据，支持充电管理、插件注入规则扫描与功能分类。保留系统与硬件热安全保护。
 Name: 灵动监测
 Author: MoWang
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.sentinel
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Maintainer: 搬运工
+Depends: mobilesubstrate,ws.hbang.common,preferenceloader,com.opa334.ccsupport
+Filename: debs/byg.iosios.net.sentinel_1.3.2_iphoneos-arm64.deb
+Size: 100138
+MD5sum: ba1490d267a3fd8124f9d0342d51654c
+SHA1: d993065db2a297de39bfb5562d5fee6a6b37a7ac
+SHA256: 2e90da2e354d27cb18387e90517cab82e9ef63b91c13aefc39193c2f950ca7b8
+SHA512: 3badf8a12e3d07783ad1c11caf634eec55978f267761b35af27d08659832b822c1923bc8e325d3d5f5003ad9950cbb7ecbddf2fd4b95f82cca4ca307c4d36c66
+Section: 插件
+Description: Stop losing your jailbreak when your battery dies!当你的电池耗尽时，不要失去越狱！说是越狱守护，就是没电重启了，你的越狱不用重新激活，这个插件小编没测试，因为电太多了，没时间等到它耗尽，大家自行测试，无效就卸载！
+Name: Sentinel越狱守护
+Author: MegaDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
