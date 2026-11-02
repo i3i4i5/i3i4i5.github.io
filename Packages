@@ -999,6 +999,25 @@ Author: iosrxwy
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ThemeManager.rootlesss
+Architecture: iphoneos-arm64
+Version: 1.6.5
+Maintainer: 搬运工
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: cax.zhumi.ThemeManager.rootless
+Filename: debs/byg.iosios.net.ThemeManager.rootlesss_1.6.5_iphoneos-arm64.deb
+Size: 2833300
+MD5sum: b198f6f23742707d3edddb6bd546b2b7
+SHA1: 07cb0dbd3f731e9ecf8d9f1e5b98c68f95c118b9
+SHA256: eb29e5f3b56dbdff583f9512499dc8ea9ceb070f2bc1a842180e819e4def6b27
+SHA512: f0d7506e2cc3c95b0dd34f5b5919e09ce2be715991502388bfce23d9b136e2177c724fd1c7c9606b8213ac8e4f1a1ec586016b0854b60c1b7a759186aeab331d
+Section: 插件
+Description: 又是一款微信主题插件，也是要付费才有主题，具体关注插件公众号可以看到主题，好像也有免费的，但大部分要收费，大家自己决定吧，我只是提供插件下载方式，有需要的用户可以试试！搬运工源，一个抵一万个源！
+Name: ThemeManager 猪咪微信主题
+Author: zhumi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ThemePro
 Architecture: iphoneos-arm64
 Version: 4.9.6
@@ -3565,6 +3584,25 @@ Section: 插件
 Description: App Store搜索Picsew，一款非常好用的长截图软件！本插件已默认解除Pro权限，如果无效请删除重下软件，测试版本号为3.11.4！无任何广告弹窗！搬运工源永不收费，只为给大家带来越狱的乐趣，浑浊的世界总需要一点清明！感谢嘉嘉一直为大家带来实用的插件！爱你！
 Name: Picsew长截图 破解-Rootless
 Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.picturemodule
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport, oldabi
+Conflicts: com.4nni3.picturemodule
+Filename: debs/byg.iosios.net.picturemodule_1.2_iphoneos-arm64.deb
+Size: 11942638
+MD5sum: 34935fe962d00dbebf8093274de0e4e5
+SHA1: d418b648b2a2408f3a78c5e3eba4c90b24fb7eb2
+SHA256: 69ce7264c4ba8dc91dfc5a65e85d21581554608cbde96c0553550800a3fe3b1e
+SHA512: 74e72817571263bbd2caf624a27b1a78a28febc18eaa2501cd20afbb614fb8db62ab3c372d7a4246a4dfefb254f7682015de65b4b2527ea2a697f4c516d58bdf
+Section: 插件
+Description: Decorate your control center with photos, videos and widgets!用照片、视频和小工具装饰你的控制中心！不保证没有bug.因为需要legacy64依赖，iOS15的用户如果有手机重启问题，请缷载本插件！搬运工源一直为用户考虑，一个源真的抵一万个！
+Name: PictureModule控制中心美化-Rootless
+Author: 4nni3
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -7706,6 +7744,25 @@ Description: Block notifications and take control of your digital well-being。(
 Author: ShemeshApps <tomerjshemesh@gmail.com>
 Name: NotiBlock-通知过滤-rootless
 dev: shemeshapps
+
+Package: com.sini921.qqavatarrotation
+Architecture: iphoneos-arm64
+Version: 1.1.0-1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.sini921.qqavatarrotation_1.1.0-1_iphoneos-arm64.deb
+Size: 6140
+MD5sum: 0c62618543343f1b9cb3b85044399a2c
+SHA1: 75640181cc1e72f0e095565f615e1ac29b6fd366
+SHA256: 97797866909852c2a0ced7538d386da0b1791027035e8291b9bcb648f38f40b1
+SHA512: ebb1052f66f053f94073353c62df92fbfcc02ef3833204a16aa2c6c3ca86ec5d6506958fa9329ae04f0708c99b0303708a7901845ea21b5eecce2c4611a33395
+Section: 插件
+Description: 大家期待已久的QQ头像旋转插件来啦，本插件由搬运工源群友思念所作，功能如下：QQ头像瞎季伯转，仅在9.1.25版本上测试。转起来，嗨起来，花里胡哨！
+Name: QQ头像旋转-Rootless
+Author: SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.tomaszpoliszuk.homescreenquickactions
 Architecture: iphoneos-arm64
