@@ -689,6 +689,26 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/zzfilter.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
+Package: acreson.rootless.cj.atria
+Architecture: iphoneos-arm64
+Version: 2.2.1
+Maintainer: 搬运工
+Installed-Size: 724
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: debs/acreson.rootless.cj.atria_2.2.1_iphoneos-arm64.deb
+Size: 205386
+MD5sum: 4dde9dad5a7eee57d41d78ca217041d9
+SHA1: a511ffd572fd15cb16c72758fbe2b2aacfc59f0b
+SHA256: 5b8232642f56c6bac4c5ae178e3682ff28d15b5ee6f12f4a893e91bff4a2b286
+SHA512: e29b757a70dee289bc4f7daa27790d1441f949e5ce66cbcd2a6ddad7125136a19594189066ffa280317e1954884fd6cadde4ab6ea23f7b625d1b752ef53d307a
+Section: 插件
+Description: 本插件2.2版本是由国人汉化修复的，更适合国人宝宝体质，搬运工源里还有个1.4.1版本是原作者修复更新的，大家自行选择！本插件可以自定义桌面图标布局，5×5、4×4都可以，还可以缩小图标大小，美化桌面，非常的nice！喜欢的小伙伴们可不能错过啦！三击桌面也可以进入设置项，搬运工源，一个抵一万个，缷载那些有毒源，越狱更稳定！祝小伙伴们玩的开心！
+Name: Atria桌面自定义布局-Rootless
+Author: Acreson
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: acreson.rootless.cj.gestures15full
 Architecture: iphoneos-arm64
 Version: 4.0b1-1
@@ -705,6 +725,25 @@ Section: 插件
 Description: 给非全面屏的手机提供iPhonex手势和X状态栏，感谢LF分享！如果有问题或者造成安全模式请缷载！
 Name: Gesturesi16FullX手势
 Author: Acreson
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: acreson.rootless.cj.goodwifi
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 480
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/acreson.rootless.cj.goodwifi_1.2_iphoneos-arm64.deb
+Size: 100108
+MD5sum: 9d74571b4c28bce6db9cd5dd93970a59
+SHA1: 3ea51cebcef15625fa9b7e2d02f8afc162434645
+SHA256: 1ca80c7969e85d9b4c68b84990c94567584373c4dc0420089cb69fd8628c8669
+SHA512: 4239875351f7d6a344b89c2214b11f8de1ce4b64886b38f87ddee9fc24523ec34596df9e6a71294b47983fb650b60eb0fdb3e0329e18443eb5ebb3dcd37ed92f
+Section: 插件
+Description: 提供已知WiFi密码，更好的WiFi配置，在原有的基础上，1.1版本添加简体中文！更新増强好看的页面和图标，详情看截图
+Name: GoodWiFi-Rootless
+Author: julioverne
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3057,6 +3096,25 @@ Author: 冰蓝
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.biyadinojb
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 搬运工
+Installed-Size: 208
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.biyadinojb_0.0.2_iphoneos-arm64.deb
+Size: 53272
+MD5sum: e7e9e00cbd5739b4f5dd4107925358b2
+SHA1: a70d48675e649206a61f116477aa85b33ce9e664
+SHA256: 957e970d18fd786535988e0daeb02d83490d4bfd6aeaa4bec17d352b6949efd5
+SHA512: 38e7b2eb9a07d31645d076f1b1c57b3f7f52f954484196d13aea4378a235733ce49fa4cb0e048c5deb318ebdb5fca9c855c61d7b67dfb9425c0dadf1543bd167
+Section: 插件
+Description: 比亚迪汽车APP屏蔽越狱检测。适配7.02版本
+Name: 比亚迪APP屏蔽越狱检测-Rootless
+Author: lenglengyu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bloom
 Architecture: iphoneos-arm64
 Version: 1.0.3
@@ -3584,6 +3642,25 @@ Section: 插件
 Description: 本插件的作用是在控制中心添加收付款码，比如支付宝，微信。安装之后去控制中心添加即可！
 Name: CCPay快捷支付-Rootless
 Author: zqbb
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ccscreenshot
+Architecture: iphoneos-arm64
+Version: 1.0.0-1
+Maintainer: 搬运工
+Installed-Size: 164
+Depends: com.opa334.ccsupport
+Filename: debs/byg.iosios.net.ccscreenshot_1.0.0-1_iphoneos-arm64.deb
+Size: 13568
+MD5sum: 46995dbcf221d3e447bf1736aaf45ef6
+SHA1: 4ff259bac01c0181501b1eb15190024432208acf
+SHA256: 110bf7bc81204e5843f1fffdb84b7bf6d0348646aeff8ba5460cf654ebb8e162
+SHA512: fabfe5ad5ce5af8b36acab4718e7c62df0c9cec4b4897b6418704ab220f07a1596a357b83b2f86b5c57e35b54ca446bd5af5cb0d7eb788a6e45515d74c6946f1
+Section: 插件
+Description: 控制中心截图模块，如果有冲突安装不了，请卸载相关插件！
+Name: CCScreenShot控制中心截图-Rootless
+Author: Mr.Zhang
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5963,6 +6040,24 @@ Author: CydiaGeek
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.huestatusbar
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Maintainer: 搬运工
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: debs/byg.iosios.net.huestatusbar_1.0.8_iphoneos-arm64.deb
+Size: 159608
+MD5sum: 0edcc2513866b0ca91a2216a830a7866
+SHA1: 57d5f06add9a45825ac41534c433dc78d1f85068
+SHA256: 056d572a6a7462c8edf32cd1445615d69e9f02d619eefa9a3728cf8a36c81813
+SHA512: f96297f8068bc0a15437c5ef5e73b26c75bb04d0893d65279a03e4b38ef9598da1c1c0facd65976943d2cf0f9c96079a7007dd21ee4f577bd7ee42a354f54718
+Section: 插件
+Description: 自定义状态栏颜色以及隐藏部分功能，详情看截图介绍，已测试可用，特别感谢巨魔商店-来了老弟 汉化分享给大家使用，特别鸣谢巨魔商店网络共享平台！
+Name: hueStatusbar状态栏隐藏助手-Rootless
+Author: CydiaGeek
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.hydra
 Architecture: iphoneos-arm64
 Version: 2.1
@@ -6150,6 +6245,26 @@ Section: 插件
 Description: App Store搜索Infuse，本插件解锁会员版，由搬运工源iOSign免费首发，如需转载请备注出处！byg.iosios.net更新支持7.5.5版本
 Name: Infuse智能视频播放器 破解-Rootless
 Author: iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.instalauncher2
+Architecture: iphoneos-arm64
+Version: 1.11.1
+Maintainer: 搬运工
+Installed-Size: 1188
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.jontelang.instalauncher2.beta
+Filename: debs/byg.iosios.net.instalauncher2_1.11.1_iphoneos-arm64.deb
+Size: 360014
+MD5sum: ac52346aa6276e5f92e2c8e7d26fda68
+SHA1: 0c890611f1c921ae0515f84431d4ddf390b13b73
+SHA256: feb78ffd08163029f1e1b6bf2640589993c95b65e2147c3d9829093cb07b5987
+SHA512: 97624874fd6f588e37519ab6b56d4323960c0d0c318bcd2dd0b2eeb31952d5007ad1ad152fd42fddaf158ee1ddd039a5a2ef04f5e512d8808adc677f81c49852
+Section: 插件
+Description: Launch ANY app instantly侧边快捷APP神器，看截图介绍，有能力的请支持正版！非常好用！
+Name: InstaLauncher 2侧边快捷APP神器-Rootless
+Author: Jonathan Winger
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -15347,6 +15462,25 @@ Author: Spark
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.spark.snowboard.effects
+Architecture: iphoneos-arm64
+Version: 1.2.1-Beta2-rootless
+Maintainer: 搬运工
+Installed-Size: 412
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/com.spark.snowboard.effects_1.2.1-Beta2-rootless_iphoneos-arm64.deb
+Size: 33360
+MD5sum: 3148866a64eb52e43832f2c41c0fef1b
+SHA1: d9de4302282f90f7e7cf1352aa694c7e53f99215
+SHA256: c81862c4b1191beee5aac7614fa0005b72ce38c6051d6b7a5ae8adf90ed521e2
+SHA512: 19b51b5661ffc0901edd15c12947732b46c506239f28435bb847d1a3f92c2d5ad5d2bdf2fa194e35c145b320e7de3ce5fbe81464b825946d518902604d3739c3
+Section: 插件
+Description: Icon Effects for SnowBoard滑雪板遮罩拓展，有需要的安装，不需要的无视1降低版本号以证明我不劫持依赖，我对你的依赖不感兴趣，为了用户方便才上传，被喷子一直喷，公益免费源，何必如此呢！
+Name: SnowBoard Icon Effects Extension滑雪板遮罩拓展-Rootless
+Author: Spark
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.spark.snowboard.fonts
 Architecture: iphoneos-arm64
 Version: 1.0.9~Beta4-rootless
@@ -15365,6 +15499,25 @@ SHA512: 35b49834b03b9d7142ac86e41f07a46556a938876479213a39ad2de0d4be07a052bb3467
 Section: 插件
 Description: Fonts for SnowBoard滑雪板字体拓展，降低版本号以证明我不劫持依赖，我对你的依赖不感兴趣，为了用户方便才上传，被喷子一直喷，公益免费源，何必如此呢！
 Name: SnowBoard Fonts Extension滑雪板拓展-Rootless
+Author: Spark
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.spark.snowboard.labels
+Architecture: iphoneos-arm64
+Version: 1.1.0~Beta4-rootless
+Maintainer: 搬运工
+Installed-Size: 432
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/com.spark.snowboard.labels_1.1.0_Beta4-rootless_iphoneos-arm64.deb
+Size: 25604
+MD5sum: ec27c51768ce9d64e61c8b4dddfd409f
+SHA1: 77cd5340865fc55129df41b8a4b8239d8d91e69f
+SHA256: ddfb43f078ef13c4f567527dc5e017a33f1abb8f26621fc2fde778dc5e6e160b
+SHA512: 6849c51a1624554ee042c870c9b71e5caae0c061b638a5954210221305dbb5b6b9c79b645218f67c7370a5a40e23e696681937971233658865ba6012b94346dd
+Section: 插件
+Description: Labels for SnowBoard降低版本号以证明我不劫持依赖，我对你的依赖不感兴趣，为了用户方便才上传，被喷子一直喷，公益免费源，何必如此呢！
+Name: SnowBoard Labels Extension滑雪板拓展-Rootless
 Author: Spark
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -15633,6 +15786,25 @@ Section: 插件
 Description: Animated anime characters as your clock digits.一款让你的锁屏时间变成动漫人物的插件，非常的可爱，喜欢异次元的用户的最爱了，暂无汉化，请看截图翻译，感谢搬运工源水友购买分享，谢谢你！搬运工源有你才精彩！
 Name: AniTime动漫锁屏
 Author: yan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.zx02.frame.rootless
+Architecture: iphoneos-arm64
+Version: 3.0.1
+Maintainer: 搬运工
+Installed-Size: 4284
+Conflicts: com.zx02.frame.ios13, com.zx02.frame.ios14
+Filename: debs/com.zx02.frame.rootless_3.0.1_iphoneos-arm64.deb
+Size: 2550090
+MD5sum: 538b203b531988bef06580898f981e5e
+SHA1: 1faf58ed30e563e843a97088e6964c45b56064c4
+SHA256: 76f00c0e6f483d1df8738a9dea4a2745b8e0d0d7b1ea60b1dd186ae0be290d50
+SHA512: 1f63bb3f9f73db41ff116854437a3aabc6ea68c5673f046f276ec64d9956587369ec6f8fff399a136b2536d4429ca736320a12cc7a5497057a3cf8e3a0114602
+Section: 插件
+Description: 视频壁纸，我测试是闪退的，但是很多用户反馈可以，要求我上架，所以上架一下吧！闪退的话等我更新新版本再用！Frame 的视频路径：/var/mobile/Documents/com.zx02/frame/videos
+Name: Frame 视频壁纸-rootless
+Author: Zerui Chen
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -15940,6 +16112,28 @@ Section: 插件
 Description: 一款非常好玩的变声器插件，在别的中文源还收费！搬运工亲手汉化，刚学的技能，挺有意思的！自己汉化，丰衣足食！不过只能用于系统电话，不能用于APP！搬运工源，永久免费！
 Name: VoiceChanger XS变声器-Rootless
 Author: limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64
+Version: 1.6.8-9
+Maintainer: 搬运工
+Installed-Size: 392
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: debs/org.thebigboss.libcolorpicker_1.6.8-9_iphoneos-arm64.deb
+Size: 65490
+MD5sum: 48aad965251f4a87f207da8442b9fb6b
+SHA1: 415f756bb4a20ca481743a69a6abf54ab87f86ad
+SHA256: 5913a0c6c5439efb3f175ae8ffab0951c3bf364d9e03c9935e51716472159019
+SHA512: ef0aa8c79ec36af785e4a9cf364482c72e92cf2346550837b1729a27de36827b65d3d18ac2101b38871a803e858538ded6a8d8b60519c68631b32bbeb9bf1254
+Section: 插件
+Description: An awesome library of some sort!!插件依赖，不需要的不要装！降低一个版本号，代表我不劫持依赖1
+Tag: role::developer
+Name: libcolorpicker插件依赖-Rootless
+Author: Bailey Seymour
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
