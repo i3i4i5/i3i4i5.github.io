@@ -936,6 +936,25 @@ Author: Fouad Raheb
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.appsyncunified
+Architecture: iphoneos-arm64
+Version: 116.0
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (<= 16.5.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncuni
+Filename: debs/byg.iosios.net.appsyncunified_116.0_iphoneos-arm64.deb
+Size: 77734
+MD5sum: e300fbc3bc47d7dc347a41fb7e64f35f
+SHA1: 67940f5ba8d77d1f3821f63b4f9982843e7f0297
+SHA256: 028eb7cd84704a3cb8b13e94fdbb26d9d2d61e4219a90fedd78a9bccca5355a0
+SHA512: dcf72d5e72ebee21d09f1eb2d936bb05ffc12aad97d8c1cf50a3d021267aeee57bf02238411d1d0938db0c396cd0cafd7bafaffb0cb8d41d2a58cd326ab150be
+Section: 插件
+Description: Enables the ability to install unsigned/fakesigned iOS applications.使用本插件可以直接在Filza（巨魔filza不行）中安装IPA软件，无需通过巨魔，（多巴胺版本大于1.1.9）但是源主觉得有点鸡肋，有巨魔了何必这么麻烦！上架源备份一下！
+Name: AppSync Unified关闭签名
+Author: Karen/あけみ, Linus Yang
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.apptools15rootless
 Architecture: iphoneos-arm64
 Version: 2.7.3
@@ -1162,6 +1181,25 @@ Section: 插件
 Description: 让自带计算器可以查看历史计算过程和结果，非常不错的一款插件，大家可以试试！搬运工源，万古长青，永久免费，越狱必加！
 Name: 计算器添加历史
 Author: Donato Fiore
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.cameraautolock
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.cameraautolock_0.0.1_iphoneos-arm64.deb
+Size: 6098
+MD5sum: 253d6653d6518dae694d22b8ae8b288d
+SHA1: bda3d3d270011026882f81bfd9f673f9c43acdb8
+SHA256: f9c8d36f92341e426e808600edc242a0f03f6eafabbc6c1188531d093388a609
+SHA512: 2fdb27f2bc4f295e351ad4ad020af6a60d61865ddbbe4e6717bc9812269182321f2458234561e5a73dcaf0c0a92300f296e23e7ce3544ee92f7bfda457280d8e
+Section: 插件
+Description: Enables auto-lock in the Camera app to prevent battery loss and overheating if left open.相机自动锁定，在相机应用程序中启用自动锁定，以防止电池在打开时丢失和过热。据说是能省电，也不知道是不是心理作用，大家自行测试，无效就卸载！
+Name: CameraAutoLock相机锁定
+Author: Korboy
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2507,6 +2545,24 @@ Author: Crassna
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.susudaynightswitch
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/byg.iosios.net.susudaynightswitch_1.2_iphoneos-arm64.deb
+Size: 94344
+MD5sum: 85e87d9d043f99fe996fb25165ef767f
+SHA1: a1781e865895d49e3ca4d144393a8874f6319f6c
+SHA256: 72f749ce987800d8ec616d4494ebdd7485469a30874d87db37c5a00bbe4f8318
+SHA512: 76131a7fa9ae99ded08f6cca1baac86e77373c13b617f7e8a8f53e2d8f65810660570d9f016a4a24409f4117c100bfc91f70555550b250adf26536c937af01ff
+Section: 插件
+Description: 本插件有设置项，在系统设置里打开开关然后注销！功能如下：为您的开关添加一些风格，日月特效。效果请看插件截图介绍，非常的不错！喜欢的美化的小伙们可不要错过啦！不排除有bug，自测！搬运工源，免费安全，中国第一源，越狱必备！
+Name: DayNightSwitch日月开关
+Author: Finn Gaida
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.touchvis
 Architecture: iphoneos-arm64
 Version: 4.2
@@ -2851,6 +2907,24 @@ Section: 插件
 Description: 微信优化，基于茶愫1.1-9开源版优化，此版本由热心网友与Xuegao维护。可以伪装已送达和已读！其它的功能都差不多，自行体验！
 Name: 微信优化
 Author: 热心网友
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.weixinpicture
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.weixinpicture_1.1-1_iphoneos-arm64.deb
+Size: 2714
+MD5sum: 3783340bd636e8b8edb937ca13eb2c06
+SHA1: 79e8cb77d496df68810a1ec905a0b7cf951dd062
+SHA256: 181a67ff50163101cb58fcf48849c2aa24a3d2479fe0b71bdbe1b76c3882fd36
+SHA512: 5fdfc783afaf3ac157355a04d6329b8ad18411bfcf441990a6807c66b8bc8243fc729050c1fae0f8eb3163de824052cfba9a4377a0bd256432aaa11da985c726
+Section: 插件
+Description: 微信强开朋友圈发送图片评论，仅支持8.0.60+，好友应该也要高版本微信才行，无效请卸载！
+Name: 微信朋友圈图片评论
+Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
