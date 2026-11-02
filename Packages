@@ -16930,16 +16930,16 @@ Author: 来了老弟 X：h_h_x_t
 
 Package: cn.llld.kbtool
 Architecture: iphoneos-arm
-Version: 2.3.5-3
+Version: 2.4.0-3
 Maintainer: 来了老弟
-Installed-Size: 7640
+Installed-Size: 11252
 Depends: mobilesubstrate
-Filename: debs/cn.llld.kbtool_2.3.5-3_iphoneos-arm.deb
-Size: 3122246
-MD5sum: fc15dfaee970e901fa598d11abd6f4c3
-SHA1: d378ba47ae381b6816d8b30c76ce5af03757051e
-SHA256: 0fa3fa7f7c21af85ba09d100a57a5abf06fd0907a43dddb442d25a05b857171a
-SHA512: 4bea5a65faf85f829035f8086b0a98707b6774d69380568d6c2a75935a9444aeefeaef8facf96ed3fb732a37934ddb9a30975339a5064756ef2ff274ff0b2384
+Filename: debs/cn.llld.kbtool_2.4.0-3_iphoneos-arm.deb
+Size: 3378800
+MD5sum: 783bd1183a757983a43f7962f4259aca
+SHA1: 02174eea96cbbb4e6d14c059567e572f796e6b98
+SHA256: 2789a08dfaa4168fd86fe7257cf432d1b3ddb54a06cb547cc9a6a0f33eb693d0
+SHA512: c1ec75168891539a9199f8a96765a34382d535431897d56b9a724919bdeb5cae17aac2fefa8b37a41aaeb26ae3a76b49b24a62585b5912cd656623f725de4a5e
 Section: 插件
 Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
 Name: PTools(keyboard)
@@ -20272,6 +20272,24 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: tomaszpoliszuk 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/HomeScreenQuickActionsSettings.bundle/icons/HomeScreenQuickActions@3x.png
 
+Package: com.touchWorld.doubanTweak
+Architecture: iphoneos-arm
+Version: 1.2.0
+Priority: optional
+Maintainer: TouchWorld
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.touchWorld.doubanTweak_1.2.0_iphoneos-arm.deb
+Size: 19884
+MD5sum: 3b49087f7bcb0caaad8981b2e9b0b5c6
+SHA1: acdeae2531d6b1bd570b80dd5e1d3826bc8c7413
+SHA256: 21a9dd6817991ad803a6dd6799494c197feac00ecb73fb817c108d18f531137d
+SHA512: 9803734174d8af67adc7f71d3f9d9a76b66fc1b7f0875c9c6c03128f05e877d204d249252be5d7c9d1620bc069ae2a256945cc99e8f12be0c39e54dd028ef124
+Section: 插件
+Description: 去除豆瓣广告插件
+Name: DoubanTweak
+Author: TouchWorld
+Icon: https://touchfriend.github.io/depictions/com.touchWorld.doubanTweak/icon.png
+
 Package: com.tsangbaby.autoscroll
 Architecture: iphoneos-arm64e
 Version: 0.0.1
@@ -20693,6 +20711,29 @@ Name: Xinamine插件依赖-Rootless
 Author: Sudo + Paisseon
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: im.mjh.doleo
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: junhong <mail@mjh.im>
+Installed-Size: 904
+Depends: firmware (>= 15.0), mobilesubstrate, dpkg
+Filename: debs/im.mjh.doleo_1.0.0_iphoneos-arm64.deb
+Size: 207864
+MD5sum: b07f72399d20bbae7f824cb8c378690e
+SHA1: 24bc7cb010d1ebc50b779c551d4f512a0325f8c7
+SHA256: a1fcc8d4e0e64ade855ff44224f52c5e404395dd9a4785f3cefe9e679ebe6f44
+SHA512: acccd5a88e1640eda5a95f8146f02fd2a6f0cb86df47c3f2dd3ac88e087eb1e65125297475e01271b71bef93955ff4784251f6a9e5187130f92f445ee9db5105
+Homepage: https://5hux1n.github.io/Doleo/
+Section: 插件
+Description: Sileo 的 DEB 下载与本地仓库工具。
+Name: Doleo
+Author: junhong <mail@mjh.im>
+Icon: https://apt.mjh.im/assets/im.mjh.doleo/icon.png
+Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.html
+SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json
+ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json
+Tags: compatible_min::ios15.0
 
 Package: iosios.net.no2theft
 Architecture: iphoneos-arm64
