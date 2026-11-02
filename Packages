@@ -1144,6 +1144,26 @@ Author: Nepeta & Baw Appie & daodao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.backgroundretainer
+Architecture: iphoneos-arm64
+Version: 0.0.1-7
+Maintainer: 搬运工
+Installed-Size: 472
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.dopamine.swapforcer
+Filename: debs/byg.iosios.net.backgroundretainer_0.0.1-7_iphoneos-arm64.deb
+Size: 152744
+MD5sum: 0c04d9ca2744de054ea8d58b47b3b199
+SHA1: 8033a92230ab3c4cfdb0c2478dee05cd952384f9
+SHA256: 250f8aad16763da208cb9a4f9582ab534b4557a95e152283f095e769d0c4ecec
+SHA512: 475e7563761ca8ea3881bcf6449a3390a195a86f9f49e720fa2bdd88b19cef113fe3fa15d0636f844e332a327752b8aadd5b94367510e7b585e6a00de7e8493e
+Section: 插件
+Description: 本插件的作用是基于iOS墓碑机制的后台应用留存增强插件,可以添加应用应用id 到白名单，冻结应用，防止被杀后台，如果感觉无效就卸载！例如微信是com.tencent.xin【 应用 id 获取可以使用 Appdata 插件获取，搬运工搜APPdata即可 】搬运工源，永久免费，插件安全可靠！越狱必备！
+Name: Background后台留存增强
+Author: Your Name
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.baidunetdiskoutput-rootless
 Architecture: iphoneos-arm64
 Version: 1.5.5
