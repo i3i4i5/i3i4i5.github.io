@@ -1468,6 +1468,25 @@ Author: MTAC
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.anouk
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 716
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.anouk_1.2_iphoneos-arm64.deb
+Size: 370126
+MD5sum: 69db0afc5ef474e695ebe7b46bbc9d72
+SHA1: 102cdd92dadea9a7ec3c04d1a13023e64cf2953f
+SHA256: 90286d5471c9df22cf556eb33694ab3676162628d90035402222a695574960bd
+SHA512: c2d32d880f13b7fa3b4cdb8ed99e870e3f77777e83dbbab25a72c1270b88eadba0cd3f79578c19d1f6ccf09448f1dac1dbea3bb5dcec6b90d1505ed5c6a4b517
+Section: 插件
+Description: Authentication for the hidden album.Anouk 目前版本 主要特点：完全免费，开源。支持已隐藏加锁。默认开启。支持最近删除加锁。需要在设置中开启。自定义已隐藏照片的数量。搬运工源已汉化！
+Name: Anouk相册加锁-Rootless
+Author: yan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.anthocrack2
 Architecture: iphoneos-arm64
 Version: 1.0.0
