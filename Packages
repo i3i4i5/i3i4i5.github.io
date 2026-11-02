@@ -1109,6 +1109,24 @@ Author: Color Black
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.bridge
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: 搬运工
+Depends: mobilesubstrate, ws.hbang.common
+Filename: debs/byg.iosios.net.bridge_1.1.1_iphoneos-arm64.deb
+Size: 5707184
+MD5sum: 579080fca011afbf818f8072e76c0342
+SHA1: 2d5d5db913e991dbcf77021ef753ca9cf10a31d0
+SHA256: 8ef2c5a17c2ce93c9a2f4ec54c4000cc5cf5c57cf3f181df6a17c24acb8e7744
+SHA512: e1191cb16bfe730f3eac3dd2c835f5dd0093490ba9cd01ef476c8d2bdb38400e19d7b91af9d354afdff89f15a02821ccbdf8d8f43e091d7a502e0a3f51bac509
+Section: 插件
+Description: The Apple Watch homescreen experience brought to iOS本插件原价2.49美元，由搬运工源群友LF汉化完成，非常的不错！这是一款更改桌面布局的插件，可以把你的桌面布局变成和Apple Watch 一样，胡里花哨，喜欢的小伙们可以体验一下！
+Name: Bridge布局
+Author: MTAC • ETHN
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bypassccbank
 Architecture: iphoneos-arm64
 Version: 0.0.1
