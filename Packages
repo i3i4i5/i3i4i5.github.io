@@ -18072,6 +18072,24 @@ Author: be-huge
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/wechat-push-msg-page/js.json
 
+Package: com.aa22qq.axiskey
+Architecture: iphoneos-arm64
+Version: 10.0.0
+Maintainer: aa22qq
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.aa22qq.axiskey_10.0.0_iphoneos-arm64.deb
+Size: 109148
+MD5sum: c347601c4c41de00607027bca49a5753
+SHA1: d9a7e100a5625c2d6eaa65d54515ee84cfe261c4
+SHA256: 94d3431b2bdae1dae3e1841fe972be9324d289698d477623fc4278dbd8e27309
+SHA512: ab00451254c596c8a8f1a570979eaede85979f6b7cfafaca8080d4b6058a3d4a22ae4008c494371020eb0df212d6323b3f661a8ade8b4416e0f639927d113ba4
+Section: 插件
+Description: 结合物理按键手势与六轴空间方向的高效插件，支持连击与长按秒开微信扫一扫及付款码等常用功能。小伙伴需要什么功能，慢慢添加吧。感谢大家的支持，为爱发电……✌
+Name: AxisKeyGesture
+Author: aa22qq
+icon: https://huayuarc.github.io/icon/axiskey.png
+
 Package: com.apper.neigou
 Architecture: iphoneos-arm
 Version: 0.0.1
@@ -18144,6 +18162,66 @@ Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 Section: 插件
 
+Package: com.axs.classicfolders
+Architecture: iphoneos-arm64
+Version: 5.2.0-20
+Maintainer: Axs
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Filename: debs/com.axs.classicfolders_5.2.0-20_iphoneos-arm64.deb
+Size: 67598
+MD5sum: 0bb7287ac1a9f592431017fa71568222
+SHA1: ea54462c53aaa21b3868052b581b67f9f64579da
+SHA256: 906e616cdd78106ac5051fcba477990a75daa5f24c3ac39bff399c2d45b7962c
+SHA512: 83dd35e50e31f033621c908f29d403abe60b21bb0f3b9317f1f866402594ff54b0d4e95aff2c68715accbd634e8125fbd340765a87492d78f5868875c94ab3b2
+Section: 插件
+Description: 让 iOS 15+ 的桌面文件夹按经典 macOS 风格原位展开。
+ * 1. 点开文件夹时在图标原位弹出半透明玻璃面板，桌面图标随面板重排、淡出
+ * 2. 支持重命名、轻点空白关闭、启动应用自动收起
+ * 3. 支持导入图片、GIF、静音视频作为文件夹面板背景
+Name: ClassicFolders
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/ClassicFolders3.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/classicfolders/js.json
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64
+Version: 5.2.0-72
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1492
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.axs.cpufree_5.2.0-72_iphoneos-arm64.deb
+Size: 146792
+MD5sum: b336a51a8459a1656cf4a571bc856461
+SHA1: da0364b933d4e4be37fa3e63cee30bfc8ffb3539
+SHA256: 6aba040f381d2189aea33dafc73b0be79dc402de8b8e753e82babba1c220c926
+SHA512: bc29e41f2748e6109989ab604d009f43c7f7a8e02889950813a9bee7b61dc61bad3557ed55692be89d62b853232083df2fd1318be46f81cc65d89fa76cdfd006
+Section: 插件
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+ * 七、刷新率管理
+ * 1. 支持 10 / 30 / 60 / 80 / 120Hz 优选帧率、全局注入及应用排除；
+ * 2. 提供系统调试 HUD 与 120fps 系统录屏支持，实际效果受设备和系统限制。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm64
 Version: 0.3-5
@@ -18161,6 +18239,297 @@ Description: App notification library.
 Name: libnotifications
 Author: CokePokes <cokepokes@gmail.com>
 dev: cokepokes
+
+Package: com.colorblack.bottomx.floatingball
+Architecture: iphoneos-arm64
+Version: 6.104
+Maintainer: kanuo
+Installed-Size: 3136
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/com.colorblack.bottomx.floatingball_6.104_iphoneos-arm64.deb
+Size: 1362884
+MD5sum: a4a7d32b501d43c9b31f41bee9dcc2fb
+SHA1: 9d38060165b3fbe086219328f181dc3c7a91a5a6
+SHA256: b7765ccd49557c6068176643992ea774d2a40df7222ee55c374d5bebb917ea7f
+SHA512: 089c1cb5df6739cb8834f8e2a6edc66eec6377960d8fa1541783846301eb58eddf722f8bd6aed59f759cc38c87caef523d84a7b387a97001c388451bf0df86ee
+Section: 插件
+Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
+ 内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
+ .
+ 【核心功能】
+ - 三键导航长按拖动可贴屏幕底边，键盘避让与收起回位均有平滑过渡
+ - 三键导航：液态玻璃风格、霓虹灯管、炫光与点击动画；横竖排列、顺序交换及长按拖动
+ - 圆圈键继承悬浮球上下左右动作，单击回桌面、长按拖动；三枚按键高亮霓虹发光
+ - 三键导航可选横屏自动隐藏，跟随应用实际方向，恢复竖屏自动显示
+ - 导航整体透明度与背景透明度独立调整；保留返回、桌面、多任务与键盘避让
+ - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
+ - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
+ - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册或文件导入图片并编辑悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.96 解锁后轮换宠物】
+ - 宠物设置新增轮换模式，默认关闭；锁屏再解锁后按列表顺序切换，末尾循环
+ - 保留手动选择；图片模式或悬浮球关闭时不轮换，设置预览和列表勾选同步
+ - 重复状态通知不连跳，重启桌面不误切换；保留悬浮球位置和原有功能
+ .
+ 【6.100 自定义 URL 启动修复】
+ - URL 动作接入 SpringBoard 原生打开入口，支持 Prefs:root=Tweaks 等私有设置链接
+ - 兼容旧版桌面及 LaunchServices 后备接口，保留大小写、路径和编码参数
+ - 设置类系统工具共用修复，SHELLX 保持独立入口；失败或超时显示具体提示
+ .
+ 【6.99 宠物固定模式与闲逛联动】
+ - 桌面宠物双击固定位置时同步关闭闲逛，固定期间不能拖动或自动移动
+ - 再次双击解除固定时自动开启闲逛，位置可调整，松手 5 秒后开始走动
+ - 图片图标模式、键盘隐藏与键盘避让行为保持不变
+ .
+ 【6.98 修复 Petdex 历史资料 ID 不一致】
+ - 修复 spritesheet-37 等清单 slug 与详情 JSON 内部 ID 不一致导致的导入失败
+ - 以 Petdex manifest 精确 slug 作为本地宠物 ID，并校验详情名称与清单名称一致
+ - 拒绝非法详情 ID、错误名称及不匹配的资料，保留 URL 安全校验和离线播放
+ .
+ 【6.97 宠物网址符号兼容】
+ - 修复 Petdex 网址含连字符、百分号编码连字符、Unicode 连字符或其他合法符号时无法识别
+ - 按解码后的 URL 路径提取宠物 ID，拒绝路径穿越和控制字符，保留 manifest 精确匹配
+ - 保留轮换模式、独立宠物列表、网址导入、本地离线动画及全部原有功能
+ .
+ 【6.95 设置入口图标尺寸】
+ - 设置列表入口改为 29 点图标，提供 1x、2x、3x 图片，修复图标过大
+ .
+ 【6.94 独立宠物列表】
+ - 宠物列表独立为选择页面，主页面只保留列表入口和网址导入
+ - 列表支持编辑删除、左滑删除，删除当前宠物后自动回退噜噜
+ - 主页面同步当前宠物与数量，保留网址引导、导入和全部原有功能
+ .
+ 【6.93 手机本地宠物管理】
+ - 设置增加 Petdex 网址输入和提交，自动下载、校验、转换并保存为手机本地动画
+ - 导入后自动启用；支持取消、重复导入更新、左滑删除，离线播放无需联网
+ - 安装包只保留噜噜默认宠物，升级前迁移旧版内置素材，后续更新保留本地下载
+ - 保留图片导入编辑、九组动画、闲逛、横屏、键盘、手势和返回
+ .
+ 【6.92 宠物列表调整】
+ - 新增 17 款指定 Petdex 动画，删除指定的 14 款宠物，当前共 43 款
+ - 已选宠物不在新列表时自动显示第一只噜噜，设置预览和勾选同步回退
+ - 保留其余宠物选择、图片导入编辑、横屏、闲逛、键盘及返回手势
+ .
+ 【6.91 横屏位置与宠物扩展】
+ - 按 App 实际界面方向和窗口已有旋转补偿，修复侧边悬浮球重复旋转到顶部
+ - 新增 15 款指定 Petdex 动画宠物，共 40 款，保留原选择和离线动画
+ - 保留十一种打开方式、闲逛互动、键盘隐藏避让、四向手势和返回
+ .
+ 【6.90 补齐应用打开方式】
+ - 参照 QuickLaunch 新增 FV、SVP 及一芽的五种明确打开模式，共 11 项且无重复
+ - 一芽支持上下、左右、浮窗 1、浮窗 2 和 Stage，分别保存到四向应用动作
+ - 接口不可用时全屏回退；请求已提交或状态不确定时不重复启动
+ - 保留原有打开方式、宠物闲逛、返回、键盘及图片编辑
+ .
+ 【6.89 宠物闲逛与随机互动】
+ - 新增闲逛模式，松手停止操作 5 秒后随机走动或跑动
+ - 走跑之间随机穿插全部九组标准动作，每轮打乱顺序后依次播放
+ - 触碰立即暂停，键盘、隐藏和旋转时暂停，恢复后重新等待
+ - 自动移动不写入手动保存位置，保留返回、固定位置及四向动作
+ .
+ 【6.88 完整宠物列表】
+ - 加入用户指定的 25 款 Petdex 动画宠物，噜噜保留一份
+ - 内置离线素材，列表独立缩略图与单宠物动画预览，支持滚动选择并记忆
+ - 保留图片导入编辑、返回、固定位置、四向动作及键盘行为
+ .
+ 【6.87 宠物显示修复】
+ - 使用 libroot 解析素材目录，兼容 TweakInject 加载路径及 RootHide 动态根目录
+ - 素材首次读取失败可重试，不再将宠物模式静默变成图片模式
+ - 宠物模式清除原图片自转动画，保留宠物逐帧互动
+ .
+ 【6.86 动画桌面宠物】
+ - 图标与桌面宠物模式切换，加入用户指定的 Petdex 噜噜水豚动画
+ - 本地逐帧播放待机、跳跃、挥手和拖动跑步，隐藏时停止播放
+ - 保留相册和文件导入、图片编辑、返回、固定位置、四向动作与长按菜单
+ .
+ 【6.85 横屏手势实际方向修复】
+ - App 无界面客户端主动上报实际 UIKit 场景方向，避免私有方向接口缺失后卡在竖屏
+ - 四向滑动、悬浮球布局及区域截图共用实际方向，左右横屏与恢复竖屏同步
+ - 按应用和进程隔离方向，上报过期、后台或版本不匹配时不采用
+ - App 未旋转时手机横放仍保持竖屏；保留键盘隐藏、避让及原有功能
+ .
+ 【6.84 跟随 App 实际界面方向】
+ - 横屏依据前台 App 场景已确认的界面方向，不依据手机姿态或全局请求方向
+ - App 保持竖屏时，手机横放不改变悬浮球布局、位置及四向手势
+ - App 真正旋转后，悬浮球显示、拖动边界及手势统一跟随画面方向
+ - 同一 App 场景暂不可读时保留上次方向，切换到未确认的新 App 默认竖屏
+ - 保留快捷指令读取、图片编辑、分屏返回、工具及键盘行为
+ .
+ 【6.83 快捷指令列表读取修复】
+ - 修复仅支持旧数据库表结构导致无法获取本机快捷指令的问题
+ - 兼容 ZSHORTCUT / ZWORKFLOWID 与旧 ZWORKFLOW / ZIDENTIFIER
+ - 排除已删除及隐藏指令，使用实际运行标识，保留同名指令
+ - 数据库错误区分结构、访问、占用和解析失败，可复制读取详情
+ - 保留 6.82 图片编辑以及全部原有功能
+ .
+ 【6.82 图标文件导入与图片编辑】
+ - 从相册或文件导入，支持 PNG、JPEG、HEIC 等系统图片格式
+ - 拖动与双指缩放、10% 到 400% 缩放滑块，圆形透明预览
+ - 点击背景颜色去除相连区域，多次点选，容差、边缘平滑与羽化独立调节
+ - 支持撤销、重置和编辑当前图标，保存后生效，取消保留原图标
+ - 保留快捷指令、分屏返回、84 项工具、键盘和横屏功能
+ .
+ 【6.81 本机快捷指令与后台运行】
+ - 同步本机快捷指令列表，选择后加入指定 QuickLaunch 菜单
+ - 指令唯一标识保存，支持刷新、搜索、排序和删除
+ - 四向动作和菜单点击共用后台运行器，不再用 URL 跳转快捷指令 App
+ - 保留 Split View Pro 返回及 84 项系统工具
+ 【6.80 Split View Pro 联动】
+ - 全局球返回跟随普通浮窗及多屏主副窗口最近触摸的应用场景
+ - 精确校验进程、场景和宿主，切窗取消旧返回，不操作底层应用
+ - 应用首页保持窗口，关闭窗口可选择独立工具
+ - 新增 18 项 Split View Pro 工具，共 84 项，四方向独立配置
+ - 接入原生菜单、浮窗、应用搜索、分屏交换与关闭、截图录屏和系统开关
+ - 仅这些工具需要 Split View Pro 1.4.2，不依赖 QuickLaunch，保留全部原有功能
+ .
+ 【保留的 QuickLaunch 系统工具】
+ - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
+ - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
+ - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
+ - 新增 8 项 Open 窗口操作，以及自动亮度、夜览、原彩切换
+ - 运行时校验接口及设备支持，录屏等待回执，失败提示具体原因
+ - 无 QuickLaunch 安装依赖；Open 工具需要对应插件，保留全部原有功能
+ .
+ 【保留的 Open 分屏窗口返回】
+ - 点击悬浮球返回当前活动 Open 窗口的上一层，精确匹配应用进程与托管场景
+ - 原生导航首页再次点击仅收起当前窗口，不让底层 App 回桌面
+ - 多窗口跟随 Open 焦点，目标不明、切换或场景未连接时不误操作底层应用
+ - 保留键盘隐藏与避让、横屏手势、双击固定及原有打开方式
+ .
+ 【保留的 Open 分屏窗口】
+ - 应用打开方式新增 Open 分屏窗口，四个方向分别保存
+ - 参考 QuickLaunch 的 TrollOpenJB 1.5.2 接口，运行时检查兼容性
+ - 插件缺失或接口不兼容时全屏打开，提交后不重复启动，不绕过窗口限制
+ - 仅应用动作显示打开方式；保留横屏手势、键盘避让及原有功能
+ .
+ 【保留的横屏四向手势坐标修复】
+ - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
+ - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
+ - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
+ - 诊断增加最近一次手势的坐标、方向及窗口变换信息
+ .
+ 【保留的自动旋转显示与拖动修复】
+ - 全局球使用跟随前台方向的独立内容区域，覆盖桌面宿主仍竖屏的横屏 App
+ - 不再强制覆盖系统窗口及根视图尺寸，避免自动旋转后显示和触摸区域被裁切
+ - 拖动边界使用转换后的安全区域，横屏可上下左右调整位置
+ - 位置按可见区域比例保存与恢复，旋转后限制在屏幕内，普通切换不移动
+ .
+ 【保留的横屏滑动方向修复】
+ - 四向动作按当前界面方向识别，兼容左右横屏及返回竖屏
+ - 统一转换屏幕坐标，兼容前台横屏而全局窗口仍为竖屏，避免重复旋转
+ - 滑动中旋转取消当前手势，保留固定位置、自由拖动和键盘行为
+ - 修复 UIKit 提前更新窗口尺寸时漏掉旋转布局，避免悬浮球留在屏幕边缘外
+ .
+ 【保留的截图并复制】
+ - 四向滑动的工具选项新增“截图并复制（不保存）”，无需外部截图插件
+ - 截取屏幕图片后只写入系统剪贴板，不调用相册保存或系统截图编辑流程
+ - 截图前短暂隐藏悬浮球，完成或失败后恢复；切换界面或锁屏时取消待执行截图
+ .
+ 【保留的自定义键盘避让高度】
+ - 设置增加键盘避让高度，0.1 到 10 厘米，滑块、加减及数字输入，按 0.1 厘米调整
+ - 默认改为 1 厘米，保存后立即重新计算，保留原位置和双击固定模式
+ - 避让区域包含键盘上方缓冲带，空间不足时限制在顶部可见范围内
+ - 键盘收起恢复原位置，保留双击固定模式、四向动作、返回及长按菜单
+ .
+ 【保留的双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
+ - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
+ - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
+ - StayShot 改用实际分布式通知通道，失败提示具体工具名称
+ - 保留键盘隐藏和避让、位置稳定、固定模式、四向动作及全部应用打开方式
+ .
+ 【保留的 SHELLX 工具接入】
+ - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
+ - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
+ - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
+ .
+ 【保留的应用打开方式与位置稳定】
+ - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
+ - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
+ - 未固定时拖动直接移动，已配置的四向动作暂停
+ - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
+ .
+ 【保留的固定位置与四向动作】
+ - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
+ - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
+ - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
+ - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
+ .
+ 【保留的全局长按快捷菜单】
+ - 桌面、App 或小窗中长按悬浮球约 0.45 秒，单选呼出普通栏、胶囊或圆形菜单
+ - 单击保持原返回功能，桌面单击无动作；松开长按不返回，未固定时慢拖可移动
+ - 配合 QuickLaunch 0.1.62 支持键盘避让时长按呼出，胶囊可临时在竖屏显示
+ - 收起或打开 App 后恢复原隐藏规则，不修改各菜单独立配置；沿用旧版模式选择
+ - 键盘隐藏增加开关，默认开启；关闭后竖屏下半部遮挡时临时上移
+ - 键盘收起恢复原位，自动避让不保存临时位置
+ - 修复键盘仍显示时，轮询误判导致悬浮球重新出现
+ - 显示通知持续有效，收到收起完成通知后才恢复；保留原位置
+ - 移除原 Bottom-x 安装依赖及返回盾、Home 派发调用
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装包
+ - 桌面、设置和 App 上方显示；键盘按开关隐藏或竖屏避让，收起恢复原位置
+ - 修复无导航控制器的首页无法回桌面，增加系统 Home 模拟路径
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - 点击按进程和场景转发；重复和过期请求不会再次返回
+ - 无接收器、重复、过期或超时命令不触发回桌面；桌面点击不启动应用
+ - 保留 SmartDeck 原生 Home 和 PullOver-X / ScreenCore 根层关闭路由
+ .
+ 【运行依赖】
+ - 越狱注入框架与 PreferenceLoader 设置加载器
+Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.colorblack.bottomx.floatingball.json
+
+Package: com.crctdd.choicy-whitelist
+Architecture: iphoneos-arm64e
+Version: 1.5.4-6
+Maintainer: crctdd
+Installed-Size: 648
+Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
+Conflicts: com.opa334.choicy, com.crctdd.choicy-patch
+Replaces: com.opa334.choicy, com.crctdd.choicy-patch
+Filename: debs/com.crctdd.choicy-whitelist_1.5.4-6_iphoneos-arm64e.deb
+Size: 134448
+MD5sum: d2f018d04546befe8c93141e3f093777
+SHA1: 29d91dc995dd1015b7b0f97f9bba4022eca63744
+SHA256: 707ec3f6a457d2faf1944037b11e96be91d6e190f631b1504277cca7eb44f3b7
+SHA512: e8a0f4cdd4b92ec7166fa6686687ad99dcd2a53a3407ee7b4034c37b9f50654f4260735c80b1600ed555c09386f590cb43f7f0342ba382927fa31c88b50e4071
+Section: 插件
+Description: Choicy白名单 (支持iOS 15-17 roothide)
+Name: Choicy-Whitelist
+Author: crctdd
+icon: https://huayuarc.github.io/icon/ChoicyIcon@3x.png
+
+Package: com.crctdd.disablecallpop
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: crctdd
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.disablecallpop_0.0.2_iphoneos-arm64.deb
+Size: 5098
+MD5sum: 11c9b653be1170c7966ffec25a67e407
+SHA1: f9066e07296147eba5b001c284c50d4ee4118626
+SHA256: 59a227eb17f39097c7d921ca86936d94629eb04438b26bf952168f01312751e8
+SHA512: 5946066812d79e5efa15c6cc01b9a8bf24bb1c90bd053ba4ce7abf4cb4546476b1efc0f92023152abdc4998a8c04612c4f6e1ef86f702838dad81b0f95b81379
+Section: 插件
+Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
+Name: Disable CallPoP
+Author: crctdd
 
 Package: com.creaturecoding.libcspreferences
 Architecture: iphoneos-arm64
@@ -18313,6 +18682,25 @@ Name: GSWeather插件依赖-Rootless
 Author: Ginsu
 Sponsor: 搬运工源
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.hierarch.dykiller
+Architecture: iphoneos-arm
+Version: 0.6.8
+Priority: optional
+Maintainer: hierarch
+Installed-Size: 4148
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.hierarch.dykiller_0.6.8_iphoneos-arm.deb
+Size: 1005380
+MD5sum: c1ada263982517da788b2b1fc765996d
+SHA1: ee1c4151c97cf72868d711c069049e5f9d0a3bc5
+SHA256: 83c692f2da2cdcff4559a48684cca2fc3fa34a5e8fc1818917b04239cb614601
+SHA512: 636e045c0af49bc74f05b78d7633a2d1bd8b1fdfe807c990b2e0ecb392dd9c778db1d4629214a6a46abfcfe82885e9ae3b6a32ef55f80c289092e063e3f40159
+Section: 插件
+Description: 抖音 UI 增强插件（模块化 hook 框架）
+Name: DYKiller
+Author: hierarch
+icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.hk.QQanitiRecallHook
 Architecture: iphoneos-arm
@@ -18616,6 +19004,48 @@ Author: huami
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.huami.dyyy
+Architecture: iphoneos-arm64
+Version: 2.3-0
+Priority: optional
+Maintainer: huami
+Installed-Size: 3372
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.huami.dyyy_2.3-0_iphoneos-arm64.deb
+Size: 745236
+MD5sum: ab217f8e9101a9ce5c56f7384c2d6c64
+SHA1: c598ace37451781cf9488cf548f853151a99743f
+SHA256: f52b382106ea20249c2be49f1706b9e6d0f72b2b01070f698308c168f6bcf9e4
+SHA512: 635fc9d9f10e4e520fac013fdf336a7e6378c3dc1d076dd2f30a9e871041485041d3e3caadfdbbbfa9c9ca7eb6f8d1678c14721e09eefbb8e86ca67e978ac1de
+Section: 插件
+Description: 仅供学习交流，请在 24 小时内自觉删除。VexCove目前在维护持续更新的版本，抖音插件
+Name: DYYY
+Author: huami
+Icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.huayuarc.cputhermal
+Architecture: iphoneos-arm64
+Version: 1.6.2-306
+Maintainer: Huayuarc
+Installed-Size: 2340
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.huayuarc.cputhermal_1.6.2-306_iphoneos-arm64.deb
+Size: 275902
+MD5sum: 5be6f7255122f265d90e5b0f5bcf9717
+SHA1: d27a83b24772c4e80f02e9fb18baca3b0ea3d9db
+SHA256: ea253095ae82266e17f48dea4da5545745e6210e4b009b87fd8ddc1c3ab90a7a
+SHA512: 42ad6fd38baada42bca4b106a2e22d106a8d86aa8fef0fecbab2741b3c59a0245b8c5763deeb2d56dd239d1d37c8e382008661a887d1f39f676cb97b75c60575
+Section: 插件
+Description: 三种模式一键切换的智能温控管理。
+ 智能：游戏满频、应用低频率、桌面原生、滑动提速、熄屏省电；
+ 低功耗：全局省电，可放行个别应用；
+ 解除温控：全局满频，可单独压低指定应用；
+ 每个应用可单独设置档位。适配 iOS 15-17。
+Name: CPU智能温控
+Author: Huayuarc
+Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
 Package: com.icraze.complicationsfix
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -18652,6 +19082,23 @@ Description: 在主屏幕查看应用数据与管理应用
 Name: AppData
 Author: iosdump
 Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+
+Package: com.iosdump.customccbg
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Maintainer: iosdump
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.customccbg_0.0.3_iphoneos-arm64e.deb
+Size: 47740
+MD5sum: f54186316bf22dd144cc879aa41e272b
+SHA1: 1bb8452618cc0f49871a05e8db5a3e91a9a9b2f8
+SHA256: 940a9c3bedd726cb427e4ba4bf388a70234ca5a548e3a155eaccc1f6acadb135
+SHA512: c47aa1992b0f0c520af84cc57b2d948fa266a095c39eb1638e73fa40cdc69cedc5ef73c9988b50bc4c79e7042cab06e1185dfad62ddb198af1f4a1e508366b99
+Section: 插件
+Description: iOS 14-17 控制中心背景自定义
+Name: CustomCCBg
+Author: iosdump
 
 Package: com.iosnet.UniDream
 Architecture: iphoneos-arm64
@@ -18964,6 +19411,24 @@ Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
+Package: com.monian.b612patch
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Monian
+Installed-Size: 2964
+Depends: mobilesubstrate
+Filename: debs/com.monian.b612patch_0.0.1_iphoneos-arm64.deb
+Size: 74188
+MD5sum: ebb485c9bf17fbd405a28a746865007d
+SHA1: 39a8520c9ce689308d18499ad164f63d6683e96b
+SHA256: 168009fae95490ef0b81df6e547252bdcc569670355b02a90544322fcef155cc
+SHA512: 142671911553286e067f10a6021eece83134fb7a1a200ef439cd534680ae7d4960fc0ee307c9451812f53b107d6b1049d451462dd1a245260620ebb93558b06d
+Section: 插件
+Description: B612 Unlocked VIP
+Name: B612 Unlocked VIP
+Author: Monian
+icon: https://huayuarc.github.io/icon/b612.jpg
+
 Package: com.nan.dpkg-fill
 Architecture: iphoneos-arm64
 Version: 0.3.4
@@ -19237,6 +19702,46 @@ Author: pingfan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.qianuo.chatassist
+Architecture: iphoneos-arm64
+Version: 0.1.67
+Maintainer: kanuo
+Installed-Size: 3228
+Depends: firmware (>= 15.0), preferenceloader, uikittools
+Filename: debs/com.qianuo.chatassist_0.1.67_iphoneos-arm64.deb
+Size: 599512
+MD5sum: 49788016a7f4668eecb8e1977324a165
+SHA1: 29629f67d1ab6ca53f3da622d8a7ce90d3196fbf
+SHA256: 0829d0b907d7184d1cca2effd94046eb39e9e5dc9d3585316ed0fec4a518798d
+SHA512: 75ccea96776ae256efb27d11e293ffa272dee6019cd7cfb799635c64d41f57238bb6b40a8573b0bf9d3c92d32963684e71f43699ca56fad88b95e8eb5b6cef86
+Section: 插件
+Description: Region OCR and AI reply assistant. Experimental iOS 15+ roothide build.
+Name: ChatAssist
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
+
+Package: com.qq391160.cpucore
+Architecture: iphoneos-arm64
+Version: 2.0.350
+Priority: optional
+Maintainer: qq391160
+Installed-Size: 4308
+Depends: firmware (>= 16.0)
+Conflicts: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Replaces: com.huayuarc.cputhermal, com.huayuarc.cputhermalpro, com.qq391160.cpusentry
+Filename: debs/com.qq391160.cpucore_2.0.350_iphoneos-arm64.deb
+Size: 636240
+MD5sum: 743fd32c3d10ebb7dcff5190dc22950c
+SHA1: bce59c5b3278d5884dcad80d97d22d7031039a10
+SHA256: 17e8e17bfe1f6865f9d120898b7d99b372dd4a4d0b2c7185782402741f8c84e1
+SHA512: 2961a5ae95bd4769470c4d6bbb34fa62a84014cc93db73f08319b53e32a6203e00fcde4e0730c43b41f8421ca53982178251d6102010d25260deafd037d96154
+Section: 插件
+Description: 三种模式一键切换的智能温控管理。 智能：游戏高性能、应用低频率、桌面原生、滑动提速、熄屏省电； 低功耗：全局省电，可放行个别应用； 性能模式：全局高性能，可单独压低指定应用； 每个应用可单独设置档位。
+Name: CPU智能温控(iOS16/17)
+Author: qq391160
+Icon: https://qq391160.github.io/repo/icons/thermal.png
+
 Package: com.rpetrich.rocketbootstrap
 Architecture: iphoneos-arm64
 Version: 1.0.9~rootless
@@ -19325,6 +19830,24 @@ Description: Block notifications and take control of your digital well-being。(
 Author: ShemeshApps <tomerjshemesh@gmail.com>
 Name: NotiBlock-通知过滤-rootless
 dev: shemeshapps
+
+Package: com.sini921.cylinderreborn
+Architecture: iphoneos-arm64
+Version: 1.2.0-1
+Maintainer: Ryan Nair & SINI
+Installed-Size: 1860
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Filename: debs/com.sini921.cylinderreborn_1.2.0-1_iphoneos-arm64.deb
+Size: 338856
+MD5sum: 20a349e92bd87ae4ee71909b7167e1c1
+SHA1: b34ae97a51f255558f3ad6083fc4ab431ea89d61
+SHA256: f7b36fd35ec6da86f8377fbf2ef0a654198ec5d44742d11ff11f38fa19a62129
+SHA512: 56fcf5ae6866203c0b5715851e0c5e32fa39e04065dc7a4e313e28b1e73ed06971789af9942eaf2344bd9b3a75d4e9583cc7a7c87b4f6c79e863bc91f3841253
+Section: 插件
+Description: 有点意思的桌面图标动画，基于开源优化编译，修正汉化，适配支持roothide。
+Name: CylinderReborn
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cylinderreborn.png
+Author: Ryan Nair & SINI
 
 Package: com.sini921.qqavatarrotation
 Architecture: iphoneos-arm64
@@ -19749,6 +20272,23 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: tomaszpoliszuk 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/HomeScreenQuickActionsSettings.bundle/icons/HomeScreenQuickActions@3x.png
 
+Package: com.tsangbaby.autoscroll
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Maintainer: Tsangbaby
+Installed-Size: 56
+Depends: mobilesubstrate
+Filename: debs/com.tsangbaby.autoscroll_0.0.1_iphoneos-arm64e.deb
+Size: 2590
+MD5sum: 41740244260e665e939336b264dd93c1
+SHA1: 967c6e7ef71ae5f46287cc02fbc30c04ecb81e5f
+SHA256: cfb4588257119629e7ddab3dd9882a4472b76361b087ae9b171f74f31dd6b6db
+SHA512: 7d7922c4f80ba957b3d5769210d112f09868d04d09d3d6247fa361957b79bf45be693dc2da43b5ba8a56ad1c72b9d598d06e5cad113ff7568614e1e17e73164e
+Section: 插件
+Description: AutoScroll scroll behavior tweak for RootHide.
+Name: AutoScroll
+Author: Tsangbaby
+
 Package: com.wangyou.tigong
 Architecture: iphoneos-arm
 Version: 1.0.0
@@ -19765,6 +20305,24 @@ Name: 轻颜相机v4.35破解
 Author: 搬运工
 Sponsor: 搬运工
 Section: 插件
+
+Package: com.wkk.dndmyrecording
+Architecture: iphoneos-arm64
+Version: 1.3
+Maintainer: gilshahar7, 0xkuj
+Installed-Size: 216
+Depends: mobilesubstrate
+Filename: debs/com.wkk.dndmyrecording_1.3_iphoneos-arm64.deb
+Size: 7016
+MD5sum: 503b79e4d52be91fb33cd62ac5d0e4ea
+SHA1: c604286f396cda4324da6202b4c8f001181efd75
+SHA256: e3608f8287c57d6cd08a0a2ef22f5dddf8aa68d5c4aceaaf38d9428dfe46619c
+SHA512: 173d356f223c90bc70b489d7ec651749e493bf094995df3cfa98f215c38294cf7c6c550e4f16518ba5cb7063df8f3651426c5d7961bbfdcdb01297db32f5610f
+Section: 插件
+Description: 录屏时自动开启勿扰模式，防止一切通知打扰录屏！（录屏结束自动关闭）
+Name: DNDMyRecording
+Author: gilshahar7, 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/01/02/8ec09e4613791a26f568aed1a81478ef.png
 
 Package: com.xx.dyhook
 Architecture: iphoneos-arm
@@ -19966,6 +20524,24 @@ Author: yan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.yaowell.cellbell
+Architecture: iphoneos-arm64e
+Version: 1.1
+Maintainer: yaowell
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.yaowell.cellbell_1.1_iphoneos-arm64e.deb
+Size: 7844
+MD5sum: 900e8e63f62d656aff9d0d4af6bc19e5
+SHA1: 96c8e503a2f7630cd199c2bb96ffbc13ff55b18f
+SHA256: 2e15b110ca074a1b3af641381bb7f1080c5b428dcaff5fb4d503435c72b6c938
+SHA512: 986a48188950767103bc0116f4fb3da5a2ae641eef6b87452181d167671adab98590926b473e7cf6a738dbb83ed3dceae94d0d39d6860b1b88dc4016c865e792
+Section: 插件
+Description: 关闭电池百分比时启用 iOS 27 风格电池图标。(Enables an iOS 27-style battery icon when battery percentage is off.)
+Name: CellBell
+Author: yaowell & 半生年华
+icon: https://huayuarc.github.io/icon/cellbell.jpg
+
 Package: com.zege.27safari
 Architecture: iphoneos-arm64
 Version: 3.5.52
@@ -20019,6 +20595,26 @@ Description: 27Home
 Name: 27Home
 Author: ngkhoi&泽哥
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
+
+Package: com.zooah.debrecords
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Maintainer: zooah212
+Installed-Size: 1736
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.zooah.debrecords_1.2.1_iphoneos-arm64.deb
+Size: 335076
+MD5sum: 51c0fb7757ed0455253b5983ed8cc0a8
+SHA1: 96a5fbb27fcdfdf4197c3cef8add885c872c3634
+SHA256: db5117a8c6069e81ac1e66611b074ab06e22e270575546b1adc37f9fc4094f07
+SHA512: 6166e8352aaf5e988671b9a79334c4c4741f2f88bc3d6adb71e852ea6f71bb491edf78294f84e958fbb30165e185ec6721d8a3e6845fb9aa1942a41c2bc4d099
+Section: 插件
+Description: 记录插件的安装、升级、卸载相关信息。可对插件进行备份。记录SpringBoard的重启相关信息、安全模式相关信息、手机重启的相关信息。
+ Records plugin install, upgrade, and removal information. Can back up plugins. Records SpringBoard restart, safe mode, and device reboot information.
+ 1.2.1
+Name: DebRecords
+Author: zooah212
+icon: https://huayuarc.github.io/icon/debrecords.jpg
 
 Package: com.zx02.frame.rootless
 Architecture: iphoneos-arm64
@@ -20134,6 +20730,23 @@ Description: Applies the iPhone 15 Pro MobileGestalt configuration on iOS 18.1-1
 Name: Apple Intelligence Enabler
 Author: hxhlb
 
+Package: iya.banana.audioservice
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: Banana
+Installed-Size: 724
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iya.banana.audioservice_1.0.4_iphoneos-arm64.deb
+Size: 55356
+MD5sum: 4e6a498813024e64674d0ef9467f97c7
+SHA1: f3ca5974b3cef974ef2f5b087f7ed79062aace4e
+SHA256: 4f39f0ac2f402374acec561a63f3f9679064a82456c784973a2c37d42a20ae4a
+SHA512: 11587f537d5c5d74dc61ff570dceea3fcd5b3c3b004b43ea0082ec5f118be425c05cafdbff9911f97b4d0f1e7aef655a0709d0738cb046cf40990703f527fa22
+Section: 插件
+Description: Shared local waveform and spectrum feature service for jailbreak tweaks.
+Name: Banana Audio Service
+Author: Banana
+
 Package: iya.banana.billie.ambientbadge
 Architecture: iphoneos-arm64
 Version: 0.1.16
@@ -20150,6 +20763,23 @@ Section: 插件
 Description: Custom notification badge styles with adaptive ambient glow. For Billie.
 Name: AmbientBadge
 Author: Banana
+
+Package: iya.banana.dockicon
+Architecture: iphoneos-arm64
+Version: 0.9.20
+Maintainer: hades
+Installed-Size: 1960
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 28.0)
+Filename: debs/iya.banana.dockicon_0.9.20_iphoneos-arm64.deb
+Size: 427142
+MD5sum: 18fac7f535276a38dc4564fafed05608
+SHA1: 3236f6b5762fdfac31c9ea68e08e5658baada153
+SHA256: bc4af65745016595c1ff84b7acfa5a25d5c54e8a248cad87841e4e7457f62ab5
+SHA512: 1cf13e28c4944f4609cda054fa14c0b97cc26a4c14a250d088a4786ec8dfd922b91adb58d608d609b799dfe592a9ce86047ec4d21b903b226f9dedbb32f13894
+Section: 插件
+Description: Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpaper dimming on iOS 16-18.
+Name: DarkIcon
+Author: hades
 
 Package: jp.akusio.backgrounderaction15
 Architecture: iphoneos-arm64
@@ -21045,6 +21675,23 @@ Name: libnebbs
 Author: ItzNebbs
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: xyz.local.bilispeed
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Maintainer: local
+Depends: mobilesubstrate
+Filename: debs/xyz.local.bilispeed_1.4.2_iphoneos-arm64.deb
+Size: 14584
+MD5sum: 9bea204c424b4c2d7d6adc1f1d7aafcd
+SHA1: 5767cb02d8bc1ab99887693cbcf4c99230b2ae09
+SHA256: aaa662aff74c5856c3ef77ece8cdf0c0b49b62d28ae9908c70e35db2a3813249
+SHA512: 28b614ca4d4b3a2032d891bb64228dc1b33dcb6360fff7a7d553c302fce67db578e98665dab2de68b787bc9d5ca73570c61b8943ff1b5bb12ba7699ec1e5a2bb
+Section: 插件
+Description: B站 3倍速BiliSpeed 注入：tv.danmaku.bilianime Native portrait and landscape 3.0 playback rate for Bilibili 8.99.
+Name: BiliSpeed B站 3倍速
+Author: local
+icon: https://huayuarc.github.io/icon/bilispeed.jpg
 
 Package: zhuti.iosios.net.huawen
 Architecture: iphoneos-arm64
