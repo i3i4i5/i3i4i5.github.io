@@ -1435,6 +1435,25 @@ Author: Baw Appie
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.actionbarreborn
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 796
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.actionbarreborn_1.1-2_iphoneos-arm64.deb
+Size: 288686
+MD5sum: b56644a95905e80a892e775af8bfed8e
+SHA1: b32e7d6784fa7d98c13143abdbb9d16144533470
+SHA256: eff8750bf3a63b23230067c853946da36487452fbd5c714d2ce64cfb17d32506
+SHA512: b39b24a60d18c6ae3143f145c2a446a5ed1e91a5810a56ff7466fcbbf9856590175f28cfbdd4c019cca391eddc43ea7b7a248e3c71c1c86ad20cb1555bdc7c7d
+Section: 插件
+Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition键盘增强，增加复制、粘贴、撤销按钮，详情请看截图！可以源里搜索键盘获取更多插件！
+Name: ActionBar键盘增强-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.adkeyboard
 Architecture: iphoneos-arm64
 Version: 1.4
@@ -3889,6 +3908,25 @@ Author: Ben Giannis
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.coolapk.rootless
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.coolapk.rootless_1.0_iphoneos-arm64.deb
+Size: 4694
+MD5sum: 7361ff879cc34a52fbeee12fd171f5e5
+SHA1: 0474edc87d48cfe42c7d201d30800e7f2666efbb
+SHA256: 35de542698675b48b1088e892d8f511a9b3ee9c7b8739fec3ec71489ee3d5b38
+SHA512: c20251a93f94795fb8117cf4b6880caff81033cfbaf6f813afd895923a2013189eebc08def2b0914682299b89d2703d368731b36d8815d0747fccc243ae230bf
+Section: 插件
+Description: 去除启动广告、横幅广告，后续更新会清除其他广告！本插件乃搬运工源免费首发，任何源转载请留出处，谢谢！iosios.net
+Name: 酷安 去广告-Rootless
+Author: iOSign | Mo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.copylogfix16
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -5507,6 +5545,25 @@ Section: 插件
 Description: 高德地图界面精简 · 纯本地运行 把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。 . 添加源 https://gan-jibamao.github.io 后搜索 GaodeClean 即可安装（RootHide 选 arm64e， Dopamine / rootless 选 arm64，两者不可同时安装）。 . 界面精简： • 去底栏「上拉发现」引导提示，去上拉白雾与闪白 • 去顶部高斯模糊带，去首页白块 . 位置归位（对表高德原生布局）： • 搜索栏 / 天气行 / 连接车机 / 2D·3D / 定位·路线胶囊，各归其位 • 2D·3D 按钮回到定位·路线胶囊正上方 • 连接车机按钮位于天气行上方，天气行与按钮左对齐 . 稳定不闪： • 切页、切 2D·3D 不再跳动 • 冷启动全程不会在屏幕中部闪出按钮 . 全版本自适应：按控件特征判定，不绑定具体高德版本号。 只改界面显示，不影响搜索、导航、路线规划等原有功能。 装后请注销（sbreload）或重启用户空间再打开高德。 . 常用说明与更新日志见仓库 Release 页面。
 Name: 高德地图-Rootless
 Author: iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.genesis3
+Architecture: iphoneos-arm64
+Version: 1.5
+Maintainer: 搬运工
+Installed-Size: 3512
+Depends: firmware (>= 15.0), preferenceloader, com.itznebbs.phoenix (>= 1.0.4)
+Filename: debs/byg.iosios.net.genesis3_1.5_iphoneos-arm64.deb
+Size: 1530640
+MD5sum: 5d10a3b0b044861b25df0988eebdaa60
+SHA1: 7c7fc1c440f5f34c502100f703d22f620f7f3992
+SHA256: b4b1fceb0f4e42476cc23eda9cc0d055b1f52c7a2581dcafe8be246c277a34f2
+SHA512: 46a68c50be0dc92242abbc7609663a8cc78ce93178badc0fd20fac5932b6742db9eacd63bc85bfb8048d9e281c5cb09059593a26c8073ca88a49662fe686eb68
+Section: 插件
+Description: 主界面，状态栏，系统设置，控制中心，图标等多功能隐藏和美化，巨魔商店-M哥汉化，感谢M哥！无法安装请卸载再安装，因为此插件需要依赖，我如果改了标识符就无法调取，不改又被骂劫持，无奈，正在寻求解决方法
+Name: Genesis 3-Rootless
+Author: Nebbs
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -14720,6 +14777,24 @@ Author: Ginsu
 Sponsor: 搬运工源
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.hk.rootless.janwechat
+Architecture: iphoneos-arm64
+Version: 1.1.5-1
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/com.hk.rootless.janwechat_1.1.5-1_iphoneos-arm64.deb
+Size: 811804
+MD5sum: de60de65fcb09f8d5e49342380ecc73b
+SHA1: 07a86ee8a5049d64a670c11dd5e87c53b137a510
+SHA256: 0c6f3c6be5ba672573654aa5b5d3ba6db2344ff048f34ca9f146cf42ee6d7827
+SHA512: 3edc790197ffdf126abb55e78a346997e19d76289baf0ddbdd1cd025a1ec9f797d27fbea47f942d5ad9663a8e4c552818eb34bf9b8491bae4fb396910984966b
+Section: 插件
+Description: Jan WeChat微信助手rootless版，插件还是老版本，作者都不见了，没更新的，可能某些功能失效，只是转换支持Fugu15而已。安装前确保使用的Fugu15和ElleKit是最新版。提示：毕竟不是插件作者更新支持rootless，可能会出现闪退、卡注销、卡用户空间重启等bug，若出现风险，自行承担！
+Name: Jan-WeChat-Rootless
+Author: Jan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.huam.wcenablecleanorigmsg
 Architecture: iphoneos-arm64
 Version: 1.0-2
@@ -14794,6 +14869,25 @@ Section: 插件
 Description: Color your device in a beautiful and elegant way!屏幕周围加一圈跑马灯，贼啦酷！作者并没有对此插件更新，部分机型无效也不用反馈！无效就卸载！由搬运工源LF汉化分享！
 Name: Edge2跑马灯
 Author: Nebbs + Max Bridgland
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.itznebbs.phoenix
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: 搬运工
+Installed-Size: 404
+Depends: firmware (>=15.0)
+Filename: debs/com.itznebbs.phoenix_1.0.4_iphoneos-arm64.deb
+Size: 52508
+MD5sum: 2e46cb8d88c459b8c7b2eec7c7d27b68
+SHA1: 250b5d33bc9d8eaf2117abe41e5189d7c188ba41
+SHA256: 2715ca0a8da8a0d39917d7b2ff7a9748c8cd9ee22d95f7aea237ab32c36e6625
+SHA512: 0fabb395d54fa9e4bb086d05251d569a1cf7b9ff0a3898fa1d1c138c1310fd03087c197c45b4a394a65035ff9e39c0ba82b27f6fe2595c55fabc5c220fcaf067
+Section: 插件
+Description: Collection of classes used in my tweaks.插件依赖-Genesis3插件依赖，Genesis1.4.2版本安装会安全模式，暂时不更新，等待作者解决了，再更新新版本
+Name: Phoenix-插件依赖
+Author: Nebbs
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -15087,6 +15181,25 @@ Description: A modified iOS mediaserverd hook to serve snapshots of current audi
 Name: AudioSnapshotServer-依赖
 Author: Ryan Nair and Nepeta <ryannairtweaks@gmail.com>
 
+Package: com.shadow.fuckthermal
+Architecture: iphoneos-arm64
+Version: 1.2-38
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.3)
+Filename: debs/com.shadow.fuckthermal_1.2-38_iphoneos-arm64.deb
+Size: 279834
+MD5sum: c8b5d02a32ecf9294f09a9aed92be5d5
+SHA1: bc258e086d1de721fc14935007c42f4c65d7cadb
+SHA256: cde958a2de0e35c3973ae5ef85fd90a23104bd7dc611177c199979b18c8d0f82
+SHA512: 29ebef37fbe1f082bc383c281f4f1b1b6cdd99b56cfb255d9e2e65c078ca7becd933a07814e93219aee87d06330844911ed5e3ca156eb3617301fb5d783fd355
+Section: 插件
+Description: 去温控插件，有的网友说有效，有的网友说无效，自行测试哈，不行就卸载！设置中有开启项！
+Name: 去温控插件-Rootless
+Author: Shadow-
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.shemeshapps.notiblock
 Architecture: iphoneos-arm64
 Version: 0.0.6
@@ -15215,6 +15328,66 @@ Author: Spark
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.spark.snowboard.dock
+Architecture: iphoneos-arm64
+Version: 1.1.2~Beta4-rootless
+Maintainer: 搬运工
+Installed-Size: 440
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/com.spark.snowboard.dock_1.1.2_Beta4-rootless_iphoneos-arm64.deb
+Size: 31944
+MD5sum: bb10205e6f6b2e2228eedc12a11575b7
+SHA1: e238c9cf2872ef4394db38f08aab72815d018ceb
+SHA256: d0e1db1cedf6dcbc6bda81832f3719cb701c1c6465fe3f02e48a3cc5319da1ba
+SHA512: 00968d4a33c5b7982e96063f3d1e69e0c07d1a8584f471bc8d548352f9d0b5f0f9a29e4c1d42781ad85b19955e31de1a166ea12fde434e5c7f674224e3371a82
+Section: 插件
+Description: Dock for SnowBoard降低版本号以证明我不劫持依赖，我对你的依赖不感兴趣，为了用户方便才上传，被喷子一直喷，公益免费源，何必如此呢！
+Name: SnowBoard Dock Extension滑雪板拓展-Rootless
+Author: Spark
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.spark.snowboard.fonts
+Architecture: iphoneos-arm64
+Version: 1.0.9~Beta4-rootless
+Maintainer: 搬运工
+Installed-Size: 392
+Provides: com.ipr.bytafont, com.bytafont.bytafont3
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Conflicts: com.ipr.bytafont, com.bytafont.bytafont3
+Replaces: com.ipr.bytafont, com.bytafont.bytafont3
+Filename: debs/com.spark.snowboard.fonts_1.0.9_Beta4-rootless_iphoneos-arm64.deb
+Size: 20586
+MD5sum: 49a91465130477149b0b046b3fa61c88
+SHA1: 320489c7d0ba59e7bd3d5934fce473b86ff4b12c
+SHA256: 82c1598ceb1503c6f751f6730c9c6f623b95bb93fb17cbd80820a090fae94273
+SHA512: 35b49834b03b9d7142ac86e41f07a46556a938876479213a39ad2de0d4be07a052bb34679444c8fc6bcc01e606b7c84cdae0ee054a8bfdd856383951b9a9458b
+Section: 插件
+Description: Fonts for SnowBoard滑雪板字体拓展，降低版本号以证明我不劫持依赖，我对你的依赖不感兴趣，为了用户方便才上传，被喷子一直喷，公益免费源，何必如此呢！
+Name: SnowBoard Fonts Extension滑雪板拓展-Rootless
+Author: Spark
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.spark.snowboard.masks
+Architecture: iphoneos-arm64
+Version: 1.2.1-Beta2-rootless
+Maintainer: 搬运工
+Installed-Size: 340
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/com.spark.snowboard.masks_1.2.1-Beta2-rootless_iphoneos-arm64.deb
+Size: 19028
+MD5sum: a982af47bed973f33dde1484027ec65a
+SHA1: ab5d340e2952065cdaa274a1a9f05b61240a933d
+SHA256: 4ea3cdd309c3f96d3c81a5f45c42dbe8daedbbb614eaf5008acf7babf7850fff
+SHA512: 29bf3dc8bc58edecc7cfd67e9a8889c73f7250cc9180912b1410bc9fcbbc6456be660735e4a4000b308c2f1128d437205046b6ff3f838598965bbf2b88d7940d
+Section: 插件
+Description: Icon masks for SnowBoard滑雪板拓展有需要的安装，不需要的无视！降低版本号以证明我不劫持依赖，我对你的依赖不感兴趣，为了用户方便才上传，被喷子一直喷，公益免费源，何必如此呢！
+Name: SnowBoard Icon Masks Extension滑雪板拓展-Rootless
+Author: Spark
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.spark.snowboard.presetextension
 Architecture: iphoneos-arm64
 Version: 1.1.0~Beta4-rootless
@@ -15230,6 +15403,25 @@ SHA512: 6d47ba5fef2861c3462ae8887d4363747c1510d6ee8ea18927f8faecc9698d4ecce33f40
 Section: 插件
 Description: SnowBoard Presets Extension快速切换保存的滑雪板主题
 Name: SnowBoard Preset Extension快速切换保存的主题-Rootless
+Author: Spark
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.spark.snowboard.settingsicons
+Architecture: iphoneos-arm64
+Version: 1.0.25~Beta3-rootless
+Maintainer: 搬运工
+Installed-Size: 340
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/com.spark.snowboard.settingsicons_1.0.25_Beta3-rootless_iphoneos-arm64.deb
+Size: 17876
+MD5sum: fcd7c0d8a3b2ac84fb846106be3870e9
+SHA1: fa4beef05bc592fa115c3793cf13e353e745ad0c
+SHA256: 27dd996da07ef63de61aa612eeaf5a345a103fe6bf058ff81aa9394eeb07ee7b
+SHA512: f0081bbc06686eca04d1bdbac6df272d6d26f6602bf567c79f27437c3cf4bba7ed9264a3f1d6a819b0820761fb943053be67fbb6a757b9557f30c0edc4722584
+Section: 插件
+Description: Settings Icons for SnowBoard降低版本号以证明我不劫持依赖，我对你的依赖不感兴趣，为了用户方便才上传，被喷子一直喷，公益免费源，何必如此呢！
+Name: SnowBoard Settings Icons Extension滑雪板拓展-Rootless
 Author: Spark
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -15253,6 +15445,25 @@ Author: Spark
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.spark.snowboard.ui
+Architecture: iphoneos-arm64
+Version: 1.2.9~Beta2-rootless
+Maintainer: 搬运工
+Installed-Size: 476
+Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
+Filename: debs/com.spark.snowboard.ui_1.2.9_Beta2-rootless_iphoneos-arm64.deb
+Size: 65424
+MD5sum: 00564108059a3d3963f4e6227a553907
+SHA1: 746f7628f1c49273338941b42688d333e77d01ce
+SHA256: 91a1aa3046fcaa9c51176e7c25dc8b07939cb8f5fe402d02184ec4ffec85ef17
+SHA512: 42bf6416252c7bb575b6a4e442a40e6f1bd4655a1bc10a43c2f66259b77e3dbfed1d2a2e05b6ddfc7b7288468d0570eee214ce0020a128156add2d1744aaee3a
+Section: 插件
+Description: UI Extension for SnowBoard滑雪板拓展有需要的安装，不需要的无视！降低版本号以证明我不劫持依赖，我对你的依赖不感兴趣，为了用户方便才上传，被喷子一直喷，公益免费源，何必如此呢！
+Name: SnowBoard UI Extension滑雪板拓展-Rootless
+Author: Spark
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64
 Version: 1.5.36-Beta4-rootless
@@ -15272,6 +15483,25 @@ Section: 插件
 Description: 降低一个版本号以证明我不劫持，但插件已同步更新为最新版！Snowboard theming engine优秀的iOS主题平台，可以换iOS主题，主题可以添加主题源zhuti.iosios.net直接进行更换，非常的简单！主题源和搬运工源一样，永久免费！
 Name: SnowBoard滑雪板主题平台-Rootless
 Author: Spark & Dennis D. Bednarz
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.spark.snowboardapplication
+Architecture: iphoneos-arm64
+Version: 1.1.0~Beta4-rootless
+Maintainer: 搬运工
+Installed-Size: 992
+Depends: com.spark.snowboard
+Filename: debs/com.spark.snowboardapplication_1.1.0_Beta4-rootless_iphoneos-arm64.deb
+Size: 608004
+MD5sum: 14481c9c956bc82bbce59900537c01d7
+SHA1: c24d00a6adde1e3017941a14ebff8f421b7e0ef4
+SHA256: 7dc9023d148ab3402e1cf1a0ada3ad5c23e29bdcd04a3c407f3e870ab39df48a
+SHA512: 611349b2bb99a3c42cf4b4ba49c098c9d22eeef7012082585bb5f468d5ab2c99b4b1e4dea39af157b832f8958d8b591cf3ba4290906787d5eeb3496659f01862
+Section: 插件
+Description: An awesome application!为滑雪板插件提供一个桌面图标，不需要可以缷载！
+Name: SnowBoard添加桌面图标-Rootless
+Author: Spark
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
