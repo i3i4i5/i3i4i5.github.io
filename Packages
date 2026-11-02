@@ -689,6 +689,25 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/zzfilter.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
+Package: acreson.rootless.cj.gestures15full
+Architecture: iphoneos-arm64
+Version: 4.0b1-1
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: acreson.rootless.cj.gestures15
+Filename: debs/acreson.rootless.cj.gestures15full_4.0b1-1_iphoneos-arm64.deb
+Size: 46778
+MD5sum: d3c9e2e9528ffa2221819e14b2e91dbb
+SHA1: b2f0a309295826abcec1e9d3c637855765d2b095
+SHA256: 8c97c477e6af05999e59db32b87daf7b9cfc92432762d9137081e32eebb334fb
+SHA512: f3ce8c74c98b35b3346454989cae0e0614ae7481dd3e5b9f3d60c2ad84cfb7b409bfc49ebe8dd59ad32a03c644e89bd0b85055e936f614935d27ca3cbada82ae
+Section: 插件
+Description: 给非全面屏的手机提供iPhonex手势和X状态栏，感谢LF分享！如果有问题或者造成安全模式请缷载！
+Name: Gesturesi16FullX手势
+Author: Acreson
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: apt.llld.settingswallpaper
 Architecture: iphoneos-arm64e
 Version: 0.0.4
@@ -1380,6 +1399,24 @@ Author: dvntm
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ipadspringboard.rootless
+Architecture: iphoneos-arm64
+Version: 2.0.1
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/byg.iosios.net.ipadspringboard.rootless_2.0.1_iphoneos-arm64.deb
+Size: 37960
+MD5sum: a516e304e7cfbd1a8baefdd2d5990efd
+SHA1: 44ededd622032096a8279bf64afb5eb868dafc3e
+SHA256: aea0e8c5a268b1193eb1ccbc8620099065ee640f051de1fc72d0aff19ddf24e0
+SHA512: 14fb9ed2696e2385c278f942a1684f1662e7afe1423a6ef63134f6bf4c1f9e676f927f1b807275967b95e286cbf5183b93357c84f3eaa13ee1a038e04d46ec52
+Section: 插件
+Description: 在iPhone上启用iPad风格的多任务界面和Dock栏。
+Name: IPad后台样式
+Author: SWING
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.iphoneduoicon
 Architecture: iphoneos-arm64
 Version: 0.1.21
@@ -1687,6 +1724,25 @@ Section: 插件
 Description: 群管理Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、[每天60s读懂世界]自动发送信息、文字转语音等功能，非常的不错，认准搬运工源更新即可！
 Name: PKC微信助手
 Author: Curtin
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.popoutbuttons
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Filename: debs/byg.iosios.net.popoutbuttons_1.0.2_iphoneos-arm64.deb
+Size: 86602
+MD5sum: 0dc4576c70f40b1723b0b07b459c6ce5
+SHA1: 3d026537806e0289482f906f3d0b29b5379e3c59
+SHA256: fc27780c94c1887f738c3c3122a20a89feb800c11d159e7bb267ef054ed2e2f1
+SHA512: 864cee6906dff98820cdbf2404f9deb4e317299c4f04e6f9a01ebafcf6868b9baf9ff8e0beb586e3f16c1f2c7bbae0819e94682f0378b90849333bc0440565b9
+Section: 插件
+Description: 本插件功能：让你的音量键和电源键每按一次，在手机屏幕里显示动画效果，这是模仿iOS18的一个功能，还可以自定义按钮动画的大小，喜欢的小伙伴们可以试试，感谢M哥汉化插件，搬运工源全体员工向你表示感谢！
+Name: PopOutButtons按钮动画
+Author: tesla_man
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2092,6 +2148,26 @@ Author: huami
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wechat.enhances
+Architecture: iphoneos-arm64
+Version: 1.6-5
+Maintainer: 搬运工
+Installed-Size: 1196
+Depends: mobilesubstrate
+Conflicts: com.wechat.enhance
+Filename: debs/byg.iosios.net.wechat.enhances_1.6-5_iphoneos-arm64.deb
+Size: 484704
+MD5sum: d506f546a2025825edcb6c70e61ebab2
+SHA1: 00fdc4379a85497878bb71f6cc58874ca13c669c
+SHA256: 097ae19eb3a7243c2997703226e1a4174c709cadfc4271206d47ca4d60d9b648
+SHA512: e1bfd1ebd8101b7edeedfef161f78e93847398efe2146f7a0e798feddccd9ca9b48f14b088ad91309493b080a4d0b4414bf7a5599077d5e6ad228efbf4dabb88
+Section: 插件
+Description: 微信增强助手插件，支持聊天按钮布局自定义、隐藏头像、触摸轨迹、后台运行、界面简化、禁用热更新、游戏小辅助等功能，自行体验，一款UI不错的小插件！搬运工源，只做中国第一越狱源！
+Name: 微信增强助手
+Author: 愫茶
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.wechatpurification-rootless.old
 Architecture: iphoneos-arm64
 Version: 2026.04-End
@@ -2146,6 +2222,25 @@ Section: 插件
 Description: 作者朋友需要才制作了此插件.APP设置界面右上角打开插件设置，或者双指长按设置界面。 功能：默认移除一些广告 -- 无水印保存图片-视频-live图 -- 长按复制文案标题(关注板块需要长按外面的视图 里面无效)。搬运工源，永久提供免费服务！
 Name: 小红书图层
 Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.zhifubaobs
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Maintainer: 搬运工
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.zhifubaobs_1.5.5_iphoneos-arm64.deb
+Size: 29494
+MD5sum: 93cc954d295a2fe1d23d569514e33663
+SHA1: 95469606f4651615ef95f93abefc92aa4a42a400
+SHA256: 71fb7621fa5c4317d7266031885cd405aa5d35df5509edf7da2de8fcdd181326
+SHA512: 8ec06e78131c92702103e89afa619b0b9ca610276170e410814bbaf0222791749821fecf36fd198f0320138ed61ab2a00eb2380090c2ce14748705b7c679df18
+Section: 插件
+Description: 支付宝首页，长按任一底栏就可以打开插件设置，更新后需重新设置！插件没效果的解除对支付宝的越狱屏蔽检测
+Name: 支付宝修改步数
+Author: ylr
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
