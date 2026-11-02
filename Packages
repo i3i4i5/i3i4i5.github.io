@@ -1924,6 +1924,25 @@ Author: Dave van Wijk
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.airaw.rootful
+Architecture: iphoneos-arm
+Version: 1.6.1
+Maintainer: 搬运工
+Installed-Size: 12560
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common
+Filename: debs/byg.iosios.net.airaw.rootful_1.6.1_iphoneos-arm.deb
+Size: 11365224
+MD5sum: c0a48099c4dc5300bd658c781e9565d5
+SHA1: ba26f130d3342536f8fdb1d99043c354631a8680
+SHA256: 7a25c40d629dbdef5fdb7895a73fe1f2e11cfcc9aa9ac99a38567af96af6a0db
+SHA512: 348881c1722a74b22f2afc2243de169218835e54d7c41e23d98018909594200d8b2decd24096d3ebdf7d9fdd718baeab7442ff49f13292c70d086ef6b2e393aa
+Section: 插件
+Description: An awesome CarPlay tweak.一款Carplay拓展插件，可以改壁纸，改图标个数比例，有汽车的人会用的到，原价4美元，现在搬运工源免费使用！我没车，无法测试插件是否有效，小组件好像不行！大家可以下载体验一下这个功能菜单，有经济能力的购买正版，支持作者！搬运工源，你最好的家，越狱好帮手！
+Name: Airaw（CarPlay）拓展
+Author: Dcsyhi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.airaw
 Architecture: iphoneos-arm64
 Version: 1.6.7
