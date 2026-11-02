@@ -1241,6 +1241,25 @@ Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.complications
+Architecture: iphoneos-arm64
+Version: 4.1
+Maintainer: 搬运工
+Installed-Size: 3022
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.complications_4.1_iphoneos-arm64.deb
+Size: 928512
+MD5sum: 472a9a8917b780c0ee8299464c2dc920
+SHA1: 9bfce5ccb1c0fa2e2edbec83e99dedbce9dbf328
+SHA256: ee58707f0b111b73e8c76f414d5ad3e747554f9429716e4d76d95a40411b6d2b
+SHA512: 3ee7969d83a0c9a7f71eaf527f3cd66b9573b6b33f3db33415cfc919e6784152bac91bcd1386ffae5f2454e58e0addecc1e8dda99099338541c7345cd08793a6
+Section: 插件
+Description: watchOS widgets on your lock screen锁屏界面仿iWatch手表，由搬运工源群友LF修复支持新越狱，非常的不错，感谢修复如此好玩的插件！感谢感谢！喜欢的小伙伴们赶快试试吧！
+Name: Complications手表锁屏
+Author: Ben Giannis
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.cozybadges
 Architecture: iphoneos-arm64
 Version: 2.2-4
@@ -2106,6 +2125,25 @@ Section: 插件
 Description: Display Notification Avatars for QQ App using iOS15 APIs为QQ来消息通知显示头像信息！可以说是非常的骚气，效果看截图，配合灵动岛岂不是上天！
 Name: QQ头像-Rootless
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.quickactions
+Architecture: iphoneos-arm64
+Version: 1.0.1-3
+Maintainer: 搬运工
+Installed-Size: 468
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/byg.iosios.net.quickactions_1.0.1-3_iphoneos-arm64.deb
+Size: 82158
+MD5sum: 1b635c67dc9b9a6a981030d87526c11c
+SHA1: 2e96d6f5117c4e0a4994fa6386dc9183d659191c
+SHA256: d612674aeec0189b4919008040046d2960e3bcb504dca4143dd15da22e8f181b
+SHA512: e0c5de57c4236bbe8f0e4260c9a8217b72780e1b1a4e03cc2db61682db94aac2b288ac23b79798770cbf7dc414681b074d2f60b7bd06e46216d4c9d09f9a1376
+Section: 插件
+Description: 锁屏界面的相机与手电筒按钮自定义，搬运工源群友思恋变成海基于开源修改编译，添加一些电源操作。小编测试了一下非常的不错，这可是一款很好的插件，非常的棒，有需要的小伙伴们可以试试，效果看截图！
+Name: QuickActions锁屏快捷方式
+Author: Cameron Katri & SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
