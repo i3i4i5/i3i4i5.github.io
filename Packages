@@ -1615,6 +1615,25 @@ Author: PoomSmart
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.appstoreplusplus
+Architecture: iphoneos-arm64
+Version: 0.10.1-5
+Maintainer: 搬运工
+Depends: firmware (>= 11.0), mobilesubstrate, xyz.cypwn.xinam1ne
+Conflicts: com.unlimapps.uaupdatetools
+Filename: debs/byg.iosios.net.appstoreplusplus_0.10.1-5_iphoneos-arm64.deb
+Size: 4593396
+MD5sum: dae8b0f360f11ec53980bb44846a8797
+SHA1: 103aa8fbd36fb970df4012347f1f5f2c7aff8bea
+SHA256: f66feaa8bddd60a7a808606b608aa8230c4807d3f2e3eb6829bac92f6d93d4cb
+SHA512: f70fb595ecf28526b9c5b28c1d20a8f613f0d78db24053bd64e64e5d5a6f3bef98f52fe75b2950faa9594600295df9bfcfbaf629f1bfbb7ca875e0c6ad67d61c
+Section: 插件
+Description: For blocking updates for apps. Downgrading/upgrading does not work.阻止App Store内的软件提示更新，目前是修复支持iOS15系统，所以这个插件需要的依赖非常的多，不建议安装！有强迫症的直接关闭App Store的角标通知即可！另外这个插件降级APP的功能也无法使用，可以用appdata插件代替！搬运工源一直为越狱用户考虑！
+Name: AppStore++阻止软件更新-Rootless
+Author: CokePokes
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.appstoretrollern
 Architecture: iphoneos-arm64
 Version: 0.1.1
@@ -1747,6 +1766,45 @@ Section: 插件
 Description: Most Advanced iOS Call Recorder Ever!通话录音破解版，iOS上一款非常优秀的录音插件，非常的好用！现搬运工源可以免费使用，已汉化，无需再安装汉化插件！搬运工源，你最好的家！
 Name: AudioRecorder XS 通话录音破解版-Rootless
 Author: MainRepo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.audiorecorderxs.cn.hide
+Architecture: iphoneos-arm64e
+Version: 5.1-3
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.audiorecorderxs.cn.hide_5.1-3_iphoneos-arm64e.deb
+Size: 18692
+MD5sum: 2a5bba649e33595cdcbb34beb4ed580d
+SHA1: 0c91918f428336b4fb13a7caf15fbf6cf5574348
+SHA256: 8742c1a9ee7b38a386e0752f36fa6f36865de2bcc1e040fbf8a18fda819ccffe
+SHA512: 6690a86b84ff4a28af063cb324d693932c822d641b47f825aaefd867aa28a2b688e2b99a5ef2a78d4f5dfeb427ed2ab95ea0525e2af702ab825b12cae82cdd57
+Section: 插件
+Description: AudioRecorder XS 简体中文包。为通话录音插件提供中文界面，仅半越狱使用！
+Name: AudioRecorder通话录音中文汉化插件-RootHide
+Author: Sandy0 & 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.audiorecorderxs.roothide
+Architecture: iphoneos-arm64e
+Version: 5.1-4
+Maintainer: 搬运工
+Installed-Size: 6136
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions-roothide, firmware(>=15.0)
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Filename: debs/byg.iosios.net.audiorecorderxs.roothide_5.1-4_iphoneos-arm64e.deb
+Size: 1868794
+MD5sum: 53ec95f263a980bd40b4936fc6d1c15d
+SHA1: 881abf4d49bd0e3cecdb515622bfaba70e3ad0f9
+SHA256: b491788b8309581363bffc9acf9fd6c8f499f2725aa20cb96b351b709efa9c0a
+SHA512: f9ccdb8e58e346f808bde7220a4407a432beb88aa130279b640bd97e14287ff8e7af3b5849c48e547f2d4af5965aa10562011cdea3be9a06e85e48e5e8043330
+Section: 插件
+Description: Most Advanced iOS Call Recorder Ever!通话录音破解版，半越狱使用！有问题请反馈，搬运工源永久免费，时刻接受大家的监督！如果无法安装请去官方源下载https://limneos.net/repo/ 然后再下载本源的破解插件！limneo破解插件即可完成，新版本好像包含了中文，如果无法安装请卸载中文汉化插件！
+Name: AudioRecorder通话录音破解版-RootHide
+Author: Elias Limneos
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1997,6 +2055,25 @@ Section: 插件
 Description: 本插件的作用是让你的APP角标变的灵动起来，就是会动，非常不错的小插件，无设置项，注销即可生效！喜欢的小伙伴们可以入手了，搬运工源，一直免费为大家服务，3年了！
 Name: Badge灵动角标-Rootless
 Author: Phuc Do
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.baiduhook
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Installed-Size: 324
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.baiduhook_1.0.1_iphoneos-arm64.deb
+Size: 113834
+MD5sum: 0598e8f4f166592c779f401d9fe1f48a
+SHA1: 6ec46bd85e8e7594d8ad1160a25ec064277978bf
+SHA256: 9ed28b81a6fe684dedae95849d428db384c0a17c94686011e05315c8adb7eeed
+SHA512: be4e55f2ea510c2390e3983a0c5183a02f136dd1502f1fbc89544026d3403a21d79cabe43101c0851f966a541116f5bac531deffd50356be6c6e0eb045e1a1ed
+Section: 插件
+Description: 功能默认开启 | 移除一些无用的悬浮 广告 板块 移除底部周边-打车-公共交通 | 如果需要某功能 可以长按设置界面1-2秒出菜单自行关闭
+Name: 百度地图优化-Rootless
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3939,6 +4016,25 @@ Author: Soh Satoh,SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.gaodehook.rootful
+Architecture: iphoneos-arm
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.gaodehook.rootful_1.0.0_iphoneos-arm.deb
+Size: 99910
+MD5sum: f4648ed03ea0c386f0b4e42c66891c3d
+SHA1: 2bdca241cab142f1a237192cf5d42601ef68a213
+SHA256: 009f85cc955622ae3eedfc6d9f631864c48595f489992dc13d8aedeaf7c9bf41
+SHA512: 85572256427928f1cf097a7e0c429f96aaf5b83c60f7f079002cbf5872f1e77de75f92640ff7dd047bb5261e04082a319b8c8fe778d69bbfef58200cc9bce35c
+Section: 插件
+Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭
+Name: 高德地图优化
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.gaodehook
 Architecture: iphoneos-arm64
 Version: 1.0.4
@@ -4958,6 +5054,25 @@ Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.limitcharging.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.3-1
+Maintainer: 搬运工
+Installed-Size: 348
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.limitcharging.rootless_0.0.3-1_iphoneos-arm64.deb
+Size: 20066
+MD5sum: 018d0dc5f31df95e8e86a3ff7afdd131
+SHA1: b0f05e9e4ae2e9dd663b82f75a70e89a90a45fcd
+SHA256: 3f7bbac2bcaa4fda4a775ccd71e8d08bc66d375f063be45a7548ffa30e1c0431
+SHA512: 516a7bffd871a4a23f84a5329db19514fd2ef19cbdeb5e9a2629a55c329f5d360236b33ce7146066d86348b67f369b675ce9743c8a6aa8a22373021d6d3f74cb
+Section: 插件
+Description: 过充保护，设备充电上限！锁屏不断WiFi，冲冲冲！请关闭电池健康-优化电池充电再使用！
+Name: 限制充电锁屏不断WiFi-Rootless
+Author: zqbb
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.lindongdaodonhua
 Architecture: iphoneos-arm64
 Version: 1.1.8
@@ -5654,6 +5769,25 @@ Section: 插件
 Description: 很多人会莫名其妙的升级到iOS的beta版系统，过段时间就会弹窗，但为了越狱，又不愿意升级新系统，本插件就是为了解决此问题，有需要的人使用，所以上架搬运工源备份！
 Name: 移除Beta版弹窗-Rootless
 Author: z
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.nocshare
+Architecture: iphoneos-arm64
+Version: 1.1.2-1
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Conflicts: com.devvix.nocshare
+Filename: debs/byg.iosios.net.nocshare_1.1.2-1_iphoneos-arm64.deb
+Size: 9296
+MD5sum: 8e9d359677a12d4d26f11d9efa81fc3b
+SHA1: 13bce057b66ceb8973ac71aa70076e1b4716afd6
+SHA256: 0beb3a19de1cc54ba66c8cea6729d257649291a6a38f4b266ecfde39b48c7d23
+SHA512: f3fab217ef356f977c1c4e9427fec6d783579c2c62b204fa4822e7b2379b05237c27b0c147e31e9a2151afe959639cc31bfeee9be1f07ab859d44a7a76054752
+Section: 插件
+Description: Remove the annoying airdrop and contacts from the share menu.从共享菜单中删除烦人的空投和联系人。
+Name: NoCShare移除共享-Rootless
+Author: Devvix
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -7991,6 +8125,25 @@ Section: 插件
 Description: 一款类似ShortLook的插件，将全屏显示您的通知。当您收到通知时，会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。功能介绍：比如微信，锁屏界面显示App图标及消息详情，边框跑马灯设计，颜色可以自定义。
 Name: Looky全屏通知
 Author: EllaSP
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.trollstore.rootfull
+Architecture: iphoneos-arm
+Version: 2.0.15
+Maintainer: 搬运工
+Installed-Size: 184
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.trollstore.rootfull_2.0.15_iphoneos-arm.deb
+Size: 25268
+MD5sum: 86eabfad936d1c4727ced9e6f993df63
+SHA1: c7853c4b635247718c594b9a3896d0bf9c1e6c36
+SHA256: 2ee4402109f79a6f3611bf650d28967466632bb128ffa7ed1496e9f09d684795
+SHA512: 6e96dda48e4bcaf2a56286a22f840a6b930e60fb368708d44e2733b78b43c108cc3384c81699ebd96824b6929fc02f30f61c5049d35e9c5917669e23701dd792
+Section: 插件
+Description: 巨魔汉化，给巨魔添加中文支持！受不了巨魔英文的小伙伴们有福啦，这样更能弄懂巨魔！
+Name: TrollStore 巨魔通用汉化包
+Author: 妖刀
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -11820,6 +11973,25 @@ Author: Elias Limneos
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: net.limneos.simpleactivationactions-roothide
+Architecture: iphoneos-arm64e
+Version: 0.1
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/net.limneos.simpleactivationactions-roothide_0.1_iphoneos-arm64e.deb
+Size: 10638
+MD5sum: 3b80529fd1198b52026d9f00edffe013
+SHA1: bf6aa1952a2a3afe68fcd190bf1d3fd5009f3b11
+SHA256: c30ea0f8bce9580b1811f7c3c41d97c210616d44b2d35451bdb788f89e379305
+SHA512: f18fc75e254830604ec36700570b5513b248a32b52ebb38b69346e8593d8bf809f38aa3dd3dca2336b19a181a06817f412f59421a178b5f9dfde57e7dd545bda
+Section: 插件
+Description: Simple Activation ActionsHandles StatusBar actions for simple activation events插件依赖，半越狱使用!
+Name: SimpleActivationActions插件依赖
+Author: Elias Limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: net.limneos.simpleactivationactions-rootless
 Architecture: iphoneos-arm64
 Version: 0.1-2
@@ -12028,6 +12200,26 @@ Section: 插件
 Description: 通知动画插件依赖！
 Name: Lottie通知动画依赖-Rootless
 Author: yan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: xyz.cypwn.xinam1ne
+Architecture: iphoneos-arm64
+Version: 2.4-9
+Maintainer: 搬运工
+Provides: emt.paisseon.xinamine (= 99)
+Depends: mobilesubstrate, firmware (>= 15.0), libclang-cpp14, llvm-14, llvm-14-runtime, file, odcctools, ldid, plutil, com.tigisoftware.filza64bit (>= 4.0) | com.tigisoftware.filza (>= 4.0)
+Replaces: emt.paisseon.xinamine
+Filename: debs/xyz.cypwn.xinam1ne_2.4-9_iphoneos-arm64.deb
+Size: 122586
+MD5sum: 1497729d0fb757557f11a196355f21af
+SHA1: 7518b9e626a8691a37ee2cb47ac40d88c7b37906
+SHA256: 7b6dd2f4423713b9a1df58855fa9fa8ef2bf8d0eded9147b28a8668e477687ae
+SHA512: 8fbc3ce555eb46728248bbe908c75db735f2a0bc0882e4d5bb2148cd9bc41dad3728e110ee6c1dd87becf8238f4e8454db5ca740c62e92617b4992fffb67ec33
+Section: 插件
+Description: Xinamine bundle. Includes linker, patcher, 'chex' link checker, 'chix' link fixer, plus other supporting filza scripts.插件依赖包！
+Name: Xinam1ne All-in-One插件依赖包
+Author: Paisseon, Sudo, NoW4U2Kid
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
