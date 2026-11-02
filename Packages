@@ -5920,6 +5920,24 @@ Tag: purpose::uikit, compatible::ios14
 Name: xds文件管理器
 Author: 来了老弟
 
+Package: zhuti.iosios.net.visionos
+Architecture: iphoneos-arm64
+Version: 3.5.1
+Maintainer: 百度主题源
+Depends: com.spark.snowboard.masks
+Filename: debs/zhuti.iosios.net.visionos_3.5.1_iphoneos-arm64.deb
+Size: 10352598
+MD5sum: ec1cc8dcae26f379a90cb39e06beaf29
+SHA1: 75a65542ccae119a46fecad59d28580af5ce2530
+SHA256: b3406c82c28d2e08563a04c7959d76a82f189a24ea1575d4ba6196d646a26476
+SHA512: eefed31978cb4d52d00838423ab4e43afe72678f0ae622e7bea030db0adf467cc85589b2fcb2d05fc074afb97ad9487f7d161bf21ea6d8803087347c21d925d8
+Section: 插件
+Description: VisionOS theme一款和iOS26一样的主题！让你无需升级iOS26即可体验新系统，很多人说iOS26就是换了个主题，哈哈哈，现在的设计师磨砂观感，非常的不错！在全新的 iOS 26 系统中，带来了全新的设计风格。连苹果的高级副总裁 Craig Federighi 都称之为继 iOS7 后，设计变化最大的一次。苹果把这种风格称之为「Liquid Glass」，即液态玻璃。效果看截图介绍！喜欢的小伙伴们可以现在就体验啦！更多主题可以添加主题源免费下载！
+Name: VisioniOS26主题
+Author: Billie
+Sponsor: 百度主题源
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.camera.rootless
 Architecture: iphoneos-arm64e
 Version: 0.1-2
