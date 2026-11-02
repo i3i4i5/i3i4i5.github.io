@@ -1558,6 +1558,25 @@ Author: Torrekie
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.bbbsblhhook
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 332
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.bbbsblhhook_1.0.0_iphoneos-arm64.deb
+Size: 105748
+MD5sum: 63c2c95fb1e4853fcf143e52d13f9728
+SHA1: fc090f6ff6d0766b79e592dbf07f2edc8dc0f3de
+SHA256: 315e51da4d6a6624770b7783c73ddedf960d5343c731d5e201f8f825dbb0e3e2
+SHA512: 6f38e13ae32f1fc82f9a8370d4cb6180aa1f3db349dc58f70c68a93db4a1dd3e5a08e803f8cd8bbe7d8a30cda9da866c7755b8471ce28a3e5dea5a3c7f3b3fca
+Section: 插件
+Description: 宝宝巴士 · 宝宝巴士儿歌 · 贝乐虎儿歌 解锁Svip-感谢嘉嘉为孩子们带来快乐，非常感谢！宝宝巴士是一款益儿软件，AppStore里搜索下载，非常的不错，nice！
+Name: 宝宝巴士·贝乐虎Svip-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.better.bili
 Architecture: iphoneos-arm64
 Version: 2.3.3
