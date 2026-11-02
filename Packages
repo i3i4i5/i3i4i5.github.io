@@ -10908,6 +10908,23 @@ Author: dvntm & SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.showtouch
+Architecture: iphoneos-arm
+Version: 1.0.4-1
+Maintainer: 搬运工
+Installed-Size: 548
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/byg.iosios.net.showtouch_1.0.4-1_iphoneos-arm.deb
+Size: 95608
+MD5sum: b077ef48392590796849c18353a7fd62
+SHA1: 930468c7e6c267926bcc63bb326372ed78b76a91
+SHA256: c690cef4609efb1b232230a41dc58a2967a46c8944d0aafae2b214b8637a7a46
+SHA512: da7358d75bd9d6777ff35b149b935e3544d49866278a3dd8c059d29357c0fbea30666905c0b0d923b831acea4145b56ebc6befded3a0c710829c7ccea46d21db
+Name: ShowTouch
+Author: LonestarX
+Sponsor: 搬运工
+Section: 插件
+
 Package: byg.iosios.net.shuffle
 Architecture: iphoneos-arm64
 Version: 1.6.2
@@ -12179,6 +12196,23 @@ Author: be-huge
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.tiktokhooks
+Architecture: iphoneos-arm
+Version: 1.1-4
+Maintainer: 搬运工
+Installed-Size: 304
+Depends: mobilesubstrate, firmware (>= 9.3)
+Filename: debs/byg.iosios.net.tiktokhooks_1.1-4_iphoneos-arm.deb
+Size: 81446
+MD5sum: d185492e2548cbb4834bcab68174d37b
+SHA1: 9c83f432f592ba526f6df6ba9326d4c42bb6ba9a
+SHA256: ac3184cc7aace599c1391cad8c7b65367ba6d049a033e4ebec5d055d845fbb15
+SHA512: 95710c3fffa5c9cea9aa770e10fb82efbe9609030b4eeb6a267d4c58e5e4a73c56a4a68bc96e345319f52c45a12ef3171a3e96084ac1b55c5347a45f6b113c2e
+Name: TikTok净化
+Author: Netskao
+Sponsor: 搬运工
+Section: 插件
+
 Package: byg.iosios.net.time
 Architecture: iphoneos-arm64
 Version: 1.4.1
@@ -12518,6 +12552,42 @@ Name: Twitter推特 去广告-Rootless
 Author: Netskso
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.twitternoads-rootless
+Architecture: iphoneos-arm64
+Version: 1.4-5
+Maintainer: 搬运工
+Installed-Size: 440
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.twitternoads-rootless_1.4-5_iphoneos-arm64.deb
+Size: 100344
+MD5sum: 4598cc0f5fcbe2f18f409e785fefea7d
+SHA1: eb68953560f3dee222a5f8ac8f1f071708a2d5e6
+SHA256: e2fe632fadcf6096195f310f738026cfe1744c2205cc8627cad72b92496e9ba0
+SHA512: e96772ec02e381d520094eb00fcd41aa7b0bf85524ae28d6a44a72d441e8e4986f14bd17fd8dbbc7f1d09edc3efd91c447af5187480e145aaec5de0b137baadd
+Section: 插件
+Description: Twitter去广告
+Name: Twitter 去广告-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.twitternoads
+Architecture: iphoneos-arm
+Version: 1.4-5
+Maintainer: 搬运工
+Installed-Size: 456
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/byg.iosios.net.twitternoads_1.4-5_iphoneos-arm.deb
+Size: 102416
+MD5sum: 4969f07bad17c8d64274603d0bb6e2c3
+SHA1: 49a3fa1e22b876a65135c97adde6246931883a48
+SHA256: cb922a9e1d2506b41ce66989ec2d48b227a86b9ec3fa34c12197dc56960335df
+SHA512: 4f67329b0f74f669874012542e97aa2f6d7c77f53aa3c6429f4ca532bf46ed35e0ed1d94768a6ba154efcab4b84643cd4593939a3d5897d92824860b36a5b7d4
+Name: Twitter 去广告
+Author: Netskao
+Sponsor: 搬运工
+Section: 插件
 
 Package: byg.iosios.net.txspnoads
 Architecture: iphoneos-arm64
@@ -13400,6 +13470,42 @@ Author: be-huge
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wechatscan-rootless
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Maintainer: 搬运工
+Installed-Size: 160
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/byg.iosios.net.wechatscan-rootless_1.2-2_iphoneos-arm64.deb
+Size: 16278
+MD5sum: 84f2ae8981d688bf4931a6be3d74a89b
+SHA1: 074cd6024ae5794b5ae6842bdc5e557e2c8dc920
+SHA256: f0a61d1902ea8b79352f0b7a993e2e99be1a373f078badc98829369aaa9c1429
+SHA512: a7c1dbd6230f63046209f7ae7395954f1f256b5582816bb0aa4de2ef8f0d05f28a999492498edd8df5f098d3024077d6434fdd869b1133d7738b8d7e688a2e9f
+Section: 插件
+Description: 添加快捷扫码到控制中心
+Name: 微信快捷扫一扫-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wechatscan
+Architecture: iphoneos-arm
+Version: 1.2-2
+Maintainer: 搬运工
+Installed-Size: 144
+Depends: firmware (>= 11.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/byg.iosios.net.wechatscan_1.2-2_iphoneos-arm.deb
+Size: 15762
+MD5sum: d96b4fb638ee55b3bf44ee7178fba5a5
+SHA1: dce2a3072ca68d3adcd3a3abc4e5658a732a0775
+SHA256: 454c0de4825b965284a51621a5d839ea4fe1fbe2d6b2132e9a17997a97de8a34
+SHA512: 228e1bb58326af4ffcbccb40eaac3aac3daac575b72f44c15234b66970abdc4ced4eadad580296aa88ce93c4d03aa67eb6e3cf8a0334e19d02614dacca1348f1
+Name: 微信快捷扫一扫
+Author: Netskao
+Sponsor: 搬运工
+Section: 插件
+
 Package: byg.iosios.net.wechatuiswitchloader
 Architecture: iphoneos-arm64
 Version: 1.1-5
@@ -13455,6 +13561,40 @@ Name: 微信优化
 Author: 热心网友
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.weibonoads
+Architecture: iphoneos-arm
+Version: 1.9-1
+Maintainer: 搬运工
+Installed-Size: 656
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: debs/byg.iosios.net.weibonoads_1.9-1_iphoneos-arm.deb
+Size: 165792
+MD5sum: d659cd0161e64fb6308ae120f37654e9
+SHA1: 7c732464fb2643a96c3be5e230d8ba4d7bf8bb1e
+SHA256: 839ff455e834179833a973739118f1d5c24cee10c2251da8ba695fd24f06360a
+SHA512: 33439dbda03558647e34b651aa96a06b6627f4482aade9565af02bcef4fb1fed0631e883e44d419245061512dc52a316d71b5045c64f7f45290734bb60c701cc
+Name: 微博 去广告
+Author: Netskao
+Sponsor: 搬运工
+Section: 插件
+
+Package: byg.iosios.net.weibooverseasnoads
+Architecture: iphoneos-arm
+Version: 1.1-8
+Maintainer: 搬运工
+Installed-Size: 376
+Depends: firmware (>= 10.0), mobilesubstrate
+Filename: debs/byg.iosios.net.weibooverseasnoads_1.1-8_iphoneos-arm.deb
+Size: 88932
+MD5sum: 3748b703ae20567ecf399ee03e915005
+SHA1: 2cd938f41d547b43f014f9e3f627e3c81fae37aa
+SHA256: d50776578cabc48ac7fb409a9f0e845dfb2b20473be5e373cedd106b1ed76f7a
+SHA512: bd7aa1a45d0e586070c65c3a4c560542dfc0eced58ed80226761b423d7d8713cc4c65ac7c7cc1eb83bf22b04d197653a7397868e8d51b896f91af03a2fb5b46e
+Name: 微博轻享版 去广告
+Author: Netskao
+Sponsor: 搬运工
+Section: 插件
 
 Package: byg.iosios.net.weifeng.rootless
 Architecture: iphoneos-arm64
@@ -17544,6 +17684,46 @@ Section: 插件
 Description: Support for legacy arm64e ABI in iOS 15.0+
 Name: Legacy arm64e Support
 Author: Evelyn
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: org.mr.answeringmachinex-rootless
+Architecture: iphoneos-arm64
+Version: 2.0-2
+Maintainer: 搬运工
+Installed-Size: 2464
+Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin (>= 0.1-158) ,  firmware (>= 11.0), org.mr.unsubsrl
+Conflicts: net.limneos.audiorecorder (<= 1.7-4)
+Filename: debs/org.mr.answeringmachinex-rootless_2.0-2_iphoneos-arm64.deb
+Size: 534160
+MD5sum: 930dcd61442ee72b54123cc98c3059cf
+SHA1: 6a69631d87a22ab3c82d360ff85a73236b659bbb
+SHA256: c7026d324f296915202343e7a611bd3bca33cf92ac1a876cac7e74280ffa9fd6
+SHA512: 973d51f9e966863ee0f766cedaf262d48fe9d214853cd437ac150036f47b2333a922ce7ac0ce048967b2c05efc5cb3526bff0d00624c4055451131d0d9474ef1
+Section: 插件
+Description: 通话应答破解版
+Name: AnsweringMachine XS通话应答破解版-Rootless
+Author: MainRepo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: org.mr.appdatamanagerrl
+Architecture: iphoneos-arm64
+Version: 1.8.2-5k
+Maintainer: 搬运工
+Installed-Size: 9121
+Depends: firmware (>= 7.0)
+Filename: debs/org.mr.appdatamanagerrl_1.8.2-5k_iphoneos-arm64.deb
+Size: 3747164
+MD5sum: 11f31d00f3b9a7ad151f56ed231fc736
+SHA1: ebda809512b045f606b1975d258796a1368e24a8
+SHA256: 3f7147bd1ec805cb403d82b29f3db555c0ecbd7e672664447977da25e9e1548f
+SHA512: 17dc64c1b9209af3705b10d5c8626158986f2c22f1c5e919cd3acaae26cf94869db562795e5bba9145fcaa3a420de6353ee092341e1b1003265c6e2e2d2c7aa5
+Section: 插件
+Description: 备份软件工具
+Tag: purpose::uikit
+Name: Apps Manager软件备份破解版-Rootless
+Author: MainRepo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
