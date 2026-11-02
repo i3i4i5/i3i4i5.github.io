@@ -5398,6 +5398,26 @@ Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wxsmalltabs
+Architecture: iphoneos-arm64
+Version: 0.0.1-5
+Maintainer: 搬运工
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.github.wxsmalltab
+Filename: debs/byg.iosios.net.wxsmalltabs_0.0.1-5_iphoneos-arm64.deb
+Size: 16644
+MD5sum: 87c4e4f1189bc2d5340c922a6a3085e5
+SHA1: 98d7a8f71c9cd41988c6a89be4e7925176c88423
+SHA256: c7d7f3bb1e2540167411a03c1b48752dcfc09b036d1c401ad411279ce6aed9cc
+SHA512: 79172bbccc629759afaec6d3d9322bf08750031749681636e5e6c389b913ee47768edd224efe1d1b169835ccd4a9467b3319775a857bfb20f2ad8183d734c861
+Section: 插件
+Description: 由金手指研发的一款微信底栏悬浮显示插件，效果请看截图介绍演示，个人感觉搬运工源里的Fiona插件更好看！小伙伴们自行选择！在设置能开启功能，找不到请下载微信插件收纳插件。
+Name: 微信底栏悬浮-Rootless
+Author: Michael
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.xhshook.rootful
 Architecture: iphoneos-arm
 Version: 1.1.3
