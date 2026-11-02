@@ -899,6 +899,25 @@ Author: Saurik, Cannathea
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.amber
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Maintainer: 搬运工
+Installed-Size: 304
+Depends: mobilesubstrate, gsc.camera-flash, firmware (>= 13.0)
+Filename: debs/byg.iosios.net.amber_1.2.4_iphoneos-arm64.deb
+Size: 16986
+MD5sum: 6e9c3d1579b7b1ff794607eeb375602e
+SHA1: dc1a857f60dd2bc7de2f1fd5f10ff25b93c3a3d0
+SHA256: 91ca7c3f1ae94dcf796e9dd7624ba6dce84e5b4f21e175a36d17a150784fe9cc
+SHA512: a737d78df2d57acc6862c3ccc1262a481d0880d4fa35edcfea66d08663a82346e468fa81f7a04e433b50d0b105e1d8467001254af91076deadd5250150a88a53
+Section: 插件
+Description: Amber-ify your flashlight LEDs.将你的手电筒色温设置成暖色，效果看截图，搬运工源永久为用户考虑，免费下载！
+Name: Amber暖色手电筒
+Author: PoomSmart
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.appdata-rootless
 Architecture: iphoneos-arm64
 Version: 2.7.5
@@ -1898,6 +1917,25 @@ Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.mshfplayer
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 876
+Depends: firmware (>= 15.0), com.ryannair05.audiosnapshotserver2
+Filename: debs/byg.iosios.net.mshfplayer_0.0.1_iphoneos-arm64.deb
+Size: 498636
+MD5sum: 7563ffeb86d299d02a4131dcbb0bcac3
+SHA1: ac3e28585529480d3f300d26ff6c55aa960f9cb2
+SHA256: 0179ed3594b12e664d224eabe6580ce064cd0a1503c6ca0c6780bde033c68235
+SHA512: dbbfe20f44ce079661e41317e75afa2c1c2064769605e23fd0b68b4e3bcc8acc72aadfbc309d90f26431329f1db28d7eff16ce9077c92bc2f986aeb6ebaffc4e
+Section: 插件
+Description: 手机有声音时会跳动波浪，有偶尔失效的bug，如果造成安全模式了，请及时卸载！
+Name: MashPlayer音乐波浪
+Author: lhh
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.noredirects
 Architecture: iphoneos-arm64
 Version: 2.1
@@ -2226,6 +2264,25 @@ Author: 82Flex
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.siriplus
+Architecture: iphoneos-arm64
+Version: 1.3
+Maintainer: 搬运工
+Installed-Size: 1744
+Depends: dev.theos.orion (>= 1.0.0), com.opa334.ccsupport, mobilesubstrate, firmware (>= 13.0)
+Filename: debs/byg.iosios.net.siriplus_1.3_iphoneos-arm64.deb
+Size: 510952
+MD5sum: 8888a5f96997e6e3bb022a958c69a0e8
+SHA1: d7f0d6f03659516c7d454de8c9f6e20806802d89
+SHA256: 691ac8526847fa364de4ee3c0bb43e55e7608492354a5772c4b14d776cfe67ab
+SHA512: e09d66a517440510a976dae10b5f1d1ecdee19ed58edd12f5b713061dc9e0de782cb5b50b8e1823c745d35f52567abd8cc9e7f9636eb741ea5ff073937fe1521
+Section: 插件
+Description: Replace Siri with ChatGPT/Gemini用ChatGPT或Gemini取代Siri。SiriPlus是用ChatGPT或Gemini取代Siri的一个调整，通过最强大的大型语言模型为用户提供增强的功能、广泛的知识和个性化帮助。需要自己购买API，淘宝或者拼多多。
+Name: SiriPlus智能Siri
+Author: Uckermark
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.snapshottool
 Architecture: iphoneos-arm64
 Version: 4.2-5+debug
@@ -2354,6 +2411,25 @@ Section: 插件
 Description: 一款新的触摸显示轨迹插件。由乌龙工作室 82flex 开发。原价$1.99，现已免费。支持多巴胺无根，支持Relaxin 隐根，支持多巴胺隐根。更好的动画和绘图性能，没有烦恼的触摸阻隔。支持仅录屏时显示，支持多点触控，支持使用图片效果，支持 iPad。支持控制中心一键开关。
 Name: Touch-Viz触摸轨迹
 Author: Lessica
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.trollleds
+Architecture: iphoneos-arm64
+Version: 1.9.0
+Maintainer: 搬运工
+Installed-Size: 224
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), gsc.camera-flash
+Filename: debs/byg.iosios.net.trollleds_1.9.0_iphoneos-arm64.deb
+Size: 77640
+MD5sum: 854b1c3d23fdc1bd753d9309c40c2430
+SHA1: 9c002e3c3d1de23ff16cf7a43fc25c026731ee8d
+SHA256: 38de1695bcd185f99e96b7eaffa045a6765df005dffebe02fb20603947b464b3
+SHA512: 630851e52ab0d589a7871db5f551d6e8e291fabdb3b59cd24492f23854abde32b619902107efb39e26a588f042a2bade8313b99bda79fc5ae072967e1207cb19
+Section: 插件
+Description: Controls flashlight LEDs with eases.手机背面的手电筒有四个 LED，TrollLEDs 可以单独控制每一个 LED,开启，或关闭，或调节亮度。插件安装之后在桌面上有个图标，没什么卵用的插件！
+Name: TrollLEDs手电筒设置
+Author: PoomSmart
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
