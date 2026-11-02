@@ -2333,6 +2333,25 @@ Author: Banana
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.jade
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: 搬运工
+Installed-Size: 1502
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.jade_1.0.5_iphoneos-arm64.deb
+Size: 428322
+MD5sum: 26e561f952d7898d50bee60615670454
+SHA1: 817d8643c741136328c060fc944a4f045e4b2179
+SHA256: f3e8cb0752530f73a9dbeef655ad801944ffa1535606cfa128b9e84a4753bcbd
+SHA512: c6409b4f63e265bc06348c51ced7b458a776b2da2fc0ff87a301c2c042c1a0d7ebd330b567bdd96d5ea22d05049f21653d815feedc1fe5bd98159a6ae5971772
+Section: 插件
+Description: Your control center, brought anew.一款控制中心美化插件，非常的不错，可以缷载一些其它功能的插件了，感谢搬运工源管理购买分享！这款插件非常的好看，给人一种清新的感觉！搬运工源，真的用心在做免费！一个搬运工源就足以！喜欢的小伙们点个赞！万古长青！
+Name: Jade控制中心美化
+Author: Nightwind and thetimeloop
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.jumpselect
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -3098,6 +3117,25 @@ Section: 插件
 Description: Select from additional low power device states省电插件，请看插件介绍截图，至于有没有效，请自测，我也不敢乱说，怕被打！搬运工源一直在免费为大家服务，请多多支持！
 Name: Powercuff省电插件
 Author: Ryan Petrich
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.preferences.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1-103
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.preferences.rootless_0.0.1-103_iphoneos-arm64.deb
+Size: 17958
+MD5sum: 74e413139d77213c6b997704c49b6f7a
+SHA1: e571b27c4b1652e350cf89912fbf5a5d9504fd51
+SHA256: 45154dfc2d7b0f597b8ca9fc466b1de3311cf48b0a67bc485a299dfc450bc2a3
+SHA512: e9c63dad1488e588a867f8cc6fa0de568f8022e23e0ccb69962250ec285f6e455d44093afdf9898ee9e16d336b40a0c9f6c560ec7983d882633aa0b18b71d374
+Section: 插件
+Description: 禁止在设置页面显示维修记录，例如更换电池的提醒、屏幕等；更换第三方电池后，开启显示正常电池健康值；屏蔽关于本机显示未知部件记录；屏蔽设置显示“红1”以及电池更新提醒信息；屏蔽设置系统 OTA 升级显示“红1”提醒信息；本插件免费使用，安装即可生效，无设置；本插件在 16.5 多巴胺越狱环境下测试通过，其他系统自行测试。搬运工源，永久免费！搬你所想！
+Name: 屏蔽设置重要提醒
+Author: xybp888
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4352,6 +4390,26 @@ Section: 插件
 Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保您的设备硬件支持120Hz。系统兼容性：此插件可能与iOS版本不兼容，具体取决于系统的内部实现。电池消耗：动态调整刷新率可以降低电池消耗。插件无设置项，多巴胺里注销即可！可以安装搬运工源里的手机性能显示插件即可看到是不是120hz，搜性能显示即可，并一定有用，无效请缷载！
 Name: Free免费120hz-Rootless
 Author: Rain
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ytlite
+Architecture: iphoneos-arm64
+Version: 5.2b1
+Maintainer: 搬运工
+Installed-Size: 16124
+Depends: mobilesubstrate
+Conflicts: com.dvntm.ytlite
+Filename: debs/byg.iosios.net.ytlite_5.2b1_iphoneos-arm64.deb
+Size: 8005252
+MD5sum: e434da2449bc0c60455afcb1f53af2f3
+SHA1: 9bc051f6fb2258528a5e8a43b58e0e3528493546
+SHA256: b5629b4006773c10a6badc9de678b26734d61c677516a994fb6d771ed1352bd4
+SHA512: 13c60f1186fe4b63c9fe62c214b40801f84a5d2559c5cf53816d3223a1e1f38ee36e86b7d8d5c6ef425ef004a02d0a057be2568da8aaed66adb9b2c2766096a7
+Section: 插件
+Description: 轻量级YouTube功能插件，去广告、后台播放、隐藏投射/通知/搜索、调节播放器等超多功能，已汉化。插件选项位于油管“设置—YTLite”，更多功能请启用“YTLite—版本—高级模式”。经常用油管的小伙伴们一定要下载试试，非常的不错！
+Name: YouTube增强
+Author: dvntm
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
