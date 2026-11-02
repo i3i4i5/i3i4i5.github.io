@@ -4774,6 +4774,25 @@ Name: libnotifications
 Author: CokePokes <cokepokes@gmail.com>
 dev: cokepokes
 
+Package: com.ginsu.gscore
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: 搬运工
+Installed-Size: 4340
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: debs/com.ginsu.gscore_1.1.0_iphoneos-arm64.deb
+Size: 1871022
+MD5sum: b80b7dc1fd0577850b448bbf674858cc
+SHA1: e02463d5de918702befec1ae7490dd2b33714cf0
+SHA256: 7e39f8c155fafd521dab1d15a0f7538cb1eec7a57369951052077322eb87389e
+SHA512: 4579a48ea42ccf7b7c51b17b1c1e96eab6787b4009d6bc09dcc8e2ea36c84c67024c027dbfe46fce1c502bde37b6308d9e9e3716273eb801efe5fb50136bded2
+Section: 插件
+Description: Environment and communication between my tweaks dodo锁屏的插件依赖，用不上的请卸载。
+Name: GSCore插件依赖
+Author: Ginsu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.itznebbs.edge2
 Architecture: iphoneos-arm64
 Version: 1.0.3.1
