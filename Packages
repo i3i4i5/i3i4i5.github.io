@@ -935,6 +935,26 @@ Author: Saurik, Cannathea
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.afns
+Architecture: iphoneos-arm64
+Version: 3.5.9
+Maintainer: 搬运工
+Installed-Size: 5412
+Depends: firmware (>= 15.0)
+Conflicts: com.tencent.xin.dkhelper, com.dkjone.dkhelper, com.afn.helper, com.xiaoxin.helper, com.afn
+Filename: debs/byg.iosios.net.afns_3.5.9_iphoneos-arm64.deb
+Size: 3760822
+MD5sum: d2d92fda39ec5e0e6fb72a1e1cdb68c8
+SHA1: 253660c3a7c43f6e65df66798e6ed71cb7236ee1
+SHA256: f1c1ec19985a686fb5e7a24454d1b1e5afe9061fd134ff9818c6ccb58203bf73
+SHA512: 677ab0099749c42b37c04f85ad98a26bde8e7c51d612a1a9aa110c09200efff35123149ea2a051c721c9d9fdc0f193b3b7addd687d4bc25127dd57c244d652d1
+Section: 插件
+Description: 微信超多功能插件集合在一起，你想要的功能全都有，如果遇到微信闪退，请尝试禁用微信热更新，或者更换微信版本，这款插件基本能满足你所有需要，尽情享受吧，搬运工源，永久免费！请大家多多支持！
+Name: 微信功能大杂烩
+Author: AFN Team
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.amber
 Architecture: iphoneos-arm64
 Version: 1.2.4
