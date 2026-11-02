@@ -1282,6 +1282,24 @@ Author: 7513
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.customwechatnotificationsound
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/byg.iosios.net.customwechatnotificationsound_1.0.0_iphoneos-arm64.deb
+Size: 112920
+MD5sum: 4e0e99d3a00163f9297a0bd32ced3891
+SHA1: f90645fb37a7b69942f4ec5fce82d541951f92bf
+SHA256: e795b5e7a08af8f227417f7ad31bfa56554f80fda1cf0e05891b28c5b45a26ec
+SHA512: 298d690c51241624a133f995342cd2311c637bcf550b1a730f47f20bb509f94149467b37b3bb5955ac470099bf2f3934049c6b07e9a42c7d7f35a783c6f2ee3b
+Section: 插件
+Description: 这款插件可以自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。并不一定有效，无效请卸载，小编测试没问题的！
+Name: 微信通知自定义
+Author: be-huge
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.doutu.rootless
 Architecture: iphoneos-arm64
 Version: 3.1-7
@@ -2182,6 +2200,25 @@ Section: 插件
 Description: 集合的控制中心模块：定位、注销、设置、VPN等模块来自skypain。一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX等模块来自Netskao。实时CPU使用率模块来自SOPPPra。系统运行时间模块来自MTAC。感谢Skypain、Netskao、SOPPPra、MTAC等各位大佬！！！更新増加配合snapper2控制中心快速截图！无法安装请卸载相同类型插件！
 Name: CCLess控制中心多模块
 Author: 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.safarix
+Architecture: iphoneos-arm64
+Version: 1.9.9
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, byg.iosios.net.safarixhook
+Conflicts: com.dao.safarix.cn
+Filename: debs/byg.iosios.net.safarix_1.9.9_iphoneos-arm64.deb
+Size: 404306
+MD5sum: 0f6cf30e079f56223a580da2eb9858a7
+SHA1: 500d79f4fc767e6db00e4767c8afbea4bc1620d4
+SHA256: b2aedb54968d301cbae88bd5ad092b15dca33945d75bd32c3b0219f4eabebe44
+SHA512: d100fea2efa6e3b087319212bd63d7d6e684ff1fc265d1c936aef1fbd91e9c674570ea265171d024dc1945c66a34870b3702d642be8ac87520e33bdbe61884f8
+Section: 插件
+Description: Safari Essential Features感谢搬运工源群友萝卜购买并分享此插件，非常感谢好萝卜！此插件为iPhone自带浏览器增强插件，功能非常的多，使用，强烈建议用safri的用户下载！已添加进刀刀源汉化文件，感谢妖刀，本插件非常的好用！推荐！
+Name: SafariX浏览器增强
+Author: 0xkuj
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
