@@ -5337,6 +5337,24 @@ Author: AnthoPak
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.phoneenhancer
+Architecture: iphoneos-arm64
+Version: 1.7.0
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.phoneenhancer_1.7.0_iphoneos-arm64.deb
+Size: 23462
+MD5sum: a7755eddb1c15a34865304c90e37cea4
+SHA1: 4becabe4c848b2b9e25b10c633136ee1b3b102c9
+SHA256: 14b14385a331a7b293661ddf479d78d90d837c5a781db8c7b490382b48ee3948
+SHA512: aa1bcaaa2c43bc7f5ebccfea1d21690efd6cb930e56f0995ad5d67cd48a8b08d17aad28263711f93ee44f7d61faa6d1f5d71ed231b72f91765b519f0546bea4e
+Section: 插件
+Description: 自带电话应用增强插件，如打开或关闭通话时的振动反馈和彩色通话记录。为每个通话状态分配不同的颜色来区分来电和呼出和未接来电，还不错，算是电话助手吧！
+Name: PhoneEnhancer15电话增强-Rootless
+Author: AnubisTweaks
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.physpringboard
 Architecture: iphoneos-arm64
 Version: 1.9.0
