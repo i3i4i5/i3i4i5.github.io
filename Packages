@@ -7773,6 +7773,25 @@ Author: zqbb
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.limneoscrack-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.limneoscrack-rootless_1.1-3_iphoneos-arm64.deb
+Size: 10530
+MD5sum: aa81082445202f2d412abab1dd76c0ff
+SHA1: 8772cbdeffce258ade21638f995eccc0bc754c77
+SHA256: 8aad6ac324bcc570b71aec94cd1d07a8289a301e5d23a60fe4c6f1c2f52d9f84
+SHA512: 022a5592f79b96852e10412b48b848d07d88229def34d4853b86b3c24e38fd751bebb7f63f263784f4da23023adb02ae825d82b4948cb49bfb01c23cb8fae971
+Section: 插件
+Description: 解锁Limneos所有插件全功能通话录音破解、NFC破解等等，可以下载官方插件，再安装本插件进行破解！官方源http://limneos.net/repo
+Name: Limneos 插件破解-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.lindongdaodonhua
 Architecture: iphoneos-arm64
 Version: 1.1.8
@@ -9179,6 +9198,25 @@ Author: M哥
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.perfectgrabber-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-7
+Maintainer: 搬运工
+Installed-Size: 2116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.perfectgrabber-rootless_1.1-7_iphoneos-arm64.deb
+Size: 836430
+MD5sum: c28d4874c8185594c38e649efd415855
+SHA1: dbb7efb440da35259fd7c5229967b7123266da4d
+SHA256: 62b094116f54b9d608afd6120be55061d7775bd088902601393722a964d51c5f
+SHA512: bfd1ad41931a538f8f9a5af05a575fd2cb15e50dbfaaa0b43d5e3b82c7334c53f3c544e667a45f5c582b96626e66115a55b75a1c51198d8b2a970183fa0cfd85
+Section: 插件
+Description: 在横屏游戏下拉一次时显示时间和电量｜某些游戏不规范会无法唤出｜支持自定义字体颜色｜背景颜色｜字体大小｜字体样式｜震动反馈等。
+Name: PerfectGrabber下拉时间电量-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.perfectxtime-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-3
@@ -9563,6 +9601,23 @@ Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ppxnoads
+Architecture: iphoneos-arm
+Version: 1.4-9
+Maintainer: 搬运工
+Installed-Size: 428
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/byg.iosios.net.ppxnoads_1.4-9_iphoneos-arm.deb
+Size: 103004
+MD5sum: 09cde87b4ef859ed387fc04465233f62
+SHA1: 9c28a347f752df0df9f3281ff11dcb50672b31d6
+SHA256: e4f92fd15e7b2fd4fd9f7e649c40da1c401c1067350877c5dd637bc662ace290
+SHA512: 38fd69daaefdcc4f1f22756e0a4f57a4341c20f45916062e884ebec782c1647bb01cd320b32e164643865298c07aacbd671bfb05a23493f9104e768707a42385
+Name: 皮皮虾 去广告
+Author: Netskao
+Sponsor: 搬运工
+Section: 插件
+
 Package: byg.iosios.net.preferences.rootless
 Architecture: iphoneos-arm64
 Version: 0.0.1-103
@@ -9903,6 +9958,44 @@ SHA512: 8176a48afa5ad7eeee095ec3a91e9e05f1bb1fabe0fd4db758811b03417cf72b11de9902
 Section: 插件
 Description: Display Notification Avatars for QQ App using iOS15 APIs为QQ来消息通知显示头像信息！可以说是非常的骚气，效果看截图，配合灵动岛岂不是上天！
 Name: QQ头像-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.qqpurification-rootless
+Architecture: iphoneos-arm64
+Version: 2.3-3
+Maintainer: 搬运工
+Installed-Size: 1900
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.qqpurification-rootless_2.3-3_iphoneos-arm64.deb
+Size: 1004998
+MD5sum: e782be71b9de24c4ceb8d71706fbd0a7
+SHA1: 1f3cf2fe17850a1217f74120ce26d1f200a14641
+SHA256: 10864207f0bbcc5f7a70719cb1e466c4333487dbc3d99c3f78a9ca991299d33c
+SHA512: 6bdc0a74fd01ba163e4e40d1a62329f5ed81359aa6d04a7acf6dcf393cd34ff3e0b5175d86e1603607b417203767bc4a5472dafadad8605edfb31dc144fc0bc5
+Section: 插件
+Description: QQ净化，去广告！QQ版本8.9.0以上，8.9.58以下！
+Name: QQ净化-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.qqpurification
+Architecture: iphoneos-arm
+Version: 2.3-3
+Maintainer: 搬运工
+Installed-Size: 1900
+Depends: mobilesubstrate, firmware (>= 12.2)
+Filename: debs/byg.iosios.net.qqpurification_2.3-3_iphoneos-arm.deb
+Size: 1006946
+MD5sum: 8f989996a576d5f2206b9aba64d81a53
+SHA1: 00ec95c0721eed9af18cbeeb5181e27e94d99428
+SHA256: 81a317338e1888c904b1d6644007e946e28f02b11744b905d04a61aadd38d0b1
+SHA512: a6162d9c81ff03c6f29a06322f13dcf3036ed8519e1918366abf5256cb68de06a3c85dd5fdab6a1acf48f2036bcc5e348a88037d7229cfb8849929a8838aef41
+Section: 插件
+Description: QQ净化，去广告！QQ版本8.9.0以上，8.9.58以下！
+Name: QQ净化
 Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -17668,6 +17761,24 @@ Description: Click to wake up and double-click to wake up.单击唤醒改为双�
 Author: Netskao <netskao@gmail.com>
 Name: DoubleClickWake-rootless
 dev: netskao
+
+Package: netskao.limneoscrack
+Architecture: iphoneos-arm
+Version: 1.1-3
+Maintainer: 搬运工
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/netskao.limneoscrack_1.1-3_iphoneos-arm.deb
+Size: 4726
+MD5sum: cdb6dfb08da2423e7199eb1c6b59155d
+SHA1: 8dc603957ad36f66dff0ed016f25e974ab0a7c79
+SHA256: 0274480cc6a606235c384444e64db5ddb12ea4e8ca570ea4a3330d4800dfc8c9
+SHA512: 25c1d3b1d3bd91ec5a8d0b0510c0f2ff44bea4227bd3259b9ab69d2c5fdedf272587a10f20effbec4ae54febf0cfc75ef8659dcc7f93f722580ee7e57fb02771
+Section: 插件
+Description: 解锁Limneos所有插件全功能
+Name: Limneos 插件破解
+Author: Netskao
+Sponsor: 搬运工
 
 Package: oldabi
 Architecture: iphoneos-arm64
