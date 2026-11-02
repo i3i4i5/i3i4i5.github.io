@@ -4054,6 +4054,24 @@ Author: dvntm
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.instantalbum
+Architecture: iphoneos-arm64
+Version: 1.5
+Maintainer: 搬运工
+Installed-Size: 1276
+Filename: debs/byg.iosios.net.instantalbum_1.5_iphoneos-arm64.deb
+Size: 757820
+MD5sum: 382110de3af33681afa5664af7403038
+SHA1: d1f1d579b5e0449678c885775876cb322aaf456a
+SHA256: 42d4afc80dfe0d253af37e33a35dd3cd2f54f2e4b90063a823a2dc32a2fa17c7
+SHA512: f87f306cb7533aeb871c635b8fc9e7b0370973e592c61eaad3e87d77193f4de8d3e404ffb8ec6e733deb9de45a9ee5a15900ed822cddc7ce45037d7e7c058655
+Section: 插件
+Description: Your documents in one place这是一块图片便签插件，在桌面任何地方你都可以定住你选择的地方，然后复制粘贴，最多40张！用户可以在小部件中存储多达40个图像，这些图像可以从任何地方访问。从那里，您可以点击想要访问的文档图像，并在全屏视图中查看。在全屏观看图像时，您可以执行移动、调整大小和旋转等操作。
+Name: Docbox图片便签-Rootless
+Author: 0xkuj
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.insulation
 Architecture: iphoneos-arm64
 Version: 0.1.36
