@@ -5034,6 +5034,25 @@ Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.gesturesxv
+Architecture: iphoneos-arm64
+Version: 1.6.1
+Maintainer: 搬运工
+Installed-Size: 2756
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.gesturesxv_1.6.1_iphoneos-arm64.deb
+Size: 2187988
+MD5sum: e68327fb21f54a0d728f91672eb5f91b
+SHA1: 4369bc13b10d1237b327ca1e3ed18bc5bf4095c5
+SHA256: 35563f1753e62d51c7a938727277d180deb262982ccbab39b5efd1f4196d61fc
+SHA512: 50abd0350afeb3657f64d7b6d29a78bb016cd9887ed86d84a8ad36abe3b660ddbcb36c11525bf764e1db5e9f42d78115b68647060953126cc395bda1f5438010
+Section: 插件
+Description: iPhone X gestures brought to older iPhones compatible with iOS 15为旧设备提供全面屏手势，搬运工源已汉化！
+Name: GesturesXV全面屏手势-Rootless
+Author: Ethan Whited
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ghallownetwork-rootless
 Architecture: iphoneos-arm64
 Version: 0.0.1
