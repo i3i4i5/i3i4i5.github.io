@@ -1344,6 +1344,24 @@ Author: Fouad Raheb
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.apphide
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 12.2), com.opa334.altlist
+Filename: debs/byg.iosios.net.apphide_0.0.2_iphoneos-arm64.deb
+Size: 135810
+MD5sum: 80d0c38bf2df15f4ae99c729b8a3e984
+SHA1: 454a2cbfe367198557bb5620d871c3a7249d68a1
+SHA256: 5658687fda5b3c7ee09c63254b3dc9b4fc714616fd1d17a1a6ef1e6718b9e5f2
+SHA512: 43af8d13aa5130e649f0d4944cdacf86728e11a497eed7559a834292ae51062510bc744833bd52639cc44a6899f5bb1abfe9b80eb8f33ae80b065c54e0e7c102
+Section: 插件
+Description: 模仿iOS18的功能，隐藏已经安装的黄色APP，哈哈。本插件可以在设置里隐藏应用使其消失在搜索，资源库，主屏幕上。谨慎开启密码，因为我也没搞懂有了密码之后咋弄，可能你需要清除越狱才能恢复插件设置了，不是重装插件就能解决的！搬运工源，搬你所想！暂无汉化！
+Name: App Hider应用隐藏-Rootless
+Author: Paisseon
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.apppad
 Architecture: iphoneos-arm64
 Version: 1.1.3
@@ -1933,6 +1951,25 @@ Section: 插件
 Description: Make CoreAnimation apps use the highest available FPS. Custom FPS option added by uz.ra (@ChromiumCandy)一款非常不错的免费锁120Hz刷新率的插件，适用于iPhone13Pro以上机型，搬运工源已汉化，插件有设置项，感谢大神免费开发！还有一点说明一下，免费的插件，有些不生效很正常，大家自行测试！
 Name: CAHighFPS120刷新率-Rootless
 Author: PoomSmart
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.caise.siri
+Architecture: iphoneos-arm64
+Version: 3.1.1-9
+Maintainer: 搬运工
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.caise.siri_3.1.1-9_iphoneos-arm64.deb
+Size: 25668
+MD5sum: ed28350d450043b1acb0e98007e27c86
+SHA1: 6f3c023eede54f4517a3c1fcc21d3734e1adc175
+SHA256: 2a9601d568d65775fb80a4743868ed65eec44bd9c43dceaa3dea321bad9171d8
+SHA512: 7081eab187a0c5801ec47160795451a57bef87f994a56e35ec3ed10c48ee0ecea77b5cba9766730475050c6d522ecb7e2c6d13995b579d7e6096e479f0b322ca
+Section: 插件
+Description: 又是一款模仿iOS18的插件，无设置项。安装即生效，它能够在 Siri 激活时在屏幕周围显示彩色边框。这个边框不仅增加了视觉吸引力，还能在 Siri 被使用时提供更加直观的反馈。但是个人觉得没啥卵用，体验体验就好，已体验已卸载！
+Name: Edge个性Siri-Rootless
+Author: tangerine
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2623,6 +2660,25 @@ Author: XUUᶻ
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.dzyjvip
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 1408
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.dzyjvip_0.0.1_iphoneos-arm64.deb
+Size: 424886
+MD5sum: b01866fb20093ce763eadd5b02431427
+SHA1: 98741fecd84bdf6e2dcece9527da9d33645b5086
+SHA256: 1c8d3db8988bf06d71afc5f8ec8c8d33e97c5d343de6d8d5d8ab064ebe20396e
+SHA512: 5b4cac066c2f834eb83b155b82b3a05895c1ba2080a7e550f4e68f20b110f2a023b7dd4c0b55a5656e7e09a5fa3e5fa7efe9d0d11568dc6d3e3af1a4d4e47dc4
+Section: 插件
+Description: 地震预警是App Store里的一款软件，配合本插件介绍会员权限，说不定什么时候能救你小子狗命！
+Name: 地震预警解锁-Rootless
+Author: HW
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.eneko
 Architecture: iphoneos-arm64
 Version: 1.4-5
@@ -2640,6 +2696,24 @@ Section: 插件
 Description: Eneko视频壁纸插件，非常的酷炫！装x神器！搬运工源水友SINI根据开源更好的适配新版本！全中文操作！下载插件之后，去系统设置里开启，选择你需要的视频壁纸，然后点右上角妙手回春注销生效！提醒一下，你用了和灵动岛相关的插件，或者分屏什么的，都有可能导致视频壁纸失效，请自己排查！搬运工源，永久免费更新，欢迎大家多多推广，更新才快！一个抵一万个！
 Name: Eneko视频动态壁纸
 Author: Traurige & SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.events
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 1828
+Filename: debs/byg.iosios.net.events_1.0_iphoneos-arm64.deb
+Size: 1147158
+MD5sum: f526af98f9cce84331d758e19cd3f3e0
+SHA1: 0055e6b20075dba8cb8d7c3d795e0e6783f02ca7
+SHA256: b5ef3b9f2284518994208dec9bc420564770dcb75b8e823999607911e53422b3
+SHA512: c54937c3d624267c2d940c708420962ef94e52130e58eba44745e7bf0472e2dfb91b8194e671c8c9ae9c139989f1b775ce4fc87c352fd8bf9cd37c61cc51b022
+Section: 插件
+Description: 在锁屏界面上，显示将来几天的节日，效果看截图！（汉化：lans233）搬运工源，搬你所想！
+Name: Events锁屏日历-Rootless
+Author: SGWC
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2794,6 +2868,26 @@ Section: 插件
 Description: Floaty：重新构想的你的旗帜。厌倦了杂乱的横幅和错过的警报？Floaty 通过将您的警报作为屏幕边缘优雅的浮动气泡变为现实，从而改变您的通知体验。受到聊天头便利性的启发，Floaty 确保您不会错过重要的事情，让您保持联系，而不会让您离开正在做的事情。Floaty 不仅仅是一个警报系统;它是一个完整的通知中心，围绕直观的手势和深度自定义构建。持久浮动气泡：每个带有新通知的应用程序都有自己的气泡，让您对待处理的警报有一个持久、一目了然的概览。即时通知堆栈：只需轻按气泡，即可立即显示来自该应用程序的所有最近通知的干净堆叠列表。不再需要翻阅一长串混合的清单！
 Name: Floaty横幅通知
 Author: EllaSP
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.folderx.rootless
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: 搬运工
+Installed-Size: 752
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0), com.ichitaso.iconorder
+Conflicts: com.twickd.sirius24.folderplus, xyz.burritoz.thomz.folded, com.yourepo.i0s-tweak3r-betas.foldercontroller14, ca.ndoizo.bolders, com.4nni3.coolfolder, com.lizynz.foldercolor, com.ginsu.4ders, com.iadam1n.statusfolder, gsc.ipad
+Filename: debs/byg.iosios.net.folderx.rootless_2.0_iphoneos-arm64.deb
+Size: 140370
+MD5sum: b4d71368e71fe3a71ff1820757910de1
+SHA1: 1a325281f5439c96e5cb5da16b6769c01401a6c1
+SHA256: 0513298f39bd75e129f38940a838a2023464216ce8cb21bdfb7e24c34edf7cd9
+SHA512: 150eed6d76f280d5fed9cdd18c090e8415326f4ee81d600cd58ad5f3ba92b695535414818687488073e06cb3da6f7e91a5fe5066e39e8b975d4484ab9d5a1804
+Section: 插件
+Description: Allows you to configure folders自定义文件夹，很不错。可以让文件夹透明，隐藏名称，修改圆角半径等功能，非常的不错！
+Name: FolderX文件夹神器-Rootless
+Author: Lizynz
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3365,6 +3459,25 @@ Section: 插件
 Description: 让你的键盘更加花里胡哨！可以改各种颜色！貌似只支持原生键盘，第三方的好像不行！自行测试！
 Name: 键盘DIY颜色-Rootless
 Author: Doki
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.kshook
+Architecture: iphoneos-arm64
+Version: 1.0.6-3
+Maintainer: 搬运工
+Installed-Size: 2784
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.kshook_1.0.6-3_iphoneos-arm64.deb
+Size: 1265122
+MD5sum: 2786e60168bd8d27cec416578b0497b0
+SHA1: a21236bd34854b9a1f5dbc42bbe098fbb3eb62b9
+SHA256: 9b006b3c29b989eed874bef4e59cfd3c0623cbd27a31a975dca11a67cdec151b
+SHA512: 9628c0110312aacaa3b53ae4c0fdca2e14e250f8516c0c6d308961f88ee9229c4321981e27e9a22a468c4f2459fe0940335bcab2595d17b7391cf0d1620196fe
+Section: 插件
+Description: 点击APP右下角-我-右上角三横-长按打开菜单开启功能。功能：移除一些广告|弹窗--无水印保存视频图片。
+Name: 快手图层-Rootless
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4817,6 +4930,26 @@ Author: MoWang
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.scinsta
+Architecture: iphoneos-arm64
+Version: 0.6.0
+Maintainer: 搬运工
+Installed-Size: 1872
+Depends: mobilesubstrate, ws.hbang.common
+Conflicts: com.bandarhl.bhinsta, com.socuul.scinsta, com.hk.bhinsta.cn.rl, com.dao.bhinsta, com.hk.bhinsta, com.hk.bhinsta.cn
+Filename: debs/byg.iosios.net.scinsta_0.6.0_iphoneos-arm64.deb
+Size: 676242
+MD5sum: 5c2cdac00f7f6b92ba3a4f9a822e997d
+SHA1: f3b8f7a13091b99d796e521a1d41de205bd35d9c
+SHA256: 2d13bda35e522bddbb171aed88a4ab58186ca2b1fd19d58332ad70c2d53a74c4
+SHA512: 88cae42abe6f1a01e052c477d0fef96280766bee5bb23dc9758b38d0b167fe2337da7b42d7846a754564005f9c17c8813da5304d4b21f85df2ebce41f5ecec3c
+Section: 插件
+Description: Instagram是AppStore里的一款软件，但是需要翻墙才能使用！本插件功能，可去广告、可隐藏推荐、二次确认、下载媒体等，长按主页面左上角“Instagram图标”进入插件设置，刀刀根据开源直接编译的中文版。搬运工源，万千插件万千源，一个搬运工源就足以！
+Name: Instagram增强-Rootless
+Author: SoCuul
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.sentinel
 Architecture: iphoneos-arm64
 Version: 1.3.2
@@ -5826,6 +5959,25 @@ Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wcenablemomentslivephotos
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.wcenablemomentslivephotos_1.1-2_iphoneos-arm64.deb
+Size: 16526
+MD5sum: 6ba230d773d7a605331ef5a001e30071
+SHA1: 7a8b5995076cb8ae7b5b9331ac6c5a5837ff938e
+SHA256: 2a0cbc172bee9c203304330f4d5b01220911178c4f25d83e7b8fed1e8f77e723
+SHA512: fa6bd98fbb2960e9046ad6fc2c6b090fdd011dce86a53b872d957ac9e2947a25928acbd5aa5e2de75052932a54331a73597ec478a52a0caf594152b52bcea1ee
+Section: 插件
+Description: 微信强制开启朋友圈LivePhoto功能。支持8.0.51/8.0.52版本。提醒：对于伪装或修改微信版本号的无法使用，会导致服务器和本地功能不正常。搬运工源，一直在为大家带来好用的插件，万千插件万千源，一个搬运工源就足以！
+Name: 微信强开LivePhoto-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.wchook.xuanfu
 Architecture: iphoneos-arm64
 Version: 2.2-7
@@ -5996,6 +6148,25 @@ Section: 插件
 Description: 一款非常好玩的插件，安装之后你的微信好友头像会变成圆形，然后旋转起来，非常的有个性，有逼格，喜欢装X的小伙伴们这个插件可不能错过啦！感谢威锋论坛好友分享，越狱有你更精彩，搬运工源谢谢你！
 Name: 微信头像旋转-Rootless
 Author: xybp888
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wechatbanbenhao
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.wechatbanbenhao_1.1_iphoneos-arm64.deb
+Size: 12814
+MD5sum: d8e070fe15d178ffff1f8edd61df1438
+SHA1: 8d90df9b6443325ca7dcd9a37b56c4921ab192ec
+SHA256: 7366a32507662280528359e65f305e31da282b686cee70781753251663d5ef9d
+SHA512: e3c009fc6e67301a3f762f3c9fbb1c3c6f2dbef452ee7d6a1d001727f1de74d45cd4c036301ef8348472671acfc91f62db52f07064e2721385338b555d87146a
+Section: 插件
+Description: 插件入口在设置里，小程序提示要升级微信的，可修改微信版本号为8.0.52，长期修改微信会有问题。用完改回来。路口在我的页面，点击退出微信生效。只能是最新版，不可自定义版本！感谢自由如风！
+Name: 微信修改版本号-Rootless
+Author: z
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8355,6 +8526,24 @@ Section: 插件
 Description: 启用微信8.0.54版本【原图、原视频14天后自动清理 】看好微信版本，低版本不行！
 Name: WCEnable原图自动清理-Rootless
 Author: huami
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.iosrxwy.fanqiehehe
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Maintainer: 搬运工
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.iosrxwy.fanqiehehe_0.1-1_iphoneos-arm64.deb
+Size: 63826
+MD5sum: c3608f8f5bbdfca2687037518a564420
+SHA1: b51615c202b6331663dd2169efe595ec8784033f
+SHA256: e5465405cda68562192c194d6a2414bfc6c96e01978539298b765f5fc0fc87d6
+SHA512: 5da985e595248fd85d416429533e6c843fe40f2f46d95f950adb1fb5cf1a6c800074a0b989ab5f27b8b725f28a45cfe2a19b73678ce60cebc3a8bcb4c3e3350f
+Section: 插件
+Description: 一款破解短剧的插件，貌似支持解锁红果短剧（测试的是6.4.1）、番茄小说、番茄畅听等，感谢iOS宝藏开发！精神小伙们可以试试！非常的不错，爱看短剧的福利！应该只能介绍上写的这三款。一个搬运工源就够了，其它莫名其妙的源都没啥用，搬运来搬运去，还不如搬运工源！插件开发者也可以向搬运工源投稿，免费上架，不收取任何费用！
+Name: 短剧破解-Rootless
+Author: iosrxwy
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
