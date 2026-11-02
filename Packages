@@ -13654,6 +13654,24 @@ Author: NoisyFlake
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.verxina
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, openssl
+Filename: debs/byg.iosios.net.verxina_1.0_iphoneos-arm64.deb
+Size: 10628468
+MD5sum: e62e64120e4302a1c44bb66fdcad0bf3
+SHA1: e1fc87af8ec87520569c44ca414268f80f5d575b
+SHA256: 8a51699fbd77ba979936973f38a63f29454c6c0aff7267cfc2451bbf343bb82a
+SHA512: 8844c181dd7907db372d388a2661acb791f460fc6d46242dfc3f55640d750bad853bfefc4831c946734d3f6149abe9da6504c119764cd3a55c7044ad27f54827
+Section: 插件
+Description: Verxina 是易于访问的扩展坞扩展，允许您打开应用程序、AppLibrary 和 URL 方案、控制媒体、了解电池信息以及从它提供的电池中重新弹出。搬运工源书友LF汉化分享！有问题请卸载，无需反馈！
+Name: Verxina拓展Dock
+Author: uz.ra
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.vfa-rootless
 Architecture: iphoneos-arm64
 Version: 1.2.0
