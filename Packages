@@ -3352,6 +3352,25 @@ Author: Nathan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.dynamicpeninsula.roothide
+Architecture: iphoneos-arm64e
+Version: 0.7-8
+Maintainer: 搬运工
+Installed-Size: 1496
+Depends: mobilesubstrate, byg.iosios.net.limneoscrack-rootless, net.limneos.limtools-roothide, firmware(>=12.0)
+Filename: debs/byg.iosios.net.dynamicpeninsula.roothide_0.7-8_iphoneos-arm64e.deb
+Size: 436462
+MD5sum: fa65734309c15fbcf97e6858094f0212
+SHA1: b2343a7be1eb714f3a52f9f9790038029d65a0ca
+SHA256: aaa137223d7697dd2a2bc6aa31a2e1f5aba4fe4e7f010696d7fdc29435b4934e
+SHA512: a602a15ddd3cb562ca0ee744789eb976533a66ef9cb1d9c9240a9f0e8d20556c96f0599c5a88cc257b526267384da1841310effe1b22e4b9b74a86348a9885c3
+Section: 插件
+Description: Dynamic Island on your notch为旧设备提供灵动半岛，体验乐趣！可能有bug，自行忍受，毕竟不是原生的！半越狱可用！
+Name: DynamicPeninsula灵动半岛-RootHide
+Author: Elias Limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.dynamicx
 Architecture: iphoneos-arm64
 Version: 1.5.1
@@ -3425,6 +3444,24 @@ Section: 插件
 Description: 地震预警是App Store里的一款软件，配合本插件介绍会员权限，说不定什么时候能救你小子狗命！
 Name: 地震预警解锁-Rootless
 Author: HW
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.eggnotch
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Maintainer: 搬运工
+Depends: mobilesubstrate, com.spark.libsparkcolourpicker, ws.hbang.common
+Filename: debs/byg.iosios.net.eggnotch_0.0.4_iphoneos-arm64.deb
+Size: 35470
+MD5sum: b81afe4a2a99d893d9b7240da74d76d7
+SHA1: 3d25e3368d89253419ad4bc7b828a6018ad6fecf
+SHA256: 325f2cca5a7f4cfe8571f9bfe876dc1410598c49925c132e370ef8cf84bd840c
+SHA512: 018a9680da248465734dac8af944ea2300f34cccfd3bdd24d7dfad1beb630bdac3fe3bc470a51b130d3b3378e56098292e074f92d73424394ff86720ce9cb936
+Section: 插件
+Description: Hide the notch on notched iPhones. Choose status bar background color, text color, corner radius, and Y-axis adjustment for newer devices.有些用户觉得刘海屏丑，使用此插件可以进行隐藏！
+Name: eggNotch隐藏刘海-Rootless
+Author: CRKatri, Tesla_man
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3654,6 +3691,25 @@ Section: 插件
 Description: 真皮大佬研发，动态120hz刷新率,提高系统流畅性，支持15-17,对于有bug的进程可以屏蔽处理,对于不生效的app不做额外支持.请找其他替代方案。插件无设置项，安装注销即生效！
 Name: 动态120HZ刷新率-Rootless
 Author: zqbb
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.flex3beta.rootless.56
+Architecture: iphoneos-arm64
+Version: 3.0
+Maintainer: 搬运工
+Depends: firmware (>= 9.0)
+Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog
+Filename: debs/byg.iosios.net.flex3beta.rootless.56_3.0_iphoneos-arm64.deb
+Size: 24373724
+MD5sum: 6d08a4caf24cf1bea530c84361e612bf
+SHA1: f7530201c065fe1d1c6c4c4aa1f19d7831bdcb40
+SHA256: 4bab11fd09c9d819f591822ac0ab4708617500d49e54b53fe05e1a4b7a2654a7
+SHA512: 1df1af5eb7270712923f368ce7abcbcf9cfb0ce5ca828ba43ea3afad34e16fd92cb9057eb3206c59c27366eb1e5d38d5b21fe751c3aa1158bea00d983e922bb9
+Section: 插件
+Description: Flex 3 beta 56 for Dopamine & Palera1n by DXcool223Develop your own tweaks and share them on the Flex Community Cloud尝试适配多巴胺2，兄弟们冲吧，installed里选择软件报错无需理会，直接搜索补丁即可！如果打开闪退的话就进入系统设置里的显示与亮度，关闭粗体显示！免费账号每天可下载2个补丁，此账号可无限下载！sundasheng521@qq.com密码7758521a
+Name: Flex 3 Beta 去广告及破解修改器-Rootless
+Author: John Coates
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6500,6 +6556,24 @@ Section: 插件
 Description: A modern (and safe) Upscale alternative!不是特别需要的人，请谨慎使用该插件！Description: 现代（且安全）的高档替代品！状态栏、分辨率修改神器！唯一个可以完美实现X状态栏的插件！选择828像素即可实现！
 Name: Re:Scale分辨率修改
 Author: Sniper_GER & Nezuko
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.resentment
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 14.0), firmware (<< 16.0)
+Filename: debs/byg.iosios.net.resentment_1.0_iphoneos-arm64.deb
+Size: 133210
+MD5sum: 6cba40941e3cbee202b86384091b5b9a
+SHA1: d128bbc6e12c7d18307d07d8264b3168c8a8daf1
+SHA256: 1d821f02d52b936ca12ed9ef08ae1407225e8f7dd1e0584d9679ad9f68928224
+SHA512: dd6d9295cd2f96c16d6654564fb2339039315cb91bc58ebe9bb8af1936de605ce4c430e953c8c836c2ec6b72ecd96d12d0bb38ddcf12e55480490bcbd78bcdb5
+Section: 插件
+Description: Bring iOS 16 LS music player to older iOS! Cracked by CBZ又一款播放器美化插件，需要的可以下载使用！
+Name: Resentment播放器美化-Rootless
+Author: uz.ra
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -11281,6 +11355,24 @@ Author: SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.snail.airdrop16
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: 搬运工
+Depends: mobilesubstrate, byg.iosios.net.snail
+Filename: debs/com.snail.airdrop16_1.0.3_iphoneos-arm64.deb
+Size: 249012
+MD5sum: 0fa2df499119eef48ae009ef2664cc75
+SHA1: 1a3bcecbd4d3f0ad4dd14da4eddf46de6574df22
+SHA256: 4c66fe789116251c79841ed5af7810dcbe15019afb4e28e47ec3d81386bdbf34
+SHA512: c6ede9ffe4bc8ab0bdbc3947f81e63c79882beef9e2dfa43e27d4c964e9bd739931279e02c0ff5cc5e8e6e33053d2fd6cf6d54474570472d0c605bc0ba11710c
+Section: 插件
+Description: Set a time limit for AirDrop's 'Everyone' mode, similar to iOS 16, but more flexible. Cracked by CBZ!隔空投送优化插件，同样是一款鸡肋插件！自行测试！
+Name: AirDrop16隔空投送优化-Rootless
+Author: Snail
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.spark.snowboard
 Architecture: iphoneos-arm64
 Version: 1.5.36-Beta4-rootless
@@ -11469,6 +11561,25 @@ Section: 插件
 Description: Function: Allow third-party input methods in any password box。***强制第三方输入法（键盘），作用：在任意密码框可允许第三方输入法输入（银行等特制键盘除外），20240104:更新版本号。***
 Name:  强制第三方输入法-rootless
 Author: 来了老弟
+
+Package: net.limneos.limtools-roothide
+Architecture: iphoneos-arm64e
+Version: 0.1-14
+Maintainer: 搬运工
+Installed-Size: 228
+Filename: debs/net.limneos.limtools-roothide_0.1-14_iphoneos-arm64e.deb
+Size: 32908
+MD5sum: af288570f342a44a2591cd74d3a0ea66
+SHA1: 1e8556988b96bc18c9ef9143890f885fcc396750
+SHA256: 7e168ecef3684aac15211324792cd6d85cccc722d6cfb9bdff885a06e61d1a86
+SHA512: 2a8a07cd9a788032aa8d4abb8930376a14601e353196b12aa58f3657a74f718dcfed8e76b43e7174720fc80ba29c548a53a9f64d5ae3d8aa1968b8a3d8f1439d
+Section: 插件
+Description: Supplementary tools for Limneos Tweaks插件依赖
+Tag: role::hacker
+Name: Limneos Support Tools插件依赖
+Author: Elias Limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: net.limneos.simpleactivationactions-rootless
 Architecture: iphoneos-arm64
