@@ -2681,6 +2681,26 @@ Author: XUUᶻ
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.designer.rootless
+Architecture: iphoneos-arm64
+Version: 1.4.7
+Maintainer: 搬运工
+Installed-Size: 18396
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.hk.designer.cn.rl
+Filename: debs/byg.iosios.net.designer.rootless_1.4.7_iphoneos-arm64.deb
+Size: 14013606
+MD5sum: 106145944031ee62f48d926951f1717a
+SHA1: 97d8488da7d565fc588d502ae62089fb62b085c4
+SHA256: ad7289371b418305756bcb0007eea6a0cfff17020dcda75850175937f60032b5
+SHA512: 5696ccb75913cb3cf8bf1fb7eaa5fe3a271198988b3a77288f2d743f41fffecf1ba310ff18ccfdf16f668e808cbbb1bf714139d7a21a8e33259d06ce94327f9a
+Section: 插件
+Description: 感谢妖刀汉化！在锁定屏幕和主屏幕的小功能，主题选择或隐藏某选项。插件已汉化，无需再安装汉化插件！主题非常的好看，自己制作，或者找人要都可以，自行体验！桌面小组件也支持呢！
+Name: Designer锁屏美化-Rootless
+Author: JunesiPhone
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.desktoplyrics
 Architecture: iphoneos-arm64
 Version: 0.3.9~b1
@@ -3825,6 +3845,25 @@ Author: Geometric Software
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.intolivehook
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 188
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.intolivehook_1.0.0_iphoneos-arm64.deb
+Size: 61208
+MD5sum: c0ca47d32e4433b61787170cb8a2c69e
+SHA1: d48f22e4bd37d7b561886d0dce171666fc5d96a9
+SHA256: 37a625af9fb0fd0a7f8c7f06a8a02bc4bcc2b8cedb95e10a7c19562b5af3c2db
+SHA512: 23b5fdbc9486f96a47d5f4a2c3729e3de9a44b96b83bd4cd8ddbc16373821ab9bb95c3829ef4e46564d56ea705c52146537839b9819c41e08647132ec76ba84a
+Section: 插件
+Description: intolivePro是一款视频编辑软件，需要在App Store里下载，本插件解锁会员权限。
+Name: IntolivePro解锁-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ios15xhome
 Architecture: iphoneos-arm64
 Version: 1.3-1+debug
@@ -4276,6 +4315,25 @@ Author: dylv
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.liveactivities
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: 搬运工
+Installed-Size: 1144
+Depends: firmware (>= 14)
+Filename: debs/byg.iosios.net.liveactivities_1.0.5_iphoneos-arm64.deb
+Size: 372614
+MD5sum: 7c13b056e0cac257a5d501087e340bd2
+SHA1: 721da89172273cc090e208fd698d7cac8f8d7dd2
+SHA256: 2457e3e766c39b04f63a2d63363d7932361ef52cf7ba7ea2f6b7a23877cd5a0f
+SHA512: 66a89f96d8da4d4908654757fa9cf3ed49c486a7de869ae048dd7ea07ef4f21a16c2b1a32eb99126a5096bc70e63efd9c87517265fc1b22d451590fc1d1b7017
+Section: 插件
+Description: Tweak inspired by iOS 16 with live activity timers on your lockscreen锁屏增强！本插件的作用是为iOS15以下的旧系统锁屏提供实时模块，就是你开启了计时器锁屏之后能看到实时在动！应该可以像iOS16一样的感觉，原价2.99刀，有能力请支持作者！搬运工源已半汉化，没精力更新汉化！介绍截图是用了aimpro插件和souvenir插件才那么好看！
+Name: Live Activities锁屏增强-Rootless
+Author: 0xkuj
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.lockglass17
 Architecture: iphoneos-arm64
 Version: 1.4
@@ -4671,6 +4729,42 @@ Section: 插件
 Description: 不要50块，不要40块，也不要30块！免费使用！原生岛通知，从简即可。仅仅支持iOS16.0+！至于是不是原生岛，仁者见仁，智者见智，搬运工源小编不参与讨论！
 Name: NI-notifier原生岛通知-Rootless
 Author: sunshinesong
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.networkmanager
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Maintainer: 搬运工
+Depends: firmware (>=15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/byg.iosios.net.networkmanager_1.4.2_iphoneos-arm64.deb
+Size: 59322
+MD5sum: 48cb4f422e776bebf2c49e5f4ae683b2
+SHA1: 28f44b963cc74a9c4309f047a781376ae2322661
+SHA256: 2186955810239d36e780741d87c90541c397875530888c33c822626c32333075
+SHA512: 94bbd06beac5c26a7b6f29942f563bd4578c138ce7b91870ea5442c12434089fcfabc6827b5c88657036bd1ff738037504d222c684f64132a2c6a656cb7d73a3
+Section: 插件
+Description: Force 2G/3G/4G/5G connection from the Control Center可以在控制中心便捷切换2G、3G、4G、5G、LTE等等网络模式，下载插件之后去控制中心添加然后注销即可！
+Name: NetworkManager切换网络-Rootless
+Author: Cypwn
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.nextalarmsx
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<17.0), byg.iosios.net.sleeperx (>= 3.0.0), preferenceloader
+Filename: debs/byg.iosios.net.nextalarmsx_1.0.0_iphoneos-arm64.deb
+Size: 119508
+MD5sum: 24475b8d670fcefa9f0c89283f698b91
+SHA1: 22e983f4f128d57267f27e2ca3cf17495dc5735b
+SHA256: 78215040861d6712c6a048174d1a829a67cb67df4387ec81f64793fc3a8d0340
+SHA512: 9943fdc244519e6487f2ea8e1d4345592158d39732840553519dd3a41970a824d97246958781dcd91a514f3ec28c6c13d7b7567072f13f63aec1c7c365c79e69
+Section: 插件
+Description: An add-on to SleeperX that will display the next alarm on the lock screen and the time until an alarm will fire within the Clock application.一款闹钟优化插件，需要配合sleeper插件使用！暂无汉化，因为源主没精力，可以耐心等待更新！
+Name: NextAlarmSX闹钟优化-Rootless
+Author: Joshua Seltzer
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6262,6 +6356,26 @@ Author: Crassna
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.storeswitcher2
+Architecture: iphoneos-arm64
+Version: 1.1-4
+Maintainer: 搬运工
+Installed-Size: 460
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.lenglengyu.storeswitcher2-rootless
+Filename: debs/byg.iosios.net.storeswitcher2_1.1-4_iphoneos-arm64.deb
+Size: 181736
+MD5sum: 0f6fc2b4d232fb95cd5810d8259c9b9b
+SHA1: 2b8fb41d19ce8112209c548eafb29f45f1003bc2
+SHA256: fa121068e2f433a941670e43c786499d398cb5e13e4bd183af423f75206e3fe7
+SHA512: 44790b0d1ac99314d3cbb6139dfbbdb6239d031ef3de7cab5e177a9693a17fcf29ad73cba7ab4dcfa9e03806fcc507bef9950bba35bca32afb3dc4c6164208d4
+Section: 插件
+Description: App Store帐户页面中快速切换帐号，如国区、美区。安装之后如果有冲突，安全模式，或者APP不能下载或更新，请缷载，然后重启手机！使用方法：长按App Store
+Name: AppStore账号切换-Rootless
+Author: Netsko
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.suawemehook
 Architecture: iphoneos-arm64
 Version: 1.3.8
@@ -6353,6 +6467,24 @@ Section: 插件
 Description: 小红书调整，插件设置项要到-关于页面-双击版本号启用。隐藏热点、加号、消息，无水印保存图片，视频，Live photo暂不支持！感谢苏苏开发好的插件，搬运工源，永久免费更新！快人一步，认准中国搬运工！
 Name: SuXHS小红书优化-Rootless
 Author: susu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.swipedownscreenshot
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 168
+Filename: debs/byg.iosios.net.swipedownscreenshot_1.0_iphoneos-arm64.deb
+Size: 6880
+MD5sum: eae2348aa322b1a30ea3bab93619e138
+SHA1: fb956fb522652a7d4749ea85835a510585dd0c0a
+SHA256: 7a99cd931528d02eeadd677c1bd4f36aa6f7d32066a9003de3621a9b668b2f73
+SHA512: a8bbdc08da5759d57bde9ce7cf7e387b9ebea0168db51b08d7bdbcd7603e957eab2abe75cdeadc2cbd7b557fb2d71b285fa6e967e22042ec72b990cbd1c73bb1
+Section: 插件
+Description: 双指从任意地方的手机屏幕顶部下滑，即启用截图，无设置项。由M哥开发的一款非常不错的插件！
+Name: 双指下滑截图-Rootless
+Author: M哥
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
