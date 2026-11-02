@@ -877,6 +877,28 @@ Author: 机车主&来了老弟&iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.afc2d-arm64
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Maintainer: 搬运工
+Installed-Size: 343
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2, com.cannathea.afc2d-arm64
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: debs/byg.iosios.net.afc2d-arm64_1.2.1_iphoneos-arm64.deb
+Size: 22654
+MD5sum: 9306b27a862801c335319037f4ced51f
+SHA1: bccbbc60361da13121f3e7cdded944ae8cd254ec
+SHA256: f69fdd4988f79a4bc907f0946a726540401eca3f8962c90fc4a078c27b5e65d8
+SHA512: 21366b018c98f3efa39b018091a7eedcb1feb41d78f0dbd3c34eddc9966d53a30324f0b194e2ae7cc3046706363319d1183d565aa8eaa0a69a637f2cba41335d
+Section: 插件
+Description: 允许设备通过USB访问完整的文件系统，对iOS11及更高版本的设备特别有用。神秘大佬修复支持Rootless。
+Name: AppleFileConduit2电脑访问手机文件
+Author: Saurik, Cannathea
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.appdata-rootless
 Architecture: iphoneos-arm64
 Version: 2.7.5
@@ -1686,6 +1708,26 @@ Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.noredirects
+Architecture: iphoneos-arm64
+Version: 2.1
+Maintainer: 搬运工
+Installed-Size: 832
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy
+Conflicts: com.82flex.noredirect
+Filename: debs/byg.iosios.net.noredirects_2.1_iphoneos-arm64.deb
+Size: 143188
+MD5sum: 80694af5a5e9beb04af793f717d35f43
+SHA1: 8b70b47dbc5e25c33fd8fbef01735df1502f046d
+SHA256: d9417d395154b6b9e9032001b986ebda574df0208889e3412b499d1c6b876ddb
+SHA512: 9ede633221567e45614019fd1de2d5a5fdd3a448db210185aaff434271ca513612c1535f59d4c28daa5b2254cffcf0e37cae591754031c8c13fbb401b8abead5
+Section: 插件
+Description: 阻止指定的应用重定向到 App Store、Safari 或其他应用。意思就是防止打开这个软件弹出了广告突然让你去下载另一个应用，或者打开浏览器链接，一款还不错的小插件，需要的用户可以试试！
+Name: NoRedirect禁止跳转
+Author: Lessica
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.physpringboard
 Architecture: iphoneos-arm64
 Version: 1.9.0
@@ -1784,6 +1826,25 @@ Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.quickpowerbutton
+Architecture: iphoneos-arm64
+Version: 0.0.1-38
+Maintainer: 搬运工
+Installed-Size: 620
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.quickpowerbutton_0.0.1-38_iphoneos-arm64.deb
+Size: 167824
+MD5sum: 42442e1de2e1647e950f435cbd8134c4
+SHA1: d3b7ad6c758f18e2e44ba20eeb6dbd795a2291bb
+SHA256: a0167526af92e14e45d2d80891bcbdfff6093184a855dfca75d0f4bc2868b547
+SHA512: 4c3bb1a922e3cdb606301e11237189b1a2f964e9f241f8782c6332fb1eb3988549756e25e1a1a6ca75a660ab7227bd3f64b3f73c50764f109946b9a7a5154ba3
+Section: 插件
+Description: 在锁屏界面手电筒与相机中间添加一个快捷按钮，点击后弹出电源选项，效果看截图。由搬运工源水友SINI开发，非常不错的一个小插件，赶紧入手试试吧！
+Name: QuickPowerButton电源弹窗
+Author: SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.rainbowkeyboard
 Architecture: iphoneos-arm64
 Version: 1.0.26~lite4
@@ -1837,6 +1898,25 @@ Section: 插件
 Description: Awesome tweak for Twitter去广告，视频下载，自定义设置，插件设置位于推特设置顶部！一款综合性能比较强的插件，有需要的小伙伴可以下载试试！
 Name: BHTwitter推特优化
 Author: Bandar Alruwaili
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.rootless.cc
+Architecture: iphoneos-arm64
+Version: 2.1-1
+Maintainer: 搬运工
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless
+Filename: debs/byg.iosios.net.rootless.cc_2.1-1_iphoneos-arm64.deb
+Size: 1621166
+MD5sum: 64820f5760043d3892815690648b530a
+SHA1: 09c5aac85fc3b9cac611d502a97d8703ebf152ff
+SHA256: 60d14c1e29fbf0588d38c81e2a3873c9528c135291a62c5f3f1800b3ec48a42d
+SHA512: 95e44b98f7fdef89c029b4193ad4ed14331d4ffaafe94d920cc773b4f673bac2b2786acbd278623c9f26c4807186b6187a3b23381c5b650933da1f5fb67ed882
+Section: 插件
+Description: 集合的控制中心模块：定位、注销、设置、VPN等模块来自skypain。一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX等模块来自Netskao。实时CPU使用率模块来自SOPPPra。系统运行时间模块来自MTAC。感谢Skypain、Netskao、SOPPPra、MTAC等各位大佬！！！更新増加配合snapper2控制中心快速截图！无法安装请卸载相同类型插件！
+Name: CCLess控制中心多模块
+Author: 妖刀
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1914,6 +1994,26 @@ SHA512: 34e531987a0869c712df67e30c7027f60fdcca9455d3725bcb0e95d6c454e919a4cbdeac
 Section: 插件
 Description: 听说这是一位越狱爱好者自费500元定制的插件，感谢其无私奉献，插件作用是在状态栏左上角显示静音图标，如截图所示，有需要的小伙伴也可以下载试试看，是否物超所值！
 Name: Single Mute静音图标
+Author: 82Flex
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.singlevpn.green
+Architecture: iphoneos-arm64
+Version: 2.1-2
+Maintainer: 搬运工
+Installed-Size: 420
+Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: com.82flex.singlevpn, com.82flex.singlevpn.orange
+Filename: debs/byg.iosios.net.singlevpn.green_2.1-2_iphoneos-arm64.deb
+Size: 55816
+MD5sum: e859e5233513eb133928324641875106
+SHA1: 5fb85e2fc63d54526c4c61a2453f29d7cf19ff3f
+SHA256: 022468eb3317298247c3eef87019f11424de83be2ebf5bfc3d3f14894a9886b7
+SHA512: f061ba6fcbbf19a5b9e15bb5feb8e18983ea6e7b110fb256fc51643687b70bd88c6f5ce7e19ba11db6ec4bd74df35bc3d2ae5c02f88da1cac815dabf7afc11d9
+Section: 插件
+Description: 连接 VPN 时，Wi-Fi 和 移动数据图标着色，插件有设置项，可以自己选定颜色，非常不错的一款小插件 。搬运工源，搬你所想！
+Name: Single VPN图标变色
 Author: 82Flex
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -2222,6 +2322,25 @@ Section: 插件
 Description: 作者朋友需要才制作了此插件.APP设置界面右上角打开插件设置，或者双指长按设置界面。 功能：默认移除一些广告 -- 无水印保存图片-视频-live图 -- 长按复制文案标题(关注板块需要长按外面的视图 里面无效)。搬运工源，永久提供免费服务！
 Name: 小红书图层
 Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.xuanhua120hz
+Architecture: iphoneos-arm64
+Version: 1.0.0-11+debug
+Maintainer: 搬运工
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/byg.iosios.net.xuanhua120hz_1.0.0-11_debug_iphoneos-arm64.deb
+Size: 37664
+MD5sum: b40b73d9deae1945d2c5efe532088ec1
+SHA1: 646428c862e515fca6685f2bad6813b2661041cd
+SHA256: 74eac015ecbb996cac9f024efafef990ed684d177edc20e8404aee023b931139
+SHA512: 7bbab08fbb576016a4eafb6890829184711405fedf71354b8da1394d2ec77dfd0a34c836187d26fe079b5fb7a78aec25a7c7a02eace5fb2bec568a7a75db8875
+Section: 插件
+Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保您的设备硬件支持120Hz。系统兼容性：此插件可能与iOS版本不兼容，具体取决于系统的内部实现。电池消耗：动态调整刷新率可以降低电池消耗。插件无设置项，多巴胺里注销即可！可以安装搬运工源里的手机性能显示插件即可看到是不是120hz，搜性能显示即可，并一定有用，无效请缷载！
+Name: Free免费120hz-Rootless
+Author: Rain
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
