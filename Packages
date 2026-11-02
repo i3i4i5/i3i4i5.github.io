@@ -832,6 +832,25 @@ Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ColorfulCubes
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Conflicts: com.wechat.ColorfulCube
+Filename: debs/byg.iosios.net.ColorfulCubes_1.0.5_iphoneos-arm64.deb
+Size: 2902632
+MD5sum: 551add5d980c03513e73d3e1b84bda02
+SHA1: c23e57ecae340cd6329525bb631ea46e74cde1fe
+SHA256: f7b07a3b975333f3dcbf29bbae967716a47371545fe6d03f86214230162d309c
+SHA512: c351939e8f910ca330080a3ff917c123bf29166bb2474f383401b15d5314569cef4f3d491da790598bbe73aa3ff997c3daa178fd2797f0591bbfaed41b503e21
+Section: 插件
+Description: 让微信焕发全新光彩，灵动方盒让你的微信有丰富多彩的体验！微信美化插件！好像要授权，大家自行体验！
+Name: 灵动方盒-Rootless
+Author: Seasons & huami
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.HBWechatHelper.rootlless
 Architecture: iphoneos-arm64
 Version: 2.1.5
@@ -1000,6 +1019,26 @@ Section: 插件
 Description: Make keyboard color adaptive to app color.键盘颜色根据APP颜色自行调整，个人觉得，呃呃呃 不好看 哈哈哈哈。搬运工源，万古长青！
 Name: 键盘颜色自适应
 Author: Dcsyhi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.adsspee-rootless
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Maintainer: 搬运工
+Installed-Size: 620
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lenglengyu.adsspeed
+Filename: debs/byg.iosios.net.adsspee-rootless_1.1.3_iphoneos-arm64.deb
+Size: 170900
+MD5sum: e16cae087bdc88eee4949cb5c8d87771
+SHA1: a9d3e2bdf3e18710234233c996664fc8dd9406b1
+SHA256: b3b3d098eead50d92151223df6fdedd1a77bd8e247951b7bf2899aa2b2317903
+SHA512: 6124540c7eabb9de9bdbc1deabac4d80f024873ab196cfe29fa3bdaebdab94ae8bad32c43194d6377e03cc2dc2f07b82500ce9c9c4e5cf612488864a239f44a8
+Section: 插件
+Description: 快速跳过激励视频广告，奖励正常领取。例如微信小程序、抖音小程序等等，桌面图标长按！不一定什么软件都有效，无效就缷载！
+Name: 快速跳过广告-Rootless
+Author: lly
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1597,6 +1636,26 @@ Author: therealhoodboy
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ccborder
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Maintainer: 搬运工
+Installed-Size: 464
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
+Filename: debs/byg.iosios.net.ccborder_1.1.2_iphoneos-arm64.deb
+Size: 57116
+MD5sum: aeb7d6df1c2a214e71798058f9db882f
+SHA1: bf47a96c2183ae2509785309b013375322a3a5b5
+SHA256: bf12c7ee82fc762312ce72704b4149ef77cd87978346bbaf418a1a278fae6457
+SHA512: 41c2634f9a15c63c9195b09aaa8727e8266dbc25529befc0007b2fe65f1d8c587c9c53312336f58236fefa9fcfc5450a0a5ab44bc3ea447b74e722092657e1b2
+Section: 插件
+Description: 像CoolCC一样，删除控制中心模块背景并添加边框，刀刀基于p2kdev的开源分支定制。如果安全模式就缷载之后再注销几次就恢复了！建议更新之前备份旧版本，本源不保存旧版本！
+Name: CCBorder控制中心发光-Rootless
+Author: fiore
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.chatcaptureplus
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -1787,6 +1846,25 @@ Description: Make your icons dance为桌面图标翻转提供特效。具体效�
 Tag: compatible_min::ios11.0
 Name: Cylinder桌面图标特效
 Author: Ryan Nair、SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.danhuaxsnoads-rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 516
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.danhuaxsnoads-rootless_0.0.1_iphoneos-arm64.deb
+Size: 192978
+MD5sum: 50de8316e7c76cbcb7e2080819920559
+SHA1: 557bca68dffc9a294f015e9f7958eeb6123ce6e0
+SHA256: 4fdc10b7b6c574e07dc18dd27263fa66d1c8647e706f34c4d00dd07dab07a5a8
+SHA512: 4ab6242de40c2861e4a203b4594ddb735a8a9eb97fb683634e5576aebdfc79c63e7c36f1f0a5b5d6c0c9820e700a8c65835f3ca8e31e796d70a4c1c958f99735
+Section: 插件
+Description: 蛋花小说，好奇葩的名字，但是内容非常的不错，AppStore搜索蛋花小说然后下载即可，可以说是番茄小说的平替，资源一样，本插件去除所有广告，测试版本是6.6.1！最近番茄小说提示不安全第三方下载的小伙们可以试试啦！
+Name: 蛋花小说（平替番茄）-Rootless
+Author: lenglengyu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3932,6 +4010,25 @@ Section: 插件
 Description: 双指双击屏幕呼出，如果呼不出可能与某个插件冲突！本插件是大神苏苏基于huami开源DYYY开发，对抖音进行优化，移除广告，移除不必要的点点，一款新的抖音插件，暂时可替代抖音图层，功能看截图介绍，关注搬运工源，带你领略越狱的乐趣！
 Name: 抖音优化-Rootless
 Author: susu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.surge4-advanced-rootless
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Installed-Size: 620
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/byg.iosios.net.surge4-advanced-rootless_1.0.1_iphoneos-arm64.deb
+Size: 285712
+MD5sum: a165cfb125363b9e44c7cd2bd9ee0fcf
+SHA1: 3b37138056bd4836c3b8f51fad0ad9ad8d58e56b
+SHA256: 8bca8ec46fde1d1154d3207d5606e39d62fc6905d7c64ac123ec9deb6d9dbe14
+SHA512: 0c50e9e00020ed6b369e1873f7316f6227d15dbfd304b61f0045d92357bb13653036ce52d6ed04e3dd427caaf8bbc377a8de20a301f8098cec73207dfb1fd43d
+Section: 插件
+Description: An awesome MobileSubstrate tweak!美区搜索surge，一款类似于小火箭、圈X的软件，本插件直接解锁会员！搬运工源只为给大家提供更多免费好用的插件！无法破解可使用appdata插件降级APP！
+Name: Surge 破解-Rootless
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
