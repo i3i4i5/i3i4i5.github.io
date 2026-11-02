@@ -777,6 +777,25 @@ Author: 0xkuj
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.3dnetworkfixer-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-8
+Maintainer: 搬运工
+Installed-Size: 496
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.3dnetworkfixer-rootless_1.1-8_iphoneos-arm64.deb
+Size: 140508
+MD5sum: b8ea5b208b78653ac7531800eac2b1ee
+SHA1: 0a154af74b5cb4dcc83ade6902485bf72de6f195
+SHA256: 70cd20d5d2023ed9e83bad7719c04efb071518fc695a6a87c2f9376d286b7303
+SHA512: f6f072410351ddad732166cf3484da3e870b08b9dde9e49815da3ab0fbb41207effaa11969f305abf19a238687ae2704fd9204cb1ec0eb931d77f094f0f42017
+Section: 插件
+Description: 安装之后注销，长按桌面图标唤出应用菜单，快捷修复该应用的联网权限！
+Name: 3DNetworkFixer修复联网-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.77theme
 Architecture: iphoneos-arm64
 Version: 1.0.8
@@ -792,6 +811,28 @@ Section: 插件
 Description: 又一款微信主题美化工具，主题同样需付费，怎么找免费的，建议你试试微信搜一搜搜微信主题，不要问搬运工源小编，小编也没有，只为给大家带来工具！不造子弹！
 Name: 77Theme微信主题工具
 Author: 77Theme
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.7days-antirevoke
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 152
+Provides: apt.deonrepo.net.7days-antirevoke
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: apt.deonrepo.net.7days-antirevoke
+Replaces: apt.deonrepo.net.7days-antirevoke
+Filename: debs/byg.iosios.net.7days-antirevoke_1.0_iphoneos-arm64.deb
+Size: 8050
+MD5sum: 9e4cc83f1239cd8423428687e844f6ea
+SHA1: 12a76af023ce7edcabf09a0d1326206ee2f0be6a
+SHA256: 4764efd039bd6db3642bbb69da8e34178da02b09bd1f60f7cf9cf3bafcc2e849
+SHA512: 53e0c51523166bf1bd05426e6339095d8504eac309c1a2830f67c0d40dab5f5bcae2ee05fd98f578f625ae7ebe0a961c9bed9eeed6d92ad606a7dbdac73434e9
+Section: 插件
+Description: No more revocations for enterprise certificate. 无视企业证书掉签，当然你有巨魔了，用巨魔安装了软件就用不到此插件，但总有人需要，所以上架搬运工源！
+Name: AntiRevoke无视证书掉签-Rootless
+Author: Deon
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1916,6 +1957,25 @@ Section: 插件
 Description: 一个可爱的电池，搬运工源水友SINI基于开源修改编译，新增自定义颜色功能，非常的好看，效果看截图介绍！
 Name: BatteryBuddy电池美化
 Author: Traurige & neilsardesai & SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.batteryview.rootless
+Architecture: iphoneos-arm64
+Version: 1.8
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: applicationscene ,  batteryview
+Filename: debs/byg.iosios.net.batteryview.rootless_1.8_iphoneos-arm64.deb
+Size: 6756
+MD5sum: 1c4b117d80b49d4cea55d05538588567
+SHA1: fb5b2344d0aa4449b32a1a2dabe7cabd92839185
+SHA256: e1976c611d86d54934febb07c51ac8497053052d9298af625ef555113f583249
+SHA512: c701877ab2d2d8469fc482815199f11c0c2582546808c8f2c8467a1d389a51aae5bcf1196d95771f90c75fc3c90eabd8f7b36c45e2ecef29010e0a0f5d009587
+Section: 插件
+Description: 去除软件底部高度+去除底部横条，本插件可能无效，自行测试，如果不行就卸载。
+Name: 软件底部高度调整-Rootless
+Author: z
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3517,6 +3577,25 @@ Author: 4nni3
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.fix120hz.rootless
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Filename: debs/byg.iosios.net.fix120hz.rootless_1.1_iphoneos-arm64.deb
+Size: 4534
+MD5sum: 9c20056e25aeef1f167b58124fd9d9aa
+SHA1: a3f7656c9c124068dc99bf13c2e10ab019f099a9
+SHA256: f92c89a35c7f344bc8a32a24788726ef4ae8c8a3f6c3b1c7aaf9a28083684091
+SHA512: 313fc6b5e222ea0f77de97293ccb8e45bfe681cfe194031951bf9acb2b353645ece93ec66e46c85055a0cb0d299a3dd7e7dd5da300802be2339fe4ba44903cb2
+Section: 插件
+Description: 真皮大佬研发，动态120hz刷新率,提高系统流畅性，支持15-17,对于有bug的进程可以屏蔽处理,对于不生效的app不做额外支持.请找其他替代方案。插件无设置项，安装注销即生效！
+Name: 动态120HZ刷新率-Rootless
+Author: zqbb
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.flexibleexpression
 Architecture: iphoneos-arm64
 Version: 1.2.0
@@ -4973,6 +5052,25 @@ Author: @akusio_RR
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.mineland
+Architecture: iphoneos-arm64
+Version: 2.0-6+debug
+Maintainer: 搬运工
+Installed-Size: 388
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
+Filename: debs/byg.iosios.net.mineland_2.0-6_debug_iphoneos-arm64.deb
+Size: 57638
+MD5sum: ce849f9b930dccc8b50540a354dd4972
+SHA1: 52611b497b74ba14eb8596db00a0afff30df960f
+SHA256: 8fa27a619e2c0d82e0763f9dfaaa7b68ecb691d0d0f2f12f5abd63fb56c8d66b
+SHA512: 7eabb67ae9d969ed9cf2cf997fe788d590badccc7d2021e63ebc0b0b337a2c8eb4942624b149823b2f1cf689d79a7cb31942ee939015837bd02ad4e5bbbbf328
+Section: 插件
+Description: Lower your Dynamic Island and make it disappear if you don't need it. All the original code is from KhanhDuyTran (@TranKha50277352)仅支持iOS16系统，配合DynamicCow开启灵动岛，对灵动岛进行调整，如透明度或者位置，大家自行体验，灵动半岛估计不行，自行测试！
+Name: Mineland灵动岛调整-Rootless
+Author: 34306, KhanhDuyTran
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.misaki
 Architecture: iphoneos-arm64
 Version: 2.0.3
@@ -5065,6 +5163,25 @@ Section: 插件
 Description: 温控插件 — 注入 thermalmonitord 阻止高温降频/降亮度。双防护层：IOKit 层拦截传感器读写 + Darwin 通知广播；ObjC 层钩住 ThermalManager/ThermalControl 决策树、控制力度计算、热压力升级。所有钩子有独立开关，75°C 安全阀自动放行紧急保护。支持软化模式（减半不归零）和热配置表修改（+5°C 阈值）。
 Name: CPU去温控
 Author: Huayuarc
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.morecomplications
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 416
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
+Filename: debs/byg.iosios.net.morecomplications_1.0_iphoneos-arm64.deb
+Size: 62762
+MD5sum: 49dfd8578d3e1a489f45925f547bb7b2
+SHA1: 0bdc7f7b7da80b2552279ce66e159bedd91e1e04
+SHA256: 43f32069ea60833f3cb524e3d844390b25b30dece1477563ce96d7b6be4af9fa
+SHA512: 6b5fe2962a479486ffc77f327e126263a5761725c0196b5a3634913397459533199ff5817bddd31b8413fe2251af367a5b8e650814ef7f55b00e7612b0fbdc20
+Section: 插件
+Description: Add more complications to your Lock Screen.仅支持iOS16系统，锁屏挂件插件，效果看截图，感谢搬运工源群友分享！
+Name: MoreComplications锁屏挂件-Rootless
+Author: Skitty
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5254,6 +5371,25 @@ Section: 插件
 Description: 本插件是砸壳依赖，可以单独使用，也可使用可不使用！操作方法:比如想砸某个app的全量包，在安装NoAppThinning插件后，注销，最好把这个软件删除重新下载。然后配合最新版的Dumpdecrypter进行砸壳，就是全量包全权限砸壳。需要的小伙们可以试试！
 Name: NoAppThinning砸壳依赖-Rootless
 Author: ned
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.nobetaalert
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.nobetaalert_1.0_iphoneos-arm64.deb
+Size: 2986
+MD5sum: b0d8067451ed4d484831f62f0e7a0153
+SHA1: 48127d378897015e4f7a790a4f870025d7724883
+SHA256: ddef20678df759ded8d8f8fb64da924a80e59a903d5074bb78136df80315cfa3
+SHA512: 1b0c3a6bd93b71fe7ad3c97fec5b58f26d6c766e6c144f9057a5a399b2061847d52b967a7323c1cbd920b19e540980870820ea72597cfbd24efc35c293c67458
+Section: 插件
+Description: 很多人会莫名其妙的升级到iOS的beta版系统，过段时间就会弹窗，但为了越狱，又不愿意升级新系统，本插件就是为了解决此问题，有需要的人使用，所以上架搬运工源备份！
+Name: 移除Beta版弹窗-Rootless
+Author: z
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6361,6 +6497,25 @@ Author: 妖刀
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.safariblocker
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Maintainer: 搬运工
+Installed-Size: 424
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.safariblocker_1.3.1_iphoneos-arm64.deb
+Size: 69754
+MD5sum: 052531d249ec859cac3e99cd3b8bd6a1
+SHA1: 5dd8a569fb13ea3c89788b462eb3aeb95f582f4b
+SHA256: 1c5e7b517b391460ca81826832d3f99933e93047d196c0d5e658500fe4b41f31
+SHA512: b398373cb2cac35a217da6acfde51a920845c5adaed98b6da2b00621dccc1093084440c1af9711f18fe9e8ae018afc4e3ac2bcc0a22a85d085f10a2a6dd48301
+Section: 插件
+Description: Block New Tabs with Options!这是一款Safari插件，拦截弹窗的，但不是大家想的那种拦截广告，没那效果，以下是官方介绍内容：控制 Safari 中的弹出窗口！灵感来自 TabBlocker 的调整。感谢开发人员的创意。同时感谢 opa334 在 iOS 14 上使用 objc_direct 方法提供的帮助！你是否厌倦了 Safari 中自动打开的广告弹窗或弹出式标签？如果是，那么这项调整就是为你准备的！当网站试图打开新标签页时，SafariBlocker 会向你发出警报，提醒你进行以下操作 允许 一旦 白名单 域名 黑名单 域名 黑名单 URL 此外，当标签页符合你的首选项而被阻止时，还会显示一条信息提醒，让你知道标签页已被阻止！你可以在调整设置中的有序列表中管理上述首选项。
+Name: SafariBlocker弹窗拦截-Rootless
+Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.safarix
 Architecture: iphoneos-arm64
 Version: 1.9.9
@@ -6764,6 +6919,25 @@ Author: CydiaGeek
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.skitty.sixls
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: 搬运工
+Installed-Size: 2236
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.skitty.sixls_1.1-1_iphoneos-arm64.deb
+Size: 1593690
+MD5sum: 034ee1dabc128938ca099c33e60bc763
+SHA1: e78c4aa59b4cfb86a9306fa1c79c71b15e4c84f0
+SHA256: 7d18a2f80b8f5a51286a6050236c1b65f37dc9891b21632a42b9193640771c4f
+SHA512: 175f144e5ce6076fb09302cb69692cc58956b78fc4990e5da413b6a10de7350bd374b8da2497365d828dc2b669738cc33c6ca3b45ca9d149f91fb2e463b13033
+Section: 插件
+Description: iOS 6 Style Lock Screen!仿iOS16复古锁屏声音及样式，老苹果用户爱的吧，搬运工源已汉化，越狱请认准搬运工源！
+Name: Six (LS)iOS6复古锁屏-Rootless
+Author: Skitty
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.smallbanners-rootless
 Architecture: iphoneos-arm64
 Version: 1.2-8
@@ -7124,6 +7298,24 @@ Section: 插件
 Description: App Store帐户页面中快速切换帐号，如国区、美区。安装之后如果有冲突，安全模式，或者APP不能下载或更新，请缷载，然后重启手机！使用方法：长按App Store
 Name: AppStore账号切换-Rootless
 Author: Netsko
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.storeswitcher2rootless
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: 搬运工
+Depends: firmware (>= 11)
+Filename: debs/byg.iosios.net.storeswitcher2rootless_1.0.4_iphoneos-arm64.deb
+Size: 24892
+MD5sum: 32f766ed7478ca08f72b4c0da88b3f05
+SHA1: c55365979a86c499388a48542d8df4dc14d7b088
+SHA256: 54dcd208dd49ea646e451d788430d556c76ff39b51844dd4f443734bdff8a23a
+SHA512: 6afb7d8e93d400861590d8b327c0dc9eaf1a0eddede6836d3b4f4cec858d48d98a3ad55c8c11e45fd899c67e6d1ed242f26ac7a9422183d37289ce6f85351b59
+Section: 插件
+Description: Adds a button to switch account in App Store account page on iOS 11+.使用先前登录的多个 Apple 账户直接从 Appstore 切换！操作方法：打开 Appstore，点击个人资料，点击导航栏上的 2 个箭头，选择所需账户！对于拥有多个来自不同国家的 Appstore 账户的用户来说，这是一个不错的选择。搬运工源，你最好的家！
+Name: StoreSwitcher商店账号切换-Rootless
+Author: 0xkuj
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8203,6 +8395,28 @@ SHA256: ed9cc77ac7490179ddeda61285ebaaf8d389873c53cbe54c426380bde162336e
 SHA512: 01106834f3a0c30c3772fd2a013d205f5126f85ea30a582ed438a94cc85e555f60bacd0e8c2be4673bbcbdf76cbf0b095177dcf3b12c4ca0cadafe4147052ee1
 Section: 插件
 Description: 原作者Netsko基于2023年版本进行更新修复热更新插件消失问题，并没有适配高版本微信，请知悉！有问题请降级微信版本！完整无阄割版微信净化！支持抢红包！这可能是最后一个版本了，感谢大佬无私奉献！微信净化还原聊天本质，干净的微信给你，完美支持8.0.29及以上8.0.46以下版本，高版本微信也可以使用，但是转发朋友圈或者其他功能可能会因年久失修而失效！设置位于微信-设置，请不要屏蔽微信越狱，不然不显示插件！微信净化是多少人的信仰插件，冲！也可以安装锤子助手，同样的功能！
+Name: 微信净化
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wechatpurification
+Architecture: iphoneos-arm
+Version: 4.2-6.3
+Maintainer: 搬运工
+Installed-Size: 19660
+Provides: netskao.wechatpurification
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: netskao.wechatpurification
+Replaces: netskao.wechatpurification
+Filename: debs/byg.iosios.net.wechatpurification_4.2-6.3_iphoneos-arm.deb
+Size: 9330340
+MD5sum: e9daad6aaa10074b1a23feb93149cf77
+SHA1: 536f9338d21cb9a91dcf81dba2a6b1124a9ee98f
+SHA256: 890a200028a1a16d51cacde8e4154cd0f5aa03de00998809e61cc732e3388b06
+SHA512: 16860786080628400596dcdfcf29afcf6713814c286115cf380f427002e5ceb4845dc827476d3033e0b5a3628baaa66e923d779a7688d821327392485b385449
+Section: 插件
+Description: 这可能是最后一个版本了，本次更新是为了更改插件说明！高一个小版本是为了让大家看到更新了！由威锋论坛峰友jamkkes免费分享发布！感谢大佬无私奉献！也感谢精神小伙！微信净化还原聊天本质，干净的微信给你，完美支持8.0.29及以上8.0.46以下版本，高版本微信也可以使用，但是转发朋友圈或者其他功能可能会因年久失修而失效！设置位于微信-设置，请不要屏蔽微信越狱，不然不显示插件！微信净化是多少人的信仰插件，冲！
 Name: 微信净化
 Author: Netskao
 Sponsor: 搬运工
@@ -11045,6 +11259,25 @@ Description: 作者为人低调，这是他自用 (我也用)，首页视频界�
 Name: 抖音图层调整-rootful
 Author: x✨
 SileoDepiction: https://laileld.github.io/repo/sileodepiction/com.xx.dyhook/dyhook-rootless.json
+
+Package: com.xyaman.libkuro
+Architecture: iphoneos-arm64
+Version: 0.8.5
+Maintainer: 搬运工
+Installed-Size: 204
+Filename: debs/com.xyaman.libkuro_0.8.5_iphoneos-arm64.deb
+Size: 13778
+MD5sum: 08a7ecf260ed6b3c8c1c62b79cc5ec01
+SHA1: d19b1e58edad5b8d20b3c1aaaa7bd1b88c120cad
+SHA256: 646095be7cd5d416b3b5f36070d9b70d54dd676daa475b103e7a264243d22d9d
+SHA512: 22a0014c3a2b065262c358bf7ef07d9e6a7b54ac135a3b499f80411a8688a5c520bfcee392f761c4b27318b123dd7b78532bd913392c19ab742ca6c3514f89fd
+Section: 插件
+Description: Very simple image library.插件依赖
+Tag: role::developer
+Name: libKuro插件依赖-Rootless
+Author: Diego Barría
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.xybp888.callassist15.fugu15
 Architecture: iphoneos-arm64
