@@ -2604,6 +2604,63 @@ Author: lenglengyu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.autoclosefolder
+Architecture: iphoneos-arm
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: debs/byg.iosios.net.autoclosefolder_1.1-2_iphoneos-arm.deb
+Size: 6462
+MD5sum: becc5d94498c7458a813ceb131ddc96f
+SHA1: 6dc893d4158c807d01dcb18bb7f905827bb34f1e
+SHA256: 761ae4069c86ffd967bdcf4399aea18eef7e5f930be6852da93cdbd611b9bd01
+SHA512: fe86a54528619d8221534be2d238d1c6b6e538230a161d530a10b7bfd54ff6f4d3b1bfdf7ba2c7474e16187147ca7815d0404e6ba7aad40186df3b05b37e4c65
+Section: 插件
+Description: 点击文件夹内应用后自动关闭文件夹，不会出现应用动画从左边出现的问题
+Name: 自动关闭文件夹
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.autofaceunlock-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-7
+Maintainer: 搬运工
+Installed-Size: 452
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.autofaceunlock-rootless_1.1-7_iphoneos-arm64.deb
+Size: 63544
+MD5sum: cba3ffe4d67a4006bc585134f32b4b15
+SHA1: 2040782a2209a992763ed9e3f56070b632d9411d
+SHA256: 37dff1011799803ca1cea83586434397e1127ac56038d9dec471b726b106ec37
+SHA512: ee6fa11ec05f59d7b09c335ae401dfe1853c0211ed2694ff77df7e9242c623dfc9aaa6ed5ea80f40d00182721be295e41dce66ad6ee8c49706bf10f47e4449c9
+Section: 插件
+Description: 面容识别成功自动解锁无需滑动，原生函数更为节电，可设置锁屏收到通知时不自动解锁，锁屏正在播放音乐时不自动解锁，锁屏手电筒打开时不自动解锁，面容识别失败后自动重试，面容延时解锁，请勿和其他类似插件一同食用
+Name: 自动面容解锁-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.autofaceunlock
+Architecture: iphoneos-arm
+Version: 1.1-6
+Maintainer: 搬运工
+Installed-Size: 340
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.autofaceunlock_1.1-6_iphoneos-arm.deb
+Size: 67854
+MD5sum: 0c712d35a35c2fbb6d609ea63aa9f555
+SHA1: 7c6fe74299fe18b8a7d6099042fe5f1c884afc41
+SHA256: 80c5f22dc06fd39f930510eeab1c756133d637a47e619c7fa7ed384d5ed7a255
+SHA512: a6a6255314540a107bd75830841efc39d1b6688ddaa157234a1dd56bdc523d8e33752372c7c02f954d0c9edcbf2d4fbee5266bbc7593e8b47fe8a38a1b289c64
+Section: 插件
+Description: 面容识别成功自动解锁无需滑动，原生函数更为节电，可设置锁屏收到通知时不自动解锁，锁屏正在播放音乐时不自动解锁，锁屏手电筒打开时不自动解锁，面容识别失败后自动重试，面容延时解锁，请勿和其他类似插件一同食用
+Name: 面容自动解锁
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.autoscroll
 Architecture: iphoneos-arm64
 Version: 1.0.5
@@ -3048,6 +3105,25 @@ Author: ylr
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: netskao.barbatteryinfo
+Architecture: iphoneos-arm
+Version: 1.2-3
+Maintainer: 搬运工
+Installed-Size: 172
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/byg.iosios.net.barbatteryinfo_1.2-3_iphoneos-arm.deb
+Size: 25372
+MD5sum: 8dcf0a549016f567fd1e59e6c91b07b4
+SHA1: 6ccc2b727de2fc1e3d5f05549d2b1ed7feddcc06
+SHA256: 5ed9d1e506615bb2ca2c1c99d88228b5448efbf578e6e297e2eecd44fe5b11d6
+SHA512: 00d9326865c2a9d79428c6f8a10a75da47fdbfb99023221343da1aedafcf5c148b898bc7c2330275df5f2b0f5eb478fbd658cac15fdfb7f399743ad8fd65cd24
+Section: 插件
+Description: 通过单击状态栏电池图标快捷展示显示电池常用信息参数，点击参数窗口即可刷新参数，长按参数窗口即可复制参数(此插件没有什么准与不准，所有数据均获取于设备底层参数)
+Name: 电池信息
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.batterybuddy
 Architecture: iphoneos-arm64
 Version: 1.3.5-11
@@ -3102,6 +3178,25 @@ SHA512: 060493f53630afeff34721fabf2f775c92290d34f53bed24ad32f7fe03723e6e55cada85
 Section: 插件
 Description: BatteryPercentX启用系统原生电池百分比，加深边框颜色，加深充电时电池颜色！
 Name: BatteryPercentX电量百分比-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.batterypercentx
+Architecture: iphoneos-arm
+Version: 1.1-1
+Maintainer: 搬运工
+Installed-Size: 136
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/byg.iosios.net.batterypercentx_1.1-1_iphoneos-arm.deb
+Size: 5786
+MD5sum: 74c9efe48995af06a8efd31c7c0b525f
+SHA1: db19ff6f4b10d53c457132f5aaefe858c243f86c
+SHA256: 6748cc1a92072350db9548132d7ab7f308cf2011b18c0afddf16ea98fb8e6384
+SHA512: c82702528d35511909714ff07489b2794d066c576d378180ca100e260c922aef2d74352e90b3797fbf01a16a056bbeadd3aecadc71df4bdf775be222c231c7ba
+Section: 插件
+Description: BatteryPercentX启用系统原生电池百分比，加深边框颜色，加深充电时电池颜色
+Name: BatteryPercentX电池百分比
 Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -3216,6 +3311,25 @@ Section: 插件
 Description: App Store里的百度翻译APP，别误解了！ 优化精简了部分内容，有需要的自测
 Name: 百度翻译 优化-Rootless
 Author: iosign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.bdwphooks
+Architecture: iphoneos-arm
+Version: 1.1-7
+Maintainer: 搬运工
+Installed-Size: 856
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: debs/byg.iosios.net.bdwphooks_1.1-7_iphoneos-arm.deb
+Size: 192076
+MD5sum: 49f781493c4d214414517af5db8f365a
+SHA1: a104c64437e8b1c5979c0f390f4ab1605b634e9b
+SHA256: b41be7b3c3986a9628c28a529f377b54cfb8926663263e0bbdf394c809d220f8
+SHA512: 4b18add7ff4b231adda58baa1894967b1090a3d3021527b232a4f411ecf2cb0c201a652b9b5f03ad98e8891d699331ac449ab724e6575adfe1d388b6ff9f1e42
+Section: 插件
+Description: 为百度网盘下载文件列表增加直接分享文件功能和快速在Filza中查看该文件功能，免去每次进入路径寻找文件的繁琐方式，使用方式:长按已下载文件即可。另外附加去除所有广告等，仅支持11.20.0及以上版本
+Name: 百度网盘 去广告
+Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3426,6 +3540,25 @@ Author: nicho1asdev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.bilibilipure
+Architecture: iphoneos-arm
+Version: 1.2-6
+Maintainer: 搬运工
+Installed-Size: 1468
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: debs/byg.iosios.net.bilibilipure_1.2-6_iphoneos-arm.deb
+Size: 903904
+MD5sum: 58663fd3ccc13ef12cadfcf8fff883da
+SHA1: cc9fe3146be731a7df65c9df30e22b382995535a
+SHA256: 39787b0b216804621ad324cbf383c60b95feef0a0378474f837a50d857e99040
+SHA512: 83fcd27b9d66bb68cff092c861866b7fb38d9a42aa4e96ee1abf1ad8e382a1a208343833eaf3e52871726e0ff456d70e2da13d4366ba8e0e4f0ecbffab9e342b
+Section: 插件
+Description: 哔哩哔哩净化，设置位于我的页面顶部，仅支持7.3.0及以上版本
+Name: 哔哩哔哩净化
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bindfs-xina
 Architecture: iphoneos-arm64
 Version: 0.1.2
@@ -3498,6 +3631,44 @@ Section: 插件
 Description: 比亚迪汽车APP屏蔽越狱检测。适配7.02版本
 Name: 比亚迪APP屏蔽越狱检测-Rootless
 Author: lenglengyu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.blockappscreatealbum-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/byg.iosios.net.blockappscreatealbum-rootless_1.1-2_iphoneos-arm64.deb
+Size: 4464
+MD5sum: 167dd2d41e2d2130eb0a5781c1358a31
+SHA1: 0db6077719f24fc4f194a06e42c1bf96fc7bf095
+SHA256: 7318f1eeec50edece99273321f8617dae11a60066006562db968bff9143dfd44
+SHA512: c7e81a96a134c180cef6d7fbac1575c4b5bdd8cd3f9563f90e55c69bef26a1225d47fcf2ce11693193635137a554afd389e453ef0571209425e42a0f1befc9e4
+Section: 插件
+Description: Block applications from creating their own albums阻止应用程序创建自己的相册
+Name: 阻止应用程序创建自己的相册-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.blockappscreatealbum
+Architecture: iphoneos-arm
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/byg.iosios.net.blockappscreatealbum_1.1-2_iphoneos-arm.deb
+Size: 5758
+MD5sum: b831bc6079bb46e436e313eeebc7197c
+SHA1: a9449e90fa50cc83d64624afa6606f79a45e8825
+SHA256: 7df0041e203a050759d936f2915b0e3c49f8fb822863cbcf9d4d60cabf52e891
+SHA512: d27f94894f30f5e49b09be0f11e24c01e31531db61c34e7ed078263145fe14d01d00bf709d0b36a2d9c7344e6c161dd83a942e18524c2cee1184ad2a842bcab1
+Section: 插件
+Description: Block applications from creating their own albums阻止应用程序创建自己的相册
+Name: 阻止应用程序创建自己的相册
+Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4036,6 +4207,25 @@ Author: fiore
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.cccellularrate-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: 搬运工
+Installed-Size: 616
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/byg.iosios.net.cccellularrate-rootless_1.1-1_iphoneos-arm64.deb
+Size: 89686
+MD5sum: 94ba1fb3d3759f8d4b1aaad9b815d331
+SHA1: 19033d103debbf48fed8bc86fb288b63decd186e
+SHA256: 816ab5527f23ccd417edc373aabffb179ccf21892f2fc664ade877f24099678a
+SHA512: 162c487fc8be07edadde7fdd32437a9eae2fbfda50d31a7ffa162dbe1ff4a0f7c0e832c1de20ef4a32bfe10c1f6cf6971525e771356c4c7cf667c49bb04d0eda
+Section: 插件
+Description: Quickly switch the type of cellular data 2/3/4/5G currently in use via the Control Center, only the types supported in the current device settings will be displayed控制中心快速开启2/3/4/5G
+Name: CCCellularRate网络切换-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.cclocation
 Architecture: iphoneos-arm64
 Version: 1.1.0-1
@@ -4133,6 +4323,25 @@ Author: zqbb
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ccpower-rootless
+Architecture: iphoneos-arm64
+Version: 1.9-4
+Maintainer: 搬运工
+Installed-Size: 2424
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport (>= 1.3)
+Filename: debs/byg.iosios.net.ccpower-rootless_1.9-4_iphoneos-arm64.deb
+Size: 959802
+MD5sum: 1f0aaf516e2b36340af5f914c1aead52
+SHA1: df68d482380e35e7701961185a7d3093b0d828f2
+SHA256: 3a29f605818e46ad030e71af0bbd5583554aaa4e6d7d1be0f0376ad07428c3c5
+SHA512: 3b1bea475d9edc5af48f1d441722f19c1211ca749c05ee0cd5a2dca0e410c5264508a608c20a7b013666b24929142a3a50f9d054473e4e48d60c765bcec0899e
+Section: 插件
+Description: Control Center Quick Power Tool, Supports iOS11-iOS15Control Center快速电源工具，支持iOS11-iOS15
+Name: CCPower-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ccscreenshot
 Architecture: iphoneos-arm64
 Version: 1.0.0-1
@@ -4186,6 +4395,25 @@ SHA512: 898b227e61316c24930ceadca355c3f1ca06ff0396c8f2cef33abb2039f31f42f7b463fb
 Section: 插件
 Description: For dual-SIM cards, you can quickly enable or disable one of the SIM cards through the Control Center对于双SIM卡，您可以通过控制中心快速启用或禁用其中一个SIM卡
 Name: CCSIM-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ccswitchdata-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-4
+Maintainer: 搬运工
+Installed-Size: 132
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/byg.iosios.net.ccswitchdata-rootless_1.1-4_iphoneos-arm64.deb
+Size: 20838
+MD5sum: ac1f8e416d3bf8c14544d5988013de70
+SHA1: 33da7f81cb99a7172c1cbbd1f91f7f67ee643f41
+SHA256: 378b7e4ce9c6d9dba57481899faaaf8a6f39c4f9a4aa8c2c840b61ac84868a8d
+SHA512: ebc337d10f2c3c4d527b0e02801f8857ecbfddf74de8ace444c480daf4e94f6152ca0ad6318c08124ec0862ad3e4b0ad1da36a4265796962c7c644c5f503e0a1
+Section: 插件
+Description: For dual-SIM cards, the selected cellular network can be switched quickly via the Control Center对于双SIM卡，可以通过控制中心快速切换选定的蜂窝网络
+Name: CCSwitchData-Rootless
 Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -5087,6 +5315,25 @@ Author: SuperMan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.disablectnotifyui-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: 搬运工
+Installed-Size: 136
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.disablectnotifyui-rootless_1.1-1_iphoneos-arm64.deb
+Size: 2396
+MD5sum: 3411ea35ea9ac03b494e82bfc0a1a6aa
+SHA1: e2fcda5e3edac14c47db92e7d8ab4ea5840cf8c6
+SHA256: b20f38b75fdcf30a3087a303611d180dc9c02765afd3f0b4092444255ca38b87
+SHA512: 49869b6321cc0f0ce72e180c395e826a0b5532f3ec0198f2eae3c64a5a379821438fee31ebfc09cde857194102b53367669ceb5ccb9915761f6be56aea0eeb8a
+Section: 插件
+Description: Disable telephony welcome notifications禁用电话欢迎通知
+Name: DisableCTNotifyUI-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.disabledgesture
 Architecture: iphoneos-arm64
 Version: 0.0.1-75
@@ -5122,6 +5369,63 @@ Section: 插件
 Description: 禁用低电量弹窗
 Name: 关闭低电量提示-Rootless
 Author: 来了老弟
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.disablepastetips-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.disablepastetips-rootless_1.1-5_iphoneos-arm64.deb
+Size: 3086
+MD5sum: bf2a1aa658f40b5582a1b785e7fed477
+SHA1: 7692c1dc1847492ffbf37a52b0a9dfd7874d4644
+SHA256: 00babf474eb95adfc559a6bb7edee3dac87b2ebbd64903087ac84566b2a34121
+SHA512: 3a83c9779eaf3da0da92dcb6fa42fe77b2d691df582d7706e957aaf3047ceab1b2be69f77f960871a602685aabf77e028862be8572cee0408e98c6023934fee9
+Section: 插件
+Description: Disable paste tips, Support iOS14-iOS15禁用粘贴提示，支持iOS14-iOS15
+Name: DisablePasteTips-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.disableshuttersound-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.disableshuttersound-rootless_1.1-2_iphoneos-arm64.deb
+Size: 3242
+MD5sum: 443ceec9a43ce4b818e403d857d7d6be
+SHA1: 653037a163d7b3da7431a315ce434508ad5bf15a
+SHA256: 6e0b1fedc54b35a5c142a26abc141a0d84e7d7cc979688e980e18002ade105e2
+SHA512: 8add6a33f5e709ee1059c2026c75b612f1848413e2df46af775150d155e39a51ad13e96620e132e7a354687b560193d01a957d5593c449e215bd272e4615188c
+Section: 插件
+Description: Disable shutter sound禁用拍照声音
+Name: 禁用拍照声音-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.disableshuttersound
+Architecture: iphoneos-arm
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/byg.iosios.net.disableshuttersound_1.1-2_iphoneos-arm.deb
+Size: 3784
+MD5sum: cb0479514633782a41d62fdf155df410
+SHA1: 2834d4964686256ae0bd77bcbce3fc091f2c367a
+SHA256: 824ce457aa8f4cb12d8900926e0f11ccb20d8a6d464fd1e76ec874b2b91bc890
+SHA512: ee72a73c3c293ad51dfc6e75f9294a92a6506b6c7fbc45c9a75547bd6fd9df028d32861bc3cb5bcd78ffc009d6568a5f8bd79b3cb5f0cd0787c5e291325b2680
+Section: 插件
+Description: Disable shutter sound禁用快门声音
+Name: 禁用拍照声音
+Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
