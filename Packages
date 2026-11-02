@@ -3230,6 +3230,25 @@ Author: WeChat
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.tie-gesture
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 672
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/byg.iosios.net.tie-gesture_1.0.0_iphoneos-arm64.deb
+Size: 177484
+MD5sum: 10b6f8bf52620ece7b944d8136f00610
+SHA1: e4964d7c2b2d55835a206883e3a936584520d6ab
+SHA256: cfc1a3c54d8b1eedece4f078bfb51c25b38ef1ade47b513aae9b0e20c0c567be
+SHA512: 0e800bca350637610e28ac9da583caf6b5b17d512e199a84493a2220e0db0623fbe63544d6b39a68cc1e2c411fcd859992bbb62b1fd1e71018e2669ddeefe37f
+Section: 插件
+Description: 暂时放出来的一款手势插件，是免费的，大家自行测试，可能也有bug，等作者修复就行！
+Name: TieGesture手势插件
+Author: be-huge
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.touchvis
 Architecture: iphoneos-arm64
 Version: 4.2
