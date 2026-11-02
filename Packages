@@ -1393,6 +1393,42 @@ Author: Ethan Whited
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.alpine
+Architecture: iphoneos-arm64
+Version: 1.4
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/byg.iosios.net.alpine_1.4_iphoneos-arm64.deb
+Size: 674912
+MD5sum: 1bc76f2190e5415a3132e3d738a18e17
+SHA1: 12ee56d55055e1285b1b75a43353b5a2243a8f5f
+SHA256: 2d58d559f36889e99c89746b12aa412a8344d4a168d180829741a0c464daba69
+SHA512: 074af54804f671c15bc88e91bc0fc9828485947ddebd60dfa3efbb8105e6f891ba76726975b05cf276d3cfd8bac7746509556137bcc1a3383f4e73830f7e3dd0
+Section: 插件
+Description: tvOS alerts for iOS替换所有弹窗为精美的TVOS风格，效果请看插件截图！已汉化！
+Name: Alpine精美TVOS弹窗-Rootless
+Author: MTAC
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.alwaysdark
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
+Filename: debs/byg.iosios.net.alwaysdark_1.2.3_iphoneos-arm64.deb
+Size: 45450
+MD5sum: 26d9e08bd37fd79b8ef860b0f92e6a49
+SHA1: abe8282d6025cbe7b470c73c72bbe774ebb4be54
+SHA256: ac2a781b584e697126e1a7e03aaab18ea445f192e9d70f8ccbda87396cdbf32c
+SHA512: a37db30500a07cf020000213e170bea0719101fa3c4da5a726ccbfd683fac239bbac5efeec11aca9e2cce549625ba08bb4db86951214294876b41af1cc13afd7
+Section: 插件
+Description: Run specific apps always in Dark/Light Mode始终在暗/亮模式下运行特定应用程序。
+Name: AlwaysDark强制深浅-Rootless
+Author: KingPuffdaddi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.amber
 Architecture: iphoneos-arm64
 Version: 1.2.4
@@ -2914,6 +2950,24 @@ Description: Crane allows you to create multiple containers per application! Mul
 Tag: Cydia
 Name: Crane软件多开神器正版-Rootless
 Author: opa334
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ct5extra
+Architecture: iphoneos-arm64
+Version: 0.0.3-1
+Maintainer: 搬运工
+Depends: byg.iosios.net.cracktool5
+Filename: debs/byg.iosios.net.ct5extra_0.0.3-1_iphoneos-arm64.deb
+Size: 14436
+MD5sum: cac7a344c5c2cf573c8555cf1af96734
+SHA1: 8f6eb803c39fa2638a0278ba314ff9d76a942456
+SHA256: 4bf24e2bc7245350697c99f384ae4a13fb35cb50dce4e5d65cac87ea4ca65a46
+SHA512: 7e4234c0f0b44fe057cb0254eabc3765d1a5827a4897b1a1ba00179d19f0e08280d109ad7a9c05bb918b93555cb60e15b758000380cfdd2db0ad03e8884f6b7a
+Section: 插件
+Description: Additional cracks for CrackTool5. Requires CrackTool5 from Julio or CyPwn repo.
+Name: CrackTool5 Extras插件依赖
+Author: Sudo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4530,6 +4584,25 @@ Author: Nightwind and thetimeloop
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.jrtthook
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: 搬运工
+Installed-Size: 644
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.jrtthook_1.0.4_iphoneos-arm64.deb
+Size: 228484
+MD5sum: 680fbe5bfaf1bf47b73c7246a15d5416
+SHA1: 20f7fb3001ff226ce06d25e9b55148d098486941
+SHA256: caf4fc474826b4744ada4e6d9172aa788ea85ae8b16add6ff1776daaee5e2db8
+SHA512: 771e65ac152c45c4939a590f56cd7fea209c102ff2148f7af61d0e12598a15f0fd35afbd5f2b22f3aabe82fdcde8257c392ea1025198a916d37e46dffaf1f633
+Section: 插件
+Description: APP设置界面双指长按出现菜单 -- 功能：默认移除一些广告-无水印保存视频-移除杂项 -- 支持pro版 -- 精选页悬浮促销移除,视频推荐页右上角@水印移除。
+Name: 今日头条-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.jumpselect
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -4693,6 +4766,43 @@ Section: 插件
 Description: 让你的键盘更加花里胡哨！可以改各种颜色！貌似只支持原生键盘，第三方的好像不行！自行测试！
 Name: 键盘DIY颜色-Rootless
 Author: Doki
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.kiyoharu
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17), mobilesubstrate
+Filename: debs/byg.iosios.net.kiyoharu_1.0.1_iphoneos-arm64.deb
+Size: 189466
+MD5sum: 9e358893555f291bb1172e17b55e4454
+SHA1: a51e041959bc7f1cffa1a7aec6098c2b91719598
+SHA256: 1be220838c083262a1e9da7c4f62088f2d43ff76d624c2cadd25cb82e9a79436
+SHA512: ab2b3ef90662ff9898570078ac1af59174e5843744b2b1ee916c3831515995171af81c2819ba4efe6f6da4d019095e685ff96b77a27534f399f71e3ad37a893e
+Section: 插件
+Description: If it's nice, play it twice.Kiyoharu不再手动播放歌曲中最喜欢的部分！使用Kiyoharu，您可以指定您最喜欢的部分现在播放的歌曲手动重复，Kiyoharu将自动重复该部分！要使用，请用2个手指按住锁定屏幕以设置要循环的内容的范围，然后双击锁定屏幕以打开/关闭循环模式。
+Name: Kiyoharu随心播放-Rootless
+Author: Antoine
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.kshook.rootful
+Architecture: iphoneos-arm
+Version: 1.0.4
+Maintainer: 搬运工
+Installed-Size: 692
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.kshook.rootful_1.0.4_iphoneos-arm.deb
+Size: 252486
+MD5sum: 7615ce19cbd8029ad1d4c442c20a5f2c
+SHA1: 2985678bf142372d9a4f8ab211f562e53dc6b5fc
+SHA256: 20a9498d90f6feed07274aba6469880806385809d008165acd1697431e505a87
+SHA512: eb6399f811151c061d42aeaa64a7c232a7077378b04c470d07a1ea7fe99bd41c8c6dbc730f855d24b2b571dcf6a345adadfe678f46b8fd296e8ca03c74b5ed19
+Section: 插件
+Description: 点击APP右下角-我-右上角三横-长按打开菜单开启功能。功能：移除一些广告|弹窗--无水印保存视频图片，自动连播,移除视频流直播|广告,增强图片保存无水印为强制开启保存相册功能.
+Name: 快手图层
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -7657,6 +7767,25 @@ Section: 插件
 Description: 插件作用是为自定义原生键盘添加更多的功能，比如复制粘贴，滑动输入等等，非常的好用，原生键盘用户的福音，搬运工源已汉化，尽情享受吧，一款老牌插件，推荐使用！
 Name: SwipeExtenderX键盘增强
 Author: MiRO
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.szapp.rootless
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.szapp.rootless_1.0.2_iphoneos-arm64.deb
+Size: 33494
+MD5sum: 497183fb0099dab46baa3997b1d72f6d
+SHA1: 6727c6c21c694ee2bbc96a300313245df7ef9661
+SHA256: 81099c9149be46debfefd9dfbff1030570df36f5a7974dd82b6efa74fcc4e129
+SHA512: 631f359245b18ffd17f0363fe7ebd9074df281cda27e87e0b38a2ddbbf6ad5d0a59425d0fb37b5e2046166cccf931ad7ef5591e88507cd77c03859ec038e95af
+Section: 插件
+Description: An awesome MobileSubstrate tweak!可能有用，自行尝试！如果安装了此插件就不要再开启同类型的屏蔽插件对数字APP的开关！！！测试版本1.1.3-1.1.5。
+Name: 数字人民币越狱屏蔽-Rootless
+Author: xybp888
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -11354,6 +11483,25 @@ Section: 插件
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，右滑快速备注，全局长按导航栏快捷功能,证书有效期查询,语音包，一键已读消息等。木笛默认密码113113。不显示请缷载微信插件收纳！
 Name: 微信虚拟视频-Rootless
 Author: pingfan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm64
+Version: 1.0.9~rootless
+Maintainer: 搬运工
+Installed-Size: 552
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.rpetrich.rocketbootstrap_1.0.9_rootless_iphoneos-arm64.deb
+Size: 40316
+MD5sum: 986067e59edbcf2a18df47df71f24050
+SHA1: 9291faf52122791717372a0abe717561f2c494e1
+SHA256: 0eec1abc14e1dfd34d7e4093aff844f36b9ad662d5bf7109a1daf1c7c981d2c6
+SHA512: 6cf03e29df9dfd519aa107f586982e5f3bcbba4341e9a09d9c851aefa5f78d0cd09138fa1ba730168c4a986721e1b61fb028ffa11df906bfbf782f1abbaed3c2
+Section: 插件
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Name: RocketBootstrap插件依赖
+Author: Ryan Petrich
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
