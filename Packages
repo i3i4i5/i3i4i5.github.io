@@ -1128,6 +1128,25 @@ Author: therealhoodboy
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.chromahomebarx
+Architecture: iphoneos-arm64
+Version: 1.2-10
+Maintainer: 搬运工
+Installed-Size: 512
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.chromahomebarx_1.2-10_iphoneos-arm64.deb
+Size: 94944
+MD5sum: 50f841600ca3d746117e69caa4942346
+SHA1: d3238ed9ba7bfd53e15db6155522d928aae28a8a
+SHA256: 12ec4876559e19c9992f01848d603e056296232d872a0dc5c1079d479adc6ca9
+SHA512: 221fc6f8d5d23af652e5526a4e15ad380ea59ea1d68ca0189c93a5d90431830998638c66bc5f6c71d7cb6e225f0008fb858d98aa72101f1f4b168c3ac3a36f50
+Section: 插件
+Description: 底部横条动态颜色，搬运工源水友思念变成海基于开源代码重新编译，修复支持iOS15+无根越狱！非常的酷炫！喜欢的小伙伴们不容错过！
+Name: ChromaHomeBarX小横条变色
+Author: Afnan Ahmad & SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.classicfolders3
 Architecture: iphoneos-arm64
 Version: 3.5.1
@@ -1320,6 +1339,26 @@ Author: huami&vita
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.eneko
+Architecture: iphoneos-arm64
+Version: 1.4-5
+Maintainer: 搬运工
+Installed-Size: 644
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.eneko
+Filename: debs/byg.iosios.net.eneko_1.4-5_iphoneos-arm64.deb
+Size: 247176
+MD5sum: b263f5e1b373f2f40be6ec34fbef6db1
+SHA1: 1f778b449ffc641ed840828eb9c9866d89a2c6c5
+SHA256: 7adc6c36b41b2168f39dde7b704d54232ae1a33a312f7ce0d53f7d00e7f207d0
+SHA512: 66a7671f148de7e9f2d2326d7cf6931f4f268cd6d5c7dfa78a30f9a07ab85ec28e9916c4c14c6d01370ba9423d639b316bd2ffccd211e5c05336acd0860d5ac9
+Section: 插件
+Description: Eneko视频壁纸插件，非常的酷炫！装x神器！搬运工源水友SINI根据开源更好的适配新版本！全中文操作！下载插件之后，去系统设置里开启，选择你需要的视频壁纸，然后点右上角妙手回春注销生效！提醒一下，你用了和灵动岛相关的插件，或者分屏什么的，都有可能导致视频壁纸失效，请自己排查！搬运工源，永久免费更新，欢迎大家多多推广，更新才快！一个抵一万个！
+Name: Eneko视频动态壁纸
+Author: Traurige & SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.evocenter
 Architecture: iphoneos-arm64
 Version: 3.1.0-beta.1
@@ -1453,6 +1492,25 @@ Section: 插件
 Description: iOS 全局字体管理器* 支持 iOS 16.0 及以上版本* 支持 Rootless 和 RootHide* 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体* MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。安装前请注意，如果安装过其他字体挂载插件并已挂载字体，请先取消挂载，再卸载对应插件字体文件不完整或与系统不兼容可能导致文字空白或界面不可用，安装前请确保你能够进入当前越狱的安全模式并移除软件包。MarkFont 不提供或分发第三方字体，请仅使用你有权安装的字体文件。
 Name: MarkFont 字体管理器
 Author: Hmmzzz
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.freepip
+Architecture: iphoneos-arm64
+Version: 0.0.6-2
+Maintainer: 搬运工
+Installed-Size: 440
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.freepip_0.0.6-2_iphoneos-arm64.deb
+Size: 71646
+MD5sum: 08aa680be5d15ca0dd1af55c11e67268
+SHA1: f7c69b43a3c1ff697aed86440137b3a509d69d04
+SHA256: c12a6f9990a4b8c52b79b7aea9a5ac4cfd1ad5a14389b1e41765c75ee426e4cd
+SHA512: a7a011e946a829fccde463ab119694f5edd80adc1d28e63f28bdec79b004a98db176de3681c1d98c76c5f2adac203863e5688bb2bbbec9e8a5db3d98d4797fbd
+Section: 插件
+Description: 系统画中画功能增强，基于开源，优化了一些代码，改进了一些细节，长按画中画窗口切换模式，灰色边框为自由模式(即随意放大缩小移动位置)，橙色边框为固定模式(即原生模式)，非常的好用，搬运工源，万古长青！
+Name: FreePIP画中画增强
+Author: Soh Satoh,SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
