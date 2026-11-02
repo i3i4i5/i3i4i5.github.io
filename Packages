@@ -5941,6 +5941,26 @@ Author: EliasSfeir
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.smartvpn
+Architecture: iphoneos-arm64
+Version: 2.5
+Maintainer: 搬运工
+Installed-Size: 424
+Depends: mobilesubstrate (>= 0.9.5000), com.kingpuffdaddi.control-center.ccvpn, com.opa334.altlist
+Conflicts: com.skypain.ccvpn
+Filename: debs/byg.iosios.net.smartvpn_2.5_iphoneos-arm64.deb
+Size: 71010
+MD5sum: bd69a64f1223f6cbe1f7df3df2a1b9a8
+SHA1: 8c8923e701a5fb62f25d633ef02c1b3af4a76933
+SHA256: dbb37ad0cd152a079477f06f23a03ef98feee05c4676fbc767b50f636565a7d0
+SHA512: 0e90ea4f46ec6f5fae4ba194886523324716a6e8078e676b9bd988eb8494d4a9d41e86c852bfc2004963d21c5b9d2618ced4cdf2e1ad3c9dc19304fd8d0b8cca
+Section: 插件
+Description: An awesome MobileSubstrate tweak!一款智能VPN插件，可以设置打开某个软件时自动打开VPN，关闭时自动关闭，非常的便利。当然，这个功能快捷指令也可以做到。经过源主测试好像只有bigboss源的ccvpn插件能够在关闭软件时自动关闭VPN，其它的只能开，不能关。所以想用这个插件的需要缷载已安装的ccless和ccvpn插件，后面想办法修复兼容！
+Name: SmartVPN智能VPN-Rootless
+Author: b4db1r3
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.snapshottool
 Architecture: iphoneos-arm64
 Version: 4.2-5+debug
@@ -7229,6 +7249,24 @@ Section: 插件
 Description: 微信强开朋友圈发送图片评论，仅支持8.0.60+，好友应该也要高版本微信才行，无效请卸载！
 Name: 微信朋友圈图片评论
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.witcher
+Architecture: iphoneos-arm64
+Version: 0.0.1~alpha
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.witcher_0.0.1_alpha_iphoneos-arm64.deb
+Size: 89168
+MD5sum: 740f93ef0b036de0ce964c1bb3ef476f
+SHA1: f1871578ff3b90ecae5f67ca4c201cf34bfe8057
+SHA256: ee88a49172ee504fefa8293bc5a0aea08eaea5641961a9a8383d915090bba441
+SHA512: 29fb51f60fa3fc27f306ad4964c358f995396ea856cdd2dab539d09c1779e0dcb3079b2706f13530cf78b661e055be2fda4d7f2910d828ddfca3d718099c65eb
+Section: 插件
+Description: Magical iOS App Switcher机车主个人认为这是一款很糟糕的插件，改变了后台切换模式，但是太容易误触了吧，有喜欢的小伙伴们自行体验！
+Name: Witcher后台切换模式-Rootless
+Author: Erast
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
