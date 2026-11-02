@@ -2907,6 +2907,25 @@ Author: HW
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.eliza
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Maintainer: 搬运工
+Installed-Size: 324
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware(>=12.0)
+Filename: debs/byg.iosios.net.eliza_0.0.3_iphoneos-arm64.deb
+Size: 17206
+MD5sum: f5ac199f5306c79f4c1bd02abe05cb33
+SHA1: 24ee4af8f725816d84c1f58817b5da8bb7d000d5
+SHA256: 0e45c484e7999efbcd979e190b5fbc3eaacc1595ba9e0eb2b06734f3ae04ae21
+SHA512: 43a4f421e1cf4576965c94d58540c17f5e6a1d77184bfbd032ba6a3987b9e96bc988ba4142ff0c8e9b114db800c07ad3645c79dd8aff84b6efb06e5060cc3585
+Section: 插件
+Description: Make your battery colourful!电池电量随着电量变化自动换颜色，但是不能自己选择想要的颜色，还不错的一款插件吧，有需要的小伙伴们可以试试，搬运工源，永久免费！
+Name: Eliza动态电池颜色-Rootless
+Author: WilsontheWolf
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.eneko
 Architecture: iphoneos-arm64
 Version: 1.4-5
@@ -3709,6 +3728,25 @@ Section: 插件
 Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
 Name: JumpSelect多开跳转
 Author: iosdump
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.jxydt
+Architecture: iphoneos-arm64
+Version: 0.5
+Maintainer: 搬运工
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.jxydt_0.5_iphoneos-arm64.deb
+Size: 34000
+MD5sum: c86c0e669469da3fcdd522fed8c90990
+SHA1: 999e66176503a4479e4217660349a8e6b4153327
+SHA256: 2345228f593a2aebfbbc4054ea813a63a4b47d4a223fa244142d24428548369d
+SHA512: 554255dd0b67ff01d234718a03a33e27144111de60fb18b6bd1460f6bc7c11ffc171d88a140508f329df8b9010d08517cd3310054e22123b6184a9c5bc819369
+Section: 插件
+Description: 可注入可越狱使用，祝各位拿证到手。默认去除开屏广告和动画(若开梯子使用会冲突)，广告因版本不同而有所固执，待处理。开启'模拟考试完整技巧次数破解'，开启'去除视频观看20秒需会员的限制'等数十功能，长按1秒底栏弹出设置。
+Name: 驾校一点通优化-Rootless
+Author: 来了老弟
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
