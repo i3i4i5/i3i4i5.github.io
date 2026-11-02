@@ -838,6 +838,24 @@ Author: MustangYM
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.Videonoads
+Architecture: iphoneos-arm64
+Version: 3.3.0
+Maintainer: 搬运工
+Installed-Size: 144
+Filename: debs/byg.iosios.net.Videonoads_3.3.0_iphoneos-arm64.deb
+Size: 29858
+MD5sum: 13575c5e2b9249890d017b376990fb65
+SHA1: 43c77c02e35df6d38c2ba4177db08b37fc652fe5
+SHA256: 5c909e33b6f6314301a90e345675f5b5a64c25817348e6127511163dd39c8c3c
+SHA512: b9e1a9a41e779cd13e3e2b3a0334d321a52d625afba9da428e3491595e732e1c12b5f1cc999b07f3878850cda7ffd4b4004bfbb5e3d06c00b9fea6713f322336
+Section: 插件
+Description: 腾适配大量APP。例如讯视频、爱奇艺、优酷去广告，效果很好，自测！主要是去除启动广告！特别感谢巨魔商店M哥给大家带来如此好用的免费插件！爱你爱你爱你！可能和广告终结者冲突，如果造成APP闪图，就卸载！
+Name: AdSkip跳广告
+Author: M哥
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.adkeyboard
 Architecture: iphoneos-arm64
 Version: 1.4
@@ -1106,6 +1124,25 @@ Section: 插件
 Description: 众所周知iOS15-iOS16多巴胺是无根越狱，就是没有修改系统目录的权限，可以理解为没办法直接换字体！本插件是多巴胺挂载工具，配合终端软件，可以挂载系统目录，进行系统字体更换或者其它功能，不懂的可以进搬运工源里看教程如何使用！挂载映射换字体比滑雪板好用！因为是全局替换！但是你别问我一些奇奇怪怪的路径，我也不知道！搬运工源一直在用心为用户服务！
 Name: mount_bindfs多巴胺挂载工具-Rootless
 Author: 无尽伤痛都锁进黑夜 & zhaonan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.binglanqjsy.deb
+Architecture: iphoneos-arm64
+Version: 4.1.6-end
+Maintainer: 搬运工
+Installed-Size: 2496
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.binglanqjsy.deb_4.1.6-end_iphoneos-arm64.deb
+Size: 544924
+MD5sum: 2b2030576c1c54dfe2988f4ec3bf9c6d
+SHA1: cab57a354223ca0c4fbbf7fc25bd683efc134eb9
+SHA256: 7ece00fef1fa6748a8a590f24d89e8514547d8012d128b0def7d5c6a5599d00c
+SHA512: fcd753a33074460efc0a22a2ea63a44d57643c0c88a24b677c036975483b3023f39f1f078a79527331b0b4f670719b2b213834e292998a802b85c734ec093f65
+Section: 插件
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。小编是iOS15，测试打开插件设置就闪退，有需要的小伙们自行测试，不行就卸载！
+Name: 全局水印
+Author: 冰蓝
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1487,6 +1524,25 @@ Section: 插件
 Description: 插件功能如下：设置顶栏透明 、设置全局透明度、隐藏全屏观看、隐藏底栏加号、开启弹幕改色，IP显示，移除各种广告，搬运工源，万古长青！净化抖音，解析视频，下载视频！
 Name: 抖音DYYY
 Author: huami&vita
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.dyzs
+Architecture: iphoneos-arm64
+Version: 2.2-7
+Maintainer: 搬运工
+Installed-Size: 17708
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/byg.iosios.net.dyzs_2.2-7_iphoneos-arm64.deb
+Size: 8922900
+MD5sum: e868b9e1f513b60df701de6b2ae48e18
+SHA1: 7db96667f7bcee28521c075fa289a0d25d02f1b0
+SHA256: 06f26a1c0aa5bed0c68f2d10fe5e5240c360a3c6b35fae211d240dc1e5ad8411
+SHA512: aef8231afe87a911134fdc881da74d62559afd7968436379743535015df51e8c797b147430629a03b04e8a8e93644ead04045e0fa8bda7de87aa387dc0f68641
+Section: 插件
+Description: 三指长按屏幕打开插件设置，或者进设置界面，旧版本抖音好像不行，不行就缷载，功能：设置顶栏透明，设置全局透明度，隐藏全屏观看，隐藏底栏加号，开启弹幕改色。去广告，自定义功能等等，大家自行体验！
+Name: 抖音助手
+Author: XUUᶻ
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
