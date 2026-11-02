@@ -1360,6 +1360,24 @@ Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.floaty
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: debs/byg.iosios.net.floaty_1.2_iphoneos-arm64.deb
+Size: 100822
+MD5sum: ebe566b66cc990d56aaf7156475058d7
+SHA1: 4c3b8cabaf6aec0d681acde06982a93badadeec7
+SHA256: b1a7666648dbf2cce45a6583f385ceae65c1485185dab417fe8848090c5fad5a
+SHA512: 08f6e4a6b4bb619024f8d95306ff857db9acd6829f6352201df77c6595471ddbb00ea9eb703e2ec31600714407b66df4e5c198cf4aba18c5c99e4ecc015f7a03
+Section: 插件
+Description: Floaty：重新构想的你的旗帜。厌倦了杂乱的横幅和错过的警报？Floaty 通过将您的警报作为屏幕边缘优雅的浮动气泡变为现实，从而改变您的通知体验。受到聊天头便利性的启发，Floaty 确保您不会错过重要的事情，让您保持联系，而不会让您离开正在做的事情。Floaty 不仅仅是一个警报系统;它是一个完整的通知中心，围绕直观的手势和深度自定义构建。持久浮动气泡：每个带有新通知的应用程序都有自己的气泡，让您对待处理的警报有一个持久、一目了然的概览。即时通知堆栈：只需轻按气泡，即可立即显示来自该应用程序的所有最近通知的干净堆叠列表。不再需要翻阅一长串混合的清单！
+Name: Floaty横幅通知
+Author: EllaSP
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.fontchanges
 Architecture: iphoneos-arm64
 Version: 1.1.1
