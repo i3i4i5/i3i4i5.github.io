@@ -1234,6 +1234,25 @@ Author: Dcsyhi
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.airpodscompanion
+Architecture: iphoneos-arm64
+Version: 1.5
+Maintainer: 搬运工
+Installed-Size: 10704
+Depends: preferenceloader
+Filename: debs/byg.iosios.net.airpodscompanion_1.5_iphoneos-arm64.deb
+Size: 10329384
+MD5sum: a7bfd610f4246314f512d50184cc7e78
+SHA1: 3f1f8382512c87a413ccbe22f22edeaf0b1ae424
+SHA256: c34204b09ebf7ccd39bf14c3bd1c6495555bfcf8f122b1f598abb7dcac2ab028
+SHA512: a3a80c703fd387f289589dd6644dde68131899b7a001ef9cec4b12289438d7aca3c6ea24432f86d9e0f3b527fffd4408e621323d7dc28fa4db426c939cf82cf1
+Section: 插件
+Description: 感谢搬运工源群友萝卜购买并分享此插件，非常感谢！Floating Noise Cancellation control next to volume slider插件作用是美化耳机音量，感觉有点鸡肋哈！
+Name: AirpodsCompanion耳机伴侣-Rootless
+Author: Ethan Whited
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.amber
 Architecture: iphoneos-arm64
 Version: 1.2.4
@@ -2162,6 +2181,26 @@ Section: 插件
 Description: watchOS widgets on your lock screen锁屏界面仿iWatch手表，由搬运工源群友LF修复支持新越狱，非常的不错，感谢修复如此好玩的插件！感谢感谢！喜欢的小伙伴们赶快试试吧！
 Name: Complications手表锁屏
 Author: Ben Giannis
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.cornbars
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: 搬运工
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.alderis (>= 1.2)
+Conflicts: com.wrp1002.cornbar
+Filename: debs/byg.iosios.net.cornbars_1.1.0_iphoneos-arm64.deb
+Size: 124596
+MD5sum: e76d532da271a4510641d904b26cd482
+SHA1: 8f1a974911d37266036f34fb50aa18c6b7f75184
+SHA256: c6829e44d03e69344646886934c22627fb135d3a3ad5859fdc251a5fcab741af
+SHA512: b79eb3c335dd9547596d5e5c97b1c40a01eb45bbb5d06f2a699f3862e4659d25828d52673b2d546d947adc3362a6fcdc03ef6dc917ae2be8ef4c6fb443786d40
+Section: 插件
+Description: 把你的HomeBar小白条变成玉米！插件效果如截图所示！还可以更改其它自定义图片，一款花里胡哨的小插件，搬运工源，永久免费更新，欢迎使用！
+Name: CornBar玉米小白条-Rootless
+Author: Wes
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3922,6 +3961,25 @@ Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.oledkeyboard
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.oledkeyboard_0.0.3_iphoneos-arm64.deb
+Size: 7172
+MD5sum: a1d073e573682abe7425e93dd0069c1e
+SHA1: 7e29795de9b23416634840bb9957a1103e0e0fd6
+SHA256: 6eb77f76b615dc5fec0c2aa796bcc39fd2268c2ad171e670455a6628f8b2c394
+SHA512: eb6ba2c3d053608a980ca01fb32e9436f20825d87f0036d3ae55afba1de762bbc421ffaea84c8cfeb61020cce3e11fb78c27451be1e82e5547c6fa3aa6c0be3b
+Section: 插件
+Description: OLED Dark Mode for iOS System Keyboard深色模式下键盘背景显示为纯黑，效果看截图，一款小插件，喜欢的小伙伴们可以试试！搬运工源，搬你所想！
+Name: OledKeyboard纯黑键盘-Rootless
+Author: dvntm
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.otadisabler
 Architecture: iphoneos-arm64
 Version: 0.6
@@ -4877,6 +4935,25 @@ Section: 插件
 Description: Replace Siri with ChatGPT/Gemini用ChatGPT或Gemini取代Siri。SiriPlus是用ChatGPT或Gemini取代Siri的一个调整，通过最强大的大型语言模型为用户提供增强的功能、广泛的知识和个性化帮助。需要自己购买API，淘宝或者拼多多。
 Name: SiriPlus智能Siri
 Author: Uckermark
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.sjsp
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Installed-Size: 607
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
+Filename: debs/byg.iosios.net.sjsp_1.0.2_iphoneos-arm64.deb
+Size: 96968
+MD5sum: 392a99890721f049da787749e6d92e9b
+SHA1: 393977ce8d23abff43b0df43b8d4b72f6b47d9f2
+SHA256: caf39ab20fce723bd5bbcf6bb60e8c961863fc624053736568fa456663f213bd
+SHA512: d76726a6916f64d229d4f9a32889a3991c2f2f3b0adc04a3dd010af928f7bd2632621441f8ac45989b2d8f589ee57da8fd493a1e300a680c6ebb16cf3adfbe7e
+Section: 插件
+Description: Double-click the home screen to lock the device安装之后注销，双击主屏幕锁屏！双击状态栏也行，插件有设置项，大家自行设置！搬运工源，搬你所想！搬搬搬，天下第一搬！
+Name: 双击锁屏-Rootless
+Author: CydiaGeek
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
