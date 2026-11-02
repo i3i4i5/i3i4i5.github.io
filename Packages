@@ -2796,6 +2796,25 @@ Author: Nepeta & Baw Appie & daodao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.backgrounderaction15
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Maintainer: 搬运工
+Installed-Size: 340
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/byg.iosios.net.backgrounderaction15_0.1.0_iphoneos-arm64.deb
+Size: 9964
+MD5sum: 375695539b2881cb15649feabfc45251
+SHA1: c634528ca08bd4f983fbad8fba5e27bb41278ac7
+SHA256: 49ec903ca7ab5d4ebb49b0472110af4d0c8468412f81a2b08334af42fd8ce5f5
+SHA512: e2fae9aacceff85fadf2657d4d1e2d3b98d539e72936fcce4b0ef4b8a14c07a28b2ae7eaa57d1dd975ad8047fd3e267f287c95f9e4ae58991750bba591cbf30f
+Section: 插件
+Description: 一款真后台插件，先去系统设置控制中心里添加这个模块，方框形状的，然后进入你想要的APP，下滑控制中心点击真后台按钮即可！没有源比搬运工源介绍如此详细！
+Name: CCSupport真后台-Rootless
+Author: @akusio_RR
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.backgrounderaction15autostate
 Architecture: iphoneos-arm64
 Version: 1.0.3
@@ -5045,6 +5064,23 @@ Author: lenglengyu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.dismissalert
+Architecture: iphoneos-arm
+Version: 0.0.8
+Maintainer: 搬运工
+Installed-Size: 444
+Depends: mobilesubstrate, com.spark.libsparkapplist, preferenceloader
+Filename: debs/byg.iosios.net.dismissalert_0.0.8_iphoneos-arm.deb
+Size: 107102
+MD5sum: 963725f18904f880bb8baac075c6cdce
+SHA1: 7b2b4923a871c27b91f7d1aa8559dcaeb6c2e07e
+SHA256: 89a99a20ea8d6f6b9e00882e7a91d06d4ff09ed5990ce15a78891021fc69394d
+SHA512: 724df5bb715fb6e99f794919b136584f1114e23c73834b56c13bd416e814d5ac407ffb7bdb645fb4b9ad8265e3d85faba81f8b23deda4fc0685c0e84676d4980
+Name: DismissAlert【屏蔽弹窗】
+Author: lenglengyu
+Sponsor: 搬运工
+Section: 插件
+
 Package: byg.iosios.net.disupdateapp
 Architecture: iphoneos-arm64
 Version: 1.0-1
@@ -6904,6 +6940,42 @@ Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.instagramnoads-rootless
+Architecture: iphoneos-arm64
+Version: 1.3-5
+Maintainer: 搬运工
+Installed-Size: 556
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.instagramnoads-rootless_1.3-5_iphoneos-arm64.deb
+Size: 135332
+MD5sum: b05d769a4d305ee469566340971fad69
+SHA1: da11269fbe5f910c2418ffc4b525b1afe045ff44
+SHA256: fa1c2d4030fc756c0481e546b364d97533a5821092b87c1ee45172e8462fd954
+SHA512: b322248d25bb3c9d2df3751913967352a271e7481361141a26126b5993174df33321825f994c7af2a9f0b5517db23b0b0883e51ea33251f860e4a302eed98238
+Section: 插件
+Description: Instagram去广告
+Name: Instagram 去广告-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.instagramnoads
+Architecture: iphoneos-arm
+Version: 1.3-5
+Maintainer: 搬运工
+Installed-Size: 556
+Depends: firmware (>= 13.4), mobilesubstrate
+Filename: debs/byg.iosios.net.instagramnoads_1.3-5_iphoneos-arm.deb
+Size: 136988
+MD5sum: d37c7531618fd3c0397bbdb3cc60310b
+SHA1: 3447cb20db75371a37886b6f8ee688705a0cfd3b
+SHA256: 997df29f51665406f920ca540db514eabe81d9ec309745b7384c93df3be9e53e
+SHA512: 0cce99cf54284d801ea56b455876524d9b718aa794fa87c963ab80e87a9a001d724b87a2f37cd2c8c9222f8e6fe3e6e71f145103066a3103f33eab81b29f2857
+Name: Instagram 去广告
+Author: Netskao
+Sponsor: 搬运工
+Section: 插件
+
 Package: byg.iosios.net.instalauncher2
 Architecture: iphoneos-arm64
 Version: 1.11.1
@@ -7619,6 +7691,43 @@ Name: 酷我音乐纯净版 破解-Rootless
 Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.kwyycrack-rootless
+Architecture: iphoneos-arm64
+Version: 1.4-6
+Maintainer: 搬运工
+Installed-Size: 588
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.kwyycrack-rootless_1.4-6_iphoneos-arm64.deb
+Size: 141628
+MD5sum: 6233508e12f267e877cf6e983bfdc8b0
+SHA1: 7413abaa9ceb673b5fddfeee4f741c2a5352cb6d
+SHA256: e4fb0f992318f921aa7193541a346547e587c220fe6d5dd44d3ecbe5bd8d4883
+SHA512: 7f1690f8d741d7e9e585b358c1f2b3efb66b1293bdacb3b426cbb03bb071e5d46406fe078da76ea3d568c36e87d25418f78641891be07cc650a51e88d2f7aa54
+Section: 插件
+Description: 酷我音乐破解，10.4.3以下版本！听歌已失效，仅保留去广告功能！
+Name: 酷我音乐 破解-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.kwyycrack
+Architecture: iphoneos-arm
+Version: 1.4-6
+Maintainer: 搬运工
+Installed-Size: 588
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: debs/byg.iosios.net.kwyycrack_1.4-6_iphoneos-arm.deb
+Size: 144206
+MD5sum: ba2ee0eb2bac0784ab9dd8e80816fb24
+SHA1: 4da2efcd22478c9d0db8090d7bbd1a234e928e09
+SHA256: 164baa739a1f44f626ac6a1585eb675ff8ca5bc93b7cf672d07dd770aafad94d
+SHA512: 62a5bbf948cb54ec87c568af0a39b7619dd8f35de822350db443fe7a7abff1b8c34908777cf2dfefc938ccf51106c5d8e49c464888f8de518f5fe388d835ee2a
+Section: 插件
+Description: 酷我音乐破解，无法使用请降级至10.4.3版本！听歌已失效，仅保留去广告功能！
+Name: 酷我音乐 破解
+Author: Netskao
+Sponsor: 搬运工
 
 Package: byg.iosios.net.laetus
 Architecture: iphoneos-arm64
@@ -17473,6 +17582,24 @@ Author: xybp888
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.xybp888.magiciannojailbreak
+Architecture: iphoneos-arm
+Version: 0.0.1-3963
+Maintainer: 搬运工
+Installed-Size: 916
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xybp888.magiciannojailbreak_0.0.1-3963_iphoneos-arm.deb
+Size: 285972
+MD5sum: dbc1297b9cb8406d91d6323f2ffbb801
+SHA1: 3a62927c162d20fbdd87e09f3d724a5be5ba8742
+SHA256: 246daaedb9c51074a43547b49dc04e2d89ad1add87a5dbf1bebb37a0a3a673e3
+SHA512: c8fc050ac6d46305bdd82c81580aba58cb4ccd0bd4c4efd97e308c41754ee5a6dbb5ba6195f3846e06b8a89d3e36c024f09c2487dcd20f386ff6a6d3cf181709
+Section: 插件
+Description: 屏蔽软件越狱检测
+Name: 魔术师(iOS11-iOS15)
+Author: xybp888
+Sponsor: 搬运工
+
 Package: com.yan.anitime
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -17687,6 +17814,42 @@ Author: jjolano
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: mix
+Architecture: iphoneos-arm
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 1520
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/mix_1.0_iphoneos-arm.deb
+Size: 438994
+MD5sum: eeb146db961fbf6031b85248ff995abe
+SHA1: aa4368868af31e5d23eb5f89ca2f01f3f8e0ee86
+SHA256: ae04ab5d203225d4c3636e37918713b24260f548aa0be9ef08693dbeb1dfd5b4
+SHA512: 26a36625a90d24cc86c3a5122fde68452dbfc86cbe4782675778c845e4ff6e67c49d8030c5e85606925bb6f2d5aedf1f169e1f8a50410520aa1f116f3e6df3e3
+Name: MIX相机破解
+Author: 小果子
+Sponsor: 搬运工
+Section: 插件
+
+Package: net.limneos.libbulletin
+Architecture: iphoneos-arm64
+Version: 0.1-178
+Maintainer: 搬运工
+Installed-Size: 348
+Depends: mobilesubstrate
+Filename: debs/net.limneos.libbulletin_0.1-178_iphoneos-arm64.deb
+Size: 36112
+MD5sum: cdeded3e931f455b96f22c5d397010a7
+SHA1: a4ad167a53845c115c7e8094d7b11828c8357bb8
+SHA256: 56ede6e6ce3618ed8a39aaf7a67cafabcd7a2ca31b17e29935dbe0cf2c67b6f6
+SHA512: c58671f7a5cd1450cb2fab4f2d81e9191d9c3470613bc6efcb6d35d64bc6d228dee3dcf2c0e4be117c960e2cb526f9cf5e7ac9668c70eb2a5365a0a2a5150e6c
+Section: 插件
+Description: Limneos系列插件依赖
+Name: libbulletin-limneos插件依赖-Rootless
+Author: Elias Limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: net.limneos.limtools-roothide
 Architecture: iphoneos-arm64e
 Version: 0.1-14
@@ -17761,6 +17924,58 @@ Description: Click to wake up and double-click to wake up.单击唤醒改为双�
 Author: Netskao <netskao@gmail.com>
 Name: DoubleClickWake-rootless
 dev: netskao
+
+Package: netskao.jxboxcrack
+Architecture: iphoneos-arm
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 396
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/netskao.jxboxcrack_1.1-2_iphoneos-arm.deb
+Size: 85432
+MD5sum: a1848cdfcdf1d837a94a657d3aa8dadd
+SHA1: 6608b391ea82236f0d3e6757bd2ad14eabdc924e
+SHA256: 15c583769335f2418d72a649b90fb2eb74d27186b14b671e6ad9f1f4b1edb8b5
+SHA512: 707b50c514a924d926a69850ccbc96717aa6a7fce5c0bc19b23de9489c27160cd9ef04edc802437296211f7360ebcec2e1d2d3b6109494fe45d1b7269e62d879
+Name: JSBox 破解
+Author: Netskao
+Sponsor: 搬运工
+Section: 插件
+
+Package: netskao.kanoads
+Architecture: iphoneos-arm
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 376
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: netskao.kanosplash
+Filename: debs/netskao.kanoads_1.1-2_iphoneos-arm.deb
+Size: 86926
+MD5sum: d0d08d410b767e4da82eef7bea9b7a0e
+SHA1: a84e5123718981b741a03dfb258681ec0d0cc7f3
+SHA256: 15c540f1bd1489bebdd19f26e42cfc93241dbe44fda99fdf4919158bf485dd81
+SHA512: 71eaae0f8f12132e127f424b5606c56fc8da62ca9d24d3e5a6630a22de7588afe134ff9d78dc35f2219f7b0825ea4db46f6312082fb2f411c2c90a0b76c0cbe9
+Name: 酷安 去广告
+Author: Netskao
+Sponsor: 搬运工
+Section: 插件
+
+Package: netskao.kwctcrack
+Architecture: iphoneos-arm
+Version: 1.1-4
+Maintainer: 搬运工
+Installed-Size: 444
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: debs/netskao.kwctcrack_1.1-4_iphoneos-arm.deb
+Size: 104652
+MD5sum: 665341f7c1455e0b9861fd632b2db80e
+SHA1: 93f50c1ffe88a6b53506dc4850e0cc10dc062d78
+SHA256: d59fd70734c36fcef652a491f21dccedeb33f79deeb1f35d86e8edaf4038841c
+SHA512: 836aa7f28f18209af1e2973b5991900c0d10892563b69f0998f7a5f4a95f9fbddf9552a36a91b0867768818874360c220f16732b4f4bcf7d2383f4e0f5a5b672
+Name: 酷我畅听 破解
+Author: Netskao
+Sponsor: 搬运工
+Section: 插件
 
 Package: netskao.limneoscrack
 Architecture: iphoneos-arm
