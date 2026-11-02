@@ -7056,6 +7056,25 @@ Author: Banana
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.iqiyinoads
+Architecture: iphoneos-arm64
+Version: 1.2-1
+Maintainer: 搬运工
+Installed-Size: 356
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: debs/byg.iosios.net.iqiyinoads_1.2-1_iphoneos-arm64.deb
+Size: 116130
+MD5sum: 9eb71bb7e93a1a7b6dbd1e3863c2608f
+SHA1: e0647f9a7d4b20ec7b30644cab6c87a98ce3eaa7
+SHA256: 527e932e1aef4687e576f761a302df31d66bfbf3f9b03994c014a95cc77095ec
+SHA512: 3470288eaade745c668c46b4fd62470de3e42dfc6ed4ac7f52bb5ff4c0df5f4881b69e45c243c8ee7a12be35bab102fb5f33bd35f66bc7f84f54ea9720b3e16b
+Section: 插件
+Description: 爱奇艺去启动广告，去除首页顶部横幅中插入的广告，去除视频信息流中广告，去除播放页面下方推荐视频中的广告，去除播放前广告，去除播放时水印，去除播放时右侧推荐视频，去除历史播放顶部广告，去除我的页面收藏内和下载内底部推荐视频，去除我的页面公益和限时问卷和免流量服务和我的微服务和创作中心选项，去除底部随刻视频和发现按钮等
+Name: 爱奇艺 去广告-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.iwanttranslucent
 Architecture: iphoneos-arm64
 Version: 0.9.4
@@ -12106,6 +12125,23 @@ Author: Mr.Zhang
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.test.avatar
+Architecture: iphoneos-arm
+Version: 1.0.0.5-2
+Maintainer: 搬运工
+Installed-Size: 1724
+Depends: com.spark.libsparkapplist
+Filename: debs/byg.iosios.net.test.avatar_1.0.0.5-2_iphoneos-arm.deb
+Size: 611848
+MD5sum: b14321fe79384aae1783ca47b9f5c9b5
+SHA1: 9e398476097594c0dcd3176a776388b8113a1f9e
+SHA256: 50aa3c19014117c303db089c5a1bf4aff3d9f7bd73dde0187a846cf42a51768b
+SHA512: 80db54337d7f805d1d7ba1efd510b02ea2a4b9a26b0508371db9a234ed7f99feea114398e90a2c3668594e1972c25d8ed53f00ac5c5496d931a144a4f46975b0
+Name: 阿凡达-屏蔽越狱检测
+Author: Avatar
+Sponsor: 搬运工
+Section: 插件
+
 Package: byg.iosios.net.themebox.rootless
 Architecture: iphoneos-arm64
 Version: 3.0.7
@@ -13744,6 +13780,23 @@ Name: 小红书图层
 Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.xiaoxiaole
+Architecture: iphoneos-arm
+Version: 1.117.247-3
+Maintainer: 搬运工
+Installed-Size: 347
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.xiaoxiaole_1.117.247-3_iphoneos-arm.deb
+Size: 70542
+MD5sum: d486608886e362834bcbd74489f7e87b
+SHA1: b9a78cd02f826e3ab221aa378f9e5e0cd89bc782
+SHA256: f04492c2b9a1b0e629cfb8c41818ccef29790ab0bf3a2519e68aa5e4d585ef49
+SHA512: 4510c06bb31f2f220f5b0b56b57af9c3af9623680efc0d6cc342defcff5ce47dc0c3a368b055c191838e9a41b47978d18be3020aa95ddf73c1ab54d79f33bdde
+Name: 开心消消乐助手
+Author: bb
+Sponsor: 搬运工
+Section: 插件
 
 Package: byg.iosios.net.ximalaya.rootless
 Architecture: iphoneos-arm64
@@ -17494,6 +17547,66 @@ Author: Evelyn
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: org.mr.aquaboardx-rootless
+Architecture: iphoneos-arm64
+Version: 2.0-3
+Maintainer: 搬运工
+Installed-Size: 768
+Depends: mobilesubstrate, preferenceloader, org.mr.unsubsrl
+Conflicts: net.limneos.aquaboard, net.limneos.aquaboard8, com.fuyuchi.unlockize
+Filename: debs/org.mr.aquaboardx-rootless_2.0-3_iphoneos-arm64.deb
+Size: 98456
+MD5sum: c0d81b0f3e366c495971d273e45ec487
+SHA1: 8727e001ced4ed1ad7cf157ce493c09a8e711980
+SHA256: bbf10dd821d5a859ed2197081dac1e8947ef8dd72e7cec9e2a842ce53a306524
+SHA512: d25d85735f9fc9201ce61be87aaa79329c87428ec317a7d3daa3bb7f0f8f5e664e81fb7b0796a26c84937d568c4dbf997d57f71315e5531450db8c7ed27bbcaf
+Section: 插件
+Description: 锁屏增加水滴特效，十分的丑！
+Name: AquaBoard XS 水滴特效-Rootless
+Author: MainRepo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: org.mr.aquaboardx
+Architecture: iphoneos-arm
+Version: 2.0-58
+Maintainer: 搬运工
+Installed-Size: 768
+Depends: mobilesubstrate, preferenceloader, org.mr.unsubs
+Conflicts: net.limneos.aquaboard, net.limneos.aquaboard8, com.fuyuchi.unlockize
+Filename: debs/org.mr.aquaboardx_2.0-58_iphoneos-arm.deb
+Size: 767370
+MD5sum: da51f8c6f134f64750e6cf87b79e9735
+SHA1: 217001156aee37d69e3ded08236f48bf473a7db4
+SHA256: 9a4f0bed6c6baf86dde6b430b7700fa12071800e3a4a0b2e14511b7298bf62b9
+SHA512: 35476f615d1b9f7ae97e99e396da714f47c1dad2f3ed4d0770139fdfd9b9e0d9a4e77a7ba98723057abc7fb44c69677facf96d6e1799a14d5d3899de3326cd28
+Section: 插件
+Description: Amazing Water Effects On SpringBoard
+ 水滴特效破解版
+Name: AquaBoard XS 水滴特效
+Author: MainRepo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: org.mr.autoanswerx-rootless
+Architecture: iphoneos-arm64
+Version: 2.0-2
+Maintainer: 搬运工
+Installed-Size: 784
+Depends: mobilesubstrate, preferenceloader, org.mr.unsubsrl
+Filename: debs/org.mr.autoanswerx-rootless_2.0-2_iphoneos-arm64.deb
+Size: 151412
+MD5sum: d5ba5f34d7ed4c8c03fca824ff3fa9aa
+SHA1: 5c0e109b36ebba6c15d9a275f30fe75bc7c60001
+SHA256: 98c2581974ca20c5a18168ada94f104f3a7adc55685ea22fb589b0b70548a8e8
+SHA512: afefcff251a76f17afc381fad70050700b3535581ee27cf7e061c5ff1ce4375fbb1316542b0ecc7154b27391aef488c531caa2c96e3b6d4dbab376eeda9f85d7
+Section: 插件
+Description: 通话应答破解版
+Name: AutoAnswer XS 自动接听电话破解版-Rootless
+Author: Elias Limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: org.mr.bioprotectxs-rootless
 Architecture: iphoneos-arm64
 Version: 4.7-4
@@ -17530,6 +17643,101 @@ SHA512: 946a9126ce38e09431e865738c43d577cdf70e10300fdb2466f6e278abc2e7f73c522f1f
 Section: 插件
 Description: 灵动半岛破解版，让没有灵动岛的旧设备用上灵动岛，搬运工源已经是最新版破解，不要相信其它源改的高版本号，都是骗小白用户的！搬运工源已是最新版，安装完成之后注销生效，有问题进群反馈！
 Name: DynamicPeninsula 灵动半岛破解版-Rootless
+Author: MainRepo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: org.mr.dynamicpeninsula
+Architecture: iphoneos-arm
+Version: 0.6-79
+Maintainer: 搬运工
+Installed-Size: 1668
+Depends: mobilesubstrate, preferenceloader, firmware(>=12.0), org.mr.unsubs
+Filename: debs/org.mr.dynamicpeninsula_0.6-79_iphoneos-arm.deb
+Size: 345918
+MD5sum: bf33201f04a9190b9c40165414d464c9
+SHA1: 3d81259b97e5e6421a3f284dfe116928ed601009
+SHA256: a3cc3d01efced423fa9a4b711dfbf26373a6d2797780cc788c776aa3311655d2
+SHA512: 48eb307359fad2bf0c8507b51d178936db6f3808b1344dd3d92a375a5499c9a964037cddde6c5b064b159208fc6b8a92fc6fc2068c0fec2ea79d5ae888c3e273
+Tag: Cydia
+Name: DynamicPeninsula 灵动岛破解版
+Author: MainRepo
+Sponsor: 搬运工
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Section: 插件
+
+Package: org.mr.nfcwriterx-rootless
+Architecture: iphoneos-arm64
+Version: 4.0-3k
+Maintainer: 搬运工
+Installed-Size: 3724
+Depends: mobilesubstrate, net.limneos.libbulletin
+Conflicts: net.limneos.nfcwriter, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos, me.kanam.nfcwriterquickaction
+Filename: debs/org.mr.nfcwriterx-rootless_4.0-3k_iphoneos-arm64.deb
+Size: 1905464
+MD5sum: ef8957e61edc13bf1ec249c33432d678
+SHA1: e4cb6a264a02805ba1dc983752af40d1ef514cdc
+SHA256: 570cffd5439dc286403cfc6acf422dc704c944b22d812eb7f0808e8e12dc3619
+SHA512: 232224e5268c9ec57ed44df2c40d196aa7965f73bf69ccbe818287a01645be9d9c71004bc975d37c4a16319feab3fa841e1732a3bd355baba59a54a44897d432
+Section: 插件
+Description: 一款NFC插件
+Name: NFCWriter XS 破解版-Rootless
+Author: MainRepo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: org.mr.smarttapx-rootless
+Architecture: iphoneos-arm64
+Version: 0.5-2
+Maintainer: 搬运工
+Installed-Size: 780
+Depends: mobilesubstrate,preferenceloader, org.mr.unsubsrl
+Conflicts: net.limneos.smarttap
+Filename: debs/org.mr.smarttapx-rootless_0.5-2_iphoneos-arm64.deb
+Size: 121992
+MD5sum: fdcafcc209a6bda44fcc950d99cabd70
+SHA1: a4bdf45249bb55e9ed4df7e213f7b6917d722040
+SHA256: 7e9b1a7c405c323f231df448f90ab84ebf4e17ee49ce786a1426c0afb093c38f
+SHA512: 9287063c414cf2ba6a3f4d9820b9f4ad4d7a7d222e0ea44f151c3d93a205fc352db8c9e79d3e8bd52fa810b7578c6f2143e86890a2865b9408d8e7de7060aaeb
+Section: 插件
+Description: 奇怪的插件
+Name: SmartTap XS 破解版-Rootless
+Author: MainRepo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: org.mr.unsubs
+Architecture: iphoneos-arm
+Version: 0.0.6
+Maintainer: 搬运工
+Filename: debs/org.mr.unsubs_0.0.6_iphoneos-arm.deb
+Size: 12666
+MD5sum: ec7b8954dc20fb81f7b1e35f858060d0
+SHA1: bc28791d1ff3de59e21736ab69deca6de4799a7d
+SHA256: 2d26a7632e6e96e2e8f1ba9bc9381a48b03274c3ccb2e5d7b1226f79ae3bff3f
+SHA512: 111e5f7c52bafe3b076150c122acb8eb47db749da759e8c130aa8fe12772e05efa3abb40d194f0b0bb032947266ca9da800e07f654b12925c02f9f2e5698e68f
+Section: 插件
+Description: 破解插件依赖
+Name: Unsubs破解依赖
+Author: MainRepo
+Sponsor: 搬运工
+Icon: file:///Applications/Cydia.app/Sections/System.png
+
+Package: org.mr.unsubsrl
+Architecture: iphoneos-arm64
+Version: 1.10
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/org.mr.unsubsrl_1.10_iphoneos-arm64.deb
+Size: 5598
+MD5sum: 1751e18f541caccc3bda68b063736f53
+SHA1: 567e7dec15ef5d627f5ee8dee274965fa4a8d2d7
+SHA256: 746b51b9091f00708bcbb6b989f8b3fb94f6a3b1647058a7295a89368a8b8433
+SHA512: 2b7720cd0387c6f8ac7334394af2f83b563e9a3df8c361becb3a066502a7e8e0b6b558b658278413f599e68bf5df33ede5a07c74eb0c94352b92f49c9f685ab7
+Section: 插件
+Description: 破解插件依赖
+Name: Unsubs破解依赖-Rootless
 Author: MainRepo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
