@@ -9156,6 +9156,25 @@ Author: CBZ
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.snapper3
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix,xyz.cypwn.snapperfr33
+Filename: debs/byg.iosios.net.snapper3_1.0.2_iphoneos-arm64.deb
+Size: 1116538
+MD5sum: d62f1268dc009bb341bf1e4da32ff7e7
+SHA1: f6b61ac99ebe47744d025a04b69b26a2dadd4f78
+SHA256: af2e2de10523542959c074e5bbb1865f2f0443bfb6fab153f31dfb66f568f199
+SHA512: 3926d85f3978a7db6c040504ece09bd4ac91675788b032ead0f4b569126f5dead94bbbb17014ee49a9ddf96f42b7acc54090ef199c33b1ab42658c27ed186e7c
+Section: 插件
+Description: 活久见，破解版比正版上架快，感谢cypwn大神破解，巨魔商店M哥汉化分享！非常感谢给越狱圈带来快乐，有经济能力的请等正版出来后，付费购买，此破解版仅供尝鲜，搬运工源，国内首发！snapper3和snapper2冲突，自己决定要哪个！据说3好用，大家可以自己尝试一下！1.0.1版本更新移除破解依赖，无其它功能！大家今天安装的破解依赖可以删除了，能省一个插件是一个插件，无法更新的话，可以先删除此插件再更新！1.0.2修复OCR识图问题，愉快的截图吧，非常好用！插件自带中文！
+Name: Snapper 3智能截图-Rootless
+Author: Jonathan Winger-lang
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.snapshottool
 Architecture: iphoneos-arm64
 Version: 4.2-5+debug
@@ -9211,6 +9230,25 @@ Section: 插件
 Description: 输入法皮肤内购破解，多款付费皮肤随心购！搬运工源iOSign免费首发，全网第一发此插件支持多巴胺越狱！如需转载请备注搬运工源byg.iosios.net，谢谢！使用方法“点击购买皮肤，出现弹窗时，取消即可！搬运工源，搬你所想！
 Name: 搜狗输入法内购破解-Rootless
 Author: IOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.sogouinput
+Architecture: iphoneos-arm
+Version: 0.0.1-2
+Maintainer: 搬运工
+Installed-Size: 280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.sogouinput_0.0.1-2_iphoneos-arm.deb
+Size: 8106
+MD5sum: 93e3c9dcea5e37f0575cc80402b49843
+SHA1: 55e02fcb45a01c09418d2d90ed6bbe85e7f44d06
+SHA256: aed42340f102b395c20da37f9140734f803696f3072d0443a6e3973796acd605
+SHA512: 35abc6ee1914f47b3d286f52fcb41aa67cf766b612700a39bc68d9aabd1d5df8f8b0857e883cc6de1da8111fcccd3b0775a83fc69947cf99d28d5717c9e31e6d
+Section: 插件
+Description: 输入法皮肤内购破解，广告位留白处理！维护者:BaiSuiLaoRen/Mo
+Name: 搜狗输入法内购破解
+Author: Mo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -9874,6 +9912,25 @@ Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.togglow
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Maintainer: 搬运工
+Installed-Size: 1172
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker,oldabi
+Filename: debs/byg.iosios.net.togglow_1.0.8_iphoneos-arm64.deb
+Size: 461328
+MD5sum: 06c2f707818a9db407cded04ad9d2d50
+SHA1: 32f4375008247dc1b7678d286a9122bdca09ee0d
+SHA256: 8e1696ab8541774916ce84ac143820a2af5e0e05e49bb4ca5683d05d49ddb331
+SHA512: a070067b635b6278c44d822e96436ee3ed4d75a2002fb4aac731ee162663ceea5eb2c551cb118f2990cdc8393c239a5da18b6b7ecc10c3fc7077efbbec3db00c
+Section: 插件
+Description: Make the control center your own !控制中心美化，发光，看起来酷酷的！感谢巨魔商店M哥汉化插件！搬运工源，搬你所想！
+Name: Togglow控制中心发光-Rootless
+Author: smokin1337
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.totofinancevip
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -10060,6 +10117,25 @@ Section: 插件
 Description: Awesome TV turning off animation for locking!一款非常不错的锁屏动画插件，模仿电视机关闭的动画，看起来很复古！安装注销即可生效！喜欢美化的小伙伴们都惊呆了！
 Name: TVLock电视锁屏-Rootless
 Author: Wes
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.tweakhub
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Installed-Size: 464
+Depends: mobilesubstrate, com.mrgcgamer.libgcuniversal
+Filename: debs/byg.iosios.net.tweakhub_1.0.2_iphoneos-arm64.deb
+Size: 80640
+MD5sum: b2199b5ada052186ae44f23f8202f30c
+SHA1: 32c74688d97f24311385064688b60c02a5e432b8
+SHA256: 6d295503a57428ea7dc9e79e515806f203314ce353c0732c1aaf2eb10040d249
+SHA512: 1426dd162e499f42669ce01819e4205c8c28f4a867783e44029d721f8d20c99907625a3a51ffb0744f2b3198c4a41a6a780d5e9a3fb83535a5bfa94afb0c9059
+Section: 插件
+Description: 桌面空白处设置手势动作打开已安装插件列表，三种手势：可设置为双指点击，三指点击。双指捏合。List all installed tweaks and access their settings directly. With this tweak, you can view a popup that displays all installed tweaks on your system. Quickly access the settings of each tweak with just a tap.
+Name: TweakHub快捷插件-Rootless
+Author: SOPPPra
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -11111,6 +11187,25 @@ Description: 阳光惠生活是光大银行信用卡唯一官方APP，本插件�
 Name: 阳光惠生活-Rootless
 Author: Huayuarc
 Sponsor: 一口青推送源 <http://apt.ios8.cn/>
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.youkunoad.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.youkunoad.rootless_0.0.2_iphoneos-arm64.deb
+Size: 5684
+MD5sum: 0670809dfb2f5e5f1c68dcba66d65aec
+SHA1: e72271995d19de610b1401053d7437972ef92c2f
+SHA256: 0847a93dcc55efe2eab82a87e2dfe390e64d38242c4bac56e89e7181eb3fb46d
+SHA512: dbcc583ece6dbad12ab6a08abe6594ee966cf2456a3c4d780d78c8ac26a08c039e6be6676c4f5bbc693def7f87be5030a618176a4b7d95db353ef1d278719931
+Section: 插件
+Description: 去除广告、屏蔽青少年弹窗，首页中间的广告流可在优酷APP-设置-其它设置自行关闭！
+Name: 优酷 去广告-Rootless
+Author: iosign
+Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: byg.iosios.net.youquan.rootless
@@ -13944,6 +14039,25 @@ Section: 插件
 Description: Animated anime characters as your clock digits.一款让你的锁屏时间变成动漫人物的插件，非常的可爱，喜欢异次元的用户的最爱了，暂无汉化，请看截图翻译，感谢搬运工源水友购买分享，谢谢你！搬运工源有你才精彩！
 Name: AniTime动漫锁屏
 Author: yan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: emt.paisseon.xinamine
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Maintainer: 搬运工
+Installed-Size: 564
+Depends: ellekit, oldabi | cy+cpu.arm64, firmware (>= 14.0)
+Filename: debs/emt.paisseon.xinamine_0.0.5_iphoneos-arm64.deb
+Size: 119620
+MD5sum: fbff6a7be18730c0f450c0a54f10d636
+SHA1: c97dfa53ef0abb0aabced651f280505f454e3a11
+SHA256: 2453971e743406cf2a4c5599122b035f657f3ba14aefb9a4f40c875a96477bc7
+SHA512: 41fd31d3dd60a6a43f2f1a41d1df1516d7ed4912990ba007a3ce120959c8e5586d3275c5a16a7fcef0dac1f753c89d4f3cf61d8fb77cb490ded893d5d205a418
+Section: 插件
+Description: Add Xina tweak compatibility to Dopamine没什么用的插件依赖，可能有人会用到，上传源里备份一下！
+Name: Xinamine插件依赖-Rootless
+Author: Sudo + Paisseon
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
