@@ -1128,6 +1128,25 @@ Author: kk
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.calculatorhistory
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.calculatorhistory_1.2_iphoneos-arm64.deb
+Size: 43782
+MD5sum: 5d135bff10ab31ebff58372e39406faa
+SHA1: 3337035237e417cb576cb85d2acf17587476f4cf
+SHA256: bccd7675978d313449254e014970d3e8e4e3faa4a1093d705a566e6fd11fc24b
+SHA512: a1278e3e74986ff0c045fdfe52266321a8bb38b802ed53113fc9cc10a91ea07ae9d5cfa52718c955d51239ac01a3cb44f453285aed76d7ca94b1002c3f4cc56e
+Section: 插件
+Description: 让自带计算器可以查看历史计算过程和结果，非常不错的一款插件，大家可以试试！搬运工源，万古长青，永久免费，越狱必加！
+Name: 计算器添加历史
+Author: Donato Fiore
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.cc26
 Architecture: iphoneos-arm64
 Version: 1.0.6
@@ -4754,6 +4773,27 @@ Description: App notification library.
 Name: libnotifications
 Author: CokePokes <cokepokes@gmail.com>
 dev: cokepokes
+
+Package: com.itznebbs.edge2
+Architecture: iphoneos-arm64
+Version: 1.0.3.1
+Maintainer: 搬运工
+Installed-Size: 560
+Depends: firmware (>=15.0), com.itznebbs.phoenix (>=1.0.4)
+Conflicts: com.junesiphone.lockpluspro
+Replaces: io.securarepo.edge
+Filename: debs/com.itznebbs.edge2_1.0.3.1_iphoneos-arm64.deb
+Size: 213870
+MD5sum: d40c1136390f309f112016fb66dd8bfe
+SHA1: 00a37dc43802facfce7dde49108140e3635abc4f
+SHA256: 0cc2adf3a44457c20986eab34f47971ace700868a53dd05ff466c3259552127d
+SHA512: a0d70f3749c892b396a46ea6e821d6e96e410b994a6ae647063ca506209d5f43365bd0046c8492bcf14dd0d7d8cb7c4e3f836f1aa8206cb925f2537bf1d63cbd
+Section: 插件
+Description: Color your device in a beautiful and elegant way!屏幕周围加一圈跑马灯，贼啦酷！作者并没有对此插件更新，部分机型无效也不用反馈！无效就卸载！由搬运工源LF汉化分享！
+Name: Edge2跑马灯
+Author: Nebbs + Max Bridgland
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.llld.flexrootless
 Architecture: iphoneos-arm64
