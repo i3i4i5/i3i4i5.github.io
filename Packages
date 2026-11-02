@@ -956,6 +956,25 @@ Author: ren7995
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.awemefullscreen
+Architecture: iphoneos-arm64
+Version: 1.3-7
+Maintainer: 搬运工
+Installed-Size: 448
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: debs/byg.iosios.net.awemefullscreen_1.3-7_iphoneos-arm64.deb
+Size: 238160
+MD5sum: b6b57714c37f381464e1d79134d3a7cd
+SHA1: 5847e62482cacbeacf3bf4f1166807469fe41512
+SHA256: 84a73b18499c61899156d8c8c4180399a18d681881ea10eb71add40b5f5fef8a
+SHA512: 2af078dc44c551f68bb7de111497577d61e9f65e1d1759a08ad3b62a1ec1509a9685e8b19b3a574e3ea3ce368a68b1baba53cf6ba3e82d67147cd012b5d1fc2a
+Section: 插件
+Description: Aweme Full Screen. Tested on version 31.9.0 only, Failures due to subsequent version updates will not be maintained.这是一款让抖音全屏显示的插件，仅在抖音34.7.0版本上测试可用，也支持抖音极速版！小编测试了其它旧版本好像不行，睁大眼睛看好版本介绍。由Netskao大神开发，后续可能得不到更新维护，且用且珍惜！
+Name: 抖音全屏
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.axon.rootless
 Architecture: iphoneos-arm64
 Version: 2.6
@@ -1144,6 +1163,25 @@ Section: 插件
 Description: 自定义X键盘底部高度，地球底部高度等，非常不错的一个插件，键盘低了，用起来很舒服，搬运工源，永久免费，大家多多推荐！
 Name: 原生键盘高度调整
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.cozybadges
+Architecture: iphoneos-arm64
+Version: 2.2-4
+Maintainer: 搬运工
+Installed-Size: 496
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: debs/byg.iosios.net.cozybadges_2.2-4_iphoneos-arm64.deb
+Size: 90660
+MD5sum: 16607b503bab68b3484a4613999c9e4a
+SHA1: 93e69699d3d009e34be21cb48d2553c4851d3532
+SHA256: 02490f5d86bd8be1af056ff89b155a879c4ef2020d859e0a71c7dc9bd5e912eb
+SHA512: 1d9976af1aa5479f4f6ab5c6927aa8ad42f74e366451b539cb2d5a1b394fc92285394f681e9713790727ef50992a967c5c2a67fdf56ca6f31e1ebf567e59c903
+Section: 插件
+Description: A cozy place for your badges彩色角标通知，显示在APP下面，由搬运工源SINI汉化更新支持多巴胺！非常的好看呀，好秀！经典插件！效果看截图介绍，搬运工源，永久免费更新！
+Name: CozyBadges彩色通知下移
+Author: NoisyFlake、SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2261,6 +2299,24 @@ Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.trollstore.looky
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: debs/byg.iosios.net.trollstore.looky_1.2_iphoneos-arm64.deb
+Size: 88852
+MD5sum: a6e39e0d7f991b34b5b6573d228531a4
+SHA1: 1fa8a1020465198f8f1e1b1047d0f77c7c1fba07
+SHA256: 94fa7f727a1377d6eee81b80cddd56714aaaea934d41600f99d64dd61252cfa6
+SHA512: de4773824732fa6773ad89606418697a1f583f4394051a5b49034eadfff2224a62d548e7314286251f51b1322a40b6f4b9754464c8bae0426d25757845771501
+Section: 插件
+Description: 一款类似ShortLook的插件，将全屏显示您的通知。当您收到通知时，会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。功能介绍：比如微信，锁屏界面显示App图标及消息详情，边框跑马灯设计，颜色可以自定义。
+Name: Looky全屏通知
+Author: EllaSP
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.trollstorehelper
 Architecture: iphoneos-arm64
 Version: 2.1.1-2
@@ -2451,6 +2507,26 @@ Section: 插件
 Description: 微信增强助手插件，支持聊天按钮布局自定义、隐藏头像、触摸轨迹、后台运行、界面简化、禁用热更新、游戏小辅助等功能，自行体验，一款UI不错的小插件！搬运工源，只做中国第一越狱源！
 Name: 微信增强助手
 Author: 愫茶
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wechatnotiavatar
+Architecture: iphoneos-arm64
+Version: 1.3-1
+Maintainer: 搬运工
+Installed-Size: 1228
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Conflicts: netskao.smallbanners-rootless, netskao.smallbanners
+Filename: debs/byg.iosios.net.wechatnotiavatar_1.3-1_iphoneos-arm64.deb
+Size: 394450
+MD5sum: 5a6a2b2075c3f30c0899e17324bb6776
+SHA1: bf2a67e9baaa785d4e3c18ff8dc9901c1f2fb4d6
+SHA256: a93adf6a307d16a63529c8ec89dc8ff0b172a8b5461a1f9e743922575ce2ac6a
+SHA512: 40692a7d7c23f2a16f10b68c8917be60f217067420f89734b148330268698c9c2cc3c1df407ec629218d9d8d77aa8af4836ae2f506a74aa5546b917cf3694c57
+Section: 插件
+Description: Display Notification Avatars for WeChat App using iOS15 APIs微信来消息通知显示好友头像，仅越狱Rootless可用！可以说是非常的骚气的！效果看截图！
+Name: 微信头像
+Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
