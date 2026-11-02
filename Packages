@@ -2183,6 +2183,25 @@ Author: Korboy
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.canna
+Architecture: iphoneos-arm64
+Version: 0.9.0
+Maintainer: 搬运工
+Installed-Size: 288
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.canna_0.9.0_iphoneos-arm64.deb
+Size: 69072
+MD5sum: f248270982dc453330f5a3f9847ec31d
+SHA1: 9b94f0ec74e5315f6b37885b12223786b9074723
+SHA256: 03bf47fd8640a4576c2d66478f4408b7c339d205aedbf2698d3b4059df27b951
+SHA512: 085b68f8666f7846c638c96f05c6706c3891f1ba671eb65ef66ee04e27bf4d16330428499c56d201dfcacca7835cfcf02d85506fa52981c0f99f6610f6223c39
+Section: 插件
+Description: iOS 6 (or custom) charging & lock sounds这是一款模仿iOS 6充电和锁屏声音的插件，无设置项，安装注销即生效。如果你想自定义声音，请替换connect_power.caf和lock.caf文件。路径/var/jb/Library/Tweak Support/Canna/（文件的名称必须相同）
+Name: Canna锁屏音-Rootless
+Author: Luki
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.carbridge15-rootless
 Architecture: iphoneos-arm64
 Version: 2.0.15
@@ -2773,6 +2792,24 @@ Section: 插件
 Description: Block App Store Updates!很多用户都有强迫症，非要屏蔽App Store里的软件更新，你把App Store的角标通知关了不就行了，强迫自己干啥！不过真皮大神也开发出了这款插件，可以直接屏蔽App Store里的软件更新了，插件设置里选择你要屏蔽的插件，然后打开开关，再重新打开App Store就发现不提示更新了！问题解决！但是16.5好像不行！不行就卸载！
 Name: BlockAppUpdate屏蔽AppStore软件更新
 Author: zqbb
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.dockshowlabels
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.dockshowlabels_1.0.5_iphoneos-arm64.deb
+Size: 6236
+MD5sum: 69658db23a1503b37072ca1f4f3d0181
+SHA1: 9e2ae09ca422f13a89708afdb26f0dad94e6e80e
+SHA256: d1bf136f9ea26c84e340ab66cc253ae2c6ebad930610d660ecb4288780dcc08f
+SHA512: cab207879b89a08fd0866f33047d73612c461aedd62ddcdc959bb9535d70df6d9a9f66210ae4d436e99876106f36516ed099fa06f6fb32a6ef1bfd646cfd3fb6
+Section: 插件
+Description: Add the Labels Below the Dock as before iOS 11! Added to Marina too.在Dock栏下面显示软件名称，一个小插件，M哥发现的，源主觉得好玩，也上传一下！插件无设置项，安装注销完成即可生效！
+Name: Dock名称显示-Rootless
+Author: CydiaGeek
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5967,6 +6004,24 @@ Section: 插件
 Description: A shimeji simulator for iOS一款桌面宠物插件，插件下载后在桌面，不在设置里。之前付费，现在免费下载，可以自定义宠物，还不错！暂时没汉化，自行研究一下怎么使用，搬运工源，你值得拥有，永久免费！
 Name: Shijima桌面宠物
 Author: pixelomer
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.shortlook.ios16
+Architecture: iphoneos-arm64
+Version: 1.0.23-1
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 16.0), co.dynastic.ios.lib.flora, oldabi
+Filename: debs/byg.iosios.net.shortlook.ios16_1.0.23-1_iphoneos-arm64.deb
+Size: 1367680
+MD5sum: 77cc9982c5bbc003e5b76c7e5f5c0eaf
+SHA1: fe00aefc73df2855127a3aa550e5d0ff320c1563
+SHA256: 58920840d4b921bdca42d2e41544351fc55df948a63a5a069c806207292005ae
+SHA512: e417a2aa1ab3820fc29618b60f2e7619bea797569c1f4b02a58acbb8d3d0564575fd47bae9603f2b3d9ead7ca4d5e8f107aad418bbdf3d3a2ba09a77c2ad02ff
+Section: 插件
+Description: iOS15请安装源里的另一款！！！ShortLook将全屏显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。它的可配置UI和行为确保ShortLook按照您希望的方式工作。注意：需要安装Legacy arm64e Support兼容层，16系统测试大部分不可用！不可用就缷载吧！（由来了老弟修复并汉化支持多iOS 16）！！！
+Name: ShortLook全屏通知-Rootless
+Author: Dynastic
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
