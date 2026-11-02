@@ -5543,6 +5543,26 @@ Author: CydiaGeek
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.smallbanners-rootless
+Architecture: iphoneos-arm64
+Version: 1.2-8
+Maintainer: 搬运工
+Installed-Size: 900
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Conflicts: it.dreamcode.picobanners2, netskao.picobanners2
+Filename: debs/byg.iosios.net.smallbanners-rootless_1.2-8_iphoneos-arm64.deb
+Size: 329380
+MD5sum: cb110424f0cd3f210e82c734d6d025b6
+SHA1: 1b72a59d6250b1e41596e0540f9ed3678833137d
+SHA256: da0ecdc76c128af7f17ba24aea70471420c21ceaa404459dcb4a7f08c15b0bd2
+SHA512: 8bb94a18551bf7a8a0da6e87ed9e133bd8b3dce883bc888e24de7cacc5f18efdf017e572bddeca06aaa35a6d1fb890d757a885afab08ea447f44a73d8b9e9898
+Section: 插件
+Description: 缩小来消息时的通知横幅，让它别那么大，遮挡别那么多。看起来还不错的插件，有需要的用户可以下载体验！效果可以看截图！
+Name: SmallBanners缩小通知横幅-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.snapshottool
 Architecture: iphoneos-arm64
 Version: 4.2-5+debug
