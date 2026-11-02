@@ -1375,6 +1375,26 @@ Author: be-huge
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.cylinder
+Architecture: iphoneos-arm64
+Version: 1.2.0-1
+Maintainer: 搬运工
+Installed-Size: 1860
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Filename: debs/byg.iosios.net.cylinder_1.2.0-1_iphoneos-arm64.deb
+Size: 659888
+MD5sum: 33af3c0b561b46fd754528f2b1361d69
+SHA1: 87d5f9e7198154f1db5d93c7c9cf814b17a6bd2f
+SHA256: 893bdcb6ad0c48e3754417da786b445cdee80177d4f0af00908cda8e987d1013
+SHA512: 391676d60cb0ba87b40889c69f3bbc127efcc8d2f84e2440529111f0305526a43c19eed7dd55da9420ac38f8cb586d133e110b994609fb44757e9fc0bcaae7d0
+Section: 插件
+Description: Make your icons dance为桌面图标翻转提供特效。具体效果请查看插件截图介绍，非常的nice好用，有需要的可以下载安装！目前已支持新版本越狱，赶快试试吧！搬运工源，万古长青！搬运工源水友SINI基于开源优化的版本，更适合中国宝宝的体质哦！
+Tag: compatible_min::ios11.0
+Name: Cylinder桌面图标特效
+Author: Ryan Nair、SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.doutu.rootless
 Architecture: iphoneos-arm64
 Version: 3.1-7
@@ -1852,6 +1872,26 @@ Section: 插件
 Description: You can arrange apps on the dock of keyboard ⌨️.键盘上增加APP跳转，看截图介绍，第三方键盘也可以！搬运工源，永久免费更新分享，请大家多多支持！
 Name: KBAPP键盘增加APP跳转
 Author: Dcsyhi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.kuaipanel.rootless
+Architecture: iphoneos-arm64
+Version: 3.1-1
+Priority: optional
+Maintainer: 搬运工
+Installed-Size: 8648
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.kuaipanel.rootless_3.1-1_iphoneos-arm64.deb
+Size: 2876854
+MD5sum: eae222d6886dc4ae34a1c12f344b643e
+SHA1: ee8fc317e98b7dde3d8c8566c8ef284d4f37904b
+SHA256: 2ed8901ac9150054fc5cd713b278b050b0155e7589ef769813cea803b8e9cad1
+SHA512: 9b4535317e1e9fa4641e9f71b1d3c281c036e596cd687fbce983a4c0125af1e05a85b0cf64c85a43c3ba46ffb98130d9fc2c77b5b98fc8d0636d860748679937
+Section: 插件
+Description: 本插件需要购买激活使用，源主觉得不错，所以上架备份一下，效果可以看截图，觉得有需要的小伙们可以选择是否付费激活！一些快捷操作，看起来还不错！
+Name: 快捷面板-Rootless
+Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
