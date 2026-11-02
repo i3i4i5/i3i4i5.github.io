@@ -12251,6 +12251,26 @@ Author: Dynastic
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.shortmoji
+Architecture: iphoneos-arm64
+Version: 4.7-1
+Maintainer: 搬运工
+Installed-Size: 7112
+Depends: firmware (>=13.0), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), applist, com.creaturesurvive.libcscolorpicker,emt.paisseon.xinamine (>= 0.0.5),oldabi
+Conflicts: com.cpdigitaldarkroom.barmoji
+Filename: debs/byg.iosios.net.shortmoji_4.7-1_iphoneos-arm64.deb
+Size: 2838892
+MD5sum: 265d85f337ea5beb9dc5b91de061ffdc
+SHA1: 7632fbf9e7f9e79e7019e4c1b4bf22181f8677f5
+SHA256: b9fc6051aef2dd63bc1b3a8b0ecf59fb10fbeb68396b7ba0bd240306ffe61952
+SHA512: b0665608527b368c1d838c129128cd5478ad806e0417c0e1efc3a841bfcad30d10598e94b577c50eaf8cbf2f652a0059480df5ffc147155dd2337ec40a5a8e6e
+Section: 插件
+Description: 由巨佬来了老弟修复支持多巴胺，仅供尝鮮，原作者更新之后，本源会下架，感谢大家的支持，以及来了老弟给大家带来修复！ShortMoji 是一款键盘增强插件，键盘增加预测栏，键盘增加底部栏，支持显示表情，方便快速选择，支持快捷方式，包含复制、剪贴、粘贴、全选、撤销、重做等。_________仅测试用,有问题卸载！依赖较多，小心使用！
+Name: Shortmoji键盘增强-Rootless
+Author: MiRO  laileld
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.shortvideodl-rootless
 Architecture: iphoneos-arm64
 Version: 2.1.8
@@ -19475,6 +19495,26 @@ Description: Gói iCon cho nguồn TTJB Repo下载进度插件依赖，因群友
 Tag: purpose::extension
 Name: 下载进度插件依赖-Rootless
 Author: TTJB Repo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm64
+Version: 4.0.1-3
+Maintainer: 搬运工
+Installed-Size: 23200
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: debs/com.tigisoftware.filza64bit_4.0.1-3_iphoneos-arm64.deb
+Size: 8701108
+MD5sum: 7d5f03f6188119766e085c448315badf
+SHA1: 359810455f76363600b37e2b9381b12e8b76170b
+SHA256: 93bf313cafacf19c92850b9585c9471d201e2cb5f449a785b49ded4f61423910
+SHA512: 15166a947868d940483fc311af1f097b87bc8538fc6e4275b365a220a9db1d52cdcba01b61728914bff2808a319ff48bd8f57b301a03ffd54a527853b0faf1ab
+Section: 插件
+Description: 修改版本号低于官方，以证明搬运工源不劫持依赖，全源整改中!真的公益源被网友喷傻了，真的没必要，我不要你的依赖，不要你的支付宝余额。
+Name: Filza文件管理器-Rootless
+Author: TIGI Software
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
