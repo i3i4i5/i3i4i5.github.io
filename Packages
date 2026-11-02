@@ -1173,6 +1173,25 @@ Author: Amy While
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.aestearevived
+Architecture: iphoneos-arm64
+Version: 0.9.2
+Maintainer: 搬运工
+Installed-Size: 1628
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13), com.mrgcgamer.libgcuniversal
+Filename: debs/byg.iosios.net.aestearevived_0.9.2_iphoneos-arm64.deb
+Size: 731244
+MD5sum: ee226f4f641241ea9381dcd107ffd8a1
+SHA1: 439167ade6d80dcfcc85ddccbd809df96328823b
+SHA256: ceae6abed8ea0c6b376b92d513610796ab007fb44c374290c18a0ee2a863bb66
+SHA512: 7376215f3c574897e914ee72eaa0951ecdab5e7239a3b33c36700225e78602118a3a1432e6638e7c2a669732f6ee6efe6d3d81ab484c2cae0f182456512b389f
+Section: 插件
+Description: 该插件的功能是美化一下控制中心插件的里面的图标,例如下图的更改 bigsurcenter的 WiFi等的颜色。（本插件由国人lans233汉化并分享，非常感谢！）搬运工源，永久免费，只为越狱分享！
+Name: Aestea Revived控制中心美化-Rootless
+Author: Luki
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.afc2d-arm64
 Architecture: iphoneos-arm64
 Version: 1.2.1
@@ -1860,6 +1879,45 @@ Author: TiaoTiao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.bhtiktokmod
+Architecture: iphoneos-arm64
+Version: 2.3
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Conflicts: com.bandarhl.bhtiktok, com.hk.bhtiktok.cn.rl, com.dao.bhtiktok,com.dao.bhtiktokmod
+Filename: debs/byg.iosios.net.bhtiktokmod_2.3_iphoneos-arm64.deb
+Size: 641808
+MD5sum: 2baa04d6e92154f770b1e116a49bec04
+SHA1: 969d049070977098e7f458facde98b30b925a995
+SHA256: 88a79b905d2129daa8d1ebb13313824e45b77a9ae94fe61acdfe2450303416f0
+SHA512: c39cc58d8b042ad1316194d400cbd49770418b5aa8828d492a91a1c6040029b7a56d92435f4c70a979ade0de5b66aa7c255d30630ab89f97ebab5a55608c4128
+Section: 插件
+Description: 国际版抖音增强，添加很多实用功能！使用外区id下载，巨魔安装的TikTok请勿使用插件，防止冲突！去广告，自动下一条，纯净模式，换地区，伪造粉丝数，视频下载等功能！
+Name: 国际抖音TikTok增强-Rootless
+Author: Bandar Alruwaili
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.bigsurcenter
+Architecture: iphoneos-arm64
+Version: 1.4.5k
+Maintainer: 搬运工
+Installed-Size: 1820
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
+Conflicts: com.hk.bigsur.cn.rl
+Filename: debs/byg.iosios.net.bigsurcenter_1.4.5k_iphoneos-arm64.deb
+Size: 892266
+MD5sum: 47be2416eec9c63ecada749e8976a4ed
+SHA1: 6af176919bfadef22a1f265893f77846116548af
+SHA256: 17e3183c0bba06fdbfdc14bb5bade330260ff14b82c4907063a9af647ffca2eb
+SHA512: 060bb449079aeae101c5a713e02658f5f2ac78041d4c119ef8390a229bde24f2c91168ed2f762bf663df77c0c5a82d4c7490bab2aa3b2a24217e5366ca9ff48a
+Section: 插件
+Description: BigSurCenter replaces the default iOS control center with a new lightweight and elegant one inspired by the control center in MacOS Big Sur. Cracked by CBZ控制中心美化，非常的好看，已汉化，国内搬运工源免费首发，感谢CBZ大神！大家先尝尝鲜吧！本插件一直没更新，但是能用，凑合着用吧，好像有点卡顿！
+Name: BigSurCenter控制中心美化-Rootless
+Author: nicho1asdev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bindfs
 Architecture: iphoneos-arm64
 Version: 0.6.0
@@ -2142,6 +2200,25 @@ Section: 插件
 Description: 据说这是一款模仿iOS26样式的控制中心插件，安装之后注销生效，无效也不用反馈，卸载即可！
 Name: iOS26控制中心
 Author: therealhoodboy
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ccborder.15
+Architecture: iphoneos-arm64
+Version: 1.1.1-1+debug
+Maintainer: 搬运工
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.ccborder.15_1.1.1-1_debug_iphoneos-arm64.deb
+Size: 20326
+MD5sum: 889cbd79102daba744ffd3219c7e448f
+SHA1: b518c507b0751d2673e2d28e667f7176c7df5a42
+SHA256: a1f0eb3e1a3bc4391b26ae2303c9190fc2982b81ff9fdcde36fb703793fed063
+SHA512: 6d4985be0108f7b644f5bd4929609ebc780a7097a6e1aaa3892b41e655e3dfd730a11e217b48ff913b9af0c602989c557a19ef4e1030cc02a4c95ba6ae880d1f
+Section: 插件
+Description: 不支持iOS16！iOS16用源里的另一款！可配合Miumin插件换控制中心图标美化！类似iOS18样式的控制中心，可调节控制中心模块形状，模块边框粗细，音量/亮度图形颜色等。说明：真皮修复支持iOS15，群友初识 l 定制发布，非常感谢两位，谢谢！
+Name: CCBorder15控制中心美化-Rootless
+Author: fiore
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2505,6 +2582,25 @@ Section: 插件
 Description: 钉钉设置中开启或关闭！非常单一的插件，就一个抢红包的功能！而且不屏蔽插件注入钉钉，应该会被检测虚拟定位吧，反正有需要的用户使用吧，我用的6.5.0版本钉钉，choicy屏蔽注入加果粉之家里的虚拟定位1.4版本打卡正常！自行测试！
 Name: 钉钉抢红包-Rootless
 Author: XUUᶻ
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.disintegratelock
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Installed-Size: 488
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.14)
+Filename: debs/byg.iosios.net.disintegratelock_1.0.1_iphoneos-arm64.deb
+Size: 100162
+MD5sum: 780f5975c634c9ffd1839b206595fd88
+SHA1: d7714eac3d25a4ce7842ba223a9da0cad746e588
+SHA256: 3d7f0c2480ca62b41e47d33d951f78e0a926b6b73aa080753870611da90741fa
+SHA512: 9b3c3b74331895a6545c9496686ccf488cb3c4015eb409cfbef3b5cae74acdba39f98ec4eae1cda4dbe8f581b1d6d4b63047968c54922667f4fc0871edb98690
+Section: 插件
+Description: 一个牛逼的息屏动画特效！看起来还不错，希望花里胡哨的小伙们有福啦！（由国人lans233汉化并分享，非常感谢！）搬运工源，永久免费，只为越狱分享！
+Name: DisintegrateLock息屏特效-Rootless
+Author: p0358
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3408,6 +3504,25 @@ Author: be-huge
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ios15xhome
+Architecture: iphoneos-arm64
+Version: 1.3-1+debug
+Maintainer: 搬运工
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.ios15xhome_1.3-1_debug_iphoneos-arm64.deb
+Size: 6602
+MD5sum: 4bdf7b4861421d1f6eb2d6a705eeeeeb
+SHA1: ec9e8677f956a3a36996294de164741d80cbac8a
+SHA256: 8f9ef35b7b6bbeac9ff11892a979239f09895c11495199891a2e783c9082f718
+SHA512: cca31c11f449e2809bed73484b9a6f6fc70c7828f79f9bbec464152adc9ae8229d2bb64aeba2b8358ffbc0ce07697988fda9ea3931f81ac33bd7aca7492d3bed
+Section: 插件
+Description: iOS15无根X手势，隐藏控制中心状态栏，iOS16不知道行不行，自行测试，无效请卸载！
+Name: X手势-Rootless
+Author: zlw555
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ipadspringboard.rootless
 Architecture: iphoneos-arm64
 Version: 2.0.1
@@ -3915,6 +4030,25 @@ Author: go
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.marie
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Maintainer: 搬运工
+Installed-Size: 940
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: debs/byg.iosios.net.marie_1.0.6_iphoneos-arm64.deb
+Size: 570234
+MD5sum: 620e1e2f412c05ba8501b108c9e69dbb
+SHA1: d76ab077515cd2d65758510756710e1f08e0adba
+SHA256: 25c8b2b918be5da0d4087e43433b8087005bc2b557787fadcba94d632939c343
+SHA512: 520fb9bc3e28ef14fa9dd0ee98632cbd02533c589ddf1e0efea96884fff22002900b043e467590324dbf08bdf701a7de3c9c9d0b54a03cfffe9bf7651c3ff294
+Section: 插件
+Description: 插件作用是为拨号界面、密码页或分享页设置背景图像。（本插件由国人lans233汉化并分享，非常感谢！）搬运工源，永久免费，只为越狱分享！
+Name: Marie背景图像-Rootless
+Author: Luki
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.marktheme
 Architecture: iphoneos-arm64
 Version: 0.3.0
@@ -4142,6 +4276,25 @@ Section: 插件
 Description: 一款音乐专辑图像更换的插件，思念变成海汉化，可能支持的音乐App不多，以下是官方插件介绍翻译：遮罩专辑封面并不是什么新鲜事，当时有一个流行的调整，称为 Custom Cover，它起到了同样的作用。它允许您通过向音乐应用程序的专辑插图添加自定义蒙版来使其具有您想要的任何形状。在 Custom Cover 之后，我们进行了一个名为 MASQ 的调整，该调整在 iOS 12 上结束。如果您现在还没有抓住它，N95 是一个面具，这就是为什么我们决定将我们的专辑封面蒙版调整命名为“N95”。N95 通过支持 Spotify 和 Pandora 等所有主要音乐应用程序，并支持 Next Up 2 和 Quart 等流行的音乐调整，将专辑封面主题提升到一个全新的水平。除了对不同平台的无尽支持外，N95 一直在更新。我将继续支持不同的 iOS 版本以及不同的应用程序版本。
 Name: N95音乐专辑遮罩
 Author: Ethan Whited
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.native-island
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: 搬运工
+Installed-Size: 908
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), org.thebigboss.libcolorpicker
+Filename: debs/byg.iosios.net.native-island_1.0.3_iphoneos-arm64.deb
+Size: 259256
+MD5sum: 09a03402c4df36b7ee28158981d9947d
+SHA1: f1854cbc4429b6406e2eea6693df1a5622217009
+SHA256: f850a4d47d73edd98d46830ca35604e62e3cf0d34a308862e3fdb09555aa209d
+SHA512: 5d139008dc1a5a2fdfd24b7112a4d75e999e473de6496593de8ffa3704719d5571aa79e2380f6a14ab31bac9fc42ad1250dc02131a9e0e6573a811ae97c98392
+Section: 插件
+Description: 不要50块，不要40块，也不要30块！免费使用！原生岛通知，从简即可。仅仅支持iOS16.0+！至于是不是原生岛，仁者见仁，智者见智，搬运工源小编不参与讨论！
+Name: NI-notifier原生岛通知-Rootless
+Author: sunshinesong
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4950,6 +5103,25 @@ Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.rena
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Installed-Size: 416
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, ws.hbang.common
+Filename: debs/byg.iosios.net.rena_1.0.1_iphoneos-arm64.deb
+Size: 81398
+MD5sum: 2e2803670a6c695dbec4ec9124002dec
+SHA1: c263d7e484ad8777480f0b64a1df4b9c202909c5
+SHA256: 92421356532058da6174974acd00ab29864db37cc9d31c1c755b577f240e423a
+SHA512: 827541f28191b6b5bde55ae58fedea17eae2f2370684278fc541ad183b844c0609f4dce22e52c3e3d72c46cf05206ae268b37dbed085c7441b13a5c9a0bfba6c
+Section: 插件
+Description: 在 ios15系统的锁屏中，显示您最喜爱的应用程序（汉化：lans233）一款还不错的插件，喜欢的朋友们可以试试！通知用的是彩色通知插件！
+Name: Rena锁屏应用美化-Rootless
+Author: sugiuta
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.reo
 Architecture: iphoneos-arm64
 Version: 3.1.0
@@ -5486,6 +5658,26 @@ Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.split-view-pro.new
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Maintainer: 搬运工
+Installed-Size: 13648
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Conflicts: byg.iosios.net.split-view-pro
+Filename: debs/byg.iosios.net.split-view-pro.new_1.1.6_iphoneos-arm64.deb
+Size: 5398306
+MD5sum: 0897b95ae595a3d1909a84eb3460bf71
+SHA1: 84d21860d8bcf93b1642d9dd1bb2b3db4330e66b
+SHA256: 94bfbe36ac20a834f41947fb086ddd6aede1237b508de21c12a7acbaade1ee28
+SHA512: 243d5f2375db2ec78e0d814e4ee1512916c959162b3f2b8cf6feaee0215fd3c0592c43e60ff33ba427fb58def4b18bc092c8f3fd1f4e3752b64f17c393626da6
+Section: 插件
+Description: 这是新版split分屏，本源仅作备份！源里还有个旧版，搜split即可！使用如果经常安全模式有问题可以下载旧版本。由大神sunshinesong免费开发的分屏插件，非常的酷拉炫，而且是免费的，据说是吊打O2，免费好用，推荐使用，目前是测试期，耐心等待完善，很多好玩免费插件，尽在搬运工源！如果安全模式可以尝试打开 Filza，进入/var/jb/var/mobile/Library/Preferences/， 删除插件配置再安装！如果还是安全模式我也没办法，搬运工源没改插件任何文件，除了标识符来区别劫持，不信任搬运工源的不做过多解释！
+Name: 新split-view-pro分屏-Rootless
+Author: sunshinesong
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.spotify
 Architecture: iphoneos-arm64
 Version: 6.1.6
@@ -5764,6 +5956,25 @@ Author: be-huge
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.tinge.rootless
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Maintainer: 搬运工
+Depends: firmware (>= 15.0), mobilesubstrate, ws.hbang.alderis
+Conflicts: cpm.dao.tinge.cn
+Filename: debs/byg.iosios.net.tinge.rootless_1.2.2_iphoneos-arm64.deb
+Size: 62434
+MD5sum: f69c5a527fe5ae9b23224aa042e93b7c
+SHA1: 1c6e0cb4cd5acb81e7d065efe359d9d717fbd2f8
+SHA256: 908ca8ee9e3423c98d962b6a6fcd3e69149454ce1426bf44b2d981ffb276fb8d
+SHA512: d216613446d5b4efec423bdde81bd5a1047890c1debe50e466dc3e0d16ded7eb72d46fc7f538ff08dbc9e64cb43c3bcdd3df6a6e208d6b56a0a9cd1fee1a946d
+Section: 插件
+Description: 一款彩色角标插件，根据你的软件图标颜色来自适应，非常的好看，安装去设置里开启注销即生效，原价0.99美元，现在搬运工源免费使用，效果可以看截图，非常的好看！已汉化！
+Name: Tinge彩色角标-Rootless
+Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.totofinancevip
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -5930,6 +6141,26 @@ Section: 插件
 Description: 说是能关闭内嵌视频播放，不再使用低劣的html5视频播放器。在第三方应用程序工作，强制使用iOS的原生播放器。至于有没有效，自己测试！
 Name: UltraVideos视频播放
 Author: tyiiirfvjjkjjj凑合哥
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.underdock
+Architecture: iphoneos-arm64
+Version: 1.3
+Maintainer: 搬运工
+Installed-Size: 680
+Depends: mobilesubstrate
+Conflicts: com.restiveconch.actionbar, com.udevs.dockx
+Filename: debs/byg.iosios.net.underdock_1.3_iphoneos-arm64.deb
+Size: 102218
+MD5sum: e8d6f3f757ecb351b89cfeaaafc26344
+SHA1: 9ae7ca3d167820e398ea5174b3d98ac19faaf9db
+SHA256: 9e7813745243b3acd1ebc1074fbaf8c15e8f7f4d88933942a1b7cbe50815ea73
+SHA512: 265bb0ba6b37a05cf91ac625aece0331af710c835bccf09a3f03db9845b25bc9d5e82c96bf52e3bb927525d3a6b1c996365bc49cc2d285a9dab6d07418ced01d
+Section: 插件
+Description: 给原生键盘和第三方键盘增加复制、粘贴、换行、撤销等按钮，还不错的一款键盘增强插件，搬运工源已汉化，尽情享受搬运工源带来的越狱乐趣吧，搬运工源永久免费！越狱不倒，陪你到老！
+Name: UnderDock键盘增强-Rootless
+Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6831,6 +7062,25 @@ Section: 插件
 Description: 桌面缩放动画，灵感来自SpringAnimations插件，但是不喜欢他的转圈，由搬运工源群管理思念变成海开发，不支持隐根转换安装！越狱因为分享更精彩！
 Name: ZoomAnimation交互动画
 Author: SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.zyll
+Architecture: iphoneos-arm64
+Version: 1.3
+Maintainer: 搬运工
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.zyll_1.3_iphoneos-arm64.deb
+Size: 28258
+MD5sum: 401c9cbb25f4fdaa267a23f9874e75e4
+SHA1: b43403304e9dd4b9ec731c965bae3ad05f594353
+SHA256: 3e657fe3290f8dca67d866ed0c626f189adaa23cf3f122c97b3ea469bad2c1e6
+SHA512: 983a0c09ace425c3e38a636656651235c171cf990d0f813f9472a3794f0febe8e6f0fcec698205da868a77e5cbaf61b45e09b03b7bc3231cdd35c3f1b4c88f30
+Section: 插件
+Description: 可注入可越狱使用。去除启动页视频图片摇一摇广告，去除首页推荐和帖子评论区广告，去除帖子下群组社区推荐，禁用首页左上角话题，禁用首页右上角搜索，禁用推送广告，禁用消息角标，开启全屏视频浏览模式，开启视频下载无水印，等等。'我的'页面长按头像下方控件或首页顶栏或任意帖子内顶部，弹出设置。建议用6.0.9版本或以内的，新版本除了臃肿增加广告以外，一无是处。
+Name: 最右优化-Rootless
+Author: 来了老弟
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
