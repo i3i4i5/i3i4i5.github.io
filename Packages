@@ -1721,6 +1721,26 @@ Author: Junhong
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.fila
+Architecture: iphoneos-arm64
+Version: 0.2.2
+Maintainer: 搬运工
+Installed-Size: 85980
+Depends: firmware (>= 15.0), uikittools, launchctl
+Conflicts: wiki.qaq.fila
+Filename: debs/byg.iosios.net.fila_0.2.2_iphoneos-arm64.deb
+Size: 25325878
+MD5sum: 55ccf20d6d23f5557f0361c605163e40
+SHA1: fdc08dfc138e39c3fd1bc79f0d12c442c16567c6
+SHA256: 178a1adb7db9faec06c5827fad22a4e13483859497bbf766e475a0fad3898e44
+SHA512: cf2f51d57d957e6c0100a7592d35c3c9b1923fd1ec8e306a6939d00d31cb729528be8066be41b48e1b9c8ef604aa542b7749bd7acb9e554cb2c88a701a5fdd5a
+Section: 插件
+Description: 全新的 iOS 文件管理器* 在 iPhone 或 iPad 上浏览、整理和编辑文件。在受支持的系统环境中安装 Fila，即可使用 root 权限访问系统文件。个人感觉和filza没什么区别，软件体积还大，习惯了filza了，不太喜欢换！有需要的小伙们可以试试！
+Name: Fila 文件管理器
+Author: OwnGoal Studio
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.filzacrack-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-9
@@ -2372,6 +2392,25 @@ Section: 插件
 Description: 阻止指定的应用重定向到 App Store、Safari 或其他应用。意思就是防止打开这个软件弹出了广告突然让你去下载另一个应用，或者打开浏览器链接，一款还不错的小插件，需要的用户可以试试！
 Name: NoRedirect禁止跳转
 Author: Lessica
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.o2pro
+Architecture: iphoneos-arm64
+Version: 18.9.17-4
+Maintainer: 搬运工
+Installed-Size: 32108
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.o2pro_18.9.17-4_iphoneos-arm64.deb
+Size: 16885876
+MD5sum: 557a7251524f31ee95a5b271af18afb4
+SHA1: 98cde5b36238c047bf0a06e2e3c15e3166999492
+SHA256: 03530268db0fac643452ed4abc0ce9a5633f7962bf929b7c7c851844e2a18656
+SHA512: 31b90d3c7af922601fb98c05afcd6b44aef6ef44a860f7417ce2f0eaee6d4b447766b602cd61c021825aa07221e0cd6ee980c058882ca6d1ad958ed870f17fce
+Section: 插件
+Description: 注意，目前免费的只有来电视频功能，alive，还有一些灵动岛之类的功能！大家看清楚，据说以后会逐步开放新的功能！其他未免费功能开启可能导致安全模式！O2Pro分屏，褒贬不一，Bigboss源也有，大家直接搜O2就能看到！说实话这个插件分屏的功能还是挺多的，具体的大家可以看介绍https://v.douyin.com/iAUvCPC9/或者截图介绍！觉得不好的用户可以不下载，本源上架只是为了给其他用户选择的权利，下载测试之后觉得不行的可以卸载，不用提供udid，放宽心，插件首页最顶部有获取测试资格，自己联系去问即可，我不卖任何插件，本源也有电话助手、nicebar插件，都是提供给用户搜索之便，买不买用户自行考虑，与本源无关！
+Name: o2Pro分屏
+Author: lzsxcl
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
