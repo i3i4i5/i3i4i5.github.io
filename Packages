@@ -777,6 +777,24 @@ Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.HBWechatHelper.rootlless
+Architecture: iphoneos-arm64
+Version: 2.1.5
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.HBWechatHelper.rootlless_2.1.5_iphoneos-arm64.deb
+Size: 9901506
+MD5sum: 331906d064ff41322f1309e25ced2333
+SHA1: 599622e87aaf4cd6af89a1a52611e9a4536b056b
+SHA256: de76e596a6c692a7e772c39c3d2ff786f8c4a0df2cdc730165cf34747021ec8e
+SHA512: e162033a2f84ef772ad8cdb2c62ea16593dea68433629e16a083dda3ccec867bcd3be1efd08aa7c558a674a05b7d7250a9336e1f23ded2e8c93426965037c9f8
+Section: 插件
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能！请认准搬运工源更新，稳定可靠！
+Name: 微信黄白助手
+Author: HuangBai
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.MiYou
 Architecture: iphoneos-arm
 Version: 3.9-3
@@ -1429,6 +1447,25 @@ Description: Make your icons dance为桌面图标翻转提供特效。具体效�
 Tag: compatible_min::ios11.0
 Name: Cylinder桌面图标特效
 Author: Ryan Nair、SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.donut
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Maintainer: 搬运工
+Installed-Size: 412
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.donut_2.0.3_iphoneos-arm64.deb
+Size: 68410
+MD5sum: b46bc415db3aea9928d6d1ee4a9c662e
+SHA1: c4c49731fb0dc569d3da9e6176114813da170ce9
+SHA256: 95b86d40ebcd47bb29cfade822ae7385f47c018fe302ff3faf05e48c4a436cbf
+SHA512: e29d138583e0d138240b527fc087e99bf4eac20e145cfdcba77195e73babb27a4883e9dc9004e37d121a8caeb494553b7729316a4201806a2f60e182eede35df
+Section: 插件
+Description: 桌面图标通知角标变成空心小圆圈，由搬运工源水友SINI首发创作，刀刀源维护，非常有意思的一款插件，喜欢的小伙们可以试试看！
+Name: Donut圆圈角标
+Author: SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
