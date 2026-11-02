@@ -1787,6 +1787,24 @@ Author: Ryan Nair
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.catvnc
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.catvnc_1.2.0_iphoneos-arm64.deb
+Size: 1987970
+MD5sum: f6e0d748753e96b6a36f61ddac1a0558
+SHA1: 9718f241f62e4a42c10091c003d379bef993282c
+SHA256: 08260259df5df520a4d6aa7a8f2623614b4dbfea2ca2768595508354af5b67bc
+SHA512: 1721fb2e3e4fced5b511cc34b6d2430923395b27c943534baac9386db63e2b4e9c863c52efad701629ca230ea81d9f7c82194c4c0b782f4d56e0c9c0fc4b6a91
+Section: 插件
+Description: CatVNC是iOS平台上的VNC服务器，不需要使用的时候关闭插件；可以使用电脑上的VNC客户端（如UltraVNC）连接到iOS设备，从而远程控制iOS设备。具体怎么用我也不知道，有需要的小伙们自己研究，搬运工源仅上架备份！
+Name: CatVNC远程控制-Rootless
+Author: 0x530c
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.cc26
 Architecture: iphoneos-arm64
 Version: 1.0.6
@@ -3760,6 +3778,25 @@ Author: Huayuarc
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.qmxshook
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: 搬运工
+Installed-Size: 400
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.qmxshook_1.0.3_iphoneos-arm64.deb
+Size: 148338
+MD5sum: 4af34c9b4fd8ccd5ab02a43675d8671a
+SHA1: acd4fa7d6446ce18c68609d241002ae1a8c2450e
+SHA256: d7d83d3cbe5c4bf26e5586a45c9bb59bdf59df6077f3731066f236242dd730df
+SHA512: f8b57de23820e2d839fc3f3cef6deebc45255d0d49a0ac9aec574795b7ce99c4aded9cd7c2011daf749a350e2820ab5b6c6846d9c49f9d37233b71d945d5b52a
+Section: 插件
+Description: 去除启动广告以及部分广告 | 全部小说阅读内无广告 可用VIP字体 VIP背景（VIP可能失效） | 部分小说开通免广告权益可用部分会员功能 | 激励视频秒过 | 段评视图增加一个长按关闭手势 | 仅适配7.63.10版本！
+Name: 七猫小说破解-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.qqantirecall.x
 Architecture: iphoneos-arm64
 Version: 1.6
@@ -5282,6 +5319,25 @@ Section: 插件
 Description: 微信强开朋友圈发送图片评论，仅支持8.0.60+，好友应该也要高版本微信才行，无效请卸载！
 Name: 微信朋友圈图片评论
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wsyhnojb
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 468
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.wsyhnojb_1.0.0_iphoneos-arm64.deb
+Size: 168280
+MD5sum: 8852b0a5b87163de387ee9e022f68acd
+SHA1: 1901fc9f2083a3f0a2e1224871faf8329429bcc7
+SHA256: e848fc09957dca9885c05abb697c4e8c32b61a1ceb8b090b3e4a5c5b5557e3e0
+SHA512: 833668c0cfef3e13fedbabd5552c27207e842cae50620f0ce3a3cedccdc67dcd839135fe92379334aad499e83ae03ed3aa217d0e6780babb7ea585225135d553
+Section: 插件
+Description: 网商银行屏蔽越狱检测，仅支持4.6.4，不要使用choicy或者魔术师屏蔽本插件注入网商银行！
+Name: 网商银行屏蔽越狱-Rootless
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
