@@ -2970,6 +2970,25 @@ Author: Traurige & neilsardesai & SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.batteryhealthenabler
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
+Filename: debs/byg.iosios.net.batteryhealthenabler_1.0.1_iphoneos-arm64.deb
+Size: 5702
+MD5sum: 33907839747b8f5126ad1f9392fa6702
+SHA1: 1e4b5581c8e13d7e1045911056003e394a7df657
+SHA256: aa3d4cb0bb04b2d022c82a1ed8dbeed96a8569602c07c3312371fa491bf75a11
+SHA512: b9756003d5871ae3957ea4735e8103988805bff82697d4af17b97183a611d7c5f39be0792fb7cc6adf5481de90be2e6f014d2759a1693c356ad60334bb1bb821
+Section: 插件
+Description: 修复更换第三方电池后，电池健康显示维修或者无法验证正品的弹窗，修复使用多巴胺越狱后，电池一直显示加载中的问题。效果非常的明显，推荐使用！请认准搬运工源，其它源的可能会导致电池出问题！搬运工源，你的越狱好帮手！
+Name: Battery Health Enabler-电池健康修复-Rootless
+Author: PoomSmart
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.batterypercent.rootless
 Architecture: iphoneos-arm64
 Version: 1.1-1
