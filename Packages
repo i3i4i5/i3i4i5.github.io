@@ -2187,6 +2187,25 @@ Author: tesla_man
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.qqdsq
+Architecture: iphoneos-arm64
+Version: 1.3.5-1
+Maintainer: 搬运工
+Installed-Size: 404
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.qqdsq_1.3.5-1_iphoneos-arm64.deb
+Size: 114222
+MD5sum: 8441ef8530681337a6a51b54da717917
+SHA1: 2d095d306210b7c111161a3a8947584c114e9b5f
+SHA256: 95c3dd716229821113a31858ba73df863ed7d3c258235440dcd41492f87ceb9e
+SHA512: 3c8ab8b85cdb3c1242c7c923c7ceda53a1fe4ea4a1e8d6cedfdb490dd34a5850c8fb055d7f967ad5da3ac4121546a8010d68cf6738bdd461573b64b4c9019146
+Section: 插件
+Description: 给QQ加点小功能，功能在手机系统设置里，不是QQ里。若不行，请升级新版QQ。已经在研究转发语音和空间跟圈，去广告，防撤回等一些功能还莫急，会上！慢慢更新！
+Name: QQ芭比Q-Rootless
+Author: 来了老弟 X：h_h_x_t
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.qqhook
 Architecture: iphoneos-arm64
 Version: 1.3
@@ -2619,6 +2638,24 @@ Section: 插件
 Description: 本插件有设置项，在系统设置里打开开关然后注销！功能如下：为您的开关添加一些风格，日月特效。效果请看插件截图介绍，非常的不错！喜欢的美化的小伙们可不要错过啦！不排除有bug，自测！搬运工源，免费安全，中国第一源，越狱必备！
 Name: DayNightSwitch日月开关
 Author: Finn Gaida
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.themebox.rootless
+Architecture: iphoneos-arm64
+Version: 3.0.7
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.themebox.rootless_3.0.7_iphoneos-arm64.deb
+Size: 12768026
+MD5sum: 975d7b2d9a51acbde2df6cb3117c57a2
+SHA1: a0b85a9cf96015f5b21c1bc8edfdcd4992d25d20
+SHA256: df59e4f7ad7fcb7ea2ba5a665cb7bea1071e42cf41119b4046f645bfc2dd7652
+SHA512: cc0f25013bae844976a1e0eaa0017aa688fc1b5a4a5612b3bd6dd060d1899b60194fe18a65ba71406bf5d15e3bd85c03cd16768900b9bda44f3091d775b42544
+Section: 插件
+Description: An awesome MobileSubstrate tweak!又一款微信主题加载插件，非常的不错，但是主题要收费，插件免费，大家自行体验，小编测试了一下，还不错，大家自行找主题哈，搬运工源没有这个玩意！主题盒子所有功能都需要先选择一个主题然后开启插件才能生效，插件无内置主题。不支持手动导入主题，主题需要联系主题作者给你兑换码，兑换之后从插件的下载中心下载到本地。
+Name: 微信主题盒子
+Author: WeChat
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
