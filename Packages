@@ -2760,6 +2760,25 @@ Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ximalaya.rootless
+Architecture: iphoneos-arm64
+Version: 2.7.5
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.ximalaya.rootless_2.7.5_iphoneos-arm64.deb
+Size: 6198
+MD5sum: 0e85750a4a7555ebe145ca7ade8b2078
+SHA1: 43f60625d39636a89f75438b2149143cfa3fb8f4
+SHA256: 761a8585ca59b0c142f45d87b6786481fe8a21051ff7743debe3e010023261e6
+SHA512: 30ff24344b2cc2531bd191c4f75575fd052b99e4c08c5f52ca890ed646b3030c267627a9812d706fb3fba591120cfd7542b97e3276b7ba7d9d07b45d05a80a2b
+Section: 插件
+Description: 最新9.3.75,去后台启动,去启动广告,暂停广告,列表广告,播放页广告,不影响领福利！并非破解会员！搬运工源，永久免费更新！
+Name: 喜马拉雅优化
+Author: Z
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.xuanhua120hz
 Architecture: iphoneos-arm64
 Version: 1.0.0-11+debug
