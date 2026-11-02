@@ -6690,6 +6690,25 @@ Author: PoomSmart
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.redbag
+Architecture: iphoneos-arm
+Version: 2.3.0
+Maintainer: 搬运工
+Installed-Size: 1122
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: debs/byg.iosios.net.redbag_2.3.0_iphoneos-arm.deb
+Size: 469804
+MD5sum: 5e9ae9ee91d75162e43b5cad6562fc0c
+SHA1: 92ae29e5f7a32b7506e2ee7ca3c4cce3f0814c0b
+SHA256: c517e901a470ba6a885bfddd9ea367927e88064851ca443862bd27ec29599ee2
+SHA512: ae569fc41834d081ba5a3fc12ff89a29eae1f6e3e51c5072827c702b71bf832696e459a208d22606687b927e06eb132d9966d15ed325796d6dde3ab5217dc0dd
+Section: 插件
+Description: (支持微信8.0)微信自动抢红包，自动收款，支持提醒、自动回复、延迟、指定不抢！若有不行，请降低微信版本！
+Name: 红包达人
+Author: asmallman
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.releasefugu15
 Architecture: iphoneos-arm64
 Version: 6.2.9-1
