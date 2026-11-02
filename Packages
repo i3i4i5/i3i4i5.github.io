@@ -16820,6 +16820,25 @@ Author: Nebbs
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.lenglengyu.shortvideodl
+Architecture: iphoneos-arm
+Version: 1.7.1
+Maintainer: 搬运工
+Installed-Size: 2864
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo
+Filename: debs/com.lenglengyu.shortvideodl_1.7.1_iphoneos-arm.deb
+Size: 1098668
+MD5sum: 1d6056621a100913f1e73cbaa446bdc4
+SHA1: 6878c12ce0ed4bfe2641f6dd14e67205d2f192be
+SHA256: 06e64816bf6fc9837adb877a7e35146a3bfda8b55ea5bcc79faa6b74c1ae5b13
+SHA512: d2b63ea99d78ee1235ae2b53add7f0019a4d0b5ba684ec282cbe3005cdf2cfbfaf53937ffcd0f9ecbc9d57cd2e2cdfcf9a116ee4772e8e85f06d76cc63f64c40
+Name: 短视频助手
+Author: lenglengyu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+Section: 插件
+
 Package: com.llld.flexrootless
 Architecture: iphoneos-arm64
 Version: 0.0.2
