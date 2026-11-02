@@ -1261,6 +1261,25 @@ Author: MustangYM
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.UniDream
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/byg.iosios.net.UniDream_1.0_iphoneos-arm.deb
+Size: 13108
+MD5sum: 8765fdba14448fd1ec18fcfb115a7df8
+SHA1: 6190a3eb208b7c6fb20c007db90bd064319041e6
+SHA256: 9aa8564677ce0b60d05ded6d4ab4e0258599c062048dd5de77e86c4b9e9ccee7
+SHA512: 79ec41571b6e3d123c51ab214e788467fec0ac6d69332744ade94c6f1a890a5e09ba7d7ce7304a2237354fb302cda05b5d245642b3ba5cadb8683618d8924d78
+Section: 插件
+Description: appstore的一款软件，解锁终身会员，由百岁老人提供分享，非常的nice！
+Name: UniDream(Ar绘画）破解
+Author: Mo-百岁老人
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.Videonoads
 Architecture: iphoneos-arm64
 Version: 3.3.0
@@ -1373,6 +1392,26 @@ SHA512: fe7a0f22bdd7ceaaac93dd5d19e1d39f49154711287c151dd9f0167dd49125c1f257fc07
 Section: 插件
 Description: 广告终结者，一款免费的去广告插件，可谓越狱必装插件，创意由大佬来了老弟提起制作，搬运工源维护更新！其中特别感谢iOSign,Netskao,Lenglengyu,蜗牛等人为大家提供如此多的去广告插件，如果有安装相同软件的去广告插件，导致软件闪退，建议先删除，防止冲突！广告终结者不涉及系统层注入，不会引起系统崩溃重启，放心使用！软件闪退可使用choicy或者小扫把可以单独禁用某一项！插件无设置项，安装即生效！广告终结者永远免费更新，后续会支持越来越多的软件，有问题进搬运工源Q群反馈！
 Name: 广告终结者-RootHide
+Author: 搬运工&来了老弟&iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.advertisement.rootfull
+Architecture: iphoneos-arm
+Version: 2.2.3
+Maintainer: 搬运工
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lenglengyu.killads,netskao.xhsnoads,netskao.ppxnoads
+Filename: debs/byg.iosios.net.advertisement.rootfull_2.2.3_iphoneos-arm.deb
+Size: 3441512
+MD5sum: f2e13b4fb01bd423dcd280bdc76fca93
+SHA1: 88c1189c80c20740a935233fe8d542151f6115a0
+SHA256: f0f76baaf65b7abf33b5c2a6b4d1830f94dd224d4fe6089bd79b861f9dd2142b
+SHA512: e1283d78d34a1ae447a27d11abf1574aa129f988bca19c91829e78e2d25903dd22b5ce25f5fa82d76f3d13d53b292713422831f275209f727513ec0f4ba9784a
+Section: 插件
+Description: 广告终结者，一款免费的去广告插件，可谓越狱必装插件，创意由大佬来了老弟提起制作，搬运工源维护更新！其中特别感谢iOSign,Netskao,Lenglengyu,蜗牛等人为大家提供如此多的去广告插件，如果有安装相同软件的去广告插件，导致软件闪退，建议先删除，防止冲突！广告终结者不涉及系统层注入，不会引起系统崩溃重启，放心使用！软件闪退可使用choicy或者小扫把可以单独禁用某一项！插件无设置项，安装即生效！广告终结者永远免费更新，后续会支持越来越多的软件，有问题进搬运工源Q群反馈！
+Name: 广告终结者
 Author: 搬运工&来了老弟&iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -2018,6 +2057,24 @@ SHA512: 6690a86b84ff4a28af063cb324d693932c822d641b47f825aaefd867aa28a2b688e2b99a
 Section: 插件
 Description: AudioRecorder XS 简体中文包。为通话录音插件提供中文界面，仅半越狱使用！
 Name: AudioRecorder通话录音中文汉化插件-RootHide
+Author: Sandy0 & 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.audiorecorderxs.cn.zh
+Architecture: iphoneos-arm64
+Version: 5.0-3
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.audiorecorderxs.cn.zh_5.0-3_iphoneos-arm64.deb
+Size: 19162
+MD5sum: de77d721982729807877b75e90dd389a
+SHA1: 495825e2757f657c3d9e937e83202bb28f9d2b70
+SHA256: ebb8174b85b55d78d11a3f2ea75ac92ab6eddaf886e5fdc3dd3d7b035d57e627
+SHA512: 5588bcb3ecb6f7b081a23f57e0a5267af72c755123e71ba054e6f79e6c7f426bdfd8877c648381bf02f4e436afb3e27dbea19723a19c2061b9497159c3624e0c
+Section: 插件
+Description: AudioRecorder XS 简体中文包(rootless)。汉化插件
+Name: AudioRecorder XS 通话录音中文包-Rootless
 Author: Sandy0 & 妖刀
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -3812,6 +3869,25 @@ Author: Ethan Whited
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.doubleclickwake
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 140
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.doubleclickwake_1.1-2_iphoneos-arm64.deb
+Size: 5788
+MD5sum: ebaff30b4deb7f052fbfa1fb8576af9c
+SHA1: bd1a7590835e05adf452fde988ddc245f092f2fc
+SHA256: bd7ce0e8b6faa58359b74d93481fb7f889c202a51e013321526dd25b1b990093
+SHA512: 04b7fcd69a804f406cce4857a583f784ea9e921b8cdb1039a274b5f95bbc9cca7a02b13620ec2eb5958bf15f48e0cea879062dc2a3addd989004711f911e3881
+Section: 插件
+Description: 单击唤醒改为双击唤醒(设置-辅助功能-触控-轻点唤醒)，仅测试用,有问题卸载！老弟修复支持多巴胺！
+Name: 双击唤醒-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.doutu.rootless
 Architecture: iphoneos-arm64
 Version: 3.1-7
@@ -4304,6 +4380,25 @@ Section: 插件
 Description: Filza unlock full functionality, the main program please install in the official source Filza破解插件，请自行安装filza文件管理器，本插件只是破解插件！
 Name: Filza 破解插件-Rootless
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.fingerlock
+Architecture: iphoneos-arm64
+Version: 3.0.2
+Maintainer: 搬运工
+Installed-Size: 936
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.fingerlock_3.0.2_iphoneos-arm64.deb
+Size: 272606
+MD5sum: 798fa980a82f42dab088417ae2aed838
+SHA1: 92ddc5c98dbac19e2e6a246281272bca02b7b4e2
+SHA256: 0456420646979cbd1c55f2a39619a4f0e9e9c4314199542c8b82125752459626
+SHA512: 0d8c6c11bfd41bfd638a6f1c19d6069515ccb97e3935d6285ada7e37004f2b4a7f43d952e88ee78ac648f885d2bc993349f75d5aa5ff6c8be6a423657498f748
+Section: 插件
+Description: An intuitive way to unlock your device个性化锁屏按钮，自定义图标，感谢巨魔商店M哥汉化分享！
+Name: FingerLock个性化锁屏按钮-Rootless
+Author: MTAC
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5218,6 +5313,25 @@ Author: Luki
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.jade.rootfull
+Architecture: iphoneos-arm
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 1237
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.jade.rootfull_1.0_iphoneos-arm.deb
+Size: 394900
+MD5sum: 6114e50b649a60e79d4dec66e251a681
+SHA1: 951fa3560d8224a45117d0bfb73f88f3b3289e4c
+SHA256: 462fe033331074cd3a29532f7511d023076f015b8005e06b5f30fc3204e5c656
+SHA512: 7f5090a32623376dd6ab70df3051745071d600bdf8fed045a0e31ed03c03b4a75505b12a12c0c7bf651e5c4ab50127c2911b94704a039c2f7c8bb94c13114f38
+Section: 插件
+Description: Your control center, brought anew.一款控制中心美化插件，非常的不错，可以缷载一些其它功能的插件了，感谢搬运工群友爱一喜地路购买分享！
+Name: Jade控制中心美化
+Author: Nightwind and thetimeloop
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.jade
 Architecture: iphoneos-arm64
 Version: 1.0.5
@@ -5273,6 +5387,62 @@ Section: 插件
 Description: 京东优惠券！
 Name: 京东优惠券-Rootless
 Author: Mao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.jellyfish
+Architecture: iphoneos-arm64
+Version: 1.6.5
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1), firmware (>= 15.0)
+Filename: debs/byg.iosios.net.jellyfish_1.6.5_iphoneos-arm64.deb
+Size: 117412
+MD5sum: b11265afded02e1bb811c20c7982f3f1
+SHA1: cc2e21b26530f64a770fcd4150cd44d7d3e7e041
+SHA256: 06108ad304d7c0f273b2ecd25ee146c5ee8b5eb6aa3801a89f194e89830ce917
+SHA512: fb983acb2c40638a6ccb5f5191dc3f17b849e0caec3b6aec5c331e37fae96343c49a09ac50c42091a00dc812310e521b1f1a005ca4728da503ac94767d72315f
+Section: 插件
+Description: Natural, Simple, Beautiful. Redesign your Lock screen with Jellyfish.锁屏美化插件，由搬运工源自主汉化分享，搬运工源你永远的家！锁屏显示天气，字体修改等等！自行体验！
+Name: Jellyfish锁屏美化-Rootless
+Author: Justin Proulx and Ayden Panhuyzen
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.jiaban.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.jiaban.rootless_0.0.2_iphoneos-arm64.deb
+Size: 5002
+MD5sum: 8747b14aaa170ee0736f33daa266ec49
+SHA1: d50580b9915b6ab1d4f9c53b0ac1411eb077b03d
+SHA256: 3bacec508e396c4cecefab01220372b554e44086d7a6a864140363a0f0a521e8
+SHA512: b7004dfa0f407c38042f24a1abf8f23fd29c25e70f1c09b78e08dd2dc6932411a36b171a705a2f07d98a4fba65a3be9ff4b2b55429b409abeb0599f0f85c514a
+Section: 插件
+Description: 解锁VIP皮肤，精简首页内容，登录后显示VIP，具体功能破解是否真实有效请自测！
+Name: 安心记加班破解-Rootless
+Author: iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.jjyh
+Architecture: iphoneos-arm64
+Version: 0.0.1-1+debug
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.jjyh_0.0.1-1_debug_iphoneos-arm64.deb
+Size: 4756
+MD5sum: fa3112a04eb1ebc639d29f90167361d9
+SHA1: 56eca17c284b3160e5a30c736edf93c5c8930298
+SHA256: e04400ad1fb7bb8e316f1ae835b345e095d457a21298bd6b8d4efd5eca1a496b
+SHA512: 0a7af9d355365900454442b083516244df87fd6ce798714f98d2cfeea8c380dd413fc88aa97943eaad11175b4b10f676ebcbc4aac8ff8f7d13c73c6840fa153f
+Section: 插件
+Description: 解决银行越狱检测弹窗(东莞银行)，不用注销
+Name: 东莞银行越狱屏蔽-Rootless
+Author: 来了老弟
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -7190,6 +7360,25 @@ Author: c1d3r
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.qjkqdbyx.rootfull
+Architecture: iphoneos-arm
+Version: 0.0.1.1+debug
+Maintainer: 搬运工
+Installed-Size: 284
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.qjkqdbyx.rootfull_0.0.1.1_debug_iphoneos-arm.deb
+Size: 5432
+MD5sum: 2cf27ae7a7dbbd9b7f0bd8184681a5aa
+SHA1: e5b742fd9fd24ec1b4cf3d61671c573162f4f609
+SHA256: c40246ea2db7012afe2ba0c425665d145a0079d15669a2216ae6e1ae57c305c3
+SHA512: 5dd42a249a3b72750a1009a2bc762f23da5515d9f70293def50a7ad1ee079e2044963dd0fd3de6521a2c760e991e0d14241ca6051334990f6fb0f8350c2a0e26
+Section: 插件
+Description: 全局开启杜比音效、杜比音效和普通音效的区别在于杜比音效加强了立体声效果和低音效果，能够使播放的音频声音更具立体环绕感，给人一种身临其境的。
+Name: 全局开启杜比音效
+Author: Huayuarc
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.qjkqdbyx.rootless
 Architecture: iphoneos-arm64
 Version: 0.0.6
@@ -7774,6 +7963,45 @@ Author: 妖刀
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.rootless.minilsp
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.skypain.minilsp
+Filename: debs/byg.iosios.net.rootless.minilsp_1.1.2_iphoneos-arm64.deb
+Size: 9020
+MD5sum: be97314cf69195b495533e46d0aab3d1
+SHA1: 7f11e5e31bea589e5deb6ca545dbdcc9e1d180dd
+SHA256: bf160e9f424f59c6108037cf488762d14437b049aa658beed75f091ec1d411cc
+SHA512: 6f9656d8f2fc9449a7bdbe7ab6e1ef12f533c4db9d8524d4ed0eca193dbf195859fb59d2bce3759da9af58b0913d3f3f0596334404502299190c5f42cf16f878
+Section: 插件
+Description: 迷你锁屏播放器，无设置选项。
+Name: MiniLsp迷你锁屏播放器-Rootless
+Author: Mr.Zhang
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.rrsp.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.rrsp.rootless_0.0.2_iphoneos-arm64.deb
+Size: 4870
+MD5sum: 9f83e6a93a91135bd1ac472755735355
+SHA1: c96a3c81f7fed667f5f31a51bb25016b2f389124
+SHA256: 5eaa73a434816050b981961c51d171d28019d09b8299a5263eca600e019e8194
+SHA512: 2f14edbe327b4809a166e7becbfa86bbcc65d10b8aeba33e334a9b9232c95faa162e61381caab51f839c42576e3b98a5f02cb1cd53956688e6ee6a67c6349905
+Section: 插件
+Description: App Store搜索人人视频。本插件去除广告，破解VIP；支持商店V1.8版本。由搬运工源iOSign免费首发，如需转载请备注搬运工源byg.iosios.net。世界那么浑浊，搬运工源坚守最后一片清明！
+Name: 人人视频破解-Rootless
+Author: iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.safariblocker
 Architecture: iphoneos-arm64
 Version: 1.3.1
@@ -8095,6 +8323,25 @@ Section: 插件
 Description: 一款显示触摸轨迹的插件，机友思念变成海基于开源代码的基础上，增加滑动轨迹效果，非常不错的一款插件，大家可以看看截图，喜欢的小伙们可以下载啦，和havoc源那款付费的差不多，冲冲冲！
 Name: ShowMyTouches触摸轨迹-Rootless
 Author: dvntm & SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.shuiyinxj.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.shuiyinxj.rootless_0.0.1_iphoneos-arm64.deb
+Size: 3280
+MD5sum: b9e48b095ef7e527ed744bd711e76514
+SHA1: 6629137d1905abff8c0e47fe2fc44753d5f3f717
+SHA256: 7adf376e4b98910268dee42fc13bf65aac974b5512119d63208129d4ea9b1d18
+SHA512: ba89acdf423212ea1ac4e1e455584670c673c048da4bb39521738d54871ff4e135316c85fe8185f5f2e69e51671de52e2385df0f8a108c0e1bef617b77ad8bcc
+Section: 插件
+Description: App Store搜索微脉水印相机。本插件去除广告，破解VIP，登录掉了就重新登录吧，毕竟某同行源是收费插件！由搬运工源iOSign免费首发，如需转载请备注搬运工源byg.iosios.net。世界那么浑浊，搬运工源坚守最后一片清明！
+Name: 微脉水印相机破解-Rootless
+Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8612,6 +8859,26 @@ Section: 插件
 Description: stheno奥利奥分屏插件，效果看截图，插件设置项应该是从右侧最下面往左滑打开，自行研究，不懂的去群里问人！仅支持iOS16，不支持iOS15！搬运工源，更新第一！
 Name: Stheno奥利奥分屏
 Author: Crassna
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.stopautolaunchapps
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Installed-Size: 162
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: zp.stopautolaunchapps
+Filename: debs/byg.iosios.net.stopautolaunchapps_1.0.2_iphoneos-arm64.deb
+Size: 5904
+MD5sum: 4ccc01478cefa41d07c06ac18a419239
+SHA1: 4c538697fde1b3f2f9488739722df99d0fd0f9ea
+SHA256: 9a8ba43b42f894a0bf8f79850c6453e8175512c68098a2851ad78aafbd81f129
+SHA512: 1e31a7e6eb82523f23d0bde881d2dd51441416cbb426b78f912be928ee2f6e0306a8e1959c13ae61046ff4031cf37b09f1db355ab0e2ce489ed78dfc40b2ea62
+Section: 插件
+Description: 禁用iOS热启动神经网络引擎,禁止iOS后台热加载app！优点:节约内存,少杀后台！玄学:减少重启概率！安装完成后，请重启一下用户空间！
+Name: 内存优化-Rootless
+Author: zqbb
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -12397,6 +12664,25 @@ Author: huami
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.iosnet.UniDream
+Architecture: iphoneos-arm64
+Version: 1.0
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.iosnet.UniDream_1.0_iphoneos-arm64.deb
+Size: 5994
+MD5sum: ac0dba590a0ecfe3c830f73c2473941c
+SHA1: 292a8c801ac5a9ab752bdd723e7da6ea557c3851
+SHA256: f0e48831121feafbcbb795899800a21553355ed1e49ff5247164e1d598ebb3a1
+SHA512: ad5b4556bd235e91af179384727974993b7131bcf2c9fa14bcdc794903ec7b0148c8c4465bd75a7f08ff147fdb652c99db49d73ac7079d9f26be33e188aea1e8
+Section: 插件
+Description: 解锁App Store的UniDreamAi绘画软件会员权限
+Name: UniDreamAI绘画破解-Rootless
+Author: Mo-白岁老人
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.iosrxwy.fanqiehehe
 Architecture: iphoneos-arm64
 Version: 0.1-1
@@ -12575,6 +12861,24 @@ Section: 插件
 Description: 插件依赖，以降低版本号 来证明我不劫持依赖，因为没必要！
 Name: NiceHelper插件依赖-Rootless
 Author: niceios
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.nicho1asdev.bigsurcenter
+Architecture: iphoneos-arm64
+Version: 1.4.4
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, ws.hbang.common (>= 1.17), ws.hbang.alderis (>= 1.2)
+Filename: debs/com.nicho1asdev.bigsurcenter_1.4.4_iphoneos-arm64.deb
+Size: 907230
+MD5sum: 86503ab5792f70cf589fc1aa49d1d614
+SHA1: 89ccdcc1259d017b087a6bba47658710c920358f
+SHA256: fad049fb8da7ceae7267c37bf7162acfac25a816ec0f9156eacb2ca3b4a9c27b
+SHA512: 39fcedda47c7210d50d46dacad798b14f268e2acde5ec9245806b1d0085e9aa5a4ab0d13c9e4634fce470e749514f0639f588ce5a792296f9356bd8524b0fe05
+Section: 插件
+Description: BigSurCenter replaces the default iOS control center with a new lightweight and elegant one inspired by the control center in MacOS Big Sur控制中心美化，非常的好看，已汉化，国内搬运工源免费首发，感谢cypwn大神！大家先尝尝鲜吧！如果你是盗版的话，遇到什么问题可以进群反馈，等待更新！
+Name: BigSurCenter控制中心美化-Rootless
+Author: nicho1asdev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -12776,6 +13080,25 @@ Section: 插件
 Description: Kill Your Apps as you wish, keep your app switcher always clean with scheduled kills, immediate kills, and screen lock kills. Cracked by CBZ!定时杀掉你的APP软件后台，随时随地保持系统内存，自行下载体验！
 Name: KillYourApps定时杀后台-Rootless
 Author: Snail
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.spark.libsparkapplist
+Architecture: iphoneos-arm64
+Version: 1.0.9~rootless
+Maintainer: 搬运工
+Installed-Size: 408
+Filename: debs/com.spark.libsparkapplist_1.0.9_rootless_iphoneos-arm64.deb
+Size: 45256
+MD5sum: 818838bcafef35fd512310b99acebd27
+SHA1: 714fd62df84c30b78bcb11afc559a9cb97d83a2a
+SHA256: 38d13579d06943878a6a440e006a3e78238c099fe2f87d3521e389f7c830dd3c
+SHA512: e48a41f654cdfea797a04b4a7f8f3527280cb1de7ce9d380102bbb8ba06292cb7f52ff19551dee75d47a139a36c444964fdd4ca7c24fcec2754a15663b201fca
+Section: 插件
+Description: AppList alternative插件依赖
+Tag: role::developer
+Name: libSparkAppList插件依赖
+Author: Spark
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
