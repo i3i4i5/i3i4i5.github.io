@@ -4345,6 +4345,25 @@ Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.sanjeh
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: 搬运工
+Installed-Size: 1228
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, ws.hbang.common
+Filename: debs/byg.iosios.net.sanjeh_2.0_iphoneos-arm64.deb
+Size: 728010
+MD5sum: f9ee16745735dae49f7c631164a7d1c1
+SHA1: 92d8f2a49704e95ee34a9865b90c9c89e067bdda
+SHA256: 3d4d7411304a5e391a9ee542ad02f74bce20c3172fc0b4c993b5b2ae3889e434
+SHA512: 341dfc07e74e798a0e048e087cdda5c094fe6956d44040232a4d811c3771d5887c46ab8aefd4d033d8eafdbcb08de5dbaf3bee096ac903ed0ee26f6ae7eda3cd
+Section: 插件
+Description: 已汉化！搬运工源一直为用户着想，不爱轻喷！一款充电动画插件，插上充电器就有弹窗，还可以自定义，看起来还不错，喜欢的小伙伴可以入手试试！后续可能更新更多功能！敬请期待！
+Name: Sanjeh充电动画-Rootless
+Author: Mysteryexe
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.sbcpu.floating
 Architecture: iphoneos-arm64
 Version: 6.4
