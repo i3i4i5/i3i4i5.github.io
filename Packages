@@ -3050,6 +3050,25 @@ Author: MrDeNsor
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.lynxtwo
+Architecture: iphoneos-arm64
+Version: 2.5.4
+Maintainer: 搬运工
+Installed-Size: 2952
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: debs/byg.iosios.net.lynxtwo_2.5.4_iphoneos-arm64.deb
+Size: 1018910
+MD5sum: 2c29d0ceaccd5c727b65217f788b4ecc
+SHA1: 800db01e5f2247e1793fa0b1f7bab9d281d98af6
+SHA256: 57d17d3da66d64921fc16eb2b4bace0ec941361473314cbb5a10735e102a607c
+SHA512: e1964bf61ed5538dc14c25a98c4c6f5328998eae6fb14c0716e4f51ec66c56a5a551b5aed1cc48138dca1d14d8a6417e8681705fa83bc1763e19d660449c6807
+Section: 插件
+Description: Ultimate iDevice Customization for iOS 15+多功能系统调整，原价1.99刀！有能力的可以支持作者！插件功能非常的多，改时间格式，改状态栏，显示网速、carplay、改桌面图标等等，人称国外版电话助手！功能非常的多，强烈推荐使用！
+Name: Lynx 2系统优化-Rootless
+Author: MTAC
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.macpass
 Architecture: iphoneos-arm64
 Version: 1.4
@@ -4299,6 +4318,25 @@ Author: Spark
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.souvenir
+Architecture: iphoneos-arm64
+Version: 1.32
+Maintainer: 搬运工
+Installed-Size: 676
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.souvenir_1.32_iphoneos-arm64.deb
+Size: 168602
+MD5sum: 5c47747915339128284f3eb89c053d84
+SHA1: 638d848d2d38cfc90f3859f1d4613cabccbe57d8
+SHA256: 0b5e59e5f867d5d2d888acb58f6fd7467660cd57bb5ed23e3c4e367022a04b1d
+SHA512: 3af1cdd372313efb78f11a1789f8dcdc71f26e84ff477239d30c5b2488613af07ff78bfd5dcfbc11ccfa8daa501897249c9d5c195d4f759078cc3f534a640cc8
+Section: 插件
+Description: Lockscreen customization tweak!又一款锁屏美化插件，非常的好看，可以更改锁屏字体，字体目录var/jb/Library/ApplicationSupport/Souvenir.bundle/Fonts”支持ttf和otf自定义字体格式在搬运工源结合楠神汉化补丁修改完善，结合多种插件使用美化！已汉化！
+Name: Souvenir锁屏美化-Rootless
+Author: Elio Feghali
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.spectrums
 Architecture: iphoneos-arm64
 Version: 3.0.9
@@ -4614,6 +4652,25 @@ Section: 插件
 Description: 暂时放出来的一款手势插件，是免费的，大家自行测试，可能也有bug，等作者修复就行！
 Name: TieGesture手势插件
 Author: be-huge
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.totofinancevip
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.totofinancevip_1.0.1_iphoneos-arm64.deb
+Size: 15316
+MD5sum: 4d847c98055b79b8c64c320f97e9aca5
+SHA1: 61240b169f7f8b9f7308cdb026adc23426145dde
+SHA256: 64455ca63e02172883015485e630c74482433eb5b798aa4192944881132b5e4f
+SHA512: 734034f04ec8d0a546e7bcc10af7df46d7c45f198526e526c2a437cd3bcfca60e99f4050a0291343551a05712971d55604fb92ee61b1fc32f941a10b26786411
+Section: 插件
+Description: 图图记账会员解锁，AppStore里搜索图图记账，一款还算小巧的记账软件，喜欢的小伙们可以试试！
+Name: 图图记账会员-Rootless
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5283,6 +5340,25 @@ Section: 插件
 Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保您的设备硬件支持120Hz。系统兼容性：此插件可能与iOS版本不兼容，具体取决于系统的内部实现。电池消耗：动态调整刷新率可以降低电池消耗。插件无设置项，多巴胺里注销即可！可以安装搬运工源里的手机性能显示插件即可看到是不是120hz，搜性能显示即可，并一定有用，无效请缷载！
 Name: Free免费120hz-Rootless
 Author: Rain
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ysbrowserhook
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Installed-Size: 104
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.ysbrowserhook_1.0.2_iphoneos-arm64.deb
+Size: 27096
+MD5sum: 33fe7a6287171720dfa77e4e898bc5b8
+SHA1: 09a3ad0a8b343ff7919a6c2650139b8787538e19
+SHA256: 4872de725a81bb9cb2ed63421e79f02447da267c4ac987ec75d3dac92c725f23
+SHA512: f7fc1f56b3049d7ace37d3a055535cddb9f37e4bd378ed2bad03da115702d83a7a08f96ec738e88cf0d0c8525c7871e84d533749c4a4ce012ec016a6c4ba2513
+Section: 插件
+Description: 亚瑟浏览器在AppStore搜索即可下载，本插件的作用是解锁Pro 屏蔽越狱检测，至于浏览器好不好用大家自行体验，貌似还不错！
+Name: 亚瑟浏览器Pro-Rootless
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
