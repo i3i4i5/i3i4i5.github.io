@@ -1976,6 +1976,24 @@ Author: 冰蓝
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.bloom
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: 搬运工
+Depends: dev.theos.orion14, firmware (>= 14.0), gzip, com.ginsu.comet, com.yan.lottie
+Filename: debs/byg.iosios.net.bloom_1.0.3_iphoneos-arm64.deb
+Size: 780518
+MD5sum: b246d22b4fbea63fe1df413db770200f
+SHA1: ae97e1ebd331fabbbb4f9431828f82ab8e5e1cfc
+SHA256: 5c90bacdb046d43211031e150508e862d5695a5186fe4ce642197db436769ede
+SHA512: 0e0b7a04e27b08e2e3d3cf99be62ef7a1372c67302b06ef2a32e4194f2d7dcb972afd3e21e7faac247c8f7733829033af0ab90b00028092e3eb094aafc3991b1
+Section: 插件
+Description: Beautiful animated notifications. Crack by CBZ!体验一系列引人入胜的动画，增强您的通知体验！根据自己的喜好自定义 这些动画：选择使用应用程序图标的主色或选择适合您的心情和风格的自定义颜色。锁定和接收通知时保持设备屏幕变暗，以尽量减少干扰。动画播放完毕后，屏幕将亮起，本插件暂未汉化，请对照截图设置，反正没几个开关，很简单。如果闪退或者无法设置，就是破解失败了，请耐心等待更新！闪退不影响设置效果！修改的1.0.1版本，大部分用户不闪退了！
+Name: Bloom通知动画-Rootless
+Author: yan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.blurrybadges
 Architecture: iphoneos-arm64
 Version: 1.5.3
@@ -3921,6 +3939,25 @@ Author: Banana
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.iwanttranslucent
+Architecture: iphoneos-arm64
+Version: 0.9.4
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.iwanttranslucent_0.9.4_iphoneos-arm64.deb
+Size: 9062
+MD5sum: d5effde6af21a2195ca21499f10afa36
+SHA1: 3d35611086df3c087eb735473b1b0cee2db36feb
+SHA256: adf4f79783eff8cff36cfa9a7b4227f860e3dad6e10b10795f04363afe3d9b36
+SHA512: 9f4eae64e2090ca51ed973e74d02b554411904f249797712be5d45d2c2ff25c4b61feb63b20df35d9454014277fcf84a56155aacd3bd62f4f7f7d28293fad220
+Section: 插件
+Description: An awesome MobileSubstrate tweak indeed这是一款让你的3Dtouch透明的插件，看起来还不错，安装注销生效！
+Name: 3Dtouch透明-Rootless
+Author: Luki
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.jade
 Architecture: iphoneos-arm64
 Version: 1.0.5
@@ -4538,6 +4575,24 @@ Section: 插件
 Description: 窗口化多任务，即分屏；无设置，后台界面，按住APP卡片2秒，或者长按APP图标选择「窗口分屏」，即可将此APP窗口化分屏；APP分屏后，左侧红按钮（关闭窗口）、黄按钮（最小化）、绿按钮（最大化）；按住右侧按钮即可缩放窗口；按住窗口顶部可随意拖动窗口。由 akusio 基于 MilkyWay2 现代化重写；34306 优化适用于 iOS17–18 和 iOS26。截图分享来自于刀刀。搬运工源感谢每一个为越狱做出奉献的小伙们！
 Name: MilkyWay2分屏
 Author: akusio
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.misaki
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, ws.hbang.alderis
+Filename: debs/byg.iosios.net.misaki_2.0.3_iphoneos-arm64.deb
+Size: 266428
+MD5sum: 89f6febd0234173964992625c160dc8a
+SHA1: 7f1aa7e361ddeaa769ec4b1b1cbb1877d7ce1f4e
+SHA256: d3613ced60319e11e0c10f5cb852341971a014c8b3de3d7e9fa4c781209119bf
+SHA512: 68c71e7cc6016454d2d70729e411ae5696f244813fbcf9ea0cb6d66a1dbf425e6656752e4d128ff73f3f3bd1fc4bd288a75daca05da999202ea2cc6732f3b2c2
+Section: 插件
+Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.一款系统调整插件，主要对锁屏、主屏幕、文件夹、系统设置等多地方进行优化！搬运工源已汉化，原价1.49刀，有能力的请去支持作者！
+Name: Misaki系统调整-Rootless
+Author: Hitori
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5283,6 +5338,26 @@ Section: 插件
 Description: A Tactile RGB Keyboard for your iPhoneProKeys是iPhone的触觉RGB键盘。iOS键盘自iOS 7以来没有太大变化。这是一个扁平、无聊的键盘。它有两种颜色，深色和浅色。不要了！ProKeys是iOS键盘应该有的样子。你可以真实地感受到每一个按键，你可以自定义键盘和键帽的外观，你可以添加漂亮的动画，这样你键入的每个字母都会以鲜艳的颜色弹出。为了让它变得更好，你可以微调每一个功能，这样你的键盘就非常适合你！真正了解ProKeys所能提供的唯一方法就是实际尝试一下，那么你还在等什么呢！总结一下就是美化自动键盘的插件，小编不用自带键盘所以不是很清楚用法，大家自行测试一下！
 Name: ProKeys键盘美化
 Author: Justin Proulx
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.pulloverpro
+Architecture: iphoneos-arm64
+Version: 2.1.6
+Maintainer: 搬运工
+Installed-Size: 2440
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: debs/byg.iosios.net.pulloverpro_2.1.6_iphoneos-arm64.deb
+Size: 981158
+MD5sum: 290e4299220906642982176eb5f8c598
+SHA1: 6f76521c59b41c5bc24a44e95255a9857ca040c2
+SHA256: 1a6ab3c585e9141c12da9f78fbafa2c8640261ec3ef158d405185b11cd1b2942
+SHA512: 57494e4920a0f234bb694bc419d9dd607310feeef29b49c102d5b125db1baad05f3400605eadfd8457efb833fe5472c863c1c5faa6dfe52efb66885fadbd2403
+Section: 插件
+Description: A better way to multitask! Fix support for iOS16 堪称最好的分屏神器，且是免费的，非常的好用，又好看，真的很不错，感谢退网的NetSkao再次为其更新支持iOS16！冲吧，兄弟们，必装插件！
+Name: PullOver Pro分屏神器-Rootless
+Author: c1d3r
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -7321,6 +7396,24 @@ Section: 插件
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像，防撤回，等一些其它比较好玩的功能，和其它的插件差不多，可以下载试试看！
 Name: 微信爱锋助手-Rootless
 Author: appku
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wechatiphonehelper
+Architecture: iphoneos-arm
+Version: 1.5-9
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.wechatiphonehelper_1.5-9_iphoneos-arm.deb
+Size: 5774364
+MD5sum: 0482688eb1f51b5e5f90feae21493897
+SHA1: e399b021d04f22dd0f7d2e9959ed3a0074635d92
+SHA256: ffd8632d04bdf4490e24974a57a9010b6903eaf4650bad323c5f6141915df897
+SHA512: 56d2506067ac020255048e49d01ada2dfe6dbd0a20b46a4301cf928477f05aaf2dd33a3b6a6b6dc713c5a92457b984a0e4cf35910e983a435f6f75890b6e2bfd
+Section: 插件
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，右滑快速备注，全局长按导航栏快捷功能,证书有效期查询等;修复文字防撤回，修复转账金额移动复原，添加文字修改，新增语音包,一键已读,修复部分bug以及代码优化。
+Name: 微信爱锋助手
+Author: 爱锋助手
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
