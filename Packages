@@ -16962,6 +16962,59 @@ Author: zhaonan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.niceios.nicebarx14
+Architecture: iphoneos-arm
+Version: 1.0.2.9-3
+Maintainer: 搬运工
+Installed-Size: 10516
+Depends: com.rpetrich.rocketbootstrap(>=1.0.10~beta1),mobilesubstrate,com.niceios.nicehelper(>=4.2),preferenceloader
+Filename: debs/com.niceios.nicebarx14_1.0.2.9-3_iphoneos-arm.deb
+Size: 4218422
+MD5sum: 5ca6c4a2087b757580e08473d2cab26c
+SHA1: 3cae86a9e8e8fe385b4f63e45b5bba2591971496
+SHA256: 2ab6c5556e43194399558dcb120aa524683718e721a5cad8768ceeab323b8979
+SHA512: c18392924620582011275d854618fe3a3ab1bafa61724f5f9b73665ea5e821c3a824e758f501f3f04b250d84934014d08404054236e593112c2e3ca49c3a2ad0
+Name: NiceBarX(iOS14)
+Author: niceios
+Sponsor: 搬运工
+Section: 插件
+
+Package: com.niceios.nicebarx15-rootless
+Architecture: iphoneos-arm64
+Version: 1.0.1.2-0
+Maintainer: 搬运工
+Installed-Size: 9124
+Depends: mobilesubstrate,com.niceios.nicehelper-rootless(>=5.2),preferenceloader
+Filename: debs/com.niceios.nicebarx15-rootless_1.0.1.2-0_iphoneos-arm64.deb
+Size: 4050172
+MD5sum: 66c36159545d4924319cd618071e60bb
+SHA1: 55cab3c49e28249ce2a3e11c5542b7496af3ad67
+SHA256: b5f5e16f4c969034f533b69c9aed8e461d9b81dc47d55d4933a3e3c64a4da4bc
+SHA512: 426bb45e44d260aa7b7e38ee66b37872533576efbdc2218565c32791172feb1c032a011b37f1b173a98e440dbd8ed46c3d733743036513b2b523b2ba8fd882a3
+Section: 插件
+Description: 状态栏美化插件
+Name: NiceBarX(iOS15)-Rootless
+Author: niceios
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.niceios.nicebarx
+Architecture: iphoneos-arm
+Version: 3.0.0.5-20
+Maintainer: 搬运工
+Installed-Size: 11544
+Depends: com.rpetrich.rocketbootstrap,mobilesubstrate
+Filename: debs/com.niceios.nicebarx_3.0.0.5-20_iphoneos-arm.deb
+Size: 3313602
+MD5sum: af5b9d00dcff0e6c3326169f3ed0d5e0
+SHA1: e856457dc7e1a5893d4f80dfc396f1f98ea47cf4
+SHA256: 133d0e9c0203960a326a111617b43024b17434324b4e47d1e8b0624ac5c0a1cf
+SHA512: 7b3f9140d2cf2fef2897f5a12a6518156267b886a914110f87af01a835d2d1434f18cea1524ed2366c9bf7f09c338722efd93bf6eaad88a14f344440c7757a47
+Name: NiceBarX(iOS11-12 免费)
+Author: niceios
+Sponsor: 搬运工
+Section: 插件
+
 Package: com.niceios.nicecaller15
 Architecture: iphoneos-arm
 Version: 1.0.0.4-25
