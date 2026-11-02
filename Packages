@@ -2721,6 +2721,25 @@ Author: iosdump
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.zoomanimation
+Architecture: iphoneos-arm64
+Version: 0.0.1-9
+Maintainer: 搬运工
+Installed-Size: 392
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.zoomanimation_0.0.1-9_iphoneos-arm64.deb
+Size: 51250
+MD5sum: 5f758ecfb8072cd23f049dbfa7f7b444
+SHA1: 47e1a3df12e13888f445b4b36e2109bf82cbe4fe
+SHA256: 422aeeae7e5ac4621d53c7d65bc61c87dddf274b818c20b40c81a63090181bbd
+SHA512: c0ebf544914f9bffe4b851294ac6c6839968c23a8f492ae8a63df13104f73f61ffa96d5e2b36336a9cc06d2ebc9f3a74c4dd047d4fea36e43f36d1b45f5ed8fe
+Section: 插件
+Description: 桌面缩放动画，灵感来自SpringAnimations插件，但是不喜欢他的转圈，由搬运工源群管理思念变成海开发，不支持隐根转换安装！越狱因为分享更精彩！
+Name: ZoomAnimation交互动画
+Author: SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: cn.imkpatil.ezswipe
 Architecture: iphoneos-arm64e
 Version: 1.1.1
