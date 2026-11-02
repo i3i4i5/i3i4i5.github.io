@@ -1455,6 +1455,24 @@ Author: lly
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.advancedbrightnessslider
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17)
+Filename: debs/byg.iosios.net.advancedbrightnessslider_1.2.1_iphoneos-arm64.deb
+Size: 48592
+MD5sum: 41bcaec647b4d661ae377e9157052b0e
+SHA1: a6cbda111fff26b96a45c339c41d974fadf6aee9
+SHA256: 43b73db8d53f0c50bcea899a9aa9f341e9b3364793185ece87e291576af72ed2
+SHA512: 2cc887cc79033b29d0dec8ee6784ff6c7c98385d81ffff9b54fbe3932a67177e950e3a69cb26309b8bbc9e673a273eb7a4901d69616a0ad29663ff0066f9cad1
+Section: 插件
+Description: Tweak to dim the screen even further with the brightness slider in Control Center使用Control Center中的亮度滑块进行调整以进一步调暗屏幕，感谢M哥汉化！
+Name: AdvancedBright降低亮度-Rootless
+Author: Jonas Schiefner
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.advertisement.hide
 Architecture: iphoneos-arm64e
 Version: 2.3.1
@@ -2825,6 +2843,25 @@ Section: 插件
 Description: 注意：此插件需要购买正版Snapper3，搬运工源的是旧版破解没用！此支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用(没提示)。
 Name: BigShot长截图依赖-Rootless
 Author: Jonathan Winger-lang
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.bigsurcenter.rootfull
+Architecture: iphoneos-arm
+Version: 1.2.3k
+Maintainer: 搬运工
+Installed-Size: 1608
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), preferenceloader, com.opa334.ccsupport, com.rpetrich.rocketbootstrap (>= 1.0.6), ws.hbang.alderis (>= 1.1)
+Filename: debs/byg.iosios.net.bigsurcenter.rootfull_1.2.3k_iphoneos-arm.deb
+Size: 939036
+MD5sum: 257c2ef4427c870b84b785b65147213c
+SHA1: 95e728527108e3157fbd721c8415abe40566f725
+SHA256: 2c6d88a189cc7fbff766d2ca048fe3b000e40f16c14810248e4805fa72d59e42
+SHA512: 9b9b4d4f638a71bd023b0f0c82badafb98b98f5c46e669038a8b88d10c3478a6d647d3ed8d35980165709dd44be047b3e6d0cf2fa30d975382b87b2bd2e738ce
+Section: 插件
+Description: 将默认的iOS控制中心替换为一个新的轻量级和优雅的控制中心，其灵感来自MacOS BigSurCenter中的新控制中心。
+Name: BigSurCenter控制中心美化
+Author: nicho1asdev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5485,6 +5522,24 @@ Section: 插件
 Description: iCleaner Pro Crack破解插件，网友分享，应该是有效的，建议有能力的还是支持作者，破解去广告，会导致清理软件一直是英文，介意的请卸载，和本源无关，不要乱造谣
 Name: iCleaner Pro 破解插件-Rootless
 Author: Anna
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ikeywi4
+Architecture: iphoneos-arm64
+Version: 4.2.1
+Maintainer: 搬运工
+Depends: preferenceloader, mobilesubstrate, firmware (>= 11.0), com.opa334.altlist
+Filename: debs/byg.iosios.net.ikeywi4_4.2.1_iphoneos-arm64.deb
+Size: 398888
+MD5sum: 4e917894203a3e2c262784fb8c0fc0e3
+SHA1: cd67dd82de778b42dd8feece8604918cf17f9e6c
+SHA256: afcc35b42fd0a4b7bcab1230f91a3935e40a26a6e107db404e00a00156724ca4
+SHA512: 43cfc4040188757369935b3244722fa10766a4af381f451ddcb4bad39502ca404361c1611b91c2ca1faa7968ba768beca056453f4d04054c9d96a254ab58faa5
+Section: 插件
+Description: Adding a customizable row of keyboard键盘拓展，详情见插件截图。原价1.99刀，现免费使用！感谢Cypwn！搬运工源，搬你所想！
+Name: iKeywi 4键盘拓展
+Author: Hiraku
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8654,6 +8709,24 @@ Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.sakal
+Architecture: iphoneos-arm64
+Version: 2.2.1.1
+Maintainer: 搬运工
+Depends: firmware (>= 13.0),mobilesubstrate, preferenceloader, org.thebigboss.libcolorpicker
+Filename: debs/byg.iosios.net.sakal_2.2.1.1_iphoneos-arm64.deb
+Size: 140512
+MD5sum: 3e705b1a011b2694732756f4b48d7391
+SHA1: a41fc83be8cc026c0ed9ea5517aae6cfe5321acb
+SHA256: f9ee5edc6f7e3c73674ece4979ecb28a59252e7d5a4e9110bc5df47948f3091d
+SHA512: 21ee0854fe4525c064ec12f634ec85530d0adf2704dc8d22f8cdfcb79390b7f87eddcfe2386d3a18f4159d2b502d78dd934caa7ca0213b1475981cffa333be5c
+Section: 插件
+Description: Useful at a glance information on your lockscreen!锁屏界面显示天气等信息！如果重启或注销，要打开 天气 App ，刷新一次天气，锁屏才会显示。它是读取系统天气 App 的天气数据。搬运工源已汉化完成！
+Name: Sakal天气锁屏-Rootless
+Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.sanjeh
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -9912,6 +9985,24 @@ Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.teleport
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.teleport_1.1_iphoneos-arm64.deb
+Size: 7445168
+MD5sum: 24ef19e1b139693f247c56552ac48760
+SHA1: ae4d55c198a764f7dbd7c19289cdf26c9b563b96
+SHA256: 2dadf071e44745b658567b932da6fa322549ea6d9b573bd963c971987b2a7dd3
+SHA512: 5c9b00a5dc95e2c94da47ae3d2caa671d85d7e1224b162bff0325c181b66fd4f3ca516ef9b7fb7e11552b37491b8a00aa47bdc1363fa5c403078723882bc19e4
+Section: 插件
+Description: Spoof GPS location一款免费的虚拟定位插件，暂时还没汉化，因为需要解包，后面搬运工源会第一时间更新的！暂时主页汉化凑合着用吧！需要用的小伙们们可以自己摸索一下使用方法，应该很简单！汉化后面更新！
+Name: Teleport虚拟定位-Rootless
+Author: SGWC
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.teleportcn
 Architecture: iphoneos-arm64
 Version: 1.0.0-1
@@ -9983,6 +10074,25 @@ Section: 插件
 Description: 这插件有什么用我也不知道，安装即生效，无设置项！插件分享也与原作者无关，作者毫不知情，本源上架就是备份，切勿用于非法！！！另外说明，本插件也是会失效，一切自有天意，一切自有安排！搬运工源是你最好的家！
 Name: 时间主宰-Rootless
 Author: llld
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.timellld
+Architecture: iphoneos-arm64
+Version: 3.3
+Maintainer: 搬运工
+Installed-Size: 264
+Depends: mobilesubstrate,oldabi
+Filename: debs/byg.iosios.net.timellld_3.3_iphoneos-arm64.deb
+Size: 24308
+MD5sum: b8fdc5a8f4be97c44cdb8150c54cfcda
+SHA1: 99a882164d4a311fe1490ee90e8d577c821680b0
+SHA256: dceba08f09c5b42df4c591f39108b474793f92ca492efce30809b4e312836fbe
+SHA512: a2b4139a681010ea3c034f5e16404af40cd9637104f88d39349030bd45a250e7ab8e759994da99228a18dd20a9a59343a89bf0b980e56d3650fff25f3b942dfd
+Section: 插件
+Description: 双击音量-或+语音播报当前时间，感谢来了老弟修复支持多巴胺越狱！
+Name: 语音播报当前时间-Rootless
+Author: mika
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
