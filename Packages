@@ -2519,6 +2519,24 @@ Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.glance
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Maintainer: 搬运工
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0), com.ginsu.comet, com.opa334.altlist
+Filename: debs/byg.iosios.net.glance_1.2.2_iphoneos-arm64.deb
+Size: 691436
+MD5sum: 0c958a0fe059bee205cdb92ef5935203
+SHA1: 7d67b4057cb93946c924ae8bc40daaea299d23af
+SHA256: 22fc5977fdbae2478daf3c60883161808380bf5a6057be6e2716c46042fd1275
+SHA512: c5426e8835259068a02ba3d0eca7592b9e5546a549c717ece8f7f0b134717a02ae21f577236f30ea76ee32e4ad991c0ecbd2eee07fa6ffba336ae9c7e8533cc4
+Section: 插件
+Description: See notifications from far away一款模仿ShortLook的大屏通知插件，就是来消息时候，锁屏状态下能看到大大的软件图标和消息内容，如截图所示！暂时无汉化！对照截图看翻译即可！原价1.49刀，有能力的请去支持正版！
+Name: Glance全屏通知-Rootless
+Author: Janis
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.goodwifi16
 Architecture: iphoneos-arm64
 Version: 1.7.3
