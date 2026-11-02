@@ -3788,6 +3788,24 @@ Author: tuancc, Summit, Shadow-
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.hidenotificationbadge
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Filename: debs/byg.iosios.net.hidenotificationbadge_0.0.1_iphoneos-arm64.deb
+Size: 4556
+MD5sum: c7c60a94163a74de0bb9471a69523579
+SHA1: 95ec464c88bcc3fffb6689621f0f891d1db73249
+SHA256: 66bff32224b7311d0b723281136225c93a9e04994bbb9fbaa73db502762c9fbe
+SHA512: a39da0172ce461b156d2b31081529fdaa69a4a44089bdb6c558a45fee5c01c1782ce02b159ab6264bef3b525182740c9b0e364e6390799e20218a34b304c8ac2
+Section: 插件
+Description: 隐藏锁屏通知图标中右下角标，不是桌面！拒绝某牛收费，插件作用效果看截图介绍，有问题反馈！
+Name: HideNotificationBadge隐藏角标-Rootless
+Author: SquidForce
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.hideserialnumber
 Architecture: iphoneos-arm64
 Version: 0.0.4
@@ -4635,6 +4653,25 @@ Section: 插件
 Description: 又一款软件应用锁插件，长按APP开启，源里还有另一款，按各自喜好来！插件功能是为应用程序添加 Touch ID 锁定验证，就像 iOS 18 中的安全功能一样！
 Name: LockTouchX软件应用锁-Rootless
 Author: MrDeNsor
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.lsilllooklater
+Architecture: iphoneos-arm64
+Version: 0.0.1-1
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.lsilllooklater_0.0.1-1_iphoneos-arm64.deb
+Size: 2874
+MD5sum: 41a75129fc5736d6543d9e58bd7aff27
+SHA1: dd85776818b218d2fe29085dbdf9b3d2121f5802
+SHA256: b9abe2a8ea8092f78cbaa721923c388a4b4922a11963e196a935ae5491cd9a91
+SHA512: 06ecb1c7034efd3221374abd305220641c4d02989de721ae01833845c47486decf1281cb9fcaf9a6408add794f11e75f3928a2ac5fcf874fc3db113ba7e4de74
+Section: 插件
+Description: 不知道为什么很多人要这插件，源主测试没效才不上架的，一直一堆人在要！插件作用：防止锁屏在收到新通知时唤醒/显示。这将通过防止屏幕亮起来防止不必要的电池消耗。无效请缷载！
+Name: LS - IllLookLater锁屏不亮屏-Rootless
+Author: sinfool
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5489,6 +5526,25 @@ Section: 插件
 Description: 输密码界面的密码弹跳动画，非常丝滑酷炫！多巴胺里注销生效，无设置！如果无效请缷载！搬运工源，万古长青！
 Name: PinAnim密码弹跳动画
 Author: sourcelocation
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.pinnacle
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 880
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.0), com.ginsu.comet, com.opa334.altlist
+Filename: debs/byg.iosios.net.pinnacle_1.0.0_iphoneos-arm64.deb
+Size: 194416
+MD5sum: d5bbec9a9fd23eb26cef26dc14ec8c69
+SHA1: 4755ba89a941b0df11e5c807e3f87ca9ce1430ec
+SHA256: c6dcace369fdf2ca26198eff139a837581d5f8201c77481e14ae14917d68b1a6
+SHA512: d8a6ca06171e7d2cc12b92e1bcaecd9a114808e50cc15b48a1563bbbd5e96dc374df0c5632de4a987ac0c975246783d0b3aaeb4f41ccf5ff7d97f010fad4626c
+Section: 插件
+Description: 本插件是否有效，源主不清楚，因为需要iOS16才能测试，我没设备，无效请缷载！插件作用如图所示，多个应用进行堆叠，长按可以滑动打开快捷方式打开其它应用！还不错的缷载，无效请缷载购买正版，或者等更新！
+Name: Pinnacle应用堆叠-Rootless
+Author: rugmj
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6845,6 +6901,25 @@ SHA512: 243d5f2375db2ec78e0d814e4ee1512916c959162b3f2b8cf6feaee0215fd3c0592c43e6
 Section: 插件
 Description: 这是新版split分屏，本源仅作备份！源里还有个旧版，搜split即可！使用如果经常安全模式有问题可以下载旧版本。由大神sunshinesong免费开发的分屏插件，非常的酷拉炫，而且是免费的，据说是吊打O2，免费好用，推荐使用，目前是测试期，耐心等待完善，很多好玩免费插件，尽在搬运工源！如果安全模式可以尝试打开 Filza，进入/var/jb/var/mobile/Library/Preferences/， 删除插件配置再安装！如果还是安全模式我也没办法，搬运工源没改插件任何文件，除了标识符来区别劫持，不信任搬运工源的不做过多解释！
 Name: 新split-view-pro分屏-Rootless
+Author: sunshinesong
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.split-view-pro
+Architecture: iphoneos-arm64
+Version: 0.0.3-1-47+debug
+Maintainer: 搬运工
+Installed-Size: 1056
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.split-view-pro_0.0.3-1-47_debug_iphoneos-arm64.deb
+Size: 258026
+MD5sum: 90304b8684a1b9127d104556b8ac19e3
+SHA1: 49f0419aede6f742135158944f49a62ff2b68bf3
+SHA256: 57f44d79f8961abb0627cb2b5e5b63b02a44677614567a3f2a00d67ca1c512b7
+SHA512: a443a40a65676b3c53d0e837067ab677e935b5f5c95910ce659d6e99fa386028fa86132da43787faf748669cc778fe7fbb98d07da49419afc55d490eb00927b6
+Section: 插件
+Description: 由大神sunshinesong免费开发的分屏插件，非常的酷拉炫，而且是免费的，据说是吊打O2，免费好用，推荐使用，目前是测试期，耐心等待完善，很多好玩免费插件，尽在搬运工源！
+Name: Split-view-pro分屏-Rootless
 Author: sunshinesong
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -10654,6 +10729,25 @@ Description: Customize your Control Center!_________仅测试用,有问题卸载
  Weather Widget.
 Name: BetterCC-roothide
 Author: Miguelaka95 <miguelaka95@gmail.com>
+
+Package: com.niceios.nicehelper-rootless
+Architecture: iphoneos-arm64
+Version: 6.0-5
+Maintainer: 搬运工
+Installed-Size: 2984
+Conflicts: com.niceios.nicehelper
+Filename: debs/com.niceios.nicehelper-rootless_6.0-5_iphoneos-arm64.deb
+Size: 1090590
+MD5sum: b888f9c0abf8a82b4cc2469dcfe4240d
+SHA1: 089671fd08c56de2b67ac82fd6020f823daee919
+SHA256: 2a6485547a86e72e451ac0f462ffa01ff77505d84858afb3895dba396648f8b7
+SHA512: 7db3cc9200523aaa0c08da5dad0bc1a5d6f85900137884f09a87ebdd17f6d04780d589b7d36f357fd70a1678ca7a93fd8d9893362723d40d05da64fed3eb2a48
+Section: 插件
+Description: 插件依赖，以降低版本号 来证明我不劫持依赖，因为没必要！
+Name: NiceHelper插件依赖-Rootless
+Author: niceios
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.opa334.libsandy
 Architecture: iphoneos-arm64e
