@@ -976,6 +976,43 @@ Author: Nepeta & Baw Appie & daodao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.baidunetdiskoutput-rootless
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Maintainer: 搬运工
+Installed-Size: 92
+Depends: mobilesubstrate,firmware (>= 14.0)
+Filename: debs/byg.iosios.net.baidunetdiskoutput-rootless_1.5.5_iphoneos-arm64.deb
+Size: 12986
+MD5sum: f6bd4d7ef6ff6272589121146f8a4a04
+SHA1: c5d5adbc153e5d20fabcf2203385ce08d2bc8fd7
+SHA256: e6e8d87ddbdfa50bbde591de92f54c92b3cf1194868efe1e6d7fe1cbfaeecc05
+SHA512: ff37bb4fcd1462ae0d5bb670bb18f614d498a07210d167ec83d1e7e419ddd6af115698a5e29a2ceebe9851af6975ab7f083da60cff7a5def67728baf3de99cec
+Section: 插件
+Description: 百度网盘去除开屏广告，并增加缓存文件添加导出按钮，免去每次进入路径寻找文件的繁琐方式。感谢网友ylr制作分享！
+Name: 百度网盘去开屏及文件导出
+Author: ylr
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.battman
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Depends: firmware (>= 12.0), cy+model.iphone (>= 10.1) | cy+model.ipad (>= 8.1), libintl8 | libintl
+Filename: debs/byg.iosios.net.battman_1.0.2_iphoneos-arm64.deb
+Size: 540988
+MD5sum: 0425ce8ec3784faf1c286cd93005be09
+SHA1: 95d61f05a9ae97e164be002f2720f0019e853d90
+SHA256: b94d34f3d065436efd8c2e353ed005bfb2de735b95d147f9cc62ee5760ee9a2a
+SHA512: c107e2eaddd7206889832d686ee336e8d6592ccfbfdab8225e322589c9061730f1f9317980dc249fbf51686c0b926407e4b077ef526f5113b5e59b196db71a34
+Section: 插件
+Description: 一款电池助手插件，可以查看电池健康度，充电次数，充电效率，电池温度等等，安装之后在桌面上，直接打开即可！可能部分功能闪退，等后续更新！搬运工源，永久免费！
+Name: Battman电池助手
+Author: Torrekie
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bindfs
 Architecture: iphoneos-arm64
 Version: 0.6.0
@@ -1281,6 +1318,25 @@ Section: 插件
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
 Name: 番茄净化
 Author: Junhong
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.filzacrack-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Maintainer: 搬运工
+Installed-Size: 120
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.filzacrack-rootless_1.1-9_iphoneos-arm64.deb
+Size: 36252
+MD5sum: d8a9c460f56e95529efdcf5f812f99a4
+SHA1: 988f57f6b36f547951497ecb7a041871532aaec0
+SHA256: d9fb64ef39c4f753aab75cf77b58d222d974cd648171cd1b221548f1ab965e51
+SHA512: b1903d71f8e5f66d9d1f22a3c89a917567b67f99ec11033a2cb98df771b59186bfc21c0fad5aecff2a4594152f6cbb5493775ee0fb048ed5d06f02135324851b
+Section: 插件
+Description: Filza unlock full functionality, the main program please install in the official source Filza破解插件，请自行安装filza文件管理器，本插件只是破解插件！
+Name: Filza 破解插件-Rootless
+Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2172,6 +2228,25 @@ Author: 34306
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.volumemixer
+Architecture: iphoneos-arm64
+Version: 0.0.7~beta3
+Maintainer: 搬运工
+Installed-Size: 1016
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/byg.iosios.net.volumemixer_0.0.7_beta3_iphoneos-arm64.deb
+Size: 243000
+MD5sum: 0ec6cf17eaaebb4cc56a60ebbfab8d94
+SHA1: 394d68fc18665f2f484191ac20c63c59e0102f5c
+SHA256: 76e056e5171295ebb1198daf2d23870490cd5da4e3ed8b191e5b4bcb0dcfdb63
+SHA512: 599cf2aa213b3a37c6b7f15e7c7dfd1679c3a52afff38a1b2558360472f267746b124737d3276983830db79a3696c74a5e0bd5384a30fb2378006ab39f665bff
+Section: 插件
+Description: Volume control for individual app一款当独控制APP音量大小的插件，非常的不错，很多爱玩游戏的小伙们肯定需要它，那就快来下载吧！
+Name: VolumeMixer音量控制
+Author: Brend0n
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.watched
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -2303,6 +2378,25 @@ Section: 插件
 Description: 微信优化，基于茶愫1.1-9开源版优化，此版本由热心网友与Xuegao维护。可以伪装已送达和已读！其它的功能都差不多，自行体验！
 Name: 微信优化
 Author: 热心网友
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wtvrbglauncher
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 404
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.wtvrbglauncher_1.2_iphoneos-arm64.deb
+Size: 32774
+MD5sum: f61badca31750da5fd2a8abea4f6741a
+SHA1: 8af4b733a8c0413f4fe338b4416ec7d0ab110089
+SHA256: a4a882908a1843ef02905ed67707a7908dd17109dbf24bde11359b37b5ecd7be
+SHA512: 11b5f908316cdc80a504ae15d94cde03d75a83e50883f695e3717f3033d261d94da26de6778ee789a5daea6bf57c0521273df3518ac5a21ebd4c30b5ee1a26ac
+Section: 插件
+Description: 这款插件不错，对第三方输入法用户来说！App内调用输入法的“语音转文字”功能时，免去跳转的过程；支持微信输入法，百度输入法，讯飞输入法，搜狗输入法。设置里有开关选项，虽然只有一个百度输入法，但是打开了基本上都能生效，其他输入法没写出来，不用介意！
+Name: 第三方输入法增强-Rootless
+Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
