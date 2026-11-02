@@ -733,6 +733,28 @@ Author: jjolano
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: acreson.rootless.system.rocketbootstrap
+Architecture: iphoneos-arm64
+Version: 1.0
+Priority: optional
+Maintainer: 搬运工
+Provides: com.rpetrich.rocketbootstrap (= 99)
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.rpetrich.rocketbootstrap
+Replaces: com.rpetrich.rocketbootstrap
+Filename: debs/acreson.rootless.system.rocketbootstrap_1.0_iphoneos-arm64.deb
+Size: 41624
+MD5sum: 6f5df06da9b159011692c65dccbf53c5
+SHA1: fcb05b66b0de1dd592d7fdba4b8cce28d68b20e5
+SHA256: 997dba3891c012118c084abaac5fd9e401b4eb9b4ca588c0dff930dfb73fbc3e
+SHA512: 444dcd2a607d772b135ddc67f487c3bae4e08adabf05f664b908ef731615b9595a3f220a0e1481b4782bab2f6f2f29dda22de843b2b8ac713a0c1814806a728b
+Section: 插件
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Name: RocketBootstrap插件依赖-Rootless
+Author: Acreson
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: apt.llld.settingswallpaper
 Architecture: iphoneos-arm64e
 Version: 0.0.4
@@ -764,6 +786,25 @@ Section: 插件
 Description: Display all system information of iOS。显示 iOS 所有系统信息，不用装Legacy arm64e Support_________仅测试，有问题请卸载
 Name: System Info 系统信息-rootless
 Author: ARX8x 来了老弟
+
+Package: byg.iosios.net.163music.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.163music.rootless_0.0.1_iphoneos-arm64.deb
+Size: 4166
+MD5sum: 0a609db82ec022ec042e4e1c12051c7c
+SHA1: 7c8c4ceba278dd109c60e823d8759f07e5009e83
+SHA256: c4edbdd9c14d322724430f7ff9e9ceb749b796e7f9c34ef48302333a4cab41f9
+SHA512: cc8a100301f761ff490aca614204be7b281f74257fb9323f86530c034eadac3a2ee2dcfb5d43c8ae8509e89254fe1b2f2dd6b116637a869a460d86fc8b79f233
+Section: 插件
+Description: 去除启动广告，去除首页横幅，去除搜索页面横幅广告，去除播放页面右上角直播，去除评论间推荐以及评论顶部查看十年关注报告横幅，去除个人页面看直播领黑胶横幅提示。本插件由搬运工源iOSign免费首发，不需要广告终结者的可以单独安装，已整合进广告终结者！
+Name: 网易云音乐去广告-Rootless
+Author: iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: byg.iosios.net.1a1.rootful
 Architecture: iphoneos-arm
@@ -1179,6 +1220,25 @@ Section: 插件
 Description: 一款Snowboard插件使用的主题！上架源的目的是给那些不知道怎么换主题的用户提供格式参考，下载完本主题插件后可以使用filza去var/jb/Library/Themes目录参考格式以便修改其它主题目录格式！搬运工源，你最好的家！https://byg.iosios.net
 Name: Shimmer主题-Rootless
 Author: Thenatis
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.StormSniffer.rootfull
+Architecture: iphoneos-arm
+Version: 0.1-1
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/byg.iosios.net.StormSniffer.rootfull_0.1-1_iphoneos-arm.deb
+Size: 14062
+MD5sum: 4a6ead4ee5ba199fe676a02abb5c6590
+SHA1: 2697a5a166b18dd38a461b72fe02aac30cf88862
+SHA256: 9e1137f1bedb1c28b8cafba7870106d1d2586bcdf514e8f90af68c1945388d9d
+SHA512: eeda3c971babd6cd22916c443921abdc06f7c9819ba6a74fe7653837269f4fa4f645d8076f066658688c80cb6d6c48815b9a5fea51ad8d3a8297e28162458d41
+Section: 插件
+Description: 抓包软件破解
+Name: StormSniffer抓包软件破解
+Author: Pay Ne
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2786,6 +2846,24 @@ Author: yan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.blurryalerts
+Architecture: iphoneos-arm64
+Version: 1.2.2-3
+Maintainer: 搬运工
+Depends: mobilesubstrate, ws.hbang.alderis
+Filename: debs/byg.iosios.net.blurryalerts_1.2.2-3_iphoneos-arm64.deb
+Size: 51342
+MD5sum: 64e3907c137ca05f771f53a7c62e193d
+SHA1: 50c4bed6d941ccdb21a57ea220540ac07db62409
+SHA256: 71407b703b29c3f74f49c0cb5be89287f7b902966b38595d868069d201bcdc4d
+SHA512: d67b532baefe15e94b19b129c7f832d2877c179a8f86ca2028fede94cc3fe3671661402bee440643bac45f482a4fcfede658e08585cef74a88e49b09b8888a9b
+Section: 插件
+Description: tvOS style alerts!另一款替换所有弹窗为精美的TVOS风格插件，效果请看插件截图！感谢巨魔商店M哥汉化！有什么区别不太清楚，自行尝试！
+Name: BlurryAlerts精美TVOS弹窗-Rootless
+Author: SlyFabi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.blurrybadges
 Architecture: iphoneos-arm64
 Version: 1.5.3
@@ -3374,6 +3452,25 @@ Author: Domo, SXX , zp
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.colorbar
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 316
+Depends: mobilesubstrate,org.thebigboss.libcolorpicker,preferenceloader
+Filename: debs/byg.iosios.net.colorbar_1.0_iphoneos-arm64.deb
+Size: 16640
+MD5sum: 4ad761bb15c365a1596f799c9c1217ba
+SHA1: 231fe7c79f2cdae1fe01ebb89cf6067c907e1c0a
+SHA256: 554d56ba215679d13ef9e3b423192d4ad6618c4cb90f8794510cfa5f333c1ffb
+SHA512: 3363ba57ad59f1062a5106752ffb4a6a7d10e915bce0153e05a8f9efe8239e974600669476ca4ff41c923fa7e5b6d7acf7300f7909a3f006916bd5ee98b59bbe
+Section: 插件
+Description: Color that HomeBar!可以修改手势横条颜色的插件，需要关闭电话助手等隐藏小横条的功能！没什么用的插件，花哩胡哨的！
+Name: ColorBar彩色手势横条-Rootless
+Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.complications
 Architecture: iphoneos-arm64
 Version: 4.1
@@ -3735,6 +3832,26 @@ Section: 插件
 Description: Show lyrics anywhere桌面歌词，任意位置显示，支持QQ、网易云、酷狗、酷我、咪咕，可能支持Spotify，放心玩吧！
 Name: DesktopLyrics桌面歌词-Rootless
 Author: Brend0n
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.disableautomationnotice
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: 搬运工
+Installed-Size: 82
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: netskao.disableshortcutsnotification
+Filename: debs/byg.iosios.net.disableautomationnotice_2.0_iphoneos-arm64.deb
+Size: 3524
+MD5sum: 51658f84a0ad866726084c27231506fb
+SHA1: 191309fc9068fd35d86d56ac39bc99c9330f0b09
+SHA256: 173a54be8e18232941cf89f1759737a7e76318f072a17a9ecda7f053cf364b35
+SHA512: c47306fac66d7ddcb0dc4d573be9ee68e6be6b81534a384375414fb25544e97a31fd1098c4d0e639a0d1bf8a4d1f3a26fff811d14cf5e376f38a1f9c88f9e8e9
+Section: 插件
+Description: 禁用快捷指令自动化自动执行后的通知，仅禁用自动化不包含其他，附加允许将捷径通过文件形式分享，使用中如果有问题请卸载！
+Name: 禁用快捷指令自动化通知-Rootless
+Author: SuperMan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6196,6 +6313,25 @@ Author: Hmmzzz
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.medousa
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.medousa_1.1_iphoneos-arm64.deb
+Size: 5624
+MD5sum: 5cfab932d064db5ae999322e2d2b4f19
+SHA1: 2c100d004b74db3cd2d7ff38e58c1ed916ac2535
+SHA256: a96c47523cf65fae435711694959d8350071cd58bb7b62f7fd1b0d72bb0ef2bd
+SHA512: c24e44a3f98305863dd5bed6d3b17328de1e551bac2714e1b80f585d0797dbc5cd7fce3d8ec7eee317a9cae9113d3e55a845a495805914128d7301b6b22be9dd
+Section: 插件
+Description: 插件安装后建议重启用户空间生效！medusa，像 iPad 样式的应用切换界面，像 iPad 一样分屏！横屏分屏不错，竖屏不是很友好！这是免费版本，安装后无设置选项！使用方法：呼出应用程序切换界面，按住应用卡片，拖动到另外的应用卡片，让两个应用卡片组合在一起后松开！
+Name: Medousa美杜莎分屏-Rootless
+Author: uz.ra
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.messagesxi
 Architecture: iphoneos-arm64
 Version: 2.3
@@ -6989,6 +7125,25 @@ Section: 插件
 Description: 自带电话应用增强插件，如打开或关闭通话时的振动反馈和彩色通话记录。为每个通话状态分配不同的颜色来区分来电和呼出和未接来电，还不错，算是电话助手吧！
 Name: PhoneEnhancer15电话增强-Rootless
 Author: AnubisTweaks
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.photos.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.6-2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.photos.rootless_0.0.6-2_iphoneos-arm64.deb
+Size: 6092
+MD5sum: 0d6d437e594d0a798690172786b89ca3
+SHA1: 7832eaa919003d1bcadfe219aa0d8ae4f3e46da6
+SHA256: 22b0af70031e79aa999833e7a34d12d562bd1c9c8924f5232e1e0473e0a307e0
+SHA512: 88fcbf4b6604fd2dbe12241c273492eaf3c8e54834f9de4ac8fc72db44c55f77e732dd13541182b4cb4d1cb571ddb7f25d6e4f5eaabb201d37ae2d27e952cebb
+Section: 插件
+Description: 去除人物地点，去除个人收藏，去除媒体类型，去除底部搜索和为你推荐，去除浏览照片时下方的横幅，开启全选，显示相册封面，删除照片无需确认，屏蔽第三方App文件夹仅保留最近项目。
+Name: 相册增强-Rootless
+Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8246,6 +8401,25 @@ Section: 插件
 Description: Bring good looking widgets to the front page of settings!将好看的小部件带到设置的首页！详情看截图介绍！由搬运工源管理The X汉化分享！
 Name: SettingsWidgets小组件-Rootless
 Author: shepgoba
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.shayujz.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.shayujz.rootless_0.0.2_iphoneos-arm64.deb
+Size: 4984
+MD5sum: 026d704b3150fd0bd69128e2a39679a0
+SHA1: 82635c9fc3a95c9e007852c013bda0e4d63433dd
+SHA256: 4403bd4bec86777d81b7c6e94835d2a886c03168f21878a0bfd74c768dd72208
+SHA512: 250264c65e7e7b646a1e9dde08d1cee885f4df99526ddf702874fba195df41564a181e1cab907a2b6ef8ed0ae62672d4a177fbfb76f5c6c98d1188d28f2c65c2
+Section: 插件
+Description: 鲨鱼记账破解VIP，此插件无任何弹窗，由搬运工源iOSign免费首发，如需转载请注明出处！iosign.cn
+Name: 鲨鱼记账 破解-Rootless
+Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -10802,6 +10976,23 @@ Author: Brend0n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.netsourceicon
+Architecture: iphoneos-arm
+Version: 0.1-1
+Maintainer: 搬运工
+Filename: debs/byg.iosios.netsourceicon_0.1-1_iphoneos-arm.deb
+Size: 511092
+MD5sum: e0c027237806fd510287437c09e1b7d6
+SHA1: faf38db2253c9b56482f1fe1b2e1370e47d4069c
+SHA256: 3836eb17406339ac899a049204413af03d2d433625c936f5733c71f818c69255
+SHA512: b091d47e6a7e9ad42506c5d5e3d61342d3c2a39337501bbdab93b88ab0db25237796064e455e463d10f28f7cca6f7ab59680c027662b1d3e8287335fe4c3f40b
+Section: 插件
+Description: Custom Empty Source Icon Package为Cydia安装的插件提供图标显示，不然会显示一个大问号，很丑陋！
+Name: 搬运工源插件图标
+Author: 搬运工
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: cn.imkpatil.ezswipe
 Architecture: iphoneos-arm64e
 Version: 1.1.1
@@ -12701,6 +12892,26 @@ Description: App notification library.
 Name: libnotifications
 Author: CokePokes <cokepokes@gmail.com>
 dev: cokepokes
+
+Package: com.creaturesurvive.libcscolorpicker
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 502
+Depends: firmware (>= 7.0), applist
+Filename: debs/com.creaturesurvive.libcscolorpicker_1.0_iphoneos-arm64.deb
+Size: 154256
+MD5sum: ac04c758dd68a2cc4699ca95225cb0e9
+SHA1: 5eb2e5caf9ae6b46536292510a5a4fba2faa1a09
+SHA256: 3fbcd7c45672742d6e9127302202661a5c7b3bed0bb25d0373200bee02c5aaaa
+SHA512: 2e9b9571bda85088b0c0c6b92289300c3b9fb394baaf7240ffc152f85223f95e00e41c83e01b35513a63bf3df3bbb5f0ee73b2d15f6e954492b68f6e0167c561
+Section: 插件
+Description: A minimal color picker library for developers插件依赖，并不是我想劫持，因为修复的插件需要！
+Tag: purpose::library, cydia::obsolete, compatible::ios10, compatible::ios11, compatible::ios12
+Name: libCSColorPicker插件依赖-Rootless
+Author: CreatureSurvive
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
