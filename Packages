@@ -6256,6 +6256,26 @@ Author: Ethan Whited
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.magmaevo
+Architecture: iphoneos-arm64
+Version: 2.0.10
+Maintainer: 搬运工
+Installed-Size: 2248
+Depends: mobilesubstrate, firmware (>= 12.0), preferenceloader, com.opa334.ccsupport, com.spark.libsparkcolourpicker
+Conflicts: com.noisyflake.magma, com.noisyflake.magmapro
+Filename: debs/byg.iosios.net.magmaevo_2.0.10_iphoneos-arm64.deb
+Size: 1565584
+MD5sum: 66cb7ca978069257010c90b5229014a1
+SHA1: 36dd1de1c40fd5b35bca33b2d1f49a403e545339
+SHA256: f65b7c10805f630dd6d63c11c8c4725b87a44421be8e82b134c2020e544683bc
+SHA512: 8231e86d969a6eaa13a169a1466d261acacd6ae5267ca860b384f1309032424f033c46e3705b021f41251870b7b6281f89ca54e4637bfc8fada60d312369fb5d
+Section: 插件
+Description: Redefine your Control Center控制中心调色插件，自定义你的控制中心颜色！原作者开源，大佬无尽伤痛都锁进黑夜修复支持多巴胺，搬运工源汉化分享！刚学会汉化，可能汉化不完整，请见谅！觉得搬运工源有用的可以用，不用就可以删了，请不要到处污蔑，用着插件还反咬一口，没意义的这样。
+Name: Magma Evo控制中心调色-Rootless
+Author: NoisyFlake
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.mango
 Architecture: iphoneos-arm64
 Version: 1.0-Beta7-1
