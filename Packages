@@ -7119,6 +7119,25 @@ Author: tuancc, Summit, Shadow-
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.harlemshakereborn
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Installed-Size: 8316
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.harlemshakereborn_1.0.1_iphoneos-arm64.deb
+Size: 7784190
+MD5sum: f8244014f0b51bc43316bdd6b5e6014c
+SHA1: 86ea0bfc73ba63b3752bc7c696ea33226769f450
+SHA256: 44b05b64bb839e98323972def4963ca7bea5fd8173d281fab73c4c334c1a795b
+SHA512: 3ece0e79d2ab9115fe517feb235322870b89c69ea510021090b32535db9457f51fe9e39ef6fec0c9a486b50b4c7189873ed7a9d466d37a698096d069914a1c2b
+Section: 插件
+Description: You probably thought the Harlem Shake was over, didn't you?HarlemShake是一款2013年的老插件，距今已经是十多年前的事情了。摇晃手机，就会播放 HarlemShake 音乐，并且手机图标跟随节奏摇晃，非常炫酷。音乐替换路径在/private/preboot/4E0ECEEAA7385/dopamine-doMmTa/procursus/Library/PreferenceBundles大家自行替换mp3音乐文件即可，名字要和原来的一样！搬运工源，永久免费！
+Name: HarlemShake摇晃音乐
+Author: pkgFiles
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.hfweather.rootless
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -9481,6 +9500,25 @@ Section: 插件
 Description: 不要50块，不要40块，也不要30块！免费使用！原生岛通知，从简即可。仅仅支持iOS16.0+！至于是不是原生岛，仁者见仁，智者见智，搬运工源小编不参与讨论！
 Name: NI-notifier原生岛通知-Rootless
 Author: sunshinesong
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.neowave16
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 8756
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.neowave16_1.0.0_iphoneos-arm64.deb
+Size: 8298542
+MD5sum: 967e6f7ab26007deeb398d1c6a69a467
+SHA1: 70f1e3b4cb04e5cbbad5a50d3ff41bffa64534c5
+SHA256: 11e281dae00fa878d26e9454754a71c475d65d37542b23f4e2e885b0e4874762
+SHA512: a365527725f181f2b7b9842ec18c4ce24e2a3e1f112c610586e1c45c3f70e07e95c49dbe5bf39987a0e75096cbab11e8e8fb0fcfbc25721799dd2f32e1c83645
+Section: 插件
+Description: Siri唤醒显示色彩渐变边缘动画、四段彩色发光边框动画、完全可自定义的颜色配置、支持动画时长调节。
+Name: NeoWave16Siri动画
+Author: SHTM
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -12813,6 +12851,23 @@ Author: susu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.swiftprotobuf
+Architecture: iphoneos-arm64
+Version: 1.29.0
+Maintainer: 搬运工
+Filename: debs/byg.iosios.net.swiftprotobuf_1.29.0_iphoneos-arm64.deb
+Size: 3036954
+MD5sum: f55f8a5c07d1a5fea7e94f1a49a2fb0d
+SHA1: b023b70cfa5f34c87dc9be7e19366ec21a709af9
+SHA256: 69d32fa531b79d0eba3f6684fbed9f6592e7447e42004c218247ddeaa0289dd1
+SHA512: 75310c870a7c96bbd0fbf059f3a75683b282e875387303599a334bdcfd5bf41928e1baaa9996060afa4be6d8b4b6d7b8aae9cf0c930368b6aaf981f61b967119
+Section: 插件
+Description: Plugin and runtime library for using protobuf with Swift插件依赖！
+Name: SwiftProtobuf插件依赖-Rootless
+Author: eevee
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.swipedownscreenshot
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -14050,6 +14105,26 @@ Section: 插件
 Description: 微信强制开启朋友圈LivePhoto功能。支持8.0.51/8.0.52版本。提醒：对于伪装或修改微信版本号的无法使用，会导致服务器和本地功能不正常。搬运工源，一直在为大家带来好用的插件，万千插件万千源，一个搬运工源就足以！
 Name: 微信强开LivePhoto-Rootless
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wcfrostedglass
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.susu.wcfrostedglass
+Filename: debs/byg.iosios.net.wcfrostedglass_1.0.5_iphoneos-arm64.deb
+Size: 7998
+MD5sum: 97b43be81b9938981aed6a7c28bda1f1
+SHA1: 5f1ac26f21ba6154dcadf696df62caef0af55a6c
+SHA256: 052cd7987db29445822c3ed8f911ac2d57808ae4d615af4c40bae279ffb82d9c
+SHA512: 49ef7fa4938ca578e72e51836f21cdd9ec35d875d630da4bc231d37bc86d9b0806db6ea141dfc45bcbef1478720628179f330ef316a1dda8fd3fc0115611f473
+Section: 插件
+Description: 微信顶部和底部显示磨砂玻璃效果，效果看截图！
+Name: 微信磨砂玻璃-Rootless
+Author: 苏苏
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -18753,6 +18828,24 @@ SHA512: 6ec2dd0d46a59605ac335dc374702b5663fdb90e1512fd29a325c4c0a88ae9b2861b60a8
 Section: 插件
 Description: 电话助手需要20块购买激活,T9双卡选卡拨号键盘,短信双卡选卡,通话录音,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
 Name: 电话助手iOS15-Rootless
+Author: xybp888
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.xybp888.callassist16.dopamine
+Architecture: iphoneos-arm64
+Version: 1.7.0
+Maintainer: 搬运工
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.xybp888.callassist16.dopamine_1.7.0_iphoneos-arm64.deb
+Size: 4514502
+MD5sum: fc92b78a57eab2af86b422f4b6aaca8e
+SHA1: b9033bd532d49f21c8c7b6693b108ae9a8837c31
+SHA256: 13e7defdca12fcfe1347ca2c2c521fd5f129dc512f411b779c8d13733273c437
+SHA512: a0f553047d55de413c2ed93ce62db06e0dde5b32ef0d61938149cabff853b94163e1f23e1dd57723dd703f742a593143716093488ea7af787ca9f45dd571010b
+Section: 插件
+Description: 电话助手需要购买，20块钱！！！没破解！,通话记录合并,通话录音,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,大部分刚需常用功能等的强大插件！作者源地址apt.htv123.com  有需要的自行添加！搬运工源，只为给大家提供越狱方便！
+Name: 电话助手iOS16-正式版
 Author: xybp888
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
