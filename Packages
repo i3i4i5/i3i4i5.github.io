@@ -813,6 +813,24 @@ Author: HuangBai
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.HBWechatHelper
+Architecture: iphoneos-arm
+Version: 1.8.2
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.HBWechatHelper_1.8.2_iphoneos-arm.deb
+Size: 15927664
+MD5sum: 5598ca4c9ec8f0a9240cda777f385d15
+SHA1: 4cf3c18feed2f936af231ea9679fae2461b8ba52
+SHA256: efe3e93c2a1facb06b5b44d28ef3e7525426e651f0b4f75397bbe1234b624a26
+SHA512: c11bbd58a03654e54af6e51d3bea01411658c9db2a882137b55fc97b9650278140c9b5b0f4befe8db827e5392f4597b617c7b49b28f40e085fa4f1cf10c1fab2
+Section: 插件
+Description: 黄白助手-微信插件                                                                                                                                                                 一个微信插件文本转语音以及点歌（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能                                                                                                                                                            一个微信插件文本转语音以及点歌（发送网络语录舔狗日记骂人等文案或者4K原图手绘壁纸等，抢私聊红包，自定义信息尾巴，自定义拍一拍 百变小尾巴 实时尾巴时间等功能。
+Name: 微信黄白助手
+Author: HuangBai
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.MiYou
 Architecture: iphoneos-arm
 Version: 3.9-3
@@ -1044,6 +1062,25 @@ Section: 插件
 Description: 本插件功能非常的强大，可以降级APP软件版本，这是最nice的功能，还可以查看软件所占内存的大小，可以清除APP缓存，修改软件名称，修改角标数量，可以重置APP到刚下载时候的设置！可以查看软件的bundleID，可以直接跳转到软件的缓存及安装路径，可谓越狱必装插件，效果看截图介绍！安装之后去设置里开启插件唤醒的方式，然后注销即可，可以选择长按或者上滑软件，任君选择，搬运工源，永久免费！本插件由iosdump大神修复更新！感谢iosdump！
 Name: AppData软件降级-Rootless
 Author: Fouad Raheb
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.appstoretrollern
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Maintainer: 搬运工
+Installed-Size: 584
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.appstoretrollern_0.1.1_iphoneos-arm64.deb
+Size: 95514
+MD5sum: f668c8cb81f5698d93e9b9fbb346dd79
+SHA1: 4b3a87799082235ac4aee369f3c73d46621bbd27
+SHA256: 0a2c4ae9c9cd6a11eb3a85bf198dc0009fd4ca739063dd947b9f70693d5e05da
+SHA512: 65384c1d594fcc1088eb043fa6a393423753f90377384b486aabd941b091c5162ae6278426366441f21230edaf8ec79bca46d9c38c9aba264a7dd03afdf168fc
+Section: 插件
+Description: Modified version of Mineek's tweak that lets you specify the minimum version and bypass installd version check.这个插件就是让你能够付费购买然后下载属于你目前低系统的APP，小编测试了一下好像只有付费的APP能下载符合低系统的APP，但是很多免费的根本就下不了，不是你们想象的那种低系统随便安装高系统APP，也可能是小编没测试明白，大家自行测试！
+Name: AppStore低版本APP
+Author: Mineek & Nathan Senter
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
