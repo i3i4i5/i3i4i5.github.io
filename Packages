@@ -5062,6 +5062,25 @@ Author: iOSign | Mo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.coolcc
+Architecture: iphoneos-arm64
+Version: 2.0.1-1
+Maintainer: 搬运工
+Installed-Size: 388
+Depends: mobilesubstrate (>= 0.9.5000), org.thebigboss.libcolorpicker
+Filename: debs/byg.iosios.net.coolcc_2.0.1-1_iphoneos-arm64.deb
+Size: 38220
+MD5sum: c59383a4f1daaf31710ff14461a05117
+SHA1: ee9521a52bf1499abac5262ae452cffa43d0e095
+SHA256: 3608f541965e76c681570c07f800d2c4c10e41d5122a79b124462fc85c5d86ed
+SHA512: d0cb86dbb4eab109fd7c8aebac53c88fac0536a8470b4aaee815e61cb37a49e760e2acca7d44bd18cc954a92f27c343f5347917f2b585e10131760e62940c12c
+Section: 插件
+Description: This tweak makes ControlCenter cool! Compatible with iOS15、iOS16/rootless.控制中心透明插件！
+Name: CoolCC控制中心透明-Rootless
+Author: alias20
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.copylogfix16
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -10143,6 +10162,25 @@ Section: 插件
 Description: Count those notifications inside Apple notifications grouping!众所周知苹果的APP通知达到一定的数量就会被归纳到一个分组里，这个插件的作用就是统计这个分组里有几条消息，效果如截图所示！机车主感觉有点鸡肋！但是还是感谢搬运工源群友萝卜花费1.5美元购买此插件，大爱无疆，有你真好！
 Name: Notifications通知分组计数-Rootless
 Author: 0xkuj
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.notisound
+Architecture: iphoneos-arm64
+Version: 2.4
+Maintainer: 搬运工
+Installed-Size: 2796
+Depends: com.spark.libsparkapplist
+Filename: debs/byg.iosios.net.notisound_2.4_iphoneos-arm64.deb
+Size: 2350386
+MD5sum: 9442ffcc118f10ee80056122881ff645
+SHA1: 56ea0f26c0c476416f9a0f7e800f2003e3e7a069
+SHA256: 2fb2b92e8cb9a32151b304ce7f2c58d676ed8b7fd142ba50180b176748f0b956
+SHA512: 525b14894b23b06142e4b61fe9aae2b5363d6187a5bad8dad68112548401c9a902b973546233d7fc29f79ca3688f0e52622953ff7cb8456293945a5b5f4c28d1
+Section: 插件
+Description: 自定义每个APP的消息通知音，未汉化，请参考截图使用！搬运工源，搬你所想！
+Name: NotiSound声音自定义-Rootless
+Author: EliasSfeir
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -15618,6 +15656,44 @@ Section: 插件
 Description: 最新9.3.75,去后台启动,去启动广告,暂停广告,列表广告,播放页广告,不影响领福利！并非破解会员！搬运工源，永久免费更新！
 Name: 喜马拉雅优化
 Author: Z
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.xingtu.rootful
+Architecture: iphoneos-arm
+Version: 0.0.1-7+debug
+Maintainer: 搬运工
+Installed-Size: 5560
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.xingtu.rootful_0.0.1-7_debug_iphoneos-arm.deb
+Size: 2573966
+MD5sum: 1ef4ed22d37e11c5bb99cb013fd593b4
+SHA1: aafaa9b16de991c91bb6596609eb5c0e208019b5
+SHA256: ea2ea07085ba945101ca7fa9d5e35a7cb339d2971bbe9920595b72ceb51ce73f
+SHA512: 2f0823d1425acdfe1b2909747e5948f61f15d3c85685d20c56c9a7835dc648ede8a3e4d34d054936eff440cc217307bc013207f5981e41cb2a739c97399db10e
+Section: 插件
+Description: 解锁醒图会员，免费放出，无需登录，本插件由小果子免费分享！
+Name: 醒图破解
+Author: 小果子
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.xingtu.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1-1+debug
+Maintainer: 搬运工
+Installed-Size: 5564
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.xingtu.rootless_0.0.1-1_debug_iphoneos-arm64.deb
+Size: 2565602
+MD5sum: 08e4d86e60b6621f866cfd721af27537
+SHA1: c3be0766046da3642e2fc0a3ff285a6cc783226b
+SHA256: a63cb5cbd98e5228589d19f40ac6769681d947ff8f1e3f46d862098dc5f956e6
+SHA512: 2ebbf83f15becdd16e929fc4714edf1ad42d641f89130c45cebd38cfd6b625a65190a9dcbaba401f2db0e6093e8525ae7bd737916439b6c450efef188e03ce7a
+Section: 插件
+Description: 解锁醒图会员，免费放出，无需登录，本插件由小果子免费分享！
+Name: 醒图破解-Rootless
+Author: 小果子
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
