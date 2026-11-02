@@ -2736,6 +2736,25 @@ Author: LF
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.betteralarmrootless
+Architecture: iphoneos-arm64
+Version: 1.4.1
+Maintainer: 搬运工
+Installed-Size: 748
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/byg.iosios.net.betteralarmrootless_1.4.1_iphoneos-arm64.deb
+Size: 335934
+MD5sum: 1321d0165a34a234e8232b909690b3a9
+SHA1: da983778296e1e4d11ee262629f9b1cbc2049199
+SHA256: bc305285d0dfd3ab19e429264699592f8d3c185611e593b15cae9531f1610818
+SHA512: 218fb3cf64e02ed6a690e1749d74fff97fbda5ff0bd04856f54f157dc1966041e17f8b975d12d576eff386b7302eddc97457ad2f3f5daabd412cb9b6e5b9632c
+Section: 插件
+Description: A beautiful timer and alarm screen个性自定义闹钟，正版1.99刀，现破解免费使用，已汉化，enjoy！搬运工源，搬你所想！
+Name: BetterAlarm个性闹钟-Rootless
+Author: NoisyFlake
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bettercc
 Architecture: iphoneos-arm64
 Version: 0.0.5
@@ -3451,6 +3470,25 @@ Section: 插件
 Description: 一款用于聊天界面多选(长)截图自动拼接的小插件，增加时间标签     • 支持按选择拼接截图     • 支持快捷分享给联系人     • 支持聊天背景图展示配置     • 支持隐藏群成员名字标签     • 支持选择是否显示群名、输入框     • 适配主题情况下的导航栏资源裁剪等布局     • 支持选择成员显示名类型（备注、网名、群名）  注意：此插件默认开启  触发方式如下：多选消息后点击「更多」→ 截图；齿轮图标进入设置。
 Name: ChatCapture+微信长截图
 Author: huami, Mallin
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.chelaile.rootless
+Architecture: iphoneos-arm64
+Version: 0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.chelaile.rootless_0.1_iphoneos-arm64.deb
+Size: 4330
+MD5sum: d3de452e3edfde20212d5ce47fb7fa53
+SHA1: c0e7792593d211926bde65ed8a1da0f80a7b00b6
+SHA256: ed9a30b7ce8bb60fdd7e4cfc106b8d208259506654c0ae3274e99f798aa21616
+SHA512: 6b51e139ee56023a9bc9004a40fec70542ee9f1e8b05d6ed99a1882c4e6461faca3f939c413be984ad474558aa73670eac426b1cbe110ebf55b148230d064c30
+Section: 插件
+Description: App Store搜索下载车来了。本插件仅去除广告，搬运工源免费首发。
+Name: 车来了 去广告-Rootless
+Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4899,6 +4937,25 @@ Author: zqbb
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.fjjf.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1-1
+Maintainer: 搬运工
+Installed-Size: 280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.fjjf.rootless_0.0.1-1_iphoneos-arm64.deb
+Size: 7288
+MD5sum: 0300ec4639c092f67fcefacc2cbceddc
+SHA1: 09413c0c7e37d39ca7e46f375fd555935aadd8b8
+SHA256: a8c28aebc912a1345aef92d0c9aec013b1c19fae9b810ea10d53ce1224357d5b
+SHA512: 7cb2bfa8a1e147377df0e6da9999bc1d87cd3f1c956c50b975c1931ad3b6afa7fb16839a8085bb374530f8f99293c7b8d3d6b209cb2e1c09762d18d5b4ec3161
+Section: 插件
+Description: App Store搜索饭橘下载，本插件解锁Pro权限，由搬运工源百岁老人免费首发，如需转载，请备注出处，搬运工源byg.iosios.net。
+Name: 饭橘 破解-Rootless
+Author: 百岁老人
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.flex3beta.rootless.56
 Architecture: iphoneos-arm64
 Version: 3.0
@@ -5316,6 +5373,25 @@ Section: 插件
 Description: 游戏开挂神器，会用的使用，不会用的就不要用了，本源没有教程！只是提供插件下载，也不卖挂！有任何问题请卸载！
 Name: H5GG游戏开挂神器跨进程悬浮版-Rootless
 Author: tuancc, Summit, Shadow-
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.hfweather.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.hfweather.rootless_0.0.1_iphoneos-arm64.deb
+Size: 3074
+MD5sum: 56ffbbbaf6a5fbd757c2375834b0b89b
+SHA1: 521fad428fc53804d9e05571084ee3432492d4f3
+SHA256: 8a374c0a7072e95b5cde670c1dcc125baa5e781a6040cf65fcdc5bdc508d26a9
+SHA512: 41d10bfb6d0b265ac795722766f043e0b53157204b3d942560ba8acc488f189b251bd83289300c0ce1f0a450d02700b394cb461d48564419af22696c909ada83
+Section: 插件
+Description: App Store搜索和风天气下载，本插件解锁Pro权限，由搬运工源iOSign免费首发，如需转载，请备注出处，搬运工byg.iosios.net。
+Name: 和风天气 破解-Rootless
+Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -9303,6 +9379,26 @@ Author: smokin1337
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.smartnetwork
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Installed-Size: 1272
+Depends: mobilesubstrate, com.spark.libsparkapplist, ws.hbang.common
+Conflicts: com.eliassfeir.smartnetwork
+Filename: debs/byg.iosios.net.smartnetwork_1.1_iphoneos-arm64.deb
+Size: 414184
+MD5sum: b3164ff3ac703ab75c08df31064d0a71
+SHA1: 9614b76dac4dd7f0bbf3519bb1339a0b7aeb2f1f
+SHA256: 3c36c7041d0d488ddd26622b4245c6d2f6370e5ea225b8d3208af51717038f82
+SHA512: f68d28d418875ecdf7d533b0d818184fe0f344af43738ee155ba13a094a9ab30ed500f5b57d6f6128424c68ff765f88cb1a86a7fba7f7ab8e4afae3f1ce4bba2
+Section: 插件
+Description: The most complete tweak to customize WiFi / mobile data and Bluetooth智能网络插件，自定义你的WiFi及数据网络，付费插件现免费使用，感谢Cpywn大神及巨魔商店M哥汉化分享，有了你们，越狱才会变的更精彩！有经济能力的还是要去支持原作者开发！
+Name: SmartNetwork智能网络-Rootless
+Author: elias
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.smartnotificationsios16
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -9967,6 +10063,25 @@ Section: 插件
 Description: 插件作用是为自定义原生键盘添加更多的功能，比如复制粘贴，滑动输入等等，非常的好用，原生键盘用户的福音，搬运工源已汉化，尽情享受吧，一款老牌插件，推荐使用！
 Name: SwipeExtenderX键盘增强
 Author: MiRO
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.switcherish
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Maintainer: 搬运工
+Installed-Size: 504
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>=12.0)
+Filename: debs/byg.iosios.net.switcherish_0.0.5_iphoneos-arm64.deb
+Size: 100754
+MD5sum: 8277b31623dfdcd57513b9bf9aa29a95
+SHA1: 1e067499f7fda32b3b6faa2009789121e4c82c78
+SHA256: 262f9c81b7e289f79c1bf2e202179e7478e500d4beba7c4963221895484eaa5b
+SHA512: 11b83f83f17e6ec8c5ffb2c702332ce1fa6780da0e053918228444ac6050a7809394d549205d9afb084f1f9d0664d7f49894419b1e6cc91b65809be39a0872a4
+Section: 插件
+Description: Switch up your switcher- iPad style, 调整你的iPhone后台样式为iPad样式，有安装搬运工源的另一款可以缷载再安装，防止冲突，感谢巨魔商店M哥汉化分享！
+Name: SwitiPad后台样式-Rootless
+Author: i0s_tweak3r
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
