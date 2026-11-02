@@ -2586,6 +2586,26 @@ Author: 来了老弟
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.sneakyca.rootless
+Architecture: iphoneos-arm64
+Version: 2.2.5
+Maintainer: 搬运工
+Installed-Size: 1732
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: byg.iosios.net.sneakycam
+Filename: debs/byg.iosios.net.sneakyca.rootless_2.2.5_iphoneos-arm64.deb
+Size: 291078
+MD5sum: f1e8c1cb3d1e73aa285e4d01593b4156
+SHA1: b20753933569b7107e695d782f971a24f2a0f0e4
+SHA256: 5b7ae86c2fa0fa31a063b9a00f09fd16c36b057304c59d8bd9378e0eb87d9cbf
+SHA512: 061e265c85dc1c59af965253aa0a391793c9667d3a2030ae17c04ac0026411822c886ed749284d688b083add2e5b27a32c7be914dc832f2655d116b936336e0f
+Section: 插件
+Description: SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。说简单点就是偷拍相机，小编也没测试到底能不能用，无效就卸载！请勿用于非法！！！控制中心CC模块可以一键启用/或者关闭。
+Name: SneakyCam 隐私相机
+Author: Spark
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.spectrums
 Architecture: iphoneos-arm64
 Version: 3.0.9
