@@ -2586,6 +2586,26 @@ Author: ioswary
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wcdisablehotupdates
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: com.netskao.wcdisablehotupdates
+Filename: debs/byg.iosios.net.wcdisablehotupdates_1.1-2_iphoneos-arm64.deb
+Size: 2848
+MD5sum: fe19238631780d5925676106940143a4
+SHA1: a22a2fe7a17eb340766ab183b16974f9454556db
+SHA256: 73d6e135b004abcca2385036e988ec2e4bd24e1714d59a41683b9e9fd7744f51
+SHA512: 1920fc6d97420b575e8aa6ada455eb79a356038bb1b1b863842b3d23496ce77188245fdf89397a2377da0e770b2329cc778317424fe0313f21341bf5237ab07b
+Section: 插件
+Description: 微信 8.0.56 及以上高版本会云控微信，导致第三方插件设置入口和功能失效，该插件解决此问题！热更新就是不通过App Store直接在微信app内部更新一点功能！另外安装搬运工源里的微信插件管理也能解决此问题，反而更好！
+Name: 微信禁用热更新-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.wcplugins.rootless
 Architecture: iphoneos-arm64
 Version: 0.1-7
