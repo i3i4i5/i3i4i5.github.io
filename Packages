@@ -2604,6 +2604,26 @@ Author: Brend0n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.waktos2
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 1228
+Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.common (>= 2.0), preferenceloader
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.ali.aimpro, com.icraze.nexus
+Filename: debs/byg.iosios.net.waktos2_1.0_iphoneos-arm64.deb
+Size: 533110
+MD5sum: 307808e2d276d3cba260179837bd4637
+SHA1: 71ba02f65c950ab16a1aa50230111602066415b0
+SHA256: 1d33fed04e1c4f0a169830f38a6557289d52ed4ad48b5334739c98afbe7d9e55
+SHA512: e08caf7d85d1664001f60d4c39db8e19dbc5eed716b8eda5dc14f371b184b8484e3751d4b9a2ab4c35e752da47bcfd815bca8d5d74091008fbd46f2ef55e7056
+Section: 插件
+Description: Android Style Lockscreen. Cracked by ZBC这款插件可以在锁屏或通知中心进行自定义。双击打开 自定义锁屏设置，一款小插件，卖15块钱，现免费使用，有能力的请支持正版，没能力的可以下载测试，不需要就卸载，搬运工源已部分汉化完成，冲冲冲！
+Name: Waktos 2锁屏美化
+Author: alimaulana
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.watched
 Architecture: iphoneos-arm64
 Version: 2.0
