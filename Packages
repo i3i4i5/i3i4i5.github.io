@@ -1410,6 +1410,25 @@ Author: Color Black
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.bounceit
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: 搬运工
+Installed-Size: 143
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.bounceit_1.0.4_iphoneos-arm64.deb
+Size: 9036
+MD5sum: fa23465288f51530767682d55727914a
+SHA1: 8fb0303eff2b9a77fd748ec53e3ee86f3ff3ed16
+SHA256: 1a84e8ecfcd55579c34b88a70c2dee240ad103b135f7c53ad96f6134e4c1c01d
+SHA512: 7a90da97dd705dacc6bdf6bce2cf75897e457b9307d46da32998701d6d47e1bfd0fbf385f8975ea14f7abb4be1f79aae7f5697764f004e54a04a900db6e82d29
+Section: 插件
+Description: 为系统添加弹性动画，太Q弹了吧！喜欢的小伙伴们可以试试！插件无设置项，安装注销即生效！多巴胺里点注销！
+Name: Bounce It!弹性动画
+Author: Jake James
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bridge
 Architecture: iphoneos-arm64
 Version: 1.1.1
@@ -2928,6 +2947,25 @@ Author: sourcelocation
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.pixelomer.oneko
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 193
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/byg.iosios.net.pixelomer.oneko_1.0.0_iphoneos-arm64.deb
+Size: 29070
+MD5sum: 8f2ae89cd725862059d26fb2e15ab835
+SHA1: 61a71ffd939179cd756e03e9cfc44bed3cd04272
+SHA256: eb34a6ab4fa782c85273236e80737a147fd65a8929cde942b4d43d288a8a65df
+SHA512: b001831b364f4661824ba03455224e10c3eb9a05178dd33cc5a001b52eba3962861943b7e9e529cb81dbad3eacf7e07b6ffa10ec89e772825c97cb2eb705a658
+Section: 插件
+Description: 在屏幕上显示一只可爱的小猫桌宠，可以跟着你触摸屏幕的地方，闲暇时还会睡觉，非常的可爱，妹纸们肯定很喜欢，搬运工源万古长青，不忘初衷！
+Name: Oneko小猫桌宠
+Author: pixelomer
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.pkc.rootfull
 Architecture: iphoneos-arm
 Version: 0.7-3
@@ -3896,6 +3934,25 @@ Author: alimaulana
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.waktos
+Architecture: iphoneos-arm64
+Version: 1.0.1-rootless
+Maintainer: 搬运工
+Installed-Size: 696
+Depends: com.spark.libsparkcolourpicker, oldabi, preferenceloader, ws.hbang.common (>= 1.14), com.peterdev.libpddokdo
+Filename: debs/byg.iosios.net.waktos_1.0.1-rootless_iphoneos-arm64.deb
+Size: 195766
+MD5sum: 9972616dde1cbe74b836e56ae208bd35
+SHA1: 7b3d810ebdac0f506ca6dabdbf4f0e9525f75226
+SHA256: 93e3bfa0bcf513660cd38f4359353c7bfccf6dd9fe59cd3b9a50f940d04dbc5a
+SHA512: 34ef1b6caf17a6eeaebe7d62d8ceb37e7b0d3ab4c978e5baac6da184286039556bf96fed7c34bb04adba641751173b8233fd30bd1602005814b5ffbddac3c66a
+Section: 插件
+Description: 安卓风格的锁屏，效果如图，此插件系有根插件，修复支持rootless，添加中文支持（汉化：lans233）注意：锁屏有通知时是另一种风格，无通知时才会显示插件截图介绍的风格！搬运工源，永久免费！
+Name: Waktos安卓锁屏
+Author: alimaulana
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.watched
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -3989,6 +4046,26 @@ Section: 插件
 Description: 微信悬浮按钮、长按按钮设置，扫一扫、收付款、按钮自定义大小、震动由搬运工源水友ylr投稿，好用请分享！效果如截图所示！
 Name: 微信悬浮小功能
 Author: ylr
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wcmypageinfocenters
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Maintainer: 搬运工
+Installed-Size: 220
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: com.netskao.wcmypageinfocenter
+Filename: debs/byg.iosios.net.wcmypageinfocenters_1.2-2_iphoneos-arm64.deb
+Size: 83138
+MD5sum: dc3d3a65bfff1477f2c2e0ca9ddb4b1d
+SHA1: 4e764032cf7d4d365649a6730eb07651c0db2729
+SHA256: d5bf844565fe4e7b4f7edae2b40a57bb9d8105aff360f28418a120a14a40c9c7
+SHA512: cd360b1823bb4e62cf9812ad3c1f98680b78f18dec41515d528f873c8f89d0efbe16c16ec037aa6a6cb53ecb72fd0d5bc267ad3ea2d5e8e5a379ee593b1264a3
+Section: 插件
+Description: 微信个人资料居中*效果看截图！支持点击微信号自定义文本内容！ 仅支持微信 8.0.31 及更高版本，可收纳在老猫收纳插件内！搬运工源搬你所想，爱你所爱！
+Name: 微信资料居中
+Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6419,6 +6496,24 @@ Author: opa334
 Depiction: https://apt.htv123.com/view/476
 SileoDepiction: https://apt.htv123.com/sileo/476
 
+Package: com.peterdev.libpddokdo
+Architecture: iphoneos-arm64
+Version: 1.3.5
+Maintainer: 搬运工
+Installed-Size: 148
+Filename: debs/com.peterdev.libpddokdo_1.3.5_iphoneos-arm64.deb
+Size: 9700
+MD5sum: 99ba41b29e790f11c4febf47b7a30e12
+SHA1: 778e2cc2716db87a4e766f94a7ac7c327307906d
+SHA256: 26fdc2f3b3cb814f478e87351f2ef9f1644441341966a6ae229233d97da372d9
+SHA512: ee8d47a7290fd30de69544b34b09ee35b0348fba5fe6b6d4e6e7dffa6a17fcf48dacc0754c400a8dd82e925170b25b92ba744baf4d4c22119c28c7d5c00e9b4a
+Section: 插件
+Description: An awesome library to get current weather which provides by iOS Weater.app easily.插件依赖
+Name: libPDDokdo
+Author: Soongyu Kwon
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.ryannair05.audiosnapshotserver
 Architecture: iphoneos-arm64
 Version: 2.1.2
@@ -6489,6 +6584,25 @@ Description: 作者为人低调，这是他自用 (我也用)，首页视频界�
 Name: 抖音图层调整-rootful
 Author: x✨
 SileoDepiction: https://laileld.github.io/repo/sileodepiction/com.xx.dyhook/dyhook-rootless.json
+
+Package: com.yan.anitime
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 1488
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.ginsu.comet
+Filename: debs/com.yan.anitime_1.0_iphoneos-arm64.deb
+Size: 598448
+MD5sum: 37be85d3bb06594f0657af8de0ad04ad
+SHA1: 45215f5a032fee5a9b0cfce75a4cc53fc0553e77
+SHA256: 4813a041765086c658e0e5eadb51d7526641cf10706f7d17fbedf1ae519ae7e7
+SHA512: 606dd9a874be9300f99af1db66bedaddbe826ddc6fe6003a6a28ed1d62e72e1b623629cdcf815a3044b90f6734f57d7174193b9932bc92571efba270aaaede09
+Section: 插件
+Description: Animated anime characters as your clock digits.一款让你的锁屏时间变成动漫人物的插件，非常的可爱，喜欢异次元的用户的最爱了，暂无汉化，请看截图翻译，感谢搬运工源水友购买分享，谢谢你！搬运工源有你才精彩！
+Name: AniTime动漫锁屏
+Author: yan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: llld.keyboard
 Architecture: iphoneos-arm64
