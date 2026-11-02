@@ -2735,6 +2735,25 @@ Author: level3tjg
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.betterccxi
+Architecture: iphoneos-arm64
+Version: 1.6.1
+Maintainer: 搬运工
+Installed-Size: 640
+Depends: mobilesubstrate, com.opa334.ccsupport, oldabi
+Filename: debs/byg.iosios.net.betterccxi_1.6.1_iphoneos-arm64.deb
+Size: 137282
+MD5sum: 9d63cb4ea6f74218712b64445df3f8e4
+SHA1: a32da41db2eebf58098a22afe9b105dd6b5267bb
+SHA256: 9f8b6b106a5e1d3febaa61f91b75a762854d09aceb7ffb55ae9831538b51be56
+SHA512: f94f0e009b921a36e74f9a421beb7662d5dbe82183ab65ff1d82d3043614cb83aa2ce47268ed7aba56dc4cb89880ab3d6f1343b63b165e2415a97a131f838fd8
+Section: 插件
+Description: Enhance your control center on iOS 11 and iOS 15控制中心美化，此为转插，需要legacy插件支持，可能有注销重启风险，请大家自行考虑，搬运工源汉化分享，好用请大家分享搬运工源！
+Name: BetterCCXI控制中心美化-Rootless
+Author: ATWiiks
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.betteruiswitch
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -8541,6 +8560,24 @@ Author: Mr.Zhang
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.rootless.noseparators
+Architecture: iphoneos-arm64
+Version: 1.3-1
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.rootless.noseparators_1.3-1_iphoneos-arm64.deb
+Size: 5534
+MD5sum: 787247caeaddeb97a4fa16c3e31fdab5
+SHA1: 7ce5e262b38e3f56a788c2a258d0e53e29ef4b72
+SHA256: 03cd5cd18a51fe97d939098d687a0180ddfbddcfea358f5b18ebf4fb4a2af7f5
+SHA512: 03023022823753736cc8f76e2bf82eae86473cbe81d8a529f377e93fa7cc7bb4d4bc70b16e02280b964523b80fecdab5bef850e108c20d20cfe11a5a3ab20bcf
+Section: 插件
+Description: 去除弹窗/UI/长按菜单等地方的分割线，没什么卵用的插件，应群友要求，上架备份！
+Name: NoLine去分割线-Rootless
+Author: 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.rrsp.rootless
 Architecture: iphoneos-arm64
 Version: 0.0.2
@@ -9615,6 +9652,24 @@ Author: 0xkuj
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.stormsniffercrack-rootless
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.stormsniffercrack-rootless_1.2_iphoneos-arm64.deb
+Size: 8306
+MD5sum: 9d201f56323f4591d49ccf2a0f24848b
+SHA1: 632741f8f7a8c9783b5dffc6eb55d3ba7643d703
+SHA256: 4af598cec6b8d24e7b2a51ce9f932efe0832b2edf47983ab38e0c5365ad2056a
+SHA512: d56f5ed40aabb9025970c3c097b91a69adc290cad62062348c489790d11abe36df85bf8025734f9fdf7ce5e60019d34738d974a60f9236c8f2c56d4a63f8080e
+Section: 插件
+Description: StormSniffer抓包软件解锁全功能，更新支持App Store最新2.1.4版本！搬运工源，搬你所想！
+Name: StormSniffer抓包软件破解-Rootless
+Author: payne
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.suawemehook
 Architecture: iphoneos-arm64
 Version: 1.3.8
@@ -9854,6 +9909,24 @@ Section: 插件
 Description: Taptic keyboard without any lag!原生键盘添加震动反馈，应锋友要求，所以上架！搬运工源已汉化完整，冲冲冲，搬运工源，搬你所想！
 Name: TapticBoard键盘震动-Rootless
 Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.teleportcn
+Architecture: iphoneos-arm64
+Version: 1.0.0-1
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.teleportcn_1.0.0-1_iphoneos-arm64.deb
+Size: 13154
+MD5sum: f08195003dcb87537d20c31b6983a6f5
+SHA1: dbeaa75130a854d83000b0912c43f5fc74465ba0
+SHA256: e1698fed9f4642820dfe0ffa5e48ab052f66f6fb53eb441d832454ea0ae21410
+SHA512: 1a24985c7d20d0b001e6f5bec9e74fd68e8a35390d7001b8bffadb2428cd5584e48489d40e9c9ca3671387d0a93e3ce6d37d7720f608661ee03b70cd37daeb9f
+Section: 插件
+Description: Teleport虚拟定位简体中文包
+Name: Teleport虚拟定位汉化包-Rootless
+Author: Mr.Zhang
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -11490,6 +11563,24 @@ Section: 插件
 Description: Custom Empty Source Icon Package为Cydia安装的插件提供图标显示，不然会显示一个大问号，很丑陋！
 Name: 搬运工源插件图标
 Author: 搬运工
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.qqmusic
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.qqmusic_1.0.3_iphoneos-arm64.deb
+Size: 7928
+MD5sum: e232620f8c6f118cbf07ad8fe0b3ad2c
+SHA1: 535f8d75da984aec6130a39b017c789332afc94d
+SHA256: 2e65224feb447514cdef23117251aa8c919877d4024e9dbab330929378bbcb0d
+SHA512: 205499e06402aecc6422b8128b5ad093e076677be7cb9f30793c837ebdbb8dfb5b125ce1f059c70094d3ef45df7f9bd2afd55e11c6a6064e014c402d2bc15a69
+Section: 插件
+Description: 优化去除广告、精简个人主页、免费解锁臻品音质2.0，本插件乃搬运工源免费首发，任何源转载请留出处，谢谢！iosios.net。更新修复对App Store新版支持！
+Name: QQ音乐 增强优化-Rootless
+Author: IOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -14443,6 +14534,27 @@ Section: 插件
 Description: powerful library for iOS development插件依赖
 Name: Graphite Library插件依赖-Rootless
 Author: Geometric Software
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: ws.hbang.alderis
+Architecture: iphoneos-arm
+Version: 1.2
+Maintainer: 搬运工
+Provides: org.thebigboss.libcolorpicker (= 1.6.7), me.nepeta.libcolorpicker (= 1.6.2-3)
+Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
+Conflicts: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
+Filename: debs/ws.hbang.alderis_1.2_iphoneos-arm.deb
+Size: 690928
+MD5sum: bdcd568cdf29182daffadc516aaed99c
+SHA1: 919a644d06bb99ef1052db7ec9ba80475202ba16
+SHA256: 798bb401608430a3d25dc4c30445fdcf709f00b5c7ad4f86ddf3bef0c3d35137
+SHA512: 75bc4e737f161db9f36b259f7e214722bc5b845a4d22ccc0a1f92495acd6343a72752a8f707f36870cd8b51a2e3169d7f4f2b7ca817967491a6203ab1e0d6f4b
+Section: 插件
+Description: Color picker support library for tweaks
+Name: Alderis Color Picker
+Author: HASHBANG Productions
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
