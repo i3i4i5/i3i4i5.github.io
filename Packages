@@ -2893,6 +2893,25 @@ Author: Brend0n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.disabledgesture
+Architecture: iphoneos-arm64
+Version: 0.0.1-75
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.disabledgesture_0.0.1-75_iphoneos-arm64.deb
+Size: 5868
+MD5sum: 238dfa0934f867f8f47b4534990944f2
+SHA1: 85d4f87ee5a0e475ad2bf7ee648c5385bfc9ae4b
+SHA256: f1912fe84df13fd4df696f64808e885ea96bf533e08d6b76e67570e31888b03d
+SHA512: e96f3012068bf1672035ddabfd3932c415d06b69b604e0c9d173e0f02232ba28648068be5021aa1da2fb3a0d81e18ccd623e3f0bae332838bae5b8249fec6bbf
+Section: 插件
+Description: 禁用系统底部左右滑动切换 App 的手势！
+Name: 禁用底部切换APP手势-Rootless
+Author: xybp888
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.disintegratelock
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -3538,6 +3557,25 @@ Section: 插件
 Description: iOS 全局字体管理器* 支持 iOS 16.0 及以上版本* 支持 Rootless 和 RootHide* 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，将字体安全应用到整个系统，也可以随时恢复系统默认字体* MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。安装前请注意，如果安装过其他字体挂载插件并已挂载字体，请先取消挂载，再卸载对应插件字体文件不完整或与系统不兼容可能导致文字空白或界面不可用，安装前请确保你能够进入当前越狱的安全模式并移除软件包。MarkFont 不提供或分发第三方字体，请仅使用你有权安装的字体文件。
 Name: MarkFont 字体管理器
 Author: Hmmzzz
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.fqxshook
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Installed-Size: 268
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.fqxshook_1.0.2_iphoneos-arm64.deb
+Size: 67468
+MD5sum: d74bb3471eaa5d8bfb5a555ed2a0b0b4
+SHA1: d3a1bc9bd8e44e3b5d493d263dfb1ad88f179573
+SHA256: 0404d381576c973bb1f0407a3ae2843634b3ff286492c7a623907dc5fad22e26
+SHA512: 26cc7bb31a2822a2503452f13de30e1d1890650b79fa22ed233e4ababf07e7672d5bd92948d3d84fd3cd13687e2abd1e7121390ee495f5d35453d835f89624c4
+Section: 插件
+Description: 自用 | 去除一些可见广告 | 秒过激励视频 | 支持版本6.0.8+ | 移除底部福利板块，移除底部红点 。
+Name: 番茄小说优化-Rootless
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5589,6 +5627,25 @@ Author: Ryan Petrich
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ppxhook
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Maintainer: 搬运工
+Installed-Size: 336
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.ppxhook_1.0.7_iphoneos-arm64.deb
+Size: 122922
+MD5sum: ebaca68397d99fbaad3c30e36638aa3b
+SHA1: f6e2449d4d3c0f6e358361ab2e571e534b685229
+SHA256: 0fceecf3bb002464cf8abebdb4a0f622cb333952887ae5ad1fde4afa36305867
+SHA512: e9c3d4b047fcd02a793d7c3083d8ae400af78bffd1faa609abe3968f30c295d5347aa8a4f68ba489b4f680298a14a6bee7963077a89e43e1b250e386eebede09
+Section: 插件
+Description: 自用 | 去除一些广告 | 原始按钮保存视频-图片无水印 | 底部板块的自定义移除 | 在 '右下角我的-设置界面长按1-2秒出菜单。搬运工源，搬你所想！永久免费更新！
+Name: 皮皮虾优化-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.preferences.rootless
 Architecture: iphoneos-arm64
 Version: 0.0.1-103
@@ -6027,6 +6084,44 @@ Author: Mystery
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.replaced.rootful
+Architecture: iphoneos-arm
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.replaced.rootful_1.0_iphoneos-arm.deb
+Size: 4664
+MD5sum: b0535999f78aab12465ebe132a64312d
+SHA1: 8689f150be5ba7c1c43f9b1f9d53ebe8c60817f0
+SHA256: bdc3120ce9ebdda3387d5a011e13d1595aa48214dffd19f0af550d1a18852daf
+SHA512: accbab38591bb04ab4af98157e36f60e9a41b9af016a99998157bade3754dea34eba231b50833a052fc65a6d54343d7bf334a4530c0dc162111ac76872860b55
+Section: 插件
+Description: Remove the notification that the P在“设置”的“关于”页面中删除有关“未知部件”或“部件和服务历史记录”的烦人通知。 非常有用的插件，自欺欺人！
+Name: Replaced删除系统提示
+Author: 34306
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.replaced
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.replaced_1.0_iphoneos-arm64.deb
+Size: 4710
+MD5sum: 103d5c3a78d62afe44b2f28f66dbfc8c
+SHA1: 45afb8a33674f1fb4803673fc8da9c7a05e8dedb
+SHA256: 24ac779fc21e0606b7b6797492ebe551f425c2db0e5bf77986753d89f1b9ac42
+SHA512: 2ef08c82b5bcd4e496b120fe3337bc10fa39fc6a0b7562b9cee2896f9c06d4ba78ab18d6898d7a895d4191562e442367e871979cadafb3c684e6edc642dfc831
+Section: 插件
+Description: Remove the notification that the P在“设置”的“关于”页面中删除有关“未知部件”或“部件和服务历史记录”的烦人通知。 非常有用的插件，自欺欺人！
+Name: Replaced删除系统提示-Rootless
+Author: 34306
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.rescale2
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -6042,6 +6137,25 @@ Section: 插件
 Description: A modern (and safe) Upscale alternative!不是特别需要的人，请谨慎使用该插件！Description: 现代（且安全）的高档替代品！状态栏、分辨率修改神器！唯一个可以完美实现X状态栏的插件！选择828像素即可实现！
 Name: Re:Scale分辨率修改
 Author: Sniper_GER & Nezuko
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.reverseisland
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.reverseisland_1.0_iphoneos-arm64.deb
+Size: 6666
+MD5sum: a261c59783fe4a02688c85f394329921
+SHA1: 883bd170d88165bfd709e2471dfc1978f219844a
+SHA256: 91df6eb319a4f8d03704cc9be458856db973fdd0537481f668774aa334ae89d9
+SHA512: cf7eab9cfb57d2c786036704ea5410905dfa46100f3d38dc12453d879fb11de4190be85139f5fbb4d8cf65f537c5871cbe8b3ba42f9161f3fbcfe15969b9bc6f
+Section: 插件
+Description: Single Tap on the Island to launch widget & hold to launch the app!轻点或者长按灵动岛上的图标即可快速启动小工具或者应用程序，但不是100%支持！
+Name: ReverseIsland快捷灵动岛-Rootless
+Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6520,6 +6634,25 @@ Section: 插件
 Description: 缩小来消息时的通知横幅，让它别那么大，遮挡别那么多。看起来还不错的插件，有需要的用户可以下载体验！效果可以看截图！
 Name: SmallBanners缩小通知横幅-Rootless
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.smartbatteryios15
+Architecture: iphoneos-arm64
+Version: 1.6
+Maintainer: 搬运工
+Depends: ws.hbang.common
+Conflicts: com.idevicelover.smartbattery2
+Filename: debs/byg.iosios.net.smartbatteryios15_1.6_iphoneos-arm64.deb
+Size: 879352
+MD5sum: 739a94485db233c22000ed90a6b69028
+SHA1: b5b09a8d45127744a15ab9b8e3748800c6964e32
+SHA256: 0eb12c72831b9ec81f21c442cf165f1eaa1c07d246ac6663bd79161ef9e84242
+SHA512: b20a2bfd101b2268109a8b234c41195d703e3fbc64e2053daab26605b1c3217c323084a60472a046070fb983fa1e9b6528f38199657fd42ba4ea9fa4db5a185a
+Section: 插件
+Description: An awesome MobileSubstrate tweak!省电插件，现破解使用，各项省电优化，锁屏低电量，WiFi功耗等等，喜欢省电的小伙伴们有福气啦，搬运工源搬你所想！
+Name: SmartBattery省电插件-Rootless
+Author: EliasSfeir
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -10972,6 +11105,24 @@ Name: Lottie通知动画依赖-Rootless
 Author: yan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: zhuti.iosios.net.huawen
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 百度主题源
+Depends: com.spark.snowboard, com.spark.snowboard.fonts
+Filename: debs/zhuti.iosios.net.huawen_1.0_iphoneos-arm64.deb
+Size: 21598050
+MD5sum: a49b65140bf788efec3ead225cc78de2
+SHA1: a70d164fc3498cb466b18d9aed74d833082cda79
+SHA256: 36e7c6c9e8dc49430335e545ceb9d0377b5494b1da8daa99adf8442ebbd17369
+SHA512: 1fa1122ffca2d9baf1395f7a2fdd06cdf0e325022cb6ea2f3535ac1ef0b80cd12a655e46c36365e9d2e6a43c9deadf7e839703f513df26fd5589a27a73572620
+Section: 插件
+Description: 更多免费好看的主题和字体请添加主题源：zhuti.iosios.net。永久免费。一种非常好看的华文行楷字体，非常的经典，锁屏字体也换了！很好看！本字体插件需要滑雪板来生效，非常的简单，对小白来说十分容易，下载本源字体插件后，请去系统设置-Snowboard里选择启用字体，然后注销就可以了，非常简单！主题源下载流量比较大，服务器成本高，有能力的朋友，希望能够捐赠一下，万分感谢！
+Name: 华文行楷字体
+Author: 百度主题源
+Sponsor: 百度主题源
+Icon: https://chinesebuilding.club/pic/zt.png
 
 Package: zhuti.iosios.net.visionos
 Architecture: iphoneos-arm64
