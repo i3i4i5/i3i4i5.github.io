@@ -838,6 +838,26 @@ Author: Dcsyhi
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.advertisement
+Architecture: iphoneos-arm64
+Version: 3.0
+Maintainer: 搬运工
+Installed-Size: 1897
+Depends: mobilesubstrate (>= 0.9.6100), firmware (>= 14.0)
+Conflicts: com.daodao.rootless.vfa,netskao.weibonoads-rootless,com.swing.dpnoads,com.tencent.live4iphone,netskao.ppxnoads-rootless,netskao.blblnoads-rootless,byg.iosios.net.weifeng.rootless,byg.iosios.net.baidudisk.rootless,com.lenglengyu.killads-rootless,netskao.xhsnoads-rootless,byg.iosios.net.killads-rootless,byg.iosios.net.bilibilinoad.rootless,com.snail.bilibilinoad.rootless,byg.iosios.net.csdn.rootless,byg.iosios.net.xhsnoads-rootless,byg.iosios.net.ppxnoads-rootless,com.swing.ddmcnoads,com.swi
+Filename: debs/byg.iosios.net.advertisement_3.0_iphoneos-arm64.deb
+Size: 6356766
+MD5sum: 08b50b8bd16860db1af4dd093452652c
+SHA1: 57f2147d8f3181bb62bb669a3d6eae12e10ff4c8
+SHA256: cf2a6ce401c88d0fcb71fb490960ed0f16e9f35f954a1f127ffa7b96d6d97896
+SHA512: eedf346e8385ffce3dce1ecd6996ddd35e1656d4063c261d7ff49bae979e2fe4d8ca33771573585779840163d5ddb1dc135da0d0fc60aa9a53448b680ccc1603
+Section: 插件
+Description: 本插件无设置项！安装即生效！广告终结者，一款免费的去广告插件，可谓越狱必装插件，创意由来了老弟提起制作，搬运工源维护更新！其中特别感谢iOSign,Netskao,SWING,Wkk等人为大家提供如此多的去广告插件，如果有安装相同软件的去广告插件，导致sileo无法安装以及软件闪退，建议先删除，防止冲突！广告终结者不涉及系统层注入，不会引起系统崩溃重启，放心使用！软件闪退可使用Choicy禁止插件注入该软件！广告终结者永远免费更新，后续会支持越来越多的软件！再说一遍，有问题可使用Choicy禁止插件注入该软件！不是所有软件都能去广告，你觉得没有用就卸载，不用反馈！因为本来就是自用免费插件！至少我觉得有用！隐根转换除非你把手机设置不灭屏，在转换界面等一小时，不然别尝试了！
+Name: 广告终结者-Rootless
+Author: 机车主&来了老弟&iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.appdata-rootless
 Architecture: iphoneos-arm64
 Version: 2.7.5
@@ -1066,6 +1086,25 @@ Section: 插件
 Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素溶解 / 百叶窗 / 故障闪烁 / CRT 关机 / 3D 翻转 / 旋涡内爆 / 灰烬上升 / 沙化 / 融化坠落 / 波纹扭曲 / 拼图崩落 / 旋卷飞散 / 剥落坠落 / 闪烁熄灭 / 墨色飘散），每种可单独调参。
 Name: 息屏幻术
 Author: 7513
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.doutu.rootless
+Architecture: iphoneos-arm64
+Version: 3.1-7
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 5.0)
+Filename: debs/byg.iosios.net.doutu.rootless_3.1-7_iphoneos-arm64.deb
+Size: 1092382
+MD5sum: 8f5660b13a01144fee9e3a3f96101fed
+SHA1: 60f5840bb33e302b2f30173c9a31bf7f0a1b8358
+SHA256: 0511d6b0c7067744bb5ca54ea0a2a29f182212985b0a31858839f2d2257e8bd2
+SHA512: 6046e5d6bba149af00d40d660af3a896ce0ac1885ebee8280053106af7795b725b085333853a9693dc1177a67e990844a8b1a88e7e894889026bb401dc54bb43
+Section: 插件
+Description: 微信添加表情包接口，更多的表情包，非常的不错！
+Name: 斗图助手
+Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1591,6 +1630,25 @@ Author: Huayuarc
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.msgfilt.rootless
+Architecture: iphoneos-arm64
+Version: 1.0-6
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 5.0)
+Filename: debs/byg.iosios.net.msgfilt.rootless_1.0-6_iphoneos-arm64.deb
+Size: 173012
+MD5sum: 32a649b2f37ab1ddaef7ffcdd28fdb43
+SHA1: 7011055cede9fde5c6b01195c10823e1a19cfb13
+SHA256: b2ad5e10c9e79fa9e31df50d485f449a734f8fc2ab52b30930bca808a331bdae
+SHA512: 3654b8b7920b5899201e3a066501f671be6073fdc69bf7d5c49de3848404cd5fa1ce0dbcbc653d45587a6497fa0afc58a817145bd3650f71b2ae939dc9dc4637
+Section: 插件
+Description: 消息屏蔽助手，群消息屏蔽，私聊消息屏蔽。
+Name: 微信消息屏蔽助手
+Author: Mao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.physpringboard
 Architecture: iphoneos-arm64
 Version: 1.9.0
@@ -1858,6 +1916,24 @@ Section: 插件
 Description: 加速系统的一些动画效果，为旧手机提速！效果非常的不错！冲冲冲，已汉化，免费插件尽在搬运工源！
 Name: Speedster系统动画加速
 Author: Hoangdus、daodao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.sqad
+Architecture: iphoneos-arm64
+Version: 0.1
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.sqad_0.1_iphoneos-arm64.deb
+Size: 13906
+MD5sum: dbe61dfbda773acd866f7d9de6d67b33
+SHA1: eb999991e3dcce51c52ce70a2526c71e0cfea3e1
+SHA256: 09a0aed72d4fa7223aa80f0100fc2ddef9c9873d8cb415c19acc33d08afd0a34
+SHA512: a5996559562c7aeb166b6432eb038141f708774056ae40681116499b28d019ad702497886ce101c5429bf992a498a612c18731cb0673c27ef363408360a1ca66
+Section: 插件
+Description: 效果：设备在越狱状态下也能够正常进入上汽奥迪APP。用法：进入应用看到检测弹窗，点击“Cancel”按钮即可关闭弹窗正常进入。提示：如果不成功，请检查设备是否使用Choicy或魔术师禁止本插件注入上汽奥迪APP。
+Name: 上汽奥迪-Rootless
+Author: WQ
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
