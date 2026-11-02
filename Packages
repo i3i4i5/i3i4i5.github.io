@@ -2590,6 +2590,24 @@ Author: Hitori
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.chargeanimations
+Architecture: iphoneos-arm64
+Version: 3.0.6
+Maintainer: 搬运工
+Depends: firmware (>= 15.0), mobilesubstrate, com.rpetrich.rocketbootstrap, preferenceloader, ws.hbang.alderis, byg.iosios.net.ct5extra, xyz.cypwn.xinam1ne
+Filename: debs/byg.iosios.net.chargeanimations_3.0.6_iphoneos-arm64.deb
+Size: 24849426
+MD5sum: 8cc286cc1d73320579805990501ab638
+SHA1: c405364293fa96d8746b34b0ae2828036c45f86b
+SHA256: 32b5a8f56738daa3785e3edc24000fae8a7a961672fe825e4f306a82a87d12c2
+SHA512: 1b9bd80e9c0cd29efcc94037d6cdd3f72da66638997929299286c3bb6a9c877a9dd2b05356363e634b2cf7747c5d4fcddd0256547677cb011c8834a5aa111915
+Section: 插件
+Description: Beautiful animated notifications for when plugging in your device!一款充电动画插件，非常酷炫，可以开关设置背景图！
+Name: ChargeAnimations充电动画-Rootless
+Author: c1d3r
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.chatcaptureplus
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -7189,6 +7207,25 @@ Author: b4db1r3
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.snail
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.snail_1.0.0_iphoneos-arm64.deb
+Size: 17032
+MD5sum: 38d0a7a2090cef17ab3c3a821ac68710
+SHA1: 26f29b0506a0cb599ddcb25a0c4a8caad7b37cf5
+SHA256: 30577da3e4492f2217ec57d21c4df423a73324be5903f9b2dd688e6e6c115b9d
+SHA512: d91487dda17721097a4adf7188d573e63beee934b5732f9fa2620c58112f59df5747bd1124d696edd16cbd0a54c34fb3f91335ae4ec3995697126e08b5605cf3
+Section: 插件
+Description: Crack for Snail tweaks. Always120, AirDrop16, CallSilent, KillYourApps, etc.蜗牛插件破解依赖！牛牛无敌！
+Name: Snail蜗牛破解依赖-Rootless
+Author: CBZ
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.snapshottool
 Architecture: iphoneos-arm64
 Version: 4.2-5+debug
@@ -8110,6 +8147,24 @@ Section: 插件
 Description: 删不掉，请按教程操作，不行就清除越狱！这是一款用于屏蔽隐藏越狱文件以绕过检测的工具。（仅支持iOS15-16系统Dopamine2越狱）教程如下：点击启用,然后打开中国工商银行即可!(其他软件一样)使用完毕后一定要点禁用,不然很多插件都失效了!这个插件不好删除,sileo删不掉的话要去Filza根目录里搜vnode,搜到的文件全部删除,然后去多巴胺里重启用户空间即可！搬运工源一直为用户着想,奈何圣母婊太多!自以为自己站在道德的制高点！
 Name: Vnodebypass屏蔽越狱
 Author: XsF1re, ichitaso, level3tjg, LF, AD
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.vol15
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.vol15_1.0.0_iphoneos-arm64.deb
+Size: 34088
+MD5sum: 1c48a347cb339c91e5c062830f314b57
+SHA1: 58e6e853502fcc50f6dd8583c17a28353df8fa54
+SHA256: a6b2234fdab6637d00af32d52e5ed1392b201dc36f26ddfe21093a11f5f62c5f
+SHA512: 90162a4d77049f45aca7d70d47ebc2e411b96821442813f7e3d9050b2619448e171c21d8c511730d208bc3e8d3b72ad268556283a4119e78407ffb655b8f1c57
+Section: 插件
+Description: Change your volume UI colors and more!更改音量UI颜色等！
+Name: Vol15音量UI调整-Rootless
+Author: Kota, Snoolie
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -11369,6 +11424,42 @@ SHA512: c6ede9ffe4bc8ab0bdbc3947f81e63c79882beef9e2dfa43e27d4c964e9bd739931279e0
 Section: 插件
 Description: Set a time limit for AirDrop's 'Everyone' mode, similar to iOS 16, but more flexible. Cracked by CBZ!隔空投送优化插件，同样是一款鸡肋插件！自行测试！
 Name: AirDrop16隔空投送优化-Rootless
+Author: Snail
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.snail.callsilent
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: 搬运工
+Depends: mobilesubstrate, byg.iosios.net.snail
+Filename: debs/com.snail.callsilent_1.0.3_iphoneos-arm64.deb
+Size: 233032
+MD5sum: a3351f11bccfc7261bef5535e5584ff9
+SHA1: 9edb0a2cf37e960f1d9a3dd6e1b3408468d7a78f
+SHA256: 22176df819894c1008f89c9ef821193daa6bb677aca8bef670a3fda53bf9788f
+SHA512: df909137b3571d9762cc7bed570720865779665a72db8247d6bb157232102a61278f58fe7a1a3df3ab374d2632af6f0fa3354ee296cfbbd3347ac0d4c9081eb3
+Section: 插件
+Description: Mute & Decline Call with Flip/Tap Device. Cracked by CBZ!提供另一种方式拒接电话，感觉很鸡肋的插件！
+Name: CallSilent拒接电话-Rootless
+Author: Snail
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.snail.killyourapps
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, byg.iosios.net.snail
+Filename: debs/com.snail.killyourapps_1.0.1_iphoneos-arm64.deb
+Size: 202432
+MD5sum: 09108f9e8262e49f124b56ce469afa59
+SHA1: 4f3fad132d1a0e683d48b4d731a4008c07448b61
+SHA256: 3b2fa2e0a9b90ce08476638010604d5577ca1d03d3c1d83ff41e1591a9e0902a
+SHA512: 2744e4abedaf56827b69f4289877e60234b552d7e95ab4e67a8dfc3787cb2d3e7e7a11edcaf06f1ff37e1578e9278efa3abc5d4263b6cbac2bc08f52675e7440
+Section: 插件
+Description: Kill Your Apps as you wish, keep your app switcher always clean with scheduled kills, immediate kills, and screen lock kills. Cracked by CBZ!定时杀掉你的APP软件后台，随时随地保持系统内存，自行下载体验！
+Name: KillYourApps定时杀后台-Rootless
 Author: Snail
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
