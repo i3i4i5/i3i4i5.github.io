@@ -1723,6 +1723,25 @@ Author: 5hux1n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.horizontalsliders
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/byg.iosios.net.horizontalsliders_0.0.1_iphoneos-arm64.deb
+Size: 18612
+MD5sum: d448cde062d705901ecf93f169a68178
+SHA1: 11d68e526bb9e697761c1cbf9e57e445bd604406
+SHA256: 102987a67845ec65f08badb959c93ad760bd4f4bf438f6cdcf1a7783bca8233c
+SHA512: 986cb93afef8586b95fcdf7be585cb758a604d5c82741d6e189ea22cd69805ae022d8c870a318019fba8da6ccae1fa4029dd038fb5784ff2a0d67c11865c9939
+Section: 插件
+Description: 使控制中心的亮度和音量滑块横过来，横向滑动，不再竖向，一款小插件，非常的不错！
+Name: HorizontalSliders模块横向滑动
+Author: Nightwind
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.infuseplus
 Architecture: iphoneos-arm64
 Version: 2.6
