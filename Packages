@@ -3438,6 +3438,26 @@ Author: MegaDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.settingsrevamp
+Architecture: iphoneos-arm64
+Version: 3.0.1-1
+Maintainer: 搬运工
+Installed-Size: 888
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, preferenceloader.rootless.tops, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, preferenceloader.rootless.top,com.hk.settingsrevamp.cn.rl
+Filename: debs/byg.iosios.net.settingsrevamp_3.0.1-1_iphoneos-arm64.deb
+Size: 447534
+MD5sum: 364cd88c9d5f6e32b4ed195be2da967f
+SHA1: 13cd1d1afaf643fd30d9ecf98f9a74a20cf49f9f
+SHA256: 5839ee76122a25d66f12d314d630205594cdf761b5cd69d32b61de865d6419ff
+SHA512: 1d4c3b06b75dcd04f5a2ddd41e50383a00cb42af092f1d245f98ee89f96194c89a7abae08f40a305b67e9c80f4e00996107ef5f88377bb0a2e22ef7106a13d73
+Section: 插件
+Description: Customize the ios settings page插件设置归类，一款将插件归类，美化系统设置的插件，已最新汉化，无需汉化包！可以更换设置背景图片，把插件归纳到一起！具体可以观看插件介绍，非常的nice！后续有更新，等搬运工源第一时间更新！2.1.1旧版本搬运工源群文件里有！
+Name: SettingsRevamp-设置归类
+Author: SOPPPra
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.shellx
 Architecture: iphoneos-arm64
 Version: 11.3
