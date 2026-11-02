@@ -777,6 +777,28 @@ Author: 0xkuj
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.3dbadgeclear
+Architecture: iphoneos-arm64
+Version: 1.6.8
+Maintainer: 搬运工
+Installed-Size: 192
+Provides: com.isklikas.3dbadgeclear
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.isklikas.3dbadgeclear
+Replaces: com.isklikas.3dbadgeclear
+Filename: debs/byg.iosios.net.3dbadgeclear_1.6.8_iphoneos-arm64.deb
+Size: 22510
+MD5sum: fbde55af2773b94150266757e5cfc21b
+SHA1: 986f2d3e75d3a0f46ab4f8a0c359993d2bd5ba2e
+SHA256: ee38e5382157c655002756e52cd785b4e539e3efa737abff90f957d94c89a167
+SHA512: 0ce3d67e746cc33f1b781f72e899181fed9e0c056c82a4b4c878287298f68ca196b8b4f3560ffe96c683bf89fff3e78aa2c4c1bc4e6f2ba05d638fe82d3f893c
+Section: 插件
+Description: Clear your badges from the Force Touch / 3D Touch Menu! Only appears on apps that have badges.一款快速清理角标的插件，安装之后注销生效，长按APP图标选择清理！
+Name: 3DBadgeClear清角标-Rootless
+Author: isklikas
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.3dnetworkfixer-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-8
@@ -3027,6 +3049,24 @@ Author: xybp888
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.disablethermalmonitord
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Maintainer: 搬运工
+Depends: plutil
+Filename: debs/byg.iosios.net.disablethermalmonitord_0.1.0_iphoneos-arm64.deb
+Size: 1212
+MD5sum: 7ab24e714b96d61888f71a1e0a86b376
+SHA1: 19a4e234557e1829f232db0b36021b8ef8672a01
+SHA256: 5787a67f2a19c461853b07f64002932ee2a86c508a73695125e06ebb1755e338
+SHA512: c33ef50a195927287cf5efffba46fb97200c2d3c4e0bc82f4e6a780bcdc20d5f18c02a53e62f02c966d60407df3aa5b56ed0f21b4176f32dcb2542920af6e394
+Section: 插件
+Description: 阻止 thermalmonitord 运行，应该可以防降频，防温控降频，由无尽伤痛都锁进黑夜发现。需要玩游戏的小伙伴们可以试试！楠神yyds！
+Name: Disable Thermalmonitord解除温控降频
+Author: zhaonan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.disintegratelock
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -3823,6 +3863,25 @@ Section: 插件
 Description: See notifications from far away一款模仿ShortLook的大屏通知插件，就是来消息时候，锁屏状态下能看到大大的软件图标和消息内容，如截图所示！暂时无汉化！对照截图看翻译即可！原价1.49刀，有能力的请去支持正版！
 Name: Glance全屏通知-Rootless
 Author: Janis
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.glow-rootless
+Architecture: iphoneos-arm64
+Version: 0.6-12
+Maintainer: 搬运工
+Installed-Size: 1008
+Depends: mobilesubstrate, byg.iosios.net.limneoscrack-rootless, firmware ( >= 12)
+Filename: debs/byg.iosios.net.glow-rootless_0.6-12_iphoneos-arm64.deb
+Size: 344366
+MD5sum: 1188584388de0e78820c61bdf4ea427a
+SHA1: 8f852fe7332be813d1129daf7838501c20bb3c61
+SHA256: b7085f0395dcf2c380d6cde56d6b3d2f0b032f3ec18cfddcba008f1317c4b2b7
+SHA512: 2b34dc29dc4d5297fd9796d3f5d4c4692177873093de59b5f705610e9fc6a815d2514b60d5396554c171c0f90dfb9d35db58f334b50e49a954dc5c4f015be832
+Section: 插件
+Description: Let your lockscreen glow!息屏插件，暂无中文，自己摸索，配合搬运工源里的Limneos破解插件破解使用！完全免费，仅在搬运工源！
+Name: Glow息屏显示-Rootless
+Author: Elias Limneos
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -11371,6 +11430,25 @@ Description: Function: Allow third-party input methods in any password box。***
 Name:  强制第三方输入法-rootless
 Author: 来了老弟
 
+Package: net.limneos.simpleactivationactions-rootless
+Architecture: iphoneos-arm64
+Version: 0.1-2
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/net.limneos.simpleactivationactions-rootless_0.1-2_iphoneos-arm64.deb
+Size: 10770
+MD5sum: 525207b8042b383e50e9067333946368
+SHA1: 846bb4e434acc5e309d550742c17cc54656bde9f
+SHA256: 12ce51adb85a8de98acbc600b4a579da9f6942c1e8c160c1d4bc8e5d1ddc69c5
+SHA512: 7227efe2252dc4d5491142fa808f54f79d9de08434f06f969da3056b611f269ab64e9eedd9ab9a3ddafca1508ed283cee1eea7f3b63eef149d5eb1bedf1517d6
+Section: 插件
+Description: Simple Activation ActionsHandles StatusBar actions for simple activation events通话录音插件依赖。
+Name: SimpleActivation插件依赖-Rootless
+Author: Elias Limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: netskao.doubleclickwake
 Architecture: iphoneos-arm64
 Version: 1.1-2
@@ -11406,6 +11484,26 @@ Section: 插件
 Description: 使用面容ID或者指纹，保护你的APP，一款非常好用的软件保护插件，本插件已自带汉化，请卸载你的汉化插件再安装，更新也请卸载汉化包！
 Name: BioProtect-软件应用锁-Rootless
 Author: Elias Limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: org.mr.dynamicpeninsula-rootless
+Architecture: iphoneos-arm64
+Version: 0.6-25
+Maintainer: 搬运工
+Installed-Size: 1684
+Depends: mobilesubstrate, byg.iosios.net.limneoscrack-rootless, firmware(>=12.0)
+Conflicts: com.hk.dynamicpeninsula.cn.rl
+Filename: debs/org.mr.dynamicpeninsula-rootless_0.6-25_iphoneos-arm64.deb
+Size: 455092
+MD5sum: 5fa4b468b77e6b94452ef06a4704c5d4
+SHA1: 5515eb87c126127733dd8c554af39ab3adc4a910
+SHA256: 391793a0672ade5bf3b8b216b848a156f72d9a246207e5587c7d1a1fa592e297
+SHA512: 946a9126ce38e09431e865738c43d577cdf70e10300fdb2466f6e278abc2e7f73c522f1f5fadae961389eb75745150109ac6dad5cc9455a0173eb2abcd7233a0
+Section: 插件
+Description: 灵动半岛破解版，让没有灵动岛的旧设备用上灵动岛，搬运工源已经是最新版破解，不要相信其它源改的高版本号，都是骗小白用户的！搬运工源已是最新版，安装完成之后注销生效，有问题进群反馈！
+Name: DynamicPeninsula 灵动半岛破解版-Rootless
+Author: MainRepo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
