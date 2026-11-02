@@ -1297,6 +1297,26 @@ Author: therealhoodboy
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.chatcaptureplus
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Replaces: com.huami.chatcapture, com.huami.chatcapture.timelabels (<= 1.0-3)
+Filename: debs/byg.iosios.net.chatcaptureplus_2.0_iphoneos-arm64.deb
+Size: 756202
+MD5sum: 454cd5d790819f2c7b479df83d95514e
+SHA1: de2695827095436a5dee818e3a78d1da5311539f
+SHA256: 0cc9c34c678eb8f007e1932b528778abfb111c6e2730449283192c06a8235b42
+SHA512: 46e231c1ef67d34323137389b8f66be04eaf22f1c3f05b53d515c16ac44d7c7155d2f57e98dbd96076f5d4ae605885961d5c77f1e120de48e4c86e0eb83b6e4c
+Section: 插件
+Description: 一款用于聊天界面多选(长)截图自动拼接的小插件，增加时间标签     • 支持按选择拼接截图     • 支持快捷分享给联系人     • 支持聊天背景图展示配置     • 支持隐藏群成员名字标签     • 支持选择是否显示群名、输入框     • 适配主题情况下的导航栏资源裁剪等布局     • 支持选择成员显示名类型（备注、网名、群名）  注意：此插件默认开启  触发方式如下：多选消息后点击「更多」→ 截图；齿轮图标进入设置。
+Name: ChatCapture+微信长截图
+Author: huami, Mallin
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.chromahomebarx
 Architecture: iphoneos-arm64
 Version: 1.2-10
@@ -2028,6 +2048,25 @@ Author: MacXK
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.leftpan.rootless
+Architecture: iphoneos-arm64
+Version: 2.0
+Priority: optional
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Filename: debs/byg.iosios.net.leftpan.rootless_2.0_iphoneos-arm64.deb
+Size: 50166
+MD5sum: 65bb35d07a3f77d31fe54912120a60bb
+SHA1: 4ad14576824d876eef483b604823f935e75ac087
+SHA256: 678f9b9f80be970ceb53d9391681529668e5d96c5c74dcbc923ee8b36d9f662d
+SHA512: 451bd35b7a66cc0e55a8d40c226e476550e65215c6e6c5bff06d175cdd2caca16fcdea83051afa579d8910fec01c83b4568890bd40bb030e02866fcfbea0a7d7
+Section: 插件
+Description: 本插件的作用是左滑返回上一页面。苹果自带的右滑有点不符合我们国人使用习惯，所以大神就开发出这个左滑手势插件，直接左滑返回上一个界面，非常的好用！无效的软件请解除屏蔽插件注入！但也不是所有软件都能用，自行体验！
+Name: 左滑返回
+Author: Mao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.liquidas
 Architecture: iphoneos-arm64
 Version: 0.1.1b+banana54
@@ -2262,6 +2301,26 @@ Author: Chloe
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.picobanner
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Installed-Size: 820
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.liddell, dev.traurige.liddell
+Filename: debs/byg.iosios.net.picobanner_1.1_iphoneos-arm64.deb
+Size: 230172
+MD5sum: 9822cb55efc61bda713871149d046c8d
+SHA1: bc69ea18f041a3926e217118e9a09c1b3d5fb899
+SHA256: 12776ecd26f344bd72175fbef581911d0a3f9ebeaf0f29d586a39b6d9d57a504
+SHA512: 6561db00ec17cc9a1b3e53042ac9cbacd40c12929027a6c778dbc39921f4b2f461deecb84de1c300003fe93807158974f93e80b546386dc35e246e2c626653ba
+Section: 插件
+Description: 样式丰富多彩的小巧通知横幅。刀刀优化，效果看截图。搬运工源永久免费，万古长青！
+Name: PicoBanner多彩横幅
+Author: daodao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.pkc
 Architecture: iphoneos-arm64
 Version: 0.9-8
@@ -2278,6 +2337,25 @@ Section: 插件
 Description: 群管理Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、[每天60s读懂世界]自动发送信息、文字转语音等功能，非常的不错，认准搬运工源更新即可！
 Name: PKC微信助手
 Author: Curtin
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.pogr
+Architecture: iphoneos-arm64
+Version: 0.5.4
+Maintainer: 搬运工
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.pogr_0.5.4_iphoneos-arm64.deb
+Size: 102712
+MD5sum: b95b7812fdc2b796711ef844f0cba2cf
+SHA1: 5bb2f7f914cdec5f5a4568bcfbd42a1a884ecde4
+SHA256: 606c7a6b2e481c7ff28cc5deafa5147fd91829c08fba25f801f5358b7a0c8a16
+SHA512: e4636dcd900dd0ef71da31f26ac0ecf229b244a3c5581c5c788a2d663dd01d085a5fda64a98ed8273fe76d3f5fb3075fc8e3f4d18632cd6aea1ac88a7e7208a7
+Section: 插件
+Description: Treat AirPods Pro 2 correctly在iOS15、iOS16系统上启用AirPods蓝牙耳机弹窗，效果自测，无用请卸载！亲测支持iOS16系统！多巴胺正常，xina越狱不清楚！杂牌耳机应该是不行的！搬运工源永久免费，我们的服务众所周知！别人有的，我的用户也得拥有！
+Name: PodsGrant蓝牙耳机弹窗
+Author: Ruphane
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2414,6 +2492,25 @@ Author: MoWang
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.raincall
+Architecture: iphoneos-arm64
+Version: 2.6-2-14
+Maintainer: 搬运工
+Installed-Size: 2224
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.raincall_2.6-2-14_iphoneos-arm64.deb
+Size: 610106
+MD5sum: 4649990b10ffb2b198cddc8251825c42
+SHA1: 1c060231dbfce5e45ce0205c525a09f57bf693e4
+SHA256: c9ebcb875d37b52290c0890d1e35796b67626caf727946dceca2316dc72b0f82
+SHA512: a8e48e3e6147885bdb1c16c0e694a037bd026249b28b3d7809ecbe0a32510c238e0add2823d51973f97f85875cea6358717321db456464a5be47f1bcb377721e
+Section: 插件
+Description: Rain开发的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音，通过ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音，支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机。还能自行添加想要录音的APP，真是一款免费又好用的插件，感谢作者无私开发，兄弟们冲冲冲！搬运工源，永久免费，持续更新！
+Name: 通话录音
+Author: Rain
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.releasefugu15
 Architecture: iphoneos-arm64
 Version: 6.2.9-1
@@ -2430,6 +2527,24 @@ Section: 插件
 Description: 把主题用filza放到对应文件夹，然后加载即可。主题包自己找，或者搬运工源群文件里有几个，不多！不要再问怎么用，插件里都写的很清楚，动动你们的小脑袋，还不行就百度一下你就知道！
 Name: 微信酸果主题工具
 Author: 苏兔
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.reo
+Architecture: iphoneos-arm64
+Version: 3.1.0
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.17.0), firmware (>= 14.0), firmware (<< 17.0)
+Filename: debs/byg.iosios.net.reo_3.1.0_iphoneos-arm64.deb
+Size: 1383826
+MD5sum: 89b28155f89fc7fb5c05eb888e6a7507
+SHA1: 80058190c87edaa87c1e866bdbe57fd1adbcf9bf
+SHA256: 4ae9305d021807352f2600740fd8ce4d95faf75e57dd71021c09819b8031f73d
+SHA512: e16282ccb7c8807a43bfa0908dabc866d6d6fb542c0c5dee7116f05b16eee02dba1f65703b77d7f8615017c92dd673c465c5e469d58fdedd0a077b033fd6156b
+Section: 插件
+Description: Classic Music player for LS一款播放器美化插件，效果看截图！暂时未汉化，源主精力有限，可以耐心等待更新！
+Name: Reo播放器美化
+Author: Mystery
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
