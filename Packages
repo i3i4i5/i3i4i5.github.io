@@ -2600,6 +2600,43 @@ Author: lhh
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.musicxuanzhuan
+Architecture: iphoneos-arm64
+Version: 1.5
+Maintainer: 搬运工
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/byg.iosios.net.musicxuanzhuan_1.5_iphoneos-arm64.deb
+Size: 41500
+MD5sum: 2a0a35182ad3210529e91519ecaa588b
+SHA1: 4cc0fec0fbe2e3d5e793c3333e5da2a43ad2b241
+SHA256: a5044e589e9301cb1ac177049f30f8bea691a4655a2a963b7fe7d5101fb7d9af
+SHA512: 63c89d1231374877c8c42e9697c06cec5ed02ba7eda16491bf70c686d41ea5e3939a7dacee7c8381ead32733ed814a90ea82d1c0e2a59d8c7ee2a8a837ac2e23
+Section: 插件
+Description: 一款音乐专辑旋转插图插件，支持灵动岛，控制中心，锁屏界面播放。可配合源里面N95使用，支持的音乐软件不多，小伙们自行测试！
+Name: 音乐专辑旋转插图
+Author: Lessica
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.n95
+Architecture: iphoneos-arm64
+Version: 4.4
+Maintainer: 搬运工
+Installed-Size: 15096
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.n95_4.4_iphoneos-arm64.deb
+Size: 12122922
+MD5sum: d8694a4e915ebb23af98081fe3755b4f
+SHA1: 6c02b65259f49c03ec51455b5cf0ea823d338fa9
+SHA256: 14cf865b53e6b600bd2f1048e860ee8c99785fd45cdb6fd5d5f943298c8fd59a
+SHA512: 179fa0c290fffafc9f4ff2a8e64a23158a949534bf3634c4f6407756c4e5f9a941f8a3d04f23db9e42c4c1cbc4ddd9bf27d54f1b1cfeecff7930f67773fe238c
+Section: 插件
+Description: 一款音乐专辑图像更换的插件，思念变成海汉化，可能支持的音乐App不多，以下是官方插件介绍翻译：遮罩专辑封面并不是什么新鲜事，当时有一个流行的调整，称为 Custom Cover，它起到了同样的作用。它允许您通过向音乐应用程序的专辑插图添加自定义蒙版来使其具有您想要的任何形状。在 Custom Cover 之后，我们进行了一个名为 MASQ 的调整，该调整在 iOS 12 上结束。如果您现在还没有抓住它，N95 是一个面具，这就是为什么我们决定将我们的专辑封面蒙版调整命名为“N95”。N95 通过支持 Spotify 和 Pandora 等所有主要音乐应用程序，并支持 Next Up 2 和 Quart 等流行的音乐调整，将专辑封面主题提升到一个全新的水平。除了对不同平台的无尽支持外，N95 一直在更新。我将继续支持不同的 iOS 版本以及不同的应用程序版本。
+Name: N95音乐专辑遮罩
+Author: Ethan Whited
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.noredirects
 Architecture: iphoneos-arm64
 Version: 2.1
@@ -2636,6 +2673,26 @@ Section: 插件
 Description: 注意，目前免费的只有来电视频功能，alive，还有一些灵动岛之类的功能！大家看清楚，据说以后会逐步开放新的功能！其他未免费功能开启可能导致安全模式！O2Pro分屏，褒贬不一，Bigboss源也有，大家直接搜O2就能看到！说实话这个插件分屏的功能还是挺多的，具体的大家可以看介绍https://v.douyin.com/iAUvCPC9/或者截图介绍！觉得不好的用户可以不下载，本源上架只是为了给其他用户选择的权利，下载测试之后觉得不行的可以卸载，不用提供udid，放宽心，插件首页最顶部有获取测试资格，自己联系去问即可，我不卖任何插件，本源也有电话助手、nicebar插件，都是提供给用户搜索之便，买不买用户自行考虑，与本源无关！
 Name: o2Pro分屏
 Author: lzsxcl
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ohmyinsetss
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 1600
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.ohmyinsets
+Filename: debs/byg.iosios.net.ohmyinsetss_1.2_iphoneos-arm64.deb
+Size: 370508
+MD5sum: d1eb39d7c9fb0a79717794f3b2c82bd1
+SHA1: 45304a830d7f5c4e2c2f95876bf8673ea64a9c32
+SHA256: f8c19e1de3e8580734a6f6a8246d4b34ec1545c1ac6f9be9bf6aca867c013983
+SHA512: b3f2d06e097364beaec1aa3d8bbcf85522ec7ab9e87285fae3a2eda92d1ec337755a129961adf1140b1bf393b22b79feb0dd1219f574b8fc55196f26bf92696b
+Section: 插件
+Description: 控制中心模块五列显示，一款还不错的插件，效果如截图介绍所示！个人觉得betterCC也更好看，喜欢的小伙伴们可以去下载体验体验！
+Name: Oh My Insets 控制中心五列
+Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2735,6 +2792,25 @@ Section: 插件
 Description: 本插件功能：让你的音量键和电源键每按一次，在手机屏幕里显示动画效果，这是模仿iOS18的一个功能，还可以自定义按钮动画的大小，喜欢的小伙伴们可以试试，感谢M哥汉化插件，搬运工源全体员工向你表示感谢！
 Name: PopOutButtons按钮动画
 Author: tesla_man
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.powercuff
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Installed-Size: 176
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.powercuff_1.1_iphoneos-arm64.deb
+Size: 16506
+MD5sum: f19f33c8e4845a070d3d51b07b01f033
+SHA1: f12fa40fb432dfd090e71f1d1107e55e0c0be440
+SHA256: 7c05daa2c71a4df4706836a181df12adc0a7e3bf1c78df14d8d7d3ae35f2ec20
+SHA512: f6e75143b709065c55e702693087fa4aa6f894acf168fe4e97b77e258dc1dbde484dba8b6aa170c556136629d6fe01ba96e8c3f279c2143d59a6505a903b5e9d
+Section: 插件
+Description: Select from additional low power device states省电插件，请看插件介绍截图，至于有没有效，请自测，我也不敢乱说，怕被打！搬运工源一直在免费为大家服务，请多多支持！
+Name: Powercuff省电插件
+Author: Ryan Petrich
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3591,6 +3667,25 @@ Author: ioswary
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wcavatarbuttons
+Architecture: iphoneos-arm64
+Version: 2.2
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.wcavatarbutton
+Filename: debs/byg.iosios.net.wcavatarbuttons_2.2_iphoneos-arm64.deb
+Size: 142940
+MD5sum: 134835f201c102b078c859ba658b7c7a
+SHA1: 7967b1fd18e9e5e91059c5478799e1ea3b678e3d
+SHA256: a6a0580c3ea71490baed7073134f5555f8f208c27f11b41c14a4f414e37b362a
+SHA512: 5df6dee1cbf290bdbf3a472c2eccafa119674bb7b60469434b25c29c4ead449e5bf1264704c1fd4a4ff37c5908b69723d95da14d1833e8f2525ccdb881cc9167
+Section: 插件
+Description: 这个插件暂时叫微信顶栏元素！作用是微信聊天界面昵称添加好友头像，依赖老猫的「插件收纳」，看不见设置项就sileo搜微信插件管理，安装即可！可设置为左、中、右位置， 圆角 0.5 为圆形，修改圆角闪退请安装「黄白助手」！
+Name: 微信顶栏元素
+Author: huami
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.wcdisablehotupdates
 Architecture: iphoneos-arm64
 Version: 1.1-2
@@ -3646,6 +3741,24 @@ Section: 插件
 Description: 描述：解决新版本微信，插件设置不显示问题！而且搬运工源这是微信插件收纳可隐藏版，入口在我页面，长按图标开启密码，开启后需输入密码才能显示插件！在首页或通讯录页面的搜索框中输入密码！非常的棒，搬运工源，万古长青！
 Name: 微信插件管理
 Author: Mao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wcpluginsorder
+Architecture: iphoneos-arm64
+Version: 1.0-2
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.wcpluginsorder_1.0-2_iphoneos-arm64.deb
+Size: 27682
+MD5sum: 77b816fb1667840629e99404f2da734c
+SHA1: 393877c9e6abb27251217cb2acb2bf9476770b7d
+SHA256: e17548421c1a4ece73181d0d898dcc3477c828ab13b1e86b400fae5ea9f8921b
+SHA512: bf3ee6b1da380065b256cfec8192372518f9e4e2902f65abd351517baabd0f843e62aab4fe6f6238deff0d1a2ef6c3ce8a3765b1fea9626afc2ec9340cb19649
+Section: 插件
+Description: 依赖微信插件管理插件，对插件进行排序，效果看截图！前提是你安装了微信插件管理！
+Name: WCPluginsOrder微信插件排序
+Author: huami
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
