@@ -2103,6 +2103,60 @@ Author: iosdump
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.kaiguang.1
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.kaiguang.1_1.0.0_iphoneos-arm64.deb
+Size: 79612
+MD5sum: 9e45095ff8d7549259289c411406562c
+SHA1: e2d18af3cf9f7583ce457e82a0343fe3eb76c734
+SHA256: 29f030bee86df6718c0e688328275fd190e010242e4f118f69f39422d03cf6ed
+SHA512: 05c3e0fec7305b3afe2d31feff8d43c4b9bf4f3d41a3112e7a9b7dc10341c22a2e546d1a2003eeb58de37b4db00f5d2b814cc4846061e62445bb441c111cefeb
+Section: 插件
+Description: 这是一款全新的开关主题，以半透的风格绘制的三勾玉写轮眼为核心设计，开启时勾玉缓缓旋转，带来极致是丝滑体验。搬运工源，搬你所想！
+Name: 开关按扭-写轮眼(红）
+Author: 白衣
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.kaiguang.xiaonian
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.kaiguang.xiaonian_1.0_iphoneos-arm64.deb
+Size: 28814
+MD5sum: a83b2dc19eed9f2f837b8baa490578c2
+SHA1: 9bf0d42babd595f311b72bac9cc9c8326b18e3c8
+SHA256: 445bf53a45cf2dbb37c01a0757a61c9d4e1d47897d196432f1e9ac875e2db62e
+SHA512: 7f4fe2cf24d480d4ded9b9ec7c16e57224cbf30bf14803f6f32b5aa88520dbdf8dd4cf6580e280447c970999bb1880a9edf6b182b66e7518213dcb4334fc442d
+Section: 插件
+Description: 这是一款把开关变成笑脸表情的插件，大家自行体验！
+Name: 开关按扭-笑脸
+Author: Simon
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.kaiguang
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.kaiguang_1.0.0_iphoneos-arm64.deb
+Size: 79716
+MD5sum: adc641cf97133d66c6d68fda6c4131ea
+SHA1: bfdd04eac9030cc656256a6b2feb39510de1e2fa
+SHA256: 75026e9fc407076ee167864743e9753a00ab06df05f3554218e97f3556c9b8d4
+SHA512: 5047ee8ddb936ea37c68ec28b8de506531392bcbe5f99944f19cb839b380ccf8e1f4e93e19a06e31292e027c6a82c6ade0d879a79f4540b907950059e20ccdd9
+Section: 插件
+Description: 这是一款全新的开关主题，以半透的风格绘制的三勾玉写轮眼为核心设计，开启时勾玉缓缓旋转，带来极致是丝滑体验。搬运工源，搬你所想！
+Name: 开关按扭-写轮眼(蓝）
+Author: 白衣
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.kayoko
 Architecture: iphoneos-arm64
 Version: 4.1.2
@@ -2214,6 +2268,24 @@ Section: 插件
 Description: 用于灵动岛专辑及屏幕录制动态跳舞动画整合，只支持有灵动岛的用户，大家自行测试，灵动半岛就不用试了哈！
 Name: 灵动岛跳舞动画
 Author: Simon
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.lingdongdao
+Architecture: iphoneos-arm64
+Version: 1.0.0.2-235
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.lingdongdao_1.0.0.2-235_iphoneos-arm64.deb
+Size: 847054
+MD5sum: 118c7a78cc9346db832845547386a00b
+SHA1: acd0e04d09172460c12b5719249560cd2a862943
+SHA256: 6f5917c3427873a06ba401261fb361560af179ed9293976f5a2d77d8d1ad743d
+SHA512: 9f3d3e0c9041a340df12b0541169ff1e95749e96e213231a19c65595b12a1ee79ca466498511735552cfa19302e37a7b58735a8ee160145822c8001a7291fc61
+Section: 插件
+Description: 给灵动岛的外框内框添加自定义颜色，通知背景颜色等，自行体验！
+Name: 灵动岛自定义
+Author: MoreColor
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
