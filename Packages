@@ -18806,6 +18806,23 @@ Author: zhaonan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.niceios.nicebarx13
+Architecture: iphoneos-arm
+Version: 1.0.2.5-98
+Maintainer: 搬运工
+Installed-Size: 20432
+Depends: com.rpetrich.rocketbootstrap(>=1.0.7~beta3),mobilesubstrate,preferenceloader,com.niceios.nicehelper(>=2.9)
+Filename: debs/com.niceios.nicebarx13_1.0.2.5-98_iphoneos-arm.deb
+Size: 6749594
+MD5sum: fc2d04e976c8ecf73afc78434dae8c9b
+SHA1: 5ef8dfe5f5ed1358ad0eba2ca2c9414f887aaa40
+SHA256: c0aee23d1fcf467bff1fcd2f93b6878de18ab56f11a710e2e1f46feaad042300
+SHA512: 205605c6f3c10f1bc4031a77274558a76880dcb7567626a4a68c9b1029e510778893f8eecf7a5e7614fc7efc3b515a1c46fa872a5b11f388912ff7e8a19327c8
+Name: NiceBarX(iOS13)
+Author: niceios
+Sponsor: 搬运工
+Section: 插件
+
 Package: com.niceios.nicebarx14
 Architecture: iphoneos-arm
 Version: 1.0.2.9-3
