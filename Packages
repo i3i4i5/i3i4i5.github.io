@@ -2527,6 +2527,24 @@ Author: SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.doodle
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Depends: preferenceloader
+Filename: debs/byg.iosios.net.doodle_1.2_iphoneos-arm64.deb
+Size: 3635318
+MD5sum: 8eda44be2d726077a04a44c75f5c9155
+SHA1: ebf745399fed3d14c2ca34ecf145a1b3a79b30d0
+SHA256: 3a7db02e9ae5db0cbf4cd5a0120c2caaf6c7c3d5fc9bd7db402eacf04c670f94
+SHA512: ac746f0b9842f158fa90c797daa55048b1a6a521959040bab3563c5b780900bd19b12b4a1619f5a3e95b600ee98c76b7c3fac127960dc3e7e19a5c6666d4eefa
+Section: 插件
+Description: 使用图案解锁你的iPhone，看起来非常酷炫，但是有没有用只有你自己试试才知道咯！喜欢的小伙伴们可以下载体验啦！
+Name: Doodle图案解锁-Rootless
+Author: Ethan Whited
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.doutu.rootless
 Architecture: iphoneos-arm64
 Version: 3.1-7
@@ -3119,6 +3137,25 @@ Section: 插件
 Description: 小伙们期待的图标随意摆的插件终于来了，不少小伙们一直问机车主无根有没有这个插件，今天它来了。原价1.49美元，有能力的请购买正版支持作者！插件安装注销即可生效，暂时无设置项！支持主屏幕、dock和文件夹中的自定义布局、支持任何大小的图标或小部件！搬运工源，真的用心在做免费！
 Name: Griddy图标随意摆
 Author: mikifp
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.growvip
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.growvip_1.0.0_iphoneos-arm64.deb
+Size: 23296
+MD5sum: 839132875568045b7a959c98e7127f3e
+SHA1: 500653e99d0a6bc304b8c1b8703fd671af04152d
+SHA256: 8afad41879e17c095f977d916080b2e6718740ea6eeb3b30d75f5af6a2114951
+SHA512: d68dc46c0753d3b5126e2ed1909e1ecf552135393580b034e31b46b951b2e1338d0c8d99c62e06ddbad248c423213bab253f406e7f1fae3637222c7558c5c0ec
+Section: 插件
+Description: Grow是App Store里的一款苹果手表的软件，专为手表用户量身定做，看起来还不错，有用到此款软件的用户可以试试本插件解锁会员，非常感谢插件作者，大爱无疆！
+Name: Grow会员解锁-Rootless
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4567,6 +4604,25 @@ Section: 插件
 Description: 禁止在设置页面显示维修记录，例如更换电池的提醒、屏幕等；更换第三方电池后，开启显示正常电池健康值；屏蔽关于本机显示未知部件记录；屏蔽设置显示“红1”以及电池更新提醒信息；屏蔽设置系统 OTA 升级显示“红1”提醒信息；本插件免费使用，安装即可生效，无设置；本插件在 16.5 多巴胺越狱环境下测试通过，其他系统自行测试。搬运工源，永久免费！搬你所想！
 Name: 屏蔽设置重要提醒
 Author: xybp888
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.primalfolder2
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Maintainer: 搬运工
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.ichitaso.primalfolder, me.qusic.taptapfolder, com.lizynz.folder6plus, info.rpdev.betterfourbyyfourfolders, com.ichitaso.primalfolder2
+Filename: debs/byg.iosios.net.primalfolder2_0.1.2_iphoneos-arm64.deb
+Size: 85558
+MD5sum: 44242e2cd45476ac812741437c60dab9
+SHA1: 9af5398408a8bf79af9f0efdc3b063aff5509b76
+SHA256: 15d4bba1b0294f515fd576907453e03c8317d17991d6e5416cdb9a8aa56c3dc4
+SHA512: 1c8e3c056e0217a39b0d2539fd55a8a2e848468370de4257e3f6096be41832ca732bd478c7abf5c4c87d00e585747166ad3cfccca5a73aa44599859177adb91a
+Section: 插件
+Description: 显示为文件夹图标为第一个APP图标，双击启动文件夹，这样方便隐藏黄色APP？不错不错！
+Name: PrimalFolder2文件夹图标-Rootless
+Author: ichitaso
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -9062,6 +9118,43 @@ Description: 作者为人低调，这是他自用 (我也用)，首页视频界�
 Name: 抖音图层调整-rootful
 Author: x✨
 SileoDepiction: https://laileld.github.io/repo/sileodepiction/com.xx.dyhook/dyhook-rootless.json
+
+Package: com.xybp888.callassist15.fugu15
+Architecture: iphoneos-arm64
+Version: 2.2.3
+Maintainer: 搬运工
+Depends: firmware (>= 15.0), preferenceloader,com.opa334.libsandy
+Filename: debs/com.xybp888.callassist15.fugu15_2.2.3_iphoneos-arm64.deb
+Size: 2573028
+MD5sum: 2f7cd818410349d45f738c01e4013635
+SHA1: 14461ddc22cd68e1aee3b9e868bbbd5bacd24104
+SHA256: 6c65a16c82af83ad81242e0281838ef2caccf5288b3019cd6852e8457d5f4b91
+SHA512: 6ec2dd0d46a59605ac335dc374702b5663fdb90e1512fd29a325c4c0a88ae9b2861b60a89e0973d1dbf576f2235b97bf5cb214c31ed998a58bb753b79394d2c5
+Section: 插件
+Description: 电话助手需要20块购买激活,T9双卡选卡拨号键盘,短信双卡选卡,通话录音,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS15-Rootless
+Author: xybp888
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.xybp888.magiciannojailbreak.fugu15
+Architecture: iphoneos-arm64
+Version: 0.0.1-4257
+Maintainer: 搬运工
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xybp888.magiciannojailbreak.fugu15_0.0.1-4257_iphoneos-arm64.deb
+Size: 67728
+MD5sum: 3fa7d517d762e7b4510fc2412d34e7f9
+SHA1: e4f1ee7dba7a9e3ce93a0d3626e63183e6c5cb09
+SHA256: 798a83288b0352f5294565962e9f4517d4269d6fdbecc0a069c90088ed5aa7dd
+SHA512: 170c745e35efc2aba4d4b54b40bac191f868a737be91a0194298b4ad26474fcb5ae45b0761fe03d2bdf035775cee8db95445b3ed312de0833891bf9880d5af68
+Section: 插件
+Description: 本插件仅供学习测试之用,请于24小时内卸载,一切法律责任与本插件和作者无关！本插件的作用是屏蔽插件注入软件，从而避免越狱检测，但是需要付费购买了电话助手才能免费使用！和choicy的效果差不多吧，因人而异！
+Name: 魔术师(iOS15)
+Author: xybp888
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.yan.anitime
 Architecture: iphoneos-arm64
