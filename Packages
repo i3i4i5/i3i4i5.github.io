@@ -2526,6 +2526,26 @@ Author: Your Name
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.badgebar
+Architecture: iphoneos-arm
+Version: 1.3.7
+Maintainer: 搬运工
+Installed-Size: 448
+Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), ws.hbang.alderis (>= 1.1)
+Conflicts: me.conorthedev.pastel, me.conorthedev.dotto+
+Filename: debs/byg.iosios.net.badgebar_1.3.7_iphoneos-arm.deb
+Size: 172102
+MD5sum: faf90209c870363cad6561b5f2656f80
+SHA1: ea53f9751bfb043f45c32e286d2ba0cf168a3e4b
+SHA256: 8cbe582e17efb86e8fd8225c1ea4e201621088e9b464cd2edf48f2978c835d1e
+SHA512: 3bf965cc2909dc789b9cba10f93eb58d4711da78a72a212a9dd6b1e9b2b56ee71726cf35332d1320bd3a1bce7a2e35ed23f979e5666cf0859f6a0b8c7bd2c660
+Section: 插件
+Description: Replace the stock ugly Badges with a BadgeBar.彩色横条
+Name: BadgeBar彩色横条
+Author: JannikCrack
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.badgebreathing
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -5484,6 +5504,24 @@ Section: 插件
 Description: Easy app shortcuts这是一款应用快捷方式的插件，效果如截图所示，又一款鸡肋插件，虽然没啥用的插件，但是搬运工源不能没有，不然小编要扣工资的！
 Name: Hydra快捷方式-Rootless
 Author: MTAC
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.iapstorefugu-rootless
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.iapstorefugu-rootless_0.0.2_iphoneos-arm64.deb
+Size: 66082
+MD5sum: f5871a0876444b3d534fc498478b7a09
+SHA1: a4904abd74e3c9b79e82d29fbff368365108de64
+SHA256: 6b3fd8fc9533bb616abb8db87cb4db5557b11cdc68f3431515cdc3105b28f021
+SHA512: f0ce71a33bafc45da066dbf885f461b637b58fbc5a95047c44e0f3674ab590d0ce9f400d931a643124623a434b53a418615240a887a7984b9a286cc3d5336b5c
+Section: 插件
+Description: App Store需要付费的软件可以先试试此内购插件，弹窗付款点取消即可，如果不行，那就是破解不了！放弃吧！
+Name: 内购神器IAPStore-Rootless
+Author: lly
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8804,6 +8842,25 @@ Author: SoCuul
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.searchdots
+Architecture: iphoneos-arm64
+Version: 1.1.4
+Maintainer: 搬运工
+Installed-Size: 506
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/byg.iosios.net.searchdots_1.1.4_iphoneos-arm64.deb
+Size: 127250
+MD5sum: 3c9618c0cbc19257eead89975eab3b9a
+SHA1: 7df2d931f97acab2529dd75bb617fee9e1f132df
+SHA256: 17fe4781144de048bde756ec47299205be032f51f0fcaa3adb4f83bfa6acc1f9
+SHA512: df029009764cb217c82ba47bf3a7ad0e35fa30ea4093ef18a045910860970dded335a2ca60bb368efd11a14b6301edd993218c3e532d2147d0c635c368eeeec2
+Section: 插件
+Description: Search Pill Ported from iOS 16 体验iOS16的搜索小圆点功能，貌似还不错哦，感谢巨魔商店M哥汉化，搬运工源提供下载安装！
+Name: SearchDots搜索小圆点-Rootless
+Author: Nightwind
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.sentinel
 Architecture: iphoneos-arm64
 Version: 1.3.2
@@ -9013,6 +9070,27 @@ Author: dvntm & SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.shuffle
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Maintainer: 搬运工
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: debs/byg.iosios.net.shuffle_1.6.2_iphoneos-arm64.deb
+Size: 360476
+MD5sum: 9602ef3c85c31bad31d6e23cd041daaf
+SHA1: ef3e85250946e5494f370db69ef87fc06260f211
+SHA256: e73ae81e61470f03c1cca1a0c60b05183facadec76c02c054665de59d6f23298
+SHA512: 09c94b0d779efcb4c25b7c6476ac03d7f767489bbeed5b2e576fe1355a5e5dc8b88a85b0124a637288b52ed30ee60cc33bbd9f6a8e555110b134665a8bf695a8
+Section: 插件
+Description: Organize your settings插件归类，功能与Settingrevamp类似，大家不要两个一起装，有冲突。感觉这个不太好用，应群友要求上架备份！
+Name: Shuffle插件归类-Rootless
+Author: CreatureSurvive
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.shuiyinxj.rootless
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -9204,6 +9282,24 @@ Section: 插件
 Description: An awesome MobileSubstrate tweak!省电插件，现破解使用，各项省电优化，锁屏低电量，WiFi功耗等等，喜欢省电的小伙伴们有福气啦，搬运工源搬你所想！
 Name: SmartBattery省电插件-Rootless
 Author: EliasSfeir
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.smartlight
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: 搬运工
+Installed-Size: 168
+Filename: debs/byg.iosios.net.smartlight_1.0.5_iphoneos-arm64.deb
+Size: 8960
+MD5sum: 745daad18ae31d0c7b9db52957a1d6b3
+SHA1: d0351d1608d0cacca0e769991a04c4742f982cad
+SHA256: 399723e75c024ed0a94628938c44fa29e15bd9068ff3b2a7b5f1ebaf18c5583d
+SHA512: 52988d4fc71f459cdb1462d35eaa1d91cfe7fe7e61462d445710f8c05219b39e1c9484f2df5deba0479103bbe6e997016e9a0bae1c4a6b65679bcb192fb2c31b
+Section: 插件
+Description: 关屏的状态下，电源键加音量下键可以开启闪光灯，然后，音量+可以控制闪光灯的灯亮程度，关掉闪光灯，同样还是音量-和电源键一起按。感谢来了老弟修复支持，并提供如此优秀的插件！
+Name: SmartLight快捷手电-Rootless
+Author: smokin1337
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -13594,6 +13690,26 @@ Name: libnotifications
 Author: CokePokes <cokepokes@gmail.com>
 dev: cokepokes
 
+Package: com.creaturecoding.libcspreferences
+Architecture: iphoneos-arm64
+Version: 1.5.7
+Maintainer: 搬运工
+Installed-Size: 2332
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: debs/com.creaturecoding.libcspreferences_1.5.7_iphoneos-arm64.deb
+Size: 333140
+MD5sum: 4bc314f4fc2c7164142ea4d6ae1d57e3
+SHA1: 3c69a7a8253e9279ee9c0e91d1a302ea6ed6a7a1
+SHA256: 2265b254dff0fa6a60b3a5f08f036247150006de4f8bca7a301a2380d42e7759
+SHA512: b1ae1cb716cbee3741d06a6a2972d84ec7975cf381a62b16248f0b5d503a19026e151d3bf4bf0983414ec49a548ca18cb0028d112103680f295fbf6b5ceb89fe
+Section: 插件
+Description: A Preference Library that doesn't suck!插件依赖-shullf
+Tag: compatible_min::iOS9
+Name: libCSPreferences
+Author: CreatureSurvive
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.creaturesurvive.libcscolorpicker
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -14741,6 +14857,24 @@ Section: 插件
 Description: Xinamine bundle. Includes linker, patcher, 'chex' link checker, 'chix' link fixer, plus other supporting filza scripts.插件依赖包！
 Name: Xinam1ne All-in-One插件依赖包
 Author: Paisseon, Sudo, NoW4U2Kid
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: xyz.itznebbs.libnebbs
+Architecture: iphoneos-arm
+Version: 1.6
+Maintainer: ItzNebbs
+Installed-Size: 272
+Filename: debs/xyz.itznebbs.libnebbs_1.6_iphoneos-arm.deb
+Size: 57728
+MD5sum: 0f5331b5c32895fc4ea35308b56043e2
+SHA1: 4633e82dd0a6de40c10530ab00409b02de992a59
+SHA256: ee6a3b60e3a146ead1cae8553077022e29471e28abf343bf2d87f19b48b945ec
+SHA512: 42549a51b5b4df6334d20baaeeabcabe93d2d8a041dd9346fcd2fb63cb16ba90cc09001397402294f762248f38f262a7ecce92c7969c8678104ed7e064a179e2
+Section: 插件
+Description: A library of things commonly used in my tweaks.
+Name: libnebbs
+Author: ItzNebbs
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
