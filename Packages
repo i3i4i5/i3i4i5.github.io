@@ -2032,6 +2032,25 @@ Author: MTAC • ETHN
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.bubbleapps
+Architecture: iphoneos-arm64
+Version: 3.0.0
+Maintainer: 搬运工
+Installed-Size: 808
+Depends: com.opa334.altlist
+Filename: debs/byg.iosios.net.bubbleapps_3.0.0_iphoneos-arm64.deb
+Size: 319528
+MD5sum: b945aba5f6723fe9c34f5f8f1cfc6330
+SHA1: 97f398173769a4b7670e2d6a84c9362b9581ef53
+SHA256: f7843675b9ea08b6491ef913d166f8e3ec263dab4fbe90e826a6370073ddff8d
+SHA512: f3b09f85b0f7887709a000be4e7352fe1aa58828aca33d42cf5c8b43374e61579445e876899e7efdc12d4d74024abe3eafa0519bac59f6fd79a61201ab0bbe83
+Section: 插件
+Description: 仅仅在iOS15.4.1上测试可行，iOS 16不行就卸载等更新，其他源转载请备注出处！谢谢！Bubble Apps 是一种新的自由方式，可让您的应用程序在 iPhone 上的任何位置都随处可见。创建这些气泡后，您可以将它们拖动到屏幕上的任何位置，然后选择哪些屏幕将包含这些气泡。它是精心制作的，考虑到了很多用户驱动的体验和温柔的爱的触感。搬运工源已汉化，效果看截图介绍！
+Name: Bubble Apps气泡环绕-Rootless
+Author: 0xkuj
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bypassccbank
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -2754,6 +2773,25 @@ Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.dynamic-notifier
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: 搬运工
+Installed-Size: 812
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/byg.iosios.net.dynamic-notifier_1.0.5_iphoneos-arm64.deb
+Size: 214334
+MD5sum: 944af08355f8f42d401f744922b5f471
+SHA1: 101f867fe2e3a929873a471b0ce96be0f1138617
+SHA256: 48cde4865225092a12030a5d46c83fab618cbe3f5fa8b5aaafd9b0261fb3b6c5
+SHA512: ab0509866458fc72da268ed009002169f71d0b2cc2340cfee6b40ce9516b6eaf3512815bf459baf8da98cef44731b2d4969b4934e8b70afc5c4d6edf41db30b4
+Section: 插件
+Description: 上岛，不必太复杂。仅仅支持iOS16+。由split分屏作者sunshinesong大神研发通知上岛插件，非常的酷炫吊炸天！本人无iOS 16设备无法测试效果，大家自行测试！如果造成安全模式，尝试排查插件冲突，不行就卸载！安全第一，预防为主，综合治理！无效请尝试关闭开关注销，打开开关注销，多试几次，且需要Altlist依赖！
+Name: Dynamic-Notifier通知上岛-Rootless
+Author: sunshinesong
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.dynamicislandring
 Architecture: iphoneos-arm64
 Version: 1.1.0
@@ -3140,6 +3178,25 @@ Author: Soh Satoh,SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.gaodehook
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: 搬运工
+Installed-Size: 900
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.gaodehook_1.0.4_iphoneos-arm64.deb
+Size: 424046
+MD5sum: 186d115e28e3c6d4877f7c33907033b9
+SHA1: 19f747476c70d30961034fa24b71de878a5601f4
+SHA256: 5ba295661181c554ea2e9709910f9af79a50ed4ee47e290c803c5fa828f482f5
+SHA512: 4da9c45420d8f437c293adbf98a065c48a8678101ef6bfb9a29810dbbf3d5ab58b9274751a4fbe2dde6bbd825f4f29e42fcbead63b1243c143f792771fe65ec4
+Section: 插件
+Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭。
+Name: 高德地图优化-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.gaodemap.rootless
 Architecture: iphoneos-arm64
 Version: 0.9.21
@@ -3214,6 +3271,25 @@ Section: 插件
 Description: 应群友要求上架！本款插件拥有更好的的 WiFi 配置，可查看连接的 WiFi 信道、加密方式、信号值，去除 RSSI 限制，显示 MAC 地址等，简体中文版，新年快乐！iOS15的用户也可以用这个版本了，卸载之前的iOS15版本插件！
 Name: GoodWiFi中文版
 Author: julioverne & 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.gravitation
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Maintainer: 搬运工
+Installed-Size: 424
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.gravitation_0.1.1_iphoneos-arm64.deb
+Size: 90814
+MD5sum: 849243e06d62524378bd6ef1d12c42ea
+SHA1: 47b6aed8e645fc7fa2cce21f8a775a9ec4cdac27
+SHA256: 8c1782927d75458d2baf67b2080e25b5dccf734064ab6cf8a922c887c2e365b1
+SHA512: 6a3a61cc781a25fa91f893561c1781ef87f93d0791ee6f098ae599707852b6c6430044bdde1d54d94042564386facd7b58af699a763266ad870ba0d73013252e
+Section: 插件
+Description: Shake your phone to unhinge your icons!图标重力感应插件，摇一摇图标掉下来，再摇一摇恢复！非常的狂拽酷帅吊炸天，修复支持多巴胺越狱，已中文汉化！感谢搬运工源管理GODW分享！喜欢的小伙们赶快下载体验吧！
+Name: Gravitation图标重力感应-Rootless
+Author: Kritanta
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3345,6 +3421,25 @@ Section: 插件
 Description: 进入系统设置-声音与触感-打开系统触感反馈，然后应该随便点哪里都会有震动了，效果自测，无效就卸载，无需反馈！搬运工源，万古长青！
 Name: 全局触摸震动
 Author: developlab
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.hudapp.jb
+Architecture: iphoneos-arm64
+Version: 1.12.0
+Maintainer: 搬运工
+Installed-Size: 428
+Depends: firmware (>= 14.0)
+Filename: debs/byg.iosios.net.hudapp.jb_1.12.0_iphoneos-arm64.deb
+Size: 159986
+MD5sum: d2db4ca02d3e4d530cd10e9a68674d98
+SHA1: 8bd8757f0ba9264b5b7428eecc775011880e38a5
+SHA256: 6284b838f1b9c9081f4fe563d35503f08c599071f36cf8d759fd55fcf0438df9
+SHA512: bf968858edd1ae5f7ba04017b5f02ba5c19e937bcae6a304dc6b50cdaa70fe8ff418e7b2dff35b35bb3861ba788b9bf6796d6d688b612db8f2ddc618524ae91c
+Section: 插件
+Description: Troll your speed, but jailbroken.一款网速显示插件，功能不是很多，但是够用！由国内大神开发，非常的不错，没有购买电话助手或者nicebar插件的小伙们可以用这个啦！
+Name: TrollSpeed网速显示-Rootless
+Author: 82flex
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3952,6 +4047,24 @@ Section: 插件
 Description: 又一款软件应用锁插件，长按APP开启，源里还有另一款，按各自喜好来！插件功能是为应用程序添加 Touch ID 锁定验证，就像 iOS 18 中的安全功能一样！
 Name: LockTouchX软件应用锁-Rootless
 Author: MrDeNsor
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.lstimeseconds16
+Architecture: iphoneos-arm64
+Version: 0.3
+Maintainer: 搬运工
+Installed-Size: 432
+Filename: debs/byg.iosios.net.lstimeseconds16_0.3_iphoneos-arm64.deb
+Size: 57566
+MD5sum: 0bb59d4a676bd6a3e0dea62e378d72d2
+SHA1: d3e31ffa1cd79294c7d82aac76579a7a2c6f2008
+SHA256: a26af53f35371685d8f53a5f2dc9fb7f3f21bb5722cf0996fb686ac7981da064
+SHA512: 3cdab5db054df17650793fd948ee6d981dcab49ccae07e5abbc6d7e3518ab2819d71a3dfd8f058dcaddf7fb4e3e7d41d3bac65d6d6b8150d1a1e4f8aab482367
+Section: 插件
+Description: Adds seconds to lockscreen time.这是一款让锁屏时间显示秒数的插件，还不错，效果看截图介绍，搬运工源已汉化！
+Name: LSTimeSeconds时间显秒-Rootless
+Author: b4db1r3
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4927,6 +5040,25 @@ Section: 插件
 Description: Display Notification Avatars for QQ App using iOS15 APIs为QQ来消息通知显示头像信息！可以说是非常的骚气，效果看截图，配合灵动岛岂不是上天！
 Name: QQ头像-Rootless
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.qsyy
+Architecture: iphoneos-arm64
+Version: 2.2.2-5
+Maintainer: 搬运工
+Installed-Size: 5712
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: debs/byg.iosios.net.qsyy_2.2.2-5_iphoneos-arm64.deb
+Size: 2603176
+MD5sum: 0ea8c2080e4041cb2ae1431c6e5b61bc
+SHA1: 5f4df94b50dc20150cde53781fbf667c64910945
+SHA256: 7d2b2f7da554be64030424a8fb8d0446e9edd88b79ab3b32b0c8640fd3c7e8ff
+SHA512: 743a350c5711067280dbd590552b7adfc9b5fc18eca963aa694a8f91070c38b14766fb6ff127fe4a1a51ffdd8d87682f1feda6531a4534046455dd023cfda415
+Section: 插件
+Description: 高级功能需要付费激活，二十多块钱。这一款翻译英文插件的插件，老弟出品，必属精品！使用方法：长按设置中任意'插件标题'弹出设置，功能：翻译插件语言，实时生效，用于汉化或者别的语言翻译，配合截图识字，发AI翻译效率更高，翻译普通插件几分钟，大型插件也用不了多久,节省汉化插件包，可多个融为一体！还有修改通话时间，通话记录，修改联系人，隐藏设备实际信息，靓仔装逼，导入输入法词库、去广告等功能，自己慢慢挖掘！
+Name: 悬浮工具箱-Rootless
+Author: 来了老弟
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6052,6 +6184,26 @@ Author: PoomSmart
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.trollpad
+Architecture: iphoneos-arm64
+Version: 1.3
+Maintainer: 搬运工
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Conflicts: com.dao.trollpad.cn
+Filename: debs/byg.iosios.net.trollpad_1.3_iphoneos-arm64.deb
+Size: 47116
+MD5sum: 5b0dfbf816e8cb60aeea09b992484c78
+SHA1: 9ebbbaf2ab34486c14e3317403866a94bf2ceeaa
+SHA256: f2e0df225f223afb08d6794e2ee5ca33dfa059bb20ee3abf472f447d38d0715f
+SHA512: ab89220c38b8f23f81892e189184e2fabe640ed78b5d4fd71a56b6b832daca9739dfe25caa1341194fb91050825d8b09dc6eee1dc7d35dd4c5b2c0109f9ffe9d
+Section: 插件
+Description: Troll SpringBoard into thinking it's running on iPadOS.仿iPad后台样式，iPad的dock栏，也可以分屏，插件已汉化，安装注销生效！拖动后台分屏！
+Name: TrollPad后台分屏-Rootless
+Author: khanhduytran0
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.trollstore.looky
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -6837,6 +6989,25 @@ Author: Michael
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wxx
+Architecture: iphoneos-arm64
+Version: 1.0.6-1
+Maintainer: 搬运工
+Installed-Size: 236
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.wxx_1.0.6-1_iphoneos-arm64.deb
+Size: 46444
+MD5sum: 48e541a9404d678eef0aa8252c8116e6
+SHA1: a5ccacd21c5df5a5f5acd071beebfee5f8cd1186
+SHA256: f2bcc0dbbeda4e8a0357652c243bf86d1881b284b87408df7131108ba5c3c2f9
+SHA512: f92bfd4ff082a0d1c42a6854333f36ab22240a17a9f4b249aea601f30257d59c81ff4838451fd1f96a9e8ee2aef63499fd38f130496d40333abe72c703da7398
+Section: 插件
+Description: 自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告，屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数等功能。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***如果安装之后微信闪退或者功能不可用的请降级微信到8.0.31版本，如果还是闪退，那就缷载吧！
+Name: 微信小布丁-Rootless
+Author: 来了老弟 X：h_h_x_t
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.xhshook.rootful
 Architecture: iphoneos-arm
 Version: 1.1.3
@@ -6930,6 +7101,25 @@ Description: 阳光惠生活是光大银行信用卡唯一官方APP，本插件�
 Name: 阳光惠生活-Rootless
 Author: Huayuarc
 Sponsor: 一口青推送源 <http://apt.ios8.cn/>
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.youquan.rootless
+Architecture: iphoneos-arm64
+Version: 3.0-9
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 5.0)
+Filename: debs/byg.iosios.net.youquan.rootless_3.0-9_iphoneos-arm64.deb
+Size: 79730
+MD5sum: 8e75ab9bd8f9e3baf4a8294e8b4b1748
+SHA1: 159e22d9066c7b00b1fa6302b2be3c7f082b8b6f
+SHA256: e8bf7f894e579a61deee71c4d7e67c19ec3d775520e5d6b0d2d7e0c9c620c7e9
+SHA512: b59afc533f2a114086b513b59d260da8d92cfd0a96e24d4ff0ffae1340f9bfb93d858726cb056ddfef21aa14863c8e85e5b45e0e3ed423d33790f28a8d203395
+Section: 插件
+Description: 查淘宝优惠券，查商品历史价！插件无设置项安装即生效，商品详情页面会显示历史价就是插件生效了，并不是所有的商品都能领到优惠券，优惠券信息来源于淘宝联盟。
+Name: 淘宝优惠券-Rootless
+Author: Mao
+Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: byg.iosios.net.ysbrowserhook
@@ -9330,6 +9520,28 @@ Section: 插件
 Description: 大家期待已久的QQ头像旋转插件来啦，本插件由搬运工源群友思念所作，功能如下：QQ头像瞎季伯转，仅在9.1.25版本上测试。转起来，嗨起来，花里胡哨！
 Name: QQ头像旋转-Rootless
 Author: SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.spark.snowboard
+Architecture: iphoneos-arm64
+Version: 1.5.36-Beta4-rootless
+Maintainer: 搬运工
+Installed-Size: 3268
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: debs/com.spark.snowboard_1.5.36-Beta4-rootless_iphoneos-arm64.deb
+Size: 1425918
+MD5sum: da4861f121663a95981ee0a9fb2b6641
+SHA1: b1b748bac3bcbe5e3b18dc311f00f3bd63b54eba
+SHA256: 88863e447208ed401f4eddc512ba7ae80f08a9bab3715f6cc5b701a1498d8469
+SHA512: a9356714795a238b43f6e7b43669ccdc81aff9120f3eae6ab0b3a61a9bc99a387882a9413c5d925ce83222e7ebba0c863ce169200c10697925955ea6ab4c9b88
+Section: 插件
+Description: 降低一个版本号以证明我不劫持，但插件已同步更新为最新版！Snowboard theming engine优秀的iOS主题平台，可以换iOS主题，主题可以添加主题源zhuti.iosios.net直接进行更换，非常的简单！主题源和搬运工源一样，永久免费！
+Name: SnowBoard滑雪板主题平台-Rootless
+Author: Spark & Dennis D. Bednarz
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
