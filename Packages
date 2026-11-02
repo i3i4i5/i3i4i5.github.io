@@ -1047,6 +1047,25 @@ Author: AFN Team
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.airaw
+Architecture: iphoneos-arm64
+Version: 1.6.7
+Maintainer: 搬运工
+Installed-Size: 13502
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
+Filename: debs/byg.iosios.net.airaw_1.6.7_iphoneos-arm64.deb
+Size: 11215446
+MD5sum: 4f67ee77e7d45dfec6b8de7f56898bbd
+SHA1: 2af82460bc5a5bfe342bd8ac369ece14e147f9e0
+SHA256: be216c60be258292ad3699618d9aa8ec48cb527fa6b41f3eefd5b27788a45460
+SHA512: 43431261a212aaafe5e3eb1df8e7e8f7f690641800510a842e5443be24470d5267b1693e59605f9714c80cfb9d5de25c8ad264f477a238632fd8f67b912abf5a
+Section: 插件
+Description: An awesome CarPlay tweak.一款Carplay拓展插件，可以改壁纸，让不是全屏显示的软件变成全屏，配合carbrige插件使用，改图标个数比例，有汽车的人会用的到，原价4美元，现在搬运工源免费使用！我没车，无法测试插件是否有效，小组件好像不行！大家可以下载体验一下这个功能菜单，有经济能力的购买正版，支持作者！搬运工源，你最好的家，越狱好帮手！感谢搬运工源群友小伙子分享此插件！爱你爱你爱你！
+Name: Airaw（CarPlay）拓展
+Author: Dcsyhi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.amber
 Architecture: iphoneos-arm64
 Version: 1.2.4
