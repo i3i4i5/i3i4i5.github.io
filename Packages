@@ -1766,6 +1766,25 @@ Author: 机车主&来了老弟&iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.aemuloqs.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.aemuloqs.rootless_0.0.1_iphoneos-arm64.deb
+Size: 6382
+MD5sum: 4d1db98a4b5011d5f8ba19b51a9737e7
+SHA1: 64878db66ff065f9a627b2eade00db1fad5dc045
+SHA256: 5257b3850e35e0f6d6792df5be59923014e34cadcb05847265d20279669923e1
+SHA512: ca143e58b81b974e881aa29a4072f74ab8b1aa2bc858086b4cca4b40a5bd17a0d8a8309adc74c9f91f0b2e4926b1ba62874bc4e69ed494411fe85b3aaf142d93
+Section: 插件
+Description: 如果你是免费款的aemulo（NFC）插件，推荐你使用本插件配合使用！本插件的功能：锁屏界面解锁后双击手电筒或相机按钮,桌面双击或上滑分页小圆点!
+Name: Aemulo（NFC）快速启动 - Rootless
+Author: zqbb
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.aemulotrial
 Architecture: iphoneos-arm64
 Version: 1.2.5
@@ -2127,6 +2146,25 @@ Section: 插件
 Description: Run specific apps always in Dark/Light Mode始终在暗/亮模式下运行特定应用程序。
 Name: AlwaysDark强制深浅-Rootless
 Author: KingPuffdaddi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.alwaysforwardwatchosnotifications
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.alwaysforwardwatchosnotifications_1.2_iphoneos-arm64.deb
+Size: 8166
+MD5sum: dacc3ac29f16acffafe2c94a3805ee1b
+SHA1: 981dd8c781d41a9224b74f796889a940ac1ea934
+SHA256: 82efac207fb2f1d8d5ae575ae1e04d2e360e4a977a19bce384603305bebd761e
+SHA512: e31336b5bc36594ed4b95e8864119aebdd76eda9c3195dd4ea2f00dc34f0bece0ae1ccbf86811049e6a7c6f1fbba8b36ca39ef09bac93a5e6c2afc59af54b055
+Section: 插件
+Description: Forward WatchOS notifications even when unlocked来消息了，手表和手机同时显示！•即使iPhone解锁，也可以发送通知观看•当iPhone锁定时，将通知与手表一起发送到iPhone（WinterMode调整）
+Name: WatchOS Notifications手表消息-Rootless
+Author: Mohammad Abu-Garbeyyeh, p2kdev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2599,6 +2637,25 @@ Section: 插件
 Description: A proper homescreen layout editor for iOS 13-16自定义桌面图标布局，可以修改5x5布局，移除APP名称显示！美化桌面，非常的好看！本版是由原作者修复更新支持多巴胺，搬运工源水友SINI已更新汉化！感谢分享！搬运工源已修复安装此版本会自动删除你设备上已安装的旧版本！桌面点三下，快速进入插件设置！非常的好用，效果看截图！推荐使用本版本，源里的2.2版本其实是老版本，国人更新的，很久的版本了！
 Name: Atria桌面图标自定义
 Author: ren7995
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.audiomix
+Architecture: iphoneos-arm64
+Version: 0.0.10
+Maintainer: 搬运工
+Installed-Size: 15488
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
+Filename: debs/byg.iosios.net.audiomix_0.0.10_iphoneos-arm64.deb
+Size: 43376
+MD5sum: 619dddf4373043c436560871cb33f3da
+SHA1: 5debba3160786169b09001cabc901b2d96d0f71d
+SHA256: 3b17676f8811380ca58a41633c79ba79dacc12b096fb5867ec5f43b3452aee57
+SHA512: 91b496190561ab652f87c4d997fca7fb78bfdf0169ea897e71280d140ddf59fca77611c17ca34ea39ba2c7110ac97258be36051e033154d30e89bd50fc1ff228
+Section: 插件
+Description: Tweak to play two or more audio sources simultaneously. Doesn't work well with all apps! Sometimes the first audio still gets paused, so you will have to start it again.调整以同时播放两个或多个音频源。不适用于所有应用程序！有时第一个音频仍然会暂停，所以你必须重新启动它。源主测试，不是什么软件都有用，不用反馈！
+Name: AudioMix同时播放-Rootless
+Author: KingPuffdaddi
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3782,6 +3839,24 @@ Section: 插件
 Description: Beautiful animated notifications. Crack by CBZ!体验一系列引人入胜的动画，增强您的通知体验！根据自己的喜好自定义 这些动画：选择使用应用程序图标的主色或选择适合您的心情和风格的自定义颜色。锁定和接收通知时保持设备屏幕变暗，以尽量减少干扰。动画播放完毕后，屏幕将亮起，本插件暂未汉化，请对照截图设置，反正没几个开关，很简单。如果闪退或者无法设置，就是破解失败了，请耐心等待更新！闪退不影响设置效果！修改的1.0.1版本，大部分用户不闪退了！
 Name: Bloom通知动画-Rootless
 Author: yan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.bluefinder
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.11), firmware (>= 11.0)
+Filename: debs/byg.iosios.net.bluefinder_1.1.3_iphoneos-arm64.deb
+Size: 250022
+MD5sum: 090861e80590b8f16c610fb115962aad
+SHA1: 3e3c8a6cb521e4179619a18e22492a434b7e711c
+SHA256: 84aa81ebe448c5db10ec1d6f359eef5940349230b1c2a49322c0f57629bdc0d0
+SHA512: 42bb16763fb199560edad0e9e67627cb4479ada50e36c06577ca005c3e39d90de83a5f78d123e956d2c26589c3aa5dac535b1a30476c1e3fb372e9d3ac057fec
+Section: 插件
+Description: Find your iPhone using your Bluetooth devices!使用蓝牙设备查找iPhone。再也不要搜索你的iPhone了！你丢了手机，你知道它在你的房子里、床上或包里，但你没能找到它？只需连续两次（或多次）打开任何蓝牙设备，您的手机就会开始响起、振动和闪烁！ 它工作的唯一条件是您的手机已启用蓝牙。即使您处于静音模式或“请勿打扰”，它也能工作。它适用于之前与您的手机配对的每一个蓝牙设备（但您也可以仅限于选定的设备，例如，如果您希望它只适用于您的AirPods）。触发警报所需的重复次数是可配置的（最多5次）。 每个警报选项（振铃、振动、闪烁）都可以在设置中禁用。有一个选项可以播放渐强的铃声，这样如果你的手机就在你旁边，它就不会伤害你的耳朵。 当警报触发时，它会在你的iPhone上显示一个停止按钮，这样你就可以取消警报。笔记：•AirPods的连接/断开大约需要5秒。AirPods的过程是：打开机箱，等待5秒，关闭，等待5秒钟，打开，等待5分钟。•最大距离可能约为10m。如果你想尝试使用BlueFinder获得的距离，只需将iPhone放在另一个房间，并启用蓝牙设备即可查看它们是否自
+Name: BlueFinder蓝牙找设备-Rootless
+Author: AnthoPak
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6280,6 +6355,25 @@ Author: Traurige & SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ersatz
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Installed-Size: 504
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.ersatz_1.0.1_iphoneos-arm64.deb
+Size: 75264
+MD5sum: 5bfade5b465cc8356194b879c9dcd8f9
+SHA1: cc7cacead6d35490c95812d428a4eada1021908c
+SHA256: 921cf576a6e5e465cb13c7b0d1e6c36179d0d214c9399df6212def7375f588e1
+SHA512: ffc11cb83281f0bf6a20e4b2f5e22787016486fc22e0aba3a227ab2d917bff5d30013d9127bf5ae31255c7292cd1bb3c70e4c2a86c10009f3fe3d275aa69f3e5
+Section: 插件
+Description: Replace any text, system-wide! 全局替换任意位置的文字。可以用来自己汉化插件，也可以改自己想要显示的文字！
+Name: Ersatz替换文字-Rootless
+Author: Skitty
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.events
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -8494,6 +8588,25 @@ Author: AnthoPak
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.latchkey
+Architecture: iphoneos-arm64
+Version: 2.3.2
+Maintainer: 搬运工
+Installed-Size: 10136
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: debs/byg.iosios.net.latchkey_2.3.2_iphoneos-arm64.deb
+Size: 6333670
+MD5sum: ec8d1fd774e71c44e6d48ab5c04b6599
+SHA1: ff65b4578ddc4f47f46f151621d35da57edb3ee0
+SHA256: 5ee1809ab6569d46a4296d766ed70f488f7c7b31546bad2e6b1677a4d23bbf2c
+SHA512: 15f597a044345eb226a20eb79a2ee37bf62113db89b81268df29ec1dcec67dfe0427616bd1f87183cc8f8401a66abf5608b6ae682a30816f1f57258b10365272
+Section: 插件
+Description: 自定义锁头图标和位置。适配多巴胺，增加汉化。Move and theme the Face-ID lock glyph自行测试iOS16是否可行，反正iOS15正常！
+Name: 锁头自定义 Latchkey-Rootless
+Author: Maxwell Dausch
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.leftpan.rootless
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -9711,6 +9824,24 @@ Author: Elias Limneos
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.no2theft16
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: 搬运工
+Depends: ws.hbang.common
+Filename: debs/byg.iosios.net.no2theft16_1.1.1_iphoneos-arm64.deb
+Size: 1123962
+MD5sum: 4e56c5af4ce47446b7e5f97a5ea6dc04
+SHA1: 1bf4cd7dee0e7f3ddd3689787eeea940887c9756
+SHA256: bab8d517ea8674936ba0e9bbf9d5fda7074bf7f2d715087ca2a2a07e607234cd
+SHA512: 711917c770a54b5d302ba087dc43123dffcc98197ef4ec23ca84e561f4e04892f54015f1ce9a49994c8782aa46ecb89c75efa51112049b23f8022a762764f9f6
+Section: 插件
+Description: The most complete tweak against pranksters, annoying nosy people and thieves这是一款手机保护插件，比如说谁动了你的手机会自动发出报警声音或者自动拍照发到你的邮箱！时刻保护你的手机，感谢来了老弟分享汉化包！
+Name: No2Theft iOS 16手机保护-Rootless
+Author: elias
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.noappthinnings
 Architecture: iphoneos-arm64
 Version: 1.4
@@ -10645,6 +10776,25 @@ Section: 插件
 Description: A better way to multitask! Fix support for iOS16 堪称最好的分屏神器，且是免费的，非常的好用，又好看，真的很不错，感谢退网的NetSkao再次为其更新支持iOS16！冲吧，兄弟们，必装插件！
 Name: PullOver Pro分屏神器-Rootless
 Author: c1d3r
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.pyehook
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.pyehook_1.0.0_iphoneos-arm64.deb
+Size: 5238
+MD5sum: 44fbc5aa3b76a5a060a14e84dc704faa
+SHA1: e1eb5782ca7c885c6e19137b9875e003486474a4
+SHA256: 4256efdc73f8290f8ebdf706448690a37b28a2da65ff537d1b6b30f17a288c5c
+SHA512: 733e6e37699eafb7fc321078a528887985edb5bff36dc714097acca2a28b666016c014577103d9ee1782e36ea26216af0e785c948b914df270da0942ba3a01b6
+Section: 插件
+Description: App Store搜配音鹅，一款文本转语音软件，本插件解锁会员功能，若不行请降级版本！
+Name: 配音鹅破解-Rootless
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -11896,6 +12046,25 @@ Author: dvntm & SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.showtouch-rootless
+Architecture: iphoneos-arm64
+Version: 1.0.4-3
+Maintainer: 搬运工
+Installed-Size: 1368
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.showtouch-rootless_1.0.4-3_iphoneos-arm64.deb
+Size: 499876
+MD5sum: 50e7f721b6037313568a5da712f631e8
+SHA1: 76fa48318ffbb69ecf549bc4380f492e5eb997c2
+SHA256: 12d19b58abd30b001d9a4617fdfbea7021a911f8907616a83e4dccd632e04d23
+SHA512: 78178a1301be7f523ed38196a7c7b35b93a81c63bc20286c30b4085fe1a5fa896cf3e37769edd5f7a605c320b51ff0d12c8717af50f92ca319ea6d91af087ed5
+Section: 插件
+Description: 在录屏的时候显示您触摸屏幕的位置，方便用户知道你干了啥，非常使用的一款插件！
+Name: ShowTouch录屏轨迹-Rootless
+Author: LonestarX
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.showtouch
 Architecture: iphoneos-arm
 Version: 1.0.4-1
@@ -12871,6 +13040,25 @@ Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.sushi
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Installed-Size: 704
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/byg.iosios.net.sushi_1.0.1_iphoneos-arm64.deb
+Size: 184620
+MD5sum: 4dd3bf44a736ad4fbe1527cccbae7537
+SHA1: 542d4a94ddcc1856debfc5a55f287115d4f5f6ee
+SHA256: 3f1dd7bc07daef3a4afc801ce0662aa0e81447943021a3a05a67e3842fd66e92
+SHA512: 781d278239c18b7a4206fa75e7faa821f9427d01f07cf1cfee0706050a044babd159088febedc44f271dce9051c6dadb9a773431ff37371ca98b708688c48511
+Section: 插件
+Description: Now playing banner with integrated media controls!当前播放的歌曲发生变化时｜Sushi 会显示一个自定义横幅｜该横幅可扩展为媒体控制视图｜Sushi 的功能和外观均可在随附的偏好设置页面中进行调整｜搬运工源已汉化此插件！
+Name: Sushi音乐模幅-Rootless
+Author: Skitty
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.susudaynightswitch
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -13294,6 +13482,25 @@ Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.tmts
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 480
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.tmts_1.2_iphoneos-arm64.deb
+Size: 143272
+MD5sum: 8b124e7b988d54ca31b82b48bdf959bf
+SHA1: bb940f6ee8f44ba50db678c066887af184d7d503
+SHA256: 7b270f22fd3b79e8940cf149cac6eb81edfaf4485fedf5ca0758c5640d62714e
+SHA512: fefd8ea6b71792f4da0dabc562101b8fda30b0fee39138cd49508caef86aec64e30455629032f9a3b349a8d82f5f0d3e8206d945362a80c454113db3886d9bfc
+Section: 插件
+Description: 全局透明1.2版本：自定义播放器大小和控制中心大小及位置，自定义SpringBoard全局透明度(包含 锁屏 ，播放器，负一屏，通知，控制中心，多任务后台模块等)----240305:增加锁屏手电相机透明度，增加16.2-16.3.1版本调节播放器透明度，***记得每个填空得有数值。以最新版本为准，之前代码是垃圾***。老弟yyds！
+Name: 全局透明Max-Rootless
+Author: 来了老弟 X：h_h_x_t
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.togglow
 Architecture: iphoneos-arm64
 Version: 1.0.8
@@ -13539,6 +13746,25 @@ Author: 预言小猫
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.twistnturn
+Architecture: iphoneos-arm64
+Version: 1.3
+Maintainer: 搬运工
+Installed-Size: 1016
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Filename: debs/byg.iosios.net.twistnturn_1.3_iphoneos-arm64.deb
+Size: 975732
+MD5sum: a3f26bc2a929f68d83bae3702c0b1413
+SHA1: 22c4fa04e50f272cc7d68bbc1f929aa5c743a7fb
+SHA256: 56b82773e3d5879b90b610601e76c62c935633ea67a04055e59721ca76658c81
+SHA512: 3c00c84e270e24549acfd94e4c36ff0d297d920a01a6ddda784c042ce172d6ce0c5f8a3e7b913ef14e67ef8702211b1192c8dba4168981561bf4b7b83c4b7d7c
+Section: 插件
+Description: 感谢搬运工源群友萝卜购买并分享此插件！Smart Screen Rotation Suggestions智能屏幕旋转建议！ 支持从iOS 12到iOS 16.x的所有越狱设备。这个智能调整将计算许多不同的参数，以确定何时显示浮动按钮来解锁旋转锁定。无论你的旋转锁是锁定还是解锁，智能旋转建议都会出现，一旦它会重新确定你将设备倾斜了某个角度，并建议你解锁或锁定定向锁！这对于那些希望对设备的方向有更多控制并防止设备意外旋转的用户来说很有帮助，同时也可以节省大量时间在短时间内禁用旋转锁定。在您使用此调整禁用旋转锁定后，当您的设备将返回到人像模式时，调整将恢复您的旋转锁定以前的状态-如果它被禁用或启用，它将保持这种状态！要配置的选项：自定义位置：这是一个可拖动的按钮，您拖动浮动按钮到的最后一个位置将被保存可自定义的浮动按钮：控制浮动按钮的颜色、大小和反馈消失间隔：决定建议在屏幕上出现多长时间后才会消失动画：选择是否要在浮动按钮上显示可爱的动画黑名单应用程序：选择哪些应用程序中不会出现这些建议。
+Name: TwistNTurn智能旋转-Rootless
+Author: Maxim Shnirman
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.twitter
 Architecture: iphoneos-arm64
 Version: 1.1-2
@@ -13685,6 +13911,25 @@ Section: 插件
 Description: 给原生键盘和第三方键盘增加复制、粘贴、换行、撤销等按钮，还不错的一款键盘增强插件，搬运工源已汉化，尽情享受搬运工源带来的越狱乐趣吧，搬运工源永久免费！越狱不倒，陪你到老！
 Name: UnderDock键盘增强-Rootless
 Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.upsidedowned.roothide
+Architecture: iphoneos-arm64e
+Version: 1.1-6+debug
+Maintainer: 搬运工
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/byg.iosios.net.upsidedowned.roothide_1.1-6_debug_iphoneos-arm64e.deb
+Size: 7370
+MD5sum: cc7808197ea423a2583f63442cf78838
+SHA1: 2e7a6d3f83a2bec5f350f5b96598c59b1b63153b
+SHA256: 830f56db8442e54f8b6f80d8c1bbd352b4a48f949ed8a72cd865c66389bceb35
+SHA512: 9eeb299fc7a618de5a611e7fdf3da56efcaad71399483020c355572c39c8ad3266e145b6083b0c10c7427c4c48d0cd50c0cb2d3dd762c4a8eb79f992820214ea
+Section: 插件
+Description: 半越狱用这个！转载自艾锋降级。本插件可以实现颠倒显示，也就是说，方向锁定关闭后，设备颠倒过来，内容也会颠倒显示，实现一种无刘海感觉。在锁屏的状态下，也能颠倒显示，这次真正实现顶部无刘海无灵动岛显示，但会显示底部，不过！可以通过一些插件实现透明或者隐藏。使用 upsidedowned 方法：安装 upsidedowned 插件后，它自动生效，打开控制中心，关闭方向锁定，然后打开某App，将设备倒过来显示，即可看到效果。不过！针对一些视频翻转，还是有些BUG的，想解决这个问题，不要点“全屏观看”等字眼，直接翻转横屏就行。
+Name: Upsidedowned颠倒显示-RootHide
+Author: 34306, KhanhDuyTran
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -14906,6 +15151,25 @@ Author: lenglengyu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wxsaw
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.wxsaw_2.0_iphoneos-arm64.deb
+Size: 2658
+MD5sum: e7c6cce2f8491787236e8ba828ca26fd
+SHA1: 4f887efaeef3ff28735a95af2ac1cd31540798a1
+SHA256: fed9a9342bc8e598bc49d4fc5d3a3896fdedc1f6f10f4f3aaadc56c2469e2442
+SHA512: 2c9329c0eefac9ac10657391c6fd9725fe822c8297c6ac6a2e7e300938aa8222b6b8ae94943c564b819d2cd5861700d8a033f63706ad0c89e94c51250a6df0aa
+Section: 插件
+Description: 这是一个专门调整微信底部高度的插件，作用是控制微信底部距离!与搬运工源另一款底部高度调整插件并不冲突，自行体验！
+Name: 微信底部高度调整-Rootless
+Author: zqbb
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.wxsmalltabs
 Architecture: iphoneos-arm64
 Version: 0.0.1-5
@@ -15036,6 +15300,25 @@ Section: 插件
 Description: 最新9.3.75,去后台启动,去启动广告,暂停广告,列表广告,播放页广告,不影响领福利！并非破解会员！搬运工源，永久免费更新！
 Name: 喜马拉雅优化
 Author: Z
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.xtyh
+Architecture: iphoneos-arm64
+Version: 1.7
+Maintainer: 搬运工
+Installed-Size: 372
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.xtyh_1.7_iphoneos-arm64.deb
+Size: 50274
+MD5sum: 7b8d54a35e067458ba419a6220ab5fe1
+SHA1: ce549585658786e85122221aea9160c4e951f8e0
+SHA256: 5f7af6392e01dc4130dcc17aa072df95a5950b9357eaef00a9773669f00388cd
+SHA512: 327a9c1d9d11fa6ad6f3da254b432c750e7a6d1a20e996617dbbb7b8b1464cb22ef55b0d132aa83490e64c6f0fe4a31103e1c6ad495e038ee577592ec635de0c
+Section: 插件
+Description: 本插件有设置项，安装注销生效！功能如下：隐藏通知中心没有更早的通知文本。隐藏Dock栏磨砂背景。隐藏主屏幕翻页小白点。隐藏状态栏旋转。隐藏锁屏相机、手电筒。禁用主屏幕通知中心和锁屏搜索栏。隐藏勿扰模式横幅。无翻页点。去除负一屏编辑背景。文件夹透明。通知中心手势左滑清除消息，右滑打开应用。禁用锁屏左滑相机。去除横条。
+Name: 系统优化合集-Rootless
+Author: z
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -15190,6 +15473,24 @@ Section: 插件
 Description: 抖音消息防撤回、猜拳骰子作弊、语音转发、屏蔽输入状态、无限看闪照。插件位于抖音设置内！搬运工源，搬你所想！
 Name: 抖音防撤回
 Author: vita
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.zaire
+Architecture: iphoneos-arm64
+Version: 0.9.0
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.zaire_0.9.0_iphoneos-arm64.deb
+Size: 8800
+MD5sum: 43fe56e7748de9e0c279c98c89a36d57
+SHA1: 441db62d8337719405d4de3b62a1e0ae3da6537a
+SHA256: 131bbdb41d7323aabc37e04227879fbf8153808652de8f1ee490217b97b66655
+SHA512: 46a29f17c1240903c4c0bbb2c039c9b4a00005cb5d6ba0bf14652dcc577f51f23eb60606e3febac2eb11c9515e894e555d063e3a40c44c80cc97d71872d841b1
+Section: 插件
+Description: Displays the number of installed apps in the storage page显示存储页面中已安装的应用程序的数量
+Name: Zaire软件数量-Rootless
+Author: Luki
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -19059,6 +19360,25 @@ Section: 插件
 Description: Add Xina tweak compatibility to Dopamine没什么用的插件依赖，可能有人会用到，上传源里备份一下！
 Name: Xinamine插件依赖-Rootless
 Author: Sudo + Paisseon
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: iosios.net.no2theft
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 2040
+Depends: ws.hbang.common
+Filename: debs/iosios.net.no2theft_1.2_iphoneos-arm64.deb
+Size: 1103776
+MD5sum: faaf429c5927f02d0a2c517110d44633
+SHA1: fd3642b62d382377c634fcbc525e0a7efaf89794
+SHA256: 9a9df1e1e7133fd27eb69de1c7a4152001a536f8bde54267acba8db44ca52fce
+SHA512: c20ff8161bc472cbfa2400538523b1f3e8bb0b8691c7865a216ae0c22deee95599ae47fe21347a2613f8475c00a2f3a4695e511064ea3cf675df90846534e193
+Section: 插件
+Description: The most complete tweak against pranksters, annoying nosy people and thieves感谢来了老弟分享！The most complete tweak against pranksters, annoying nosy people and thieves这是一款手机保护插件，比如说谁动了你的手机会自动发出报警声音或者自动拍照发到你的邮箱！时刻保护你的手机！来了老弟汉化分享！
+Name: No2Theft手机保护-Rootless
+Author: elias
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
