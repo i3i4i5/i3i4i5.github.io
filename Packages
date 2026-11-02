@@ -969,6 +969,46 @@ Author: Seasons & huami
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.Flex3.xiufu
+Architecture: iphoneos-arm64
+Version: 1:3~Beta99
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, byg.iosios.net.Flex3, byg.iosios.net.Flex3beta
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: debs/byg.iosios.net.Flex3.xiufu_1_3_Beta99_iphoneos-arm64.deb
+Size: 24373090
+MD5sum: 2dc739d28dba9ebdb5a2a03616d4c3cc
+SHA1: be522a0899ee3e0d793157bf3dc76b185e95c9b0
+SHA256: 3d3051510bbee07c640617c4fa71e73e36afe94b07efbe38354c42b40a438411
+SHA512: 440251481e9d0f7313744cf7135fd307a5154ab4257009da96f93fb16cf49152aa31ce454fffe045ee7ddb22994acf2bfb8645bb9cfe23ecfa8cf2d3d325cb34
+Section: 插件
+Description: Develop your own tweaks and share them on the Flex Community Cloud此版本为来了老弟修复优化的flex版本，可以解析APP自己做补丁，后续持续更新此版本！两个版本只能安装一个，本源备份提供下载！如果打开闪退的话就进入系统设置里的显示与亮度，关闭粗体显示！免费账号每天可下载2个补丁，此账号可无限下载！sundasheng521@qq.com密码7758521a
+Name: Flex 3 中国修复版-Rootless
+Author: John Coates
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.Flex3
+Architecture: iphoneos-arm64
+Version: 1:3~Beta61
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, byg.iosios.net.Flex3beta
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
+Filename: debs/byg.iosios.net.Flex3_1_3_Beta61_iphoneos-arm64.deb
+Size: 20946550
+MD5sum: 99cda0d68b6b245d7f47a67094a65b58
+SHA1: 7d9cdd13e1164b341af962fd1bf00d8586e26fdd
+SHA256: 7ee8a21983866e14e7961f982edd05e7acc2f3985921beb967dfe29be7453ea7
+SHA512: e2fcf0a1de2226d6ed721b8a476b5384aaa7d430f19f035af8d40a94820bd3a236742c6401f8e79a35a690a371e708851e9398cffc5e79ebdc5561fb7e515099
+Section: 插件
+Description: Develop your own tweaks and share them on the Flex Community Cloud作者今天刚维护更新的61beta-Rootless版本，兄弟们冲吧，如果打开闪退的话就进入系统设置里的显示与亮度，关闭粗体显示！免费账号每天可下载2个补丁，此账号可无限下载！sundasheng521@qq.com密码7758521a
+Name: Flex 3 Beta程序修改器-Rootless
+Author: John Coates
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.HBWechatHelper.rootlless
 Architecture: iphoneos-arm64
 Version: 2.1.5
@@ -3371,6 +3411,25 @@ Author: Sudo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.customizecchh.zh
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: com.miguelaka95.customizecc
+Filename: debs/byg.iosios.net.customizecchh.zh_1.0_iphoneos-arm64.deb
+Size: 22980
+MD5sum: c37a7892614ef952506e07e301f7c158
+SHA1: 876b5745be6b09ff1bb2766849859d2f5fb9256f
+SHA256: 488948b9f9580fd64cfc799555033599a5bfbc02ba8cc0d1aa7fc9941b5bc693
+SHA512: ceddc8d701c5f3bc69f62d93f3a93f232aa7cf08112d52dbcb96c5ee058216ad2d0e2c2090557a784224b8307a775dad948a42c17bda39e88cd36ddb1a61b20e
+Section: 插件
+Description: 一款非常好看的控制中心背景及透明插件，可以替代coolcc了，效果看截图！CustomizeCC汉化补丁，由来了老弟汉化分享，有问题进搬运工源反馈！
+Name: CustomizeCC汉化补丁-Rootless
+Author: 来了老弟
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.customwechatnotificationsound
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -4640,6 +4699,25 @@ Author: ichitaso
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.hidesim2.rootless
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.hidesim2.rootless_0.1-1_iphoneos-arm64.deb
+Size: 4254
+MD5sum: b5c40c398ef633bd719c135b0ede2190
+SHA1: de6634e0006e6bfa474f457b1a31c3c15add6257
+SHA256: 9e41f1922118e8749a3afb943dd788a89ce775e5eeb1539c8e963c52fe52cedd
+SHA512: 00440db081908b9b2147b4682788ea485aec4d78c66bb2898f1e2c42f78815f6db4ce8981b63b862591bdf51c04881d99dee3c4c5b570645b6bcd58a48209ee5
+Section: 插件
+Description: 隐藏副卡信号运营商，此插件由搬运工源iOSign免费首发，搬运工源，只为给你带来最好的越狱体验！
+Name: 隐藏副卡-Rootless
+Author: iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.hikari
 Architecture: iphoneos-arm64
 Version: 1.0.8
@@ -5472,6 +5550,44 @@ Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.liandianqi.wudi
+Architecture: iphoneos-arm64
+Version: 9.9.9
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.liandianqi.wudi_9.9.9_iphoneos-arm64.deb
+Size: 487902
+MD5sum: f3799aebf6d9d4b2a13fcea60c36af7e
+SHA1: 150b6babbb08497dcdf2318a6f1910fe29a3f57d
+SHA256: ac02549d44451952b7f8d54a50c6ff34e760df99548734bd157fd831de0459c3
+SHA512: 23ad130b91a9f7c7fde4cb33459336b272d335ac3e0970398a58512fe42a13f5cc7ef96031a57adb3842b4ea570af473b6989ee635ed0707e5350d3ceed72029
+Section: 插件
+Description: 普通用户请下载源里的普通版！！！普通用户请下载源里的普通版！认真看！区别在于无敌版默认所有APP都注入了连点器都会有个悬浮按扭！本插件无设置项，安装打开软件后有悬浮窗，如果不想用就下载Choicy禁止插件注入！插件应该只有连点器功能可用，修改器和变速器功能应该没用！用来抢抢票试试吧！再说一遍，无敌版是所有APP都注入了连点器！如果造成APP闪退问题，请缷载！不要喷我！搬运工源，越狱必加！
+Name: 连点器无敌版-Rootless
+Author: 机车主
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.liandianqi
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.liandianqi_1.2_iphoneos-arm64.deb
+Size: 488058
+MD5sum: bd0d821857133422bdb3473cc96a1ab2
+SHA1: e3c6a18abf74edccbeaac977d4a483e56fad6161
+SHA256: b017459c7f7818c0de6e1867863304081b7ccd7882fb0c53e34901f0e7fe0f7a
+SHA512: 6a6daf98c753c3388d81a6ec3638f640fa037e42797bcec8a220c168bf1eddd07ec078b0984c0eef806db144accd372f75a1034d5c5c92d395b2a4f753e847fd
+Section: 插件
+Description: 本插件无设置项，安装打开软件后有悬浮窗，如果不想用就下载Choicy禁止插件注入！插件应该只有连点器功能可用，修改器和变速器功能应该没用！用来抢抢票试试吧，不一定可行！建议只开一个连点按钮，不然容易闪退！！！目前仅支持大麦、华为商城、饿了么、蜂鸟众包、猫眼、12306、i茅台、美团众包、京东、淘宝等APP！有想单独增加的应用可群内联系我！
+Name: 连点器普通版-Rootless
+Author: 机车主
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.limitcharging.rootless
 Architecture: iphoneos-arm64
 Version: 0.0.3-1
@@ -5887,6 +6003,25 @@ Author: llld
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.minotaur
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Maintainer: 来了老弟
+Installed-Size: 616
+Depends: mobilesubstrate, preferenceloader, emt.paisseon.xinamine (>= 0.0.5), oldabi
+Filename: debs/byg.iosios.net.minotaur_1.2.2_iphoneos-arm64.deb
+Size: 195004
+MD5sum: 9afb2543772aaa3dc8903d25328fc80a
+SHA1: d9829ef96432bea7d4cc185465ebcd418aa5d87a
+SHA256: fc550a4f63c6549678b0b7d861ed6d109fa373d2cac890a154ae67ee557f44d7
+SHA512: f8d817903645653710478e8c9c85370b4daf692dd3dccd36ca16e5083156e9bc48eb8cad04a0ce5d808802addaad7136e64588e7f25e4ec78642e8531c1f475a
+Section: 插件
+Description: 状态栏中的通知样式风格，此版本需xinamine，功能完美_________来了老弟·修复。感谢老弟修复如此有趣的插件！
+Name: Minotaur通知风格-Rootless
+Author: Muirey03 laileld
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.misaki
 Architecture: iphoneos-arm64
 Version: 2.0.3
@@ -6019,6 +6154,25 @@ Description: Increase the Lines for the Notifications!可以查看锁屏和通�
 Tag: purpose::extension
 Name: MoreLinesNotifications信息完全通知
 Author: CydiaGeek
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.mostwallpaper.rootless
+Architecture: iphoneos-arm64
+Version: 0.1-2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.mostwallpaper.rootless_0.1-2_iphoneos-arm64.deb
+Size: 5606
+MD5sum: 143734f25b577ff7f00dcd1ad1bb9bd9
+SHA1: a31c2493a1d54627d7ce53166b48aebfc3e7cd9c
+SHA256: b30e219d0ee663b3d37ecfc2485af23e20db71814b7fe822c3c38d0b55f46363
+SHA512: 435c8d3abdc90f6d0c932ffad08d2db391a470b69a43472ecaa6d8d0f8f1f03145956fe1fdbf0328c7b3efb349df2979c353ee849605908efebfa0e47b71705e
+Section: 插件
+Description: App Store下载最美壁纸。本插件去除广告，解锁VIP资源，由搬运工源iOSign免费首发！请认准搬运工源，你的越狱好帮手！
+Name: 最美壁纸破解-Rootless
+Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8094,6 +8248,25 @@ Section: 插件
 Description: SneakyCam 是一款支持息屏状态使用拍照或录像的插件。即使在关闭屏幕的情况下，也能随时随地谨慎地拍照或录制视频。说简单点就是偷拍相机，小编也没测试到底能不能用，无效就卸载！请勿用于非法！！！控制中心CC模块可以一键启用/或者关闭。
 Name: SneakyCam 隐私相机
 Author: Spark
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.sogouinput.rootless
+Architecture: iphoneos-arm64
+Version: 0.1-2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.sogouinput.rootless_0.1-2_iphoneos-arm64.deb
+Size: 5032
+MD5sum: c5e23de79861eae7662099bb35a173e8
+SHA1: 251e407048465c42a5e5a6dfbe12bc54e8d939b3
+SHA256: 74a73b8dcfd6d05ba6372b843d0ac6c476a1f35ec2601407757be3de01c2648f
+SHA512: 77a576a61f2016d6f161c6e64b3e0abf0e1bdd8a2b47dede37170de21dc9eaf8b33f9ec87791a2eee89a8d83384c240a8332dbb392995cbc0c8cf8ab0b97dec5
+Section: 插件
+Description: 输入法皮肤内购破解，多款付费皮肤随心购！搬运工源iOSign免费首发，全网第一发此插件支持多巴胺越狱！如需转载请备注搬运工源byg.iosios.net，谢谢！使用方法“点击购买皮肤，出现弹窗时，取消即可！搬运工源，搬你所想！
+Name: 搜狗输入法内购破解-Rootless
+Author: IOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
