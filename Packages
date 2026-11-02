@@ -6653,6 +6653,25 @@ Author: Mysteryexe
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.satella
+Architecture: iphoneos-arm64
+Version: 1.9.0
+Maintainer: 搬运工
+Installed-Size: 456
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: debs/byg.iosios.net.satella_1.9.0_iphoneos-arm64.deb
+Size: 112204
+MD5sum: 3d25cc45367ae0bcb11cf1dec253a90a
+SHA1: 82b205400fd6e2b6442ebb5d295c3410ab4a1991
+SHA256: 65c28ed1a3f3d8e5196d0bdd99a3d94ae9cbb75df6dcd6dceb1bbf4c9a2527cf
+SHA512: 5def43398465003a54fc9eb9181520d24d187c1f74813abb2dacccc8c2c37bd223ce01ff968a9ea775f1b43e5a84bef32222a206c2afca93ac14764b7b899614
+Section: 插件
+Description: Modern in-app purchase cracker内购破解插件，可以破解一些小众软件，支付宝，淘宝都不行！安装之后去设置里打开第一个按扭即可！大部分都破解不了，请知悉！
+Name: Satella内购破解-Rootless
+Author: Paisseon
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.sbcpu.floating
 Architecture: iphoneos-arm64
 Version: 6.4
