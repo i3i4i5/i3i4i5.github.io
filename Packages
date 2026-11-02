@@ -758,6 +758,25 @@ Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.MiYou
+Architecture: iphoneos-arm
+Version: 3.9-3
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/byg.iosios.net.MiYou_3.9-3_iphoneos-arm.deb
+Size: 6768966
+MD5sum: a4775bd29ec5f99bf7f13fac89c45240
+SHA1: cbe385fe7450cc659de49a4644d3b9ceb219a340
+SHA256: d49011c204173361fd66b945656eb7a58f2a1e3f0ab2e9db3db88c053b33cd35
+SHA512: 7938dd946d8778ff82f22fa959a7c3a7a3fe059b214d0a0ccd1e092593d910fbe56cf39324cd1a1b9c3029efdc66d066c5b4e56a853e372c61eb4ed88c074be1
+Section: 插件
+Description: 微信助手-密友，防撤回，转发语音功能！开启callkit，换主题，非常好用，源主力荐！十年稳定运行，功能要求不多的用户强烈推荐使用，老牌插件！
+Name: 微信助手
+Author: Mao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.MikotoHelper
 Architecture: iphoneos-arm64
 Version: 1.3.6-10
