@@ -18202,6 +18202,24 @@ Author: CreatureSurvive
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.dao.3dappversionspoofer
+Architecture: iphoneos-arm64e
+Version: 2.0.4
+Maintainer: 0xkuj & daodao
+Installed-Size: 460
+Depends: com.opa334.altlist
+Conflicts: com.0xkuj.3dappversionspoofer
+Filename: debs/com.dao.3dappversionspoofer_2.0.4_iphoneos-arm64e.deb
+Size: 59494
+MD5sum: 660ec3f1a738f1a4a150a499cca53597
+SHA1: 92368b75b0781589ccc4a218db7c47f554e90933
+SHA256: 731cba0a8eaa13a2be578312ff843565f41d161c8ee149036925daa2c6b29449
+SHA512: 9baed01e0d4442d709df1f943b106ff1bb5fd03cd0334ad47483d6890e25eaa95fd52ef2e1eae2c808ffe3c6814a71944f81bb11024c13c6061ac348b9299203
+Section: 插件
+Description: 根据开源版本编译中文版，3DAppVersionSpoofer——>>可从设置或者长按应用图标——伪装应用的版本号（和iOS版本号）。
+Name: 3DSpoofer(RootHide)
+Author: 0xkuj
+
 Package: com.dao.3dbadgeclear
 Architecture: iphoneos-arm64e
 Version: 1.7.0.1
@@ -18220,6 +18238,23 @@ Description: 长按/3DTouch「应用/文件夹」图标，即可通过“清理�
 Name: 3DBadgeClear(RootHide)
 Author: isklikas
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/3dbadgeclear/js.json
+
+Package: com.dao.actk.cn
+Architecture: iphoneos-arm64e
+Version: 2.1
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.dao.actk.cn_2.1_iphoneos-arm64e.deb
+Size: 5498
+MD5sum: b289fa6970a31ec7a67abdcadac30483
+SHA1: 967186a7ea1812de936c2fd265ca2fca607575ee
+SHA256: d8fd5fd87727023a590ee414863c8a008b421eb06e763fcb8a980e15f19c3ce4
+SHA512: 4b785ff2ca2866dd08c62a9585b2c17587c3c914f019a877e3fc324f6fae755f45668601c5f067e955a5b0a2c821c5128bd15187519d54f80f0d4e19519163eb
+Section: 插件
+Description: ACTikTok 简体中文包(rootless)。
+Name: ACTikTok 简体中文包(RootHide)
+Author: 妖刀
 
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
@@ -18296,6 +18331,54 @@ Author: TouGBao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 Section: 插件
+
+Package: com.hk.akara.cn.rl
+Architecture: iphoneos-arm64e
+Version: 2.0.2
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.akara.cn.rl_2.0.2_iphoneos-arm64e.deb
+Size: 7072
+MD5sum: bf105e808ed2c393f8e92fa7481daec7
+SHA1: ae225790e275f7322a69802b2292e11a069f4d74
+SHA256: 1c36c32aa26a7c9dab1d1aec890cacd0ec805b554089689fe170414361d41e60
+SHA512: c37c4307c2f499e8775db06aed5424c5207243b8a899e697f13304a7048f414f331b069bf9c431b5978b9df9744175f324ec417504d25481bd868a6467a74f91
+Section: 插件
+Description: Akara 简体中文包(RootHide)。
+Name: Akara 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.hk.alpine.cn.rl
+Architecture: iphoneos-arm64e
+Version: 1.2
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.alpine.cn.rl_1.2_iphoneos-arm64e.deb
+Size: 5360
+MD5sum: a3136a5923144dcfb1cd14d774549b32
+SHA1: 85be8faa13a17f0c7ae1266f452e1b85168b0d13
+SHA256: 4bd0288b5052ddecf100ba92b8821c685d4a5ec28331b533435f8210f47ad1a8
+SHA512: 5d088ac352d4c302356dd2c59d63cf55649139bce5e83a2b2a3ca8cf81032d19ce12bedbcac9e5b248a292432341e77b409200733dacd97ff483f4e416a9d74d
+Section: 插件
+Description: Alpine 简体中文包(RootHide)。
+Name: Alpine 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.hk.ampere.cn.rl
+Architecture: iphoneos-arm64e
+Version: 1.4
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.ampere.cn.rl_1.4_iphoneos-arm64e.deb
+Size: 6028
+MD5sum: ebb84c0398bc102aaba6ce91a78db07e
+SHA1: 89dc9ec059b663b7449b93f2a0bf3e21581b42d6
+SHA256: 398d29cdc6bb7f59eb7e3b559fe7e238b4ea640085585797b238904bedd9b2e5
+SHA512: 3c5d161650e894a4417750df5a17db56c57f50a9a8e69b05eaf39ac17459f3c6eeeaf08b9e42738ba4b16b96eac2ee367cba9ae5605cd2106bba7bf64493978d
+Section: 插件
+Description: Ampere 简体中文包(RootHide)。
+Name: Ampere 简体中文包(RootHide)
+Author: 妖刀
 
 Package: com.hk.aysxhack
 Architecture: iphoneos-arm
@@ -18805,6 +18888,23 @@ Description: Customize your Control Center!_________仅测试用,有问题卸载
  Weather Widget.
 Name: BetterCC-roothide
 Author: Miguelaka95 <miguelaka95@gmail.com>
+
+Package: com.minis.lockscreengradientclock
+Architecture: iphoneos-arm64
+Version: 2.0.24
+Maintainer: MoWang
+Installed-Size: 1060
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.lockscreengradientclock_2.0.24_iphoneos-arm64.deb
+Size: 281688
+MD5sum: 8aaccd7469a6e71be0bba0e8a8ecfa1c
+SHA1: 59b518a4344c8516ee20538042babc49a3636b92
+SHA256: b048cdadb6675191b550e5771f48d5d69fcbabe716791ba22709b2b09772cf86
+SHA512: 8469817ee9436af11fb728a3867201229b756277b3cc71c0dbd10f3af8986b8fdc117a1f9902efe8965465b0e6c17f59f36cb5e8dbf556dc4119594330a9039e
+Section: 插件
+Description: Configurable Lock Screen clock gradient.
+Name: 独立锁屏时间渐变
+Author: MoWang
 
 Package: com.nan.dpkg-fill
 Architecture: iphoneos-arm64
