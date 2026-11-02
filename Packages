@@ -9156,6 +9156,25 @@ Author: CBZ
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.snapper3.rootless
+Architecture: iphoneos-arm
+Version: 1.0k
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix
+Filename: debs/byg.iosios.net.snapper3.rootless_1.0k_iphoneos-arm.deb
+Size: 1108562
+MD5sum: d6529763f6026683a97989bb1b84cd94
+SHA1: 3b69890697b3775f00f234e0e0c5056a1aef3f9b
+SHA256: 58125833ed440a04b52d495a11e2a4ffc2a7e7bbc95c2a89d2da5eeb4afd1289
+SHA512: 4b5672bb3c932be1398b885546d67021ca8d553311e43b00abae777a50e42ecd71f00cffbe4bf4917e0bd9ac594569c7b85568f660d89ec3ed85737672cd33ab
+Section: 插件
+Description: Pin screenshots on the screen. K'd by CBZ.活久见，破解版比正版上架快，感谢cypwn大神破解，巨魔商店M哥汉化分享！非常感谢给越狱圈带来快乐，有经济能力的请等正版出来后，付费购买，此破解版仅供尝鲜，搬运工源，国内首发！snapper3和snapper2冲突，自己决定要哪个！据说3好用，大家可以自己尝试一下！
+Name: Snapper 3智能截图
+Author: Jonathan Winger-lang
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.snapper3
 Architecture: iphoneos-arm64
 Version: 1.0.2
