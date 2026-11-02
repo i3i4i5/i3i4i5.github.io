@@ -853,6 +853,24 @@ Author: Mikoto
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.QDReader
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Maintainer: 搬运工
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/byg.iosios.net.QDReader_0.1-1_iphoneos-arm64.deb
+Size: 135614
+MD5sum: 73a8f0c209d4b7678312ef58f8e12402
+SHA1: 3cf2d7351edeb5a4f86749fcc718464cc715dde5
+SHA256: e1876279eee0b3c2848382ccc2ad1187bcb2159d4f18ccb88281a9b1c352139d
+SHA512: e7a5b1e1d40c2f3264bb34c22f437089650f2afcdbe919942a265e7c30bb34b1050d7745fd1f05c9b2fa8f2398ab2f6911642f41dfa118517f3c4e571e30491d
+Section: 插件
+Description: 起点读书去开屏广告，激励视频加速！
+Name: 起点读书广告视频加速
+Author: iosrxwy
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ThemePro
 Architecture: iphoneos-arm64
 Version: 4.9.6
@@ -1778,6 +1796,25 @@ Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.flexibleexpression
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Maintainer: 搬运工
+Installed-Size: 920
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.flexibleexpression_1.2.0_iphoneos-arm64.deb
+Size: 3705802
+MD5sum: 36bd81ce295af4f54bb2317f9b91a521
+SHA1: e5bf45a13b93ab2d06ac68a108632c01da42c7fd
+SHA256: 66a6ac07ed606160e8ccac64384e8661394a41642a0a6bc24e8333d7cb07d867
+SHA512: cbfefdce6f154e8a1e7583eb996b7660c81ca5f5ffef9ee580247b62a43aea59545fcacaac25bf8cf848ec5cd3cc584f823c5a1a974cec52b3e0749c5e771d05
+Section: 插件
+Description: 灵动空间，灵动岛不再枯燥！支持实时设置更新，无需注销• 优化动画性能和视觉效果，大家自行体验，仅支持有灵动岛的用户，灵动半岛用户不用尝试了！
+Name: FlexibleExpression灵动空间
+Author: SHTM
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.floaty
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -2162,6 +2199,24 @@ Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.lindongdaodonhua
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.lindongdaodonhua_1.1.8_iphoneos-arm64.deb
+Size: 40904
+MD5sum: 09aa75fd3bf6bb2294b9e48e6daf74ea
+SHA1: f01ff470b552c38e82d61d26a56285a9921b6b38
+SHA256: 6c2aacef3f80c99d1c40f2a38dfe486a563aaa75e2a484bee391d2c4fed09003
+SHA512: 898b985ff82c9237dbf159076a9317024acfd8e5ff9ac42c59300f1d87575a100c3b29cfe39e1746f6cb114453bb972e0116d8b72cf026792729f8d557a99281
+Section: 插件
+Description: 用于灵动岛专辑及屏幕录制动态跳舞动画整合，只支持有灵动岛的用户，大家自行测试，灵动半岛就不用试了哈！
+Name: 灵动岛跳舞动画
+Author: Simon
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.liquidas
 Architecture: iphoneos-arm64
 Version: 0.1.1b+banana54
@@ -2355,6 +2410,27 @@ Author: Huayuarc
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.morelinesnotifications
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Priority: optional
+Maintainer: 搬运工
+Installed-Size: 179
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: debs/byg.iosios.net.morelinesnotifications_1.0.5_iphoneos-arm64.deb
+Size: 7850
+MD5sum: e4b4dc9104afa48d65f18df6640b904f
+SHA1: c9b4bfa69480ae94e966e56199d47ef914ebf3de
+SHA256: 0d35a3274c24d8b35eb63506921b7b56274dbd5fd19899adaa4d9a2b70d25de7
+SHA512: cbbb8b34f0b2bc132c2ecb225bad34e3c055e88109901d666c8c6e9d60ca0048e609ebaaf3a618977e919925271f48f171fcc85ec3d9558e52deea117ed84df2
+Section: 插件
+Description: Increase the Lines for the Notifications!可以查看锁屏和通知中心的所有通知内容，对于有些消息文本较长的话，可以直接在锁屏通知界面查看完整消息内容，而无需解锁。搬运工源，万古长青！
+Tag: purpose::extension
+Name: MoreLinesNotifications信息完全通知
+Author: CydiaGeek
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.msgfilt.rootless
 Architecture: iphoneos-arm64
 Version: 1.0-6
@@ -2528,6 +2604,24 @@ Section: 插件
 Description: 本插件功能：让你的音量键和电源键每按一次，在手机屏幕里显示动画效果，这是模仿iOS18的一个功能，还可以自定义按钮动画的大小，喜欢的小伙伴们可以试试，感谢M哥汉化插件，搬运工源全体员工向你表示感谢！
 Name: PopOutButtons按钮动画
 Author: tesla_man
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.prokeys
+Architecture: iphoneos-arm64
+Version: 1.1.2k
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, ws.hbang.alderis, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.prokeys_1.1.2k_iphoneos-arm64.deb
+Size: 132794
+MD5sum: a3a556a8cfdbd287cd5cd918bfa39fe6
+SHA1: c7f3d2b66f5c78729e62031f597ba12a7caf014e
+SHA256: fccd701e79375b6b64af2121b45ceaadfe082616039b6f02eece28cf4bc68abb
+SHA512: d55cc88532a299427dd08c93e8c41fbc11ff978f3421e79e32567c678eb70efed08f88c0f6bb3b16c6a8b9b5ff100257ef46f19a6f605e1c4ef7407a72692fad
+Section: 插件
+Description: A Tactile RGB Keyboard for your iPhoneProKeys是iPhone的触觉RGB键盘。iOS键盘自iOS 7以来没有太大变化。这是一个扁平、无聊的键盘。它有两种颜色，深色和浅色。不要了！ProKeys是iOS键盘应该有的样子。你可以真实地感受到每一个按键，你可以自定义键盘和键帽的外观，你可以添加漂亮的动画，这样你键入的每个字母都会以鲜艳的颜色弹出。为了让它变得更好，你可以微调每一个功能，这样你的键盘就非常适合你！真正了解ProKeys所能提供的唯一方法就是实际尝试一下，那么你还在等什么呢！总结一下就是美化自动键盘的插件，小编不用自带键盘所以不是很清楚用法，大家自行测试一下！
+Name: ProKeys键盘美化
+Author: Justin Proulx
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3063,6 +3157,24 @@ Author: WQ
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.startup.optimize
+Architecture: iphoneos-arm64
+Version: 2.3.3-END
+Maintainer: 搬运工
+Depends: firmware (>> 14.0), mobilesubstrate, preferenceloader, bash
+Filename: debs/byg.iosios.net.startup.optimize_2.3.3-END_iphoneos-arm64.deb
+Size: 3114
+MD5sum: ae3e8146479f22729f6cff48f746ee32
+SHA1: 582a2949366278eb65973123aec572c6c8bdafdc
+SHA256: 9bf14b4dacecc595aec8dd20c89f44b0f5e19e9376c01ae9aef5b3a959f39a09
+SHA512: 5ac9044b24f5b086a7136c8212d6e63961d810cc4a1ef651e284545590fd52f84d022c1a99de2f7f18989b446750f2a850aead3d54926215aae0d4cad1f7fff2
+Section: 插件
+Description: 越狱后自动优化系统！优化运存，优化杀后台策略，清理内存！最新编写的脚本修复RootHide！因为大幅度修改，有问题降级2.3.3版本！如果越狱后进入系统自动重启桌面，说明已经生效！转换一下应该就能用！如果不能用，你可以拆deb，找到里面的bash.sh，直接运行，也可以达到一样效果！Enjoy！错误日志路径/var/jb/var/log/startup.err 日志路径/var/jb/var/log/startup.log！感谢分享，搬运工源，永久免费！
+Name: StartupOptimize启动优化
+Author: lf
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.stheno
 Architecture: iphoneos-arm64
 Version: 77.1.4.7
@@ -3463,6 +3575,25 @@ Section: 插件
 Description: 原作者Netsko基于2023年版本进行更新修复热更新插件消失问题，并没有适配高版本微信，请知悉！有问题请降级微信版本！完整无阄割版微信净化！支持抢红包！这可能是最后一个版本了，感谢大佬无私奉献！微信净化还原聊天本质，干净的微信给你，完美支持8.0.29及以上8.0.46以下版本，高版本微信也可以使用，但是转发朋友圈或者其他功能可能会因年久失修而失效！设置位于微信-设置，请不要屏蔽微信越狱，不然不显示插件！微信净化是多少人的信仰插件，冲！也可以安装锤子助手，同样的功能！
 Name: 微信净化
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wechatpushmsgpage
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Maintainer: 搬运工
+Installed-Size: 232
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/byg.iosios.net.wechatpushmsgpage_0.0.5_iphoneos-arm64.deb
+Size: 37900
+MD5sum: 647f24553cd33c645b43879bd7dadfea
+SHA1: f9ea75221932527f1c28a362c75fa1e4360c9aab
+SHA256: 3b57192b0c49ead0bf4812737d69df9498e12b889fac9610c947d16609e8c680
+SHA512: 195fec93ef547ce86333f06e3252fedcdba705f866b52927ba9e83f63b69f4ca90cd3ef9bdccf1160f6a127a15b25d2a6cbca6a5700eb3e0f6803631da10263d
+Section: 插件
+Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。（已测试只有一个bug就是无后台第一次收到消息会进入其他页面，不会直达，后续有后台测试完全没有问题。）
+Name: 微信消息直达
+Author: be-huge
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
