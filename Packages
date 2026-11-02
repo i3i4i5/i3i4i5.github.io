@@ -981,6 +981,24 @@ Author: Misaka
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.MisakaHelper
+Architecture: iphoneos-arm
+Version: 2.1-0
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.MisakaHelper_2.1-0_iphoneos-arm.deb
+Size: 18938398
+MD5sum: 3a03b3f5ec2ed281303ebc9d37eabefb
+SHA1: 951f11211d1c4bbbbce43249ada9208939a9f7c6
+SHA256: 1edc43727e210d74d6c179cbdffa9510fe5d5be887e75ba1c1ae3c874d46d72c
+SHA512: 07cabbdf1c3e006a641d0ccf0ab470aa3895c477f50c75cd219187382e2b86e38c02487f4fce3911319ee5e9f9e02af0ecd498fc7ab2a28767d49295902e2fe8
+Section: 插件
+Description: MisakaHelper和其它微信插件类似！可以抢红包好像，也能解决微信低版本小程序不能使用的问题！可以强制关注公众号，解决微信净化问题！
+Name: 微信MisakaHelper助手
+Author: Misaka
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.QDReader
 Architecture: iphoneos-arm64
 Version: 0.1-1
@@ -1132,6 +1150,26 @@ Section: 插件
 Description: 本插件无设置项！安装即生效！广告终结者，一款免费的去广告插件，可谓越狱必装插件，创意由来了老弟提起制作，搬运工源维护更新！其中特别感谢iOSign,Netskao,SWING,Wkk等人为大家提供如此多的去广告插件，如果有安装相同软件的去广告插件，导致sileo无法安装以及软件闪退，建议先删除，防止冲突！广告终结者不涉及系统层注入，不会引起系统崩溃重启，放心使用！软件闪退可使用Choicy禁止插件注入该软件！广告终结者永远免费更新，后续会支持越来越多的软件！再说一遍，有问题可使用Choicy禁止插件注入该软件！不是所有软件都能去广告，你觉得没有用就卸载，不用反馈！因为本来就是自用免费插件！至少我觉得有用！隐根转换除非你把手机设置不灭屏，在转换界面等一小时，不然别尝试了！
 Name: 广告终结者-Rootless
 Author: 机车主&来了老弟&iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.aemulotrial
+Architecture: iphoneos-arm64
+Version: 1.2.5
+Maintainer: 搬运工
+Installed-Size: 1980
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.amywhile.aemulo
+Filename: debs/byg.iosios.net.aemulotrial_1.2.5_iphoneos-arm64.deb
+Size: 763012
+MD5sum: e049899cb4fc9446665a6c663da33b3c
+SHA1: 5e757e1ace941d14522e891a87715e90a539039c
+SHA256: d8a23caeab24e74850ea71652b741f91ebee625ef878cbabd9025decd7d0c754
+SHA512: 12d20ee06808fcec0a94a86631f135424d4d111086833cf977abced1ea5b9abfd9e568d06c8abf8d3678204f4e7124eb6c995dbe8f25e3a65500cb4f618b9f2e
+Section: 插件
+Description: 这是一款免费的NFC插件，并且是多巴胺越狱能用的，上架的目的是很多用户不知道英文插件是什么作用，特此说明。付费的aemulo多的一个功能就是可以添加到钱包里，不用每次打开软件才能刷门禁！其他的和这个免费版没啥区别，觉得不错的小伙们可以支持作者付费购买！
+Name: Aemulo (NFC)-Rootless
+Author: Amy While
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1454,6 +1492,25 @@ Section: 插件
 Description: Customize and automate your lock screen.锁屏增强，界面显示通知视图等等，搬运工源已汉化，自行体验！
 Name: Arise锁屏增强-Rootless
 Author: EthanRDoesMC
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.arizona
+Architecture: iphoneos-arm64
+Version: 0.9.2
+Maintainer: 搬运工
+Installed-Size: 796
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: debs/byg.iosios.net.arizona_0.9.2_iphoneos-arm64.deb
+Size: 443252
+MD5sum: 06fd47a75b29874b4faa44a1bdddf252
+SHA1: 6169f8c425a3c22592c1364f912e891f5447b84f
+SHA256: df1929e82d63a6f3db7e746a21e15f2b22be3dd76d1fa48d63f0b7a8aa2a88d4
+SHA512: 85342ca96207060fc7adee4178d7662fa7973facd3b2a4392815874757525fa19371b973f7277be112cfd59db8eebd75a1aa751cb8bc86532ce6329d6a1d037b
+Section: 插件
+Description: 本插件的作用是自定义锁屏界面的日期，时钟和锁定图标，移动位置！（本插件由国人lans233汉化并分享，非常感谢！）搬运工源，永久免费，只为越狱分享！
+Name: Arizona锁屏美化-Rootless
+Author: Luki
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8876,6 +8933,24 @@ Section: 插件
 Description: An awesome library to get current weather which provides by iOS Weater.app easily.插件依赖
 Name: libPDDokdo
 Author: Soongyu Kwon
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.pingfan.wechat
+Architecture: iphoneos-arm64
+Version: 2.2-1
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.pingfan.wechat_2.2-1_iphoneos-arm64.deb
+Size: 2458264
+MD5sum: 40e0b90f1e46eadec5b445556035951a
+SHA1: 10bc24dd2b3f25925212e658fd64e2090f76b37f
+SHA256: 4554d33a15569e8a745077c49d1b9890e0da73615e9ced4c15072d3f144d426c
+SHA512: 8a5245a9ad28d3ca79c0ba1ce6aa5a65d15eed27bdc4f4529e3135a05717790c9dc100527220bc5ce7bf3ec5e69987e9025e3da48c9dfb23aa9bd6135a92007b
+Section: 插件
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，右滑快速备注，全局长按导航栏快捷功能,证书有效期查询,语音包，一键已读消息等。木笛默认密码113113。不显示请缷载微信插件收纳！
+Name: 微信虚拟视频-Rootless
+Author: pingfan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
