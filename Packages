@@ -1221,6 +1221,25 @@ Author: Torrekie
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.better.bili
+Architecture: iphoneos-arm64
+Version: 2.3.3
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.better.bili_2.3.3_iphoneos-arm64.deb
+Size: 9505972
+MD5sum: c21acae465b19a0a69139825dd7ad335
+SHA1: e9300d23757ac4869ad90179184d9e67d9c575a9
+SHA256: 384a647e72e7df27a8ec3191bfaa5eb70ca64016484208c75a7f2e4b6ee7f797
+SHA512: e199dcf60bebb5ff91517f045c4548157112bafd6defc57e04b81a288443f0ef8261c3f330a06b8c9c38e5328ffe831162a429cb0757b13c089a8d3e078827fd
+Section: 插件
+Description: 更好的哔哩哔哩，支持港澳特别版与原版，功能如下：解锁付费画质，付费缓存，去除广告，精简功能，下载缓存到本地... 包括多款插件注入：哔哩哔哩净化与精简（原版），4KPatch。Thank for Netskao，Lenglengyu，SWING！搬运工源群友夜風分享，感谢！大家自行测试是否小效，无效就缷载！
+Name: BetterBili哔哩哔哩增强
+Author: LF
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bindfs
 Architecture: iphoneos-arm64
 Version: 0.6.0
@@ -1638,6 +1657,26 @@ Section: 插件
 Description: 灵动岛音乐进度环增强插件，放歌的时候，专辑上会有进度环，由搬运工源管理夜辰开发，感谢分享！搬运工源永久免费！
 Name: 灵动岛进度环
 Author: 夜辰
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.dynamicnotland
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Maintainer: 搬运工
+Installed-Size: 348
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.nathan.dynamicnotland
+Filename: debs/byg.iosios.net.dynamicnotland_1.2.4_iphoneos-arm64.deb
+Size: 21438
+MD5sum: 6680b37a64d3dd61fc1ae18e296f0b4f
+SHA1: c7fde891ea7daec468dfee0f78db77ef43ff5966
+SHA256: 0399b8030a661a0f6eefd4849e7fa1721b18467528d7ff60a8dc0da5f0f8a499
+SHA512: b041a8fa86589e253e209a1d93e62b33f4a00321ff59eeb88343254154439948b33c229af2a29d9cf7fd1ed1d8d56f405e75464e377d92608d067ee38cf9d660
+Section: 插件
+Description: 在 14 Pro 系列上，隐藏未使用时的灵动岛，有些有强迫症的人有此需求，能理解但不支持！
+Name: DynamicNotLand隐藏灵动岛
+Author: Nathan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
