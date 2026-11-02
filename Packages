@@ -708,6 +708,31 @@ Author: Acreson
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: acreson.rootless.cj.shadow
+Architecture: iphoneos-arm64
+Version: 3.7.6
+Maintainer: 搬运工
+Installed-Size: 1076
+Provides: me.jjolano.shadow.beta
+Pre-Depends: dpkg
+Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
+Recommends: preferenceloader, me.jjolano.hkmodule.fishhook
+Suggests: com.ps.injectionfoundation
+Conflicts: me.jjolano.shadow.beta
+Replaces: me.jjolano.shadow.beta
+Filename: debs/acreson.rootless.cj.shadow_3.7.6_iphoneos-arm64.deb
+Size: 170672
+MD5sum: 6ccbafe49aeb140e8977dede37ab1f47
+SHA1: 62a07cb67293ddeae94dc5cd9fa44f9a25c13d16
+SHA256: 37146909e2b1b7aec2994da5f50b347b80f09b3b489078965ddcdf5121148e73
+SHA512: 0eca1fb3f669f2966937a1fbb4c877fcaddac101c48b3a07678065eab6d66c4bc25ed85d65448cbae1b3424b19445ce46a658387cb8aeedb7836385d8e3b259f
+Section: 插件
+Description: 一款屏蔽越狱插件，屏蔽软件越狱检测。有没有效自行测试，应该是没啥用的！应群友要求，所以上架！
+Name: Shadow屏蔽越狱-Rootless
+Author: jjolano
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: apt.llld.settingswallpaper
 Architecture: iphoneos-arm64e
 Version: 0.0.4
@@ -1746,6 +1771,24 @@ Section: 插件
 Description: 模仿iOS18的功能，隐藏已经安装的黄色APP，哈哈。本插件可以在设置里隐藏应用使其消失在搜索，资源库，主屏幕上。谨慎开启密码，因为我也没搞懂有了密码之后咋弄，可能你需要清除越狱才能恢复插件设置了，不是重装插件就能解决的！搬运工源，搬你所想！暂无汉化！
 Name: App Hider应用隐藏-Rootless
 Author: Paisseon
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.apple.Preferences
+Architecture: iphoneos-arm
+Version: 9.9.9
+Maintainer: 搬运工
+Depends: firmware (>= 7.0), mobilesubstrate
+Filename: debs/byg.iosios.net.apple.Preferences_9.9.9_iphoneos-arm.deb
+Size: 8086
+MD5sum: 0d7d9efc85186eece526a34a080dcd14
+SHA1: b5b6ac8ace093d37e68de43a6445050b816c0ef2
+SHA256: be84c072a4ad78adeefeadc7b0d277707074ce82fd36cfe1973596cdcf28eba9
+SHA512: 5b0606ee613ccf78413ec2571f8f426d81ae06e7bb594b048b57a7099d6aad5d1bf83f235d10f82c9d97639449b7a94c8dbcb0f08d15a79947c558be76969e59
+Section: 插件
+Description: 屏蔽更换第三方电池和其他配件会有烦人不断弹窗提醒！
+Name: 屏蔽设置重要提醒
+Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2838,6 +2881,25 @@ Author: Donato Fiore
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.camera.rootless
+Architecture: iphoneos-arm64
+Version: 0.1-2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.camera.rootless_0.1-2_iphoneos-arm64.deb
+Size: 4904
+MD5sum: b4baa86cd94897c8fc981b97394739f5
+SHA1: b7988ceba75010ab780e4c8fb524ea4d1f486533
+SHA256: ab7ce70da535d22a6c3501865ca933b75dc43ab4b5f8f8be5a7f026c317b8b3f
+SHA512: 5f9d60048508ed223fc019426bfae7dd1ab2dfb558f825ecab5ffb2656a313d584b45567d28f8a6673112c749b2ade807187e90d3ac77da4d6032072763ef0d0
+Section: 插件
+Description: 系统相机开启全屏拍照，禁用拍照提示音。此插件由搬运工源iOSign免费首发，搬运工源只为给您带来最好的iPhone体验！永久免费的搬运工源！越狱必加！
+Name: 全屏相机-Rootless
+Author: iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.cameraautolock
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -3448,6 +3510,25 @@ Author: be-huge
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.cutestatusbar
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 336
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.cutestatusbar_1.0.0_iphoneos-arm64.deb
+Size: 44288
+MD5sum: 71770c3d5b70ddc03c58c9ef1aaa9193
+SHA1: 6ace53a3d7ef9e7dce58141b563b16aea796421b
+SHA256: c61f0cf15bc43f25f22487c24f2f592a21ab47b0e69fdf7cf945f48a87aa66ff
+SHA512: 63876c2a52d9c832e4fa71df0f1d91deeca737e6b076d5d9f985955ea68e87d53d63c1a834faf8edbbd59358db7cdd80af4fb40ab46df5927839a14e96877a23
+Section: 插件
+Description: Cute !状态栏上一只随意拖动的可爱猫猫！没什么卵用，纯装B！
+Name: 可爱猫猫-Rootless
+Author: wgp
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.cydiageek.swishbar
 Architecture: iphoneos-arm64
 Version: 1.0.4
@@ -3672,6 +3753,25 @@ Section: 插件
 Description: Add the Labels Below the Dock as before iOS 11! Added to Marina too.在Dock栏下面显示软件名称，一个小插件，M哥发现的，源主觉得好玩，也上传一下！插件无设置项，安装注销完成即可生效！
 Name: Dock名称显示-Rootless
 Author: CydiaGeek
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.dodo
+Architecture: iphoneos-arm64
+Version: 4.2.2
+Maintainer: 搬运工
+Installed-Size: 7592
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
+Filename: debs/byg.iosios.net.dodo_4.2.2_iphoneos-arm64.deb
+Size: 1937776
+MD5sum: 1297d02495012c8c62785ad7cc7f0751
+SHA1: 77e8dcce26d6ceca334b103ac88129911e3b10ae
+SHA256: 2c6102867c95d553e9ba87a757ef5ad915b2b4a07d8b127b7f6beed6d6f17858
+SHA512: ab89e322e8d4f1419eb37f429b066d3df85014e1ba84dc5da7b6174a6004f60e5489b3b9efb0296419212f929cfec3a0da0ca4138127b15b427a4d7b15146395
+Section: 插件
+Description: The perfect Lock Screen redesign.锁屏美化，效果看截图！非常的安卓化，狂拽酷帅屌炸天！
+Name: Dodo锁屏美化-Rootless
+Author: Ginsu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5736,6 +5836,25 @@ Section: 插件
 Description: 又一款软件应用锁插件，长按APP开启，源里还有另一款，按各自喜好来！插件功能是为应用程序添加 Touch ID 锁定验证，就像 iOS 18 中的安全功能一样！
 Name: LockTouchX软件应用锁-Rootless
 Author: MrDeNsor
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.lsduanju.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.lsduanju.rootless_0.0.1_iphoneos-arm64.deb
+Size: 5408
+MD5sum: d6540d7f52edeedc8873cde529c45f10
+SHA1: a93cfef4c898d4a80550fbc4add7227ed11de90f
+SHA256: c90c3fe3aa1b0c59e403820f41f4c169e6517d4a4ae3ac3e1f12a70ea9d56e58
+SHA512: 40a24ef4480b2e5ea182b86f3abb0ca4a1f8d689a8c02387b9ffb87b4c9ced08dd7ddc0a4f957a052f10d1ce58d3fa9b28412e411bdd8fbf2bae01b1db538a5e
+Section: 插件
+Description: App Store搜索乐刷短剧下载，本插件去除广告，解锁全部剧集，由搬运工源iOSign免费首发！
+Name: 乐刷短剧破解-Rootless
+Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8699,6 +8818,26 @@ Section: 插件
 Description: Notification priority hub tweak. Organize your lockscreen notification.主要功能：锁屏通知聚合，按照 App 图标归纳在一起，锁屏变得简洁。自定义选项丰富，多种样式。支持 Axon 样式，回归经典。插件免费，简单易用。搬运工源已汉化！
 Name: Tako锁屏美化-Rootless
 Author: Xyaman
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.taobao.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: byg.iosios.net.advertisement
+Filename: debs/byg.iosios.net.taobao.rootless_0.0.1_iphoneos-arm64.deb
+Size: 5432
+MD5sum: dbcb84096ba491216a42c40ebd737010
+SHA1: a03bf3bebe7b4d2d45c526f1b623e970515e7a6e
+SHA256: 86a8306c8b5e967ef76fe78c83428c7246eb152458906119f8facc729fd251b2
+SHA512: 607135379598830af629915da87995e11fd2a787f0325b4f404d26f5f4774895e77d1bf7f703f330713dcc042c63921d341362be27effe6a77000fb67dd8245b
+Section: 插件
+Description: 本插件无设置项，多巴胺越狱工具安装即生效！已包含在新版本广告终结者里，二者只能选择一个安装！不喜欢广告终结者的可以单独安装此插件！主要功能：去除广告，去除底部菜单栏红点，去除物流信息底部推荐，去除个人主页淘友圈，精简搜索栏，短视频自动播放，解放羊毛党双手！
+Name: 淘宝净化-Rootless
+Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -12220,6 +12359,25 @@ Author: Ginsu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.ginsu.gsweather
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工源
+Installed-Size: 1216
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: debs/com.ginsu.gsweather_1.1_iphoneos-arm64.deb
+Size: 242736
+MD5sum: 81f69114122497baabd1529a17ff3470
+SHA1: aa61f773d1822a8b4d0cbe949257c21856560c15
+SHA256: 5aaa766798e6c3b7dc088b2f54334c6131b69ce220e53c1fb7a22a49d9104a56
+SHA512: e814220d23e2c4f840ab24d86b5724683c807b33bcb2c4462824478659bdabb4ebac6e72911c9e5e97c0db3509e7e5c8e3e3406e2023ffe548223a2d13371dc6
+Section: 插件
+Description: A Weather fetching framework
+Name: GSWeather插件依赖-Rootless
+Author: Ginsu
+Sponsor: 搬运工源
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.huam.wcenablecleanorigmsg
 Architecture: iphoneos-arm64
 Version: 1.0-2
@@ -12810,6 +12968,105 @@ Description: Function: Allow third-party input methods in any password box。***
 Name:  强制第三方输入法-rootless
 Author: 来了老弟
 
+Package: me.jjolano.fmwk.hookkit
+Architecture: iphoneos-arm64
+Version: 1.0.14
+Maintainer: 搬运工
+Installed-Size: 172
+Depends: firmware (>= 8.0), me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge
+Filename: debs/me.jjolano.fmwk.hookkit_1.0.14_iphoneos-arm64.deb
+Size: 12860
+MD5sum: ff7d8c0636fc2b1b1d9627a0371c81fb
+SHA1: abc6b2b18a1c7445659b5bf8dbce2e1957785dbb
+SHA256: e3dfc8dbbc206143b569e0c1c428e3ddd3f1dcb0f582e97aacf8ddebb2982b68
+SHA512: 866e00210fdf1498a4446f5474ea168f2855ac5f0faa019de3527f63145d1cdeee9b5d50db562e1b4f9e34e32c197fceb1a3c7944cbabaad095ed5246a29ccdf
+Section: 插件
+Description: An iOS developer framework for unified hooking methods.
+Tag: role::developer
+Name: HookKit Framework屏蔽越狱插件依赖
+Author: jjolano
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: me.jjolano.fmwk.modulous
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: firmware (>= 8.0)
+Filename: debs/me.jjolano.fmwk.modulous_1.0.7_iphoneos-arm64.deb
+Size: 6002
+MD5sum: 15660cb7c7505267661025fe523c5613
+SHA1: bc5ce4fc28c6bc8515b7b616707b9113876314ad
+SHA256: 3c37ee4759cca3eb06668aa142bf3607c35c88ad0f068f297263e41dcccc46c4
+SHA512: 14fc53207a0984e2987d0f1e3d1fc94a58c3baf2c05bbf0492cbc230e8d38c450df647c0ebe7b92125803721d48bd04d507cebe51054782867a1e6e2a107f677
+Section: 插件
+Description: An iOS developer framework for modular software.
+Tag: role::developer
+Name: Modulous Framework屏蔽越狱插件依赖
+Author: jjolano
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: me.jjolano.fmwk.rootbridge
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: firmware (>= 8.0)
+Filename: debs/me.jjolano.fmwk.rootbridge_1.0_iphoneos-arm64.deb
+Size: 3902
+MD5sum: 1d72efe19b1dfbaad372353c0dfaad59
+SHA1: 8b993e053de4ed996b4553a094f0b2d60b1dde90
+SHA256: 07517791e5e12eea4ba17b1eeeb813837b61ee9cb04b9c99b634645dc1d940ef
+SHA512: e19db788659517390eea109254bde8f3b15e5a031d88960eba7d1f519a803db2e8f2bf7d2e749c59b8f9e47a67550abc33a8a03d3c4370770f858971a7ae93fb
+Section: 插件
+Description: An iOS developer framework for rootless tweak development.
+Tag: role::developer
+Name: RootBridge Framework屏蔽越狱插件依赖
+Author: jjolano
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: me.jjolano.hkmodule.fishhook
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Maintainer: 搬运工
+Installed-Size: 172
+Pre-Depends: me.jjolano.fmwk.hookkit
+Filename: debs/me.jjolano.hkmodule.fishhook_1.0.7_iphoneos-arm64.deb
+Size: 6466
+MD5sum: 0c00e5592518ba2f6f8e848665ddb0f5
+SHA1: 894ef38ad5c88cb658a51b4cf7233535a081abd9
+SHA256: 75e950beb402115392c51e39f651f1c1bcce3a84373ef706effcfc3a9ac98ed5
+SHA512: 6a51e4c59a13608b6dfed04874f1c225972e9364f67e44d8fd363a2300e8eac55c8bbfa11dcc482987575f631a88c701e36ea4984ae32f9c4c8ee5681134767d
+Section: 插件
+Description: This module provides fishhook library support for HookKit Framework.
+Name: HookKit Module (fishhook)屏蔽越狱插件依赖
+Author: jjolano
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: me.jjolano.hkmodule.substrate
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Maintainer: 搬运工
+Installed-Size: 168
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: mobilesubstrate
+Filename: debs/me.jjolano.hkmodule.substrate_1.0.7_iphoneos-arm64.deb
+Size: 3938
+MD5sum: 695762d80713db74638315c7d0b066ab
+SHA1: 7bb55562922dbbdce3fb8a5b06f803c842b18b26
+SHA256: 68575a35a4f87cce1d5c83aa8deae85495073c71fd3aeb747ecc3f0c5e9986a9
+SHA512: abfb5eca2bc248a3a833306c68ee704feaff853a38566ae83c7a9855efad49e5cac903fba0fe39edf03b4a8e28f6f094179f93cd2c11de4dd6a0f302769b6f26
+Section: 插件
+Description: This module provides the Cydia Substrate API for HookKit Framework.
+Name: HookKit Module (Cydia Substrate)屏蔽越狱插件依赖
+Author: jjolano
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: net.limneos.limtools-roothide
 Architecture: iphoneos-arm64e
 Version: 0.1-14
@@ -13113,26 +13370,6 @@ Description: VisionOS theme一款和iOS26一样的主题！让你无需升级iOS
 Name: VisioniOS26主题
 Author: Billie
 Sponsor: 百度主题源
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.camera.rootless
-Architecture: iphoneos-arm64e
-Version: 0.1-2
-Maintainer: 搬运工
-Installed-Size: 168
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/全屏相机-Rootless_0.1-2_iphoneos-arm64e.deb
-Size: 4380
-MD5sum: c6fda8c283d0c21605084c5c33090067
-SHA1: f3fa51ff9af5fa07663ca5db7cf0a94649a2b811
-SHA256: b346d5349026d4ca80bb8f4e66bfcc7bf20b4d1d84b6a23239202d8530da06f9
-SHA512: 27dfb4bfea893643eb798cd55c923df368c9c30a86f0ef83421e660406f48400c49542c25eeb0390055f8f2e095fe755017a3f4d499d8ca0cfaf89c91996a154
-Section: 插件
-Description: 拍照取景框全屏显示
-Name: 全屏相机
-Author: iOSign
-Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: local.minis.hideairdrop
