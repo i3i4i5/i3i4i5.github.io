@@ -759,6 +759,24 @@ Author: 0xkuj
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.77theme
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Maintainer: 搬运工
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/byg.iosios.net.77theme_1.0.8_iphoneos-arm64.deb
+Size: 7273452
+MD5sum: fe8d251360fb5b17f1b8148abde9b0a8
+SHA1: b2e51422aa3f44d6e45464034674324265a5c4fb
+SHA256: 8fff7e02e547cdaed4365e6911f5eaaded11692f47bc190ecafc05563f2d98b8
+SHA512: 42768b005a333e6657a8dadc758ef176beebbef34d93feafac63621d552d5d8ae3fffa03703f41ca9d8e663b2296a0e4f7b722832dbcbe5254acb872e393b8f3
+Section: 插件
+Description: 又一款微信主题美化工具，主题同样需付费，怎么找免费的，建议你试试微信搜一搜搜微信主题，不要问搬运工源小编，小编也没有，只为给大家带来工具！不造子弹！
+Name: 77Theme微信主题工具
+Author: 77Theme
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.BubbleBox
 Architecture: iphoneos-arm64
 Version: 1.0-7
