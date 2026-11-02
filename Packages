@@ -1099,6 +1099,42 @@ Author: iosrxwy
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.Shimmer
+Architecture: all
+Version: 1.3
+Maintainer: 搬运工
+Depends: com.spark.snowboard
+Filename: debs/byg.iosios.net.Shimmer_1.3_all.deb
+Size: 21352568
+MD5sum: e99ad713e235605e8ad9add59f1e7ec9
+SHA1: f119ddb01af6a6d44363c6c04f47b1dc0730c0e0
+SHA256: 2859b89296bab66eca0efc1fcacf8b0f74b02ee517ea78cc2f6ee2ec7e6a1027
+SHA512: 61409eb7322055a4f7b01634c6cc5aa26524c99216445e33ebe20f228d66fc6e8f3ab1cd126b4f027da8d100e39859e848182d11fe61d38932bef8ade5bb8d0f
+Section: 插件
+Description: 一款Snowboard插件使用的主题！上架源的目的是给那些不知道怎么换主题的用户提供格式参考，下载完本主题插件后可以使用filza去var/jb/Library/Themes目录参考格式以便修改其它主题目录格式！搬运工源，你最好的家！https://byg.iosios.net
+Name: Shimmer主题-Rootless
+Author: Thenatis
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.Symplo
+Architecture: all
+Version: 3.0.2
+Maintainer: 搬运工
+Depends: com.spark.snowboard, com.spark.snowboard.ui, com.spark.snowboard.masks
+Filename: debs/byg.iosios.net.Symplo_3.0.2_all.deb
+Size: 3172416
+MD5sum: 18060e898e7b8a7acafb9527d2336220
+SHA1: fb730d06a1db8f44ec6d96b7ee4bec33006ea15f
+SHA256: c652cfa97f489307cde23164faae7fe652b92c088c8a9a020c185d3d11c792d9
+SHA512: 504f665d03722a339334b800c38d2ff0e7be2a3aaeb0c23066c2b12b239f0d51d78db55d04228bd79a146b4e37e4b7a874c66591909a01515af4c832955b2b8c
+Section: 插件
+Description: 一款Snowboard插件使用的主题！上架源的目的是给那些不知道怎么换主题的用户提供格式参考，下载完本主题插件后直接注销生效，想使用自己的主题可以使用filza去var/jb/Library/Themes目录参考格式以便修改其它主题目录格式！搬运工源，你最好的家！https://byg.iosios.net
+Name: Symplo主题-Rootless
+Author: 机车主
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ThemeManager.rootlesss
 Architecture: iphoneos-arm64
 Version: 1.6.5
@@ -1450,6 +1486,24 @@ Section: 插件
 Description: 感谢搬运工源群友萝卜购买并分享此插件，非常感谢！Floating Noise Cancellation control next to volume slider插件作用是美化耳机音量，感觉有点鸡肋哈！
 Name: AirpodsCompanion耳机伴侣-Rootless
 Author: Ethan Whited
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.akara
+Architecture: iphoneos-arm64
+Version: 2.0.0k
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.muirey03.libimagepicker, firmware (>=15.0)
+Filename: debs/byg.iosios.net.akara_2.0.0k_iphoneos-arm64.deb
+Size: 724390
+MD5sum: 8bab301d2b2af5e1035d4da0e084b8a7
+SHA1: fc4217405058002209e90e6afdc3f1430391b0e6
+SHA256: d89cee48061bf6f07e3d654873436528663bd75675e9efe71a67947461c0abf1
+SHA512: 7b530ecca86834de1752d0e834642c4c008f77bc44d12af81a28ddafefc980408f3830d224ef51bf28bb47ffe53e5cc07c65a1ad835ea6b79f41872f0da846fe
+Section: 插件
+Description: Minimal design without compromise一款控制中心美化插件，原价2.49美元，现搬运工源免费使用，源主已连夜汉化完成，尽情享受吧！
+Name: Akara控制中心美化-Rootless
+Author: Tr1Fecta & Kennyroo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2079,6 +2133,46 @@ Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.awemepurification.neverupdate-rootless
+Architecture: iphoneos-arm64
+Version: 2.3-4
+Maintainer: 搬运工
+Installed-Size: 2480
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: netskao.awemepurification-rootless
+Filename: debs/byg.iosios.net.awemepurification.neverupdate-rootless_2.3-4_iphoneos-arm64.deb
+Size: 203854
+MD5sum: 5f383e607f2ef4ce5e91f0e7be54efbb
+SHA1: 683d81ff368134a02d468e8628d0c186bc27d9bb
+SHA256: ac69d6f2d671861bc7ede812a9442163b3ae8fedf46a18558ceec7463db38816
+SHA512: 6f1e87f42418741a0ed1866741628c6e5dc1d5583c7bb417eb64d1fc1b153d5691e3c50a2c00d8d2aabc50d54aeb6d56f340a952cf30230e94e733600973bde5
+Section: 插件
+Description: 抖音净化不消失版！请认准搬运工源！设置位于抖音-设置，去除启动广告，去除视频流广告，去除视频流中的直播，去除流量提示，去除青少年提示，去除左下角播放时弹出的商品购买，去除左上角悬浮的推广等，可启用原始按钮或双击视频保存无水印视频活图片，支持保存所有视频或图片，可启用浅色模式或关闭，可启用全局纯净模式，可启用关注二次确定，可启用显示所有视频进度条，可启用双击快捷复制文案，可启用首页或非首页自动播放下一条，可启用iWall插件快速设置背景，可禁用头像挂件显示，可禁用弹出红包，可禁用全局状态栏，可禁用首页本地页面，可禁用摇一摇找朋友，可禁用分享面板朋友，可禁用分享面板应用，可禁用分享面板一起看视频，可禁用视频来源显示，可禁用首页按钮刷新列表，可禁用评论中的置顶评论，可禁用评论中的链接广告，可禁用底部朋友按钮，可禁用底部发抖音按钮，可禁用底部消息按钮，可禁用首页左上角直播按钮，可禁用首页右上角搜索按钮，仅支持15.7.0版本及以上(最后完美兼容版本16.2.0)，此插件已停止维护！！！
+Name: 抖音净化不消失版-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.awemepurification.neverupdate
+Architecture: iphoneos-arm
+Version: 2.3-4
+Maintainer: 搬运工
+Installed-Size: 556
+Depends: mobilesubstrate, firmware (>= 9.0)
+Replaces: netskao.awemepurification
+Filename: debs/byg.iosios.net.awemepurification.neverupdate_2.3-4_iphoneos-arm.deb
+Size: 203786
+MD5sum: 39bb28284a5d186ff00011b7c959e7ab
+SHA1: 15903b22ad809a06659f4f09494527cd04f5462a
+SHA256: aaf16dfa3dc8de8bd8f72b471ecd0588c2e5d8c7486ec79116e7a444cefb1193
+SHA512: 8d06d23698aad2d196de4c01e84783ff50273dda372a36fd9941a95b6862bd2d7da916832faad8888d5d6b6d24ac49697661df6720fd18d43d868aaa4cccbb97
+Section: 插件
+Description: 抖音净化不消失版！设置位于抖音-设置，去除启动广告，去除视频流广告，去除视频流中的直播，去除流量提示，去除青少年提示，去除左下角播放时弹出的商品购买，去除左上角悬浮的推广等，可启用原始按钮或双击视频保存无水印视频活图片，支持保存所有视频或图片，可启用浅色模式或关闭，可启用全局纯净模式，可启用关注二次确定，可启用显示所有视频进度条，可启用双击快捷复制文案，可启用首页或非首页自动播放下一条，可启用iWall插件快速设置背景，可禁用头像挂件显示，可禁用弹出红包，可禁用全局状态栏，可禁用首页本地页面，可禁用摇一摇找朋友，可禁用分享面板朋友，可禁用分享面板应用，可禁用分享面板一起看视频，可禁用视频来源显示，可禁用首页按钮刷新列表，可禁用评论中的置顶评论，可禁用评论中的链接广告，可禁用底部朋友按钮，可禁用底部发抖音按钮，可禁用底部消息按钮，可禁用首页左上角直播按钮，可禁用首页右上角搜索按钮，仅支持15.7.0版本及以上(最后完美兼容版本16.2.0)，此插件已停止维护！！！
+Name: 抖音净化不消失版
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.awemepurification
 Architecture: iphoneos-arm
 Version: 3.0
@@ -2381,6 +2475,24 @@ Section: 插件
 Description: 本插件无设置项，安装注销即可生效！给手机上的功能开关添加一个特效，这开关名称吾称之为淫荡开关。变态的小伙伴们应该会喜欢！
 Name: 淫荡开关-Rootless
 Author: TiaoTiao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.bfdecryptor
+Architecture: iphoneos-arm64
+Version: 1.3.5
+Maintainer: 搬运工
+Depends: mobilesubstrate, com.opa334.altlist, firmware (>= 11.0)
+Filename: debs/byg.iosios.net.bfdecryptor_1.3.5_iphoneos-arm64.deb
+Size: 164978
+MD5sum: 67221dc4b0b12910425c96d9fc06ae9d
+SHA1: 60cb4cca3d2d6e386c6c76bab728ebeeaaef9eb9
+SHA256: ce2deffc1ecb002ba26a0a83048d2902b8accaa74c516cb09f0bf7dbcca055c2
+SHA512: 51cceafa5cd37cc6da498ece49070c58af701ba37b8fd0db64b8fb24420c7c82c4acd373a5afb28061796aae8b78831ecfe31eebd8d7f771a2e7a93903a20ce5
+Section: 插件
+Description: bfdecrypt for rootless/Ellekit一款砸取App Store下载软件的砸壳神器，貌似有用，有需要的可以尝试，可能不是全权限的，特征是小组件不显示。如果安装了没反应可能就是你的越狱环境不行，不知道怎么砸壳的可以看群里发砸壳，很简单，配合appdata插件快速找到砸壳之后保存的位置，在数据目录！
+Name: Bfdecryptor砸壳神器-Rootless
+Author: BishopFox
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3844,6 +3956,24 @@ Author: WilsontheWolf
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.enableccmutemodule
+Architecture: iphoneos-arm64
+Version: 0.2.0
+Maintainer: 搬运工
+Depends: firmware (>> 11.0)
+Filename: debs/byg.iosios.net.enableccmutemodule_0.2.0_iphoneos-arm64.deb
+Size: 1150
+MD5sum: edf6f2e7861d002f97bdcad49991506c
+SHA1: 354283e617de147b0ef9b9dad69e70f4a86afce7
+SHA256: 5fe8765d1c2e4317e245d917fe4538503697f5ea3950f35f3210c0fa717bb6c8
+SHA512: 5904fa405b929d33c24f1f695a1245c3413fb806b675606154ca4a26afad74f6ec9a9044cddcce6116a0d61b7df04b42c27a94831579d0f0e285c2313d75c39a
+Section: 插件
+Description: 激活原生 iPhone 控制中心静音模块！
+Name: CC MuteModul静音-Rootless
+Author: zhaonan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.eneko
 Architecture: iphoneos-arm64
 Version: 1.4-5
@@ -3957,6 +4087,25 @@ Section: 插件
 Description: 阅读与听书广告净化、章末内容控制、福利模块隐藏、原生二级设置与总开关。
 Name: 番茄净化
 Author: Junhong
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.fanqieread.rootless
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.fanqieread.rootless_0.1-1_iphoneos-arm64.deb
+Size: 5994
+MD5sum: b2de2c3e9795cd074f99eb3e4a89069f
+SHA1: 96974f51aa12646da178d11c61c5b1f6851a1508
+SHA256: f68ed7d748515e35132b62643b512d6b54d2e6c8409c3f881c00cfd0d96ae4f0
+SHA512: 6975bbffea88356bf8dec37bdc44599dadf1b5bac3c80adee789bae184f1e7fc11c86447f9a1eaa2b34b1c6dd31024c4fe4c607f16f61298fc102c8804e36863
+Section: 插件
+Description: App Store搜索番茄小说下载使用！本插件去除广告和解锁VIP，出版物VIP暂时没解决！由搬运工源iOSign全网免费首发，如需转载请备注出处！谢谢！byg.iosios.net。
+Name: 番茄小说-Rootless
+Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4907,6 +5056,26 @@ Section: 插件
 Description: Your control center, brought anew.一款控制中心美化插件，非常的不错，可以缷载一些其它功能的插件了，感谢搬运工源管理购买分享！这款插件非常的好看，给人一种清新的感觉！搬运工源，真的用心在做免费！一个搬运工源就足以！喜欢的小伙们点个赞！万古长青！
 Name: Jade控制中心美化
 Author: Nightwind and thetimeloop
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.jdnoad
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: byg.iosios.net.advertisement
+Filename: debs/byg.iosios.net.jdnoad_1.2.1_iphoneos-arm64.deb
+Size: 5312
+MD5sum: 10863ed2f18a7c22707f8490debe74d9
+SHA1: 90cf54dd0f5355802b4960c3b526443db16f129f
+SHA256: deeba172997a8ad5fbb3bdf53f9faf010a15debd4f0c1a288cf4c784e08fbabe
+SHA512: 919ef67521991e6965ede1a0067c5c3d535d1c91ae8f9cabd3caa799b513f709363050b432e5ca73866d95c52d03bba57423b3ea7882bd191f8cc881ebc5e13f
+Section: 插件
+Description: 去除启动广告、去除个人主页底部推荐、精简搜索栏、屏蔽升级弹窗！本插件有搬运工源iOSign免费首发，且已包含在广告终结者插件，不想安装广告终结者的可以单独安装此插件！
+Name: 京东 去广告-Rootless
+Author: IOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6517,6 +6686,24 @@ Author: Curtin
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.plampycc
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/byg.iosios.net.plampycc_1.0.2_iphoneos-arm64.deb
+Size: 2037360
+MD5sum: f72b66b0acb92bd8b3f42811acd39cef
+SHA1: b984f7c799e110a2cff6c4d17297b1a2ccaea0cd
+SHA256: 064fcea180e4be12637cda86188c51467fd7f109eb519ef166b724006b225a80
+SHA512: 25e2d7ea02d6073797f7d5762da0fc2aba1fe1ab0403718d699dfa2477b07450e9ae2ec8e3e5afe3f5a4b6b2a346a028b9dcca4eab75e4c46dfb4af132ac42a7
+Section: 插件
+Description: 控制中心图标美化插件，效果看截图，安装注销生效！还可以设置控制中心壁纸！
+Name: PlampyCC图标美化-Rootless
+Author: sugiuta
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.pmp
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -6898,6 +7085,25 @@ Section: 插件
 Description: 去除启动广告 | 秒过激励视频(部分视频自动关闭)。并非破解VIP会员，请知悉！不能用就卸载插件！
 Name: 汽水广告加速
 Author: Zuner
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.quickactions.rootless
+Architecture: iphoneos-arm64
+Version: 1.0.0-2
+Maintainer: 搬运工
+Installed-Size: 458
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/byg.iosios.net.quickactions.rootless_1.0.0-2_iphoneos-arm64.deb
+Size: 64518
+MD5sum: be4b0a1b0c798962eb2336e0891f5473
+SHA1: b623cb6777d9a69e1291dc1273132500936b0bcc
+SHA256: 4c974f3e37fcbff9ee1dfd955322462b620327f9cad02dc63ab3d717fc375906
+SHA512: b3ac1992217e260e91907f87ae60b253662ce26a083c15e7066c2b9e3b277802b513bf6bc7cec1fac66f84031c4dd5b32880796ecc726c370b1eacf4db91a8d9
+Section: 插件
+Description: QuickActions一款快捷操作的插件，内容不多，但是精悍！它允许你选择你希望将每个快捷方式专用于哪些内容。无论你只想访问每个按钮一个应用程序还是多个应用程序，选择完全取决于你。
+Name: QuickActions快捷方式-Rootless
+Author: Cameron Katri
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8415,6 +8621,25 @@ Author: llld
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.timeold
+Architecture: iphoneos-arm64
+Version: 1.3
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.timeold_1.3_iphoneos-arm64.deb
+Size: 6090
+MD5sum: f3ba729f3f69d682f2d0fb0f767e0068
+SHA1: 9657fadb2dadb701c5b8b8601c780c0e551e64f1
+SHA256: 2a3ca78d8f29447c9f97de532595ab005483561c954c25a41a76b677f4685e7b
+SHA512: f84c40354418e2644473c00e46967019b7574630a62d18a7c658db91494233d3f587e1b6d7015d803f5c828364410a2696bc36c005b2958a60e2b1e41213a050
+Section: 插件
+Description: 不生效的安装此1.3版本！这插件有什么用我也不知道，安装即生效，无设置项！插件分享也与原作者无关，作者毫不知情，本源上架就是备份，切勿用于非法！！！另外说明，本插件也是会失效，一切自有天意，一切自有安排！搬运工源是你最好的家，欢迎进群！
+Name: 时间主宰旧-Rootless
+Author: llld
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.tinge.rootless
 Architecture: iphoneos-arm64
 Version: 1.2.2
@@ -9271,6 +9496,25 @@ Author: 爱锋助手
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wechatnoad.rootless
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.wechatnoad.rootless_1.0_iphoneos-arm64.deb
+Size: 6426
+MD5sum: 478a3ccf4b5697ad332917973ac59e57
+SHA1: ffdc8457f409d23468162d9b1a2d537eb7ea914e
+SHA256: 43f7c34fe2af650144fdff36ae7bb9a0fc145963a44409df864408062f94c874
+SHA512: 69efa0a0360358067e87d417fea1358c43ae339cf310e5112ec15c7f573f5ee7b2ddd376e314581e30282cdff57290725e9f78cd0183aedc765d02e623a013e2
+Section: 插件
+Description: 微信增强，搬运工源iOSign免费首发，去除朋友圈及订阅号列表广告、文章底部广告以及顶部正在直播，去除少量小程序启动广告！开启微信拍照原生相机！默认开启Callkit！测试版本8.0.31，其他版本微信版本是否可行自行测试！更多免费插件请认准搬运工源！byg.iosios.net。如需京东代挂联系管理iOSign。
+Name: 微信增强-Rootless
+Author: iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.wechatnotiavatar
 Architecture: iphoneos-arm64
 Version: 1.3-1
@@ -9287,6 +9531,25 @@ SHA512: 40692a7d7c23f2a16f10b68c8917be60f217067420f89734b148330268698c9c2cc3c1df
 Section: 插件
 Description: Display Notification Avatars for WeChat App using iOS15 APIs微信来消息通知显示好友头像，仅越狱Rootless可用！可以说是非常的骚气的！效果看截图！
 Name: 微信头像
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wechatpure.forever
+Architecture: iphoneos-arm
+Version: 2.2-3
+Maintainer: 搬运工
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: netskao.wechatpurification
+Filename: debs/byg.iosios.net.wechatpure.forever_2.2-3_iphoneos-arm.deb
+Size: 765412
+MD5sum: 2de84b882adf5160e8303260856b4d31
+SHA1: 98e033b88bb4d8458893beb22b60e2a357a99ed8
+SHA256: d37c2a6c9d9a8e38a0abc4455e3ea58e8400c00790fc5de0cd9d793c5274b5be
+SHA512: 7dde527afc79e6d48dca7529468470434b909fb25ae1a07eacc5ae1bac113193222e2977b93dfde2d53946df5213e7552511c8a97354ebf71403bc6ce2b4fca8
+Section: 插件
+Description: 微信净化永不过期2.2-3版，请认准搬运工源！仅支持8.0.18及以上版本，感谢Netskao。若不能关注防丢公众号导致无法使用，请安装“Misaka、pkc”插件或者其它强制关注公众号插件！
+Name: 微信净化不消失版
 Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
