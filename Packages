@@ -3350,6 +3350,24 @@ Author: tuancc, Summit, Shadow-
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.hideserialnumber
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Maintainer: 搬运工
+Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.hideserialnumber_0.0.4_iphoneos-arm64.deb
+Size: 100186
+MD5sum: a7867309cab6c4730f7de90de0d7a80a
+SHA1: 708b1381ba198b5ddd73f88a3cb1c2ffafbff66d
+SHA256: b2627fef01e38b7a568080fbd47ba1cbd41838e257ee279a7e304c01b291d211
+SHA512: d2bf28125351e9673e953e6b784ca1af11799bfb5ae5e2d0967558579f1d556ead4e37dbc681eff5a88944135bbd2615c78237d2bcb406a4eaa0c3bc74b6247d
+Section: 插件
+Description: Hide Serial Number in Settings About page.在“设置关于”页面中隐藏/伪装序列号等相关信息。搬运工源，搬你所想！
+Name: HideSerialNumber隐藏序列号-Rootless
+Author: ichitaso
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.hikari
 Architecture: iphoneos-arm64
 Version: 1.0.8
@@ -5734,6 +5752,25 @@ Author: Spark
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.soulatch
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 120
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.soulatch_1.0.0_iphoneos-arm64.deb
+Size: 27288
+MD5sum: 9d2484ba6465bf49a8eb31f29a52b969
+SHA1: 3b69e59105d7fb32ffa5eff9c2b9288ef00d1cb8
+SHA256: fed8b498e221a348c7d3b824dbe12344f29748a28e59663b41a1ed81e2a93df8
+SHA512: 9037aeef96c522681f7e306ab045e0ba977c450144280288a7d7a97b00b98d4538537fa79c8018229a3f7251525bfdb6380a4ccaf52888949727adf2ff9078a7
+Section: 插件
+Description: Soul是App Store里的一款聊天交友软件，本插件的作用是：无需送礼私聊 下载图片视频无水印(无法下载的开启强制下载) 防撤回 移除一些广告！
+Name: Soul增强-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.souvenir
 Architecture: iphoneos-arm64
 Version: 1.32
@@ -6374,6 +6411,24 @@ Section: 插件
 Description: 插件开关已纳入微信插件管理页面。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!感谢开发者开发实用插件！
 Name: 微信去广告-Rootless
 Author: Apple
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.vicwechat
+Architecture: iphoneos-arm
+Version: 2.1-8
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.vicwechat_2.1-8_iphoneos-arm.deb
+Size: 2393684
+MD5sum: e873a2a95603c82c9f03cdd877d2b9c6
+SHA1: 0dbfdee3620505d0a2f769c363c952318bd46e5c
+SHA256: c423ec469f5d34be1e6dc5551718634c8b2b3ca9417b1b48c76923d3d389dc61
+SHA512: ad6dbf60fdb625d858abe32084d914db6f94eecf917bfae32ecfd842e1abdc1211778ddd4a9560179ef14f3bc76a98dadec42af51d5cf68276ab81ea2366abb3
+Section: 插件
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，右滑快速备注，全局长按导航栏快捷功能,证书有效期查询,新增语音包，一键已读消息等。木笛默认密码113113。
+Name: 微信虚拟视频
+Author: pingfan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
