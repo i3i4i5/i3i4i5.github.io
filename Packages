@@ -1349,6 +1349,26 @@ Author: PoomSmart
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ampere
+Architecture: iphoneos-arm64
+Version: 1.4
+Maintainer: 搬运工
+Installed-Size: 604
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
+Conflicts: com.hk.ampere.cn.rl
+Filename: debs/byg.iosios.net.ampere_1.4_iphoneos-arm64.deb
+Size: 159016
+MD5sum: 481bdd080c7a680dad100df21f52072d
+SHA1: b31af2fd40d01e29d9c86911290106c0ffb37ea5
+SHA256: 23e068ab440eb9dea390ca749420d0ddfc6b644e77d899b4b1e235680c4718bc
+SHA512: 422ea1418ffcf3ca62312bf6866711bacfd9687676c44620bbf2cb5fa3faf5f0e92c8fe72f08343aaf422a3b21c600b06c6c7501808f3b8b3822b35d17215b92
+Section: 插件
+Description: iOS 16 Style Battery Indicator一款模仿iOS16电池的插件，也可以更改电池的填充颜色，还不错，免费插件，需要的小伙伴们可以下载！已经汉化完成！
+Name: Ampere电池美化-Rootless
+Author: MTAC
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.apibugtexttovoice
 Architecture: iphoneos-arm64
 Version: 1.0.5
@@ -1436,6 +1456,25 @@ Section: 插件
 Description: 模仿iOS18的功能，隐藏已经安装的黄色APP，哈哈。本插件可以在设置里隐藏应用使其消失在搜索，资源库，主屏幕上。谨慎开启密码，因为我也没搞懂有了密码之后咋弄，可能你需要清除越狱才能恢复插件设置了，不是重装插件就能解决的！搬运工源，搬你所想！暂无汉化！
 Name: App Hider应用隐藏-Rootless
 Author: Paisseon
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.appleturboboost
+Architecture: iphoneos-arm
+Version: 0.7.0
+Maintainer: 搬运工
+Depends: firmware (>= 12.0)
+Conflicts: com.michael.appleilluminator, netskao.appleilluminator, netskao.appleturboboost
+Filename: debs/byg.iosios.net.appleturboboost_0.7.0_iphoneos-arm.deb
+Size: 21658
+MD5sum: be04d270ed942882c2b8b0fbde2c1c85
+SHA1: a19a99077310a93699b4aedb049c53f0e9ebce4f
+SHA256: 5a64f0204271be49d7b84b65ff14234ee3623125e339bbf631c0e33c787fd430
+SHA512: a9089420ef07cd5add4b23257d323961863f5fdcd70986740406cfd387e714f7ea6c016299fea5067befc1145962194e61bbaec57ad7a76fd7a8f5fc431f0d93
+Section: 插件
+Description: 关闭系统过热降频和自动降低亮度，安装/卸载后需要软启或者重启设备，特别提醒：iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！
+Name: Apple Turbo Boost关闭降频温控
+Author: Halo_Michael
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1878,6 +1917,25 @@ Section: 插件
 Description: 更好的哔哩哔哩，支持港澳特别版与原版，功能如下：解锁付费画质，付费缓存，去除广告，精简功能，下载缓存到本地... 包括多款插件注入：哔哩哔哩净化与精简（原版），4KPatch。Thank for Netskao，Lenglengyu，SWING！搬运工源群友夜風分享，感谢！大家自行测试是否小效，无效就缷载！
 Name: BetterBili哔哩哔哩增强
 Author: LF
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.betterccbrightness
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Installed-Size: 304
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/byg.iosios.net.betterccbrightness_1.0.2_iphoneos-arm64.deb
+Size: 70998
+MD5sum: b1f6680ead1f9839c48516d9223c0a8e
+SHA1: 97ba1d6b6cde61ba31a32b96ecd8087ba62df766
+SHA256: de949fec92e27e7ff5341e0172445563f8c372f69f32d70c498c79ec13ecbb5d
+SHA512: b47f5123f6d37ef59f995eba03ef491d8691ac502ee80315aec68ace708eefe43549f4fba6cde65058879e871510690f8f879da2ec3af44ee3f620ca3b8fc2db
+Section: 插件
+Description: Add more controls to the expanded brightness CC module为控制中心亮度模块，拓展出很多功能，插件无设置项，安装注销即生效！长按控制中心亮度模块出来界面！
+Name: BetterCCBrightness亮度增强-Rootless
+Author: level3tjg
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2337,6 +2395,25 @@ Author: fiore
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ccpay
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Depends: com.opa334.ccsupport
+Conflicts: com.zqbb.qszqb
+Filename: debs/byg.iosios.net.ccpay_0.0.1_iphoneos-arm64.deb
+Size: 18534
+MD5sum: 83abd2fc46d5628c0d0f5594f21eb902
+SHA1: 34022ac541ce975312a10ae6118658b6a6101bbe
+SHA256: cb3c889a541843c7750fe3a33aed45ccb25e73c74185f8efc63ce6c9b3f4e1b6
+SHA512: 342e2bd6fd613034e74a1dd38fb70d45ef198c9bb711f5788128350fca8a1403d43ae78850d73442fb83764f46f7726a89cff38a2341aed80561edb406a030db
+Section: 插件
+Description: 本插件的作用是在控制中心添加收付款码，比如支付宝，微信。安装之后去控制中心添加即可！
+Name: CCPay快捷支付-Rootless
+Author: zqbb
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.centra
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -2507,6 +2584,25 @@ Author: dvntm
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.cocoatop64.unject
+Architecture: iphoneos-arm64
+Version: 3.1.1
+Maintainer: 搬运工
+Installed-Size: 504
+Conflicts: ru.domo.cocoatop , ru.domo.cocoatop64 , zp.cocoatop64 , zp.cocoatop64.inject
+Filename: debs/byg.iosios.net.cocoatop64.unject_3.1.1_iphoneos-arm64.deb
+Size: 168202
+MD5sum: 60453c29d8b8ec67f0a0a57f2d11da2c
+SHA1: 40214234219c7126234b1c4527abae02958e2d2d
+SHA256: 1e5e0c2100c839ceee177a6752e799dee797e4259f13fe8ec305a1699f1552f9
+SHA512: 32efffe71f33de9c86104144b58a1b80b27e79fdfc042b137389656f7c0d44bb785bb99f3eaf64b2609c18316a6b4b3643aa3488c2b77ce8f39fbaeea04b5540
+Section: 插件
+Description: Process Viewer for iOS GUI,适配rootless并增加一些小功能.1.长按图标的插件针对APP更友好- 2.此app更适合屏蔽进程类的注入- 3.laileld要加的copy给加上(如果是/开头,使用filza打开)！有需要的人用，不需要无视，上架仅备份！
+Name: CocoaTop64.zp进程管理-Rootless
+Author: Domo, SXX , zp
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.complications
 Architecture: iphoneos-arm64
 Version: 4.1
@@ -2621,6 +2717,27 @@ Section: 插件
 Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素溶解 / 百叶窗 / 故障闪烁 / CRT 关机 / 3D 翻转 / 旋涡内爆 / 灰烬上升 / 沙化 / 融化坠落 / 波纹扭曲 / 拼图崩落 / 旋卷飞散 / 剥落坠落 / 闪烁熄灭 / 墨色飘散），每种可单独调参。
 Name: 息屏幻术
 Author: 7513
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.crane-rootless
+Architecture: iphoneos-arm64
+Version: 1.3.14-6
+Maintainer: 搬运工
+Installed-Size: 3120
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy, com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Filename: debs/byg.iosios.net.crane-rootless_1.3.14-6_iphoneos-arm64.deb
+Size: 883926
+MD5sum: a4187404d30d2a65bdb3554bb445bfa7
+SHA1: d5882cc330eeb98e01eeb680c4d9c3c3594072ae
+SHA256: aa1b8bcfbe0c2373e4a749325745eed5cf350c89ca237e7cf203be4bfd267108
+SHA512: a62afb1fccc72f5c2a657b73f934e0e8d9b757ef3398844aa158db5cbef1cd5754e21b2e81aaaec9a7ceec6fcfbe8822b907bbac5f9ea2329d4ebb35045ba0b4
+Section: 插件
+Description: Crane allows you to create multiple containers per application! Multiple containers for your applications! 本插件为正版授权，下载即可使用！功能：为应用程序提供多个容器，软件及账号多开神器。已修复，并且支持消息推送，一切正常！如果有问题不能使用，并且经济条件好的，可以购买正版支持作者！有问题进群反馈，搬运工源全网首发！
+Tag: Cydia
+Name: Crane软件多开神器正版-Rootless
+Author: opa334
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4332,6 +4449,25 @@ Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.letmedecline
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.letmedecline_1.1_iphoneos-arm64.deb
+Size: 9664
+MD5sum: 4e91de1e93cea1166969093c75b7bd42
+SHA1: b5e663b0a740abc299cd73ad4de16ed8f1a9066e
+SHA256: 131aca852cb6f72be9553b6f026fb5f0e5f0f11a289ef44e7add237cc871c7cb
+SHA512: b566813ad364e8e01535c3a6eea5282038cf7883458f6d7ca8c7edbb18fa31609d7a4abd32a893b1a82d9795466c4353b35127760b645c52b84126a54752c5a5
+Section: 插件
+Description: This tweak will show the Accept/Decline buttons when the phone is locked!此插件将在手机锁定时，增加来电话显示“接受/拒绝”按钮！
+Name: LetMeDecline来电按扭-Rootless
+Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.lindongdaodonhua
 Architecture: iphoneos-arm64
 Version: 1.1.8
@@ -4595,6 +4731,25 @@ Author: Hmmzzz
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.messagesxi
+Architecture: iphoneos-arm64
+Version: 2.3
+Maintainer: 搬运工
+Pre-Depends: firmware (>= 14.0)
+Depends: mobilesubstrate, ws.hbang.common (>= 1.13), ws.hbang.alderis (>= 1.2)
+Filename: debs/byg.iosios.net.messagesxi_2.3_iphoneos-arm64.deb
+Size: 45482
+MD5sum: 78900176b0ac18b46d7b87d53a0dd569
+SHA1: 69e97ed7ae3af0da0ab8c86655a7cc63544266b5
+SHA256: 5da21907e7716bc80b6b1907b3ca48ae361300259d6aa0aca4b32855d9aeb50c
+SHA512: aa72af5ad6f9a8a5b2c7373834d5db2e5e1e0e10bc9e2df856191b3cffb109237d6f98c7aa31d885bc6d9718b163c3926f2c037a91530e56f4702e8f1328e4df
+Section: 插件
+Description: 我不知道这插件有什么用，下面我来给大家介绍：我写这篇文章是为了最初解决我在消息应用程序中的烦恼！从那时起，添加了更多功能来增强 iOS 设备的消息传递体验：无缝调整集成到“信息”中，提供类似 Apple 的体验。所有设置都在应用程序本身中配置 - 不再转到设置！如果您在对话中选择“消息”时将其置于背景或关闭，则系统会推回对话列表，而不是停留在上一个对话上（这是激发此调整的最初问题）。手动读取/取消读取消息的能力！如果启用此选项，您将在对话中看到“已读”或“未读”，具体取决于您是否真的有未读消息。手动未读聊天也会有不同的未读指示器颜色，让您知道它是手动未读的。打开“消息”应用，然后单击“撰写新消息”按钮左侧的省略号（3 个点）。这将打开一个上下文菜单来配置MessagesXI。正如一开始我所说，我不知道这插件有什么用！没用就卸载！
+Name: MessagesXI短信增强-Rootless
+Author: Excalibur
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.mikkyy
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -4667,6 +4822,25 @@ Section: 插件
 Description: Customize your iOS 15 & 16 experience with Misaki. customization options to make your iPhone truly yours.一款系统调整插件，主要对锁屏、主屏幕、文件夹、系统设置等多地方进行优化！搬运工源已汉化，原价1.49刀，有能力的请去支持作者！
 Name: Misaki系统调整-Rootless
 Author: Hitori
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.miuminuipro
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 4676
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/byg.iosios.net.miuminuipro_1.0_iphoneos-arm64.deb
+Size: 3619942
+MD5sum: 6af81a028b72e2ba50af89a42df52971
+SHA1: 73c748230fe6f56f75151d7f59ba36a2be32f090
+SHA256: 60ab4a8297a857052412aba2f4c341cf63289213ec60be4fa0a3570749d0ea8c
+SHA512: bc12cf5613129f1fa350db38541845a76751b930546a873b050da2809bcfdde59a6110c7bf61f732e9dc9ad79e7eee976a3daabab37b486cfd64e36fc7f66f82
+Section: 插件
+Description: Miumin UI Pro is custumize CC on Jailbroken devices for iOS 15 & 16.一款控制中心美化插件，非常的好看，还好动呢，可以替换控制中心壁纸，喜欢美化的朋友们不要错过啦，已汉化！
+Name: Miumin UI Pro控制中心美化-Rootless
+Author: Phuc Do
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -7122,6 +7296,44 @@ Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.vcam.rootful
+Architecture: iphoneos-arm
+Version: 1.0.0-18+debug
+Maintainer: 搬运工
+Installed-Size: 968
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.vcam.rootful_1.0.0-18_debug_iphoneos-arm.deb
+Size: 274396
+MD5sum: 99b13c76584257b89bc50884172f36a2
+SHA1: 8cac2fcd6a348a8be672c3fd93539f742942025f
+SHA256: 7a4efa8f57f5d298f2258265ca5e16e88a7ac39a04de6cff679e46fe40b84fda
+SHA512: 6b8ee9a29956854156fe1193c2408c7d5e26426586ddce1f67e4441de817742dba5a59830554cbc1356389c479c31731f6e70d9f1160c7e75709fac4a904a32b
+Section: 插件
+Description: 在app任意界面三指双击显示悬浮按钮；长按悬浮按钮或者再次三指双击隐藏；制作替换的视频用剪映先镜像再逆时针旋转90°比较好哈！
+Name: VCAM虚拟视频
+Author: vcam
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.vcam.rootless
+Architecture: iphoneos-arm64
+Version: 1.0.0-4+debug
+Maintainer: 搬运工
+Installed-Size: 948
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.vcam.rootless_1.0.0-4_debug_iphoneos-arm64.deb
+Size: 270520
+MD5sum: 94ef0c189b1771fc4c63e1f362abd4e6
+SHA1: f90e46f4604b13963c9a31723bbfd4fdaf6233bf
+SHA256: f1dbdfef89ec414abe6bfe0e693b818a9a7f8439f744e5a1b873ab4bc0a47b52
+SHA512: 7c7634e8ae7f0daea4d8a00998825d7539905655a21af6d7fa896947ed125d605f55854ade5b1831b7f76a730bf630d5ab3a725fbb7f1c0560f4f907ba72ddd1
+Section: 插件
+Description: 在app任意界面三指双击显示悬浮按钮；长按悬浮按钮或者再次三指双击隐藏；制作替换的视频用剪映先镜像再逆时针旋转90°，这样比较好替换哈！
+Name: VCAM虚拟视频-Rootless
+Author: vcam
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.velvet
 Architecture: iphoneos-arm64
 Version: 2.3
@@ -7293,6 +7505,25 @@ Section: 插件
 Description: 安卓风格的锁屏，效果如图，此插件系有根插件，修复支持rootless，添加中文支持（汉化：lans233）注意：锁屏有通知时是另一种风格，无通知时才会显示插件截图介绍的风格！搬运工源，永久免费！
 Name: Waktos安卓锁屏
 Author: alimaulana
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.waqt
+Architecture: iphoneos-arm64
+Version: 1.4
+Maintainer: 搬运工
+Installed-Size: 412
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.waqt_1.4_iphoneos-arm64.deb
+Size: 50578
+MD5sum: 572c92c7d46a4d4882cb3b527d83a39f
+SHA1: ab62ac9a91d37066c6cb9365a9a15e3caaea50a2
+SHA256: e9baf6189c57910fdeedb637ba57f52f6e0bc393ff7bea1febaf6ae510344122
+SHA512: a7b79ded0fda463090b31a66432fd38317e91ae0fd41f71653b35286a8c4b31fd57c857b209087c5fddb13835e174771a06595ba276ffac37e94a46331045cfe
+Section: 插件
+Description: Know more than just the current time!没有购买电话助手和nicebar的用户可以使用此款免费插件进行时间日期自定义，此插件由搬运工源自主汉化完成，又get一项新技能！
+Name: Waqt日期时间自定义-Rootless
+Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -10513,6 +10744,25 @@ Section: 插件
 Description: Animated anime characters as your clock digits.一款让你的锁屏时间变成动漫人物的插件，非常的可爱，喜欢异次元的用户的最爱了，暂无汉化，请看截图翻译，感谢搬运工源水友购买分享，谢谢你！搬运工源有你才精彩！
 Name: AniTime动漫锁屏
 Author: yan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: jp.akusio.backgrounderaction15
+Architecture: iphoneos-arm64
+Version: 0.01
+Maintainer: 搬运工
+Installed-Size: 340
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/jp.akusio.backgrounderaction15_0.01_iphoneos-arm64.deb
+Size: 17296
+MD5sum: 5c26532b7697177ea0418407b2c808f1
+SHA1: 43230214c653a8a69d15a31b9d810d6afe4f0475
+SHA256: d2e93eda53d98a0d14f6e1846b3117cc1a74b415ee4ac7be639237a991b8782f
+SHA512: fca4d9d9be5da0d00a25db46d2b86eda91a8959f5bdb4c79c19966a19e044f0404122fcedbfbcb5f11fa20c76e1d6339e314afd682d96e8211052a0b12841100
+Section: 插件
+Description: [iOS15]Add "Toggle Background Mode" action to ControlCenter.分屏插件依赖！
+Name: BackgrounderAction15 CCSupport
+Author: @akusio_RR
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
