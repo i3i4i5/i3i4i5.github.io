@@ -1218,6 +1218,25 @@ Author: ren7995
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.autoscroll
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: 搬运工
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.autoscroll_1.0.5_iphoneos-arm64.deb
+Size: 16182
+MD5sum: 4184a3bae8f9fecee69bfc124996f50e
+SHA1: e41f5e9b3a57a8c783ecd9c96751ac430b905545
+SHA256: 25c8357e24dd49e7778349986db8c920a66364569ca7938e538d6e298bb5c374
+SHA512: ac26380adcbb6740a9a8eb5009ee413be5603b8655db733df2d35eba0e0e06aecff345dbbe20083b66d9d0d147ecec0a93197e69937775193f1cdadd6afa9e76
+Section: 插件
+Description: 功能：页面自动滑动，全局生效，APP内双指长按出现设置菜单，然后自行设置功能即可，不要屏蔽插件注入应用，不然不会出现此插件！本插件能够跟随你的手指滑动幅度，页面始终自动滑动，直到你触摸屏幕才停止！一款小插件！还不错！
+Name: AutoScroll页面自动滑动
+Author: iamdega&daodao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.awemefullscreen
 Architecture: iphoneos-arm64
 Version: 1.3-7
