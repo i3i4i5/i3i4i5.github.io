@@ -2463,6 +2463,25 @@ Author: iKarwan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.immortalizer
+Architecture: iphoneos-arm64
+Version: 2.0.1.1
+Maintainer: 搬运工
+Installed-Size: 660
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.ccsupport
+Filename: debs/byg.iosios.net.immortalizer_2.0.1.1_iphoneos-arm64.deb
+Size: 88958
+MD5sum: 98cc46f925bed351a30296dc912102dc
+SHA1: f91b52bf905c981381d8fb8839ebed453ce9cd80
+SHA256: 461065b9522d776bcea64d1046e07769658e4c75773cd99e9bd1eee524d34939
+SHA512: 53797037710968ed3522657a94c1705df1bb0bdaa15c6a4694fd11cff5a038931763c2858f1ba9fce3964e45501e2a8dd709260d872ac911448544613d6ad41a
+Section: 插件
+Description: Foreground your tweaks even if they are in the background!本插件的作用让您的应用程序无限期地在前台运行，即使它们在后台运行！可以通过 3D Touch 上下文菜单启用/禁用应用程序背景（前景）即使屏幕关闭/设备锁定也能工作！也可以控制中心添加快捷方式，打开你需要保持真后台的软件，然后控制中心点一下模块即可！总结就是有点类似于真后台的插件吧，感觉还不错，有需要的小伙们可以试试，搬运工源已汉化！
+Name: Immortalizer真后台-Rootless
+Author: sergy
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.indicators
 Architecture: iphoneos-arm64
 Version: 1.2-22
@@ -7132,6 +7151,46 @@ Description: Click to wake up and double-click to wake up.单击唤醒改为双�
 Author: Netskao <netskao@gmail.com>
 Name: DoubleClickWake-rootless
 dev: netskao
+
+Package: org.mr.bioprotectxs-rootless
+Architecture: iphoneos-arm64
+Version: 4.7-4
+Maintainer: 搬运工
+Installed-Size: 2328
+Depends: byg.iosios.net.limneoscrack-rootless, preferenceloader
+Conflicts: byg.iosios.net.bioprotect.cn.rl, com.hk.bioprotect.cn.rl
+Filename: debs/org.mr.bioprotectxs-rootless_4.7-4_iphoneos-arm64.deb
+Size: 839282
+MD5sum: 80802f271d9c99a61133a1406abc8860
+SHA1: 7cc0e55d8e23bd16e1657dcb42f218f3e5c45f4c
+SHA256: 8ba3490a28006891a7020d18e2122a43fde069226090a217ccafadf0a51ca795
+SHA512: 4b228ec3b7a1d61767010274ec4609c91c9bb4af93430dd213ac83bedd56431e9eee982a3eb2664515a4709e5899e2bb430e1a77a30b4722388a655115bf760c
+Section: 插件
+Description: 使用面容ID或者指纹，保护你的APP，一款非常好用的软件保护插件，本插件已自带汉化，请卸载你的汉化插件再安装，更新也请卸载汉化包！
+Name: BioProtect-软件应用锁-Rootless
+Author: Elias Limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: org.mr.voicechangerx-rootless
+Architecture: iphoneos-arm64
+Version: 2.4-136
+Maintainer: 搬运工
+Installed-Size: 1476
+Depends: byg.iosios.net.limneoscrack-rootless, preferenceloader
+Conflicts: com.hackyouriphone.limneosos, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: debs/org.mr.voicechangerx-rootless_2.4-136_iphoneos-arm64.deb
+Size: 464976
+MD5sum: 335d2b3e162a77f9e0bb29773463923c
+SHA1: d9719a359c58b0c4c448c1b07b9905ef33179725
+SHA256: 91b4bd2507ea905ecb95e5ac2facd280fff59b9aa7ac54fcb072fe18fe0f2d8d
+SHA512: 8657c353e6a98f237c8c03cb5caed658726bdfe3487431d72fd92a6d9b0b31821b2116b332d36eead0e809d4e694d5eb752ccaa72f711385c0267fffe6db9f62
+Section: 插件
+Description: 一款非常好玩的变声器插件，在别的中文源还收费！搬运工亲手汉化，刚学的技能，挺有意思的！自己汉化，丰衣足食！不过只能用于系统电话，不能用于APP！搬运工源，永久免费！
+Name: VoiceChanger XS变声器-Rootless
+Author: limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: preferenceloader
 Architecture: iphoneos-arm64
