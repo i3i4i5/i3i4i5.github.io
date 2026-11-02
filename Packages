@@ -1074,6 +1074,25 @@ Author: Seasons & huami
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.Fileball.rootless
+Architecture: iphoneos-arm64
+Version: 0.2
+Priority: optional
+Maintainer: Pay Ne
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/byg.iosios.net.Fileball.rootless_0.2_iphoneos-arm64.deb
+Size: 21970
+MD5sum: 5ff7cb6cb417a14a16ee2076abb1bfa7
+SHA1: 73b9b48c0cee2f6afc40478654f7dd57edd933fa
+SHA256: 6c6e30e22296d50afad54940e16f9a3776cea74562b681fef310e675983648a5
+SHA512: 58b63e6d5d1db2f5cc6aad678b0c4bbabfa1fe06c5586c7cf64138cb616e3523b036175a518ea502efc128537ff2de332f53d9b35203319bd2a8aa46b21849a6
+Section: 插件
+Description: Fileball高级版，这是一款播放器，可以直接去appstore搜索查看详细介绍，好不好用，不太清楚。
+Name: Fileball播放器 破解-Rootless
+Author: Pay Ne
+Sponsor: Acreson <342080124@qq.com>
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.Flex3.xiufu
 Architecture: iphoneos-arm64
 Version: 1:3~Beta99
@@ -1471,6 +1490,25 @@ Section: 插件
 Description: Change your font!字体更换工具，不是很好用的字体更换插件，滑雪板snowboard比较好用，可以添加主题源，直接下载字体即可！适合小白使用，简单！搬运工已汉化！是傻子都会用的换字体工具！搬运工源，搬你所想！
 Name: A-Font换字体工具-Rootless
 Author: Baw Appie
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.accdemo
+Architecture: iphoneos-arm64
+Version: 0.2.5
+Maintainer: 搬运工
+Installed-Size: 828
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/byg.iosios.net.accdemo_0.2.5_iphoneos-arm64.deb
+Size: 108426
+MD5sum: bad4609ca481488fe9e4d914c66d9302
+SHA1: a36626794a603814535797c2f29ae32c3dce2c71
+SHA256: 0853eb853837e82c6a8a5f736a7c3b2f05b9501e55d8c61815241c9fcca00b11
+SHA512: 949b730cf1b96b23ca6644c3bcafa438612aad005ad7c75c4c49b3581b6145f8c297608b3613076d6856296315b6668782f343ded9c73bef173e69cc260ee849
+Section: 插件
+Description: Control the speed of your game游戏加速器，会玩的玩，应群友要求，所以上架！有任何问题请缷载！
+Name: AccDemo游戏加速器-Rootless
+Author: Brend0n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2026,6 +2064,25 @@ Author: Paisseon
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.apphider-rootless
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Maintainer: 搬运工
+Installed-Size: 260
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/byg.iosios.net.apphider-rootless_0.0.6_iphoneos-arm64.deb
+Size: 53942
+MD5sum: 41f29d145b274e501d4e861ae87ca971
+SHA1: 7986f4f989d33b9820de63849dee0aee0057b2b4
+SHA256: afd06a552e7a8d5667795102eb01abbf3f1c409b11a757cd5e9e749d2bfdb43d
+SHA512: 80877f477f1c469a5367db46999654bf0bc70d518e24e54ad0cd3d720320de9162fce96320048fbfdbc614b2d77824aaee5d0782326582c20fcc8e2f87201c0f
+Section: 插件
+Description: 应用隐藏，控制中心可设置隐藏-恢复设置里的应用隐藏。
+Name: 应用隐藏-Rootless
+Author: lenglengyu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.apple.Preferences
 Architecture: iphoneos-arm
 Version: 9.9.9
@@ -2060,6 +2117,27 @@ Section: 插件
 Description: 关闭系统过热降频和自动降低亮度，安装/卸载后需要软启或者重启设备，特别提醒：iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！iPhone 12以上设备不兼容！
 Name: Apple Turbo Boost关闭降频温控
 Author: Halo_Michael
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.applibrarydisabler
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Installed-Size: 176
+Depends: firmware (>= 14.0), mobilesubstrate, cy+model.iphone | cy+model.ipod | firmware (>= 15.0), com.thuthuatjb.iconrepo.rootless
+Conflicts: com.tomaszpoliszuk.applibraryenabler
+Filename: debs/byg.iosios.net.applibrarydisabler_1.1_iphoneos-arm64.deb
+Size: 4688
+MD5sum: 2886338a56d0370971a37fd5a586dbfe
+SHA1: 8864066eb0a44dbed719fe44713d542349b6c427
+SHA256: 4b4aea8124763a828beefff05b5882bc350aa4a6ac859744264395b304259022
+SHA512: 04ecc558ee9fc071f7699d6a9b23940adb0fb5831eca61af6490e469bafcd2f9189aad7b5a8169fcbba87954a0492794562396bb1d772b682d229263dbb1f516
+Section: 插件
+Description: Loại bỏ hoàn toàn App Library trên thiết bị禁用系统自带的资源库，电话助手或者很多插件都有此功能，此为单独插件，安装即生效，不用设置！
+Tag: purpose::extension
+Name: 禁用资源库-Rootless
+Author: Tomasz Poliszuk
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2833,6 +2911,44 @@ Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.bbbspro
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 208
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.bbbspro_0.0.1_iphoneos-arm64.deb
+Size: 54638
+MD5sum: 0be857f63f183fdf12379a91bfa9e831
+SHA1: 7172e0d6672370fce17fc5d7e77d71138bfea2dc
+SHA256: f63802f5d6f5f8bee5d7a5a111cbad7f41dce5ec7b7c6a86a03bad5bfc99945b
+SHA512: 760630f7ee011a8ad3d77c7db3b976edb5322ebc3ecf974d2962e160c89b8a6d19062002ba68acc3338b9868a053de3c686b4a5a5a3c61a4ffddbee3b857bcf2
+Section: 插件
+Description: 解锁会员权限。周末别看黄片了，在家陪陪孩子吧。
+Name: 宝宝巴士Pro-Rootless
+Author: lenglengyu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.bdtranslate.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.bdtranslate.rootless_0.0.1_iphoneos-arm64.deb
+Size: 4934
+MD5sum: 1288924192c641ebac337fa4590cbda3
+SHA1: c0ba1e4e698570d0af576041677215794b14d7ee
+SHA256: 1285edad97e3c7372ad333383e37c283d2d261759ac353de29b784045bbfb42e
+SHA512: df0e4b3cf4886683f0bfa25d071d71feb2a6463ec8c04916ed07c91c422a62ac1d38430f45c5c2be057c10a7db656d2434f4bb9a5aba3fd25c5610931e2effc8
+Section: 插件
+Description: App Store里的百度翻译APP，别误解了！ 优化精简了部分内容，有需要的自测
+Name: 百度翻译 优化-Rootless
+Author: iosign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.better.bili
 Architecture: iphoneos-arm64
 Version: 2.3.3
@@ -3469,6 +3585,25 @@ Section: 插件
 Description: Open any app in CarPlay!此版为破解版，让不支持互联的软件显示在车机上！仅供群友尝鮮，正版9.9美元，好像是有点贵，但是有能力的请支持正版！使用中有问题可以加群反馈，等待更新，也可直接入手正版哈，搬运工源只为免费搬运！旧版本在搬运工群文件里，新版本有问题的话，请手动降级回旧版本！不支持半越狱！
 Name: CarBridge汽车互联（Carplay）-Rootless
 Author: leftyfl1p
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.cardculator
+Architecture: iphoneos-arm64
+Version: 2.1.1
+Maintainer: 搬运工
+Installed-Size: 784
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.opa334.ccsupport (>= 1.3.7), com.ginsu.comet
+Filename: debs/byg.iosios.net.cardculator_2.1.1_iphoneos-arm64.deb
+Size: 252464
+MD5sum: e1535a25a6170cab5cd412996bb55bd7
+SHA1: a7f689c4b33c81de45ae00c5f5059293f6dca0a4
+SHA256: 706f16f945e4ce60acc3fe06bdc160aea480e3af37acb8ad35dbad057e5e68b7
+SHA512: 3fbf3afe05b2590adb1c3a395989bef24242adaaecbebab754a675510d5abbb2438a1ad9324bfa4a496c91d756f060f57394287a594e84044a422d945770aea9
+Section: 插件
+Description: Calculator, but smaller悬浮计算器，怎么会有人喜欢这种东西！
+Name: Cardculator悬浮计算器-Rootless
+Author: sourcelocation
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4672,6 +4807,25 @@ Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.doubletaplock-rootless
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.doubletaplock-rootless_0.0.2_iphoneos-arm64.deb
+Size: 6264
+MD5sum: d09a10d918ccba2466c45eceb806c271
+SHA1: 812d6f23be8f22076e9a3a4e6112254be1e6721f
+SHA256: 89335aeca0344b2783bf7ee34d36de93c71fe589af3fffb5cfaeb910083f5c53
+SHA512: 6a5c8c426690e0b9f33094b3974c487c9032b1d5e5f010014413995361340b7e8c164261535979ea8d2c1cba5fd25f697adff606be3f610357b5a2a5c35e5640
+Section: 插件
+Description: 双击桌面空白处锁屏或点击翻页小白点。
+Name: 快速锁屏-Rootless
+Author: lenglengyu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.doutu.rootless
 Architecture: iphoneos-arm64
 Version: 3.1-7
@@ -5012,6 +5166,25 @@ Section: 插件
 Description: 地震预警是App Store里的一款软件，配合本插件介绍会员权限，说不定什么时候能救你小子狗命！
 Name: 地震预警解锁-Rootless
 Author: HW
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.easynotify.rootless
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.easynotify.rootless_1.0.0_iphoneos-arm64.deb
+Size: 8374
+MD5sum: 82beddcfce53054b96c946ab1c9efa7b
+SHA1: 326aeabf8f75a0e226701e53ae48cbc85563a495
+SHA256: f8476bf27d78a3790127a6d857ef7f6d66ea353b2e95abf0d719491756284b18
+SHA512: 40dbe70045319d08bee74edad85daaff165f8da2b40eb3d2fdc380b839dd72d612dabbe61ae9c9d81e8cbf5c9a251fb9e030db3a6b6acb253b06b5b5d3a771c3
+Section: 插件
+Description: 按压APP图标3D Touch菜单快速开关消息通知，有需要的用户可以安装体验！
+Name: 快捷开关APP消息通知-Rootless
+Author: Snail
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6454,6 +6627,25 @@ Section: 插件
 Description: Your control center, brought anew.一款控制中心美化插件，非常的不错，可以缷载一些其它功能的插件了，感谢搬运工源管理购买分享！这款插件非常的好看，给人一种清新的感觉！搬运工源，真的用心在做免费！一个搬运工源就足以！喜欢的小伙们点个赞！万古长青！
 Name: Jade控制中心美化
 Author: Nightwind and thetimeloop
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.jdlitenoad.rootless
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.jdlitenoad.rootless_1.0_iphoneos-arm64.deb
+Size: 5192
+MD5sum: ccbe1dad26eeae825a0f7e7c81fa6475
+SHA1: 9b1f52ad8736650fcdfc9648b6f369d209242902
+SHA256: 1211cf62416e55b817ca9abe344dff9eb0adaca893e64cdad24889ae3e658a53
+SHA512: b1c00715740b868b9a2e884fd596af4c9942b0b1dd05616f026eff2c9e7172b901515a030a672b9b9763bb76732ad016d375e3d0b310c9d22d378660321a0e89
+Section: 插件
+Description: 去除启动广告、精简个人主页和搜索栏
+Name: 京喜特价 去广告-Rootless
+Author: iosign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -10045,6 +10237,42 @@ Author: Uckermark
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.sixteenmusic.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.6
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.sixteenmusic.cn.rl_1.6_iphoneos-arm64.deb
+Size: 1618
+MD5sum: a9d1c89a5e7efa2d1a182a9735831502
+SHA1: 9697be079dd08b7c55916490dd6c04646e0e419e
+SHA256: 0fd3bdbb42cbbee4dd0843ac1d201d670cc8e7a88c16da3e00eeca7528a7dfc1
+SHA512: 893263d5b25d18f255ddfb477b7a00ba26dce78f671cb57c44e27fb551af134bed34affecabfcce314afaefa5a14e093f3c9fa2e6f464b24bf849e913e4ed65d
+Section: 插件
+Description: SixteenMusic 简体中文包(rootless)。
+Name: SixteenMusic中文包-Rootless
+Author: 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.sixteenmusic
+Architecture: iphoneos-arm64
+Version: 1.6
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.sixteenmusic_1.6_iphoneos-arm64.deb
+Size: 475394
+MD5sum: fb85e143c1f8b4ffb70c176dcbbb68a2
+SHA1: 523e13678327498981ae55e430cffec013ef8c47
+SHA256: db8b07e5b2c3e474975dc0b84ccfa1caa1ad8236b9609e4facc132410d0859ac
+SHA512: 683ea1bec6f19a7cb2315a8dbc2f20a3c408e448ec885184e277d7171d8817b5d96af34241f04d2a96df3f92f7da15a8e2addf026139307718799ca54436cfc8
+Section: 插件
+Description: iOS 16 style lock screen music player!  商店卖0.99刀的iOS16锁屏音乐播放器，现在搬运工源免费使用，呃，一刀的话，觉得很不错的话可以去支持作者，反正又不贵，具体看截图介绍，源内有中文汉化包。
+Name: SixteenMusic iOS16风格锁屏音乐播放器-Rootless
+Author: Ethan Whited
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.sjsp
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -11484,6 +11712,25 @@ Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.vcam-rootless
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.vcam-rootless_1.0.0_iphoneos-arm64.deb
+Size: 51550
+MD5sum: 25aaf6cd1f1ac9688d7e19d8a16292a8
+SHA1: 817c71158ad995d73ff70ccb826e478e469d2046
+SHA256: e061ff69e1a98ad938ba97a1d6662e548c2b434497d6d85a89c7a32f9a02494d
+SHA512: 62fcad3124aa4d86711eaa72b44d2b1636bb1d6f5d203f640bd9da4c991c0202dd214999934163c3075e42874b7c1041f9e0da31f21e847b8616da793da9ba87
+Section: 插件
+Description: 虚拟摄像头多巴胺版本请勿用于违法！如果无效，就是插件无效了，可以卸载了！
+Name: 虚拟摄像头-Rootless
+Author: trizau
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.vcam.rootful
 Architecture: iphoneos-arm
 Version: 1.0.0-18+debug
@@ -11825,6 +12072,25 @@ SHA512: 1920fc6d97420b575e8aa6ada455eb79a356038bb1b1b863842b3d23496ce77188245fdf
 Section: 插件
 Description: 微信 8.0.56 及以上高版本会云控微信，导致第三方插件设置入口和功能失效，该插件解决此问题！热更新就是不通过App Store直接在微信app内部更新一点功能！另外安装搬运工源里的微信插件管理也能解决此问题，反而更好！
 Name: 微信禁用热更新-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wceablefriendsstar.rootless
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: netskao.wceablefriendsstar
+Filename: debs/byg.iosios.net.wceablefriendsstar.rootless_1.1-2_iphoneos-arm64.deb
+Size: 79756
+MD5sum: 812877c1b41d6252e12528cefec73492
+SHA1: a6c71685cd320e7ff9ab5ab8aafb3d7183430572
+SHA256: f4f1d7611e243f73c9109db86b5b588cf67abf522d8fa0614bb1d38fb529ce3f
+SHA512: 41c7d5d1ec18737689523bdf99e8f6b94525baff0aba59c130d53888f14481baf86a63dd6e219c6bf64ed1f5b83c0a0a76e69a20318e71dff1b232c795bae068
+Section: 插件
+Description: 直接启用微信朋友圈置顶功能，无设置，应该仅支持8.0.36及以上。应群友要求，所以上架。
+Name: 微信朋友圈置顶-Rootless
 Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -14926,6 +15192,25 @@ Section: 插件
 Description: 启用微信8.0.54版本【原图、原视频14天后自动清理 】看好微信版本，低版本不行！
 Name: WCEnable原图自动清理-Rootless
 Author: huami
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.icraze.complicationsfix
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/com.icraze.complicationsfix_1.0_iphoneos-arm64.deb
+Size: 3452
+MD5sum: 51ce7e4b6116ba307b1cbe2c075125fb
+SHA1: f701dd7c24acc209bd9481a908acf78bf836cea5
+SHA256: cda545c3b908993b090e859d3119baf889ff17a19aa45f27be212199fc93f294
+SHA512: 4c8cdd25cc437d134116ffaf3fc3e0b69414ffb9cb198d9be7bd970b4aac5e4cb73025c446842989d70bc92c71362e885fd805e1d22bbff1238fa18c8723947c
+Section: 插件
+Description: Fix Complications tweak on iOS 15 (and maybe 16)手表锁屏插件依赖
+Name: ComplicationsFix插件依赖-Rootless
+Author: iCraze
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
