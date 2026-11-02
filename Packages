@@ -794,6 +794,26 @@ Author: Acreson
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: applist
+Architecture: iphoneos-arm64
+Version: 1.0.09
+Maintainer: 搬运工
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: debs/applist_1.0.09_iphoneos-arm64.deb
+Size: 195598
+MD5sum: 8574bc5522c7ef5475f8b03a88e23f82
+SHA1: cfa29e4a0a6d06f85174604b14b0170762ce794b
+SHA256: cddf59891f8ef9b65daa5b66a3fee5fb8abb51472d46e1653e082f4e604f58c2
+SHA512: a65b55c2f6eb89418754c1c6fcc95f6d75cdee6b60e59f5a49ff0c9afce65b8025de0d98463ff5c3bc608a0a7bc1aac29da66361072829e5bd6b8887a0aab1f0
+Section: 插件
+Description: Allow extensions to read the list of installed apps
+Name: AppList
+Author: Ryan Petrich
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: apt.llld.settingswallpaper
 Architecture: iphoneos-arm64e
 Version: 0.0.4
@@ -4235,6 +4255,25 @@ Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.compactbatteryavocado
+Architecture: iphoneos-arm64
+Version: 2.0.6
+Maintainer: 搬运工
+Installed-Size: 492
+Depends: mobilesubstrate (>= 0.9.5000), firmware(>=14.0)
+Filename: debs/byg.iosios.net.compactbatteryavocado_2.0.6_iphoneos-arm64.deb
+Size: 136154
+MD5sum: 33c24f4920aead9c53a625560cd4d9aa
+SHA1: b9476e60cb75fe40afd83c9da9f7e3f989cc1e7a
+SHA256: f2b9d7b99fc6a36aeda30cab5a7d87d1278085e1815f85dcfbee1e8e4282c966
+SHA512: 2eb6f65f473d728d5ea81bd01d72ccb485d199d1864632d22d5307acd2e93f0c8e51deff584ce58499726b40fcfc7f7bb0ab00a6f95ca230d15a80d59343734f
+Section: 插件
+Description: 在2x2的小组件上显示电量百分比。Show battery percentage on 2x2 battery widget.
+Name: 电池小组件显示百分比-Rootless
+Author: udevs
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.complications
 Architecture: iphoneos-arm64
 Version: 4.1
@@ -5490,6 +5529,43 @@ Section: 插件
 Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。支持 iOS 16.0 - 16.6、iOS 17.0 - 17.4。署名：chatgpt5.6（sol） · JaySuen。反馈 Bug 和建议：在酷安 App 搜索 JAYSuen 私信，或搜索 Evo Center 找到最新帖子评论。向 ccborder16、horizontalsliders、bettercc 致敬，感谢其设计与实现带来的启发。
 Name: Evo Center控制中心美化
 Author: chatgpt5.6（sol）, JaySuen
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ezswipe.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.ezswipe.cn.rl_1.1.1_iphoneos-arm64.deb
+Size: 1628
+MD5sum: 4bcb07c1a1ca10f928153fcef73507b4
+SHA1: afd5c580a3e1969cb48297d7ecd942f9461cd46e
+SHA256: 769935f91845037b05644bfe3a6355db82c7a961210aab38825c09a7e807251a
+SHA512: fcb6afc7da74ce54ece5e3642f46f6d1858334cd5c6158357485786c9695ea3c7f766a8bd1292655b7c536ee06ee3dcb07a36bdfd4fbbeaa0260ba08419ccb2c
+Section: 插件
+Description: EZSwipe 简体中文包(rootless)。
+Name: EZSwipe中文包-Rootless
+Author: 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ezswipe
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: 搬运工
+Installed-Size: 404
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.ezswipe_1.1.1_iphoneos-arm64.deb
+Size: 32442
+MD5sum: e544affc9af459631859b0631a35587c
+SHA1: 2bda3e97a7e3c3ad6e335e6b9f5e19a5020f7fe6
+SHA256: 01ff449869bc92034b12b4258fca23d64a58b62a0edd4474a8495a2acf89c2ff
+SHA512: 2f17761861b90576e197617b9cfac213ce6f5bc93d018f7c0d95647d176952a0dcf3ef5e6b4d75e388abbdfaabdf54f1c7988af8017677f3b13fdb6e5cfa0aff
+Section: 插件
+Description: Give your hand a rest by using gestures instead!EZSwipe  是一款主屏幕向下滑动手势插件，可以自定义下滑的动作。
+Name: EZSwipe手势插件-Rootless
+Author: P2KDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -7651,6 +7727,25 @@ Author: MrDeNsor
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.lowpowersleep
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 208
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/byg.iosios.net.lowpowersleep_0.0.1_iphoneos-arm64.deb
+Size: 23140
+MD5sum: b25c5344f0f481a3fda76a1288512f21
+SHA1: 101f2f42cbe2fe5e7350d5530e1e6e4861c5217f
+SHA256: 4ac30a36b7875bbd8467f4f9462c81b0cb5310c8610a761d46fb70d88e1874ab
+SHA512: 989d3ca700b5df433217acf61610fa7ee7796646528e64993a29cb5836fd04b8f600fe5cb9ce4dad5a1dbeee6f444607da7be6708882d8d9ff713b563b542cca
+Section: 插件
+Description: 锁屏时自动打开低电量模式
+Name: 锁屏自动低电量-Rootless
+Author: Hoangdus
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.lsduanju.rootless
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -8752,6 +8847,26 @@ Author: AnthoPak
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.passby
+Architecture: iphoneos-arm64
+Version: 1.9.1
+Maintainer: 搬运工
+Installed-Size: 688
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/byg.iosios.net.passby_1.9.1_iphoneos-arm64.deb
+Size: 125140
+MD5sum: 537e20051d01565e2eae359223eda05d
+SHA1: 299cc2536960ffefb9d57ab115924449291b7706
+SHA256: 2614ce626981ebb2af0852adef74e0e1992e648cc242ffdc20f1c0f25492387e
+SHA512: 85bb2245886023f212fe49dade0dfc6a81237efd39caa5f23a76f4f559bbabc453212650cac27a13e08ed99e097254244d3e4cdc76b00ce56e844a8e8544deb5
+Section: 插件
+Description: Bypass passcode in many ways临时绕过人脸，WiFi自动解锁，更多功能请看截图或者安装后体验，如果有问题安装无效或者安全模式请卸载！已汉化支持，特别感谢M哥为大家带来更多更好的插件转换
+Tag: purpose::extension
+Name: PassBy智能化面容-Rootless
+Author: M哥
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.perfectxtime-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-3
@@ -9518,6 +9633,25 @@ Author: Zuner
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.quantumultxlauncher-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 164
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/byg.iosios.net.quantumultxlauncher-rootless_1.1-2_iphoneos-arm64.deb
+Size: 15100
+MD5sum: 02c2ea837278b09a15c028ed47dc3b48
+SHA1: 14b5bb0d3e1259c5e9a51eb9714b94056acb53a0
+SHA256: 87a03ae58f16807e2a346815edefc0f2acc8d1ae7c00f45bf8a368cd18e76d59
+SHA512: dc3506cdf62a8c4a74e13f3e30c3e08eada729b7aa84bb66cf34da4111dbec2820a5758fe76b3bc3b184952f3fd8de599d84c3b5609a4b0383a6b929f38e547b
+Section: 插件
+Description: 通过控制中心快捷进入QuantumultX
+Name: QuantumultXLauncher-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.quickactions.rootless
 Architecture: iphoneos-arm64
 Version: 1.0.0-2
@@ -9683,6 +9817,25 @@ Section: 插件
 Description: Now Playing info in Reachability Window!一个好看的音乐窗口，可能有偶尔失效的bug！
 Name: ReachPlayer音乐窗口-Rootless
 Author: ETHN
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.recordanywhere
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.recordanywhere_1.1.0_iphoneos-arm64.deb
+Size: 4552
+MD5sum: a4836924758daf3bf3a8db8106c3b688
+SHA1: da4587ecd86ff3299f5c202c4880a46d504b6194
+SHA256: a17cf652c31502769d01bc9cb3cf339c09959290a273c713fc9c03e4f1066810
+SHA512: 5edba90e513ac73fce9a3a4020fcae6ed59b91a294d5dca847b1166477762aec22218fcecd3e4023587b2d448fc3c1c15b4b205177f51d5dabdc572b0f673722
+Section: 插件
+Description: 使手机在锁屏状态也可以继续录屏。修复支持Dopamine，感谢原作者提供的思路。
+Name: 锁屏录屏-Rootless
+Author: Muirey03 & lclrc
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -12305,6 +12458,25 @@ Author: Brend0n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.vpnindicator
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Maintainer: 搬运工
+Installed-Size: 420
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal
+Filename: debs/byg.iosios.net.vpnindicator_1.1.6_iphoneos-arm64.deb
+Size: 63050
+MD5sum: 97c1e4a1fe7fc466865cd18df98b6ec5
+SHA1: febf9185f5f57a0f44fe549f92d4eb37a9ae2ea6
+SHA256: e862b5da952121f00edc6a9cdcfcf1468ba1da35bf87e11d603022c703a5a93c
+SHA512: 216df26968b35b0908008c5cab26c33d73f193a208024d154a906f4c4d2b836b77d3a57e000a5ff867416239beaaaaa8133419a05d16ee39b498ea396b735969
+Section: 插件
+Description: Indicates VPN state in status bar. 在状态栏的Wifi或蜂窝数据图标显示VPN状态。修复支持rootless
+Name: VPNIndicator-控制中心开关-Rootless
+Author: udevs
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.waktos2
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -13086,6 +13258,26 @@ Section: 插件
 Description: 自定义气泡，模拟iPad登录，开启callkit通话，开启消息防撤回，最全屏蔽公众号文章广告，屏蔽订阅号列表广告，屏蔽朋友圈广告，屏蔽越狱检测状态,快速跳小程序广告，自定义步数等功能。不整大杂烩，只更用的到。***长按主页，订阅号的'搜索栏'1秒控件或任意聊天窗口中的'时间'，都可以弹出设置***如果安装之后微信闪退或者功能不可用的请降级微信到8.0.31版本，如果还是闪退，那就缷载吧！
 Name: 微信小布丁-Rootless
 Author: 来了老弟 X：h_h_x_t
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.xenhtml
+Architecture: iphoneos-arm
+Version: 2.0~beta4
+Priority: optional
+Maintainer: 搬运工
+Provides: com.groovycarrot.groovylock, com.bushe.lockhtml4, com.bushe.lockhtml3, com.bushe.lockhtml2, cydget, com.groovycarrot.sbhtml
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, firmware (>= 11.0) | com.unlimapps.uaunbox, com.rpetrich.rocketbootstrap
+Filename: debs/byg.iosios.net.xenhtml_2.0_beta4_iphoneos-arm.deb
+Size: 3343762
+MD5sum: d54b9a599703e433152dc75ebaab6913
+SHA1: 92b37f6f130036f407ba2524155f4b9e2e747a55
+SHA256: 1208aa047477c61cdd4d172d6be704bc335efdca1c28dd796ff642eb1278af55
+SHA512: f0b5a05e92e7043f23a12bced729c989d8e5917cf1313e2d47006e67becaa5605f553d7a06abda4875c312dce8f63de36cbc28530e127a57660b35ff487a5260
+Section: 插件
+Description: 高级锁屏，因网友要求，所以上传
+Name: Xen HTML 高级锁屏
+Author: Matt Clarke
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -14968,6 +15160,27 @@ Section: 插件
 Description: 可注入可越狱使用。自定义步数，精简主页显示内容.***长按底栏1秒控件或森林、运动顶栏或任意右上角控件顶部，弹出设置***,支持任意版本。250524:最好巨魔注入使用
 Name: 支付宝步数XD-rootless
 Author: 来了老弟 X：h_h_x_t
+
+Package: cn.tinyapps.rst
+Architecture: iphoneos-arm
+Version: 2.3
+Maintainer: 搬运工
+Installed-Size: 11941
+Depends: firmware (>= 5.1), mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.tinyapps.rst_2.3_iphoneos-arm.deb
+Size: 2785822
+MD5sum: 3a4562e67ae81d4749be283859a51668
+SHA1: c2b81e51bd4272840b671a6c2076c88df0fe95a5
+SHA256: 7b91be2193d09c48222637aba3a7d6c42cad828ddf1bba0370a8334c27d8dea0
+SHA512: 33253cdbc459c29c5f0d0732eb8446ac95134b348c42e15b62d5a4fb0e8b1c2dcea87d9e734e43e67a9d445df3d3c6f121765decf3e4727f56ae4c89e5916f14
+Section: 插件
+Description: MultiAccount Master(361一键新机)-支持全系统(iOS 7/8/9/10/11/12/13/14/15/16)的傻瓜式改串-Switch accounts on any apps like Facebook, Twitter, WeChat, WhatsApp, Tinder faster than ever.
+ 支持7.0-16.4的所有越狱设备包括iPhone6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro/12/12Pro/14/14pro/14max Max。最强大的傻瓜式改串软件，提供一键新机、全息备份、精准还原等功能。首创以App为中心的操作方式；无需任何参数配置；支持应用多开；自动更换IP；支持网络代理配置访问；模拟2G/3G/4G/Wifi；各种App组合随意搭配；支持分辨率调节。
+Tag: purpose::extension
+Name: 361一键新机
+Author: Tinyapps.cn
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: cn.tool.aphrodite-debug
 Architecture: iphoneos-arm64
@@ -17200,26 +17413,6 @@ Name: 液态开关
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/switchicon.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchicon/js.json
-
-Package: byg.iosios.net.compactbatteryavocado
-Architecture: iphoneos-arm64e
-Version: 2.0.6
-Maintainer: 搬运工
-Installed-Size: 492
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
-Filename: debs/电池小组件显示百分比.deb
-Size: 138152
-MD5sum: 6bd090bbfe200c6856a556b71a17b568
-SHA1: 1e48790f64378b825ef3a63758a235dcbd1a4f66
-SHA256: f8b90414cde3f0fc844db8488ce52b8f3a01fddafc0bb5698aa2937a85015793
-SHA512: 653201b4287dc137f45811729fe038b4315f248cc2573fe35434a1446f2031b433948d9270519b65d17358baf20e5b25093e2634f8713882413ff7e4eec763ff
-Section: 插件
-Description: 手机，手表，耳机等各种蓝牙连接设备显示电量百分比
-Name: 电池小组件
-Author: udevs
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: cn.llld.skineditor
 Architecture: iphoneos-arm64e
