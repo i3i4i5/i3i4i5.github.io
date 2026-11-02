@@ -1271,6 +1271,24 @@ Author: Apibug
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.appaze3
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), byg.iosios.net.anthocrack2
+Filename: debs/byg.iosios.net.appaze3_1.0.1_iphoneos-arm64.deb
+Size: 987924
+MD5sum: 5a4ac3d0dffe1be8f0d31ed4cca99efc
+SHA1: 2e7c8c3a475941c16b834b54b3d842bd71cfd81b
+SHA256: 27224ce76321758744d161091f671c705bcdd3c4bad2b78ef0c4870bb8bb773d
+SHA512: 869482bdfc289d94967f3d441520a02d5cec7726faaa86dd8bb6357fdf10f6335a2ef189878071e96a4c2faf5ac3a9cb374b97164906ecf883bb6f12e9d96376
+Section: 插件
+Description: Customize up to 30 settings for each app, in a clean and friendly UI, easily accessible!已汉化（添加妖刀汉化文件），已破解！（可能有弹窗，不影响使用，介意的买正版）为每个应用程序自定义多达 30 个设置，用户界面干净友好，易于访问！Appaze 3 可让您自定义音量、亮度、一系列切换（Wi-Fi、蜂窝网络、方向锁定、VPN 等）和自定义行为（禁用 NC/CC、禁用 Home 手势、隐藏库存警报和通知横幅等）特定的应用程序，直接使用其 3D Touch 菜单！每次自定义应用程序位于前台（从主屏幕、应用程序切换器等打开）时，它都会设置所选值。
+Name: Appaze3多功能自定义-Rootless
+Author: AnthoPak
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.appcardlite
 Architecture: iphoneos-arm64
 Version: 3.3.3-end
@@ -2260,6 +2278,25 @@ Author: DumpApp
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.dumpbinaryfiles-rootless
+Architecture: iphoneos-arm64
+Version: 1.5-1
+Maintainer: 搬运工
+Installed-Size: 952
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.dumpbinaryfiles-rootless_1.5-1_iphoneos-arm64.deb
+Size: 505434
+MD5sum: d56a9fbee870095ca3dbddc8e4754668
+SHA1: 4f8ac2667120b6b1b4d8203b271c78ec7470b93f
+SHA256: 99b93d1b3fbea293a13217627c823d710a3415712f7fe3a981c6471ec7ab3422
+SHA512: 560951a695055fdc5f9c3c8dda43e70662bc6eda0dfaceb5136ac237a3c7bc88736069e33381333d378e2044dced7d7aec2db8a7cf2a4efed76e7bd15148f1b1
+Section: 插件
+Description: 提供二进制文件动态解密列表 适用于逆向工程-目前这砸壳应该是全权限，普通用户使用一下提取一下ipa包还是可以的，Netsako更新适配新版本！应该是全权限，但不保证！使用非常简单，桌面上图标点开，选择想要的软件点击，等待几分钟去filza里即可看到ipa包！搬运工源群里发砸壳也能获得教程！配合本源的砸壳依赖才能获取全权限ipa包！sileo搜砸壳依赖即可！
+Name: DumpDecrypter砸壳工具-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.dyhook
 Architecture: iphoneos-arm64
 Version: 2.1.0
@@ -2628,6 +2665,25 @@ Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ghallownetwork-rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.ghallownetwork-rootless_0.0.1_iphoneos-arm64.deb
+Size: 11604
+MD5sum: f70b01e30b0f29b6ee1440602e7612ff
+SHA1: a05a590f09b6ad3b41dfdca7d637c87039792f33
+SHA256: c531fc7bc848c7b438dd6be6ab9f6e2ed4e2453e44c3d7f19de1f4c63a69e7fb
+SHA512: a768cd0a91ac1229f009b5a68d8c735e9ba3736706336c6c0f028c769e585eae60b99f54d12c65a09218c7256827a7804457000f2636868b28a53bc391b82847
+Section: 插件
+Description: 众所周知，国行手机安装完APP，第一次运行时，会弹出是否允许使用网络，安装这个插件会自动允许使用网络。
+Name: Allow Network自动允许网络-Rootless
+Author: lenglengyu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.glance
 Architecture: iphoneos-arm64
 Version: 1.2.2
@@ -2738,6 +2794,27 @@ Section: 插件
 Description: 进入系统设置-声音与触感-打开系统触感反馈，然后应该随便点哪里都会有震动了，效果自测，无效就卸载，无需反馈！搬运工源，万古长青！
 Name: 全局触摸震动
 Author: developlab
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.huebatterybar
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Priority: optional
+Maintainer: 搬运工
+Installed-Size: 689
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, org.thebigboss.libcolorpicker
+Filename: debs/byg.iosios.net.huebatterybar_1.0.3_iphoneos-arm64.deb
+Size: 143158
+MD5sum: ef4506da3dcb9a417125452b782e6afb
+SHA1: d6d0dd75ec63db08e61712d92fad032dcc45b843
+SHA256: 036519386fb99c399a6d1a3118aa32a29cae4aa7d5074f03725e1a448b383bc0
+SHA512: c549485079fcd434060cae3f483a2f763e59466e9e0fe01fb02a5f9f613ae33bafaa33ea7d352b8752b18b76fd81ef57337be5b11fab325dec7dc734337d3207
+Section: 插件
+Description: Custom Colors/Options for Statusbar on System Wide!系统状态栏多样化自定义，详情看截图，感谢搬运工源汉化分享！已安装同类型插件huestatusbar可以不用安装，功能基本差不多！
+Tag: purpose::extension
+Name: HueBatterybar状态栏自定义-Rootless
+Author: CydiaGeek
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4990,6 +5067,25 @@ Author: NWZJ
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.twitter
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.twitter_1.1-2_iphoneos-arm64.deb
+Size: 3000
+MD5sum: facf16b8d481a2c64868f60ae7d3518b
+SHA1: e3995865b6ca5f268fe9562996e1fb47d613105f
+SHA256: a29f5b658348a0a3bcc8c3aa7caf0bffbb478e412f725140215bb158443e09e7
+SHA512: f874a850274dca52d3f8250c15f9d3f44fc70ed7c78e2311d6599019419079c47348ada6125ddf9865edbadf525c5750d6ba6fc79fd0dcee7938b3118a42aee7
+Section: 插件
+Description: Twitter从数据流中删除广告。仅在10.64.1版本上测试！
+Name: Twitter推特 去广告-Rootless
+Author: Netskso
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ultravideos
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -5238,6 +5334,26 @@ Section: 插件
 Description: 微信悬浮按钮、长按按钮设置，扫一扫、收付款、按钮自定义大小、震动由搬运工源水友ylr投稿，好用请分享！效果如截图所示！
 Name: 微信悬浮小功能
 Author: ylr
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wcisoverseausers
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: 搬运工
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wcisoverseauser
+Filename: debs/byg.iosios.net.wcisoverseausers_1.1-1_iphoneos-arm64.deb
+Size: 2804
+MD5sum: d5a6643963d6efb80c068e28d87fd5e9
+SHA1: 12045d0598da8558a3a7c36219664bd151c1388b
+SHA256: 766e3560fac57c6f37066a0c8010d5c10993a5c05ddf929e077aa4bd5dd6dea2
+SHA512: a6ff3b1a46d0f9907046ecc50ae2813fd3c69e57358f233759e490e66519ba04f7396e50394aa4a40d3651584f9d644c0de6ac03c2495cf07aefcd8a36b5e2c8
+Section: 插件
+Description: * 仅支持微信 8.0.54 及以上，仅支持 iOS 16 及以上，86+ 号码强制激活“通行密钥”补丁（该功能原生仅支持海外号码，补丁强制86+ 用户使用）通行密钥怎么用可以百度一下，小编也不知道！作用如下：通过iCloud账号创建一个通行密钥；创建后可凭指纹，面容解锁方式登录微信账号；在使用相同iCloud账号的设备中可免密码登录。
+Name: WCIsOver微信通行密钥-Rootless
+Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5602,6 +5718,25 @@ Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保�
 Name: Free免费120hz-Rootless
 Author: Rain
 Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.yangguanghuishhhook
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.yangguanghuishhhook_0.0.1_iphoneos-arm64.deb
+Size: 6886
+MD5sum: a309342e12ce945d166b956f430fafab
+SHA1: 6d00312613fec5488ea2a6a3aac46cc34b61c27d
+SHA256: 44db83b9765142b932e7b0f190eff57907a3be9840d9c37d46715b1a4fac3342
+SHA512: 71e5f2d583a3e69ced6108a1abe15626d040b9b0056983fe0293c5a5f0ce7de754cbc3877e246d4b499519e196551c4d53bc98ae075240c48e821fdd18e65ab4
+Section: 插件
+Description: 阳光惠生活是光大银行信用卡唯一官方APP，本插件的作用是屏蔽越狱检测，不要使用魔术师或者choicy屏蔽本插件注入软件即可生效，目前支持版本是8.9.1，后面如有更新自测！搬运工源，搬你所想，就是搬搬搬！
+Name: 阳光惠生活-Rootless
+Author: Huayuarc
+Sponsor: 一口青推送源 <http://apt.ios8.cn/>
 Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: byg.iosios.net.ysbrowserhook
@@ -7656,6 +7791,25 @@ Section: 插件
 Description: Environment and communication between my tweaks dodo锁屏的插件依赖，用不上的请卸载。
 Name: GSCore插件依赖
 Author: Ginsu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.huam.wcenablecleanorigmsg
+Architecture: iphoneos-arm64
+Version: 1.0-2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huam.wcenablecleanorigmsg_1.0-2_iphoneos-arm64.deb
+Size: 4624
+MD5sum: bbc3e06004495db2ca0e25d70bdee574
+SHA1: 32c7c5f07523d9842bb026a2c13c8bb4bfb7ebbb
+SHA256: 9c9a6cacfe44bee6ba9ff9ca5ef5db47fa46dbd2d3149181e2e9dabd8eccff3a
+SHA512: dd512fcc66d98b5b7240b1ad4a56e6ecb27b4f5b7232930b356cff12c01b120b6231e8ba3ac2ea61a972edbb31c00faa91ca31dec10bef1243ffd1539a6f000f
+Section: 插件
+Description: 启用微信8.0.54版本【原图、原视频14天后自动清理 】看好微信版本，低版本不行！
+Name: WCEnable原图自动清理-Rootless
+Author: huami
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
