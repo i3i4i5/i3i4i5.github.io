@@ -7817,6 +7817,25 @@ Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.iridium
+Architecture: iphoneos-arm
+Version: 1.2.15-REL-1669371195
+Maintainer: 搬运工
+Pre-Depends: firmware (>= 13.0)
+Conflicts: wiki.qaq.ir
+Filename: debs/byg.iosios.net.iridium_1.2.15-REL-1669371195_iphoneos-arm.deb
+Size: 6659526
+MD5sum: a4085571c65b33a89beb4fbea1958348
+SHA1: c65c51c51dafba66bd5874b2d041a072767d504c
+SHA256: 9c3457df305e741bbe83285ceba8af67d0ea1745e5dcd1eb9d5b00f574c9d97e
+SHA512: 82bb4080b94e0ebdad1741dd84c71f851c2cfb260968d5228d2392874c3a3292bd99f910b3ae15b93e6cbbffa4f35a5452d0e97a0a4f134dab377e9750064953
+Section: 插件
+Description: iOS应用解密砸壳工具，织词汉化。适用于iOS13.5-14.x，具体支持系统版本自测。江湖上传说的有根系统砸壳的全权限工具，具体是不是真的需要你测试砸完之后看看还有没有小组件，源主没设备没办法给你测试，请见谅！
+Name: Iridium砸壳(全权限)
+Author: Lakr Aream
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.iwanttranslucent
 Architecture: iphoneos-arm64
 Version: 0.9.4
@@ -8719,6 +8738,25 @@ Section: 插件
 Description: Customize and change your Lock Screen.你就说好不好看，锁屏状态显示液态玻璃，有需要的小伙们可以试试，如果没效果就直接卸载，搬运工源，万古长青！
 Name: LockGlass锁屏玻璃
 Author: Jailbreak Tweaker
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.lockmaster
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Maintainer: 搬运工
+Installed-Size: 536
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.lockmaster_1.2.0_iphoneos-arm64.deb
+Size: 121654
+MD5sum: a01747a66a631f16253fb679a9cdafde
+SHA1: 11031dbd3e28bfbbe9362b756d1232ccf990349e
+SHA256: a886b5072d1d63339c415aa5afcc581be8961f2afe100cda58fd166076dbe718
+SHA512: c4787f0fc62690c62273f6f3377b6e5c562c16b993b531af2d77ec236999f4fae86e2df0de81e5e7c3f6b461dd2fca3b7b178be1d38fc83608832fb26ee58d73
+Section: 插件
+Description: 一款美化锁屏的插件，比如说修改锁屏声音，锁屏动画等等，内置很多种锁屏动画，尽情享受吧！目前暂不支持iOS16，至于15.4.1-15.8.1行不行，自行测试，没效果就卸载！
+Name: Lock Master锁屏美化-Rootless
+Author: lemin
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -18048,6 +18086,25 @@ SHA512: 426bb45e44d260aa7b7e38ee66b37872533576efbdc2218565c32791172feb1c032a011b
 Section: 插件
 Description: 状态栏美化插件
 Name: NiceBarX(iOS15)-Rootless
+Author: niceios
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.niceios.nicebarx16-rootless
+Architecture: iphoneos-arm64
+Version: 1.0.0.5-11
+Maintainer: 搬运工
+Installed-Size: 14012
+Depends: mobilesubstrate,com.niceios.nicehelper-rootless(>=5.8),preferenceloader
+Filename: debs/com.niceios.nicebarx16-rootless_1.0.0.5-11_iphoneos-arm64.deb
+Size: 5870982
+MD5sum: ce1544c03eebc8e1d6199bad8c080bea
+SHA1: 92e5a2b2db827104e2b6e9394b7eacb73e2ad390
+SHA256: 565040925e98b1a432fee9d3374be3b99557b4fbdd6ff70d563a4c1a1778eaee
+SHA512: efb019169b20cb0a0d8a5773d2025fefee8476e12da4967ed6a5e9ce3f1a2a0d87ba006f54921b42c29d266f9bbb7e9e3a72fccda540e30b1bf90d85476568e7
+Section: 插件
+Description: 本插件需要20块钱购买激活才能使用！无破解！可以下载体验一天功能再决定是否需要他！状态栏美化插件！
+Name: NiceBarX(iOS16)-Rootless
 Author: niceios
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
