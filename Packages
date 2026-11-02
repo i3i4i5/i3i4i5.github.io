@@ -17509,6 +17509,23 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: tomaszpoliszuk 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/HomeScreenQuickActionsSettings.bundle/icons/HomeScreenQuickActions@3x.png
 
+Package: com.wangyou.tigong
+Architecture: iphoneos-arm
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 1520
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.wangyou.tigong_1.0.0_iphoneos-arm.deb
+Size: 428074
+MD5sum: 96dce55caa1f33c22150a4cde4689e55
+SHA1: 76b74a85010898d1e3df009ab333e1b7dc0f12f8
+SHA256: 3360b9c1f9ed8b56bb6d012c0ce878427e1bc190f07700558bf35eb280ed7625
+SHA512: 3fc95a186620feda1829823aea7a651c8248be9a7a994c39f209246f2d407596fb160a036efe3177854b0caa1826bfa129067a1de6e63d9514b2852d250ed11d
+Name: 轻颜相机v4.35破解
+Author: 搬运工
+Sponsor: 搬运工
+Section: 插件
+
 Package: com.xx.dyhook
 Architecture: iphoneos-arm
 Version: 1.0.2
@@ -17544,6 +17561,78 @@ Name: libKuro插件依赖-Rootless
 Author: Diego Barría
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.xybp888.CallAssist11
+Architecture: iphoneos-arm
+Version: 2.1-1
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: debs/com.xybp888.CallAssist11_2.1-1_iphoneos-arm.deb
+Size: 679222
+MD5sum: acce373a213af97bae319c5cbe4a13e5
+SHA1: f04705905e2097b7a6eda18227188938855a5746
+SHA256: 4aef98b1151c358d168420f6d65411185ce7a41c323a6aca209907d5fee25602
+SHA512: 812e05b04e26de05f49b2fb667612942c252f7ff8ce718d7cfcbc257592d7c2cecc08bd3ec3f559ff94e58b9cc10514c72e97c5cf1bb5506509af507d1ab3228
+Name: 电话助手iOS11-正式版
+Author: xybp888
+Sponsor: 搬运工
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Section: 插件
+
+Package: com.xybp888.CallAssist12
+Architecture: iphoneos-arm
+Version: 2.5.2
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader,com.rpetrich.rocketbootstrap
+Filename: debs/com.xybp888.CallAssist12_2.5.2_iphoneos-arm.deb
+Size: 1107920
+MD5sum: 4c535c496012d098ebf7c8563c5c2bdc
+SHA1: 2f4296c4ab61270668ff8bb7f51847c43d28757d
+SHA256: fa3dc9cea56e1092d967d4c155f3f551553d3d1bf0a52c6e023a308a77f115ba
+SHA512: d32627f478ecf9104b924966a9d316ddffd1e8fb9642ab9e743603e18470ec190b3232522758834974472389a59eb2f834a40cdd9c442ddc6352738203f468a9
+Name: 电话助手iOS12-正式版
+Author: xybp888
+Sponsor: 搬运工
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Section: 插件
+
+Package: com.xybp888.CallAssist13
+Architecture: iphoneos-arm
+Version: 2.5.6
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 13.0), mobilesubstrate,preferenceloader,com.rpetrich.rocketbootstrap (>= 1.0.10~beta1)
+Filename: debs/com.xybp888.CallAssist13_2.5.6_iphoneos-arm.deb
+Size: 1645940
+MD5sum: 88e7905d1853df62ffbef4d7760c855f
+SHA1: 53e58e4b16b55adb5ed38f3a5cd2e2f0c0888c33
+SHA256: 1f8d13b384881a4c620d627d0e11f99d711bbf4a330e9fef5c465b13c60bb4e1
+SHA512: 3d4356582bcf1b76c898786f34094c573b99d5f41ad380b08bac4ca553266d0b681776d42169eeab118ddaea6fe7d74a4536faaf00edfb5908843f8759ea8a66
+Name: 电话助手iOS13-正式版
+Author: xybp888
+Sponsor: 搬运工
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Section: 插件
+
+Package: com.xybp888.CallAssist14
+Architecture: iphoneos-arm
+Version: 2.7.4
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 14.0), mobilesubstrate,preferenceloader,com.rpetrich.rocketbootstrap (>= 1.0.10~beta1)
+Filename: debs/com.xybp888.CallAssist14_2.7.4_iphoneos-arm.deb
+Size: 2211744
+MD5sum: cfa53385281636aafc28c819270ee3dd
+SHA1: 99d4b59e443b225adda0c991c29fbbe34766cefd
+SHA256: 7eab1543eae651ded7b0b49410217f918fd99756a6af3339c48d30d119f8d836
+SHA512: e93056a7267dc4f2ec9a4f724688904c0dce007c7fc86c5277454315aee6ecef762cd7412a94e80a8a573c264271eca85d379ec89344e97254add1f753254e0a
+Name: 电话助手iOS14-正式版
+Author: xybp888
+Sponsor: 搬运工
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Section: 插件
 
 Package: com.xybp888.callassist15.fugu15
 Architecture: iphoneos-arm64
