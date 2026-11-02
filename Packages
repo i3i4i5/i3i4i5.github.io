@@ -4294,6 +4294,25 @@ Author: MiRO
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.tapticboard
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 396
+Depends: mobilesubstrate,firmware (>= 13.0)
+Filename: debs/byg.iosios.net.tapticboard_1.2_iphoneos-arm64.deb
+Size: 30734
+MD5sum: f0551991c8a97c4714950554759f993a
+SHA1: 8a93e29124bc5d23407763ddd3533acc3a071eff
+SHA256: 27a6641d3c8b4cd415e856864a75835fc09d29fdb87a091012c656782928bdb1
+SHA512: a03347d915d2410675928e0e5834f5c42568865963d4a6134559fdb92063f46a782e892e3c891808de17ff4bf8e8933e3c1aa387673b35f67373c21f128a1bc2
+Section: 插件
+Description: Taptic keyboard without any lag!原生键盘添加震动反馈，应锋友要求，所以上架！搬运工源已汉化完整，冲冲冲，搬运工源，搬你所想！
+Name: TapticBoard键盘震动-Rootless
+Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.themebox.rootless
 Architecture: iphoneos-arm64
 Version: 3.0.7
