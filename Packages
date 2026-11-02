@@ -1997,6 +1997,25 @@ Author: lenglengyu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.dazzpro
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.dazzpro_1.0.2_iphoneos-arm64.deb
+Size: 23654
+MD5sum: eaf4084e9555fad05f048b3eca40d25b
+SHA1: f224ed624539c82f1757749875a6683e63ce3b9f
+SHA256: 4ad5862b16287891f6599e38e1421efecd666c8ffa6306f50c83e304cd9e2260
+SHA512: 51f4255429c3ac51d1a3c3a8800aba0a34d4cbdca10c04c27ead5acf707cd921201dd92cc0f6990e0ef37ae2fb31ab5bffd526974112db6100f4be98248aeac9
+Section: 插件
+Description: Dazz相机解锁Pro 仅支持2.9.4版本，AppStore里搜索Dazz就能看到这款软件，貌似还不错，大家自行体验！
+Name: DazzPro相机-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ddhook
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -4028,6 +4047,45 @@ Author: lenglengyu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.simcitycheat
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Installed-Size: 504
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.simcitycheat_1.0.1_iphoneos-arm64.deb
+Size: 202884
+MD5sum: b05c1b82822d75c9d02c929e3973f9bf
+SHA1: 04341c599f3068e9b8eb5e0beef2189b173999c3
+SHA256: c9e3059d5f359718887ab8068d4fb71863c7531b27c4478727103dd1a87fb512
+SHA512: b76d35fd4bff50266083d255946edbfcd1aea8adffcd49990feba01ff6824ba62a95f480fae46d28144b154e3a79e80d77898713125d6ce38079607e80a3ce2b
+Section: 插件
+Description: 模拟城市(国际+国服) 是AppStore里一款非常受欢迎的游戏，很多人喜欢玩，本插件的作用是让你绿钞金钱 仅支持国际1.60.1版本 国服0.96.21404版本 仅支持越狱·JIT！非常的nice！感谢嘉嘉！
+Name: 模拟城市Hook-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.simplecncallkitenabler
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.torrekie.simplecncallkitenabler
+Filename: debs/byg.iosios.net.simplecncallkitenabler_1.0.0_iphoneos-arm64.deb
+Size: 8804
+MD5sum: 0387675833f9c90aaa48d4fdb9b84254
+SHA1: 66901f3d75b8d24fb1fc9cc51e21420429b174e5
+SHA256: 70c07c6017098e9d8f02bd1d3b6b544046642636f8cfc41e22f86c384fc84fad
+SHA512: ed42afc66e0a3661f0011f5dbee3b42fbb03b5459582e2bbc4d164dae9f728a1d5139b1d5979d8df77b38cc8277b329869ab4f21374bf4cf547e482946c68566
+Section: 插件
+Description: 启用微信的Callkit，插件无设置项，安装即生效，需要单独Callkit插件的可以使用这个！已安装其它插件带此功能的最好关闭再安装，防止功能相同造成冲突！如果不行就降级微信版本，具体自测，还不行就卸载插件，没啥用，搬运工源提供技术服务！
+Name: 微信Callkit-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.singlemutes
 Architecture: iphoneos-arm64
 Version: 1.7
@@ -4164,6 +4222,25 @@ Author: Hoangdus、daodao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.spidercrack
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: 搬运工
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.spidercrack_1.0.5_iphoneos-arm64.deb
+Size: 54342
+MD5sum: 105c7dab55b345555ee7db1f6bc5f9fc
+SHA1: 9b0bde4a23ebeaf70b23a73a9af32217fe58ee84
+SHA256: 5392cac67358942a417c3682767566d08abe8bf3aa0214aeed3b5ba577a77532
+SHA512: 6bf6c0f9f4ac9e33dc2075ee31bfb4f101bb020f58adb85f88b4c770275c8cbcb73e65f38576983b357002bf6b613f779d9eae33d08bbc9be36e87806bdda000
+Section: 插件
+Description: SpiderProxy是App Store里的一款抓包软件，简称螃蟹抓包！会用的去下载，不会用的拉倒，自己找教程！本插件作用是解锁会员权限，插件仅供个人学习交流使用 如有能力请支持正版！插件支持版本应该是4.4.2！不行就降级！
+Name: SpiderProxy增强-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.spotify
 Architecture: iphoneos-arm64
 Version: 6.1.6
@@ -4253,6 +4330,25 @@ Section: 插件
 Description: 双指双击屏幕呼出，如果呼不出可能与某个插件冲突！本插件是大神苏苏基于huami开源DYYY开发，对抖音进行优化，移除广告，移除不必要的点点，一款新的抖音插件，暂时可替代抖音图层，功能看截图介绍，关注搬运工源，带你领略越狱的乐趣！
 Name: 抖音优化-Rootless
 Author: susu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.sugarcane
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Maintainer: 搬运工
+Installed-Size: 172
+Depends: mobilesubstrate,firmware (>= 13.0)
+Filename: debs/byg.iosios.net.sugarcane_1.3.1_iphoneos-arm64.deb
+Size: 13792
+MD5sum: 8859ae8dc014f7c9cb273125ed926a16
+SHA1: 8ce350a4e1ed1f97674bfb710a8c97000a550ccc
+SHA256: 5bf19791aeedb5aa5ebfe67bc663a85a98fde04155b13975cb3504a2603c4f48
+SHA512: 53a316bdf7e22ab15ef81641df06b4274bb62c33725c7d12df9d88022d37e33f976f6305554973d10532fd65efb0d206bd0c1c2c29207e2ed32b411a50ea1082
+Section: 插件
+Description: SugarCane 是一款给控制中心亮度和音量添加百分比显示的插件。非常的实用，建议安装，搬运工源，与您同在！
+Name: SugarCane控制中心百分比-Rootless
+Author: iOS Creatix, kasiimh1, p2kdev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4957,6 +5053,25 @@ Section: 插件
 Description: 这款插件不错，对第三方输入法用户来说！App内调用输入法的“语音转文字”功能时，免去跳转的过程；支持微信输入法，百度输入法，讯飞输入法，搜狗输入法。设置里有开关选项，虽然只有一个百度输入法，但是打开了基本上都能生效，其他输入法没写出来，不用介意！
 Name: 第三方输入法增强-Rootless
 Author: Lessica
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.xhshook.rootful
+Architecture: iphoneos-arm
+Version: 1.1.3
+Maintainer: 搬运工
+Installed-Size: 2444
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.xhshook.rootful_1.1.3_iphoneos-arm.deb
+Size: 1033758
+MD5sum: 6075c7664975f3d5f8b386c96999d85d
+SHA1: 258be7a5671cd7db8353136eb1cf01f2e0435c90
+SHA256: 53cfe01fa91fc49fa92a5cec6e851ea88cce93b8fcac1ac044f9cb522d880de0
+SHA512: deefeaf5c092c13debb3bfb52831c5c5f2b0669d4f0395845a44a1d462e89e4a78466e888dd9edd4f6f4bc74b3e79dc153240c3a2acbb1df37c60b02c7f1c079
+Section: 插件
+Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片·live图 长按文案复制，搬运工源，为人民服务！
+Name: 小红书图层
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
