@@ -1327,6 +1327,24 @@ Author: aReo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.arise
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Maintainer: 搬运工
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 13.0)
+Filename: debs/byg.iosios.net.arise_1.2.3_iphoneos-arm64.deb
+Size: 858580
+MD5sum: 300c920a6175b3bdc183243cd5ceceea
+SHA1: 416cf1edc79ebfc723906e5a90ce7788d18c8dac
+SHA256: 35a216bc452d67e8d745c3d38d98c6fdf761aaf5e65dc32c2195fa8e3290c2f5
+SHA512: 06639d2e864b8c0d0d2781be24b7a747a4548213bf1b3d361eadd0352a6f3bc372ea6792f3bcaeed70f9b584d0265307444140ad96dc90ec1e8408d4f81d1da6
+Section: 插件
+Description: Customize and automate your lock screen.锁屏增强，界面显示通知视图等等，搬运工源已汉化，自行体验！
+Name: Arise锁屏增强-Rootless
+Author: EthanRDoesMC
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.atria.rootless
 Architecture: iphoneos-arm64
 Version: 1.4.1-8
@@ -1441,6 +1459,25 @@ Section: 插件
 Description: 本插件的作用是基于iOS墓碑机制的后台应用留存增强插件,可以添加应用应用id 到白名单，冻结应用，防止被杀后台，如果感觉无效就卸载！例如微信是com.tencent.xin【 应用 id 获取可以使用 Appdata 插件获取，搬运工搜APPdata即可 】搬运工源，永久免费，插件安全可靠！越狱必备！
 Name: Background后台留存增强
 Author: Your Name
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.badgebreathing
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.badgebreathing_0.0.1_iphoneos-arm64.deb
+Size: 6808
+MD5sum: 43cb7f65a8a6174ce311ee1f9cdc0db2
+SHA1: ee2ccbac2e1b99e31f35e40eb7e57142d800910b
+SHA256: 2d9f6299e03124857c96774a2336d67347b9630f37a892beffed743556e47f9f
+SHA512: ef62e3b98d1d6bedbe152cf199682a110a19c96637423c4cc00e27008900d9b0465194d39849af6494f02beb0354db8c9c5e27642fca40532e2b66e250577085
+Section: 插件
+Description: 本插件的作用是让你的APP角标变的灵动起来，就是会动，非常不错的小插件，无设置项，注销即可生效！喜欢的小伙伴们可以入手了，搬运工源，一直免费为大家服务，3年了！
+Name: Badge灵动角标-Rootless
+Author: Phuc Do
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4751,6 +4788,25 @@ Author: huami
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.wctimelinemessagetail
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: 搬运工
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.wctimelinemessagetail_1.1-1_iphoneos-arm64.deb
+Size: 6486
+MD5sum: c7ab7404d5cb6bfc0079fdc90159e699
+SHA1: 123e853dadb5f4b466dd4ca06f9e08c74fabcea1
+SHA256: e3703e1ef15e4c4c6a7c0fd7fa67ea8425d440bf2cdfa43b463958da4ecde3b8
+SHA512: 54b467e6dcdc40b2779b06a3dce274cfad9538345caa86cb55cb82afab685dc0200b7dffbac3163fe38ba1fe82a53e30ac6b2618507a0c9ccb1b6c56d710e1c1
+Section: 插件
+Description: 微信朋友圈消息小尾巴自定义文本，仅在 iOS 客户端可显示！发送朋友圈时可以看到插件选项！
+Name: 微信小尾巴-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.wechat.enhances
 Architecture: iphoneos-arm64
 Version: 1.6-5
@@ -4827,6 +4883,25 @@ Section: 插件
 Description: 微信插件，弥补点击微信通知无法跳转到聊天界面。（已测试只有一个bug就是无后台第一次收到消息会进入其他页面，不会直达，后续有后台测试完全没有问题。）
 Name: 微信消息直达
 Author: be-huge
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wechatuiswitchloader
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Maintainer: 搬运工
+Installed-Size: 304
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/byg.iosios.net.wechatuiswitchloader_1.1-5_iphoneos-arm64.deb
+Size: 145154
+MD5sum: 4a2e4fc3019b66266bda56d4a491e290
+SHA1: 7a5aa5bee0de5d98721e81398dedbe111c08eb91
+SHA256: d27fcebe5fcbd3202673361ab0931d48d3e7483e3faa45e698ce76de07a0152b
+SHA512: aeeb89f6fdbd45fbc8fb47b7a408f59a95699c6920a4ea8358b36e5d1ef5b5bd9d4a062acd05ee50ed78c3346889e5d0cafb54a2771af5b40010746a843d5c43
+Section: 插件
+Description: WeChat UISwitch Loader适用于微信软件内的开关UI，从微信净化里独立出来的功能，还不错！效果看截图介绍！
+Name: 微信开关UI-Rootless
+Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
