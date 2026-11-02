@@ -4295,6 +4295,25 @@ Author: lf
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.stella
+Architecture: iphoneos-arm64
+Version: 1.1.5
+Maintainer: 搬运工
+Installed-Size: 1332
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
+Filename: debs/byg.iosios.net.stella_1.1.5_iphoneos-arm64.deb
+Size: 529414
+MD5sum: 4aacec1d172ec8b177526943090d45b3
+SHA1: 877496e7e4d3541b3e08f32c6e95071a193b3087
+SHA256: f714c15c6211bd78dd976aa37ff5a432e0deae39f921f213e3742128d59459e1
+SHA512: 4deb8ab97f1aca20d8a45c6d4fa7396190a3f02de3f6eed3f0ffe792020162c8cacaff6bf3016f1b6e10d38b9cb9b216d7ba92d86020c127c8bb6381bc899c6e
+Section: 插件
+Description: Let it snow on your device每天一个耗电小技巧，桌面及锁屏増加落雪特效，而且可以自己自定义图标！想下妹纸都可以！具体看效果图！非常的不错，狂拽酷炸帅！搬运工源，搬你所想！使用妖刀汉化文件，全是中文设置了！感谢妖刀，越狱有你更精彩，分享才能使越狱更加快乐，你的手机你做主！
+Name: Stella下雪特效-Rootless
+Author: yan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.stheno
 Architecture: iphoneos-arm64
 Version: 77.1.4.7
