@@ -740,6 +740,24 @@ Description: Display all system information of iOS。显示 iOS 所有系统信�
 Name: System Info 系统信息-rootless
 Author: ARX8x 来了老弟
 
+Package: byg.iosios.net.1aaa1.1aaa3
+Architecture: iphoneos-arm
+Version: 1.0
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.1aaa1.1aaa3_1.0_iphoneos-arm.deb
+Size: 136092
+MD5sum: dd172f467b252d17901d7cea89318bc4
+SHA1: 5273a220141a01cff7814de710b5efca0ef1a342
+SHA256: 6622f49539205a4a44bfaa68556e452683c18658783715992b49f9a7bf75287e
+SHA512: c5fca8bcc9282f62b30ee78ce7e769b34da18f285b292486ac2d225be0abdc886736848270192999e065f3f2678f8cb158caefc7b679863484e032eeb188b320
+Section: 插件
+Description: NWZJ出品，专为解决图层插件不能用问题，无论你是在哪里安装的图层插件，官方源还是其它源，都可以破解！也可配合搬运工源的抖音图层，小红书图层、快手图层等使用，推荐用搬运工源里的，因为安全！！！如果不行，还是闪退失效的话，就继续等更新，江山代有才人出，各领风骚数百年。搬运工源祝您新年快乐！
+Name: 图层破解
+Author: NWZJ
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.3dappversionspoofer
 Architecture: iphoneos-arm64
 Version: 2.1.1-1
@@ -829,6 +847,24 @@ Section: 插件
 Description: 老猫开发的一款单独微信气泡盒子插件，专门搞气泡，有需要的小伙们可以下载试试！
 Name: 微信气泡盒子
 Author: Mao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.BypassWechatMSG
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.BypassWechatMSG_1.0_iphoneos-arm64.deb
+Size: 456172
+MD5sum: 8118aa53853992083e3a8b2fbb103928
+SHA1: 8f13270c4b189da1a7f5d2f2396e2232ce4126e1
+SHA256: 1e1c85c8b3a8950c70cbfc96bc728d745ba1f22db7c1a28f924c924724ae6633
+SHA512: 3637d673b00fa1aff25b14e9d49539f7fef91a8670ac7a85e72b79d294b06b256059f84b2825d862a91ffa845858603cd03d7f4e2c2da2dbd21f6bc8d858e419
+Section: 插件
+Description: 修改「合并转发」聊天记录预览内容文本，依赖老猫「微信插件收纳」，听说价值1000块，需要的小伙伴们可以试试！
+Name: 微信内容娱乐-Rootless
+Author: BypassWechatMSG
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1943,6 +1979,25 @@ Author: DumpApp
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.dyhook
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Maintainer: 搬运工
+Installed-Size: 9332
+Depends: byg.iosios.net.tucengpojie
+Filename: debs/byg.iosios.net.dyhook_2.1.0_iphoneos-arm64.deb
+Size: 3639872
+MD5sum: a674ea5dcd1a85220ec7634394327f94
+SHA1: d34edd967f40e38e733f1a57524302fde380fe80
+SHA256: 50ff54de93b8f725e90e850a31b2022bf4a7f4ac64abf2ce59df58c3b4b80933
+SHA512: 6d28190017cc04c93cfa944dc8d3493dd4d3090f9719b6ca1867177111c888a0102d1e5e3631412ee55a0108cb545e1dc15b66e6a7df139bb6625c349e349a46
+Section: 插件
+Description: 版本号是2.1.0，实际是停更前最新的2.0.8+8，完美使用的版本！首页视频界面双指双击弹出设置UI，一款非常不错的插件，本插件的作用是：抖音顶部或侧面的功能，图层隐藏调节透明度！隐藏抖音上一些烦人的按扭，净化抖音！支持无水印下载视频，去除广告，个性标签等等！已经不再支持注入了，仅越狱可用，切记！
+Name: 抖音图层-Rootless
+Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.dynamicislandring
 Architecture: iphoneos-arm64
 Version: 1.1.0
@@ -2782,6 +2837,25 @@ Section: 插件
 Description: Customize and change your Lock Screen.你就说好不好看，锁屏状态显示液态玻璃，有需要的小伙们可以试试，如果没效果就直接卸载，搬运工源，万古长青！
 Name: LockGlass锁屏玻璃
 Author: Jailbreak Tweaker
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.locktouchxs
+Architecture: iphoneos-arm64
+Version: 1.3-18+debug
+Maintainer: 搬运工
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.locktouchxs_1.3-18_debug_iphoneos-arm64.deb
+Size: 40908
+MD5sum: 5f601d09190f19be4dfc29d27e61ab75
+SHA1: 103c0d073a45010ae339ffecaf18cde3726dcde6
+SHA256: 3377c3f05c362e61fa725c8a872448c3a34c671b76722c9b35ff25f9b3dc0ce3
+SHA512: 793663c6213b9289ea6166c70c189a09c17f643bb25b4ddd234c36317b75dd5597132c300dc0c6d57bf10b76c29a81ac7968d9e16e03ecc16672c6772b7f2ed2
+Section: 插件
+Description: 又一款软件应用锁插件，长按APP开启，源里还有另一款，按各自喜好来！插件功能是为应用程序添加 Touch ID 锁定验证，就像 iOS 18 中的安全功能一样！
+Name: LockTouchX软件应用锁-Rootless
+Author: MrDeNsor
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4197,6 +4271,25 @@ Description: Helper utility to install and manage TrollStore!正常情况是先�
 Name: TrollStoreLite白巨魔安装器
 Author: opa334
 Sponsor: 搬运工源
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.tucengpojie
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Maintainer: 搬运工
+Installed-Size: 123
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.tucengpojie_1.3.1_iphoneos-arm64.deb
+Size: 133968
+MD5sum: cedb778b304354632004b197caa8e426
+SHA1: 6827feb349c8f92c0a921d63f5d4508757a0d678
+SHA256: 062cfd80af1d1e148389002a303480495ee22b38a1d515f3bb818e4960427519
+SHA512: 63e327d6a604ee466847edadd2d701a9310cd646531405c149e9d49a5e403c8a6b895c6c6128c035ee4885298ae9af7a4be69d6f8bb68e4583bf3fef21942398
+Section: 插件
+Description: NWZJ出品，专为解决图层插件不能用问题，无论你是在哪里安装的图层插件，官方源还是其它源，都可以破解！也可配合搬运工源的抖音图层，小红书图层、快手图层等使用，推荐用搬运工源里的，因为安全！！！如果不行，还是闪退失效的话，就继续等更新，江山代有才人出，各领风骚数百年。搬运工源祝您新年快乐！
+Name: 图层破解-Rootless
+Author: NWZJ
+Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: byg.iosios.net.ultravideos
