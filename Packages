@@ -1369,6 +1369,24 @@ Author: MTAC
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.anthocrack2
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.anthocrack2_1.0.0_iphoneos-arm64.deb
+Size: 4488
+MD5sum: 02e60ddaebd135d5611cd2f9f9071759
+SHA1: 2f613be04ad92461a1c5cdbf6ada102ac7b9f340
+SHA256: ae8cbc48f02486ddaddae91c57eee6abe0f890806178ec346dd9ff53326fa699
+SHA512: 803e8b8e6ee895f807b5ecd6e10794aff391ad8eb4799950b560ca3e827e986edca003d03f0207ef0eebe7391bc32049f17ca23f87f6384bd23a454eb9541d8c
+Section: 插件
+Description: Disable alerts for AnthoPak tweaks. This one's for the 95% who pirate!破解依赖！
+Name: AnthoCrack2破解依赖-Rootless
+Author: CBZ
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.apibugtexttovoice
 Architecture: iphoneos-arm64
 Version: 1.0.5
@@ -1631,6 +1649,24 @@ Author: iamdega&daodao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.autotouch
+Architecture: iphoneos-arm64
+Version: 8.0.11k
+Maintainer: 搬运工
+Depends: firmware (>= 15.0)
+Filename: debs/byg.iosios.net.autotouch_8.0.11k_iphoneos-arm64.deb
+Size: 33332938
+MD5sum: c0acfd9f36c80e935b882da778194511
+SHA1: 95c938ba382d5e5614d1c93cb2334b87d91cd29b
+SHA256: e992a8af07b10ffaa888ef8a9a17eda5632f225122e7587e4e88a1cdd7d0b117
+SHA512: 68406905b768909aea36b490643b117ca3f92e1c7b42b7f53b162692f9acf2cd5073c894d7c3ae00eb27d07836fe2427aaf25f6b4ec36fdd25960dc9a82851f8
+Section: 插件
+Description: Record and playback touch operations, play macro scripts automatically.打开闪退的请进系统设置-显示与亮度，关闭粗体显示即可！如果安全模式，缷载还是安全模式，多注销几次即可，本源插件都是源主测试过才上架，放心使用。插件介绍：AutoTouch用来录制和回放您在移动设备上的各种触摸和点击操作，它还可以运行事先用Lua语言写好的脚本，通过模拟人的触摸操作，来实现更多意想不到的功能。您可以用它自动玩游戏打怪赚取金币、批量编辑照片、进行程序自动化测试或者自动登入邮箱等。
+Name: AutoTouch连点器（按键精灵）-Rootless
+Author: Kent Krantz
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.aweme
 Architecture: iphoneos-arm64
 Version: 1.0.7
@@ -1783,6 +1819,25 @@ Section: 插件
 Description: 锁屏通知美化。妖刀修复更新支持iOS 16、iOS 17，效果很独特，具体可以看截图介绍！搬运工源这么多年了一直免费，感谢你的支持！
 Name: Axon美化通知
 Author: Nepeta & Baw Appie & daodao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.backgrounderaction15autostate
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: 搬运工
+Installed-Size: 384
+Depends: byg.iosios.net.backgrounderaction15, com.opa334.altlist
+Filename: debs/byg.iosios.net.backgrounderaction15autostate_1.0.3_iphoneos-arm64.deb
+Size: 34424
+MD5sum: 5c5a0ec1bb3418e63bc8ec8e8e5c8715
+SHA1: be7d433cdc6974f2053b9c1cec1c01fea90d440b
+SHA256: d1792516b836af3c3e1e39b4406e8d9b174edd26275696ab21fb6cdefb5c033f
+SHA512: d91c4ab64a0058c4751f75a79c12adbdd2dba4585ac82d84ab3fb13d12d7aeaecd5f6b6f33dd1b31ef4b2bd11e572c2ef743d4ae91d3f92077d6d459772ccc26
+Section: 插件
+Description: Save Action state for BackgrounderAction15 CC Toggle一款自动真后台插件，配合搬运工源里的真后台插件，实现打开某个APP自动设置真后台效果，无需复杂的操作！非常好用！请缷载其它源的真后台插件再进行安装！
+Name: AutoState自动真后台-Rootless
+Author: 0xkuj
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3423,6 +3478,24 @@ Section: 插件
 Description: Filza unlock full functionality, the main program please install in the official source Filza破解插件，请自行安装filza文件管理器，本插件只是破解插件！
 Name: Filza 破解插件-Rootless
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.fiona
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: debs/byg.iosios.net.fiona_1.0.6_iphoneos-arm64.deb
+Size: 158768
+MD5sum: 55c910ffec6e57eeecf499182542ef8d
+SHA1: f880cdf8a37d5259f882e6fde78a2e887a8f0a66
+SHA256: 6fb71932f5cb1abaf7592ec29d54e3bfd70808fa29e319b39a396bf510dbf3fa
+SHA512: 516fd7344b73335de03ca866757c6e20f762b2f1b315d02dcbea14a63930543573ea646777b0167457de41035abe20b32e953786d5e99333f349ac550b42e3b9
+Section: 插件
+Description: Floating Tab bar for iOS devices.调整软件底部底栏的高度、宽度以及清晰度等等，让你的APP底栏悬浮起来，非常的有意思！有需要的下载，搬运工源已汉化！
+Name: Fiona底栏调整-Rootless
+Author: yan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8625,6 +8698,25 @@ Section: 插件
 Description: 可注入可越狱使用。去除启动页视频图片摇一摇广告，去除首页推荐和帖子评论区广告，去除帖子下群组社区推荐，禁用首页左上角话题，禁用首页右上角搜索，禁用推送广告，禁用消息角标，开启全屏视频浏览模式，开启视频下载无水印，等等。'我的'页面长按头像下方控件或首页顶栏或任意帖子内顶部，弹出设置。建议用6.0.9版本或以内的，新版本除了臃肿增加广告以外，一无是处。
 Name: 最右优化-Rootless
 Author: 来了老弟
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.netnoslidetochangevolumeandbrightness
+Architecture: iphoneos-arm64
+Version: 0.0.1r2
+Maintainer: 搬运工
+Installed-Size: 532
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.netnoslidetochangevolumeandbrightness_0.0.1r2_iphoneos-arm64.deb
+Size: 89364
+MD5sum: ab5e14d939e3085e63f78476a7dd1a6d
+SHA1: 3e6102e0c9107a75f19f423ee00eada8b5e8c3ee
+SHA256: 3905ab9c11601a95f0c06d8c00650000927af2c208e6002a405616e4bbdc3aaa
+SHA512: 161bcbf9185a0092972af8c13cdc5dd598f206925aecff64bf76b2a3856cc11d72bdc0e54db0ed369aec6f28553c3f408a3112bcb8ff17a813248742fd813378
+Section: 插件
+Description: Prevent apps from changing volume/brightness阻止应用程序更改音量/亮度，即阻止当你打开某些软件时，系统音量或者亮度被软件改变！无设置项，安装注销生效！
+Name: 禁止APP改变音量/亮度-Rootless
+Author: Brend0n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
