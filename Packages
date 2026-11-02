@@ -1728,6 +1728,26 @@ Author: Korboy
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.cask3
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: 搬运工
+Installed-Size: 840
+Depends: firmware (>= 14.0)
+Replaces: com.ryannair05.cask2
+Filename: debs/byg.iosios.net.cask3_1.0.3_iphoneos-arm64.deb
+Size: 368952
+MD5sum: 8f9ec69da8506408b212bdb117eb3274
+SHA1: ae70f33bdab2d04880d3fd0c17f7f3b08ae77942
+SHA256: f599e35a82429a979266095046d8a26603f0ba89eaf37c58b913c607e83e9542
+SHA512: 80d6c37e512199edd7d13ea021b3b2205b25d1148590e95bf118fb5e364f79ce52f4150b76bcc21b5f340d1328e78c7cdfe1c0b05f650a62f33543bc396d752a
+Section: 插件
+Description: Animated table scrolling本插件是一款菜单翻动炫酷动画插件，软主要是给菜单上下翻动时添加动画效果，不仅仅是系统自带 App 的菜单，所有 App 的菜单都会有效果全局效果，非常酷炫，已汉化！搬运工源https://byg.iosios.net贼啦酷！必须入手装B一下哈！
+Name: Cask 3滚动特效-Rootless
+Author: Ryan Nair
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.cc26
 Architecture: iphoneos-arm64
 Version: 1.0.6
@@ -3185,6 +3205,24 @@ Author: CydiaGeek
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.movenotification16
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.movenotification16_1.0_iphoneos-arm64.deb
+Size: 32434
+MD5sum: f5ab1bc1dadaad8313d4056f5777ea36
+SHA1: 97f5828b19b636bf97d2d7872355223bb7032eaa
+SHA256: 9026629bbb9a02cf9dd114847058a81e62d7b0908c1fc5ccbd8d554d1c6ebd64
+SHA512: 622f14a875c35cddf06e8551126fc076c2970a6da9140c97f09408ff153b471e44bca94df51e1740aa7640d5bb303b93da3d6f97472fb90bd3b4c8fa1c24488b
+Section: 插件
+Description: 在 iOS16 上自定义锁屏通知上下位置，意思就是锁屏通知的位置，iOS15应该是不行，自行测试，不行就卸载！已汉化，都是中文，冲冲冲！
+Name: MoveNotification通知移动-Rootless
+Author: JunesiPhone
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.msgfilt.rootless
 Architecture: iphoneos-arm64
 Version: 1.0-6
@@ -3338,6 +3376,25 @@ Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.otadisabler
+Architecture: iphoneos-arm64
+Version: 0.6
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: debs/byg.iosios.net.otadisabler_0.6_iphoneos-arm64.deb
+Size: 20022
+MD5sum: 1f1084206f70a3eec4be9f16eb756de9
+SHA1: b514179cb96a4dbd4881e1317001ef2049ea267e
+SHA256: 473512064818e2095a975e31b1a513908db93c09461604f4d3f8c022af67a8d4
+SHA512: 4e4bb8c3b922dbe502d1d42dde7bf29a99c341a374f21eb2687a2dee462fa464bdae596d517f55967cf34c760e7adf31e888ad44f8313716f51d8a3f9ce253c7
+Section: 插件
+Description: Delete and disable OTA badge安装此插件即可屏蔽系统更新，yyds！半越狱不知道行不行，自行测试！安装之后进多巴胺里重启用户空间，或者重启手机生效！搬运工源，免费为全网用户提供技术支持！
+Name: OTADisabler屏蔽系统更新-Rootless
+Author: ichitaso
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.pancake-rootless
 Architecture: iphoneos-arm64
 Version: 2.3
@@ -3395,6 +3452,25 @@ Section: 插件
 Description: 样式丰富多彩的小巧通知横幅。刀刀优化，效果看截图。搬运工源永久免费，万古长青！
 Name: PicoBanner多彩横幅
 Author: daodao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.picsew.rootless
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 120
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.picsew.rootless_1.0.0_iphoneos-arm64.deb
+Size: 31028
+MD5sum: 3eefb3ad2d2af79b089c10bf005a5177
+SHA1: 2dcd5c7b0beb066b45f1455e8ac32333eacaec7d
+SHA256: 7372c58234c8d96d5d91f8bccb2f882f01e2effc02c04597f11befc89f210f6d
+SHA512: 0d8e446321679a8cd95063e817542be6c16a8300d7a2e1e303606ffdb1e1d5af35df67792c7217df5ccbb92e02e9308e8d7f40a4bcb11109e9ab256657b87504
+Section: 插件
+Description: App Store搜索Picsew，一款非常好用的长截图软件！本插件已默认解除Pro权限，如果无效请删除重下软件，测试版本号为3.11.4！无任何广告弹窗！搬运工源永不收费，只为给大家带来越狱的乐趣，浑浊的世界总需要一点清明！感谢嘉嘉一直为大家带来实用的插件！爱你！
+Name: Picsew长截图 破解-Rootless
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4047,6 +4123,25 @@ Author: lenglengyu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.showmytouches
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Maintainer: 搬运工
+Installed-Size: 492
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.showmytouches_1.2.1_iphoneos-arm64.deb
+Size: 106558
+MD5sum: c4918cea472c339492c207421dc469c9
+SHA1: 959eb0d2dba2c317764c5b660b59248ea3ec5bc1
+SHA256: da3dbbcb15d751905446dff7e46fe70d9525568dfc3a56b2f5ccdc204bd6fea2
+SHA512: 12835ee4db38e18f570d4aacfbf58c54ae92b0f26edc5684225c99a4e076c00f0649b6c533c84aace4bcde02b39e5c536e41c6f87365bc2abdf66d91e5dfff1d
+Section: 插件
+Description: 一款显示触摸轨迹的插件，机友思念变成海基于开源代码的基础上，增加滑动轨迹效果，非常不错的一款插件，大家可以看看截图，喜欢的小伙们可以下载啦，和havoc源那款付费的差不多，冲冲冲！
+Name: ShowMyTouches触摸轨迹-Rootless
+Author: dvntm & SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.simcitycheat
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -4632,6 +4727,26 @@ Description: 一款非常好看的彩色通知条幅插件，让你的通知条�
 Tag: compatible_min::ios15.0
 Name: Velvet 2彩色通知
 Author: NoisyFlake
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.vfa-rootless
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Maintainer: 搬运工
+Installed-Size: 272
+Depends: byg.iosios.net.wcplugins.rootless
+Conflicts: com.25mao.wcplugins.rootless
+Filename: debs/byg.iosios.net.vfa-rootless_1.2.0_iphoneos-arm64.deb
+Size: 27912
+MD5sum: d9354a559d4dff9d06b242f099c16bb5
+SHA1: 55e9a8600e49572ad9f198d7bc40b33183654508
+SHA256: c143134635bf82b990cc1f62756076c114b0b95e14ca52239076e40e5edd7c41
+SHA512: b1f56799a093758316d1af51cba45373a85ee0936a007a16aff473847b60423a7ab7c763a5c365d31bd7a347135f7a7f990e04690c4f16796cdb8400e9401aaa
+Section: 插件
+Description: 插件开关已纳入微信插件管理页面。删除搜索页面的广告，删除公众号列表广告、快讯，删除公众号文章中间和底部的广告，删除朋友圈广告，删除小程序的广告，删除直播和视频号中的广告!感谢开发者开发实用插件！
+Name: 微信去广告-Rootless
+Author: Apple
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
