@@ -1271,6 +1271,24 @@ Author: Apibug
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.appcardlite
+Architecture: iphoneos-arm64
+Version: 3.3.3-end
+Maintainer: 搬运工
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
+Filename: debs/byg.iosios.net.appcardlite_3.3.3-end_iphoneos-arm64.deb
+Size: 704850
+MD5sum: 14aa0361ea13ddd3bd776c62b2721cdc
+SHA1: 1cba4cc9bb85278d12f18f14134971e83e7b17c6
+SHA256: bc13fef327a53975a034eb541c82f607655793d3413c67a2073bc8854090e4cf
+SHA512: 171ed8b978711a5bb0e0c7144ab20236ea9d3728ca31b317bda972563f68362900e7761a6b41e67495e9b76d21b46bca0ca1da75ffa6fc4efebbcf4104f5797b
+Section: 插件
+Description: 又一款分屏插件，小编个人不太喜欢这种分屏方式，但是也有不少人用户喜欢，效果如截图介绍所示，大家可以试试，觉得不好用的可以缷载！开启教程如下：看第一张截图照片手势介绍，右侧最下面往左侧最下面滑，就出来设置项了，然后自己研究怎么进行设置！感觉不太好用，喜欢的小伙们就使用吧！搬运工源一直在为用户着想，希望大家多多分享，更新才快！
+Name: App Lecard分屏-Rootless
+Author: Crassna
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.appdata-rootless
 Architecture: iphoneos-arm64
 Version: 2.7.5
@@ -1615,6 +1633,24 @@ Author: LF
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.betteruiswitch
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.betteruiswitch_1.1_iphoneos-arm64.deb
+Size: 84462
+MD5sum: c229793e0a3d14eb6b1f4b44c86f30a2
+SHA1: 21021ba7e62b4bf473bcf555a7dcbe5ffd2fcbed
+SHA256: 4c46f147ea0bec3f378584b54dcde9c411fda72c4be5ddf72bc6ac0c4ade9e7b
+SHA512: 260794ca9ad0faf275261b4696b86f15c229ae8e40e83fdb58d2ed57ee0b0299f1063fb3003ab670ad25e0d6280476e0315a7cb594c063fd00c1b18b98205bd2
+Section: 插件
+Description: 本插件无设置项，安装注销即可生效！给手机上的功能开关添加一个特效，这开关名称吾称之为淫荡开关。变态的小伙伴们应该会喜欢！
+Name: 淫荡开关-Rootless
+Author: TiaoTiao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bindfs
 Architecture: iphoneos-arm64
 Version: 0.6.0
@@ -1748,6 +1784,24 @@ Author: kk
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.cahighfps
+Architecture: iphoneos-arm64
+Version: 2.1.2
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Filename: debs/byg.iosios.net.cahighfps_2.1.2_iphoneos-arm64.deb
+Size: 21294
+MD5sum: 0fefbcf6ecc32f944b3cacff4d4225fc
+SHA1: 0bddd77982eac4e11f5813569db9d57736be32de
+SHA256: 5e865b5204e550d40697ff04e351aaafd87ced159c6095ddae94fc731dd926a5
+SHA512: 9b1749adb29c5b38e8f04a51dd219982af5e86cac579f399ee5b9015065bdd727f9a490a41a4d2b24efe8e394a409f24d9f2041a0aee4bf50c81d4a8097aaef4
+Section: 插件
+Description: Make CoreAnimation apps use the highest available FPS. Custom FPS option added by uz.ra (@ChromiumCandy)一款非常不错的免费锁120Hz刷新率的插件，适用于iPhone13Pro以上机型，搬运工源已汉化，插件有设置项，感谢大神免费开发！还有一点说明一下，免费的插件，有些不生效很正常，大家自行测试！
+Name: CAHighFPS120刷新率-Rootless
+Author: PoomSmart
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.calculatorhistory
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -1860,6 +1914,24 @@ Section: 插件
 Description: 像CoolCC一样，删除控制中心模块背景并添加边框，刀刀基于p2kdev的开源分支定制。如果安全模式就缷载之后再注销几次就恢复了！建议更新之前备份旧版本，本源不保存旧版本！
 Name: CCBorder控制中心发光-Rootless
 Author: fiore
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.centra
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.centra_1.0_iphoneos-arm64.deb
+Size: 71634
+MD5sum: ad01cf8e325c0ba6da89e86c7585e1aa
+SHA1: eada549531a8b94074d8c4227a4d85612ae588e6
+SHA256: 1f0edb0f58b310a0a8215dd9cce08fefd01155ef0c96052f4a8c535ac257cd21
+SHA512: 5dfba7a8ffd9bc9b9521f2c968d88b277fa787a10318c549658faec01d65ac11d4959204babc364e7774f27560e43a0f0fc80e2bafeb4110da3bf413707ad30f
+Section: 插件
+Description: Customize the size of modules in the Control Center, including Connectivity and other modules.一款可以调整控制中心模块大小的插件，自带中文，原价0.99美元，现在免费使用，有能力的请支持作者！
+Name: Centra控制中心大小-Rootless
+Author: Hitori
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3450,6 +3522,25 @@ Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.notificationsgroupcount
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Maintainer: 搬运工
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.notificationsgroupcount_1.0.6_iphoneos-arm64.deb
+Size: 61032
+MD5sum: ad8bc9147fd542fb153a9af654893c6f
+SHA1: 2f7670c424f91125857efb986bc060c87be45bec
+SHA256: 3194d6d9a6462cb263aecc1d6f03406d717f227ac20456291dc151c02fc121eb
+SHA512: 96598867d25113bdbb6ae416551306306b08529b2829426f506344fb9b0089a55ca20a6687b6ff3b054bd8ef0635ddd5879f0a1654fd6e1bb0a40cde0a209075
+Section: 插件
+Description: Count those notifications inside Apple notifications grouping!众所周知苹果的APP通知达到一定的数量就会被归纳到一个分组里，这个插件的作用就是统计这个分组里有几条消息，效果如截图所示！机车主感觉有点鸡肋！但是还是感谢搬运工源群友萝卜花费1.5美元购买此插件，大爱无疆，有你真好！
+Name: Notifications通知分组计数-Rootless
+Author: 0xkuj
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.o2pro
 Architecture: iphoneos-arm64
 Version: 18.9.17-4
@@ -4155,6 +4246,25 @@ Section: 插件
 Description: Safari Essential Features感谢搬运工源群友萝卜购买并分享此插件，非常感谢好萝卜！此插件为iPhone自带浏览器增强插件，功能非常的多，使用，强烈建议用safri的用户下载！已添加进刀刀源汉化文件，感谢妖刀，本插件非常的好用！推荐！
 Name: SafariX浏览器增强
 Author: 0xkuj
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.safarixhook
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.safarixhook_1.0.0_iphoneos-arm64.deb
+Size: 18112
+MD5sum: 508991621bba364da244606fdfd0ba97
+SHA1: 59521fc0ad03ff223de78a03df0f8e055b3f0d1f
+SHA256: 33dec3785cf635ec4cf386f1a46a1d348e6638504e74ae0dc965b70c414c38a0
+SHA512: df19168ae2f1d4ade9085b3c1fe409887185b692692bc09d438aa9465c9206ccfe759c7359c7b74ee188a16aae3ca8d7228b738e1c54d3f5484093c68c3c999e
+Section: 插件
+Description: 解决SafariX闪退问题，必装依赖！
+Name: SafariX破解依赖-Rootless
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
