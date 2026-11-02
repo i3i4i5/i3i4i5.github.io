@@ -3065,6 +3065,24 @@ Author: tuancc, Summit, Shadow-
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.hikari
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.hikari_1.0.8_iphoneos-arm64.deb
+Size: 1221190
+MD5sum: 412f3e80acdfef9e7c41abd1aa69a1c8
+SHA1: 30282371c04dd66332de1025a77945b1ca5758d7
+SHA256: 31d00ce2f2a62bc75c20d1d7404a2760c38b812f346294abd2c423b7be2a03ab
+SHA512: 8d61a6a8757b1a198e14ba90c870745036de68b313a453362188dba2dddd9d267d4cbeb51e56e1edd5da517a0a3bda7fcde8f4e6a0c467e370c572dbaa910f78
+Section: 插件
+Description: Hikari让您轻松定制和增强设备的音效.这是一款可以更改提示音的插件，还不错，有需要的小伙伴们可以下载试试！
+Name: Hikari铃声更换-Rootless
+Author: Hitori
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.hongguofn.helper
 Architecture: iphoneos-arm64
 Version: 2.1.0
@@ -3158,6 +3176,25 @@ Section: 插件
 Description: Easy app shortcuts这是一款应用快捷方式的插件，效果如截图所示，又一款鸡肋插件，虽然没啥用的插件，但是搬运工源不能没有，不然小编要扣工资的！
 Name: Hydra快捷方式-Rootless
 Author: MTAC
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.iboxhook
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Maintainer: 搬运工
+Installed-Size: 304
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.iboxhook_1.0.9_iphoneos-arm64.deb
+Size: 115272
+MD5sum: bb0676ae0c3fb22fbd1a36e49531b336
+SHA1: 41f6c56bcebc4accfc89cf7bb845c69fcefb7e9a
+SHA256: 8d8aed5b9875f0da08184f8a15e8ec6a55d13154aef169754f3fa6b1790231c0
+SHA512: af84f9f59ef65e84a495e6356d00a73b248d41460a4b17ab83af1f199c3d9940763b395b1ae8ac78421a19fc550c5d9c732a8b1e9cedd6e65aaf49a06df88c52
+Section: 插件
+Description: ibox是一款看视频的软件，怎么下载，自己去找！！！自用 | 看剧 短剧 漫画 听书 音乐 无广告 移除看剧VPN检测 其余检测未去除 | 仅越狱使用 仅支持216版本(不支持任何优化版)
+Name: iBox去广告-Rootless
+Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4988,6 +5025,25 @@ Author: SOPPPra
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.settingswidgets.rootless
+Architecture: iphoneos-arm64
+Version: 1.2.3.1
+Maintainer: 搬运工
+Installed-Size: 512
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.settingswidgets.rootless_1.2.3.1_iphoneos-arm64.deb
+Size: 96820
+MD5sum: f8ed464554081c33765a04e19ec60edc
+SHA1: d06e8cc7c9037a4bae920078c35c645cbfbd4d9f
+SHA256: e66a38fc72d342c23e5c47f2c836041776cd2fd09815eee7f30743ee52c1174b
+SHA512: cb93756710135d8c4c47da6c40e31c27fc269f70d802e62a4f9c06f311e5f04328a3deb7d1c1f11f2dbdb73d888842f9d3969a3690d97eab8c11bec12df535eb
+Section: 插件
+Description: Bring good looking widgets to the front page of settings!将好看的小部件带到设置的首页！详情看截图介绍！由搬运工源管理The X汉化分享！
+Name: SettingsWidgets小组件-Rootless
+Author: shepgoba
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.shellx
 Architecture: iphoneos-arm64
 Version: 11.3
@@ -6266,6 +6322,25 @@ Author: 热心网友
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.weifeng.rootless
+Architecture: iphoneos-arm64
+Version: 7.0.3
+Maintainer: 搬运工
+Installed-Size: 884
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.weifeng.rootless_7.0.3_iphoneos-arm64.deb
+Size: 593946
+MD5sum: 9d9803b92de4bed57c38121109d14d63
+SHA1: 276bc4eac7ea5665d4199d3fe51dc954702cb0e4
+SHA256: 12d132233234f10a3d6ef8008582079330904ae543ddb248e668fd04f2e2c993
+SHA512: 6cc95aacf53e15c3780a3ca7684c8591d2db1dcc812ce8a7e08da69e4366d47183b7be80b3812583915be8048423da08f1e7cdba5ac009fcc5ab8d72f6e45021
+Section: 插件
+Description: 去除你能看到的所有广告，基于威锋7.0开发！通杀威锋7.0.3及之后的版本！FuckYourAds！去他妈的广告!还你干净体验！开启会员功能!点亮会员头像!威锋是一款论坛APP。App Store里可以下载！
+Name: 威锋会员-Rootless
+Author: 小果子
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.weixinpicture
 Architecture: iphoneos-arm64
 Version: 1.1-1
@@ -6493,6 +6568,25 @@ Section: 插件
 Description: 抖音消息防撤回、猜拳骰子作弊、语音转发、屏蔽输入状态、无限看闪照。插件位于抖音设置内！搬运工源，搬你所想！
 Name: 抖音防撤回
 Author: vita
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.zeppelinreborn
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Maintainer: 搬运工
+Provides: com.alexzielenski.zeppelin
+Depends: mobilesubstrate, preferenceloader, com.muirey03.libimagepicker
+Filename: debs/byg.iosios.net.zeppelinreborn_1.4.2_iphoneos-arm64.deb
+Size: 3134974
+MD5sum: 219ee4ebdcb56322ec42487fb15cf1af
+SHA1: e2ef060b2b8402a057f28135265c6a0dec70c194
+SHA256: 86ccc8aeb5e7737eae636f43951dd565fdf51154303126a2d212879f6c3c4cac
+SHA512: 7063e99c8f65173b7028ce93c536235b3222ae320230691b2de055255afebcdb508e6f7e0c7c1fd0a514ae5b20d6634123876b8e41c65c87fd33ca261bf5ff02
+Section: 插件
+Description: 在运营商文本或时间旁边添加图像或GIF！详情请看截图左上角！还不错的一款小软件，但是我个人觉得不值得付费购买，有能力的可以支持作者开发！
+Name: Zeppelin Reborn个性图标-Rootless
+Author: Hitori
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
