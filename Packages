@@ -1099,6 +1099,27 @@ Author: zhumi
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ThemePro.rootful
+Architecture: iphoneos-arm
+Version: 2.4.5
+Maintainer: 搬运工
+Provides: ThemePro
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Filename: debs/byg.iosios.net.ThemePro.rootful_2.4.5_iphoneos-arm.deb
+Size: 7770920
+MD5sum: b0332af52d39ade8c1126a39c7b5e5f3
+SHA1: 2e82dc3b7a46808b048a498cea62a131536e79d6
+SHA256: b7c4a8b64c1bde88ee43158127f401cb276d5235e06c681580408e4be036b56c
+SHA512: 58bf9e7786aa452e50db6fa259b980d6ceb57844bf54658fcb9d8edfe50f295d4ea89931ab6a926a7ebcc8b0af36d2d10f98e07ef0b57cde95678c8e12c5bb2b
+Section: 插件
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!主题文件搬运工源也没有，自己看插件作者公众号找！
+Name: ThemePro菠萝微信主题
+Author: MustangYM
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ThemePro
 Architecture: iphoneos-arm64
 Version: 4.9.6
@@ -1213,6 +1234,26 @@ Section: 插件
 Description: 快速跳过激励视频广告，奖励正常领取。例如微信小程序、抖音小程序等等，桌面图标长按！不一定什么软件都有效，无效就缷载！
 Name: 快速跳过广告-Rootless
 Author: lly
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.advertisement.hide
+Architecture: iphoneos-arm64e
+Version: 2.3.1
+Maintainer: 搬运工
+Installed-Size: 1897
+Depends: mobilesubstrate (>= 0.9.6100), firmware (>= 14.0)
+Conflicts: com.daodao.rootless.vfa,netskao.weibonoads-rootless,byg.iosios.net.txvideonoad.rootless,com.tencent.live4iphone,netskao.ppxnoads-rootless,netskao.blblnoads-rootless,byg.iosios.net.weifeng.rootless,byg.iosios.net.baidudisk.rootless,com.lenglengyu.killads-rootless,netskao.xhsnoads-rootless,byg.iosios.net.killads-rootless,byg.iosios.net.bilibilinoad.rootless,com.snail.bilibilinoad.rootless,byg.iosios.net.csdn.rootless,byg.iosios.net.xhsnoads-rootless,byg.iosios.net.ppxnoads-rootless
+Filename: debs/byg.iosios.net.advertisement.hide_2.3.1_iphoneos-arm64e.deb
+Size: 2537108
+MD5sum: 62af83e1e30aad8ba5113279b6372806
+SHA1: d15dffb66ab39aa2edd9a87997500191bdcd4c3a
+SHA256: 94622aaa0bcbd3ad15c35475b77504a29ba7d9fac80bd8dda3f0709af5f4cf5d
+SHA512: fe7a0f22bdd7ceaaac93dd5d19e1d39f49154711287c151dd9f0167dd49125c1f257fc073cf03e867b638d4798887f1cd8dec2ba9112adf46f4733163d25c9cb
+Section: 插件
+Description: 广告终结者，一款免费的去广告插件，可谓越狱必装插件，创意由大佬来了老弟提起制作，搬运工源维护更新！其中特别感谢iOSign,Netskao,Lenglengyu,蜗牛等人为大家提供如此多的去广告插件，如果有安装相同软件的去广告插件，导致软件闪退，建议先删除，防止冲突！广告终结者不涉及系统层注入，不会引起系统崩溃重启，放心使用！软件闪退可使用choicy或者小扫把可以单独禁用某一项！插件无设置项，安装即生效！广告终结者永远免费更新，后续会支持越来越多的软件，有问题进搬运工源Q群反馈！
+Name: 广告终结者-RootHide
+Author: 搬运工&来了老弟&iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2285,6 +2326,25 @@ Author: Bandar Alruwaili
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.bigshotsnapper3plugin
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
+Filename: debs/byg.iosios.net.bigshotsnapper3plugin_1.1_iphoneos-arm64.deb
+Size: 38596
+MD5sum: 9625eef64586717d20309ca915c5a698
+SHA1: 9a2c01071f92c3f8850faabcdbd90ee6e3aaeae4
+SHA256: 189d4584d2db79afe2b370fe7abe8c2ba4c19f74760772947bbef6ecbbf88c0f
+SHA512: 12d6e8d9992d9c1ba9f1b23e5cfd48c9b1491cd3b88475cf32611ae95f5c73ebf058d6ed8d3d20c330c0079ce2cf8b62276cb6b795776354fb272bedd2d5a225
+Section: 插件
+Description: 注意：此插件需要购买正版Snapper3，搬运工源的是旧版破解没用！此支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用(没提示)。
+Name: BigShot长截图依赖-Rootless
+Author: Jonathan Winger-lang
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bigsurcenter
 Architecture: iphoneos-arm64
 Version: 1.4.5k
@@ -3062,6 +3122,24 @@ Section: 插件
 Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素溶解 / 百叶窗 / 故障闪烁 / CRT 关机 / 3D 翻转 / 旋涡内爆 / 灰烬上升 / 沙化 / 融化坠落 / 波纹扭曲 / 拼图崩落 / 旋卷飞散 / 剥落坠落 / 闪烁熄灭 / 墨色飘散），每种可单独调参。
 Name: 息屏幻术
 Author: 7513
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.cracktool5
+Architecture: iphoneos-arm64
+Version: 5.0~beta0
+Maintainer: 搬运工
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Filename: debs/byg.iosios.net.cracktool5_5.0_beta0_iphoneos-arm64.deb
+Size: 1284290
+MD5sum: bfc519cd91cd19f98a2f7246db9df995
+SHA1: 665876e2af443071f0488168b0d8b024d263eb07
+SHA256: 0c6f277cf775866952596d1ea57da00c4136ceddaed17de0bbf4556e2039ede3
+SHA512: 1014864a97ead606a09dc32ff15087048e05ecb114fbf93b01fc90b034176f8ece372ff33f8112059bf0be870679e1115fe7141531672ec6e560f78f381ca1b6
+Section: 插件
+Description: Crack Tweaks on one click据说能激活一些插件，类似filza、icleaner等等，不一定有用，应群友要求，上架源备份，没需要的不用下了！
+Name: CrackTool5激活工具-Rootless
+Author: julioverne
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4485,6 +4563,25 @@ Section: 插件
 Description: ibox是一款看视频的软件，怎么下载，自己去找！！！自用 | 看剧 短剧 漫画 听书 音乐 无广告 移除看剧VPN检测 其余检测未去除 | 仅越狱使用 仅支持216版本(不支持任何优化版)
 Name: iBox去广告-Rootless
 Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.icleanerprocrack
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.icleanerprocrack_1.2_iphoneos-arm64.deb
+Size: 5252
+MD5sum: b260b3d8827637fe7002f38a387f0dca
+SHA1: f79a4a676c5a6af7732dc89ffe305915ac443432
+SHA256: 1ace9d5d78996bf9861c15b025ed309ec6d05feffa9efc9c038f2a2dcf5e5e5d
+SHA512: b44b18010dd17aa2af323fe4796c92fccfa4848b0f5da2e766da7b95f058dccea86fd7d55efdc0ef86b3212fbb5b0e894f10dbde3db01872eb2e9364795aa044
+Section: 插件
+Description: iCleaner Pro Crack破解插件，网友分享，应该是有效的，建议有能力的还是支持作者，破解去广告，会导致清理软件一直是英文，介意的请卸载，和本源无关，不要乱造谣
+Name: iCleaner Pro 破解插件-Rootless
+Author: Anna
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6760,6 +6857,24 @@ Section: 插件
 Description: Removes annoying rate app pop-ups众所周知，某些APP会偶尔弹出烦人的评分弹窗，本插件的作用就是禁止掉这些弹窗，但是也不一定有用，这弹窗也不是百分百出来，无法测试！有需要的小伙们试试吧！搬运工源，永久免费，不喜勿喷！
 Name: RateBeGone删除评分弹窗-Rootless
 Author: dvntm
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.reachplayer-rootless
+Architecture: iphoneos-arm64
+Version: 2.6
+Maintainer: 搬运工
+Depends: firmware (>=13.0), mobilesubstrate
+Filename: debs/byg.iosios.net.reachplayer-rootless_2.6_iphoneos-arm64.deb
+Size: 152378
+MD5sum: e370f8d0856fe540bc263c30d662ea45
+SHA1: f8fde2c49ed05b19e7c3857e58d361218a325d80
+SHA256: 4f74463e509a1ceb62b0aacb88593b84dc626d8550a186cf062876d11697769f
+SHA512: f1b338e87834b04b2b54c5c78ce340b4ffbcd6843d9efb4d6cf53b07cb72a72794611dabe7b74b63bc3f464e73273f1cab3e6a8db96bd871cb1f9c790156a552
+Section: 插件
+Description: Now Playing info in Reachability Window!一个好看的音乐窗口，可能有偶尔失效的bug！
+Name: ReachPlayer音乐窗口-Rootless
+Author: ETHN
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
