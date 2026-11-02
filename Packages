@@ -2165,6 +2165,25 @@ Author: Afnan Ahmad & SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.chromatic.rootless
+Architecture: iphoneos-arm64
+Version: 3.0
+Maintainer: 搬运工
+Pre-Depends: firmware (>= 13.0), dpkg, uikittools
+Conflicts: wiki.qaq.chromatic
+Filename: debs/byg.iosios.net.chromatic.rootless_3.0_iphoneos-arm64.deb
+Size: 4507842
+MD5sum: 5a7be1699aaa42c83c52646e71ef27e2
+SHA1: ad2e6e6f2340f054b906e790a0a56d1c119e1794
+SHA256: 6cf1da2b8f101f7c2e9d160d2b8aeb4018921b364b87c175443d0dd8fa534f46
+SHA512: b8876e376849ab0a9497453c59b6c288c11e56bb2bf11dc230b34545e4e673837c6e859c166f759f61e3b67e5578af7549013e2564b201a8bbc0fb1a02b10c70
+Section: 插件
+Description: Modern. Fast. Beautiful.一款类似于sileo的越狱插件商店，但是更现代化，本版本是多巴胺使用，只显示无根插件，值得使用！喜欢的小伙们多多支持搬运工源，继续努力为大家更新免费好用的插件！
+Name: Saily越狱商店-Rootless
+Author: Saily Team
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.classicfolders3
 Architecture: iphoneos-arm64
 Version: 3.5.1
@@ -5707,6 +5726,25 @@ Author: EllaSP
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.trollstore
+Architecture: iphoneos-arm64
+Version: 2.1
+Maintainer: 搬运工
+Installed-Size: 184
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.trollstore_2.1_iphoneos-arm64.deb
+Size: 28702
+MD5sum: b8ca341ecbdfd5f170e5eee1699a82ad
+SHA1: 9d1d484bfa68f7db9505506740f322f258e2ee23
+SHA256: 93c745578ef6fcf9366f4cbf37aacccf4848b0235f4563ef646adda1f356290a
+SHA512: 4e29fded7d13c42f8ec2464ab60d1dc05fe2c23f039b629a5a0a7f293bfd5500d711321feed21316d306efa461a50b8cc458cd131cf04fd1deb3c559879f0785
+Section: 插件
+Description: TrollStore巨魔通用汉化插件，强迫症福音！受不了巨魔英文的兄弟们冲吧！让你的巨魔变中文！
+Name: TrollStore巨魔通用汉化包-Rootless
+Author: 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.trollstorehelper
 Architecture: iphoneos-arm64
 Version: 2.1.1-2
@@ -6223,6 +6261,24 @@ Section: 插件
 Description: 插件入口在设置里，小程序提示要升级微信的，可修改微信版本号为8.0.52，长期修改微信会有问题。用完改回来。路口在我的页面，点击退出微信生效。只能是最新版，不可自定义版本！感谢自由如风！
 Name: 微信修改版本号-Rootless
 Author: z
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wechatiPhone
+Architecture: iphoneos-arm64
+Version: 1.6-3
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.wechatiPhone_1.6-3_iphoneos-arm64.deb
+Size: 2458950
+MD5sum: 20c0de9991c79d230fce525e26ae5758
+SHA1: 8c3a6a1c0dbe9d2276d70b0e604f2deb7b94969e
+SHA256: ddaea3771149059541f0d7c01ec63c98d79d21cb8049d09640a03210a5f9e3c8
+SHA512: ebd8e39028849155931168babac0dc84d17093c2c5440a6d64fcb25c8f38077d5e1ac0cf51a04ded45f30d30dca6ee62820cf300e383c0784b373bd367d24f3a
+Section: 插件
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像，防撤回，等一些其它比较好玩的功能，和其它的插件差不多，可以下载试试看！
+Name: 微信爱锋助手-Rootless
+Author: appku
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
