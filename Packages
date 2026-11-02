@@ -2135,6 +2135,25 @@ Author: Traurige & neilsardesai & SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.batterypercent.rootless
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.batterypercent.rootless_1.1-1_iphoneos-arm64.deb
+Size: 9116
+MD5sum: a5e64a8d8d4a3a200ca3f630eae71f17
+SHA1: ee0dcb69edb689a9f60e429ccee2c46efd5d9020
+SHA256: 57044f30e80ef37665482becd8ded35b6cb829cfb72202b25f2f16c627d67535
+SHA512: 060493f53630afeff34721fabf2f775c92290d34f53bed24ad32f7fe03723e6e55cada8504d5a1ee4fa91aa392af57f8c57d045b52b7942f9b6005a80fc3275a
+Section: 插件
+Description: BatteryPercentX启用系统原生电池百分比，加深边框颜色，加深充电时电池颜色！
+Name: BatteryPercentX电量百分比-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.batteryview.rootless
 Architecture: iphoneos-arm64
 Version: 1.8
@@ -2283,6 +2302,24 @@ Section: 插件
 Description: BigSurCenter replaces the default iOS control center with a new lightweight and elegant one inspired by the control center in MacOS Big Sur. Cracked by CBZ控制中心美化，非常的好看，已汉化，国内搬运工源免费首发，感谢CBZ大神！大家先尝尝鲜吧！本插件一直没更新，但是能用，凑合着用吧，好像有点卡顿！
 Name: BigSurCenter控制中心美化-Rootless
 Author: nicho1asdev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.bindfs-xina
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Maintainer: 搬运工
+Depends: coreutils, sed, plutil, firmware (>> 14.0), firmware (<< 16.0), mobilesubstrate (= 999)
+Filename: debs/byg.iosios.net.bindfs-xina_0.1.2_iphoneos-arm64.deb
+Size: 3326
+MD5sum: 72b4301094a61c57f36296d09ef2de14
+SHA1: e5d425828d5a3db40d14189ad37f8bee0e34fb80
+SHA256: 0cbb007c39145e68206d08779a10240c0a9e47309b8efe23f03ca8c7f43db3f4
+SHA512: b3a105dcd50a89c7f169bb2a5cd75f5f6ae7f82c498953909445793147ccd5c8ad6836467784f14b730a836bcdd8726a1003d9c95ae09bdb0acecacf35fcf5d9
+Section: 插件
+Description: 以 bindfs 挂载文件夹的 cli 工具！本插件只支持xina越狱！挂载教程请下载果粉之家查看！iosios.net
+Name: mount_bindfs挂载工具（Xina）
+Author: zhaonan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5752,6 +5789,25 @@ Author: Joshua Seltzer
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.nfcwriterx.rootful
+Architecture: iphoneos-arm
+Version: 4.0-100
+Maintainer: 搬运工
+Depends: mobilesubstrate, net.limneos.libbulletin
+Filename: debs/byg.iosios.net.nfcwriterx.rootful_4.0-100_iphoneos-arm.deb
+Size: 824344
+MD5sum: ef0e1ce5835d5674ffc03c9b8c7c31c9
+SHA1: b648c480b6a39d4a582bdf5900845a5ed3c0401b
+SHA256: 9c97537551f32a5e3bc5850f62a9121d819ce9edab0d9a5eb94bc26505503628
+SHA512: bc87cf826636eb8caf3208dc859a05fa5208ae30ef8bfb498f13d44b33c58a8499384af668b133a19f73f99b0ee3ff82fa6a0e054b04af247e708c665e2d84f5
+Section: 插件
+Description: 著名的 NFC 模拟/写入 App。它可以读取外部的 NFC tag，然后模拟出来。例如，可以用来模拟小区门禁卡。NFCWriter XS for iOS 11-16
+ 。应锋友要求，上架备份！
+Name: NFCWriter XS 原生NFC
+Author: Elias Limneos
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.noappthinnings
 Architecture: iphoneos-arm64
 Version: 1.4
@@ -6399,6 +6455,26 @@ Section: 插件
 Description: A Tactile RGB Keyboard for your iPhoneProKeys是iPhone的触觉RGB键盘。iOS键盘自iOS 7以来没有太大变化。这是一个扁平、无聊的键盘。它有两种颜色，深色和浅色。不要了！ProKeys是iOS键盘应该有的样子。你可以真实地感受到每一个按键，你可以自定义键盘和键帽的外观，你可以添加漂亮的动画，这样你键入的每个字母都会以鲜艳的颜色弹出。为了让它变得更好，你可以微调每一个功能，这样你的键盘就非常适合你！真正了解ProKeys所能提供的唯一方法就是实际尝试一下，那么你还在等什么呢！总结一下就是美化自动键盘的插件，小编不用自带键盘所以不是很清楚用法，大家自行测试一下！
 Name: ProKeys键盘美化
 Author: Justin Proulx
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.pulloverpro.rootful
+Architecture: iphoneos-arm
+Version: 2.1.4-1
+Maintainer: 搬运工
+Installed-Size: 1480
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: debs/byg.iosios.net.pulloverpro.rootful_2.1.4-1_iphoneos-arm.deb
+Size: 494754
+MD5sum: 2610d76ec995ecff32e287bd5f46f651
+SHA1: 8ca747a0af6a5a2c2b170dbb0a89a47d32fc552f
+SHA256: aa48cdd881bc39ff9ef1932106577602ff70d5483b8cdbbcce96856fa891b3c3
+SHA512: 482ac8cd3c405dae6aebf3adccc56681b60e6af492a0394e53b91f83a3b4b17cc1e854e5d6a0de748d38a987d812ec05df0a9bf3cb89083f08b0de30cf4209a9
+Section: 插件
+Description: A better way to multitask! Fix support for iOS14-iOS15侧边分屏神器！上架源备份！
+Name: PullOver Pro分屏神器
+Author: c1d3r
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -11618,6 +11694,25 @@ Section: 插件
 Description: 插件依赖，以降低版本号 来证明我不劫持依赖，因为没必要！
 Name: NiceHelper插件依赖-Rootless
 Author: niceios
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Maintainer: 搬运工
+Installed-Size: 256
+Depends: firmware (>= 7.0)
+Filename: debs/com.opa334.altlist_1.0.9_iphoneos-arm64.deb
+Size: 46022
+MD5sum: 42df45a32ea8ce8e2333e277bb4abbef
+SHA1: 9f18a4fe6829f1c4ef92a65e189544530c821e8c
+SHA256: 0e0d259c2246c1b9de03fcff525dbcc048e8e52e0cab4bc21961323259c1ae5d
+SHA512: 85e058722547f10616093d141ae1733a54ad91b41805960fb24476f4b367691b640778273248a0259b8d8be26e8deeb21ad39ba7ea9a4b894ca9a84682647a71
+Section: 插件
+Description: A modern AppList alternative必备的插件依赖，考虑到xina2.0大多用户缺这个依赖特上架搬运工源，供用户使用，已降低版本号！就算被人喷劫持依赖，我也愿意承受这舆论，只为狱友提供方便！
+Name: AltList
+Author: opa334
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
