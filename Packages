@@ -1459,6 +1459,25 @@ Author: iamdega&daodao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.awemeclearlikes
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.awemeclearlikes_1.1-2_iphoneos-arm64.deb
+Size: 24254
+MD5sum: c9ddd0064e7a28d9e40370bf790c9c5c
+SHA1: ee1739909eaa0c6478af76debdc5aad52104c3eb
+SHA256: 552097281c11e4682a8a4ca683631a61b7a5f4f92e7c05c5bbedc19a668f9663
+SHA512: 128393fb7dd57c49f00875ed873ee1315881a7f272951f0d2b70bcb7ad4fcf38fdb501b839156e5e5c65da2c95c1840e549a638314ccda0519427cb876efe9bf
+Section: 插件
+Description: Aweme Clear All Likes, Shake it on my favorite page to get started!一款非常有意思的小插件，Netskao开发！在抖音我的喜欢界面，摇晃一下手机即可一键清空之前点赞的作品，不支持旧版本抖音，貌似要30版本以上吧，请慎重考虑，清空后不可挽回！有能力的请支持开发者！
+Name: 抖音清除点赞-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.awemedisablebars
 Architecture: iphoneos-arm64
 Version: 1.1-6
@@ -1475,6 +1494,26 @@ SHA512: 4600fa8983d4a9563227cde48fd6a463ff3a5f266b43b6bac8cbf739729be294b50c1181
 Section: 插件
 Description: 由Netskao大神开发的又一款抖音插件，原名叫AwemeDisablebars，插件功能如截图介绍所示，主要是禁用顶部/底部选项卡按钮，禁用同城、禁用热点、禁用广告、禁用直播等等，非常的不错，有点小净化的意思，感谢Netskao又一力作，江山代有才人出！仅在30.3.0及更高版本上进行测试！个人建议不要安装太多抖音插件，防止冲突！
 Name: 抖音小净化-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.awemedownloadmedia
+Architecture: iphoneos-arm64
+Version: 1.1-8
+Maintainer: 搬运工
+Installed-Size: 456
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.awemedownloadmedia
+Filename: debs/byg.iosios.net.awemedownloadmedia_1.1-8_iphoneos-arm64.deb
+Size: 189818
+MD5sum: 1d7855dafbfd25d4a311b8d83f177b67
+SHA1: f663e94274cbdde825225f34fef2e0194d7ee4b8
+SHA256: a8c533a698ad5ed6a13870b03069df97d93cb35ae1887641c4b9f7285b8a4bf9
+SHA512: 6e825ecceb7694399235c6e31081093b0616d11a73ed09321b1ad79a275965ac6719cf7cce76fa14210ffdc8fe4db7b8ec00ddf46b0d6af574629a121631189e
+Section: 插件
+Description: 由大神Netskao开发的又一款抖音插件，主要功能如下：右下角显示下载按钮、 无水印保存图片、视频、LivePhoto，仅在31.7.0及更高版本上进行测试！非常不错的一款插件，有能力的可以支持作者！
+Name: 抖音下载-Rootless
 Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -1513,6 +1552,25 @@ SHA512: ca1167ff776f6cf9bf7e02e9cda7d01dd7558877838dee47db7f336b65a92c8e7d9a2644
 Section: 插件
 Description: 抖音去广告插件* 默认生效* 去启动广告* 去视频流广告* 去青少年提醒* 小程序跳广告，单独开关控制* 内存清理功能，单独开关控制！一款很不错的抖音小插件，喜欢的小伙们可以试试！
 Name: 抖音去广告-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.awemevideotime
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 搬运工
+Installed-Size: 124
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/byg.iosios.net.awemevideotime_1.1-2_iphoneos-arm64.deb
+Size: 38760
+MD5sum: 9d6f7bcca8f7a5549bad7a46ea866af5
+SHA1: b31eb8232a1ec8e6e66f274ad5d1bcd7408b6497
+SHA256: b5aad38c25a47393048b5e02fa3e0a01718888e1805f9af34374df43c879cd8d
+SHA512: 19b780783019ce029004398d84481e69781ce4d21419fdd20ee2f049f1f2b4eab8f533e975780143dfe7bd0d991fa1fff9dd538d828fda465368850876dae8e4
+Section: 插件
+Description: Aweme Video Show Time. Tested only on version 30.3.0 and above一款小插件，让抖音视频显示时长以及播放时间，很不错的一个小功能，希望字节跳动后续更新能加上！
+Name: 抖音播放进度-Rootless
 Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -2354,6 +2412,25 @@ Author: DumpApp
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.dumpapp.wechat
+Architecture: iphoneos-arm
+Version: 2.0.4
+Maintainer: 搬运工
+Installed-Size: 23912
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/byg.iosios.net.dumpapp.wechat_2.0.4_iphoneos-arm.deb
+Size: 12343846
+MD5sum: 3e57fde003e5f90d78948c08d04a34b3
+SHA1: e8201828033a7138b41b42a0007a988a6b139130
+SHA256: 2b098656ee99f6ef088a6bc9cbf2f5d6caaff9381fe3171e5950dcb423be6705
+SHA512: ba2e20487b37431d5ae44b4ba3e67d60c5047cd3fe4cdad25cd83682efd6ff7149bb986b1efb3d7ce40d01080017485e5197820cae16ef3ad5a3a7afcfee968f
+Section: 插件
+Description: 锤子助手插件，感觉就是微信净化换了个名字重现江湖，至于有没有什么其它限制，暂时不清楚，喜欢微信净化的用户可以试试此插件，可以防撤回，抢红包，转发语音等功能，自行体验！感谢搬运工源群管理GODW分享，越狱因为分享更精彩！
+Name: 锤子助手
+Author: DumpApp
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.dumpbinaryfiles-rootless
 Architecture: iphoneos-arm64
 Version: 1.5-1
@@ -2894,6 +2971,25 @@ Author: CydiaGeek
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.hydra
+Architecture: iphoneos-arm64
+Version: 2.1
+Maintainer: 搬运工
+Installed-Size: 1184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.hydra_2.1_iphoneos-arm64.deb
+Size: 741012
+MD5sum: 0cdfc31114b631074d3ffecdfa075aa4
+SHA1: 76649ef8d637d683bfd0554a981403fa504527a5
+SHA256: a1a175b7c77fcc5127ba0465223d2ce09572f6d6c62bf927d601675299acf8c4
+SHA512: b9d3b11d40895be4fa3f8578ed0fcbb07709d49e43e10e656641eb3f444c5f1d2b95a65ece5fa778ad88bab4a34ceed53c49eb7c70b37f69d1a15e48b4f09982
+Section: 插件
+Description: Easy app shortcuts这是一款应用快捷方式的插件，效果如截图所示，又一款鸡肋插件，虽然没啥用的插件，但是搬运工源不能没有，不然小编要扣工资的！
+Name: Hydra快捷方式-Rootless
+Author: MTAC
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ikset
 Architecture: iphoneos-arm64
 Version: 3.4
@@ -3405,6 +3501,24 @@ Author: MTAC
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.lyrication
+Architecture: iphoneos-arm64
+Version: 2.5.0
+Maintainer: 搬运工
+Depends: mobilesubstrate, com.opa334.ccsupport, ws.hbang.common (>= 1.11)
+Filename: debs/byg.iosios.net.lyrication_2.5.0_iphoneos-arm64.deb
+Size: 315588
+MD5sum: 4106359de69b72277912f0883146c146
+SHA1: 71f82463fbc83773bde1815e085a8f0039489dfe
+SHA256: d33c60073273692e5f5692a3ad6976f0eb4b8737d1da02dc0e59fc6cf547a0cb
+SHA512: f05edadee500c7b4a435bb962f2eb820472d088978a0595d5b0657ae3210c0d5cdb3a796a7cbf6927f34c625cbf3e7d317fbb08ff1ceb3d9c52addba1316558f
+Section: 插件
+Description: 这是一款锁屏歌词插件，看清楚是锁屏，桌面歌词请用源里的另一款桌面歌词插件！貌似只支持Applemusic和Spotify，其他的国产音乐软件好像不支持，因为作者是老外，自行测试，不行就卸载！
+Name: Lyrication锁屏歌词-Rootless
+Author: Marcel Braun
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.macpass
 Architecture: iphoneos-arm64
 Version: 1.4
@@ -3767,6 +3881,24 @@ Section: 插件
 Description: 注意，目前免费的只有来电视频功能，alive，还有一些灵动岛之类的功能！大家看清楚，据说以后会逐步开放新的功能！其他未免费功能开启可能导致安全模式！O2Pro分屏，褒贬不一，Bigboss源也有，大家直接搜O2就能看到！说实话这个插件分屏的功能还是挺多的，具体的大家可以看介绍https://v.douyin.com/iAUvCPC9/或者截图介绍！觉得不好的用户可以不下载，本源上架只是为了给其他用户选择的权利，下载测试之后觉得不行的可以卸载，不用提供udid，放宽心，插件首页最顶部有获取测试资格，自己联系去问即可，我不卖任何插件，本源也有电话助手、nicebar插件，都是提供给用户搜索之便，买不买用户自行考虑，与本源无关！
 Name: o2Pro分屏
 Author: lzsxcl
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ocd
+Architecture: iphoneos-arm64
+Version: 5.4.1.1
+Maintainer: 搬运工
+Depends: com.mrgcgamer.libgcuniversal, preferenceloader, ws.hbang.common, ws.hbang.alderis
+Filename: debs/byg.iosios.net.ocd_5.4.1.1_iphoneos-arm64.deb
+Size: 469308
+MD5sum: 5b31d73ece58fffe2a222553b5e75517
+SHA1: 2da69788f6fd2b731367a63a21f5981fa5e1e33c
+SHA256: 3a3956f5b1fceb12e7469bedd88fe419edb9a4ccb5f912440060b6a4942f6e02
+SHA512: 3a0bf5075c0c62517fad6859357647c5a0534f7fbf914a15b505427b596fd1a36f8580c3e25e68a7ec064b782ca0616cadf33fdfb020fb5f9bb4818d2f2f8c65
+Section: 插件
+Description: OCD will let the option to color icon lables & badges background based on app color!一款彩色角标插件，适配多巴胺，本插件也很好看，本源四款角标插件，大家自行选择！
+Name: OCD彩色角标-Rootless
+Author: b4db1r3
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5065,6 +5197,23 @@ Section: 插件
 Description: 插件作用是为自定义原生键盘添加更多的功能，比如复制粘贴，滑动输入等等，非常的好用，原生键盘用户的福音，搬运工源已汉化，尽情享受吧，一款老牌插件，推荐使用！
 Name: SwipeExtenderX键盘增强
 Author: MiRO
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.tappy
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Filename: debs/byg.iosios.net.tappy_1.0_iphoneos-arm64.deb
+Size: 33954
+MD5sum: 86712c1b3abacd92fd642c3934f51db0
+SHA1: d10641847d9fe22710e0f905b81bf7ec5ef0dd92
+SHA256: 1f6dd02ad6cc92f3eae1c9200c3e9eac4951bc7221c438bc4a619b4c0e722ffa
+SHA512: 756405d3a86b1990376481d44228212d37b871e534bbe2a8dd07d91aaf482f23c5640b145dbc62fc954ff2a606abc841f750a4c6aa3a9610dadb1bfe82354f9b
+Section: 插件
+Description: Tap the time systemwide to reveal the date! Tappy is a convenient tweak that allows you to view the date with a simple tap on the time in the status bar.这是一款让你点击状态栏上的时间就能显示日历的小插件，适合不用电话助手或者nicebar插件的用户，如果你使用了这两款插件，可能会导致不生效！插件非常的不错，搬运工源已汉化分享，那些无脑喷搬运工源的人不知道是什么心理，不喜欢就别用，sileo还舍不得删，别让萌萌瞧不起你！
+Name: Tappy日历显示-Rootless
+Author: b4db1r3
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
