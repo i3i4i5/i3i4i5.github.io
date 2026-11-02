@@ -874,6 +874,25 @@ Author: M哥
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.WCEhances
+Architecture: iphoneos-arm64
+Version: 2.0-5
+Maintainer: 搬运工
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.lxcloud.WCEhance
+Filename: debs/byg.iosios.net.WCEhances_2.0-5_iphoneos-arm64.deb
+Size: 3657054
+MD5sum: 286d646799ef8d26f4171362e3b9e7d7
+SHA1: 13b2648a230999674da6fc5f88631a1820e14b39
+SHA256: e7f6af72ba7efa8c6fb762b74f85ba836192226db0ccefc9664bb74678b05848
+SHA512: 7dc828f88c1c35add009261289354bcad20bd0cd87ee5bc9171d2852826f2231d0f63bb43053193ef18e9eeb7a60772601dbef2f657db6ac773b1cb116a94ee7
+Section: 插件
+Description: 微信增强，用于优化一些反人类设计并增强功能，主要功能如下：伪装微信版本号，隐藏某些二维码功能，修改某些文字，修改头像，朋友圈小尾巴等等，详情看截图介绍，搬运工源，永久免费！
+Name: 微信增强
+Author: huami & Lxcloud
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.adkeyboard
 Architecture: iphoneos-arm64
 Version: 1.4
@@ -1895,6 +1914,25 @@ Author: Nightwind
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.indicators
+Architecture: iphoneos-arm64
+Version: 1.2-22
+Maintainer: 搬运工
+Installed-Size: 584
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.indicators_1.2-22_iphoneos-arm64.deb
+Size: 151674
+MD5sum: 9dac9ce462e244df1451920f06fe0997
+SHA1: e811ce100398ea6770c612f1466763e0bbe07def
+SHA256: f7e6cbf7f854705368333b552c6d6704789e7a97a655b11e62e4996ab6acea44
+SHA512: ecc9c20f29adeef676f11018785f64f394ad7673276d53148cc751dcd6392e78e5bf750085874ff7f2ef4f601879f38a1e29d9c085befb80538a03ff9c80c03c
+Section: 插件
+Description: 打开勿扰模式、手电筒、VPN时右上角显示对应的指示灯- SINI基于开源重新编译，修复支持iOS15+无根。
+Name: Indicators指示灯
+Author: LacertosusDeus & SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.infuseplus
 Architecture: iphoneos-arm64
 Version: 2.6
@@ -2102,6 +2140,26 @@ SHA512: c52478985ae9f3f3d5635fa8f5e7cbf84bb01a1ffab73136e395c9d2d4ebb4ae4ab20ab6
 Section: 插件
 Description: 让你的旧设备体验 Liquid Glass 液态玻璃。
 Name: Liquid (Gl)ass 液态玻璃
+Author: dylv
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.liquidass
+Architecture: iphoneos-arm64
+Version: 7.2
+Maintainer: 搬运工
+Installed-Size: 1340
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Conflicts: dylv.liquidass
+Filename: debs/byg.iosios.net.liquidass_7.2_iphoneos-arm64.deb
+Size: 469544
+MD5sum: 0484f0d7e7e1a9428b5905b43d37b72a
+SHA1: e8624f23015814c56b86f5a0536720d81e97d5ee
+SHA256: 045c7d4b41730b199ca30a8e93fe4f23d74f5600f0a0a8e3daa949d91586423d
+SHA512: 4d53199ebf22138812bb5145856e1e511212de138deb7553e70b7d2f73eff834bbefd6826657977e6550d53ef88d2b42015f5cf89c57a2b449df36305e0ca1f2
+Section: 插件
+Description: 让你的旧设备体验 iOS 26 Liquid Glass 玻璃特效，设置里把英语改成中文即可，有喜欢的小伙伴们赶紧试试啦！
+Name: iOS26液态玻璃特效
 Author: dylv
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -2413,6 +2471,25 @@ Section: 插件
 Description: 本插件功能：让你的音量键和电源键每按一次，在手机屏幕里显示动画效果，这是模仿iOS18的一个功能，还可以自定义按钮动画的大小，喜欢的小伙伴们可以试试，感谢M哥汉化插件，搬运工源全体员工向你表示感谢！
 Name: PopOutButtons按钮动画
 Author: tesla_man
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.qqantirecall.x
+Architecture: iphoneos-arm64
+Version: 1.6
+Maintainer: 搬运工
+Installed-Size: 1084
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.qqantirecall.x_1.6_iphoneos-arm64.deb
+Size: 1524020
+MD5sum: da3e59008f104ef33170a3431114527f
+SHA1: 2d48eccb9bbb59c6c5dfff20d49c37ce92020f6d
+SHA256: e0bc67ff304101f7d29fe05a27f5b80857782bde96f290e558233f810fd562f6
+SHA512: 0f3a7ed14c4b81ed155f179f63e11452ecb2c987a232c96709b391b4637efe37b5d053a0d04d7d7866c75ec5c6532a72ff3c24c4078629cc07ca8511f1ad47ef
+Section: 插件
+Description: 模块入口位于QQ内设置: NTQQ_AntiRecall。本插件有防撤回、防闪照及去广告功能，自行体验。非常好用的一款QQ插件哈！
+Name: NTQQ多功能_AntiRecall
+Author: X
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2734,6 +2811,26 @@ Section: 插件
 Description: A shimeji simulator for iOS一款桌面宠物插件，插件下载后在桌面，不在设置里。之前付费，现在免费下载，可以自定义宠物，还不错！暂时没汉化，自行研究一下怎么使用，搬运工源，你值得拥有，永久免费！
 Name: Shijima桌面宠物
 Author: pixelomer
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.shortvideodl-rootless
+Architecture: iphoneos-arm64
+Version: 2.1.8
+Maintainer: 搬运工
+Installed-Size: 3672
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo
+Filename: debs/byg.iosios.net.shortvideodl-rootless_2.1.8_iphoneos-arm64.deb
+Size: 1383598
+MD5sum: 3eb19ee0da51bafc0759093944a3555c
+SHA1: 69012d74847faf7cbac1d647d46fe743711862e3
+SHA256: 7c73277e55a3ca7f245cb7c7dea96c51fdfb06863b854dd318dc792b7a56e7a7
+SHA512: cb6c7456aeb663f26fbb1b67e3b034fea49633833b09e1263760dc8f541289519d6dbc6bad4e823d8df415062ee51e3ea9ff5a9aa235dfc4bc09f423a2257ba3
+Section: 插件
+Description: 支持抖音、快手、微信、小红书等无水印下载。支持微信公众号、视频号视频下载。很简单方便。插件设置在系统设置开启！另外抖音可以单指双击视频然后点其他功能那个进入设置，非常的强大！小红书打开设置的方式为长按视频打开！支持小红书去广告！
+Name: 短视频助手
+Author: lenglengyu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3421,6 +3518,26 @@ Section: 插件
 Description: 免费120Hz刷新率，提升动画速度！开发者Rain。确保您的设备硬件支持120Hz。系统兼容性：此插件可能与iOS版本不兼容，具体取决于系统的内部实现。电池消耗：动态调整刷新率可以降低电池消耗。插件无设置项，多巴胺里注销即可！可以安装搬运工源里的手机性能显示插件即可看到是不是120hz，搜性能显示即可，并一定有用，无效请缷载！
 Name: Free免费120hz-Rootless
 Author: Rain
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.yukis
+Architecture: iphoneos-arm64
+Version: 0.1-0
+Maintainer: 搬运工
+Installed-Size: 172
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.vita.yuki
+Filename: debs/byg.iosios.net.yukis_0.1-0_iphoneos-arm64.deb
+Size: 221430
+MD5sum: dc048ca6f3a3674baed71cf017d0a95d
+SHA1: eaf387ccc369a61cb0f3ed3f381de7e80e0cd6f6
+SHA256: 84a9a7e1379d872c2c9473ad9740944cc730c0667a19446c0f8f19be5a0afb01
+SHA512: 77719797fdca0cf55965494644a2bceb35424ab34c693ad367e30dbaeba8c8a4466e410d9fef7402f80f3d1e6322609e508153121952278dab5c3420eec63cc5
+Section: 插件
+Description: 抖音消息防撤回、猜拳骰子作弊、语音转发、屏蔽输入状态、无限看闪照。插件位于抖音设置内！搬运工源，搬你所想！
+Name: 抖音防撤回
+Author: vita
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
