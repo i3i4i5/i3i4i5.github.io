@@ -1478,6 +1478,25 @@ Author: iamdega&daodao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.aweme
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Maintainer: 搬运工
+Installed-Size: 456
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.aweme_1.0.7_iphoneos-arm64.deb
+Size: 117972
+MD5sum: 876061193842c5afc04e742736b92559
+SHA1: 78491cbd9880a19a79a3978a9473f05a43b88b88
+SHA256: f0f28f7a9f1609b31bc9912d73e1118346a780a1579fccdbfa1e317eead8a961
+SHA512: 6b3bf4f5028eb4d73f2b7fa93c43788b856fd519f3beb64de98ec1d960671259af037df7e522c6b00e90939418b24138ef102a4b1b81d8bbe37f651c59d9e68c
+Section: 插件
+Description: 已失效！由搬运工源群友精神小伙分享，如有侵权，请联删！图层失效？闪退？那就来用抖音增强吧！去广告，无水印下载，净化抖音讨厌的按扭，都可以，自行体验！至于有没有时间限制，暂不清楚，研究中！
+Name: 抖音增强-Rootless
+Author: SWING
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.awemeclearlikes
 Architecture: iphoneos-arm64
 Version: 1.1-2
@@ -2933,6 +2952,25 @@ Author: mikifp
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.h5ggapp.rootless
+Architecture: iphoneos-arm64
+Version: 7.9.1
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/byg.iosios.net.h5ggapp.rootless_7.9.1_iphoneos-arm64.deb
+Size: 2295286
+MD5sum: ddccd42692efd7e1bd5ff762de6bfc19
+SHA1: 0b78811405a0a7f9028835647a15824c6cd0da92
+SHA256: f9449350d12bc4e153f54f26b7e56de1d7cce78cf61abda7ae746c58fff158eb
+SHA512: ccf78122c7cb85d15c96bd178de79b64ab1d0514980c66caaf0cf4c2cb2e0d12015c777dfae4012824fa46c04b600fa5dbaaa70098f0e48ac1dae9e44870bd24
+Section: 插件
+Description: 游戏开挂神器，会用的使用，不会用的就不要用了，本源没有教程！只是提供插件下载，也不卖挂！有任何问题请卸载！
+Name: H5GG游戏开挂神器跨进程悬浮版-Rootless
+Author: tuancc, Summit, Shadow-
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.hongguofn.helper
 Architecture: iphoneos-arm64
 Version: 2.1.0
@@ -3347,6 +3385,24 @@ Section: 插件
 Description: 本插件需要购买激活使用，源主觉得不错，所以上架备份一下，效果可以看截图，觉得有需要的小伙们可以选择是否付费激活！一些快捷操作，看起来还不错！
 Name: 快捷面板-Rootless
 Author: Mao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.kugouNoAD
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Maintainer: 搬运工
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/byg.iosios.net.kugouNoAD_0.1-1_iphoneos-arm64.deb
+Size: 71012
+MD5sum: 0d473c2d559b90e3d680936c6b9c2f6e
+SHA1: 74afec8138ad1b13de29c303849abc63d66bf628
+SHA256: 4c430cadcd7264fd5729867cba4ba5f618d254d57233a11eb24e3784c3403e59
+SHA512: 5c37a7cdfd1cecffb4316ef107f2849612af804a7d367bb3536f5cab74c910f60c2dc0f81261d14535a7d059e2c7f9325855e34b7bfd29622b27db4832f3f4e8
+Section: 插件
+Description: 酷狗音乐去广告，去除开屏广告（含概念版），去除【我的】页面寻搭子广告。并非破解会员，且并不一定保证去除广告有效！如果无效请缷载！
+Name: 酷狗 去广告-Rootless
+Author: huami
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3901,6 +3957,24 @@ Section: 插件
 Description: Count those notifications inside Apple notifications grouping!众所周知苹果的APP通知达到一定的数量就会被归纳到一个分组里，这个插件的作用就是统计这个分组里有几条消息，效果如截图所示！机车主感觉有点鸡肋！但是还是感谢搬运工源群友萝卜花费1.5美元购买此插件，大爱无疆，有你真好！
 Name: Notifications通知分组计数-Rootless
 Author: 0xkuj
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.nyyh
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.nyyh_1.1_iphoneos-arm64.deb
+Size: 13914
+MD5sum: 281428c4bd4be5957214d704da2202b7
+SHA1: c4d34d1625d4726e3377f1f1a5d1e08f5a025bfe
+SHA256: 21899e5020d60eeec684bd61672d2059ff7075d409b6e4dbf144bde8c68f9f7b
+SHA512: c9169d8b9e25c8dfafcfa1e84a39ac04dff3ca16f27e58babcfedce21bb4d83b6dfd7b8ce6c1613af0dba4d66f7fd7cd3ea70adcaf3c1dc7c3d75ea0efce0ef0
+Section: 插件
+Description: 作用：能够正常进入使用农业银行。用法：进应用看到检测弹窗，点击Cancel即可正常进入，不要使用choicy或者魔术师屏蔽本插件注入农业银行！搬运工源首发，感谢群友提供方法。搬运工源一直免费为大家服务，希望大家能够多多支持搬运工源！
+Name: 农业银行-Rootless
+Author: i0s-tweak3r
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4572,6 +4646,25 @@ Section: 插件
 Description: 把主题用filza放到对应文件夹，然后加载即可。主题包自己找，或者搬运工源群文件里有几个，不多！不要再问怎么用，插件里都写的很清楚，动动你们的小脑袋，还不行就百度一下你就知道！
 Name: 微信酸果主题工具
 Author: 苏兔
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.removewidgetbg
+Architecture: iphoneos-arm64
+Version: 1.7
+Maintainer: 搬运工
+Installed-Size: 436
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Filename: debs/byg.iosios.net.removewidgetbg_1.7_iphoneos-arm64.deb
+Size: 45084
+MD5sum: 6499c251d61da0c68035bf6f46970545
+SHA1: 1ac17e527744f33839f399a0d9ae84bfd199f40b
+SHA256: b88e6dd8910aef42f89ab3edc864af1f253def12adfafcf8a0f2aec494d581f6
+SHA512: cfbd1e002bd81cf9251c3e36253ee8a984d4ddfb208ef39d826a0dfb5aa6b598e0aae94950c4cd2c25c70f684c8590f9dfb7cad9c7acb0d33a350d40648f8c97
+Section: 插件
+Description: 已适配系统自带小组件和 Top Widgets⁺ 小组件，移除小组件背景，让桌面更干净。一款很不错的小插件，喜欢折腾的用户可以下载试试！
+Name: 移除小组件背景-Rootless
+Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6248,6 +6341,24 @@ Section: 插件
 Description: 支付宝首页，长按任一底栏就可以打开插件设置，更新后需重新设置！插件没效果的解除对支付宝的越狱屏蔽检测
 Name: 支付宝修改步数
 Author: ylr
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.zhuxiao
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.zhuxiao_0.0.3_iphoneos-arm64.deb
+Size: 5228
+MD5sum: 6cd260f9e72a240bd11e8c3e00856f90
+SHA1: 05846e2709aff1552a759fa8d8ca8bebd5d10493
+SHA256: 970b571d1d554c0cb2ca176d47924b96d297031cd49924b5c66af74dab6582be
+SHA512: 763cd8d93762959d540827191d1474cbee709a083139e016e65c8c5ee2cf7f52bfaf40e16ab887c47c51b3d26b079dd57e6df191a5ce62246362d989ca51293a
+Section: 插件
+Description: 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。并不保证一定有效，无效请卸载！
+Name: 注销不锁屏-Rootless
+Author: Brend0n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
