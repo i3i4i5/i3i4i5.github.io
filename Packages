@@ -1558,6 +1558,26 @@ Author: 冰蓝
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.blurrybadges
+Architecture: iphoneos-arm64
+Version: 1.5.3
+Maintainer: 搬运工
+Installed-Size: 436
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges
+Filename: debs/byg.iosios.net.blurrybadges_1.5.3_iphoneos-arm64.deb
+Size: 56810
+MD5sum: dcb8b53480ba9179a25dbdd80c94b5b3
+SHA1: f5738d1183f07cbf3078e4ca7aeb938a1603ca37
+SHA256: f53b7123877f610f78559b853079b1a0bd893155c808c2b2052452331a1a4c08
+SHA512: 2795ab225d75cf56925589c91d08ff9a7cb2d3c7db245aa91a376e2bf205860b85943ab32813b51287b0f4e0140999d562cad96efaf2a426c061d37fad7d9b54
+Section: 插件
+Description: 角标颜色自适应，APP是什么颜色，通知角标就是什么颜色！
+Name: BlurryBadges角标颜色自适应-Rootless
+Author: PoomSmart
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.bottomx
 Architecture: iphoneos-arm64
 Version: 0.2.71
@@ -1883,6 +1903,24 @@ Author: be-huge
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.cydiageek.swishbar
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.cydiageek.swishbar_1.0.4_iphoneos-arm64.deb
+Size: 8586
+MD5sum: 59bcf6b9eb9eb608434bc5e14c2d180a
+SHA1: 4ea6031db2317eddc99c146d10df7e47855c5b21
+SHA256: dcd329fbdc95ba8eef276af5c68921c83915edde54b102f41ac30268334cfd2b
+SHA512: cd64f38fb4bae162f5c77db5bd4c32138e034cee02c875a35c5da269f0ac1941bbb3b26d5fd93bbd3164ae4fb526843007c5d1e512bf1a769d7b47f011c9ade9
+Section: 插件
+Description: The Tweak Shows the StatusBar on the Switcher Application!给你的后台加一个删除按钮，详情请查看截图，没什么卵用的插件，小编也是闲得无聊，所以上传一下！
+Name: SwishBar后台删除按钮-Rootless
+Author: CydiaGeek
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.cylinder
 Architecture: iphoneos-arm64
 Version: 1.2.0-1
@@ -1919,6 +1957,25 @@ Section: 插件
 Description: 蛋花小说，好奇葩的名字，但是内容非常的不错，AppStore搜索蛋花小说然后下载即可，可以说是番茄小说的平替，资源一样，本插件去除所有广告，测试版本是6.6.1！最近番茄小说提示不安全第三方下载的小伙们可以试试啦！
 Name: 蛋花小说（平替番茄）-Rootless
 Author: lenglengyu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ddhook
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.ddhook_0.0.1_iphoneos-arm64.deb
+Size: 21508
+MD5sum: f371667e5cd5ad0d67b1472ceee8f946
+SHA1: 5246971bd5fedca47d1e0d6b024df4e0717eba0e
+SHA256: 70e5880b5c9150deda47cb1caa584d08d89ba8698cd0d86b410637461ff3ee4b
+SHA512: db99f08c23f90780f8e012e48ae67497c1b46842fd6438bd6e7cb08225ba851c88ab53d4fa3e6ad2f7c3f908a9c54e29b569932f472b6c049ee3e345acb6a6e4
+Section: 插件
+Description: 钉钉设置中开启或关闭！非常单一的插件，就一个抢红包的功能！而且不屏蔽插件注入钉钉，应该会被检测虚拟定位吧，反正有需要的用户使用吧，我用的6.5.0版本钉钉，choicy屏蔽注入加果粉之家里的虚拟定位1.4版本打卡正常！自行测试！
+Name: 钉钉抢红包-Rootless
+Author: XUUᶻ
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2706,6 +2763,25 @@ Author: Dcsyhi
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.kbstyle
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/byg.iosios.net.kbstyle_1.1_iphoneos-arm64.deb
+Size: 44988
+MD5sum: 606ac2ffb5b97f3d700cc4e46f344f20
+SHA1: e20e1ed4c52901eaedc151c672d4fe9c183b8138
+SHA256: 5eaa9ebd9aff23fc7e3bf428ec80004a4bb8c7644f06d0fab265bf6d269f90ca
+SHA512: 07bd62889f2e8dc570fda89cc51970d66e81ddd8a67ea1cbd3da9d7100f5915f90d45202eee5374a4c09d3ee3e30b20c2834d55407b79f67c9cc017be527ff42
+Section: 插件
+Description: 让你的键盘更加花里胡哨！可以改各种颜色！貌似只支持原生键盘，第三方的好像不行！自行测试！
+Name: 键盘DIY颜色-Rootless
+Author: Doki
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.kuaipanel.rootless
 Architecture: iphoneos-arm64
 Version: 3.1-1
@@ -3125,6 +3201,25 @@ Section: 插件
 Description: 一款音乐专辑图像更换的插件，思念变成海汉化，可能支持的音乐App不多，以下是官方插件介绍翻译：遮罩专辑封面并不是什么新鲜事，当时有一个流行的调整，称为 Custom Cover，它起到了同样的作用。它允许您通过向音乐应用程序的专辑插图添加自定义蒙版来使其具有您想要的任何形状。在 Custom Cover 之后，我们进行了一个名为 MASQ 的调整，该调整在 iOS 12 上结束。如果您现在还没有抓住它，N95 是一个面具，这就是为什么我们决定将我们的专辑封面蒙版调整命名为“N95”。N95 通过支持 Spotify 和 Pandora 等所有主要音乐应用程序，并支持 Next Up 2 和 Quart 等流行的音乐调整，将专辑封面主题提升到一个全新的水平。除了对不同平台的无尽支持外，N95 一直在更新。我将继续支持不同的 iOS 版本以及不同的应用程序版本。
 Name: N95音乐专辑遮罩
 Author: Ethan Whited
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.nopreferencetips
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
+Filename: debs/byg.iosios.net.nopreferencetips_1.0.4_iphoneos-arm64.deb
+Size: 8600
+MD5sum: 648ac75a86fc0005ff922f9fc90348d4
+SHA1: 35876f72b09b1c77a9d57f5183e1b68d5f6cf9d0
+SHA256: 0650a7abe1e9b802dc097360f6b06e54be3a2532bde0a5cb978b6b2abc8502b9
+SHA512: 2334c02d2b53ff89a47ed8ab6395428944406dafc12ce5fcc14eb6d916d23cb96b4bec605d3ee2588ee18c3e5555e76be6c7b5a68bb0872ac716da619c98c14f
+Section: 插件
+Description: 此插件偏向于更换非官方电池的用户(一“件”全包)* 支持 iOS15-iOS16* 移除“设置-电池-电池健康与充电”的提醒并显示健康值* 移除桌面上的设置角标（只显示 15 天）* 移除“关于本机”页面中-部件和服务历史记录下的未知部件提醒（如：电池-未知部件）非常的不错，nice！
+Name: NoPreferencesTips电池提醒-Rootless
+Author: 苏苏
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4158,6 +4253,25 @@ Section: 插件
 Description: 本插件有设置项，在系统设置里打开开关然后注销！功能如下：为您的开关添加一些风格，日月特效。效果请看插件截图介绍，非常的不错！喜欢的美化的小伙们可不要错过啦！不排除有bug，自测！搬运工源，免费安全，中国第一源，越狱必备！
 Name: DayNightSwitch日月开关
 Author: Finn Gaida
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.suxhshook
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.suxhshook_1.0_iphoneos-arm64.deb
+Size: 21442
+MD5sum: fcd29c07e847d7d62bcc029f3e4f7495
+SHA1: fa1d5e8864baa6caf8059a83f69bcd35f5eda8cd
+SHA256: ea2f571482bf1c698e321cab83595fc2f79636edc0c0f51909b92d98d991b0fd
+SHA512: d9a0ff7d9a449b11fee8270bd23aab7c758c0c2fe076296c6ca9d91e8a5f3728fb2eea6c9e3b21e35a152567e9ed8435b12d158e2c4b9f629f4cef332f28bb00
+Section: 插件
+Description: 小红书调整，插件设置项要到-关于页面-双击版本号启用。隐藏热点、加号、消息，无水印保存图片，视频，Live photo暂不支持！感谢苏苏开发好的插件，搬运工源，永久免费更新！快人一步，认准中国搬运工！
+Name: SuXHS小红书优化-Rootless
+Author: susu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
