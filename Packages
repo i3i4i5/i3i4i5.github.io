@@ -1047,6 +1047,24 @@ Author: AFN Team
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ainsworth
+Architecture: iphoneos-arm64
+Version: 1.6k
+Maintainer: 搬运工
+Depends: mobilesubstrate, com.spark.libsparkapplist, ws.hbang.common (>= 1.11), com.muirey03.libimagepicker, com.spark.libsparkcolourpicker, preferenceloader, xyz.cypwn.davevancrack
+Filename: debs/byg.iosios.net.ainsworth_1.6k_iphoneos-arm64.deb
+Size: 522806
+MD5sum: ddf5d2b43447824515e65eb8cf07b2bf
+SHA1: 427f1f288ab511770bbb8104bab538bdcd7d455c
+SHA256: 7bd948fe8e05e361817c77947e8762a7ff6c3e0659f9b19583a37ddd8cf607c0
+SHA512: f11de1c0b6598391fda3eb61c69c89a72dede038309927433e0851e0b89b513daafcccdd01c93d819ce3d49fd46cc9845fce0d80b5c6aa8f07ded2097dc2eae9
+Section: 插件
+Description: 本插件的作用是让不是Airpods的第三方耳机拥有苹果耳机的弹窗，看起来还行，暂时部分汉化，未汉化的部分自己截图翻译就行！没有 Airpods，但仍想要优质的连接体验？Ainsworth 帮你搞定了！Ainsworth 允许您将 3 种弹出样式中的一种添加到您的所有蓝牙设备和有线耳机中。它以优雅和现代的方式做到这一点。您还可以根据自己的喜好配置每个弹出窗口。（查看屏幕截图）有问题就卸载买正版！
+Name: Ainsworth耳机弹窗
+Author: Dave van Wijk
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.airaw
 Architecture: iphoneos-arm64
 Version: 1.6.7
@@ -2943,6 +2961,24 @@ Author: Lessica
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.pancake-rootless
+Architecture: iphoneos-arm64
+Version: 2.3
+Maintainer: 搬运工
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: debs/byg.iosios.net.pancake-rootless_2.3_iphoneos-arm64.deb
+Size: 141254
+MD5sum: 21a9507325b3699f6bda1a363e1911a3
+SHA1: 6a6dba142584c9dd4487c36b789f55a2e486ac90
+SHA256: b34f76840255bfa92e5f03dde6bf2c680efa55dfb1025711dd6492da8b5146cc
+SHA512: e4f38e865cca891a52f2bb0aeb8522b941a10b835118aee88d2fce596cd64c94945caa8ae9203982f760dd07c93703614bfc86f8cfdf2bec7e7facfbf3089015
+Section: 插件
+Description: Interactive dismiss gesture on the whole screen in all apps and ability to restore previous page手势插件，搬运工源已完整汉化，只做中国第一源！功能如下：所有应用程序中整个屏幕上的交互式关闭手势以及恢复上一页的能力。详情请看插件截图介绍！
+Name: PanCake手势插件
+Author: AnthoPak
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.physpringboard
 Architecture: iphoneos-arm64
 Version: 1.9.0
@@ -3176,6 +3212,25 @@ Author: Justin Proulx
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.qjkqdbyx.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Maintainer: 搬运工
+Installed-Size: 88
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.qjkqdbyx.rootless_0.0.6_iphoneos-arm64.deb
+Size: 5954
+MD5sum: 5c68f7552508a352f10a0aaf38ac0bb1
+SHA1: 5f122df930eea89c0b6841c5f936b8a39ea1aabb
+SHA256: 2177bf23d7e85a446f435ddfecd20d72f4a088dd12bc2a6cab2894fd171c99da
+SHA512: 594f1aae1e65f3dcba93c6a5e4e1216313b2c6962a2d3bd379d1cd8238ec0196abc7ad8339ea5fc09a6bbcad6ccc2ac41e401c27f154ef4a5ad4859ea52f11cc
+Section: 插件
+Description: 本插件深度重构iOS系统音频架构,通过底层算法优化与硬件资源调度,实现Hi-Res级音质输出,集成杜比全景声支持、智能降噪、动态均衡等专业级音频处理技术。全局开启杜比音效、杜比音效和普通音效的区别在于杜比音效加强了立体声效果和低音效果，能够使播放的音频声音更具立体环绕感，给人一种身临其境的。应群友要求上架，有没有效自测！没效就卸载！
+Name: 全局开启杜比音效-Rootless
+Author: Huayuarc
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.qqantirecall.x
 Architecture: iphoneos-arm64
 Version: 1.6
@@ -3363,6 +3418,28 @@ Section: 插件
 Description: Rain开发的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音，通过ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音，支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机。还能自行添加想要录音的APP，真是一款免费又好用的插件，感谢作者无私开发，兄弟们冲冲冲！搬运工源，永久免费，持续更新！
 Name: 通话录音
 Author: Rain
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.recordntorch
+Architecture: iphoneos-arm64
+Version: 1.8.4
+Maintainer: 搬运工
+Installed-Size: 168
+Provides: org.thebigboss.recordntorch, com.spicat.recordntorch
+Depends: mobilesubstrate, firmware (>= 11.0), gsc.camera-flash
+Conflicts: org.thebigboss.recordntorch, com.spicat.recordntorch
+Replaces: org.thebigboss.recordntorch, com.spicat.recordntorch
+Filename: debs/byg.iosios.net.recordntorch_1.8.4_iphoneos-arm64.deb
+Size: 7214
+MD5sum: c5d0a718cef924ce0baaf04d60815d4b
+SHA1: acd9277050f019f4fb1d965671f021bf463df7b1
+SHA256: 6b9e19e4f08eaf3aa998f1e3e6e89d54c21b838dd4bbd266bf35f9fccb1d4db5
+SHA512: 8a71b4a4956f06b4a64a618a001b3162736afb6fd042e7e531aae2c00b3ccc08167e741c64446d35d0b4abb6628d4f6b0fd0c0b441141a84cc156f9d394341dc
+Section: 插件
+Description: Toggles flashlight LEDs while recording video.在录像的时候开启手电筒？不知道行不行，自行测试，无效就卸载！上传备份一下，仅此而已。
+Name: Record 'n' Led录像手电筒-Rootless
+Author: PoomSmart
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3802,6 +3879,25 @@ Author: Crassna
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.suawemehook
+Architecture: iphoneos-arm64
+Version: 1.3.8
+Maintainer: 搬运工
+Installed-Size: 400
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/byg.iosios.net.suawemehook_1.3.8_iphoneos-arm64.deb
+Size: 88630
+MD5sum: ad92a3c25225681604dd67fc3391350b
+SHA1: 81dc6b309fa7bacfb63f01b09b6b12c2115b6d51
+SHA256: 67f69068f68e1a7967fd69aac5db92b8cca7e4b605a1f80e51478bbd5b850b50
+SHA512: 7ca914d11314da5bbb52cc954ac6f17545fb1061973a37b6784c33c57c9a8249fdb0d56783a8e32f07c008d057aa522da39868c4c2798dce73ee297c831a99cb
+Section: 插件
+Description: 双指双击屏幕呼出，如果呼不出可能与某个插件冲突！本插件是大神苏苏基于huami开源DYYY开发，对抖音进行优化，移除广告，移除不必要的点点，一款新的抖音插件，暂时可替代抖音图层，功能看截图介绍，关注搬运工源，带你领略越狱的乐趣！
+Name: 抖音优化-Rootless
+Author: susu
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.susudaynightswitch
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -3949,6 +4045,24 @@ Description: Helper utility to install and manage TrollStore!正常情况是先�
 Name: TrollStoreLite白巨魔安装器
 Author: opa334
 Sponsor: 搬运工源
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ultravideos
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.ultravideos_0.0.1_iphoneos-arm64.deb
+Size: 3134
+MD5sum: 030c74efce35d97ae010a288d4a102fc
+SHA1: 6c6283b8fdd7c179de2105c0933f316a77e170f1
+SHA256: 43772ef4bfff65822bad8f6ac5d506eaa20fdaa34b0a1ad7aaa01f4bba17a116
+SHA512: 5ffc49f345a773279aeee73e70e74cc628ce4a25908fb4e6001761d2823b9cf127ececd193f6ab38ed896e26af4c5274cd46871052206462de802bbfe9fd9bdb
+Section: 插件
+Description: 说是能关闭内嵌视频播放，不再使用低劣的html5视频播放器。在第三方应用程序工作，强制使用iOS的原生播放器。至于有没有效，自己测试！
+Name: UltraVideos视频播放
+Author: tyiiirfvjjkjjj凑合哥
+Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: byg.iosios.net.velvet
