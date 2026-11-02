@@ -1693,6 +1693,27 @@ Author: ren7995
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.audiorecorderxs-rootless
+Architecture: iphoneos-arm64
+Version: 5.0-37
+Maintainer: 搬运工
+Installed-Size: 6072
+Depends: mobilesubstrate, byg.iosios.net.limneoscrack-rootless, net.limneos.simpleactivationactions-rootless, firmware(>=12.0)
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.hk.audiorecorderxs.cn.rl, byg.iosios.net.audiorecorderxs.cn.zh
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Filename: debs/byg.iosios.net.audiorecorderxs-rootless_5.0-37_iphoneos-arm64.deb
+Size: 1853886
+MD5sum: 1f6d390eba112e4ac922a84a5024b441
+SHA1: f41228a4ab1fdb5e28478b19ff51de1e2a239e9f
+SHA256: eda32f5513194c436cd4b1e86358cd7fd9c5035df8eb15e03408c33960180aab
+SHA512: 543b03a760c0d7ac7d41f0c1f548adbf7801a53b1612d78ee6d76c12ec10b7bc9ee4f42d55f1443bacaca64563222124b4b562449b048f8cf53d157d036870af
+Section: 插件
+Description: Most Advanced iOS Call Recorder Ever!通话录音破解版，iOS上一款非常优秀的录音插件，非常的好用！现搬运工源可以免费使用，已汉化，无需再安装汉化插件！搬运工源，你最好的家！
+Name: AudioRecorder XS 通话录音破解版-Rootless
+Author: MainRepo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.autoscroll
 Architecture: iphoneos-arm64
 Version: 1.0.5
