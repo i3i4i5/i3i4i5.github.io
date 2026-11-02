@@ -2432,6 +2432,25 @@ Author: Saily Team
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.circleapps15
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Installed-Size: 2116
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, com.opa334.altlist
+Filename: debs/byg.iosios.net.circleapps15_1.0.2_iphoneos-arm64.deb
+Size: 1584386
+MD5sum: 754636baea24361c48066f2f9859ea80
+SHA1: 47dcfbdf58a75d1ec1218ad59144e8fd9f732970
+SHA256: 33f63ca93c19d083f597324ae70e7fbc46e7024c7ab96822c3d7301330474d51
+SHA512: a5e7bd90c86115ed63d20b05be72568ea71fe9bbb4ff46c1fa86de1127d98d1465b77b3d9057d06f750c47ad797102e9d5a22e9f4bf9b72bd53ff291eefeb2b6
+Section: 插件
+Description: Circular application launcher for iOS15 above.在任何地方显示圆形应用程序启动器，以轻松打开您喜欢的应用程序，还不错的一款插件，搬运工源已汉化！
+Name: CircleApps圆形启动器-Rootless
+Author: sugiuta
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.classicfolders3
 Architecture: iphoneos-arm64
 Version: 3.5.1
@@ -4615,6 +4634,24 @@ Author: akusio
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.milkyway4.rootless
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Maintainer: 搬运工
+Depends: mobilesubstrate, com.opa334.altlist, preferenceloader
+Filename: debs/byg.iosios.net.milkyway4.rootless_0.1.1_iphoneos-arm64.deb
+Size: 1713108
+MD5sum: e24056592454100ab937a67cb888af53
+SHA1: 8c147692d663713fd432fdc08628d958d4f22d00
+SHA256: d7dbc1ee512af01412ac89e5604340f3ed4330a351de8f4d092b8863b00060a4
+SHA512: 238907a7193ffbea82cbf9892da99c9b6726bcfea8a36cbf626454374aab037452e04f7a00978ac48efa38a0a9f6121c902f3e2a1389a1a97e047f28cde406a3
+Section: 插件
+Description: MilkyWay4 是一老牌的分屏插件，长按APP图标分屏！在本源安装每次注销会提示去作者源安装，所以才一直没上架，无视的可忽略，也可以去作者源下载安装！基本上没区别！相信搬运工源的用户不用解释，无脑黑子只会黑，一年多了，搬运工源一直在免费，后面仍然会永久免费！
+Name: MilkyWay4分屏-Rootless
+Author: @akusio_RR
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.misaki
 Architecture: iphoneos-arm64
 Version: 2.0.3
@@ -4957,6 +4994,25 @@ Author: z
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.nowplayingvolumecontrol
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/byg.iosios.net.nowplayingvolumecontrol_1.0_iphoneos-arm64.deb
+Size: 5238
+MD5sum: 8c24f15489dd39c1135a166c09909283
+SHA1: e82d38cfd930e59203084cf6246aef4b73e84e3a
+SHA256: c5f1e7744e4b64364a854ecc64aa9c36a01274c71e2421f5c359f79ccc02f7aa
+SHA512: 64192c19057db31925d45a8dd3b584d1d75aa30707c38b28a86cadd172846795ca6f71ddd5d154a57c4badb9f8c7bbee279975b78d194aa2055b6ea67538f7fe
+Section: 插件
+Description: Always show volume control on the media controls!始终在媒体控件上显示音量控制！
+Name: NowPlayingVolumeControl音量常显-Rootless
+Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.nyyh
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -5048,6 +5104,25 @@ Section: 插件
 Description: OLED Dark Mode for iOS System Keyboard深色模式下键盘背景显示为纯黑，效果看截图，一款小插件，喜欢的小伙伴们可以试试！搬运工源，搬你所想！
 Name: OledKeyboard纯黑键盘-Rootless
 Author: dvntm
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.omakase
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 1028
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/byg.iosios.net.omakase_0.0.1_iphoneos-arm64.deb
+Size: 273492
+MD5sum: 72369d1f8ae868c5b2e55496c4403137
+SHA1: 6914ba048b91cc85f8996ff3991c5732f71f4554
+SHA256: f4b1230444f58de6d99c2dd3768c364f045fbb603012f50c231f31145537214a
+SHA512: 6e5d824a849ebb3bcee44fcf09783eb33f2d62832c269c715b103f7e8620f6dd31d9c263ccfae54bb9cc852fe4113d2498c55f8ebdf1034f37e9cb684c9a4449
+Section: 插件
+Description: Now playing card, with expandable when clicked!播放器悬浮在桌面上，可以设置背景颜色，有点鸡肋的插件，喜欢的就下载吧！搬运工源已汉化！
+Name: Omakase悬浮播放器-Rootless
+Author: Skitty & b4db1r3
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5778,6 +5853,24 @@ Author: Sniper_GER & Nezuko
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ring
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/byg.iosios.net.ring_1.0.2_iphoneos-arm64.deb
+Size: 266244
+MD5sum: 88c021e3c360ba7d42584f35cfbd38cc
+SHA1: f2476801f6c4735eea54e7abbae22b3b95f0c16f
+SHA256: ef472af001446fab271008316af40f27186f505f230ba3f58020f29c43a6e249
+SHA512: ae212b607af7d961079362ccbed2334b1a260f807d702b5571942f70f9e7976f99c646aa103340543017f40b075f706bf251badb6d381de947f8b608cc37bcae
+Section: 插件
+Description: Effortlessly manage your ringer volume!控制中心快捷调节音量，拉到最低时静音！点击音量模块即可！
+Name: Ring快捷静音-Rootless
+Author: yan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.rootless.bhtwitter
 Architecture: iphoneos-arm64
 Version: 5.8
@@ -5929,6 +6022,24 @@ Author: MegaDev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.settingsbuttons-rootless
+Architecture: iphoneos-arm64
+Version: 1.7
+Maintainer: 搬运工
+Depends: firmware (>=13.0), com.spark.libsparkcolourpicker
+Filename: debs/byg.iosios.net.settingsbuttons-rootless_1.7_iphoneos-arm64.deb
+Size: 118394
+MD5sum: 44084be81dbcb99e16335118387c81f3
+SHA1: 34530386a92301d850c1a0083780f20dde6a31e3
+SHA256: 0853cc4420b9f22d7bb38ecea28d76c4e62bdc066e87c57e2865d0538d716161
+SHA512: c43986535f3dd85b64159b149f28f48bfe8f83614510626b19207e31ecbb9494187ec469be5dd42039e60c8384a192b20144fa7aacedc2e9bab3cb7741a5bf54
+Section: 插件
+Description: Useful buttons in the Settings Nav Bar.这是一款可以自定义设置按钮的插件，可以换不同的图标。自定义主题所有图标都在/var/jb/Library/Application Support/SettingsButton上。主题用户可以将图标放置在/var/jb/Library/Themes/YOURTHEME.theme/Folders/SettingsButton上，爱美化的用户自行研究！
+Name: SettingsButtons设置按钮-Rootless
+Author: ETHN
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.settingsrevamp
 Architecture: iphoneos-arm64
 Version: 3.0.1-1
@@ -6021,6 +6132,25 @@ SHA512: e417a2aa1ab3820fc29618b60f2e7619bea797569c1f4b02a58acbb8d3d0564575fd47ba
 Section: 插件
 Description: iOS15请安装源里的另一款！！！ShortLook将全屏显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。它的可配置UI和行为确保ShortLook按照您希望的方式工作。注意：需要安装Legacy arm64e Support兼容层，16系统测试大部分不可用！不可用就缷载吧！（由来了老弟修复并汉化支持多iOS 16）！！！
 Name: ShortLook全屏通知-Rootless
+Author: Dynastic
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.shortlook
+Architecture: iphoneos-arm64
+Version: 1.0.23
+Maintainer: 搬运工
+Installed-Size: 2128
+Depends: mobilesubstrate, firmware (>= 11.0), co.dynastic.ios.lib.flora, oldabi
+Filename: debs/byg.iosios.net.shortlook_1.0.23_iphoneos-arm64.deb
+Size: 1363288
+MD5sum: d2e2bff2f529eb81346a65f0f252401b
+SHA1: f58448d8ca1202271767cd1e202e58b85859fcb9
+SHA256: 8ba63c1ea9256077a09c6909bfd3fe56d62a96d2e9c692731e5ef34356583ddc
+SHA512: 19d225f675ff24dba8dce225e29ca5dfce6b69f1ecbdbb75bb1fb5486aa9b3bbe1ce99a930051377ec248eb3ec02948be49e3fd62a0f5157427d6e37d981f92d
+Section: 插件
+Description: ShortLook将全屏显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。它尽可能不引人注目，只要你点击屏幕或“唤醒”，它就会消失。它的可配置UI和行为确保ShortLook按照您希望的方式工作。注意：需要安装Legacy arm64e Support兼容层，16系统测试大部分不可用！不可用就缷载吧！（由M哥修复并汉化支持多巴胺2.0）！！
+Name: ShortLook通知全屏-Rootless
 Author: Dynastic
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -6914,6 +7044,24 @@ Section: 插件
 Description: Awesome TV turning off animation for locking!一款非常不错的锁屏动画插件，模仿电视机关闭的动画，看起来很复古！安装注销即可生效！喜欢美化的小伙伴们都惊呆了！
 Name: TVLock电视锁屏-Rootless
 Author: Wes
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.tweaktool
+Architecture: iphoneos-arm64
+Version: 2.0.0-beta
+Maintainer: 搬运工
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/byg.iosios.net.tweaktool_2.0.0-beta_iphoneos-arm64.deb
+Size: 11554
+MD5sum: 617843b0d058baa238c7d4739f8f1096
+SHA1: 1ac372676629847c5198f915becb9a51049e6450
+SHA256: 684afe732a5d25cc1011f5668e12bb3f9dfe16c61b411854d2ffc00044b51de7
+SHA512: 218cdf0d6c15156d8672313b965e02fd1a0047a0dc7b2fd7606c6e1548b10014119782369eb2d53ebf9cba570da0f9d428274a9820284e8be677b7f268268655
+Section: 插件
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具，非常的不错，感谢预言小猫。本插件使用方法：Filza进入/var/mobile/Documents/tweak_tool/目录，运行“一键备份和恢复工具.sh”文件即可，非常的简单，傻瓜式操作！插件也会保存在这个目录里！
+Name: TweakTool插件备份-Rootless
+Author: 预言小猫
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -10535,6 +10683,25 @@ Section: 插件
 Description: Ainsworth的破解插件依赖
 Name: Dave van Crack依赖
 Author: CBZ
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: xyz.cypwn.lottie
+Architecture: iphoneos-arm64
+Version: 4.4.2-1
+Maintainer: 搬运工
+Provides: com.yan.lottie
+Conflicts: com.yan.lottie
+Filename: debs/xyz.cypwn.lottie_4.4.2-1_iphoneos-arm64.deb
+Size: 3180830
+MD5sum: c1dc9f4aef8726e4bedd9a737c54a98e
+SHA1: d534aa6c0f58434b5364fd594105d3639759691e
+SHA256: 9a7e038b8208c89bbc4bca08c4ad23f924b21733262f13cca0312ceaae48c9e9
+SHA512: 644a814c7bbb22ff10b5e6169c9df67c96ee0085cc31825c6447984552d205b3fa469ece510a0030c0ff0ae801526ecaf1dc52122d837de8cbba9b31845d1d8d
+Section: 插件
+Description: 通知动画插件依赖！
+Name: Lottie通知动画依赖-Rootless
+Author: yan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
