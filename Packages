@@ -406,6 +406,26 @@ Name: 触摸轨迹
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/touchtrail.png
 
+Package: byg.iosios.net.icleanerpro
+Architecture: iphoneos-arm64
+Version: 7.10.0
+Maintainer: 搬运工
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/byg.iosios.net.icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 1392946
+MD5sum: 62fb017cb57d546c59facc27c3c0c9be
+SHA1: ec52005a1820b63c5999837cc192790bcd3673ec
+SHA256: 8edda196b8f71700b7d6df671849926cec7a96fdc474f03e6e7a1d48ba79e120
+SHA512: a07e0917a0e9e285db6ad6922aeb393fcdde506b8d1e7afd523ac2ad74b7546bc0c34be9a997a375fcc5b4cecbc586a13adcd90f0936d3b27ba48b8c63359069
+Section: 自用
+Description: The first real iOS system cleanup and management utility iOS最强的垃圾清理工具，此为官方破解版，全功能破解！有经济能力的，请支持一下大神！有问题群里反馈！
+Name: iCleaner Pro小扫把清理垃圾工具-Rootless
+Author: Ivano Bilenchi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.tigisoftware.filza64bits
 Architecture: iphoneos-arm64e
 Version: 4.0.1-4~roothide
@@ -467,27 +487,6 @@ Description: ElleKit tweak injection libraries and loader
 Name: ElleKit
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
-
-Package: byg.iosios.net.icleanerpro
-Architecture: iphoneos-arm64e
-Version: 7.10.0
-Maintainer: 搬运工
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: debs/iCleaner_Pro小扫把清理垃圾工具-Rootless_7.10.0_iphoneos-arm64e.deb
-Size: 1107604
-MD5sum: 5f87096e3f107496ba344d17877c2464
-SHA1: 9472c12597e7c8592fabf33ca0008adee5dc94e4
-SHA256: 276a0e45c9c9951603bff596b5ce60822c0ce19c417382683fb365899a731a52
-SHA512: 8c212f14df298e4dbb146497cb310aacfe043b7074a16d59f0fe034c111bd9c2d991b6d80645c8adec535a783e78f2d4745b8dcc86dc7a3651ccc54b58ead6d8
-Section: 自用
-Description: 越狱必备小扫把神级应用
-Name: icleaner破解版
-Author: Ivano Bilenchi
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.roothide.lockdown
 Architecture: iphoneos-arm64e
@@ -2542,6 +2541,26 @@ Section: 插件
 Description: 需付费使用！AppTools for iOS15-16 Rootless，强大的App类辅助插件，锁120帧！！！锁120Hz这个功能是免费的（不保证更新后一定如此），其它的需要付费激活！可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，25元自行购买激活。详情看截图介绍！
 Name: AppTools应用增强
 Author: aReo
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.april
+Architecture: iphoneos-arm64
+Version: 3.1
+Maintainer: 搬运工
+Installed-Size: 832
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: com.midnightchips.bettersettings, me.luki.april, com.hk.april, com.qms.april
+Filename: debs/byg.iosios.net.april_3.1_iphoneos-arm64.deb
+Size: 421138
+MD5sum: 34343910210d7bd5022d3a3ff6937856
+SHA1: b4496f65cbfb7c52b169944206206f77fbd45cbe
+SHA256: 2acc72f8c08bac9c25e1c902c5bf6b03d4717aac603aa9662455c622984ae842
+SHA512: 24c47225a2a83bc0bb690b2ecfb3328b5e45601aff1a541d00a295dc1247940fadecac2751fca6462594af67655e2715422394683bf8801235b1401a3bc389cb
+Section: 插件
+Description: 可以设定设置App的背景图/模糊等，让设置App变得更好看。喜欢美化的朋友们可以下载试试！
+Name: April设置美化-Rootless
+Author: Luki
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4683,6 +4702,25 @@ Author: huami, Mallin
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.checkproxybypass-rootless
+Architecture: iphoneos-arm64
+Version: 0.1.1-2
+Maintainer: 搬运工
+Installed-Size: 172
+Depends: mobilesubstrate , preferenceloader,com.opa334.altlist
+Filename: debs/byg.iosios.net.checkproxybypass-rootless_0.1.1-2_iphoneos-arm64.deb
+Size: 4730
+MD5sum: 140037736b5ebc983f9912441f41834a
+SHA1: 381b8174c4276d820b62503a61c7b456d0fd83f4
+SHA256: 8dd8278e953375946b4ac5e69ce626e18153e17a58af858736f76106c804a6dc
+SHA512: d764a2b23462ba412a62e02ef3d610cfcbad38d26ff312f84904d16e10c4e73b24bdfa80d872d6e15e5ae6f9364e6ba567bfdda053c2eebfa20a69f30c637385
+Section: 插件
+Description: 去除app抓包检测,安装之后在设置里面开启,有问题可以进群反馈！
+Name: 禁止代理检测-Rootless
+Author: zxc
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.chelaile.rootless
 Architecture: iphoneos-arm64
 Version: 0.1
@@ -6698,6 +6736,25 @@ Author: zqbb
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.fixset.roothide
+Architecture: iphoneos-arm64e
+Version: 1.1
+Maintainer: 搬运工
+Installed-Size: 123
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.fixset.roothide_1.1_iphoneos-arm64e.deb
+Size: 50714
+MD5sum: d5cf4a56f8a6460d4ac4d6fa23225aa9
+SHA1: ccf606de6284bddd361881c749cfe29bde96656d
+SHA256: ede8099a63268373dde0b9ef07183dcfdf447dec34faba17c3504dd8597d7165
+SHA512: 629d8b8f6e41b7ac3cc56ece6ed0d5ece435cd390932f25d7331acc7c40676d65d9ef08cf8b5a13a7ed262628ab94a92c22c5af5fd8d49163cc8ea45766bb7bd
+Section: 插件
+Description: 修复部分插件转roothide配置不保存问题，搬运工源，搬你所想！
+Name: FixSet修复配置-RootHide
+Author: @bswbw
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.fjjf.rootless
 Architecture: iphoneos-arm64
 Version: 0.0.1-1
@@ -6846,6 +6903,25 @@ Section: 插件
 Description: Floaty：重新构想的你的旗帜。厌倦了杂乱的横幅和错过的警报？Floaty 通过将您的警报作为屏幕边缘优雅的浮动气泡变为现实，从而改变您的通知体验。受到聊天头便利性的启发，Floaty 确保您不会错过重要的事情，让您保持联系，而不会让您离开正在做的事情。Floaty 不仅仅是一个警报系统;它是一个完整的通知中心，围绕直观的手势和深度自定义构建。持久浮动气泡：每个带有新通知的应用程序都有自己的气泡，让您对待处理的警报有一个持久、一目了然的概览。即时通知堆栈：只需轻按气泡，即可立即显示来自该应用程序的所有最近通知的干净堆叠列表。不再需要翻阅一长串混合的清单！
 Name: Floaty横幅通知
 Author: EllaSP
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.flora
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Maintainer: 搬运工
+Installed-Size: 2040
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader (>= 2.2.3), com.mrgcgamer.libgcuniversal, com.opa334.libsandy
+Filename: debs/byg.iosios.net.flora_1.1.3_iphoneos-arm64.deb
+Size: 1681952
+MD5sum: 14f1f3e0208e1e011500af4458df42db
+SHA1: 1f4d518e812d2b9bbfd09df25648c8a3dcd4fee5
+SHA256: 1ed7216db9d68f414c2c3d24ec20e8ec8e7ddb6e60031b944aa5fee9637731ee
+SHA512: 6e0606fd3760bec02305ee4fd22b01672663e38275403b9007cb2c12180590aaaaa565e6304e28b7890f802e1a2ad5d1686ae44aff7fe84f742068fb30f9d286
+Section: 插件
+Description: A modern color changer, built for today's jailbreaks.本插件可以调整系统显示颜色，比如说你喜欢的粉色，软件内颜色也可以调，搬运工源已汉化，尽情享受吧，搬运工源，为您越狱保驾护航！
+Name: Flora颜色调整-Rootless
+Author: Rosie
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -7020,6 +7096,24 @@ SHA512: 46a68c50be0dc92242abbc7609663a8cc78ce93178badc0fd20fac5932b6742db9eacd63
 Section: 插件
 Description: 主界面，状态栏，系统设置，控制中心，图标等多功能隐藏和美化，巨魔商店-M哥汉化，感谢M哥！无法安装请卸载再安装，因为此插件需要依赖，我如果改了标识符就无法调取，不改又被骂劫持，无奈，正在寻求解决方法
 Name: Genesis 3-Rootless
+Author: Nebbs
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.genesis4
+Architecture: iphoneos-arm64
+Version: 1.0k
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.itznebbs.phoenix, byg.iosios.net.nebbs
+Filename: debs/byg.iosios.net.genesis4_1.0k_iphoneos-arm64.deb
+Size: 1261250
+MD5sum: 88f2d23c839e60185e914d80a86dd182
+SHA1: 2e21a8c060d1c8d6b9492c017a23b2309ffc5eac
+SHA256: aa71acf4430e83f3e6775ea2196eaa3f902a546df9aa5533d47a3bcbfc7c0b38
+SHA512: b9201ad6e8c53f06672e7f3bd575d5700dcd28b19f2c8dd0f72841327e96e991bf10e566be5cf58037afc64462446c3da293e8b3c818abed450443c47be3765b
+Section: 插件
+Description: The culmination of something beautiful!一款美化和修改系统文件的插件，人送外号小军刀。暂无汉化，内容太多，实力不够，也没时间，等汉化包！先尝鲜！
+Name: Genesis 4系统小军刀-Rootless
 Author: Nebbs
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -7397,6 +7491,24 @@ Section: 插件
 Description: Hikari让您轻松定制和增强设备的音效.这是一款可以更改提示音的插件，还不错，有需要的小伙伴们可以下载试试！
 Name: Hikari铃声更换-Rootless
 Author: Hitori
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.homegesture1316
+Architecture: iphoneos-arm64
+Version: 0.0.1-7
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.homegesture1316_0.0.1-7_iphoneos-arm64.deb
+Size: 61036
+MD5sum: c1a9c41a7631c6ce70212e2c455e35ca
+SHA1: f008dfd1b1aa74f00d0171d7b629feb3121e7209
+SHA256: 4f3dd89d8d630ac42f147dc41f49c6decd5e45a0a37aa8bcc9e0f3c01af9f86a
+SHA512: eb5856a6300b2347662b00db184db34e4d8fc04757553fb21201fd1e3fed076207f4abfd8d3533a907327e0016345283997cce453809a6e1eb7d933bf18da044
+Section: 插件
+Description: 本插件功能较单一！旧设备的主页/滑动手势，以及SE等无缺口的新设备。向上滑动以调用应用程序切换器，打开设备，从上角向下滑动以调用控制中心。不需要主页按钮！iOS 13-16无根越狱，包括多巴胺，Xina和Palera1n无根。
+Name: HomeGesture手势插件-Rootless
+Author: i0s_tweak3r
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8607,6 +8719,25 @@ Author: Maxwell Dausch
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.ldd
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Maintainer: 搬运工
+Installed-Size: 1104
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/byg.iosios.net.ldd_1.2.1_iphoneos-arm64.deb
+Size: 787694
+MD5sum: 40e69cfacb02c3892ce5f11dfaf88ad2
+SHA1: b97bc891ed097622a1ac73f3ff13617ed1798e96
+SHA256: 2fa6e489c772f1e07064fd7317faffa7e7fded2839e33c6510dffbce76d49e04
+SHA512: 66ff319a823817e049bad12617b773396e61547763a3ff119de359f2a196588b628d3c5d48caae50e85332468451ed8cd27c8fedb25096b607fad9e05e48cb6f
+Section: 插件
+Description: modify the upper and lower offset, left and right offset of the smart island，You need to install Dynamic or bring up Dynamic to match this tweak。设置在手机系统设置中，调节灵动岛上下的偏移，左右的偏移，大小值,这是辅助工具，自备灵动岛(DynamicCow之类的)，半岛不行，这是调原生的，控制大小输入1就是原来大小，输入0.5就是一半的大小，以此类推！
+Name: 灵动岛偏移-Rootless
+Author: 来了老弟 X：h_h_x_t
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.leftpan.rootless
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -8833,6 +8964,26 @@ Section: 插件
 Description: Tweak inspired by iOS 16 with live activity timers on your lockscreen锁屏增强！本插件的作用是为iOS15以下的旧系统锁屏提供实时模块，就是你开启了计时器锁屏之后能看到实时在动！应该可以像iOS16一样的感觉，原价2.99刀，有能力请支持作者！搬运工源已半汉化，没精力更新汉化！介绍截图是用了aimpro插件和souvenir插件才那么好看！
 Name: Live Activities锁屏增强-Rootless
 Author: 0xkuj
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.livecalltranslator
+Architecture: iphoneos-arm64
+Version: 0.1-61
+Maintainer: 搬运工
+Installed-Size: 1816
+Depends: mobilesubstrate, byg.iosios.net.limneoscrack-rootless
+Conflicts: com.pulandres.limneosos, ru.rejail.limneosos
+Filename: debs/byg.iosios.net.livecalltranslator_0.1-61_iphoneos-arm64.deb
+Size: 497254
+MD5sum: 1a41766d6b093f5a14f70131a62e5abc
+SHA1: 442d26a316173933eb7eaf829e167c0ffc19508a
+SHA256: d5410234e54d87f51d3476f7d284de9e91212defb9d87c46c5b7bf06af42bbd2
+SHA512: 59568b42869eaa3d2f206a7dbb129fa4874164204156a5abc8ee979a9cf46fa502a896afd20c0133aece41f39ad60fcadfaff18e938b993eb969f72d3c325d81
+Section: 插件
+Description: Translate your voice over a call live!和老外打电话实时进行翻译！还有这么无聊的插件？有出国的朋友们可以使用！搬运工源，永久免费！
+Name: Live Call Translator通话翻译-Rootless
+Author: Elias Limneos
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -9670,6 +9821,24 @@ Section: 插件
 Description: 不要50块，不要40块，也不要30块！免费使用！原生岛通知，从简即可。仅仅支持iOS16.0+！至于是不是原生岛，仁者见仁，智者见智，搬运工源小编不参与讨论！
 Name: NI-notifier原生岛通知-Rootless
 Author: sunshinesong
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.nebbs
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.nebbs_1.0.0_iphoneos-arm64.deb
+Size: 4454
+MD5sum: 494b0a1296e523f7058ccfdf79562086
+SHA1: d7c202733c9abd5acecd714437c8b2c4256a7b7b
+SHA256: e6d47b58a47f557799be6909db69bdeae4cbdfd3fa4ff711643ee87c45dc483c
+SHA512: 913ca3cae2040027ef4b0315c3c012e8b980a52c288ae11d10dc6277a355124c7eff847b513c2e2ba6a0e6a2763d33953f4075b6444e1653db55f69a2df84427
+Section: 插件
+Description: Crack for Nebbs tweaks, by CBZ!插件破解依赖！
+Name: Nebbs Crack破解依赖-Rootless
+Author: CBZ
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -11178,6 +11347,25 @@ Author: SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.quietdown
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Maintainer: 搬运工
+Installed-Size: 432
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: debs/byg.iosios.net.quietdown_1.1.2_iphoneos-arm64.deb
+Size: 72028
+MD5sum: 9bffabedfd188c3682173af45501b5b6
+SHA1: 47ae2b6c700c30840fe8405f215dbb9aa0182fd4
+SHA256: d63380f6ecb9001586b12fd85bb2897e0387f6852f698280c8447ae986581d5d
+SHA512: 694db9f154c9ba1a36e1f06c9e4084fbb3d32398990048337016b067711e7102ebd9392bb4afa7742fa728854cc70cf0b391c9e23559487d4ea15d8cc1ef20ad
+Section: 插件
+Description: Mute Notifications for Time PeriodsQuietDown 可让用户选择在一定时间内将应用程序静音。该菜单可通过向上轻扫图标或通过 3d touch 快捷键激活。静音通知的类型也可以更改，可以选择横幅、封面页（LS/NC）或两者兼而有之。
+Name: QuietDown选择静音时间-Rootless
+Author: Skitty
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.quitall
 Architecture: iphoneos-arm64
 Version: 1.2.1.1
@@ -11837,6 +12025,24 @@ Author: Nightwind
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.senri
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17)
+Filename: debs/byg.iosios.net.senri_1.1_iphoneos-arm64.deb
+Size: 509114
+MD5sum: 193b98197fb197657712952942bede19
+SHA1: 24dd01ca62825b1e8a555fbea5b899a29ea6578a
+SHA256: 599e5064f1fd67e9c1a58af8d1c83091528966b5a911cdb062c61b1f741d8f6d
+SHA512: 03e0de8cb824ff18e0d7944eaa654a11ed7a659100942ddb2d806441f4247b5f8c0d270ac776db754219993936e7f3be4701adafc3ad11651de1d186c6364832
+Section: 插件
+Description: 插件1.49美元！永远不要再丢失您的通知！Senri会记录您的设备收到的所有通知，并将其保存，即使这些通知已从通知中心删除，保存的记录稍后也可以通过“通知”选项卡或调整选项卡在“设置”中访问。Senri记录有关通知的所有重要信息和元数据，Senri还能够根据通知记录的应用程序和日期进行排序，以及搜索通知记录。
+Name: Senri记录通知-Rootless
+Author: Antoine
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.sentinel
 Architecture: iphoneos-arm64
 Version: 1.3.2
@@ -12291,6 +12497,25 @@ Section: 插件
 Description: iOS 6 Style Lock Screen!仿iOS16复古锁屏声音及样式，老苹果用户爱的吧，搬运工源已汉化，越狱请认准搬运工源！
 Name: Six (LS)iOS6复古锁屏-Rootless
 Author: Skitty
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.sleipnizer5
+Architecture: iphoneos-arm64
+Version: 12.0.1
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.6100), preferenceloader (>= 2.2.3), firmware (>= 15.0)
+Conflicts: jp.r-plus.sleipnizerlite, jp.r-plus.sleipnizerforsafari, jp.r-plus.sleipnizer, jp.r-plus.sleipnizer3, jp.r-plus.sleipnizer4
+Filename: debs/byg.iosios.net.sleipnizer5_12.0.1_iphoneos-arm64.deb
+Size: 319896
+MD5sum: e4379b9bfefdabbf0544505d2cd295fd
+SHA1: a5b7a130571831c6fa0ca639d5aa3dc3f45beca1
+SHA256: 788cbe88caa41b74042a3e0222c1cceac0cb610a19398aa98558935da14f5a0b
+SHA512: 95b35ba49b846b44a2107fc11361464d8cfdcbaf63fb0e14480b6eb3b8d8876b2e7c630f25ff46c8b99a8416878dc906630bd49ed45bf6a2a75e18a77c80dc0e
+Section: 插件
+Description: convenient faster browsing with gestures暂时没汉化，自己截图翻译，内容太多，后面更新汉化！这是一款Safari浏览器手势插件，多种手势，非常好用！有需要的下载，原价1.99美元，现在搬运工源免费使用！
+Name: Sleipnizer for Safari手势插件-Rootless
+Author: r_plus
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -13188,6 +13413,25 @@ Author: i0s_tweak3r
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.switchshades
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: 搬运工
+Installed-Size: 505
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: debs/byg.iosios.net.switchshades_1.2_iphoneos-arm64.deb
+Size: 152986
+MD5sum: 16bfc19417eb14070e52fdb043bfc255
+SHA1: 6d7f36f88b5ca744739f989c672d05bca171d89f
+SHA256: 6355b11e2f7780f310daeba6332d50131768e2f326eb50cfbb62842cb8284fcc
+SHA512: c3fd72fb7ee0c26b4ca7b3069d4d574616c78389ad94e930e06093dfaeb4b400fb27f29a3f5d3cf18efaa095370d0e947055752d8af7b7a091c93170bcba1de4
+Section: 插件
+Description: Bring color to your app switcher based on app icon正版1.49美元的插件！根据应用程序图标为应用程序切换器添加颜色！滚动时有很好的颜色转换。此调整根据当前所选应用程序的应用程序图标颜色为应用程序切换器背景上色。当你在应用程序之间滚动时，颜色会很好地转换。 您可以设置首选项的透明度级别。你可以看到的屏幕截图是以20%的透明度拍摄的，然后是50%。 不是所有这些颜色的超级粉丝吗？您可以将着色设置为基于应用程序快照而不是应用程序图标。如果你有很多暗模式的应用程序，它看起来很整洁！设置窗格允许您：根据应用程序图标或应用程序快照选择颜色，使用自然颜色（当使用深色主题时，它可以帮助获得更好的颜色检测）设置透明度级别。它经过了充分优化。即使你快速浏览应用程序，你也不会注意到性能上的任何差异。
+Name: SwitchShades切换后台颜色-Rootless
+Author: AnthoPak
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.systeminfo
 Architecture: iphoneos-arm64
 Version: 2.7.2-2
@@ -13933,6 +14177,25 @@ Author: 34306, KhanhDuyTran
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.upsidedowned
+Architecture: iphoneos-arm64
+Version: 1.1-4+debug
+Maintainer: 搬运工
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/byg.iosios.net.upsidedowned_1.1-4_debug_iphoneos-arm64.deb
+Size: 7390
+MD5sum: 7b52b94ec63ad8d7802f2155f7eed510
+SHA1: 2c8ce94deda7fd49aaa7b09ee54f9b5ff94fc0e9
+SHA256: 0a1a013eb0537355592067f72de31e50fb7f96b3017d2f204108c9dda863740f
+SHA512: e19dde2f352a6297a2dbc7c4e173b2f59df27882540744f68d6a24fafec3e268ba75a6b66217f135965bdf03386962d941828ff5302fab21497caada8decee1c
+Section: 插件
+Description: 转载自艾锋降级。本插件可以实现颠倒显示，也就是说，方向锁定关闭后，设备颠倒过来，内容也会颠倒显示，实现一种无刘海感觉。在锁屏的状态下，也能颠倒显示，这次真正实现顶部无刘海无灵动岛显示，但会显示底部，不过！可以通过一些插件实现透明或者隐藏。使用 upsidedowned 方法：安装 upsidedowned 插件后，它自动生效，打开控制中心，关闭方向锁定，然后打开某App，将设备倒过来显示，即可看到效果。不过！针对一些视频翻转，还是有些BUG的，想解决这个问题，不要点“全屏观看”等字眼，直接翻转横屏就行。
+Name: Upsidedowned颠倒显示-Rootless
+Author: 34306, KhanhDuyTran
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.vcam-rootless
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -14102,6 +14365,42 @@ Section: 插件
 Description: 个性Siri插件，修改Siri样式，正版0.99刀，个人感觉这插件没必要支持正版了，就图一乐！非常感谢搬运工源群友浅殇购买此插件并分享！无中文，就几个英文开关，自己玩吧！
 Name: Violet Pro个性Siri-Rootless
 Author: Erast
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.visibleisland-arm64e
+Architecture: iphoneos-arm64e
+Version: 2.0
+Maintainer: 搬运工
+Depends: firmware (>=16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Filename: debs/byg.iosios.net.visibleisland-arm64e_2.0_iphoneos-arm64e.deb
+Size: 43630
+MD5sum: dceb9c36e32ed3ff801602afb26d13bb
+SHA1: a1a02631b338b5ceea15ae7f8682481a292daede
+SHA256: 6a21592fa4cc36bc80e40d14a0375063dcd7f238502ea36225ad613d3afbd024
+SHA512: 82ef9414fe5df249eb0d4f5f5a0b303f06cc569c9ddf6c1319536a5d7f32ec2bfad12b710cf8ac5743db0af94fba213e95f43b722818e4f06df5af11a518107e
+Section: 插件
+Description: Enable, fix, and customize the Dynamic Island on older devices.半越狱请安装这个！VisibleIsland 是一款为老设备但是是iOS16系统的开启灵动岛的插件。主要特点：一键开启灵动岛，免费，简单。支持自定义灵动岛位置。支持自定义通知位置。支持自定义灵动岛透明度和颜色。支持自定义灵动岛比例。VisibleIsland 仅仅支持 iOS 16.0 - 16.6.1 系统。iOS 15 及更低版本系统，请勿安装！请勿安装！请勿安装！原生就有灵动岛的设备，请勿安装！搬运工源已完整汉化，享受吧！
+Name: VisibleIsland开启灵动岛-RootHide
+Author: ethxnn88
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.visibleisland
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: 搬运工
+Depends: firmware (>=16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Filename: debs/byg.iosios.net.visibleisland_2.0_iphoneos-arm64.deb
+Size: 43640
+MD5sum: 5d626bbc07d4a925171bf9716f51298b
+SHA1: 389e8ff29825edff7b64bedda1c21cea27e60b91
+SHA256: d189ce73879a44b2daa48401bdf957edcd12908c4d2029457e458b08965bfe87
+SHA512: 2982f420b626022f9a27e1e74826fb8d71895fb982510de556262843d554fb3d5efacae9dfd500f874acf649e7fb750b332daa178684212c5415315fc72d8438
+Section: 插件
+Description: Enable, fix, and customize the Dynamic Island on older devices.VisibleIsland  是一款为老设备但是是iOS16系统的开启灵动岛的插件。主要特点：一键开启灵动岛，免费，简单。支持自定义灵动岛位置。支持自定义通知位置。支持自定义灵动岛透明度和颜色。支持自定义灵动岛比例。VisibleIsland 仅仅支持 iOS 16.0 - 16.6.1 系统。iOS 15 及更低版本系统，请勿安装！请勿安装！请勿安装！原生就有灵动岛的设备，请勿安装！搬运工源已完整汉化，享受吧！
+Name: VisibleIsland开启灵动岛-Rootless
+Author: ethxnn88
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -14292,6 +14591,25 @@ Section: 插件
 Description: Know more than just the current time!没有购买电话助手和nicebar的用户可以使用此款免费插件进行时间日期自定义，此插件由搬运工源自主汉化完成，又get一项新技能！
 Name: Waqt日期时间自定义-Rootless
 Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.watched.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0-4+debug
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Filename: debs/byg.iosios.net.watched.roothide_1.0-4_debug_iphoneos-arm64e.deb
+Size: 8432
+MD5sum: c76e39fece3e3b16821e9bb8fe34c8b8
+SHA1: 201eceee41274dd366292212adb50a09c81cd56c
+SHA256: 8275e64dba5e0263bd00ab7bf401558e05f5c7e7c79e2954faeaab62ef7a3ec0
+SHA512: 155557e8bbf3e6b1c4a452b28156b6af8e2edcc6f17c49bcfcc6cd62319db28aa59a05f3869cd36fc7533bee55636d925d33a1193c6bbf2ec37db8e6d2e3bd47
+Section: 插件
+Description: 半越狱用这个！Paired your Apple Watch on new watchOS with older iOS。配对神器。无需升级系统，低版本系统设备也可以配对高版本系统的手表。
+Name: Watched手表配对-RootHide
+Author: 34306
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -15585,6 +15903,24 @@ Section: 插件
 Description: 去除启动广告、精简首页日历和黄历页面、去除右侧悬浮广告、禁用首页日历下拉、去除天气横幅广告。软件在App Store里搜索下载。
 Name: 中华万年历 去广告-Rootless
 Author: iOSign
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.zomigle
+Architecture: iphoneos-arm64
+Version: 0.1.0-beta1
+Maintainer: 搬运工
+Depends: firmware (>= 14.0)
+Filename: debs/byg.iosios.net.zomigle_0.1.0-beta1_iphoneos-arm64.deb
+Size: 21198
+MD5sum: 7aa90ac37aa7569d28cf533e68d2dae7
+SHA1: 6873fe1091add04f3a7da573b3d7ab0fda9e2455
+SHA256: fb512816ff928bd7dc805a43492daef03f262e3c08c9b8b11503c92bf0f5c28e
+SHA512: 922e39a3cf65baf2089752658088661663c3a099f9d23efc9d7a2dbff11cb67502b8c619f656fe37c144884af2ec093aa06e242bf147c4aa2d848fc9f59255e5
+Section: 插件
+Description: Removes the 3 app limit for free developer accounts。介绍：ZomigleApple Watch 配对神器。无需升级系统，低版本系统设备也可以配对高版本系统的手表。
+Name: Zomigle手表配对-Rootless
+Author: HAHALOSAH
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -20048,6 +20384,25 @@ Section: 插件
 Description: powerful library for iOS development插件依赖
 Name: Graphite Library插件依赖-Rootless
 Author: Geometric Software
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: weifengqad
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/weifengqad_1.0_iphoneos-arm64.deb
+Size: 5984
+MD5sum: e0ac02b9507ce40bdf5b21cdc973e119
+SHA1: b2289411e394b7d8712515b50db816e901dd9370
+SHA256: d909499850b35ced50411089b5ca1df00676b3564b8e07c82356ba11aa565c09
+SHA512: b44b524408cf303f92c0038227e1e960c86b81c1ac0dadc575bf14eebccae40074b8c24a55125ff9ad3f0b22b2cab49c238cb50cd01bb5ace0c7a024375f4d48
+Section: 插件
+Description: 威锋7.0新版去除广告，还你一个干净的论坛！
+Name: 威锋7.0去广告-Rootless
+Author: z
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
