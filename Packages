@@ -1929,6 +1929,25 @@ Author: chatgpt5.6（sol）, JaySuen
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.fakecallhistory
+Architecture: iphoneos-arm64
+Version: 1.0.4.2
+Maintainer: 搬运工
+Installed-Size: 7296
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader
+Filename: debs/byg.iosios.net.fakecallhistory_1.0.4.2_iphoneos-arm64.deb
+Size: 20344
+MD5sum: 64996bf13c6ec339802bfda19055d85e
+SHA1: 057c0941ffaea2ab9651c2f53686ac642e0de24d
+SHA256: 466ceeafeb340c58ded2cf516dd3c8441693255b430730e7efe4f542c6ee7c54
+SHA512: 75839417da5608cd161d1794809068b7c8f4f34de271b1f151bb26e2f896fe932d64a8509a759371ec111e3dd1c17aa8964ec3a9f363e64e4f0723d51b87856e
+Section: 插件
+Description: Add fake calls to your call history!这是一款伪造通话记录的插件，搬运工源已完整汉化，具体怎么操作插件里有写，设置之后多打开几次系统自带的电话APP，搬运工源万古长青，只为做中国第一源，越狱只需要一个搬运工源即可，一个抵一万个，无需那么多乱七八糟的源！越狱必加！
+Name: FakeCallHistory伪造通话记录
+Author: NeinZedd9
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.fakesignalbar
 Architecture: iphoneos-arm64
 Version: 0.1-7
@@ -3798,6 +3817,25 @@ Section: 插件
 Description: 本插件有设置项，在系统设置里打开开关然后注销！功能如下：为您的开关添加一些风格，日月特效。效果请看插件截图介绍，非常的不错！喜欢的美化的小伙们可不要错过啦！不排除有bug，自测！搬运工源，免费安全，中国第一源，越狱必备！
 Name: DayNightSwitch日月开关
 Author: Finn Gaida
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.swipeextenderx
+Architecture: iphoneos-arm64
+Version: 1.6.1~2
+Maintainer: 搬运工
+Installed-Size: 614
+Depends: firmware (>=14.0), mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: debs/byg.iosios.net.swipeextenderx_1.6.1_2_iphoneos-arm64.deb
+Size: 157476
+MD5sum: 29d298fae2445c6b7ef0b5930b30528e
+SHA1: bf328e51793541136c90bf2c2019ae2b0bc8c5d1
+SHA256: ad46834f312f38c7394cba7161f27868fb3a6c68d1f17bd68955b458a0f1d6ea
+SHA512: 5b800249aeb99d457cb89fbb7b892d333be32dc1e0103320e543b253dac8543b1fe0b81d64044b94c53a167d998c5ee5c1607db844bcb4b6f9afce2f0a9bbf68
+Section: 插件
+Description: 插件作用是为自定义原生键盘添加更多的功能，比如复制粘贴，滑动输入等等，非常的好用，原生键盘用户的福音，搬运工源已汉化，尽情享受吧，一款老牌插件，推荐使用！
+Name: SwipeExtenderX键盘增强
+Author: MiRO
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6791,6 +6829,25 @@ Description: XDS单双列可切换文件管理器（rootless 脱沙盒 + 受控 
 Tag: purpose::uikit, compatible::ios14
 Name: xds文件管理器
 Author: 来了老弟
+
+Package: xyz.cypwn.davevancrack
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/xyz.cypwn.davevancrack_0.0.1_iphoneos-arm64.deb
+Size: 6292
+MD5sum: f4ddfdf3ca315cb63b1cd5fba426f7e5
+SHA1: 3366ad7a07a8f132806fd7bff6fd23237b2c5fc8
+SHA256: f285621394f7ed697af8f7d5ce810346b0380c115850828ee8fae7aac34868f9
+SHA512: 2bc4ea7599a39691ab156c584bd7ed7edeaaaf4818769333f85796821adb1fd0c2e79e2b24374ee2f6db562455ebf7c6dd85c46ee779882851518e757ecf701a
+Section: 插件
+Description: Ainsworth的破解插件依赖
+Name: Dave van Crack依赖
+Author: CBZ
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: zhuti.iosios.net.visionos
 Architecture: iphoneos-arm64
