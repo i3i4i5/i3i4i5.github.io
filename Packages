@@ -927,6 +927,24 @@ Author: Mikoto
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.MisakaHelper.rootless
+Architecture: iphoneos-arm64
+Version: 2.1.1-End
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.MisakaHelper.rootless_2.1.1-End_iphoneos-arm64.deb
+Size: 18754382
+MD5sum: ec6003ebbf27536f56b7ed0ef3bf256d
+SHA1: 9afe008092cd490b94187ec948675899fda9f44b
+SHA256: ba4c7c7dfa32b09c3405eb82fbd421cf85d1d76704bdadef6e4386ead3b613e7
+SHA512: a6259da4eff0ebb6bc590c383c85e0f39a1d9b7bccc09b09fd547bfa86cbd3f841871aed99d2b6aca5bde07a55a65fb23ebe150793c7e6adc24fbf15e8b3e77b
+Section: 插件
+Description: MisakaHelper微信misaka助手，和其它类型微信插件类似，更多群功能！自行体验！可以解决低版本微信不能使用小程序问题！好像也可以抢红包！可以强制关注公众号，比如解决微信净化插件问题！本版本应该是最终版本了！
+Name: 微信Misaka助手-Rootless
+Author: Misaka
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.QDReader
 Architecture: iphoneos-arm64
 Version: 0.1-1
