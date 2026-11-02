@@ -18202,6 +18202,25 @@ Author: CreatureSurvive
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.dao.3dbadgeclear
+Architecture: iphoneos-arm64e
+Version: 1.7.0.1
+Maintainer: daodao
+Installed-Size: 196
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.isklikas.3dbadgeclear, com.twickd.john-sklikas.3dbadgeclear
+Filename: debs/com.dao.3dbadgeclear_1.7.0.1_iphoneos-arm64e.deb
+Size: 22392
+MD5sum: 3ba4d48f9352c39f850797f50fa9c35a
+SHA1: ce9623cb4d196ef15302693d3013327e511c5b28
+SHA256: ae0397e822e29b761741871511775cb407b78a52f0308505dccbfccb00af23d6
+SHA512: d2fc070bc5ed4833429bca16c60e1a310377f20635e4e1be91d45d96ed3896ee45fd111e6fba701fd7be70473f8cd6ba689d7337ee1b3f1f3825c149924ce850
+Section: 插件
+Description: 长按/3DTouch「应用/文件夹」图标，即可通过“清理角标”一键清除所有通知角标。
+Name: 3DBadgeClear(RootHide)
+Author: isklikas
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/3dbadgeclear/js.json
+
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
 Version: 1.0.9
