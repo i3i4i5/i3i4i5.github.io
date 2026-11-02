@@ -740,6 +740,25 @@ Description: Display all system information of iOS。显示 iOS 所有系统信�
 Name: System Info 系统信息-rootless
 Author: ARX8x 来了老弟
 
+Package: byg.iosios.net.1a1.rootful
+Architecture: iphoneos-arm
+Version: 1.4.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.1a1.rootful_1.4.1_iphoneos-arm.deb
+Size: 5878
+MD5sum: a133a8c7c2e3dfa2dcae5d2754ea6e65
+SHA1: 60a959f7d0c39cce49287b1fd5d46b9693c2de38
+SHA256: aec9c42b7e36d397a6d6ed05e25c795d05a3eb6b73a36761b3a6a791962045ed
+SHA512: 242fc13df99d366b2651c94c4f43769e74458f7cdff7239b1fe160ed7584ed49c7105c8348611ae115f6da82e7fbe017eda7cf0baefa1c718a33bd240cd1c277
+Section: 插件
+Description: 这插件有什么用我也不知道，安装即生效，无设置项！插件分享也与原作者无关，作者毫不知情，本源上架就是备份，切勿用于非法！！！另外说明，本插件也是会失效，一切自有天意，一切自有安排！搬运工源是你最好的家！
+Name: 时间主宰
+Author: llld
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.1aaa1.1aaa3
 Architecture: iphoneos-arm
 Version: 1.0
@@ -1751,6 +1770,25 @@ Author: aReo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.aria
+Architecture: iphoneos-arm64
+Version: 0.9.8.1
+Maintainer: 搬运工
+Installed-Size: 680
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: debs/byg.iosios.net.aria_0.9.8.1_iphoneos-arm64.deb
+Size: 129634
+MD5sum: 0ea9f7f59b08d37d5c7b97287c438d9b
+SHA1: 3a29fe2a244361604d5ac2c5680d5d1a964ff283
+SHA256: 7f9dd1434ca0421c53592f87ad371c32aadd496af090d5be7ffe36a3a5dadbf5
+SHA512: ad5202f6288676abea224d4ce9f161b793075749d6ce4c9b37e5ee2d8e50b5534d6593b76c95cad86636b6ad5b492da64625c400390ff02736bc2cfb0c22f53c
+Section: 插件
+Description: Enhance the stock CC or Prysm on the fly(修改控制中心背景图，用第二个Stock就行了)已汉化感谢来了老弟汉化支持，有没有bug自行测试！
+Name: Aria控制中心背景图-Rootless
+Author: Luki
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.arise
 Architecture: iphoneos-arm64
 Version: 1.2.3
@@ -2017,6 +2055,45 @@ SHA512: ca1167ff776f6cf9bf7e02e9cda7d01dd7558877838dee47db7f336b65a92c8e7d9a2644
 Section: 插件
 Description: 抖音去广告插件* 默认生效* 去启动广告* 去视频流广告* 去青少年提醒* 小程序跳广告，单独开关控制* 内存清理功能，单独开关控制！一款很不错的抖音小插件，喜欢的小伙们可以试试！
 Name: 抖音去广告-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.awemepurification-rootless
+Architecture: iphoneos-arm64
+Version: 3.0
+Maintainer: 搬运工
+Installed-Size: 2480
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: netskao.awemepurification-rootless
+Filename: debs/byg.iosios.net.awemepurification-rootless_3.0_iphoneos-arm64.deb
+Size: 1346002
+MD5sum: b7ff4b71e7918a79468f32cd8869af6a
+SHA1: e01ee6f987f001fb31a65bf4dc85dd931c347ee2
+SHA256: 2e92b394df805be705ac8006807b2d446a8e0bbaa67a4f5d8238df93c1eeb8ae
+SHA512: d93b96775767cd2a4b8a4eba7aea18444f8e7dfdbbe16413973d62fdff8403892b8408ef8f85048cca909dc6abb72a749499a3a5b5d49dc5ff1240254568b8d0
+Section: 插件
+Description: 抖音净化最新版插件不消失效！设置位于抖音-设置，仅支持25.8.0及以上版本抖音，佚名：分享无罪，若丢了做人本分，那就可耻！
+Name: 抖音净化-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.awemepurification
+Architecture: iphoneos-arm
+Version: 3.0
+Maintainer: 搬运工
+Installed-Size: 2432
+Depends: mobilesubstrate, firmware (>= 11.0)
+Filename: debs/byg.iosios.net.awemepurification_3.0_iphoneos-arm.deb
+Size: 1337016
+MD5sum: 16c19766ec0090bc94c32ac75baa80f5
+SHA1: ffe6335a99effd073cc08ef61a3e53c45dd258ba
+SHA256: bf4ee38ce02dfb769cd934764d243000f282128b408899a7e50a89d72f3dd573
+SHA512: 6107373e0603fc3fd1292ba64d8d458b88e9c09b096943b6a16d825af80b42c9a5c8c115e5a3349cd70d26c11eaab100803ba18e4b1bf50d36f9ae9548d83897
+Section: 插件
+Description: 抖音净化最新不消失版！设置位于抖音-设置，仅支持22.5.0及以上版本抖音！搬运工源根据威锋论坛锋友方法编译成最新不消失版！快乐玩耍吧！请认准搬运工源！
+Name: 抖音净化
 Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
@@ -4833,6 +4910,25 @@ Author: Nightwind and thetimeloop
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.jdquan.rootless
+Architecture: iphoneos-arm64
+Version: 1.0-1
+Priority: optional
+Maintainer: 搬运工
+Depends: firmware (>= 5.0)
+Filename: debs/byg.iosios.net.jdquan.rootless_1.0-1_iphoneos-arm64.deb
+Size: 73148
+MD5sum: 8a57e4cc2018f0dc847525e230c90f25
+SHA1: 82868a51245d1830ad7e8dca1baeb09506c2420d
+SHA256: e7d40e570330146a983aab79db5e7984350303321f794a1eae949f545e6cc1a1
+SHA512: e0ef6521e372feb3305cf340c5444eef408c11e0c54e1c15e6a6c4e43872834d45a3502174d69f9c7720c1a8e8e7e0b6621db68f6dba75b0127a42ff49015ee6
+Section: 插件
+Description: 京东优惠券！
+Name: 京东优惠券-Rootless
+Author: Mao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.jrtthook
 Architecture: iphoneos-arm64
 Version: 1.0.4
@@ -5600,6 +5696,25 @@ Section: 插件
 Description: Lower your Dynamic Island and make it disappear if you don't need it. All the original code is from KhanhDuyTran (@TranKha50277352)仅支持iOS16系统，配合DynamicCow开启灵动岛，对灵动岛进行调整，如透明度或者位置，大家自行体验，灵动半岛估计不行，自行测试！
 Name: Mineland灵动岛调整-Rootless
 Author: 34306, KhanhDuyTran
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.minivx
+Architecture: iphoneos-arm64
+Version: 1.01
+Maintainer: 搬运工
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.minivx_1.01_iphoneos-arm64.deb
+Size: 17264
+MD5sum: d57dfe28cea5c91bd6774d7fa5ed4c22
+SHA1: 7ac6911ecb2a1534b8891ff21f722db0ce699db1
+SHA256: 4dac78bba6e59ec70805883967584b04f1ce93511688553afe233b8ae08c880e
+SHA512: aa2bc5bc6c86b6b430000b5a65579abd653872621617de6231ff5eb01a5860bf584e10c7e33994f4a0b920f796427bb85f46897047236be57d6ad3d102149250
+Section: 插件
+Description: 微生物！不知道有什么用，可能是一种新的生物！达尔文发现的！
+Name: 微生物-Rootless
+Author: llld
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6518,6 +6633,26 @@ Author: xybp888
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.pridebars
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: 搬运工
+Installed-Size: 368
+Depends: mobilesubstrate
+Conflicts: com.blakeboxberger.pridebars
+Filename: debs/byg.iosios.net.pridebars_1.1.0_iphoneos-arm64.deb
+Size: 42272
+MD5sum: 70246fa5753a83fee612ce5211a6c012
+SHA1: 7f52dd3c2d5cfd2884ee6903c5aebd67e7da8c0c
+SHA256: ab443ac5092792f78aba8ef499d1102a116f6efcd15017dea5ec079194a40f89
+SHA512: 6512254679db650fe52f83bda07c833718a9a7c915ed4ccb726ddea4039d15eceb4e8273d5c16c5a14bc9124565a6e203fbf7eda52fdf2eb471e052af8bbc788
+Section: 插件
+Description: Colorful signal bars. Now with Wi-Fi support! The default colors are the first four rainbow colors, which coincidentally line up from red to green, as in from the weakest signal to the strongest.个性状态栏，花哩胡哨！
+Name: PrideBars个性状态栏-Rootless
+Author: p0358
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.primalfolder2
 Architecture: iphoneos-arm64
 Version: 0.1.2
@@ -6839,6 +6974,24 @@ Section: 插件
 Description: Rain开发的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音，通过ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音，支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机。还能自行添加想要录音的APP，真是一款免费又好用的插件，感谢作者无私开发，兄弟们冲冲冲！搬运工源，永久免费，持续更新！
 Name: 通话录音
 Author: Rain
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.randomiconsflip
+Architecture: iphoneos-arm64
+Version: 0.3-21
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 4.0)
+Filename: debs/byg.iosios.net.randomiconsflip_0.3-21_iphoneos-arm64.deb
+Size: 19256
+MD5sum: 949d2b0ab3cfd0dfb58d169e1881881a
+SHA1: 50de38e6094490adbf296895a275b2335704078e
+SHA256: 1f1a416db1b95ccbe89f31729647e5aee2ca969eb16edc88e05c2ee68256c260
+SHA512: 5d1d7d589656a5bca9568c143fd682cc3cb2bbb48d40b1c30f02f89c3e05138df4b8ee507867c3b03dc62e35688e74140d8782eca9bcb23cb6b690fb1a50a9a3
+Section: 插件
+Description: 插件无设置项，注销生效！功能是让桌面图标随机翻转，没啥用，好看吧！由来了老弟修复支持多巴胺！喜欢的小伙伴们可以试试！
+Name: Random Icon图标随机翻转
+Author: Elias Limneos
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8240,6 +8393,25 @@ Section: 插件
 Description: 暂时放出来的一款手势插件，是免费的，大家自行测试，可能也有bug，等作者修复就行！
 Name: TieGesture手势插件
 Author: be-huge
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.time
+Architecture: iphoneos-arm64
+Version: 1.4.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.time_1.4.1_iphoneos-arm64.deb
+Size: 6022
+MD5sum: 873a7cd3d834e4c556ce32e8a172865d
+SHA1: e386bfd2882d917a98771046fef53aad2e48c4fe
+SHA256: 9e483bf900c1c867d32c18bb5145a8d040e8f135a3c67b652a12534874f25d0c
+SHA512: 68aed50702a82cd29d26b9accc2c80f56c404c8c86789ba10be17688f8d79a644d8c774b651695090e883980d161689a10132dcfe005d23eefae1559144e7850
+Section: 插件
+Description: 这插件有什么用我也不知道，安装即生效，无设置项！插件分享也与原作者无关，作者毫不知情，本源上架就是备份，切勿用于非法！！！另外说明，本插件也是会失效，一切自有天意，一切自有安排！搬运工源是你最好的家！
+Name: 时间主宰-Rootless
+Author: llld
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
