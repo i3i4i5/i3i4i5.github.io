@@ -8737,6 +8737,27 @@ Author: lhh
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.mterminal-rootless
+Architecture: iphoneos-arm64
+Version: 1.4-1
+Maintainer: 搬运工
+Installed-Size: 2236
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 15.0), gettext-localizations, system-cmds, bash | zsh
+Conflicts: mterminal
+Filename: debs/byg.iosios.net.mterminal-rootless_1.4-1_iphoneos-arm64.deb
+Size: 504942
+MD5sum: 128da06b1c0bfed4efd40d6b4037125b
+SHA1: 4cb3e397e0e26947d92f063f55e3cd482f6c242a
+SHA256: 973b83c6b8834c344ad9d0409525c91186999d122c8fd7b00e95c6d2bbd4dc11
+SHA512: bbb634dc9af478ed9233923110e771bcc0483369488ae302ab23b355f55379e20fdf21a268c017790be6db0c8fe3fe1162d3a435f43d5b0cc69b73670f2f1eaa
+Section: 插件
+Description: 一款iPhone可以用的终端软件
+Name: MTerminal终端-Rootless
+Author: lordscotland
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.musicxuanzhuan
 Architecture: iphoneos-arm64
 Version: 1.5
@@ -16941,6 +16962,23 @@ Author: zhaonan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.niceios.nicecaller15
+Architecture: iphoneos-arm
+Version: 1.0.0.4-25
+Maintainer: 搬运工
+Installed-Size: 12276
+Depends: mobilesubstrate,com.niceios.nicehelper(>=4.6),preferenceloader
+Filename: debs/com.niceios.nicecaller15_1.0.0.4-25_iphoneos-arm.deb
+Size: 5310010
+MD5sum: b60894919b3212d48411f73b9bcb342c
+SHA1: ba8de159fc0b714d27708c96c0b620bb32142fad
+SHA256: e798fb8db13ec8bf78f3dc9dd30f508e1e66c7c44ee3dc56fffc672411be3655
+SHA512: 0cc5490ad8239593ea36e44132eaa501ea2b0cb9251889fb55aac609f9d5daa95d7ac0929a98e7a5c12e243312acdfe2472f0b5e7716fa6ec896809a4ca59ace
+Name: NiceCaller(iOS15)
+Author: NiceiOS
+Sponsor: 搬运工
+Section: 插件
+
 Package: com.niceios.nicehelper-rootless
 Architecture: iphoneos-arm64
 Version: 6.0-5
@@ -16956,6 +16994,42 @@ SHA512: 7db3cc9200523aaa0c08da5dad0bc1a5d6f85900137884f09a87ebdd17f6d04780d589b7
 Section: 插件
 Description: 插件依赖，以降低版本号 来证明我不劫持依赖，因为没必要！
 Name: NiceHelper插件依赖-Rootless
+Author: niceios
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.niceios.nicehelper
+Architecture: iphoneos-arm
+Version: 4.8-6
+Maintainer: 搬运工
+Installed-Size: 2108
+Filename: debs/com.niceios.nicehelper_4.8-6_iphoneos-arm.deb
+Size: 972490
+MD5sum: d488ccba97872783201db8d0228e7b82
+SHA1: 33cf2e4d96cbd20549d1eeb15d7af1430b63a744
+SHA256: 26d7f8956f39161c03d4ff8edc5584376d07d94482a1fe182dafbae6e2b65ad8
+SHA512: 8e492612cf546ddcbda8e4de7090542a2545d953238c2801ad981632eeb9bfabc9a76e41c9e17c5342fe10bc19053630b1fec91c9ad3af543419ea7f0f5f210b
+Name: NiceHelper插件依赖
+Author: niceios
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+Section: 插件
+
+Package: com.niceios.nicelogx13-rootless
+Architecture: iphoneos-arm64
+Version: 1.0.1.4-24
+Maintainer: 搬运工
+Installed-Size: 6232
+Depends: com.niceios.nicehelper-rootless(>=5.0),preferenceloader
+Filename: debs/com.niceios.nicelogx13-rootless_1.0.1.4-24_iphoneos-arm64.deb
+Size: 2660278
+MD5sum: 7ed12d2f71d4b0faf80e09314f782fd8
+SHA1: f6cfd2c186cf2bf26a59b704587863e23887b385
+SHA256: 576de0e017feb40f3a3a3b2c04b50ba390892614a9770e30dcd51c08d4b4cfec
+SHA512: 648d08396096644c617617d6e097cb0bf25ca70287451adf7c0fe66e1382a85ceac1fdae2173b751ae5a1f13c16804829bb1d31b294a986ae0a8a1ed8deb1114
+Section: 插件
+Description: NiceLogX插件，键盘增强
+Name: NiceLogX-Rootless
 Author: niceios
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
