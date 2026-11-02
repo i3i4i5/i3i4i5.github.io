@@ -1158,6 +1158,26 @@ Author: AFN Team
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.aimpro
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Maintainer: 搬运工
+Installed-Size: 4908
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 2.0), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
+Filename: debs/byg.iosios.net.aimpro_1.0.7_iphoneos-arm64.deb
+Size: 2701222
+MD5sum: af4b696201bd83db3950f37246b2c458
+SHA1: 40486b982d3b30edcb552227bdbc71ea563a42de
+SHA256: bcac2556f6ee46120865c72fbe4eadd4b485096f153281489ef5c014abe0ca34
+SHA512: cfe0219c38c020220f7ebbf7779dd97cc1e8221619ebc3345fb69e773734570ac8d4b9b08d67efe616418d53ce387686894e967dd024af2ab551892a035cd285
+Section: 插件
+Description: 一款仿iOS 16锁屏风格的时间和日期锁屏，非常的不错，搬运工源自主汉化，全是中文，更适合中国宝宝体质，非常感谢搬运工源！如有和其它锁屏插件冲突问题请缷载！搬运工源，搬你所想！爱你所爱！
+Name: AIM Pro锁屏美化-Rootless
+Author: alimaulana
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ainsworth
 Architecture: iphoneos-arm64
 Version: 1.6k
