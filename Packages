@@ -3233,6 +3233,25 @@ Author: SHTM
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.floatingdockxvi
+Architecture: iphoneos-arm64
+Version: 2.3
+Maintainer: 搬运工
+Installed-Size: 812
+Depends: preferenceloader
+Filename: debs/byg.iosios.net.floatingdockxvi_2.3_iphoneos-arm64.deb
+Size: 418156
+MD5sum: c963211f02af1cba1b62d9de25040215
+SHA1: 8f8abf765751a41b51d4e91f5f2478f0ed331728
+SHA256: 1060f6961b8ae145311dcf937c6a67e738ca31e4600b5e1e2f2e1ec4c7900a2b
+SHA512: 2a85f133132a4e043be73e1cfada98715aca77a33472d57c2e51c691b5d0dc4c17bd33a5e0de2732b54183f441b5e861baad3f41c1b719af408c9f4cc38a1f81
+Section: 插件
+Description: Floating Dock on iOS 16  让你的Dock栏和iPad一样悬浮起来，并且桌面底板加好几个图标，超过官方限制的4个!本插件仅是官方加搬运工源汉化，无需再单独安装汉化包，毕竟能省一个插件是一个嘛！搬运工源，永久免费，搬你所想！
+Name: FloatingDock悬浮Dock-Rootless
+Author: Ethan Whited
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.floaty
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -3461,6 +3480,24 @@ Section: 插件
 Description: 小伙们期待的图标随意摆的插件终于来了，不少小伙们一直问机车主无根有没有这个插件，今天它来了。原价1.49美元，有能力的请购买正版支持作者！插件安装注销即可生效，暂时无设置项！支持主屏幕、dock和文件夹中的自定义布局、支持任何大小的图标或小部件！搬运工源，真的用心在做免费！
 Name: Griddy图标随意摆
 Author: mikifp
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.growingbadges
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.2)
+Filename: debs/byg.iosios.net.growingbadges_1.1.0_iphoneos-arm64.deb
+Size: 41576
+MD5sum: fc11a9bb1463c99c5c320dd761aa7c60
+SHA1: fdd165e20ff15cf342e8ea8bb9b1261c15bdb3dd
+SHA256: db8be94bb7e2dde9f923810b1c53bfc4f9e64e5a6d1341fa3db613973a83d543
+SHA512: 8ead199c70649afb4142e1bb90269336750905a9790a5e4aaef0ab6fc2ec24d6a9f673f106ef3b8d9b3911ec0ad91872d9ed6a829864e22cefbbb6ecacd9dd4c
+Section: 插件
+Description: App badges scale with how many notifications you have!一款非常鸡肋的插件，把你的软件图标变成你的软件通知条数，非常的丑！效果看截图，但是可以调整大小，比较鸡肋的插件就暂时不汉化了！
+Name: GrowingBadges图标通知-Rootless
+Author: Wes
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4084,6 +4121,24 @@ Section: 插件
 Description: 酷狗音乐去广告，去除开屏广告（含概念版），去除【我的】页面寻搭子广告。并非破解会员，且并不一定保证去除广告有效！如果无效请缷载！
 Name: 酷狗 去广告-Rootless
 Author: huami
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.kuku
+Architecture: iphoneos-arm64
+Version: 1.5
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, ws.hbang.common (>= 1.17)
+Filename: debs/byg.iosios.net.kuku_1.5_iphoneos-arm64.deb
+Size: 303104
+MD5sum: 0132b02ba51d689707069735e34d2182
+SHA1: ebd14cc93aefa8c609da9c87030e30752d0a5f26
+SHA256: 037b99728bfe3ec070133ae42f2682205eca1debf106fc0f12b3cbf3390d8e24
+SHA512: c2805206e2e5e0498ce42fd1af641d230c75db083baf18896896200100daab58ba1d95a8b5fea9fd5282991927366db1af251b608ca67c70e871dbd7e0c7f316
+Section: 插件
+Description: 自定义通知横幅，非常的个性化，好看的一款插件，现免费使用！效果看截图，还是不错的！可以自定义！喜欢美化的小伙伴们不要错过啦！
+Name: KuKu酷炫通知-Rootless
+Author: b4db1r3
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -6579,6 +6634,24 @@ Section: 插件
 Description: NWZJ出品，专为解决图层插件不能用问题，无论你是在哪里安装的图层插件，官方源还是其它源，都可以破解！也可配合搬运工源的抖音图层，小红书图层、快手图层等使用，推荐用搬运工源里的，因为安全！！！如果不行，还是闪退失效的话，就继续等更新，江山代有才人出，各领风骚数百年。搬运工源祝您新年快乐！
 Name: 图层破解-Rootless
 Author: NWZJ
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.tvlock
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/byg.iosios.net.tvlock_1.2.3_iphoneos-arm64.deb
+Size: 48092
+MD5sum: 155bcb9b49854f439fa790b90b3adff3
+SHA1: 23fd74a8a91bf73d62eab5c0fd788f67f64ac3e4
+SHA256: 30012be3ee9747d51024002f3f8eaa76046814c38273c23b486029b90f535479
+SHA512: b87d0e54b74269ec0e80b63cc6949c90243de7370ca5ea4b87f9213ff8726b9193021227dfd11af3e075aa9413426e70c4669208fdb8ec38b915d73bdfa10c9d
+Section: 插件
+Description: Awesome TV turning off animation for locking!一款非常不错的锁屏动画插件，模仿电视机关闭的动画，看起来很复古！安装注销即可生效！喜欢美化的小伙伴们都惊呆了！
+Name: TVLock电视锁屏-Rootless
+Author: Wes
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
