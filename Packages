@@ -2581,6 +2581,24 @@ Author: LF
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.bettercc
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Maintainer: 搬运工
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: debs/byg.iosios.net.bettercc_0.0.5_iphoneos-arm64.deb
+Size: 321408
+MD5sum: 0f6aab49a166e11b5aca1aa8f90608d6
+SHA1: bc59fe6feb3b650895de200fac0f6266d93f6a6b
+SHA256: 6317acd30e5a23c5931e5a98890aa01798839331c47a0d6050c88073d663e32e
+SHA512: c4c84fca6c6a3331ba4e0946a054f54742d49e68351d0267e5265d50163d63395f9b9fe9077fd8200184c86cb1251f0b922eced215a7f42fceb9daf597e7490e
+Section: 插件
+Description: 控制中心美化，搬运工源已汉化，效果看图，如果有问题可以进群反馈，感谢大佬修复支持多巴胺，如果有同类插件请卸载，防止冲突！有弹窗无法关闭，关闭系统设置后台后再打开即可！
+Name: BetterCC控制中心美化-Rootless
+Author: Miguelaka95
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.betterccbrightness
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -6899,6 +6917,26 @@ Author: Skitty & b4db1r3
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.onesettings.xina
+Architecture: iphoneos-arm
+Version: 2.0.3
+Maintainer: 搬运工
+Installed-Size: 1117
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: debs/byg.iosios.net.onesettings.xina_2.0.3_iphoneos-arm.deb
+Size: 311986
+MD5sum: be08496c9029de7c62b126cdf1b5f36d
+SHA1: 7ea90f0e09b549297060ecc1fea572d668d926b1
+SHA256: fd363bb3564d40ab8a07388a003203935db795a8897a65bd8be1bce7f2e11dc2
+SHA512: c7a1041a0c54521a236b17e5e56b48c6fbb4f008d71b3be1f026f5ab5386e1b492a93382013a7ee056febacdf2049d613137d28ae7b718703947b6ecce83fc0c
+Section: 插件
+Description: A great enhancement to your Settings App!系统设置中心美化，破解尝鮮版，原价1.49刀！
+Name: OneSettings系统设置美化
+Author: Nightwind
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.otadisabler
 Architecture: iphoneos-arm64
 Version: 0.6
@@ -8655,6 +8693,27 @@ Author: x✨
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.soundy
+Architecture: iphoneos-arm64
+Version: 1.0
+Priority: optional
+Maintainer: 搬运工
+Installed-Size: 459
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.11)
+Filename: debs/byg.iosios.net.soundy_1.0_iphoneos-arm64.deb
+Size: 100270
+MD5sum: f429aafbdf0a2b96ecae14e43e9543b1
+SHA1: fc6a59d376e5e6d203d9d7674fbf0b0e5d486ffc
+SHA256: 6b8f7cc38b75fef0795b698a025d54c5fe0013f42897a81dde30d78a7f2a81df
+SHA512: aa3a807298bef3188efb5a76ccf20a83123cc6435e35fd8d27dccf58e07a82cb54cbc8cc3072c295b797991f9911923dd8eb6f0a5202ed87191adc4785ac3216
+Section: 插件
+Description: Change System Sounds!更改系统声音，感谢巨魔商店M哥汉化分享！
+Tag: purpose::extension
+Name: Soundy系统音修改-Rootless
+Author: mostafa89
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.souvenir
 Architecture: iphoneos-arm64
 Version: 1.32
@@ -8671,6 +8730,25 @@ Section: 插件
 Description: Lockscreen customization tweak!又一款锁屏美化插件，非常的好看，可以更改锁屏字体，字体目录var/jb/Library/ApplicationSupport/Souvenir.bundle/Fonts”支持ttf和otf自定义字体格式在搬运工源结合楠神汉化补丁修改完善，结合多种插件使用美化！已汉化！
 Name: Souvenir锁屏美化-Rootless
 Author: Elio Feghali
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.speaknotification
+Architecture: iphoneos-arm64
+Version: 1.8.19
+Maintainer: 搬运工
+Installed-Size: 888
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: debs/byg.iosios.net.speaknotification_1.8.19_iphoneos-arm64.deb
+Size: 321882
+MD5sum: b8c31cf7bc50fb16b7b413b3e7598b22
+SHA1: e992870368c6ecdba6156adef9136761e7c38cbb
+SHA256: 84ba010f04d66a3a030bbfe5e0110730987284d11f6960f4f73e7542d69d6f77
+SHA512: bd0019bf93ee35dc1eb8e7d59beb32cfa7fc9f9f24e619f6c0b81b507d70783f8cd73bb48ed1ed4236d5f933f49ab654bb11d1fd3250b14abc33ddbfd862f042
+Section: 插件
+Description: 朗读任何通知消息_________仅测试，有问题请卸载，由来了老弟修复支持多巴胺越狱！关闭自动语言检测，就是说中文了，开车不方便看消息神器！
+Name: Speak Notification通知朗读-Rootless
+Author: merdok
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -9048,6 +9126,24 @@ Section: 插件
 Description: 插件作用是为自定义原生键盘添加更多的功能，比如复制粘贴，滑动输入等等，非常的好用，原生键盘用户的福音，搬运工源已汉化，尽情享受吧，一款老牌插件，推荐使用！
 Name: SwipeExtenderX键盘增强
 Author: MiRO
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.systeminfo
+Architecture: iphoneos-arm64
+Version: 2.7.2-2
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.systeminfo_2.7.2-2_iphoneos-arm64.deb
+Size: 451106
+MD5sum: d703e42b80c6dc45974fec1d2788b7ab
+SHA1: 68886b8f1530e03c364eb9a684073bdba27cfea2
+SHA256: f3b743cbf658e9d5b12fb64389db92a402b12432f42d8b09bd0d619601617f85
+SHA512: 8e4670e71fa1444f1cf7753383c98fab69cf5a939bccdf88b09e1c78075611b4651b085956dad7f6de839eca6efb96250bf29ef6f51c369c9b41b68543a09308
+Section: 插件
+Description: 显示 iOS 所有系统信息，由大佬来了老弟修复支持多巴胺越狱，仅测试，有问题请卸载！
+Name: System Info系统信息-Rootless
+Author: ARX8x
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -10283,6 +10379,25 @@ Section: 插件
 Description: Magical iOS App Switcher机车主个人认为这是一款很糟糕的插件，改变了后台切换模式，但是太容易误触了吧，有喜欢的小伙伴们自行体验！
 Name: Witcher后台切换模式-Rootless
 Author: Erast
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wps.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.wps.rootless_0.0.1_iphoneos-arm64.deb
+Size: 3318
+MD5sum: 21ca3ac3d3dbebe0291e832261f1ff2b
+SHA1: 3c33d6dc73d521b5cdd6e85e6f3cb8ea0c301b8e
+SHA256: a53b95940d728fd4483a883b89162cee141a812118b30974b33a88ea8c22f078
+SHA512: dc3bfb9bae20b3dd1a35cc425af62f13c6ec67b030c07dbd0ca1c800e7e12ce1b8d2dcc7a608ad0d30c313b78522dab91385d48c6f754d6f8aa0831286a07b99
+Section: 插件
+Description: 登录即超级会员，稻壳无解；测试版本V11.34.2，由搬运工源管理iOSign分享发布！如果新版本无效，请降级至11.34.2版本！
+Name: WPS Office 破解-Rootless
+Author: iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
