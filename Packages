@@ -1459,6 +1459,26 @@ Author: iamdega&daodao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.awemedisablebars
+Architecture: iphoneos-arm64
+Version: 1.1-6
+Maintainer: 搬运工
+Installed-Size: 708
+Depends: firmware (>= 12.0), mobilesubstrate
+Conflicts: com.netskao.awemedisablebar
+Filename: debs/byg.iosios.net.awemedisablebars_1.1-6_iphoneos-arm64.deb
+Size: 386512
+MD5sum: b0693078d9b92b9673d1684aa56519d2
+SHA1: 451cb90520d606f76ed9472c91a60d1af6681a65
+SHA256: 61ea2020f8e4fde206fac2a239e9150cb2cf1c669ed9da0c3fd4f1219a1272a5
+SHA512: 4600fa8983d4a9563227cde48fd6a463ff3a5f266b43b6bac8cbf739729be294b50c1181bf7827619452ab26fe004d51e0a655cd063b308e8aff74f1ba614a64
+Section: 插件
+Description: 由Netskao大神开发的又一款抖音插件，原名叫AwemeDisablebars，插件功能如截图介绍所示，主要是禁用顶部/底部选项卡按钮，禁用同城、禁用热点、禁用广告、禁用直播等等，非常的不错，有点小净化的意思，感谢Netskao又一力作，江山代有才人出！仅在30.3.0及更高版本上进行测试！个人建议不要安装太多抖音插件，防止冲突！
+Name: 抖音小净化-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.awemefullscreen
 Architecture: iphoneos-arm64
 Version: 1.3-7
@@ -1858,6 +1878,26 @@ Author: Korboy
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.carbridge15-rootless
+Architecture: iphoneos-arm64
+Version: 2.0.15
+Maintainer: 搬运工
+Installed-Size: 7344
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable
+Filename: debs/byg.iosios.net.carbridge15-rootless_2.0.15_iphoneos-arm64.deb
+Size: 1928762
+MD5sum: db26166f32b57576a4344b6a21317740
+SHA1: 05a8a271ef428df2287047997f1dc2cd8a48a9a3
+SHA256: 09da0ce2ada768f3e9e91c09a74777e6ae4e904f560019a0baf4b8b49a42f18c
+SHA512: 87dc25f90af33701e6776e01a178741fb4f9adefe6a99b326eb3a330b5acc6159f7155deb1ccf866a7467ee2427a8c5ae88f81970abd62c33160e07e7ab6e1fe
+Section: 插件
+Description: Open any app in CarPlay!此版为破解版，让不支持互联的软件显示在车机上！仅供群友尝鮮，正版9.9美元，好像是有点贵，但是有能力的请支持正版！使用中有问题可以加群反馈，等待更新，也可直接入手正版哈，搬运工源只为免费搬运！旧版本在搬运工群文件里，新版本有问题的话，请手动降级回旧版本！不支持半越狱！
+Name: CarBridge汽车互联（Carplay）-Rootless
+Author: leftyfl1p
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.cask3
 Architecture: iphoneos-arm64
 Version: 1.0.3
@@ -2027,6 +2067,24 @@ Section: 插件
 Description: 自定义X键盘底部高度，地球底部高度等，非常不错的一个插件，键盘低了，用起来很舒服，搬运工源，永久免费，大家多多推荐！
 Name: 原生键盘高度调整
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.cmm
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.cmm_1.0.1_iphoneos-arm64.deb
+Size: 59352
+MD5sum: 3cd4b7ef2bcb57ee13f12523ce74dc2a
+SHA1: 683ea141546e2fed23833724e7192ccc18650be2
+SHA256: eb175c5e2dd48a68155ae64ab6ebd07e1fbbcbaac25e036c7ca16d36447bc96f
+SHA512: c6122c86e84d5cf61679ac80ee64073da8c0723ea777ca75189ea85bc31e4ed0cd517bc6170b7bb566c72253336292dcbb62954ffe9495d239169381a8f9b600
+Section: 插件
+Description: Enhancer for the system Phone app一款电话拨号增强插件，长按底部最近通话或者通讯录出来插件设置，暂时无汉化，请按本小编的截图翻译，功能不是很多，也不知道作者后面会不会继续更新，售价1.49美元！有能力的请支持作者！
+Name: CallMeMaybe电话增强-Rootless
+Author: dvntm
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2256,6 +2314,24 @@ Section: 插件
 Description: 微信添加表情包接口，更多的表情包，非常的不错！
 Name: 斗图助手
 Author: Mao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.duanian.wxhook
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.duanian.wxhook_1.0.2_iphoneos-arm64.deb
+Size: 108834
+MD5sum: eb63c255ff15da33e040f90334137714
+SHA1: c5756f4fae10ecccc9d2091056cfb939ea624b44
+SHA256: a14079e91deb66bc9bf54ee2bb9dd50f7c2b57f18772572b425d5acbb03d985a
+SHA512: 1cde09899b26b3ced56fddbbdcc84a3a9ea457c2996b30cbffd532561f05a2acc28d08b0c4ae9c4ca422eb52066dfe7c41aa3aeaa6ade9fb9328b5f90c46775e
+Section: 插件
+Description: 本插件功能如下：抢红包、自动登录、屏蔽广告、超强防封（我不知道啥用）动态背景等。功能不多但是很十分的实用！有喜欢的小伙们可以下载体验啦，搬运工源，搬你所想！爱你所爱！
+Name: 微信萌萌助手-Rootless
+Author: 萌萌
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -2991,6 +3067,24 @@ Author: iosdump
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.jyzpbtbschyd.rootless
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.jyzpbtbschyd.rootless_0.0.1_iphoneos-arm64.deb
+Size: 4524
+MD5sum: 597833f965dc3ff0a4e1734c42a28915
+SHA1: 9eb84cb868d4ded813bb528c2ee9682d014bbf58
+SHA256: 6f7f1b7407a7ba8987189c0cdaf147dbf3e44bfdd024f71c13c639c24a5bb0b0
+SHA512: 50f9a47900fd0ca1ecb86b67f9f2be8ef3bb118a8c35ab77c9185587e6679fe1c14d1f501ad5ffd2dbf13bd955db8f0277141cf356c94ebc8dc86977cc093898
+Section: 插件
+Description: 插件功能介绍如下：本插件可以禁止长按应用图标移动和删除 | 防止手机被小孩玩了之后意外触摸扰乱图标位置 | 如果需要卸载/删除应用程序：使用AppData插件卸载应用程序，或者删除本插件！搬运工源，搬你所想，一个搬运工源抵一万个源！
+Name: 禁用图标移动删除-Rootless
+Author: poqw312
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.kaiguang.1
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -3138,6 +3232,25 @@ Section: 插件
 Description: 酷我音乐纯净版（版本1.0.5）破解插件。随时可能失效，失效就卸载！
 Name: KWSimpleCrack酷我音乐
 Author: MacXK
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.lastlook
+Architecture: iphoneos-arm64
+Version: 4.2.2
+Maintainer: 搬运工
+Installed-Size: 1743
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: debs/byg.iosios.net.lastlook_4.2.2_iphoneos-arm64.deb
+Size: 611964
+MD5sum: d96828d513e64e92f2f8180fc5679e46
+SHA1: 2085bcc8e729e4273001a1602006f4faf1852689
+SHA256: 13593a332324d15b2f0709892524717d868874be871af6f71d620831b153477b
+SHA512: e3a6403dd2cf6d65f194f9d1778416e9283c28e77620ace2a7fc865ae26d1065e04fb0be6983fbbe941c756a357496c34b4b7f956e103fa48316faa61eed4803
+Section: 插件
+Description: An AOD tweak that feels stock, with endless possibilities!另一款息屏特效插件，搬运工源已汉化分享！，如果你不想继续做一个海盗，可以购买此插件！赞助作者！无法更新请缷载汉化插件再更新！
+Name: LastLook息屏特效-Rootless
+Author: AnthoPak
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -3557,6 +3670,26 @@ Section: 插件
 Description: 一款音乐专辑图像更换的插件，思念变成海汉化，可能支持的音乐App不多，以下是官方插件介绍翻译：遮罩专辑封面并不是什么新鲜事，当时有一个流行的调整，称为 Custom Cover，它起到了同样的作用。它允许您通过向音乐应用程序的专辑插图添加自定义蒙版来使其具有您想要的任何形状。在 Custom Cover 之后，我们进行了一个名为 MASQ 的调整，该调整在 iOS 12 上结束。如果您现在还没有抓住它，N95 是一个面具，这就是为什么我们决定将我们的专辑封面蒙版调整命名为“N95”。N95 通过支持 Spotify 和 Pandora 等所有主要音乐应用程序，并支持 Next Up 2 和 Quart 等流行的音乐调整，将专辑封面主题提升到一个全新的水平。除了对不同平台的无尽支持外，N95 一直在更新。我将继续支持不同的 iOS 版本以及不同的应用程序版本。
 Name: N95音乐专辑遮罩
 Author: Ethan Whited
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.noappthinnings
+Architecture: iphoneos-arm64
+Version: 1.4
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: it.ned.noappthinning
+Filename: debs/byg.iosios.net.noappthinnings_1.4_iphoneos-arm64.deb
+Size: 6730
+MD5sum: 7aec71e089d371a399c7fba76429206c
+SHA1: b95130d276dce30ae7157272fbf9889392ff1c2a
+SHA256: 266b2b876d326e590e8bfcdc4db7c6f46209007179505e75134fbe900ba63371
+SHA512: a70ebba44c34a5842a713819117b3c7d7d1baea45b0f7a6d248a086639898fbec8aed9e075ff2ffb141b9df686be6f303039a6435ca7e94ec7669a0bb4dc29e0
+Section: 插件
+Description: 本插件是砸壳依赖，可以单独使用，也可使用可不使用！操作方法:比如想砸某个app的全量包，在安装NoAppThinning插件后，注销，最好把这个软件删除重新下载。然后配合最新版的Dumpdecrypter进行砸壳，就是全量包全权限砸壳。需要的小伙们可以试试！
+Name: NoAppThinning砸壳依赖-Rootless
+Author: ned
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -4190,6 +4323,24 @@ Section: 插件
 Description: Rain开发的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音，通过ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音，支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机。还能自行添加想要录音的APP，真是一款免费又好用的插件，感谢作者无私开发，兄弟们冲冲冲！搬运工源，永久免费，持续更新！
 Name: 通话录音
 Author: Rain
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.ratebegone
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 搬运工
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.ratebegone_0.0.1_iphoneos-arm64.deb
+Size: 4928
+MD5sum: 28ac6d2d84c36156a07d0b8e5a0d7bf8
+SHA1: a3a259d1bc1a1d48d12836e50d22d63e5dd468fb
+SHA256: 32900beeba9447dc8f58750184f98382a5a65faf1de0d47454bd8a9b5d6047b5
+SHA512: e4533313562cc35d795a9c4f3c4ed9d9940b5d73c45f97a80b057ecbf9b387765ffece456f343d14df42366ef5e8fe1653ab34d45ce7f105582b1b181b357ac8
+Section: 插件
+Description: Removes annoying rate app pop-ups众所周知，某些APP会偶尔弹出烦人的评分弹窗，本插件的作用就是禁止掉这些弹窗，但是也不一定有用，这弹窗也不是百分百出来，无法测试！有需要的小伙们试试吧！搬运工源，永久免费，不喜勿喷！
+Name: RateBeGone删除评分弹窗-Rootless
+Author: dvntm
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -5202,6 +5353,25 @@ Author: XsF1re, ichitaso, level3tjg, LF, AD
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.volume-manager
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: 搬运工
+Installed-Size: 1104
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/byg.iosios.net.volume-manager_1.0.3_iphoneos-arm64.deb
+Size: 253536
+MD5sum: 777ba818966a065d9b2c418b234931bd
+SHA1: e8813a58a4f4ba82c713cc18b9dfa7b16ec55133
+SHA256: 2db2d992d9fcc9d2d5d2cf3ee2b4eb7ef8691ccfc41b0f578dbea6bf9be552c3
+SHA512: e27dccee4c90432143baf2a9a6429f1a5b3d952c0c34e1be1c8cca65b34c9f1a395ccf58b4344e8b8fbb228da73c4b5cb547f79d6c52c5ceac72b1a0cb602af1
+Section: 插件
+Description: 音量管理，就是这么简单。包含功能：混响、多元化音量。本插件可以给每个APP单独设置音量等，但是不确定没有bug，作者人没了，不用反馈！搬运工源，搬你所想！
+Name: VolumeManager音量管理-Rootless
+Author: sunshinesong
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.volumemixer
 Architecture: iphoneos-arm64
 Version: 0.0.7~beta3
@@ -5488,6 +5658,25 @@ Section: 插件
 Description: 微信增强助手插件，支持聊天按钮布局自定义、隐藏头像、触摸轨迹、后台运行、界面简化、禁用热更新、游戏小辅助等功能，自行体验，一款UI不错的小插件！搬运工源，只做中国第一越狱源！
 Name: 微信增强助手
 Author: 愫茶
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.wechat.xuanzhuan
+Architecture: iphoneos-arm64
+Version: 0.0.1-28
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/byg.iosios.net.wechat.xuanzhuan_0.0.1-28_iphoneos-arm64.deb
+Size: 7498
+MD5sum: 19882ba2f202c3168db7faab04ddd7ad
+SHA1: 364990cbbfa50aaecde33ee191d9704ad3239c42
+SHA256: 6a8f33765ffecf22809d3bc4c2983422d5d8bdaf93849da647fc04adddc98f35
+SHA512: d638b2ef6f3fa19226d174ead2833aa0e4dade62a8046b4ac3fd4e85a79aa20cdf54cd31f2a12e28b6a946d7da5405ce607ec2f87c3425c733f078a2fe07d139
+Section: 插件
+Description: 一款非常好玩的插件，安装之后你的微信好友头像会变成圆形，然后旋转起来，非常的有个性，有逼格，喜欢装X的小伙伴们这个插件可不能错过啦！感谢威锋论坛好友分享，越狱有你更精彩，搬运工源谢谢你！
+Name: 微信头像旋转-Rootless
+Author: xybp888
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -8064,6 +8253,25 @@ Section: 插件
 Description: 大家期待已久的QQ头像旋转插件来啦，本插件由搬运工源群友思念所作，功能如下：QQ头像瞎季伯转，仅在9.1.25版本上测试。转起来，嗨起来，花里胡哨！
 Name: QQ头像旋转-Rootless
 Author: SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.sunshinesong.split-view-pro-helper
+Architecture: iphoneos-arm64
+Version: 999.1
+Maintainer: 搬运工
+Installed-Size: 13792
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/com.sunshinesong.split-view-pro-helper_999.1_iphoneos-arm64.deb
+Size: 1520
+MD5sum: c7fca43217f714cafb2c09c6b57b00ce
+SHA1: 00c583e1047aeb417e7219d0f9d464580351be5b
+SHA256: adc13278a3547bc696876f2cc16821e1a7e36e589dcf3dce2fc8d9d7e314bb39
+SHA512: 5586a2f9fc4e707882feaa3a428a9bd033774bcc96ca2ab110bee804a0f2a0377892658952aa75e3af9b342949755d803c81a349ba02007a366d33ebf8aea0b6
+Section: 插件
+Description: 据说这玩意儿能解决新版split分屏安全模式问题，小编也不知道真假，因为小编没安全模式，如果有遇到此问题的用户可以试试，搬运工源一直都在为用户考虑，奈何还有很多人在喷，真的有必要么！
+Name: split-view-pro helper（SVP）依赖
+Author: sunshinesong
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
