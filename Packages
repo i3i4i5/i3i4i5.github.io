@@ -20688,6 +20688,24 @@ Description: 高德地图界面精简 · 纯本地运行
 Name: GaodeClean 高德精简
 Author: jibamao
 
+Package: com.jl.liquidglass
+Architecture: iphoneos-arm64
+Version: 0.1.6.56
+Maintainer: jl
+Installed-Size: 5936
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/com.jl.liquidglass_0.1.6.56_iphoneos-arm64.deb
+Size: 3309156
+MD5sum: 372b2964ac1639881073287687135033
+SHA1: 7c4dda9338616317f27dd2d5c874b5d0227496c5
+SHA256: d316f306ececb634cc778c1cf03f16fe2c5c895ca64c98f610ade25065e28711
+SHA512: 45b686bb2b6db81496569771dab4881d0e2eb24b5df5b28b1f1d31523a6d96ae37f21cd51784f7df80a68d8cff32e2f3aac3bcd28690b271b9f1769e38d45810
+Section: 插件
+Description: 仿iOS26液态玻璃效果，支持锁屏、控制中心、通知中心、标签栏、0耗电（听说效果还不错，没用过）
+Name: 58 液态玻璃
+Author: jl
+Icon: https://winaviation.github.io/repo/depictions/jl.liquidass/icon.png
+
 Package: com.johndie.triggr
 Architecture: iphoneos-arm64e
 Version: 2.0.0~beta7.1
@@ -20764,6 +20782,24 @@ Name: Adytum
 Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
 Depiction: https://chariz.com/get/adytum
 
+Package: com.layii.ccrnd
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Maintainer: LaYii
+Installed-Size: 344
+Depends: firmware (>= 14.0), preferenceloader
+Filename: debs/com.layii.ccrnd_0.1.0_iphoneos-arm64.deb
+Size: 31080
+MD5sum: b1cb0a594f4d5663cfe0d8390500edef
+SHA1: a1b9c4885f397a84971846bcb7ec0dc9d1f95725
+SHA256: a4202cb81749d0898c7b3ce249b7de5359ba91a5da310a26055876ed8276ddcd
+SHA512: 05e0e9a4cdedcbdb25a83a409e8a1714f00f1e5cbd4f02fc19c5dc9328189f370f74e6bc25180f16c1814bcaeba884f470f64954c2eaf6c64dd116c596bfcf0f
+Section: 插件
+Description: 去除录屏延迟，并可实时配置控制中心收起行为
+Name: 去除录屏延迟
+Author: LaYii
+icon: https://huayuarc.github.io/icon/luzhi.jpg
+
 Package: com.lenglengyu.killads
 Architecture: iphoneos-arm
 Version: 1.0.4
@@ -20817,6 +20853,41 @@ Author: lenglengyu
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 Section: 插件
+
+Package: com.liquidui.liquidui
+Architecture: iphoneos-arm64e
+Version: 1.80
+Maintainer: TLzypjy
+Depends: mobilesubstrate | org.coolstar.libhooker | ellekit, firmware (>= 15.0)
+Filename: debs/com.liquidui.liquidui_1.80_iphoneos-arm64e.deb
+Size: 16592608
+MD5sum: c25cdb8e82604d138f7e345b69fc71dc
+SHA1: 385c397f22010d5bd70dbd8d0d4fe9cc6c6426ed
+SHA256: 1aa428f058226b9ec46fdf31fa9b6d8e5f28bd53d91d22b693546d7b76bab591
+SHA512: 14d5a01f6ea60c86d8318ede833e46460b3ec9f2f117433f2b3a24b6febfe9ef6ada86000b565f5380e612cabbb9305f76f7b7a33389de2fa0e15dd6ed872ab7
+Section: 插件
+Description: 微信液态玻璃美化插件，已去除授权。微信界面液态玻璃风格美化，含输入框、列表、动态岛等组件。
+Name: LiquidUI（免授权）
+Author: TLzypjy
+
+Package: com.liuf.wxyj
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: TLzypjy
+Installed-Size: 612
+Depends: mobilesubstrate
+Filename: debs/com.liuf.wxyj_1.0_iphoneos-arm64.deb
+Size: 185864
+MD5sum: 083ae1d6c43c0b7139ac6ce4c97e2fec
+SHA1: 3ca77e87bff3b8963c2b69b177410116f610a697
+SHA256: e057f535dcd8b61edd60a4126fef0dabdf47506c37ff5f1cd9af6fc03ee61e7e
+SHA512: 9c877d9e8dca60b385ceb87afae0de8691cec4745c1c0e001b4d96bfd422441c9bc308a2bda648bf97f8aeaf30136f78b413ebe3dc8a2a82e77ce3cf8dfdd617
+Section: 插件
+Description: 微信美化插件
+ 德发素材仓 微信美化插件：支持角标、背景、底栏、顶栏、输入框、置顶、工具栏、索引、附件、搜索、返回、菜单、头像框、提示音、通知背景、表情、字体、时间背景等素材自定义。
+Name: 德发素材仓（免授权）
+Author: 德发
+SileoDepiction: https://tlzypjy.github.io/jb-repo/depictions/com.liuf.wxyj.json
 
 Package: com.llld.flexrootless
 Architecture: iphoneos-arm64
@@ -20920,6 +20991,23 @@ Description: Rune汉化--(rootless)简体中文包
 Name: Rune汉化包-rootless
 Author: 来了老弟 h_h_x_t
 
+Package: com.local.activationsuppressor
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Maintainer: MoWang
+Installed-Size: 164
+Depends: firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.local.activationsuppressor_1.1.5_iphoneos-arm64e.deb
+Size: 8614
+MD5sum: 42f53d9927c18a54067da53795d27fc7
+SHA1: 7d5c7eb3d3e7dc06c372d475b06a8fd26da8af75
+SHA256: cf654ab9f0ffdb9bf67a2c7822bea59287ab3639fcafd2eb3779e2e76c3d71fa
+SHA512: 8fb7f6b1cb0606a077dd52aa75bc87fcb0bab4087f4b428658fa80176d716905ed711e1c8aa010ba4c9fb821341545598211bd88a51de8df2600db12d4c04ead
+Section: 插件
+Description: 自动关闭卡贴机“需要激活”提示，定向跳过“软件更新已完成”告知页，无需设置，面向 iOS 15–17 的 RootHide 隐根环境。
+Name: 激活弹窗屏蔽
+Author: MoWang
+
 Package: com.mallin.tunnelsharevpn
 Architecture: iphoneos-arm64
 Version: 1.2.6
@@ -20936,6 +21024,23 @@ Description: 该插件能够实现该手机的科学上网功能直接通过热�
 Name: TunnelShareVPN
 Author: Mallin
 Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+
+Package: com.mathelord.infobar
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Maintainer: mathelord
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.mathelord.infobar_1.2.0_iphoneos-arm64.deb
+Size: 53700
+MD5sum: eb1845858f3e82ba042815c53b7b560f
+SHA1: a2244f909b6cd126e3956dd7dcd053dd49d106d2
+SHA256: fc2d40e4fafb2d2709d03996e5c738a07a0aed3681487fbac28e3cbebf4f9d54
+SHA512: af57894ce6a828c5a45c5d2b3e89dc42e115cbff8fb003fed4b2e9cdf2c9bb207f423599ce02e90ae2746d642e06f9557c6ab8e347ce0523ced7a52518e646e2
+Section: 插件
+Description: Movable overlay showing CPU, RAM, battery, network and system info. Pin it in place, collapse it, and configure everything in Settings.
+Name: InfoBar
+Author: mathelord
 
 Package: com.miguelaka95.bettercc
 Architecture: iphoneos-arm64e
@@ -20978,6 +21083,24 @@ Name: Griddy
 Author: mikifp
 icon: https://TrollStoreX.Github.io/sileodepiction/Griddy/icon.png
 
+Package: com.milkway.apppro
+Architecture: iphoneos-arm64e
+Version: 0.0.39
+Maintainer: Milkway
+Installed-Size: 560
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.fouadraheb.appdata
+Filename: debs/com.milkway.apppro_0.0.39_iphoneos-arm64e.deb
+Size: 148460
+MD5sum: 73468dd4ae2b6132350f8c42e3802630
+SHA1: 28946685b85ff779ed0456112289a814a50c6ef3
+SHA256: 2a86414307e57f25b6c9dec2b684b76defd55174a468c12d8a577b9ffa0636c6
+SHA512: 2e055b367e8c738a5f6f67baa0c8eaa1f08412c158ea183dcb144abcd0ed1186ceaf65c683f4a7072b58679857223cc3b6b2be9bf0e53aa36e053280104d4a61
+Section: 插件
+Description: 在主屏幕直接查看与管理 App 数据（仅支持 iOS 15–16 越狱，RootHide 环境专用）
+Name: App Pro
+Author: Milkway
+
 Package: com.minis.lockscreengradientclock
 Architecture: iphoneos-arm64
 Version: 2.0.24
@@ -21011,6 +21134,44 @@ Section: 插件
 Description: 修复表情渐变 bug
 Name: 彩虹键盘光效
 Author: MoWang
+
+Package: com.minis.wetypeverticalswitch
+Architecture: iphoneos-arm64
+Version: 0.4.5
+Maintainer: 小菜
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.minis.wetypeverticalswitch_0.4.5_iphoneos-arm64.deb
+Size: 75708
+MD5sum: 66e7b9ed6d8da89e385f0565768e855d
+SHA1: 8f49793131cca0eab95bda7b5d629f69b57c8eae
+SHA256: 5acf848d6f73732cb565387531571ea37bb08dcdc64d64cd96cd6061e35e8b73
+SHA512: 2127e3de83af405678e6663ec566f6d224e3f250f8c7e8e0be35948468457d1976dfa6221040791c4754210244540d1e986d95af06ac086aea7fd4610ce670d6
+Section: 插件
+Description: 微信输入法 3.5.5/743 全键盘上下滑动切换中英文（rootless）。
+ 0.4.5 更新：修复关闭「禁用下滑」后下滑仍收回键盘的问题——关闭时下滑与上滑一样切换中英文，
+ 开启时下滑收回键盘；开关下方新增行为注解。新增「更多好玩」按钮（跳转群聊）与「注销桌面」按钮
+ （确认后 sbreload 重载 SpringBoard，非重启）。设置页含总开关、灵敏度滑条、作者：小菜。
+ 需真机验证；仅适配微信输入法 3.5.5（743）。
+Name: 微信输入法滑动切换
+Author: 小菜
+
+Package: com.minis.wxscanrouter
+Architecture: iphoneos-arm64
+Version: 0.5.1-1+debug
+Maintainer: Minis
+Installed-Size: 340
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.minis.wxscanrouter_0.5.1-1_debug_iphoneos-arm64.deb
+Size: 67544
+MD5sum: 6a54292ccb78e9ca1a8b8009ce880dd2
+SHA1: 1c4a4b8e8d4aa1d29456f8f4f7cb5716f612111a
+SHA256: 8538f79a870e321c408f0d30af8b99c6e508198af3c739d02f4902edf8829d97
+SHA512: f4cda1745cb1ed8940cbaafa67bc57a97b55a586755cf7b5593886cb674fe21d1d1908c38af652ba8f7d651cd01f9a166e613a062cb1c6655565b3996a96b803
+Section: 插件
+Description: 微信一键扫码直达WeChat QR direct routing prototype for RootHide/Relaxin
+Name: 微信扫码直达
+Author: Minis
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 
 Package: com.mlgm.actra
 Architecture: iphoneos-arm64
