@@ -18309,6 +18309,24 @@ Author: xmmm
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/xmzs/js.json
 
+Package: com.Axs.yuanjiao
+Architecture: iphoneos-arm64e
+Version: 1.8.6
+Maintainer: Axs
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.yuanjiao_1.8.6_iphoneos-arm64e.deb
+Size: 634908
+MD5sum: bf9bed1ad5d4b4e6be4a36259084b00c
+SHA1: af49e9e108361c8f1d7eb2c8d4772b2058b20f61
+SHA256: 08363d1172528f11b9050d61492715b0878d1f3c6578abc542101b5587345330
+SHA512: 0df1377d94ea459c80a413e7c0b69a3a903431d4d33fac43133f777ddcc52ff279d513a288c5c5f1878cb171a93edea20f71913e2ec70aae8fd8fd0c3e7a8935
+Section: 插件
+Description: A狗的微信全局圆角插件原版 1.8.6-END 下载源里全局圆角（免授权）插件即可解锁授权
+Name: 微信全局圆角
+Author: A
+Icon: https://axs66.github.io/repo/icon/wechat.png
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
+
 Package: com.MoWang.islanddigest
 Architecture: iphoneos-arm64
 Version: 0.3.25
@@ -18635,6 +18653,94 @@ Author: kanuo
 Icon: https://axs66.github.io/pro/icon/snapbackup.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapbackup/js.json
 
+Package: com.axs.snapper3tag
+Architecture: iphoneos-arm64e
+Version: 5.2.0-326
+Maintainer: Axs <qiaozhini000@163.com>
+Installed-Size: 1052
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.axs.snapper3tag_5.2.0-326_iphoneos-arm64e.deb
+Size: 607086
+MD5sum: d9f7044e76071e2c3ab954a112b32d4f
+SHA1: f597c6068b2d02e963b73f3acf94f09ea43b0590
+SHA256: 9efea4b6265d8bf828ca1c7ead86c62dfb8636ef2f0e8c951a6294da178863ab
+SHA512: 853b46d13dd13d7807a13e0cd9448227af1bddacbb761003e76bc49391c6d5ad985a07e3bcd643090885be51488845ce1bca8e12e99fd95cf8b049d059400d9e
+Section: 插件
+Description: Snapper3 功能扩展，目前包含：截图标记 + 长截图 + OCR识别 + 翻译 + AI互译 + AI问答 + Sileo长按翻译，修复了原snapper3主体插件第7个图标遮挡一半的bug；将菜单工具栏最后一个“关闭”图标进行固定，增加滑动视觉效果。
+ * 一、【自定义图标】
+ * 创建 "/var/mobile/Axs/Snapper3图标/自定义文件夹" ，放入以下对应素材，即可替换默认图标：
+ *   标记    ：tag.png   / tag_menu.png
+ *   长截图  ：long.png  / long_menu.png
+ *   ocr识别 ：ocr.png   / ocr_menu.png
+ *   翻译    ：trans.png / trans_menu.png 
+ *   Ai互译  ：huyi.png  / huyi_menu.png
+ *   Ai回答  ：wenda.png / wenda_menu.png
+ * 二、【截图标记】
+ * 颜色选择：红/黄/蓝/绿/白/黑等6种颜色；
+ * 箭头标记：手指拖拽绘制方向箭头；
+ * 自由画线：手指跟随绘制任意曲线；
+ * 文字标注：点击图片任意位置弹出输入框与键盘，输入文字落点标注，支持字号滑条实时调节；
+ * 矩形图标：点击1次是矩形框选+点击2次是矩形填充；
+ * 圆形图标：点击1次是圆形框选+点击2次是圆形填充；
+ * 高亮图标：点击1次是高亮框选+点击2次是半透明填充；
+ * 马赛克图标：网格分块打码，颗粒固定细腻；
+ * 撤回操作：一键撤销上一步标注；
+ * 删除操作：一键删除所有标注；
+ * 保存相册：渲染并写入系统相册；
+ * 复制剪贴板：一键复制标注后截图；
+ * 三、【长截图 Pro】
+ * 两种模式可选：滚动拼接/ 一键到底；
+ * 智能帧匹配，自动拼接；
+ * 支持保存到相册、复制到剪贴板；
+ * 四、【OCR识别】
+ * 使用 PaddleOCR模型识别截图文字；
+ * 半屏浮层展示，支持涂抹选择、一键复制；
+ * 需自备API Token。
+ * 五、【翻译】
+ * 百度翻译 API，自动检测语言双向翻译；
+ * 支持图片翻译和文本翻译两种通道；
+ * 半屏浮层展示，支持涂抹选择、一键复制；
+ * 需自备百度开发者信息中的 AppID 和 密钥。
+ * 六、【Ai互译+问答】
+ * 支持中英文互译和中文问答；
+ * 半屏浮层展示，支持涂抹选择、一键复制；
+ * 需自备阿里云 API Key。
+ * 七、【长按音量-冻结】
+ * 开启后，长按音量减键约0.2秒即可调出Snapper3冻结模式，适合无手势（不开启悬浮球/手势）的用户，用物理按键直接使用本插件全部标注功能。
+Name: Snapper3 Expand
+Author: Axs <qiaozhini000@163.com>
+Icon: https://axs66.github.io/pro/icon/snapper.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper3expand/js.json
+
+Package: com.axs.tweakshub
+Architecture: iphoneos-arm64
+Version: 5.2.0-79
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 492
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.nightwind.onesettings, com.creaturecoding.shuffle, com.sop.settingsrevamp, com.hk.settingsrevamp, com.dao.settingsrevamp, byg.iosios.net.settingsrevamp
+Filename: debs/com.axs.tweakshub_5.2.0-79_iphoneos-arm64.deb
+Size: 53962
+MD5sum: 74222ed81d989eb85a58a76bde611921
+SHA1: 39327099892ea46a93cc1cdd0c3c666c1af97ac7
+SHA256: 9c327c776ee7e1a5780588d5d1891d03be09bc570117de3732b14c11e814d48c
+SHA512: 7901524e1e95abd54b800f3b7590593a20766db3a7f9050bd85071161e93e076603eeb68236e3bb3b1c9cf13b5b54e4ace3188c355d6e1edc28ca3877d3a5c17
+Section: 插件
+Description: 集中收纳统一管理越狱插件与第三方 App 设置，支持插件自定义名称和图标。
+ * 设置首页同组并排两个入口：越狱插件 + 应用软件
+ * 自动隐藏其他插件的首页独立入口，整组收纳系统第三方 App 设置
+ * 越狱插件面板递归聚合所有已装插件设置
+ * 应用软件面板收录第三方 App 设置入口（点击仍进原生设置页）
+ * 支持 Prefs:root=TWEAKS_CELL / TWEAKS_APPS_CELL 深链直达
+ * 「附加功能」新增屏蔽部件与维修记录（隐藏非原装电池、维修记录相关提示行）
+ * 「附加功能」新增屏蔽系统更新提示（隐藏设置首页「现有 iOS xx 可用」行）
+ * 「附加功能」新增自定义插件名称与图标，图标放进 /var/mobile/Axs/TweaksHub/ 即可用
+Name: TweaksHub
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/tweakshub.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/tweakshub/js.json
+
 Package: com.banana.trollpadex
 Architecture: iphoneos-arm64
 Version: 2.0.3
@@ -18654,6 +18760,57 @@ Section: 插件
 Description: Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
 Name: TrollPadEx
 Author: khanhduytran0 & Banana
+
+Package: com.be-huge.floating-view
+Architecture: iphoneos-arm64
+Version: 1.6.0-6
+Maintainer: be-huge
+Installed-Size: 3360
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64.deb
+Size: 660352
+MD5sum: e91f85d6bdbbc1935353dd63d6500c1e
+SHA1: 28efee7dd0ca595d676e8291e2fdee8e2c0cab7d
+SHA256: 3b0aeb4f465e13dc077ca06c5c04ee5437b3a1cbbd048b3fede84183bb40fa71
+SHA512: c68b2e841a1f5c3279987d6855d9a24c3701b6b6ea7fc54766efce31368bd98f227b870c0fc10ad375d2604e97c5742a805b654de1864b5b4531cc0a76174e68
+Section: 插件
+Description: 分屏，不必太复杂，一切从简即可。
+Name: floatingView
+Author: be-huge
+
+Package: com.binglan.dynamicfx
+Architecture: iphoneos-arm64
+Version: 1.0.7-1
+Maintainer: 冰蓝
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.binglan.dynamicfx_1.0.7-1_iphoneos-arm64.deb
+Size: 115730
+MD5sum: f60e610d77936683eb9acbec793853f6
+SHA1: 9cc7e4e9a01cea31464de81c02ea514df7a0f5b9
+SHA256: a4f4cddc832b9ec7e82709703614e13218a5e1ff978205e4a8ec77b41f7e82a2
+SHA512: 975de128bbe528e3072c1dee96403b83ff2825df6042c319d3e3780d5250df8f927cdfb239002718df7059fbdf4a583846301217c6ad039639d19318ea7876d2
+Section: 插件
+Description: 灵动岛背景美化插件
+Name: 灵动岛背景（免授权）
+Author: 冰蓝
+
+Package: com.binglan.kongzhidiy
+Architecture: iphoneos-arm64
+Version: 2.3.6-end
+Maintainer: binglan
+Installed-Size: 8024
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/com.binglan.kongzhidiy_2.3.6-end_iphoneos-arm64.deb
+Size: 3740156
+MD5sum: b7acb36b2c798319762bf291dfce377d
+SHA1: 51f6e3883a1f18200e3c375bf6372da2a2a9e16e
+SHA256: d2fdd79450b8f96f086278ab45a825d8dc355b5703fd17c7a24a5eaa05f9fd0f
+SHA512: 3e5a1fc29069483878b732155e9835320d3a8b6862c5d5ea7ffba9b5d26ef8ea6cc8807ca2674033edea9d383d90d37f8811b76ed4e40ff7fa4c55c804f3ec73
+Section: 插件
+Description: 控制中心中心美化？
+Name: 冰蓝控制中心2.3.6-end（免授权）
+Author: binglan
+Icon: https://i.imgs.ovh/2026/06/10/dfb8c206be141bb3c7d070b29d0d9d56.jpg
 
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm64
