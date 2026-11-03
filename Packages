@@ -17827,6 +17827,24 @@ Author: Mao
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/doutu/js.json
 
+Package: com.25mao.kuaipanel3
+Architecture: iphoneos-arm64
+Version: 3.1-1
+Maintainer: Mao
+Installed-Size: 8648
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.25mao.kuaipanel3_3.1-1_iphoneos-arm64.deb
+Size: 2385564
+MD5sum: 34b70d61e55315519cd7ecad96e0fb08
+SHA1: bc63d9a50b566d251b63156ab143be4f8a237dad
+SHA256: b7ddcb57b131c8a1d087750e35e747e93d0893130ef15d9ec0969e9d218c0349
+SHA512: f9b3230cb15ac23b6b020c6d3ac2a506c6010461a099eb92d0b5c706bbf993ba64f7bbb47caea0852e4b01f5e9fd62a514cf282e69b2d8753c16257393014f75
+Section: 插件
+Description: 快捷面板重构版
+Name: 快捷面板
+Author: Mao
+icon: https://huayuarc.github.io/icon/kuaipanel3.png
+
 Package: com.25mao.leftpan.rootless
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -18412,6 +18430,23 @@ Section: 插件
 Description: 微信插件收纳美化
 Name: WCPluginsClone
 Author: Anyi
+
+Package: com.apelin.gamerskysplash
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Apelin
+Depends: firmware (>= 16.0)
+Filename: debs/com.apelin.gamerskysplash_1.0.0_iphoneos-arm64.deb
+Size: 12636
+MD5sum: 73adb1d283e105df447f0e97e473faed
+SHA1: 58e915133cdc2702cee06d7e77c11e16228c9c1c
+SHA256: 7671aa7d0a1587b6fecf336171b182bdff6faae8a83b2b10d23b7f1c5fee76fb
+SHA512: 913e669efa4c5f2203e2a88efcc7be1021657e8488b1a0f39bdd5a01182b1a2450367b374bf93a95e8738592d152c672deeb479338b02aa800c12167e7c7be53
+Section: 插件
+Description: 一个专门注入游民星空（com.gamersky.gamersky）的插件，去除启动开屏广告（自有 LaunchAd 与 TopOn 第三方开屏）。
+Name: 游民星空去开屏广告
+Author: Apelin
+icon: https://huayuarc.github.io/icon/gamerskysplash.jpg
 
 Package: com.apper.neigou
 Architecture: iphoneos-arm
@@ -19908,6 +19943,25 @@ Description: 为 App 添加生物识别锁（Touch ID / Face ID），点击受�
 Name: LockTouchX(RootHide)
 Author: hades
 
+Package: com.hang.ccbackground
+Architecture: iphoneos-arm64
+Version: 1.5
+Maintainer: 航
+Installed-Size: 996
+Depends: mobilesubstrate
+Filename: debs/com.hang.ccbackground_1.5_iphoneos-arm64.deb
+Size: 204632
+MD5sum: 8316ea2822435a5518d9b303cba27d25
+SHA1: e19a3ecf1657967fe1c2ebe24a582d8f40b8b199
+SHA256: df4a50e23884935de9dc3cd74275b8e4682cbd1eaf455536e9e0f162fb351d5e
+SHA512: e47e607804b9f70843f25c0da654a2bde63a674b98783ca5369554a462f6ed80a0d2c801fb59a51fef67147fc93cc7d661feae767dd15e743d95d3468693cd66
+Section: 插件
+Description: 控制中心背景
+Name: 控制中心背景自定义
+Depiction: https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
+Icon: https://pic1.imgdb.cn/item/69e5dc9f198dd6f8d6ac6bd2.png
+Author: 航
+
 Package: com.hang.keyboardeffects
 Architecture: iphoneos-arm64
 Version: 1.5
@@ -21063,6 +21117,23 @@ Description: 自动关闭卡贴机“需要激活”提示，定向跳过“软�
 Name: 激活弹窗屏蔽
 Author: MoWang
 
+Package: com.local.mygestures
+Architecture: iphoneos-arm64
+Version: 0.11.13
+Maintainer: yzdmm2024
+Installed-Size: 488
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/com.local.mygestures_0.11.13_iphoneos-arm64.deb
+Size: 63888
+MD5sum: d60ca8a91d58c2ea356b9026ca4775cd
+SHA1: 00eaefce95aa6f1903c6995e157da5b651eec61b
+SHA256: 9046b7062437581af74a7b26f30477aeb52f8429e0a6edc0b2a9bdde28ed63b2
+SHA512: 6cadb051f00dd1dfc77c434ab6b45c3926e23aab4eed37eb30763dbd8ec97ba698cada7fdd4b0cd7257d6204eb077455a28d2c84e04fa8ab64300933ebb09577
+Section: 插件
+Description: 状态栏左右耳朵手势：单击/双击/左滑，刘海灵动岛触摸忽略，下滑透传兼容控制中心插件，分区独立配置+黑名单。rootless 适配。
+Name: 我的手势
+Author: yzdmm2024
+
 Package: com.mallin.tunnelsharevpn
 Architecture: iphoneos-arm64
 Version: 1.2.6
@@ -21590,6 +21661,24 @@ Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的�
 Name: KeyboardX
 Author: Muzi
 icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
+
+Package: com.muzi.mupill
+Architecture: iphoneos-arm64e
+Version: 1.0.15
+Maintainer: Muzi
+Installed-Size: 1452
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.muzi.mutool
+Filename: debs/com.muzi.mupill_1.0.15_iphoneos-arm64e.deb
+Size: 293480
+MD5sum: dde636ee0e91f213d88edd4d9db62867
+SHA1: 4c1dbf37fdc90a7afacf51a879a56f2b01aff9ba
+SHA256: de1bffa87affb014d916ec0266637e11bb0619136f111ce90be8da27ae0dc606
+SHA512: 1a5fc052b2e27e5e18f1eadb788c5711e7901158f19eeddcd820bb1c0ac5bc64b16aa8f20155b24a030883d0ee157633505f87572ce8b634d4447aee51a66f5d
+Section: 插件
+Description: 桌面悬浮信息药丸独立版：最多三个竖屏悬浮窗 + 一个横屏悬浮窗，各窗口独立配置（实时网速 / CPU / 内存 / 时间 / 农历 / 公历 / 周几 / 电池电量），Liquid Glass 风格，透明度与字号可调，元素颜色可自定义或随机，拖动持久化，锁屏自动隐藏，截图/录屏/屏幕镜像时自动隐藏。1.0.15：悬浮药丸天气指标图标根据天气实时变化（下雨展示下雨图标、晴天展示晴天图标等），中英文条件匹配、多云/阴/雾/雷/雪全面约束；修正多云被误判为晴夕的问题。 1.0.14：悬浮药丸旋转同步主仓 2.2.36——承载窗口关闭系统自动旋转（setAutorotates:NO），窗口固定竖屏坐标系，内容旋转角只由前台 App 方向推导，消除旋转动画中途取到瞬时方向导致的错乱；修正逆时针横屏（LandscapeLeft 4）被上界误判丢弃的问题；设备方向通知改为仅触发即时轮询与动画结束后的补对齐，不再参与方向判定；旋转过渡期改用 setVisible:NO 统一隐藏，恢复前按最终方向对齐内容与位置。同步四模块位置微调按模块前缀读写独立坐标、固定位置为公共设置；设置页新增「启用悬浮药丸」总开关，控制中心按钮改为同一总开关。1.0.12：悬浮药丸旋转逻辑同步主仓 2.2.34/2.2.35——优化药丸旋转：①方向源改用 UIApplication 私有 _frontMostAppOrientation（直接返回前台应用界面方向，不依赖 SpringBoard 场景/状态栏方向，后者在 SpringBoard 进程恒报竖屏），并新增 0.4s 主线程方向轮询捕捉前台 App 横竖屏变化（SpringBoard 状态栏方向通知对前台 App 旋转不可靠）；竖屏应用只显示竖屏三悬浮、横屏应用只显示横屏悬浮，均不跟随传感器旋转、无黑影。②旋转过渡期整窗隐藏：状态栏方向变化预告（WillChange）后立即隐藏模块窗口，系统旋转快照不完全包含磨砂窗口（消除 UIVisualEffectView 黑块/黑角），旋转完成后恢复显隐。1.0.11：纯文字/去边框样式的文字反色完全改用 Helium 方案——移除旧的 0.05s 高频截图采样（慢且主线程开销大），改为 CABackdropLayer + colorInvert 反色滤镜 + 字形 mask：反色图层由 GPU 实时采样窗口背后内容，字形区域显示背景反色（深背景白字/亮背景黑字），背景变化零延迟跟随、无轮询、无主线程采样开销；「背景反色检测」滑杆随之移除。
+Name: 悬浮药丸独立版(roothide)
+Author: Muzi
 
 Package: com.muzi.mutool
 Architecture: iphoneos-arm64
@@ -22376,6 +22465,25 @@ Description: 抖音优化 破解版 28.17（免授权·精简版）。功能较�
 Name: 抖音优化（免授权）
 Author: siwenjiajia
 
+Package: com.siwenjiajia.tweak
+Architecture: iphoneos-arm64e
+Version: 28.54
+Maintainer: personal
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Conflicts: com.siwenjiajia.tweak.comm, com.siwenjiajia.tweak.free
+Filename: debs/com.siwenjiajia.tweak_28.54_iphoneos-arm64e.deb
+Size: 3690808
+MD5sum: 174b4984b666a585bdf8145b0598f7cf
+SHA1: 2a1d24b9a022930117f573cb17f2410cf4deea7f
+SHA256: 8408ab84022e7e1031ad00e5264df44559ac87855724049f8563b7a50246eff9
+SHA512: 792abd60dad020e44b2c7aec41c12fb71e48273e852a9098f1ce7e6acf5e8051fca72ed34b24299d95ec1cd20dff83491b4d11269b649b49c354520f3cc8b2c4
+Section: 插件
+Description: 抖音优化 交流版 28.54（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
+Name: 抖音优化（免授权）
+Author: siwenjiajia
+icon: https://huayuarc.github.io/icon/douyin.jpg
+
 Package: com.snail.airdrop16
 Architecture: iphoneos-arm64
 Version: 1.0.3
@@ -23008,6 +23116,23 @@ Name: Yuki
 Author: vita
 icon: https://huayuarc.github.io/icon/douyin.jpg
 
+Package: com.wacljcr.floatingurl
+Architecture: iphoneos-arm64
+Version: 1.4.3-1+debug
+Maintainer: wacljcr
+Installed-Size: 1296
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.wacljcr.floatingurl_1.4.3-1_debug_iphoneos-arm64.deb
+Size: 446882
+MD5sum: 887c16645146344d5b08451e982c4747
+SHA1: 43e4c40c081aefbeb06459b8351ae7ea28e11d4b
+SHA256: f6488963807ec0d9b6dd140cbc91b4dabd9d820cbcbd39f60bf2e48fb1d86df2
+SHA512: ddd99af2485dce2ecc8d296e420a4c0994fc477a52f536383a3adb1cf84af5f4111dd2380ce8378dec27ab3ca3eb188b8a96b83322da5f09a67683902443af92
+Section: 插件
+Description: 解锁URL玩法！
+Name: 悬浮URL
+Author: wacljcr
+
 Package: com.wacljcr.qqmixtxtimg
 Architecture: iphoneos-arm64
 Version: 1.0.6
@@ -23474,6 +23599,24 @@ Name: CellBell
 Author: yaowell & 半生年华
 icon: https://huayuarc.github.io/icon/cellbell.jpg
 
+Package: com.yidao.daynightswitch
+Architecture: iphoneos-arm64e
+Version: 0.4.1
+Maintainer: 一刀
+Installed-Size: 588
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/com.yidao.daynightswitch_0.4.1_iphoneos-arm64e.deb
+Size: 43324
+MD5sum: f87f9cf876747a56a346089ee4faaa63
+SHA1: 4d72cd6604962cdadf0577425869b7e17a1c4e69
+SHA256: a4ce4e1361601d3706a9352064ab8ab86ea169c4ef4a3d1ed6254169a0f02b26
+SHA512: 1ec8a37add720eed2481fbbc78d77987e4eeefb390ea869788a8c50c31d53b9d701af34585724d461df34cc590566062fcacada06e1376a3350a22f27bdb55c8
+Section: 插件
+Description: 全局动态开关（鲸鱼跃出 / 水墨）
+ 这是一个全局的动态开关，想定制可以联系一刀，TG群：https://t.me/gyddpu
+Name: 全局开关
+Author: 一刀
+
 Package: com.ylr.wcfloatsplit
 Architecture: iphoneos-arm64
 Version: 3.0-5
@@ -23510,6 +23653,41 @@ Name: 悬浮按钮分屏
 Author: ylr
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
 
+Package: com.yzdmm.kbtheme
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: yzdmm
+Installed-Size: 860
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/com.yzdmm.kbtheme_1.1.1_iphoneos-arm64.deb
+Size: 475460
+MD5sum: 2e0768b32041d04613bc7d78cb88a1a0
+SHA1: 9eae5ad80fbfb3d3f8b33e5817983ccc473a8ca2
+SHA256: 1e115a8de87e51fcdd16c803024083a0f7dc123f2a0517f34e90abdf703835cc
+SHA512: e283cfdce1c6c2929c46e0366fc772e0d83f02b37bd0e5a93080fa7040a32a17ff9736f65ba7d76804142b4cf897176c2b1b7d3541832b13a4d70a13c891f981
+Section: 插件
+Description: iOS 原生输入法增强（键盘背景/整键盘透明/按键配色/彩虹皮肤/字母渐变/按键形状/工具栏布局）
+Name: 原生输入法增强
+Author: yzdmm
+icon: https://huayuarc.github.io/icon/kb.jpg
+
+Package: com.yzdmm2024.myvoice
+Architecture: iphoneos-arm64
+Version: 2.8.83
+Maintainer: yzdmm2024
+Installed-Size: 2020
+Depends: firmware (>=14.0), mobilesubstrate (>= 0.9.7100) | com.rpetrich.ellekit
+Filename: debs/com.yzdmm2024.myvoice_2.8.83_iphoneos-arm64.deb
+Size: 411982
+MD5sum: f0545ffa47551fade3760da35c6ac161
+SHA1: 137477f539cbe96ab4d3a459c16830c49612641b
+SHA256: e0005542efa472ca94670ea04f35c43377d6cba2cfcc1bad96f90979bf730ced
+SHA512: 806cabd4bf6c649106e036e17e41c78275cae9d478cda022f34a0ed06f491f67e7f702b6ab8f5f7392fe1ffc9b4a9b9ca6bd1173fee39ebb545a5360b68976c5
+Section: 插件
+Description: 不想说话 只想打字（验证系统升级为 license_kit 时效授权：解锁码带到期+签名、防回拨；旧码失效需重新发码；设置面板图标修正；修复微信载入期闪退）
+Name: 我的语音
+Author: yzdmm2024
+
 Package: com.zege.27safari
 Architecture: iphoneos-arm64
 Version: 3.5.52
@@ -23545,6 +23723,24 @@ Section: 插件
 Description: 给 Sileo 加整页自定义背景图（三指双击相册导入）。1.1.6：底部悬浮栏液态玻璃保留；日期小标题/分组头灰块继续透明化。
 Name: Sileo 背景图
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon-sileobackground.png
+Author: 泽哥
+
+Package: com.zege.transparentkeypad
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: 泽哥
+Installed-Size: 240
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.zege.transparentkeypad_1.0.3_iphoneos-arm64.deb
+Size: 11560
+MD5sum: 85779fdce363db2937b11f8e821348e9
+SHA1: 57d74d84d2b984118629dc03ba81943e4938b4fa
+SHA256: a0d071027ee268a2462afd38ac0282747d3d33fda34242bcd250f7e74d99c589
+SHA512: 02822240b46a49ed6d4895c4e49942648fede9fe16fbed620a94f07ee6b9a2ac36cd31fde500fc03ba3c82e0a9963d6873cb1ec5b748b3451c8dc65b74559bf9
+Section: 插件
+Description: 把「电话」App 拨号键盘的圆底和绿色呼叫键背景变透明，只保留数字和电话图标。rootless 版（/var/jb）。重开电话 App 即生效。
+Name: 去拨号键盘背景
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-transparentkeypad.png
 Author: 泽哥
 
 Package: com.zegeyoudaoli.home27
@@ -24233,6 +24429,23 @@ Section: 插件
 Description: 趣味壁纸，为 SpringBoard 提供重力感应的多层、APNG、转场与光照壁纸效果。 / Fun Wallpaper with gravity-driven layered, APNG, transition, and lighting effects for SpringBoard.
 Name: Lenticular Wallpaper
 Author: banana
+
+Package: iya.banana.multitask
+Architecture: iphoneos-arm64
+Version: 0.1.6
+Maintainer: Banana
+Installed-Size: 2744
+Depends: firmware (>= 15.0), firmware (<< 27.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iya.banana.multitask_0.1.6_iphoneos-arm64.deb
+Size: 487036
+MD5sum: ccf57a1320b0cb89a14f3a8b064ed2a8
+SHA1: 09c9b158748036ab203b7f45dc5c8fdfe37b2e84
+SHA256: 8353fd10011b735b235dff86e28f760f3528360283828b0e0dd923fa30594d1c
+SHA512: 7a3f47d4d704e92757b33c2381ccfef13573ece72dd3647240f58c86f1371f239675a9095fb9670aa0b26bb9651e9ac6f945e20166055116bf35bb4363395f0a
+Section: 插件
+Description: Adjustable split-screen, floating windows and Stage multitasking for iOS 15 - 26.
+Name: 一芽分屏 (Iya Split)
+Author: Banana
 
 Package: iya.banana.musichaptics
 Architecture: iphoneos-arm64
@@ -25513,6 +25726,23 @@ Name: Umbra Patcher
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Support: https://github.com/owngoal-dev/RootHidePatcher/issues
 
+Package: wiki.qaq.writenow
+Architecture: iphoneos-arm64
+Version: 2.4
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 11060
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/wiki.qaq.writenow_2.4_iphoneos-arm64.deb
+Size: 2574454
+MD5sum: fef9f8ac34581710824673b30cf67afa
+SHA1: cdb7c74881064830a3de4bbdc3421a90e030d8cd
+SHA256: f34874c5656a954e05d206f4119377fd472d52b17badaadc7d14adb7b7aabb3a
+SHA512: 00eba828dc1c605f7448b2caf55e8baf9f4bc49b3ca03072e0b0851bb2af2655abb2a2a07db5a22f8392544ec6715e4a8a6c88c168bcfddfe23dec38e8362c42
+Section: 插件
+Description: AI tool within your hands.
+Name: Write Now
+Author: Lessica <82flex@gmail.com>
+
 Package: ws.hbang.alderis
 Architecture: iphoneos-arm
 Version: 1.2
@@ -25609,6 +25839,48 @@ Name: Lottie通知动画依赖-Rootless
 Author: yan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: xyz.cypwn.novaunlock
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Maintainer: CyPwn
+Depends: mobilesubstrate, firmware (>= 16.0), preferenceloader
+Conflicts: com.sanderzen.unlock26
+Replaces: com.sanderzen.unlock26
+Filename: debs/xyz.cypwn.novaunlock_1.2.4_iphoneos-arm64.deb
+Size: 279570
+MD5sum: 12bf8bf6a0dcea39b08656bad060381a
+SHA1: 49c8e68e630bf6df66681e15f2432833364a4bbe
+SHA256: 92e92771c80e92fd8352c3412daf6a00b672135175d43448f1aed72c6fd918d2
+SHA512: d9e0d2a0f026ca3eb66f8ea0ac9b95c6a7682f6135d7efeb064b294e34ce52892a82943f28b249c1a68cc10e28f19e069c145c1aa1b28a91762b7f92e98f3fb9
+Section: 插件
+Description: iOS26风格解锁和锁定动画。（已支持 16 系统）
+Icon: https://repo.cypwn.xyz/packages/NovaUnlock-Rootless/icon.png
+Name: NovaUnlock
+Author: Sanderzen
+
+Package: xyz.cypwn.remotecompanion
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Maintainer: CyPwn
+Installed-Size: 1060
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0), netcat
+Conflicts: com.pizzaman.remotecommand
+Replaces: com.pizzaman.remotecommand
+Filename: debs/xyz.cypwn.remotecompanion_2.0.0_iphoneos-arm64e.deb
+Size: 402988
+MD5sum: a43c7706d8e3c1e501418d730d6bd70d
+SHA1: f03b281808df9caf2b54868a5f96e2a0820aa195
+SHA256: df1b79fdfb08064bd1a921cabc0d86056d723ed3b5822a713ae02c7362a82ee8
+SHA512: 576b05877e1534689cb2db1a45d28c9844f14e01120f3125e5b3c1af74b7b6c891d9f024ceef6ebec06e57f5bdd0077f7a09363e1e046ae9d6fe7c0eff85e84a
+Section: 插件
+Description: A modern Activator replacement for rootless jailbreaks. Bind triggers like Touch ID, Power/Volume buttons, and Status Bar gestures to system actions, Siri automation, and custom TCP commands. GitHub: https://github.com/saihgupr/RemoteCompanion
+Depiction: https://repo.cypwn.xyz/depiction/3486
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3486
+Icon: https://repo.cypwn.xyz/packages/RemoteCompanion-Rootless/icon.png
+Name: RemoteCompanion
+Author: Saihgupr
 
 Package: xyz.cypwn.xinam1ne
 Architecture: iphoneos-arm64
