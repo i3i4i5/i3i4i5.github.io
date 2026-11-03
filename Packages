@@ -929,6 +929,23 @@ Author: Tinyapps.cn
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: axssb666
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: JJ
+Installed-Size: 296
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/axssb666_1.0.0_iphoneos-arm64.deb
+Size: 40690
+MD5sum: 1fec19e11cec7ac8e1211e8d0d2a2f90
+SHA1: 0627c90e13be282a80f745d2309f458ea57819c1
+SHA256: 493879b30298a28541b9b6d2b9eee2b8838a7f2ee4ef7097787c8c91fe3dc232
+SHA512: 5dff44c5f7d5f2e937d6e15c5e631be665b12859626033395e613120959f58417dc302ca0e009504c6d63e57ea1e1b0474f1efda2cdb4f77c7271223b9ba03cd
+Section: 插件
+Description: A狗微信全局圆角破解组件 安装此组件即可解锁授权 需要配合全局圆角主插件使用
+Name: 微信全局圆角（免授权）
+Author: JJ
+
 Package: byg.iosios.net.163music.rootless
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -17639,6 +17656,65 @@ Description: 可注入可越狱使用。自定义步数，精简主页显示内�
 Name: 支付宝步数XD-rootless
 Author: 来了老弟 X：h_h_x_t
 
+Package: cn.octoforce.squidextender.roothide
+Architecture: iphoneos-arm64e
+Version: 3.7.4+offline.1
+Maintainer: SquidForce, Backup
+Installed-Size: 10254
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy, firmware (>= 15.0)
+Conflicts: cn.octoforce.squidextender, com.squidforce.squidextender
+Filename: debs/cn.octoforce.squidextender.roothide_3.7.4_offline.1_iphoneos-arm64e.deb
+Size: 2306812
+MD5sum: 7d747e3ce2949d6b7a816f0e77e30cba
+SHA1: cc69232a64e2c745c444ff1c9498c08d8e177b99
+SHA256: 3d050e2f28fc3a12a73fd4afebaf87bf2aa8de364cd1db1b130837f011016000
+SHA512: da614e50e64a64dc5e071d86f1a573210fa763acb8bf7fad12b1fc62fa7986392df3e3c8bbb0626a7af30752ca21195f797ad2b61dc61daa4471fd616f695d6b
+Section: 插件
+Description: Local device-bound license recovery for SquidExtender 3.7.4. No activation server required. Device validation pending.
+Name: 乌贼键盘隐根（免授权）
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
+Package: cn.octoforce.squidgesturepro.roothide
+Architecture: iphoneos-arm64e
+Version: 2.7.6-1
+Maintainer: 刀哥
+Installed-Size: 6762
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: cn.octoforce.squidgesturepro, com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/cn.octoforce.squidgesturepro.roothide_2.7.6-1_iphoneos-arm64e.deb
+Size: 1795550
+MD5sum: e94fcc07b85be198b37e07666fb623be
+SHA1: cb345e7e1d533273595c4446acf7402bee2cde26
+SHA256: afe573b128383fec96a154beb400b37b88a97170e180f4bb2fb916f5ba463e2f
+SHA512: 209e952583cc60f4258f7e41c48d1864a15a7b83004230d231d99089523d228dff94eef07eee739781a7dc0a6d3da94e455011a3cc46cfb66f4c5d7bd44d5000
+Section: 插件
+Description: Local device-bound license recovery for SquidGesturePro 2.7.6-1. No activation server required. Device validation pending.
+Name: 乌贼手势隐根（免授权）
+Author: 刀哥
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
+Package: cn.therm120
+Architecture: iphoneos-arm64e
+Version: 6.6.6-6
+Maintainer: haoge
+Installed-Size: 320
+Provides: cn.zqbb.fix120hz
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz, cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Replaces: cn.zqbb.fix120hz
+Filename: debs/cn.therm120_6.6.6-6_iphoneos-arm64e.deb
+Size: 70214
+MD5sum: 61e181422470ba748a6fb1510a86e305
+SHA1: beaae808057ae52a70c23cd676e6ed3abdb8fb24
+SHA256: b648f20e6754e07e95ba7b2dd9fb68c38c8c0ff10c877ea67f7f3a0ca1d9de52
+SHA512: f11cf8aa8fce1ca32f491c8d523d63b48e32a7f76f8d5d4de76424651dcd04eb3fadca2251575fbff17eddffce8da238c80ae55f543e55fac4a7ba07ee71a344
+Section: 插件
+Description: Unlock dynamic refresh rate from 80Hz to 120Hz.
+Name: 稳帧温控120
+Author: haoge
+Icon: file:///Library/PreferenceBundles/therm120hz.bundle/icon@3x.png
+
 Package: cn.tinyapps.rst
 Architecture: iphoneos-arm
 Version: 2.3
@@ -18133,6 +18209,23 @@ Name: 微信消息直达
 Author: be-huge
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/wechat-push-msg-page/js.json
+
+Package: com. MoWang.islanddigest
+Architecture: iphoneos-arm64
+Version: 0.3.5
+Maintainer: MoWang
+Installed-Size: 1816
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/com._MoWang.islanddigest_0.3.5_iphoneos-arm64.deb
+Size: 1428084
+MD5sum: 3e50e1c2598b853cbbc0ee877a7223f6
+SHA1: 7c44e78fa923ba8abf1be5e8902f3a44447802a5
+SHA256: eda72508e655921fde95e59cd6e2519a454273e1c16aa2232aa0880b6e9d446a
+SHA512: 599e8e550198656fbf459b36ee03105e0206c4b4ce6a63e3390df1b9de14f59746ab840268f4802a7267ee1fa78d8c3b3327069bca023653bd86695fbd96e8ec
+Section: 插件
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。（更新适配多巴胺越狱以及 16 系统适配）
+Name: 灵屿通知
+Author: MoWang
 
 Package: com.aa22qq.axiskey
 Architecture: iphoneos-arm64
@@ -19091,6 +19184,24 @@ Author: Ginsu
 Sponsor: 搬运工源
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.hang.keyboardeffects
+Architecture: iphoneos-arm64
+Version: 1.5
+Maintainer: 航
+Installed-Size: 764
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.hang.keyboardeffects_1.5_iphoneos-arm64.deb
+Size: 133064
+MD5sum: 758e4df8c45dbc8c221363252c25d811
+SHA1: a6b6813247d66bcd143f610952fcf9b9b3c47cfc
+SHA256: 39ad760741d19b792aeb4b311ab2ccfeb9bda3c75c0a306307ec3eac3d26b287
+SHA512: 1f8f0ae43f176492c66f33006a0b654f717f754b074466c3369779acf3ee408a3410010edf2c5049d27fe9b3be4cfa8103ba807688b84b756eef12f1416283e0
+Section: 插件
+Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
+Name: 键盘特效
+Author: 航
+icon: https://huayuarc.github.io/icon/keyboardeffects.png
+
 Package: com.hierarch.dykiller
 Architecture: iphoneos-arm
 Version: 0.6.8
@@ -19570,6 +19681,23 @@ Description: 支持录屏/截图套壳，水印以及区域截图、长截图、
 Name: SHELLX
 Author: iosdump
 
+Package: com.iosdump.zone
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Maintainer: iosdump
+Installed-Size: 1164
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Filename: debs/com.iosdump.zone_2.1.0_iphoneos-arm64.deb
+Size: 210892
+MD5sum: 2aca1f5da7d0a2683f7aeef8a6eef85c
+SHA1: f387eec2fe6121cfcd3183542523ee5e6a56d4c0
+SHA256: 7b35aa49d09be6361ed5db8b064e7178a7a1ca2d2f273ee2a6d54f833d441cca
+SHA512: e1610826852edfe44241ded7548795d679c9c7458cadf8dc95ed130b7c5917ecbb4e716bfdd8779e8d4ebdae38314607daeb0b01e4225bfecfd5d2b75dd838a7
+Section: 插件
+Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
+Name: Zone
+Author: iosdump
+
 Package: com.iosnet.UniDream
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -19624,6 +19752,24 @@ Description: 修复 VVebo 主页时间线，恢复专业版，把反馈入口改
 Name: VVeboFix
 Author: iosrxwy
 icon: https://huayuarc.github.io/icon/vvebo.jpg
+
+Package: com.iosrxwy.weibonoads
+Architecture: iphoneos-arm64
+Version: 1.2.4
+Maintainer: iosrxwy
+Installed-Size: 432
+Depends: mobilesubstrate
+Filename: debs/com.iosrxwy.weibonoads_1.2.4_iphoneos-arm64.deb
+Size: 107076
+MD5sum: b5776ca02f72fdd79425b4aac0d4e2a5
+SHA1: 2916846ec83f810dab041138f2c816a0eadbaf2b
+SHA256: 97f61e1f567fe098739b97417166d6b5e60e0d7e472895a3c196bbf561d99758
+SHA512: 1bc2ca8d0eddb1a6e4b1d9b19c56d7db3a66dc9d3c55af7e078d53d1f56ee07267faa3f1274c8513c436b3a0c21e76dc3d96f61082f3437de7f48762197f3a5e
+Section: 插件
+Description: 微博去广告。广告位默认开启，搜索广场和下拉刷新始终去掉。可隐藏任务中心、为你推荐、你可能感兴趣、评论橱窗、分享模块和底栏视频、消息。可自动签到已关注超话，支持机型伪装与强制 120Hz。闪退后，下次打开会提示并可以导出日志。三指双击打开设置，长按底栏「我」开关设置
+Name: 微博 NoAds
+Author: iosrxwy
+icon: https://huayuarc.github.io/icon/weibonoads.jpg
 
 Package: com.iris.wcneo
 Architecture: iphoneos-arm64
@@ -21890,6 +22036,24 @@ Author: Zerui Chen
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: danmutool
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Maintainer: Junhong <mail@mjh.im>
+Installed-Size: 952
+Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/danmutool_2.0.0_iphoneos-arm64.deb
+Size: 309132
+MD5sum: 5022dc593b82be6ad8cbceda0a19981e
+SHA1: c0ab92ca0037ef11622e267bdd04044bcb29589c
+SHA256: 196acc5efa03e2f5f5c098e2eca6cab6ecd3d3bb69e922d77bf7999a05d69501
+SHA512: d12346ff094220ee941c3b972fe1039ca8c87410718d0cbca5f9a481eeec722fa546ac01b3d882ed57d10463c9a85a15761a4670984d8b4a139806cfe05d3f11
+Section: 插件
+Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
+Name: 弹幕助手
+Author: Junhong
+icon: https://huayuarc.github.io/icon/danmutool.jpg
+
 Package: dev.traurige.libkitten
 Architecture: iphoneos-arm64
 Version: 1.4.1
@@ -22030,6 +22194,26 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.html
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json
 Tags: compatible_min::ios15.0
+
+Package: im.mjh.xianyuadblock
+Architecture: iphoneos-arm64
+Version: 3.2.1
+Maintainer: junhong
+Installed-Size: 1580
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/im.mjh.xianyuadblock_3.2.1_iphoneos-arm64.deb
+Size: 572880
+MD5sum: 358bd08b21a9bfebc51204189a9165bc
+SHA1: 6e3bc699f8a4e814c1b1d6ee746d8cc39b277ffe
+SHA256: fc186d04fd3560d838e4e4c40c7eb807fc7d8eaff66369ea4998d7f81d1a3fe3
+SHA512: 45fe52161be8fd08197bb78f0fc97f3bea672de94c91a5a2a00373ffd17207ddc88316d5c88fb98bbdd16231d23cfd0f514fece4f6c989cb138e2ae90ae715c1
+Section: 插件
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Name: 闲鱼助手
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
 Package: iosios.net.no2theft
 Architecture: iphoneos-arm64
