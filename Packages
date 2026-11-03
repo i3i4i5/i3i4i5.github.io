@@ -23691,6 +23691,51 @@ Name: AmpLify
 Author: SHTM
 Icon: file:///Library/PreferenceBundles/AmpLifySettings.bundle/icon.png
 
+Package: com.shtm.flexibleexpressions
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Maintainer: SHTM
+Installed-Size: 920
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.shtm.flexibleexpression
+Filename: debs/com.shtm.flexibleexpressions_1.2.0_iphoneos-arm64.deb
+Size: 3649296
+MD5sum: 1d451c095e9675c87f53a52738623d68
+SHA1: d82662feb58bc8d158eceda0435936b5e471f72c
+SHA256: ad8248651202e69bbc882f7cadf92383138f5f14c1b3febca84958d29d7a9551
+SHA512: 4cf1f69bbd78d1a65865c471ba0a04f27ff915a8bf2eb54f7fc996907452fddba09a7dc2b0f26b887a6bd8313ba1b89a47635e26818c30ad39d6dc07534fcd2d
+Section: 插件
+Description: 为灵动岛设备添加特效动画
+ * 仅支持动态岛设备
+ * Add special effect animations for Dynamic Island devices
+Name: 灵动空间 FlexibleExpression
+Author: SHTM
+Icon: https://TrollStoreX.Github.io/sileodepiction/FlexibleExpression/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/FlexibleExpression/js.json
+
+Package: com.sileo.zh-hans
+Architecture: iphoneos-arm64
+Version: 2.7
+Maintainer: 巨魔商店 Telegram
+Depends: org.coolstar.sileo | org.coolstar.sileonightly
+Replaces: org.coolstar.sileo, org.coolstar.sileonightly
+Filename: debs/com.sileo.zh-hans_2.7_iphoneos-arm64.deb
+Size: 8608
+MD5sum: 3f35e2f303a6175af84111d98c944b18
+SHA1: cb688dea8d711a4cbc2c42e1f6846ad697cc69a3
+SHA256: f126fa29ea10d5e6944c187b9e9fe385b9616f4e0fa28cd8bd26c799ddf87959
+SHA512: 057f192313bf9818c41a46d4e1661993f26dd4b22514b1f6717f7dc86168f8b790e1c16f2abdb9a6bccf9605299c9f47ee26d0f371146ae27610909569fe2cf9
+Section: 插件
+Description: Sileo 简体中文本地化
+ * 修正翻译错误，本地化
+ * 完善 Sileo 简体中文
+ * 支持 RootHide Sileo
+ * ⚠️注意：卸载汉化包需重新安装Sileo恢复中文
+Author: 巨魔商店 Telegram
+Name: Sileo 简体中文
+SileoDepiction: https://trollstorex.github.io/sileodepiction/Sileo_zh-Hans/js.json
+Icon: https://getsileo.app/img/icon.png
+
 Package: com.sileowallpaper.tweak
 Architecture: iphoneos-arm64
 Version: 0.1.8
@@ -23815,6 +23860,47 @@ Description: 抖音优化 交流版 28.54（免授权·完整版）。玻璃拟�
 Name: 抖音优化（免授权）
 Author: siwenjiajia
 icon: https://huayuarc.github.io/icon/douyin.jpg
+
+Package: com.skypain.ccresprings
+Architecture: iphoneos-arm64
+Version: 2.0.0-1
+Maintainer: Mr.Zhang
+Installed-Size: 192
+Depends: com.opa334.ccsupport
+Conflicts: com.skypain.ccrespring
+Filename: debs/com.skypain.ccresprings_2.0.0-1_iphoneos-arm64.deb
+Size: 20320
+MD5sum: 2ea69142661026361833b981a49f89db
+SHA1: ae757ed23b625fb32192724dc7a0060f7bd0c148
+SHA256: f541c0d1ecdd9440a7d618bc3a1c0d4ca4c5df6651d4a1857fcfb5acbe5e5cb9
+SHA512: 5203d3679b0ba2b05f17ed0578f1be8be5cac22b8ba5d66a7407ff9e1892a00f8992c96365dec31f3d654c020455ff70834b50101fee51dbd42a1ff96e5deb17
+Section: 插件
+Description: 控制中心注销模块
+ * 单击注销
+ * 长按打开其他功能选项
+Name: CCRespring 注销模块
+Author: Mr.Zhang
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/CCRespring/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/CCRespring/icon.png
+
+Package: com.skypain.teleportcns
+Architecture: iphoneos-arm64
+Version: 1.0.0-2
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 168
+Depends: mobilesubstrate, com.teleports.location
+Filename: debs/com.skypain.teleportcns_1.0.0-2_iphoneos-arm64.deb
+Size: 7700
+MD5sum: 06b0cc4cff365ec578ecb878a432dba9
+SHA1: b805285a5935a70416b45207d084d924229f6c73
+SHA256: 5b220e46166fc7ea7b7d42cb4d74b03955787df347bd046a1b8fed886d69cf65
+SHA512: 400d3cfdf5add901a24af39c69805a4bd9458a7432c183869bd5bfc1cb812e506e3470ee0bc2eab6be6e468be2fb2f6e043324435f80729fe28b63de7f08741a
+Section: 插件
+Description: Teleport 简体中文
+Name: Teleport 简体中文
+Author: Mr.Zhang <mr_zhang_00@163.com>
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Teleport/jss.json
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/teleport.png
 
 Package: com.snail.airdrop16
 Architecture: iphoneos-arm64
@@ -24140,6 +24226,49 @@ Name: 禁用iOS16+粘贴警告弹窗粘贴提醒
 Author: SquidForce
 icon: https://huayuarc.github.io/icon/disablepastealert16.jpg
 
+Package: com.squidforce.hidenotificationbadges
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: SquidForce
+Installed-Size: 168
+Provides: com.squidforce.hidenotificationbadge
+Conflicts: com.squidforce.hidenotificationbadge
+Replaces: com.squidforce.hidenotificationbadge
+Filename: debs/com.squidforce.hidenotificationbadges_0.0.1_iphoneos-arm64.deb
+Size: 2968
+MD5sum: 85918b74a1328337f9a908d82bb5b53b
+SHA1: 83271da437533735b7e8b5978ebd555f91704030
+SHA256: 28d2809944df5c0192d7e198fadebdd77abf925008e217842b363744b53c773d
+SHA512: 4de892c90ff8a4d59cfd478ecb20dfa212f4e841e0d9189e2f659e9ef36643a3a4b142d95ec9752bbaba50394edeab2325569005c9eca95cb7f65bacf9241b0f
+Section: 插件
+Description: HideNotificationBadge
+ * 隐藏推送通知图标右下角标
+ * 可配合 WeChatNotiAvatar 插件使用
+Name: 隐藏通知图标右下角标
+Author: SquidForce
+icon: https://TrollStoreX.Github.io/sileodepiction/HideNotificationBadge/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/HideNotificationBadge/js.json
+
+Package: com.storeswitcher.appstore
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Maintainer: 0xkuj
+Depends: firmware (>= 11)
+Conflicts: com.yourepo.0xkuj.storeswitcher2rootless
+Filename: debs/com.storeswitcher.appstore_1.0.6_iphoneos-arm64.deb
+Size: 23116
+MD5sum: 0f42379e8248d370e6147b4b98900232
+SHA1: 0458e96d0632bb531c9863d976f327508d95cbbc
+SHA256: 8c91cddc2c04a4315dbf8c63720438df52d521bf1a04ec289c00ca813cceb268
+SHA512: 15efdce63da102763864bc3205834fe4c672f4813c69209dae858211f92ae616ca42cdb1b422ee23d221a9e9f64dc4a314cbbd80fe088f379121b59484ad789f
+Section: 插件
+Description: 桌面长按 App Store 进行切换账号
+ * Long press the App Store on the desktop to switch accounts
+Name: StoreSwitcher 账号切换
+Author: subdiox & iosdump
+icon: https://TrollStoreX.Github.io/sileodepiction/StoreSwitcher/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/StoreSwitcher/js.json
+
 Package: com.sunshinesong.split-view-pro-helper
 Architecture: iphoneos-arm64
 Version: 999.1
@@ -24218,6 +24347,70 @@ Name: split view pro-ios17优化版
 Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.sunshinesong.split-view-pro.json
+
+Package: com.susu.fuckwechatadss
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: susu
+Installed-Size: 104
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.susu.fuckwechatads
+Filename: debs/com.susu.fuckwechatadss_1.0.2_iphoneos-arm64.deb
+Size: 16932
+MD5sum: cdbcf7e42c19c2b2169c6b4b4387fcaf
+SHA1: 453b40ff34c47c0cc5f556ce950ebf3508fb1982
+SHA256: 21ea2824f23ecaa6c14acff0e204e19c209d7de06cad1baf29ac06e19513e9eb
+SHA512: a9c0a3a080a6cb7be97ab06a55ce62059cc8166214a54e9f019fb84cc7ee7c10cadf1ac97f7f1807c2437fd74eefa28ed5d8e3ee623be3bf6c8b51cb9ce5e09f
+Section: 插件
+Description: 移除微信广告
+ * 在微信 8.0.56 进行测试有效
+Name: 微信去广告 FuckWeChatAds
+Author: susu
+icon: https://TrollStoreX.Github.io/sileodepiction/FuckWeChatAds/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/FuckWeChatAds/js.json
+
+Package: com.susu.suxhshooks
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: susu
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.susu.suxhshook, byg.iosios.net.suxhshook
+Filename: debs/com.susu.suxhshooks_1.0_iphoneos-arm64.deb
+Size: 12372
+MD5sum: 53d7e7907efdb99ec2b7eb1559f42303
+SHA1: 7b57fd71ceac14d10ae42563c76b54b081aab03d
+SHA256: a1afac337ccb54ab607abaedc40ac332b93eda6a49f8752c734925a020583010
+SHA512: 2f9868842475bf4cda4987c339f848bc6c7bcbd4c9029699427d1f22766c773f28724b436b5214a020dc14cad204d8e2ac1c3dd18da3be666225ce8adf06775a
+Section: 插件
+Description: 小红书增强插件
+ * 隐藏底栏：热点/+号/消息
+ * 无水印保存图片/视频（不支持 LivePhoto）
+ * 关于页面双击版本号启用（原 xhsplus）
+Name: 小红书 SuXHSHook
+Author: susu
+icon: https://TrollStoreX.Github.io/sileodepiction/SuXHSHook/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/SuXHSHook/js.json
+
+Package: com.susu.wcfrostedglasss
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: 苏苏
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.susu.wcfrostedglass
+Filename: debs/com.susu.wcfrostedglasss_1.0.5_iphoneos-arm64.deb
+Size: 4880
+MD5sum: 087b5a19f8a5b9d87d6b1c569a3889df
+SHA1: bf351066dc54d7e5858d4ef4c24fb013882a90bc
+SHA256: b2137666cb8f4c9facb7563e4b3b0b2ee6788fd1eb9a409ee0fd9c2fc0106e4f
+SHA512: c68d3cda0059402c9d9b6b5d040b0aa994367d7904e2228f611812691185c481407a1c2a0f3a12927dccad290f4a64ab8231934ae333d7ee2ea8617c39abc73f
+Section: 插件
+Description: 微信顶部和底部显示磨砂玻璃效果
+Name: 微信磨砂玻璃 SuWCFrostedGlass
+Author: 苏苏
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/SuWCFrostedGlass/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/SuWCFrostedGlass/icon.png
 
 Package: com.susudear.screencore
 Architecture: iphoneos-arm64
@@ -24387,6 +24580,47 @@ Name: ThemeCore
 Author: SuSuDear
 Icon: https://repo.susubaby.cn/icons/ThemeCore.png
 
+Package: com.sutuplus.releasefugu15s
+Architecture: iphoneos-arm64
+Version: 6.2.7-1
+Maintainer: Carby
+Installed-Size: 1848
+Depends: mobilesubstrate
+Conflicts: com.sutuplus.releasefugu15, byg.iosios.net.releasefugu15
+Filename: debs/com.sutuplus.releasefugu15s_6.2.7-1_iphoneos-arm64.deb
+Size: 761300
+MD5sum: 13ee38392a2d4543eb5b9a3e0c26eb18
+SHA1: fcad45ffb910d677b78c4ff96af9abdf7895b8cd
+SHA256: ce2a1299742caaa8671ea2c963141c76ffd35209cf278fb91204b7ab582a6e57
+SHA512: 0c88d211e7bbbc2890be16aa409d6914b3fb3b972e7ec812006aa2298eb8c2de7395dd52c69c4a8f60cf4e5a77bc8b54c162e71cd575e4ffaadbef73d5802bb5
+Section: 插件
+Description: 微信主题插件
+Name: 微信酸果
+Author: 苏兔
+icon: https://TrollStoreX.Github.io/sileodepiction/Sutu/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Sutu/js.json
+
+Package: com.swing.tiktoknocreatbutton
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: SWING
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.swing.tiktoknocreatbutton_1.0.0_iphoneos-arm64.deb
+Size: 35648
+MD5sum: 19c0bdb9565a29e80167752e215746c6
+SHA1: cc0babec483bcb02df931f9a918b3243d945528b
+SHA256: e5952e65baed9035f809cc7144e8b31b606f43487ae4d542061a67ff57480c79
+SHA512: 40507c1b599de90d699cb946ec57a29aafd97878bf58580a4e02e908308d65d20ba7722fcf573b6461aca784c12f0a2c5a0858637e3daa399c53b95126d3b94c
+Section: 插件
+Description: TikTokNoCreatButton
+ * 移除 TikTok ➕创作按钮
+ * TikTok removes the create button from the TabBar!
+Name: 移除 TikTok ➕按钮
+Author: SWING
+icon: https://TrollStoreX.Github.io/sileodepiction/TikTok/TikTokHide.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/TikTok/jss.json
+
 Package: com.taikulayyds.rotatefree
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -24406,6 +24640,27 @@ Description: 屏幕内容跟随手机状态随心旋转，可以上下左右自�
 Name: 旋转随心 · RotateFree
 Author: 34306, KhanhDuyTran, taikulayyds
 Icon: https://github.com/taikulayyds/icon/raw/refs/heads/mina/rotatefree.png
+
+Package: com.telegram.return
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Maintainer: IP Man
+Depends: mobilesubstrate
+Filename: debs/com.telegram.return_1.1-5_iphoneos-arm64.deb
+Size: 118652
+MD5sum: 6eebb541df66e95f76f59810d39cc1c0
+SHA1: 13eff782b2a3b4e72cd8ff1955765c3b8237d328
+SHA256: c71f7b2204c6b66a0e86163879dc710a427ffd13629a5e425fe26a37a494085c
+SHA512: de84ffa9d0f1dda45214b1ecaa387bd743a7d3c6138d1ca927a47255924ed68e3fa60d65bce2ce44e440585de64dcd0caedec14b660e4fa5ab1a3ddebefdfd85
+Section: 插件
+Description: Telegram 增强
+ * 回车键发送消息
+ * 禁止右滑出现 My Story
+ * 单聊对话框显示对方 User ID
+Name: Telegram 增强
+Author: IP Man
+Icon: https://TrollStoreX.Github.io/sileodepiction/Telegram/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Telegram/js2.json
 
 Package: com.tencent.live4iphone
 Architecture: iphoneos-arm64
