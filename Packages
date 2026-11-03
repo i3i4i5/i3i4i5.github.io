@@ -19438,6 +19438,236 @@ Author: binglan
 Icon: https://axs66.github.io/pro/icon/kongzhidiy.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
 
+Package: com.Axs.ksctzs
+Architecture: iphoneos-arm64
+Version: 1.0.0-7
+Maintainer: Axs
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.ksctzs_1.0.0-7_iphoneos-arm64.deb
+Size: 3428
+MD5sum: 6cc9d581b1ebb923f85e2bede2898a45
+SHA1: b0801bf5a7d8d5ea7aa8f559cd9808458e3d8c6f
+SHA256: 8336307912e1471ee9f2bd147131af0ab542ffc490e7d7a01e3b371aee1c9739
+SHA512: e33f73f5a01a5b57aae14141004b11091423ba51abc51d70b1a5e873709ca1426b8bc620a1d423ffb259c21977a984e0e802126fd232f531a75c5c1065d6ea40
+Section: 插件
+Description: 苹果商店搜索“口算出题助手”下载，然后安装这个插件即可解锁vip。尽在2.5.9版本测试。
+Name: 口算出题助手vip
+Author: fries
+Icon: https://axs66.github.io/pro/icon/ksctzs.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ksctzs/js.json
+
+Package: com.Axs.kuaidou
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.kuaidou_0.1-1_iphoneos-arm64.deb
+Size: 14196
+MD5sum: 875ed0e235e08562a504a86064ef6ef7
+SHA1: c7b493788ff5cf7a4714ae123e382dd8d1e4f9fd
+SHA256: 15871c559cf09e4433b3367020f04e0427ccb1e32e1b92294ff552da23e276b6
+SHA512: 0f1b69e622f5aba050181ef0bfa485c38c95b1dc0066d7262f21a5e1d3ddbb462a0c73e0dd9a5de2043c46b9e175d63158a415c99d779036aad6f79015bfb5da
+Section: 插件
+Description: 微信插件* 发送文字自动转换为表情* 需要同时安装微信助手和微信插件管理
+Name: 快斗
+Author: Mao <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.laetus
+Architecture: iphoneos-arm64
+Version: 3.5.1
+Maintainer: Spark
+Installed-Size: 1828
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkcolourpicker (>= 1.0.1)
+Filename: debs/com.Axs.laetus_3.5.1_iphoneos-arm64.deb
+Size: 835228
+MD5sum: 8e5c1e56518ed6584d385fab1c7513eb
+SHA1: 5ab45ec10db79a5193b53306f8a4aecdf45034f6
+SHA256: 76d6762ddc2b79a9f9cc17aa1419a27445a5b718f6113046f7573d9224cdd44e
+SHA512: f80c83dc884f75fe0d9f842ddef893620f16941dc7fa3109bfc3c963c92e0560170137aa488915c139764c11bc32e4c7db5edebdd21d3c1689fc83e990f03f7b
+Section: 插件
+Description: Unparalleled Keyboard Customisation.无与伦比的键盘自定义。
+Author: Spark
+Name: Laetus键盘自定义
+Icon: https://axs66.github.io/pro/icon/laetus.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/laetus/js.json
+
+Package: com.Axs.latchkey
+Architecture: iphoneos-arm64
+Version: 2.3.3
+Maintainer: Maxwell Dausch
+Installed-Size: 13476
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: debs/com.Axs.latchkey_2.3.3_iphoneos-arm64.deb
+Size: 422996
+MD5sum: 8a9cf53afed2761d53bdc8e162c37c4e
+SHA1: 0013035cd5e124ab990f12caa715246251d3417b
+SHA256: 6899ae60fd94c5442b930422aa680964939718e4f43a103c2c51966a28306ecb
+SHA512: 3e9d15fba0a841a8d93cacc210b9c55ebfac57b0b48cb9d66d92fc751f519c0f92c3b52f16d3d0d16c29b573ce916c5ee046200dfe87657f42557e4bca8f8c19
+Section: 插件
+Description: 自定义锁头最终版本，去掉无用选项
+Name: Latchkey
+Author: Maxwell Dausch
+Icon: https://axs66.github.io/pro/icon/latchkey.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/latchkey/js.json
+
+Package: com.Axs.ldd
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Maintainer: Axs
+Installed-Size: 452
+Depends: mobilesubstrate
+Filename: debs/com.Axs.ldd_2.0.0_iphoneos-arm64.deb
+Size: 37956
+MD5sum: 86a6f45d6dce34493a8780ac2304a33d
+SHA1: ae07af23386adf999dd01fd56d64dfe65c9da029
+SHA256: c4524da7bcec7f72d8a634ca0431297e45baa4f75022e4ffdd5bcdc841862b55
+SHA512: 419b7ef4545a4ff6c601e31449c10bcfa43b640bd8398f2f1f5a243c4ac94a36b79e6584f0beeb5a408ae8c8318bd7ecc80b6a7db610722ed78f9c911e84c216
+Section: 插件
+Description: 自定义灵动岛背景边框背景!
+Name: 灵动岛背景边宽自定义
+Author: Liuf
+Icon: https://axs66.github.io/pro/icon/ldd.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ldd/js.json
+
+Package: com.Axs.lddgifbg
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: liuf
+Installed-Size: 356
+Depends: mobilesubstrate
+Filename: debs/com.Axs.lddgifbg_1.0.0_iphoneos-arm64.deb
+Size: 15968
+MD5sum: 95b99ead60af1a843136076788e97ea3
+SHA1: 8554a97e27c06ac2f021e8b7a58b087953ba8738
+SHA256: a476cba2e274a33ed71025c709d998e88d24897720916565336139911fbd2188
+SHA512: d48e618f2d12cbd0c8f9bc88f9e6126460ba56648195f8677e66243f9abaebf370d62a5ab4d026d49f7822871151a8ff2c6cc023df09312469c2412eedf946c3
+Section: 插件
+Description: 灵动岛GIF背景!无根用户需要在https://axs66.github.io/pro源里面安装Flex 3 Beta90依赖，不然会安全模式。隐根用户直接安装即可
+Name: 灵动岛GIF背景
+Author: liuf
+Icon: https://axs66.github.io/pro/icon/lddgifbg.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/lddgifbg/js.json
+
+Package: com.Axs.lddxz
+Architecture: iphoneos-arm64
+Version: 1.3.7
+Maintainer: Axs
+Filename: debs/com.Axs.lddxz_1.3.7_iphoneos-arm64.deb
+Size: 95876
+MD5sum: 68cf1c9bdff6c7d19d171ef720a27347
+SHA1: e6efa88c52461786b7764bcc4d3b71a94765e1d5
+SHA256: 2eb125ec36d69776d2835b77313a02f8c5ec31f9579deedccaa0d5db7919eca0
+SHA512: 348483ec638977b921a423a7846a299dee88e1b3f344b0604adc3d64a2ce4a463590a8ec5f72b4f94d222541e4776c1589ba7ac7fa8b9e480dba9ddaf957bbc6
+Section: 插件
+Description: 一键安装挂载音乐岛录屏岛，需配合真皮多巴胺。</br>⚠️仅限懒人挂载使用，挂载大牛勿下，会替换你原有的挂载目录！</br>一键挂载音乐岛录屏岛，需配合真皮多巴胺（仅限无根真皮2.2及以上版本，其他自行挪到对应路径）。
+Name: 灵动岛旋转
+Author: lddxz
+Icon: https://axs66.github.io/pro/icon/lddxz.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/lddxz/js.json
+
+Package: com.Axs.libnotifications
+Architecture: iphoneos-arm64
+Version: 0.3-6-1+debug
+Priority: optional
+Maintainer: Axs
+Installed-Size: 376
+Depends: firmware (>= 8.0)
+Filename: debs/com.Axs.libnotifications_0.3-6-1_debug_iphoneos-arm64.deb
+Size: 14652
+MD5sum: c5d328297d084a40acec2e3f15e31d3b
+SHA1: 4662cda5c9d4c7857ba3cc2f70bb522991889333
+SHA256: fe6717258b7c33a1768656885a03219ccedd5f2ab4892308d8e7604c5fc13615
+SHA512: 9e028773b6c09f7aa9b6c6460700665ed1af1a3e4882e065d1230fa2263d2ea586eabb6b8daeceb406e080eb1f97bb65e0ac344cbe15c9a61172a94d8a04be2d
+Homepage: https://axs66.github.io/pro
+Section: 插件
+Description: App notification library.
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
+Name: libnotifications
+Depiction: https://repo.138686.xyz
+Sponsor: Axs
+Icon: file:///var/jb/Library/IconRepo/phattrienn1.png
+dev: cokepokes
+
+Package: com.Axs.lightisle
+Architecture: iphoneos-arm64
+Version: 1.0.0-2
+Maintainer: 旧约
+Installed-Size: 1304
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.1)
+Filename: debs/com.Axs.lightisle_1.0.0-2_iphoneos-arm64.deb
+Size: 953728
+MD5sum: d7de10d50519f18e14bb4e6b5efd2e87
+SHA1: bbd326c180d35cca12a18e61b62752d6efa04e11
+SHA256: 1f557d12f5aeb88024eaf1a92cd8af9f7d5f1ed1497df69ecd4dd94fbcd0c268
+SHA512: 049e16cc8dbf5899dfdaf15934df216c663e288a6a4a347404a5be683976b3c8fc07c568c02f49455e7cd415aeaad20791cff7a6745fd1d1d9b87148f6a398f1
+Section: 插件
+Description: 为iOS16添加灵岛手电筒控制
+Name: LightIsle手电筒
+Author: 旧约
+Icon: https://axs66.github.io/pro/icon/lightisle.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/lightisle/js.json
+
+Package: com.Axs.limneoscrack-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Maintainer: Axs
+Installed-Size: 152
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.Axs.limneoscrack-rootless_1.1-3_iphoneos-arm64.deb
+Size: 10512
+MD5sum: 6638617094de16cb79b3b7d8bca69a92
+SHA1: be204081ccaf4f2a5773b38ba5e1ce778385e887
+SHA256: 0db00cd960a7dde7484d58ec38051cf53b300cc2bb3e1ca7a38dca1788194b69
+SHA512: 21119999dc70550dc59fa7de0e781381a58b085817e5197b0572990284859d9ba8858313609c8b474f3e2c1954e4645c63d2afc227f66522060fc51ad8c0b6f4
+Section: 插件
+Description: 解锁Limneos所有插件全功能通话录音破解、NFC破解等等，可以下载官方插件，再安装本插件进行破解！
+Name: Limneos 插件破解-Rootless
+Author: Netskao
+Sponsor: Axs
+
+Package: com.Axs.lingdongdao
+Architecture: iphoneos-arm64
+Version: 1.0.0.2-235
+Maintainer: MrShi
+Installed-Size: 2352
+Depends: mobilesubstrate
+Filename: debs/com.Axs.lingdongdao_1.0.0.2-235_iphoneos-arm64.deb
+Size: 545792
+MD5sum: 2da79937bd37c797896cd2d24f364523
+SHA1: f8fffc0128695f48cef22e43221aea6457972670
+SHA256: 7732f04386b4b26da43c720124cc89cb7bf7908d293c1ae0879439051fd7813c
+SHA512: dc3b7fab2a2cfdf3ff861f528ee318d07f35c7e3909279efedf17918db47bb2fb09c3ccce3b185d7ea2c92c78e231e1ce958faeaeef1a4e2c48d5390ef0e1ed2
+Section: 插件
+Description: 给灵动岛的外框内框添加自定义颜色，通知背景颜色等
+Name: 灵动岛自定义
+Author: MrShi
+Depiction: https://axs66.github.io/pro
+Icon: https://axs66.github.io/pro/icon/lingdongdao.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/lingdongdao/js.json
+
+Package: com.Axs.liquidass
+Architecture: iphoneos-arm64
+Version: 7.alpha
+Maintainer: dylv
+Installed-Size: 1092
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Conflicts: dylv.liquidass
+Filename: debs/com.Axs.liquidass_7.alpha_iphoneos-arm64.deb
+Size: 218072
+MD5sum: 599b420d96bc1b20e9d909b2dee030cc
+SHA1: 6e0741099cb6085f9c850bf7f7b9e428fd6df39e
+SHA256: 65172da53ac47c1fc625e4fb8360fe4a73aefd758eda6a5451332a31c9ca0c16
+SHA512: 4c09756d801aad50b658276e150318969ea383bd82984494844ace78f75ac836234abbf11e178a0c96f016565886ada154556d2862413b29a68bd7c106ae0a97
+Section: 插件
+Description: 让你的旧设备体验 iOS 26 Liquid Glass 玻璃特效
+Name: Liquidass iOS 26 玻璃特效
+Author: dylv
+Icon: https://axs66.github.io/pro/icon/liquidass.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/liquidass/js.json
+
 Package: com.Axs.liquidglass
 Architecture: iphoneos-arm64
 Version: 0.1.2.3-22+debug
@@ -19456,6 +19686,116 @@ Name: Liquidglass 液态玻璃
 Author: jl
 Icon: https://axs66.github.io/pro/icon/liquidglass.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/liquidglass/js.json
+
+Package: com.Axs.ljm
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.Axs.ljm_0.0.1_iphoneos-arm64.deb
+Size: 8672
+MD5sum: 5aa32d3295c8a64ee63ae97b0d5bb6b8
+SHA1: e5c1f9c27ed644ae4db61a741027043ec6af5fc2
+SHA256: 729bfc7a297cd163b42aa1152004f1668b5d0323e812a5540de9064e5ba7adda
+SHA512: 424ac8da84b0e152e02d675c6156b3294e0d74291983fc3a3a50457237b800d09cec744d8c193a46ef123a4902583b1f922f6ae8ab6c584014d5d5ba950bf336
+Section: 插件
+Description: 解锁拦截猫会员
+Name: 拦截猫vip
+Author: A
+Icon: https://axs66.github.io/pro/icon/ljm.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ljm/js.json
+
+Package: com.Axs.llswitch
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Simon <qiaozhani000@163.com>
+Depends: mobilesubstrate
+Filename: debs/com.Axs.llswitch_1.0_iphoneos-arm64.deb
+Size: 16208
+MD5sum: 48a048372608b8f2594337826f7e84d7
+SHA1: 1c1c467c82aa19fde79b1a3b2f680a0d829e6e5f
+SHA256: 1beda2a3ca4f0f0fd61207968f8f4219ae3f02690c764fa6bc0a0e90d4ba1556
+SHA512: 9cdb19bce5d39370fb7d353dae7e68a4b38d40f812094cda09b87799878550ac47305571078a75c0b9a88289983e4b202cb0199fd6fca4e7029709d08ffc52de
+Section: 插件
+Description: 把开关变成无聊的表情  开关不再卑微！
+Name: 笑脸开关
+Author: Simon <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/llswitch.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/llswitch/js.json
+
+Package: com.Axs.lockbuttonx
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Nightwind
+Installed-Size: 216
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.4)
+Filename: debs/com.Axs.lockbuttonx_0.0.1_iphoneos-arm64.deb
+Size: 22840
+MD5sum: f729c4c829e2aef16488ae99c3e5ec65
+SHA1: 9ad986243585599e7fc4b2bcc22f9ec3eff32a29
+SHA256: 689e12345aa514efba1ffe559e04dac891043de8d5d74cc28fef70cebdeed8d6
+SHA512: 0fd3dd6c0cc9fb17719c8e371c1c5d381b1b62e6515b8a4d81ceae439e8fb2c37a0f82b9040c6be3af1b24a133bfe35b5cd65e0a8b6cadebcce19421a4c43c9d
+Section: 插件
+Description: 长按电源键呼出电源菜单，无设置，安装生效。
+Name: LockButtonX
+Author: Nightwind
+Icon: https://axs66.github.io/pro/icon/lockbuttonx.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/lockbuttonx/js.json
+
+Package: com.Axs.lockmusic
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Filename: debs/com.Axs.lockmusic_1.0_iphoneos-arm64.deb
+Size: 3104
+MD5sum: 3c73cfd07affdb53b70c3d9510f7ee7b
+SHA1: c92fdbd3ae5aca7100c120f649974058561fa6c0
+SHA256: 5c484d2f82a2274757f0063264627f3624422b3e172b16427fd1120e5190af25
+SHA512: c1d693ed07bae6a2ac7610fa6e3da6558bd9849a78cff32779d357cc4afe81836dc8ed334929fcf3712aaa22dafbf03279afba6619d0e2193a8e44976862530b
+Section: 插件
+Description: 隐藏锁屏音乐控件，仅支持ios16，无设置项，安装生效。
+Name: HideLockMusic隐藏锁屏音乐控件
+Author: A
+Icon: https://axs66.github.io/pro/icon/musicrotation.png
+
+Package: com.Axs.lockscreen
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.Axs.lockscreen_1.1_iphoneos-arm64.deb
+Size: 3428
+MD5sum: 93b4cd4996480f471de738f232a8d384
+SHA1: 2070701d132f10faa9508f31f691123445f51ccd
+SHA256: 6a02f3b5e1175e3bfd2fa985c7091b7d46f3a7f93d948d830c08a2ebef11ad77
+SHA512: 852046d13ff2d7bedd7f1134fdd5ea013453eb179aead8f51e534d036eb0398bcb2715af61fbb9115f955fce1ac57dd84070418026c6ab773172122d1fe56cfb
+Section: 插件
+Description: 省电模式电池颜色保持原生、锁屏来电拒接按钮、去锁屏音乐控件、屏蔽屏幕截图/录屏检测、隐藏锁屏底部文字提示、禁止锁屏充电亮屏
+Author: Axs
+Name: 锁屏优化
+Icon: https://axs66.github.io/pro/icon/lockscreen.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/lockscreen/js.json
+
+Package: com.Axs.lstimeseconds
+Architecture: iphoneos-arm64
+Version: 0.3
+Maintainer: b4db1r3
+Installed-Size: 432
+Filename: debs/com.Axs.lstimeseconds_0.3_iphoneos-arm64.deb
+Size: 38044
+MD5sum: a67b792866e450e346eeacad37bbfb7c
+SHA1: 5405d8dcbe6a4703029c0013c7c5d099b1badc2a
+SHA256: 82b131692bcd6a36def9c40a15963a831c9f5d94523ba76174ec4606179523e2
+SHA512: 21d6a9a3ad20c6bd0ea3a68370efcb3a3c7e4e4838660a546df00ffde3df21af702e3285f195183eaf57b0058a79a83da951c9a3632550219b4a545996e7083f
+Section: 插件
+Description: 锁屏时间增加秒数。
+Name: LSTimeSeconds 锁屏秒钟
+Author: b4db1r3
+Icon: https://axs66.github.io/pro/icon/lstimeseconds.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/lstimeseconds/js.json
 
 Package: com.Axs.picsewvip
 Architecture: iphoneos-arm64
