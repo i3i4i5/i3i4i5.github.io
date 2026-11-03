@@ -23653,6 +23653,26 @@ Author: shepgoba
 icon: https://TrollStoreX.Github.io/sileodepiction/SettingsWidgets/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/SettingsWidgets/js.json
 
+Package: com.shiftcmdk.bookmarkicons
+Architecture: iphoneos-arm64
+Version: 1.0-1+debug
+Maintainer: shiftcmdk
+Installed-Size: 232
+Depends: mobilesubstrate
+Filename: debs/com.shiftcmdk.bookmarkicons_1.0-1_debug_iphoneos-arm64.deb
+Size: 16956
+MD5sum: 0f1364ed691f65953a8c4029b8d9283e
+SHA1: b2e8660a453dd3287398cb341bd1241db89fa205
+SHA256: 43cc4ab9e947499857ca9bddafebe08773453c5ceb01ec7f01fbf4e3fba45447
+SHA512: e173295fd8a7e2e064b7a2a8a862b420fd5a25163657bda7ddd84999e51130564d4c1c69656ad405bc0dc0e3798f776306be4da3f4852eaf75d7021c5393a8b3
+Section: 插件
+Description: 为 Safari 浏览器书签设置自定义图标
+ * Set custom icons for Safari bookmarks
+Name: Safari 自定义书签图标 BookmarkIcons
+Author: shiftcmdk
+Icon: https://TrollStoreX.Github.io/sileodepiction/BookmarkIcons/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/BookmarkIcons/js.json
+
 Package: com.shtm.amplify
 Architecture: iphoneos-arm64
 Version: 1.1-0beta2
@@ -28175,6 +28195,26 @@ Name: VisioniOS26主题
 Author: Billie
 Sponsor: 百度主题源
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: zone.uni9k.umounts
+Architecture: iphoneos-arm64e
+Version: 1.2.0
+Maintainer: uni9k
+Installed-Size: 2800
+Conflicts: zone.uni9k.umount, cn.zqbb.hello.mnt, com.hmmzzz.fontmanager, com.hmmzzz.fontmanagers
+Filename: debs/zone.uni9k.umounts_1.2.0_iphoneos-arm64e.deb
+Size: 1506696
+MD5sum: 464ad3a28cfe21e9d282756b0f36e749
+SHA1: 4c7c1ba5dfa049b5ec542b8e614afb8716b532f6
+SHA256: 392f7f5b4b8fa3bb05a2ef6bbfce90db99825c478498c73b2fec91826f0c1990
+SHA512: 4b22469c62826300d624c2813f870c7a065a435dfc9def44ab326bf5c18b43e4a18b6a505bace87eb2612f176c6f70b556d9028d3660e2dcfa1badf605eeebc4
+Section: 插件
+Description: 用于 Relaxin/RootHide 的原生SwiftUI 系统目录绑定挂载管理器，具有内核后备、诊断、RootHide安全模式门控和引导循环保护。
+ * Native SwiftUI system-directory bind-mount manager for Relaxin / RootHide, with kernel-ucred fallback, diagnostics, RootHide safe-mode gating, and bootloop protection.
+Name: UMount Relaxin 挂载
+Author: uni9k
+Icon: https://TrollStoreX.Github.io/sileodepiction/UMount/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/UMount/js.json
 
 Package: com.25mao.leftpan
 Architecture: iphoneos-arm64e
