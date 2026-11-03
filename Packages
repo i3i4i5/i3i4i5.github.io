@@ -16164,27 +16164,6 @@ dev: tinyapps
 Icon: https://TrollStoreX.Github.io/sileodepiction/Chuizi/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Chuizi/js.json
 
-Package: cn.tinyapps.rst
-Architecture: iphoneos-arm
-Version: 2.3
-Maintainer: 搬运工
-Installed-Size: 11941
-Depends: firmware (>= 5.1), mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.tinyapps.rst_2.3_iphoneos-arm.deb
-Size: 2785822
-MD5sum: 3a4562e67ae81d4749be283859a51668
-SHA1: c2b81e51bd4272840b671a6c2076c88df0fe95a5
-SHA256: 7b91be2193d09c48222637aba3a7d6c42cad828ddf1bba0370a8334c27d8dea0
-SHA512: 33253cdbc459c29c5f0d0732eb8446ac95134b348c42e15b62d5a4fb0e8b1c2dcea87d9e734e43e67a9d445df3d3c6f121765decf3e4727f56ae4c89e5916f14
-Section: 插件
-Description: MultiAccount Master(361一键新机)-支持全系统(iOS 7/8/9/10/11/12/13/14/15/16)的傻瓜式改串-Switch accounts on any apps like Facebook, Twitter, WeChat, WhatsApp, Tinder faster than ever.
- 支持7.0-16.4的所有越狱设备包括iPhone6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro/12/12Pro/14/14pro/14max Max。最强大的傻瓜式改串软件，提供一键新机、全息备份、精准还原等功能。首创以App为中心的操作方式；无需任何参数配置；支持应用多开；自动更换IP；支持网络代理配置访问；模拟2G/3G/4G/Wifi；各种App组合随意搭配；支持分辨率调节。
-Tag: purpose::extension
-Name: 361一键新机
-Author: Tinyapps.cn
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
 Package: cn.tool.aphrodite-debug
 Architecture: iphoneos-arm64
 Version: 0.6.13~Modify
@@ -16513,25 +16492,6 @@ Name: 微信助手 密友
 Author: Mao
 icon: https://TrollStoreX.Github.io/sileodepiction/mao/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/mao/js.json
-
-Package: com.25mao.videos.rootfull
-Architecture: iphoneos-arm
-Version: 0.1-1
-Priority: optional
-Maintainer: 搬运工
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.25mao.videos.rootfull_0.1-1_iphoneos-arm.deb
-Size: 32156
-MD5sum: dd506f4272cce9c930b2834c27b88ba1
-SHA1: b6b54477ec0dac7d6d2c047632fe3aa1f3975bf3
-SHA256: ecaf6b07d3ae77657ce3c5c078e20995e7cd2e65caf231ecafbcec2b1268f348
-SHA512: 5c7aad3a0390a6d4113477deb2d29ea70167d2bcebf902dc5d67e7a39c23da8012f0ecdf8c7072e32c40c365eb9bf67584c68c1ba8d39850d55376c45e8847f0
-Section: 插件
-Description: 随机小姐姐视频，利用老猫的微信助手小工具添加！
-Name: 随机小姐姐
-Author: Mao
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.25mao.wcplugins.rootlesss
 Architecture: iphoneos-arm64
@@ -16882,23 +16842,6 @@ Name: Single VPN 上色
 Author: 82Flex
 icon: https://TrollStoreX.Github.io/sileodepiction/SingleVPN/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/SingleVPN/jj.json
-
-Package: com.82flex.touchvis
-Architecture: iphoneos-arm
-Version: 4.2
-Maintainer: Lessica <82flex@gmail.com>
-Installed-Size: 3644
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/com.82flex.touchvis_4.2_iphoneos-arm.deb
-Size: 728442
-MD5sum: 65b8c41584b9cc77cc6e019f106a15e7
-SHA1: 812c2eafaa25c4b9dda2d131487f0624fd40dec3
-SHA256: 647ae9295e9ae3e44db516b4f22484435b72ddc54dd6fc7fd6be13e367deca5b
-SHA512: 08da9b33eb037c8a4a33deed48578fa1e4774cfbaadb51f90341808dbb717f4e1573ca727a0978af0d716b2b848c01c18a401082b26e03adf73928fe5cf37192
-Section: 插件
-Description: Display your touch interactions!
-Name: Touch-Viz
-Author: Lessica <82flex@gmail.com>
 
 Package: com.82flex.unseens
 Architecture: iphoneos-arm64
@@ -17442,78 +17385,6 @@ Name: 微信文字转语音 ApibugTextToVoice
 Author: www.apibug.com
 Icon: https://TrollStoreX.Github.io/sileodepiction/Sileo/ApibugTextToVoice.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ApibugTextToVoice/js.json
-
-Package: com.apper.neigou
-Architecture: iphoneos-arm
-Version: 0.0.1
-Maintainer: 搬运工
-Installed-Size: 152
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.apper.neigou_0.0.1_iphoneos-arm.deb
-Size: 3038
-MD5sum: 8175bc59840b62e43ef71cd114238ea0
-SHA1: e8624a7245e0c6b1fdf52b03b8b626f9d71dc8c2
-SHA256: 7abf77280cfd01223ce38d513e02bb6365e9a0a7edfdaca64d2dc31111ceac70
-SHA512: 32bb2af3e22434166af564021b11b34ad215339ec2f534842e9ea3b2092a03faa3fcf702b45bf2c23df8fdd843b454aeaa2e41fbbf4a68edaede14d100013c0e
-Name: FuckPay-内购插件
-Author: 小果子
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
-
-Package: com.apper.nicetg
-Architecture: iphoneos-arm
-Version: 0.0.1
-Maintainer: 搬运工
-Installed-Size: 1488
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.apper.nicetg_0.0.1_iphoneos-arm.deb
-Size: 429026
-MD5sum: c6b59c7ad23129631e04a92f6f37ad05
-SHA1: 451ee2bff8f960006d69cc7cde9c91bf783c7af0
-SHA256: 159399c3cc8af50a2587053632f255a77f3f5fe23d4dcf3cfb474f0470d61a04
-SHA512: 60f41251a4779081939e02bce14b7864f7e311875d8241f49046083610142fd65be2b0588d928c0d8866d6979b10b4dd70e5f532391378f4905e1c6bcb670ab4
-Name: Nicegrame第三方TG破解
-Author: xgz
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
-
-Package: com.apper.shayu
-Architecture: iphoneos-arm
-Version: 0.0.1
-Maintainer: 搬运工
-Installed-Size: 2636
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.apper.shayu_0.0.1_iphoneos-arm.deb
-Size: 819428
-MD5sum: f82af5780acd3d139b03d09d5a5126cf
-SHA1: 09a07dd493a922b79e86aabcf873d88aad21b6af
-SHA256: a704ea89b79ab270097919f63d67a2c53397d082d6ae8fb0fce4fd6cf75ab5cd
-SHA512: ec2aa2a39c6827af8c1df20d437da30a131cac44fb6d9e49b7813179c4e67496f0724b535e4b0e8d4844faf6c782c7c67c68020f2dbbbcd112c3425180115811
-Name: 鲨鱼记账破解
-Author: 小果子
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
-
-Package: com.apper.wf
-Architecture: iphoneos-arm
-Version: 0.0.1
-Maintainer: 搬运工
-Installed-Size: 624
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.apper.wf_0.0.1_iphoneos-arm.deb
-Size: 251856
-MD5sum: ec7237d142fb0aa463d57fcdb13294b2
-SHA1: 9c829a886eabe17ce0bb0d4c0c87bc62e78d4f11
-SHA256: 6c0a584980c624669db590f23a95ef119586bf4a25342eeca5498a1b92cdba7f
-SHA512: 613f9ede145e927958c17663a7425473ac69fc500364e72c1a1f8ed52d7a1a802175447cb8132960ca876ac79bcd7e9a2a28ae1c2f8eb9e90fe50ae9dc29eaa0
-Name: 威锋VIP
-Author: xiaoguozi
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
 
 Package: com.aronsz26.lockscreenrestore
 Architecture: iphoneos-arm64
@@ -19631,23 +19502,6 @@ Author: g_tweaks
 Icon: https://TrollStoreX.Github.io/sileodepiction/GTok/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/GTok/js.json
 
-Package: com.gu.xianyupick
-Architecture: iphoneos-arm
-Version: 1.9.1
-Maintainer: 故
-Depends: mobilesubstrate
-Filename: debs/com.gu.xianyupick_1.9.1_iphoneos-arm.deb
-Size: 153346
-MD5sum: 61c8a1b95aeaf654e7d0c246607c0bff
-SHA1: 61853cc463b5395e9f17991be2bf07a2bbc45b58
-SHA256: e60874e71d94f8fa4d1b28d5dd5bd7e0d947ec76dcceff3aab39b6b511941120
-SHA512: dd4574c8df726dacf22988d9defbbdf7ca8633b796398b41215d4713ca945feadaed1004928bd068be5a556b54e6b704d0f1170e8fb8b3cb9f76f8c44f4b15bd
-Homepage: https://t.me/zakadeep_bot
-Section: 插件
-Description: 闲鱼商品嗅探 + 筛选捡漏工具。悬浮球面板可按机型/容量/系统版本/机身颜色/成色/价格/想要人数筛选，自动翻页、单条复制、点击直达商品。v1.9.1：激活弹窗精简（去掉机器码说明与操作提示两行文字，界面更干净）；卡密校验改为进算法层做严格对账——错码不再只是弹提示，而是当场终止，挡掉批量试码的脚本。抓取与筛选逻辑与 v1.9.0 完全一致。
-Name: 闲鱼捡漏
-Author: 故
-
 Package: com.hades.locktouchx
 Architecture: iphoneos-arm64e
 Version: 2.2
@@ -19764,43 +19618,6 @@ Author: HuangBai
 icon: https://TrollStoreX.Github.io/sileodepiction/HB/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/
 
-Package: com.hierarch.dykiller
-Architecture: iphoneos-arm
-Version: 0.6.8
-Priority: optional
-Maintainer: hierarch
-Installed-Size: 4148
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: debs/com.hierarch.dykiller_0.6.8_iphoneos-arm.deb
-Size: 1005380
-MD5sum: c1ada263982517da788b2b1fc765996d
-SHA1: ee1c4151c97cf72868d711c069049e5f9d0a3bc5
-SHA256: 83c692f2da2cdcff4559a48684cca2fc3fa34a5e8fc1818917b04239cb614601
-SHA512: 636e045c0af49bc74f05b78d7633a2d1bd8b1fdfe807c990b2e0ecb392dd9c778db1d4629214a6a46abfcfe82885e9ae3b6a32ef55f80c289092e063e3f40159
-Section: 插件
-Description: 抖音 UI 增强插件（模块化 hook 框架）
-Name: DYKiller
-Author: hierarch
-icon: https://huayuarc.github.io/icon/douyin.jpg
-
-Package: com.hk.QQanitiRecallHook
-Architecture: iphoneos-arm
-Version: 1.2
-Priority: optional
-Maintainer: 搬运工
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.hk.QQanitiRecallHook_1.2_iphoneos-arm.deb
-Size: 38434
-MD5sum: 95cb6b394b947606d02c53a2bf07bbc2
-SHA1: 1a2ec84376f6ed391a05dbbe92ab5b440a28bde5
-SHA256: aedf8c2d9d1370ab09493f96a51403e4a8f1c4038d0e1f13e913129d55b31374
-SHA512: b594e8f50f8ed0d728019ede7664e8c4b1320c1d12d784515f4da8945c72df0db83355faf0692f8ae14ccf4f7a58c5b507f7957d8232576aa7121d57a5853241
-Name: QQ防撤回-带提示
-Author: TouGBao
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
-
 Package: com.hk.akara.cn.rl
 Architecture: iphoneos-arm64e
 Version: 2.0.2
@@ -19849,79 +19666,6 @@ Description: Ampere 简体中文包(RootHide)。
 Name: Ampere 简体中文包(RootHide)
 Author: 妖刀
 
-Package: com.hk.aysxhack
-Architecture: iphoneos-arm
-Version: 1.0-1
-Maintainer: 搬运工
-Depends: mobilesubstrate
-Conflicts: com.cydiabc.aiyueshuxianghack, com.hk.ifthook
-Filename: debs/com.hk.aysxhack_1.0-1_iphoneos-arm.deb
-Size: 224198
-MD5sum: 56c1479f383928aaa2060987c89584a0
-SHA1: 331a2d2a6324ac97f943a1d8c20fa60d5ce3c678
-SHA256: 54a1f5ae4929acaa028f9b082c920b1e9fc0f2063ee7361c842aa19dbce9b559
-SHA512: f68df8af5624ed89fd30cbb80bbb8002a24e2e1c3eb6e4b19edfa90fdceff981e16aada4e46cc90dd27e2e4fec0c1b74e279802b29c6a3e36a32425efea35d84
-Name: 爱阅书香Pro+
-Author: Ai-小苹果™
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
-
-Package: com.hk.batteryhealthenabler
-Architecture: iphoneos-arm
-Version: 1.0.0
-Maintainer: 搬运工
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
-Conflicts: com.ps.batteryhealthenabler
-Filename: debs/com.hk.batteryhealthenabler_1.0.0_iphoneos-arm.deb
-Size: 8024
-MD5sum: 3322723fdd8c24bde0ad44baf9048293
-SHA1: 2085c22b1f3f5c43109a91e6c9986586624b75ee
-SHA256: 38caabb191bb56b8420d4e730f3bec1ef3e4c1d5fe8bc62d7ec5b0d3cfe0f7ee
-SHA512: 686917ff718cdf6ddf30ef745a11a2a0622cd34c7ef50b748d19fc80a30b249b1a5b72bf5abc26fad09b525377867afa12af967b7a6ef2a0d4a1ce6ea9eecf13
-Name: 修复电池健康
-Author: PoomSmart
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
-
-Package: com.hk.cracktool4.cn
-Architecture: iphoneos-arm
-Version: 4.0~beta
-Maintainer: 搬运工
-Depends: firmware (>= 12.0),mobilesubstrate (>= 0.9.5000)
-Conflicts: com.carck.cracktool4.cn, com.crak.cracktool4.cn
-Filename: debs/com.hk.cracktool4.cn_4.0_beta_iphoneos-arm.deb
-Size: 2094
-MD5sum: 5796ef7ac30571e4e6a70ffac618bd78
-SHA1: 1335aa930a33ab88af43fe24ef168b7abee77ffb
-SHA256: 59e38cdf0ce1438c17de5fa4b5d8135d9760c3f36782669bd1e261bf97a151a6
-SHA512: c6b4b273baacda7e9ed61f17f40b8a15897be8c26cb7a38941211356d620a3331a73b951fa1b882826d49948b85a5971b1456b9c3ca928ef0a2a1968df8e2e0f
-Section: 插件
-Description: CrackTool4 简体中文包
-Name: CrackTool4 简体中文包
-Author: 妖刀
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.hk.cydown.new
-Architecture: iphoneos-arm
-Version: 7.1.2-1
-Maintainer: 搬运工
-Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Conflicts: com.julioverne.cydown, com.crack.cydown.cn, com.hk.cydown.all
-Filename: debs/com.hk.cydown.new_7.1.2-1_iphoneos-arm.deb
-Size: 4247274
-MD5sum: cc07fbca9d507cee074a171370fc4a98
-SHA1: fe536480e07044d2d5245d3a43dae9a6cbbc726b
-SHA256: 5b4610a121c1ea57e66900b54f26e8265d1319669407c57ec6120e18ef5fb507
-SHA512: e228bc369ab3efdca8c098b0161c6a1bbd726517460e3076c2b1d37f73957b04ea063094c3ca8e3d65483608fc8ee4cc2835496a4981787c799cff95b6afb7a3
-Name: CyDown [7.1.2汉化版]
-Author: julioverne
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
-
 Package: com.hk.dynamicpeninsula.cn.rl
 Architecture: iphoneos-arm64
 Version: 0.6
@@ -19958,42 +19702,6 @@ Author: 妖刀
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: com.hk.julioverne.cracktool4
-Architecture: iphoneos-arm
-Version: 4.0~beta9e
-Maintainer: 搬运工
-Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
-Filename: debs/com.hk.julioverne.cracktool4_4.0_beta9e_iphoneos-arm.deb
-Size: 729168
-MD5sum: eff87e6cd07aafee16fdb495b092ab73
-SHA1: 3b8ac4662d81a8f4578d282e74fc13d7adefd87f
-SHA256: b3d5dfcb161fef5c650477f0c58e65f213680420313ddcc2e43a7842179c0a88
-SHA512: 313fda642146ae9cb426ccf412d8c6ed222201cdcaa7548989d5b013b0d5cddde20d1b6eb6b0029c69a1a5041bf2088a82d7df8b14529f19fd0d0179d8239093
-Name: CrackTool4 (破解神器)
-Author: julioverne
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
-
-Package: com.hk.limneosos
-Architecture: iphoneos-arm
-Version: 2.0.2-1
-Priority: optional
-Maintainer: 搬运工
-Depends: mobilesubstrate
-Conflicts: github.io.gfp.limneosos, ru.rejail.limneosos, netskao.limneoscrack, com.cydiabc.limneoshelper
-Filename: debs/com.hk.limneosos_2.0.2-1_iphoneos-arm.deb
-Size: 36394
-MD5sum: 41aa240160cd5bc1fe195d26b3a86eaf
-SHA1: 78e4902fe44f024ba88a088524259ee3d3de9b7f
-SHA256: ecf024319b15b8a1d0f1a4e269640b07e692a79833dbe01091bbcca1c898e961
-SHA512: 50417095d9b3d615e056b070b92f6b9a70e3690cd37e1eabba8308e1e9f475034be79df011ef3dc95e03f9819a226dd072eca4dd6406ef2d2a6bf2b0db39bb69
-Name: Limneos 系列插件破解
-Author: ReJail
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
-
 Package: com.hk.nfcwriterxs.cn.rl
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -20011,24 +19719,6 @@ Name: NFCWriter XS 简体中文包-Rootless
 Author: Ball
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.hk.rejail.dleasy
-Architecture: iphoneos-arm
-Version: 2.12.9k
-Maintainer: 搬运工
-Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Conflicts: ru.rejail.dleasy, com.hk.yaodao.dleasy.cn, me.ahmedBafkir.dleasy
-Filename: debs/com.hk.rejail.dleasy_2.12.9k_iphoneos-arm.deb
-Size: 1495778
-MD5sum: f56a7e0699903c9bf590d27fc3af53de
-SHA1: fe75ab7e7d7e6a473324acfd03f9416a73634806
-SHA256: 32cb8b70cd9f9ef4f06a586bc0ee566a47f3d6ddae04bca43c1299175cc0e4d2
-SHA512: fc7d2e6fd79665748a47270aeabd88b510dbd61e167246e8919d3310a8452ce9234e3f2ba8335b847357339b29a06aec212d466666aabc64edcfd74464b75ec8
-Name: DLEasy 破解
-Author: rejail
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
 
 Package: com.hk.rootless.janwechat
 Architecture: iphoneos-arm64
@@ -20774,22 +20464,6 @@ Author: iosdump
 Icon: https://TrollStoreX.Github.io/sileodepiction/Zone/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Zone/js.json
 
-Package: com.ioskuka.kukatoolbox
-Architecture: iphoneos-arm
-Version: 1.3.3
-Maintainer: ioskuka
-Installed-Size: 4284
-Filename: debs/com.ioskuka.kukatoolbox_1.3.3_iphoneos-arm.deb
-Size: 1009770
-MD5sum: 2b271f0636215b67ae577736c500bc55
-SHA1: de44899961089c13570a92c1233e2e792db220db
-SHA256: 5567db4ca6d749353b84aeb7910164ca0c65ec7fb3aafe3c016ca454041d0986
-SHA512: eb7e37d38129a5bcab98233dca2e746cc4c8944dfb9685e95dc25d3fa8dfa1571da28ffb8794e477a91750ef498bed5495d7477d1a657be386ec89b891639436
-Section: 插件
-Description: KAlert 5.7.0 based KUKA toolbox with compact adaptive UI, full-screen touch recorder, device tools and integrated GameSave submenu
-Name: KUKA工具箱
-Author: ioskuka
-
 Package: com.iosnet.UniDream
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -21300,41 +20974,6 @@ Author: lenglengyu
 Icon: https://TrollStoreX.Github.io/sileodepiction/Danhua/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Danhua/js.json
 
-Package: com.lenglengyu.killads
-Architecture: iphoneos-arm
-Version: 1.0.4
-Maintainer: 搬运工
-Installed-Size: 136
-Depends: mobilesubstrate
-Filename: debs/com.lenglengyu.killads_1.0.4_iphoneos-arm.deb
-Size: 19510
-MD5sum: fe79d508eb90d90e8599ab9ff5ab7b05
-SHA1: a59efc36084525f6b2bcd891c24683cd46d73526
-SHA256: 33025200d173b84eff368fa1569685144ff50845b997eeee2ebb27cd056e1b51
-SHA512: cb6a7bd909bd82431effdd5ff50e175da6f4f8f2223bb8144f96ed53c54a7d71a315e2b69075a14dccca1074cf7f33d4bd1b985724eba549e1d35408d5bf6b3f
-Name: 屏蔽广告
-Author: lenglengyu
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
-
-Package: com.lenglengyu.milkyway2
-Architecture: iphoneos-arm
-Version: 0.2.0-alpha
-Maintainer: 搬运工
-Depends: mobilesubstrate, applist, preferenceloader
-Filename: debs/com.lenglengyu.milkyway2_0.2.0-alpha_iphoneos-arm.deb
-Size: 101152
-MD5sum: b3d1fd9c5a117c9311b215aa5e07eb63
-SHA1: 703d788f3653be879c342301b00a7160aed82b3a
-SHA256: 1224ecd6e227f520b7ca48868c0bba394b5349392e87237d05b5f93c480020e3
-SHA512: f8b0bb43a9b5e5f883f62c36ff730a7681d8f98041621d91c7c738b8029819106c604d6a0f403e3261bb389436e85476582ff765bc6f95083da8c190845d8d65
-Name: MilkyWay2 分屏
-Author: akusio
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
-
 Package: com.lenglengyu.passbyccs
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -21376,25 +21015,6 @@ Name: 短视频助手
 Author: lenglengyu
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ShortVideo/js.json
 icon: https://TrollStoreX.Github.io/sileodepiction/ShortVideo/icon.png
-
-Package: com.lenglengyu.shortvideodl
-Architecture: iphoneos-arm
-Version: 1.7.1
-Maintainer: 搬运工
-Installed-Size: 2864
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo
-Filename: debs/com.lenglengyu.shortvideodl_1.7.1_iphoneos-arm.deb
-Size: 1098668
-MD5sum: 1d6056621a100913f1e73cbaa446bdc4
-SHA1: 6878c12ce0ed4bfe2641f6dd14e67205d2f192be
-SHA256: 06e64816bf6fc9837adb877a7e35146a3bfda8b55ea5bcc79faa6b74c1ae5b13
-SHA512: d2b63ea99d78ee1235ae2b53add7f0019a4d0b5ba684ec282cbe3005cdf2cfbfaf53937ffcd0f9ecbc9d57cd2e2cdfcf9a116ee4772e8e85f06d76cc63f64c40
-Name: 短视频助手
-Author: lenglengyu
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
 
 Package: com.level3tjg.redditfilters
 Architecture: iphoneos-arm64
@@ -21585,23 +21205,6 @@ SHA512: b69102ee721d310d065026dd9ae1a506a88f0329ad032a37f7b234c7b47cf5109b24a7af
 Section: 插件
 Description: LiveCallTranslator汉化--(rootful)简体中文包
 Name: LiveCallTranslator汉化包-rootful
-Author: 来了老弟 h_h_x_t
-
-Package: com.llld.runerootful
-Architecture: iphoneos-arm
-Version: 0.0.1
-Maintainer: 来了老弟
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.llld.runerootful_0.0.1_iphoneos-arm.deb
-Size: 9474
-MD5sum: 24b8b74d076111c03146553119f4cccf
-SHA1: 2bc2c5eb3961cc6a3db874146a9e3c9ca273a42f
-SHA256: d1c5b5eb2ddd4d9efaa01d7c9d15d5ceeb77419a4f60d772825278853a1798c9
-SHA512: 5a3da90ff7d5c5e8a9b527ad892e2626b99f0776b0ffbbbbfa5a404747bf77e2781b75072cd1ec1c1990d98f6a22cb893548aa020d942aef42cd258fb58da21c
-Section: 插件
-Description: Rune汉化--(rootful)简体中文包
-Name: Rune汉化包-rootful
 Author: 来了老弟 h_h_x_t
 
 Package: com.llld.runeroothide
@@ -22053,27 +21656,6 @@ Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板�
 Name: iWxkb
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/iwxkb.png
-
-Package: com.mlgm.kayoko
-Architecture: iphoneos-arm
-Version: 5.1
-Maintainer: mlgm
-Installed-Size: 3896
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
-Filename: debs/com.mlgm.kayoko_5.1_iphoneos-arm.deb
-Size: 822890
-MD5sum: 994d6d129a2215e2ebd9dc33f59633d6
-SHA1: 773cb1e13651e0b13a91bbeaa229493d9ce2f004
-SHA256: a9a7696c99f1accb780ae566e081a00d244c94973da2a16da5df49fa67e1e44a
-SHA512: d76cc2a899393b529add8f13a2972af56f82d618c7c70d46f5971b156f4ad5d1aaed758a3eed40917152fe9168df1a2c2ec5ad01765069ee748bfec866fe03a0
-Section: 插件
-Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
-Name: Kayoko
-Author: mlgm
-Icon: https://mlgm66.github.io/icon/kayoko.png
-SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.prefnest
 Architecture: iphoneos-arm64
@@ -23081,40 +22663,6 @@ Description: 26Home Chinese RootHide build with per-app cutout controls and cust
 Name: 26Home
 Author: ngkhoi
 
-Package: com.niceios.nicebarx13
-Architecture: iphoneos-arm
-Version: 1.0.2.5-98
-Maintainer: 搬运工
-Installed-Size: 20432
-Depends: com.rpetrich.rocketbootstrap(>=1.0.7~beta3),mobilesubstrate,preferenceloader,com.niceios.nicehelper(>=2.9)
-Filename: debs/com.niceios.nicebarx13_1.0.2.5-98_iphoneos-arm.deb
-Size: 6749594
-MD5sum: fc2d04e976c8ecf73afc78434dae8c9b
-SHA1: 5ef8dfe5f5ed1358ad0eba2ca2c9414f887aaa40
-SHA256: c0aee23d1fcf467bff1fcd2f93b6878de18ab56f11a710e2e1f46feaad042300
-SHA512: 205605c6f3c10f1bc4031a77274558a76880dcb7567626a4a68c9b1029e510778893f8eecf7a5e7614fc7efc3b515a1c46fa872a5b11f388912ff7e8a19327c8
-Name: NiceBarX(iOS13)
-Author: niceios
-Sponsor: 搬运工
-Section: 插件
-
-Package: com.niceios.nicebarx14
-Architecture: iphoneos-arm
-Version: 1.0.2.9-3
-Maintainer: 搬运工
-Installed-Size: 10516
-Depends: com.rpetrich.rocketbootstrap(>=1.0.10~beta1),mobilesubstrate,com.niceios.nicehelper(>=4.2),preferenceloader
-Filename: debs/com.niceios.nicebarx14_1.0.2.9-3_iphoneos-arm.deb
-Size: 4218422
-MD5sum: 5ca6c4a2087b757580e08473d2cab26c
-SHA1: 3cae86a9e8e8fe385b4f63e45b5bba2591971496
-SHA256: 2ab6c5556e43194399558dcb120aa524683718e721a5cad8768ceeab323b8979
-SHA512: c18392924620582011275d854618fe3a3ab1bafa61724f5f9b73665ea5e821c3a824e758f501f3f04b250d84934014d08404054236e593112c2e3ca49c3a2ad0
-Name: NiceBarX(iOS14)
-Author: niceios
-Sponsor: 搬运工
-Section: 插件
-
 Package: com.niceios.nicebarx15-rootless
 Architecture: iphoneos-arm64
 Version: 1.0.1.2-0
@@ -23153,40 +22701,6 @@ Author: niceios
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: com.niceios.nicebarx
-Architecture: iphoneos-arm
-Version: 3.0.0.5-20
-Maintainer: 搬运工
-Installed-Size: 11544
-Depends: com.rpetrich.rocketbootstrap,mobilesubstrate
-Filename: debs/com.niceios.nicebarx_3.0.0.5-20_iphoneos-arm.deb
-Size: 3313602
-MD5sum: af5b9d00dcff0e6c3326169f3ed0d5e0
-SHA1: e856457dc7e1a5893d4f80dfc396f1f98ea47cf4
-SHA256: 133d0e9c0203960a326a111617b43024b17434324b4e47d1e8b0624ac5c0a1cf
-SHA512: 7b3f9140d2cf2fef2897f5a12a6518156267b886a914110f87af01a835d2d1434f18cea1524ed2366c9bf7f09c338722efd93bf6eaad88a14f344440c7757a47
-Name: NiceBarX(iOS11-12 免费)
-Author: niceios
-Sponsor: 搬运工
-Section: 插件
-
-Package: com.niceios.nicecaller15
-Architecture: iphoneos-arm
-Version: 1.0.0.4-25
-Maintainer: 搬运工
-Installed-Size: 12276
-Depends: mobilesubstrate,com.niceios.nicehelper(>=4.6),preferenceloader
-Filename: debs/com.niceios.nicecaller15_1.0.0.4-25_iphoneos-arm.deb
-Size: 5310010
-MD5sum: b60894919b3212d48411f73b9bcb342c
-SHA1: ba8de159fc0b714d27708c96c0b620bb32142fad
-SHA256: e798fb8db13ec8bf78f3dc9dd30f508e1e66c7c44ee3dc56fffc672411be3655
-SHA512: 0cc5490ad8239593ea36e44132eaa501ea2b0cb9251889fb55aac609f9d5daa95d7ac0929a98e7a5c12e243312acdfe2472f0b5e7716fa6ec896809a4ca59ace
-Name: NiceCaller(iOS15)
-Author: NiceiOS
-Sponsor: 搬运工
-Section: 插件
-
 Package: com.niceios.nicehelper-rootless
 Architecture: iphoneos-arm64
 Version: 6.0-5
@@ -23205,23 +22719,6 @@ Name: NiceHelper插件依赖-Rootless
 Author: niceios
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.niceios.nicehelper
-Architecture: iphoneos-arm
-Version: 4.8-6
-Maintainer: 搬运工
-Installed-Size: 2108
-Filename: debs/com.niceios.nicehelper_4.8-6_iphoneos-arm.deb
-Size: 972490
-MD5sum: d488ccba97872783201db8d0228e7b82
-SHA1: 33cf2e4d96cbd20549d1eeb15d7af1430b63a744
-SHA256: 26d7f8956f39161c03d4ff8edc5584376d07d94482a1fe182dafbae6e2b65ad8
-SHA512: 8e492612cf546ddcbda8e4de7090542a2545d953238c2801ad981632eeb9bfabc9a76e41c9e17c5342fe10bc19053630b1fec91c9ad3af543419ea7f0f5f210b
-Name: NiceHelper插件依赖
-Author: niceios
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-Section: 插件
 
 Package: com.niceios.nicelogx13-rootless
 Architecture: iphoneos-arm64
@@ -23335,48 +22832,6 @@ Section: 插件
 Description: 电池耗电分析：注入SpringBoard监控每App前台/后台运行时间与电量变化，估算每App耗电，显示电量历史与本次耗电统计
 Name: 电池耗电分析
 Author: yzdmm2024
-
-Package: com.ntm.notifymanager
-Architecture: iphoneos-arm
-Version: 2.3.50
-Maintainer: yzdmm2024
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/com.ntm.notifymanager_2.3.50_iphoneos-arm.deb
-Size: 197848
-MD5sum: 3567c46c11e864e6c8c08f1ddacdcb48
-SHA1: 77eafa35ba877f5780fee19bfa69be2a6cdd1984
-SHA256: 3b25ddf4a426bab2a7568e882dd88557eda29e7632e4fcf5286d7356e541d04f
-SHA512: bb0e52e2770bbfb05ede5231057173bfb5ccf281b26030cbd05c26a1816bbb1a7e64feb90238943195a553c90f4b46ebbe2669d98f6a007141771d8030a0d0da
-Section: 插件
-Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
- 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
- 空闲时不耗电；不在后台常驻任何进程。
- .
- 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
- （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
- - 总开关：关闭后该 App 的通知不再显示
- - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
- - 隐藏预览：只显示 App 名称，不显示具体内容
- - 仅隐藏角标：保留通知，只去掉数字角标
- - 关键词过滤：命中关键词的通知自动丢弃
- .
- 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
- - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
- - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
- - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
- - 不需要拦截时可一键关闭，恢复系统原生选择框
- .
- 【其他】
- - 批量控制、搜索、单应用重置、配置导入导出
- - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
- - 面板内置诊断日志，可查看弹窗拦截的命中情况
- .
- 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
- iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
- 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
-Name: 通知管理
-Author: yzdmm2024
-Firmware: >= 14.0
 
 Package: com.ntm.privacymanager
 Architecture: iphoneos-arm64
@@ -24966,6 +24421,26 @@ Description: 微信主题盒子
 Name: 主题盒子（免授权）
 Author: Mao
 
+Package: com.tencent.themeboxs
+Architecture: iphoneos-arm64
+Version: 3.0.5
+Maintainer: Mao
+Installed-Size: 8588
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.tencent.themebox
+Filename: debs/com.tencent.themeboxs_3.0.5_iphoneos-arm64.deb
+Size: 9394024
+MD5sum: 5f3b58acf17d54f3bd89995ff0a3b030
+SHA1: 37b23b75c88d61711700cde5c2e5be6524f52874
+SHA256: e02902154adbc86a54b867517bc734492d9931e03dae2bbb5f1de5d3a19add35
+SHA512: c38c6a05dd9cb4102b2a4e582651b278aeadfb7f5e0a88d66f11fd737ef0f9231e28cb118c2b3ddc18c359f30d2f4685c11a3f36c9449d2da6859cd3c9a2440b
+Section: 插件
+Description: 微信主题插件
+Name: 主题盒子
+Author: Mao
+icon: https://TrollStoreX.Github.io/sileodepiction/Themebox/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Themebox/js.json
+
 Package: com.thuthuatjb.iconrepo.rootless
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -25025,24 +24500,6 @@ Author: Tomasz Poliszuk 来了老弟
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: tomaszpoliszuk 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/HomeScreenQuickActionsSettings.bundle/icons/HomeScreenQuickActions@3x.png
-
-Package: com.touchWorld.doubanTweak
-Architecture: iphoneos-arm
-Version: 1.2.0
-Priority: optional
-Maintainer: TouchWorld
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.touchWorld.doubanTweak_1.2.0_iphoneos-arm.deb
-Size: 19884
-MD5sum: 3b49087f7bcb0caaad8981b2e9b0b5c6
-SHA1: acdeae2531d6b1bd570b80dd5e1d3826bc8c7413
-SHA256: 21a9dd6817991ad803a6dd6799494c197feac00ecb73fb817c108d18f531137d
-SHA512: 9803734174d8af67adc7f71d3f9d9a76b66fc1b7f0875c9c6c03128f05e877d204d249252be5d7c9d1620bc069ae2a256945cc99e8f12be0c39e54dd028ef124
-Section: 插件
-Description: 去除豆瓣广告插件
-Name: DoubanTweak
-Author: TouchWorld
-Icon: https://touchfriend.github.io/depictions/com.touchWorld.doubanTweak/icon.png
 
 Package: com.tsangbaby.autoscroll
 Architecture: iphoneos-arm64e
@@ -25115,25 +24572,6 @@ Section: 插件
 Description: 鱿鱼三件套通杀插件
  下载鱿鱼三件套再安装这个插件即可本地激活授权。
 Name: 鱿鱼三件套通杀（免授权）
-
-Package: com.vita.yuki
-Architecture: iphoneos-arm
-Version: 0.1-2
-Priority: optional
-Maintainer: vita
-Installed-Size: 748
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/com.vita.yuki_0.1-2_iphoneos-arm.deb
-Size: 143340
-MD5sum: 75918966f2a8566a705f8c104da45cfb
-SHA1: ba52e9987f2b2de577fb233817977c330082a5fd
-SHA256: 9b227a0c8fc2cd926ef8605a263402cff44f77d662978e75a71963fc6427fcdc
-SHA512: feb95af91ee67e8d3e0662b97d64d2924cfbd6eeb1f0e2261d24a8bf9e57b9a974e5db880689500eccc1e35a2f6bbadbb064811fd491407b3a313c0ed222806c
-Section: 插件
-Description: 抖音防撤回等，优化性能，免费插件，随缘更新。
-Name: Yuki
-Author: vita
-icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.wacljcr.floatingurl
 Architecture: iphoneos-arm64
@@ -25287,23 +24725,6 @@ Description: 输入法自定义优化 —— 微信键盘与系统原生键盘�
  支持 iOS 15 – 16 的 rootless 越狱（Relaxin / Dopamine / RootHide），依赖 mobilesubstrate 或 ellekit、preferenceloader。
 Name: 输入法自定义优化
 Author: wacljcr
-
-Package: com.wangyou.tigong
-Architecture: iphoneos-arm
-Version: 1.0.0
-Maintainer: 搬运工
-Installed-Size: 1520
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.wangyou.tigong_1.0.0_iphoneos-arm.deb
-Size: 428074
-MD5sum: 96dce55caa1f33c22150a4cde4689e55
-SHA1: 76b74a85010898d1e3df009ab333e1b7dc0f12f8
-SHA256: 3360b9c1f9ed8b56bb6d012c0ce878427e1bc190f07700558bf35eb280ed7625
-SHA512: 3fc95a186620feda1829823aea7a651c8248be9a7a994c39f209246f2d407596fb160a036efe3177854b0caa1826bfa129067a1de6e63d9514b2852d250ed11d
-Name: 轻颜相机v4.35破解
-Author: 搬运工
-Sponsor: 搬运工
-Section: 插件
 
 Package: com.wcglass.free
 Architecture: iphoneos-arm64e
@@ -25498,23 +24919,6 @@ Description: 在微信输入法上启用上下滑手势切换输入方式 只会
 Name: Wxkb
 Author: 小菜
 
-Package: com.xx.dyhook
-Architecture: iphoneos-arm
-Version: 1.0.2
-Maintainer: x✨
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xx.dyhook_1.0.2_iphoneos-arm.deb
-Size: 34612
-MD5sum: 694d0f7cbe21b13dd91308bcd4d2762b
-SHA1: 393972b6da7f5fd075a18d2d7b2f4e9eb9dc8c03
-SHA256: ae8c5d16102127bc90ffe7044d713f405cb4d3b1035731ef852b440969c0b6d9
-SHA512: f3f20ac25c3f9e8d4fddd6ac1e4439d3ec336520d55637338b8f707b18bd53575122c5e0be84ecd3931e352d0b9321ed3868b09fcee548dd616b74266ebfe695
-Section: 插件
-Description: 作者为人低调，这是他自用 (我也用)，首页视频界面双指双击弹出设置UI，作用：抖音顶部或侧面的功能，图层隐藏调节透明度
-Name: 抖音图层调整-rootful
-Author: x✨
-SileoDepiction: https://laileld.github.io/repo/sileodepiction/com.xx.dyhook/dyhook-rootless.json
-
 Package: com.xyaman.libkuro
 Architecture: iphoneos-arm64
 Version: 0.8.5
@@ -25533,78 +24937,6 @@ Name: libKuro插件依赖-Rootless
 Author: Diego Barría
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.xybp888.CallAssist11
-Architecture: iphoneos-arm
-Version: 2.1-1
-Priority: optional
-Maintainer: 搬运工
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Filename: debs/com.xybp888.CallAssist11_2.1-1_iphoneos-arm.deb
-Size: 679222
-MD5sum: acce373a213af97bae319c5cbe4a13e5
-SHA1: f04705905e2097b7a6eda18227188938855a5746
-SHA256: 4aef98b1151c358d168420f6d65411185ce7a41c323a6aca209907d5fee25602
-SHA512: 812e05b04e26de05f49b2fb667612942c252f7ff8ce718d7cfcbc257592d7c2cecc08bd3ec3f559ff94e58b9cc10514c72e97c5cf1bb5506509af507d1ab3228
-Name: 电话助手iOS11-正式版
-Author: xybp888
-Sponsor: 搬运工
-Icon: file:///Applications/Cydia.app/Sections/System.png
-Section: 插件
-
-Package: com.xybp888.CallAssist12
-Architecture: iphoneos-arm
-Version: 2.5.2
-Priority: optional
-Maintainer: 搬运工
-Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader,com.rpetrich.rocketbootstrap
-Filename: debs/com.xybp888.CallAssist12_2.5.2_iphoneos-arm.deb
-Size: 1107920
-MD5sum: 4c535c496012d098ebf7c8563c5c2bdc
-SHA1: 2f4296c4ab61270668ff8bb7f51847c43d28757d
-SHA256: fa3dc9cea56e1092d967d4c155f3f551553d3d1bf0a52c6e023a308a77f115ba
-SHA512: d32627f478ecf9104b924966a9d316ddffd1e8fb9642ab9e743603e18470ec190b3232522758834974472389a59eb2f834a40cdd9c442ddc6352738203f468a9
-Name: 电话助手iOS12-正式版
-Author: xybp888
-Sponsor: 搬运工
-Icon: file:///Applications/Cydia.app/Sections/System.png
-Section: 插件
-
-Package: com.xybp888.CallAssist13
-Architecture: iphoneos-arm
-Version: 2.5.6
-Priority: optional
-Maintainer: 搬运工
-Depends: firmware (>= 13.0), mobilesubstrate,preferenceloader,com.rpetrich.rocketbootstrap (>= 1.0.10~beta1)
-Filename: debs/com.xybp888.CallAssist13_2.5.6_iphoneos-arm.deb
-Size: 1645940
-MD5sum: 88e7905d1853df62ffbef4d7760c855f
-SHA1: 53e58e4b16b55adb5ed38f3a5cd2e2f0c0888c33
-SHA256: 1f8d13b384881a4c620d627d0e11f99d711bbf4a330e9fef5c465b13c60bb4e1
-SHA512: 3d4356582bcf1b76c898786f34094c573b99d5f41ad380b08bac4ca553266d0b681776d42169eeab118ddaea6fe7d74a4536faaf00edfb5908843f8759ea8a66
-Name: 电话助手iOS13-正式版
-Author: xybp888
-Sponsor: 搬运工
-Icon: file:///Applications/Cydia.app/Sections/System.png
-Section: 插件
-
-Package: com.xybp888.CallAssist14
-Architecture: iphoneos-arm
-Version: 2.7.4
-Priority: optional
-Maintainer: 搬运工
-Depends: firmware (>= 14.0), mobilesubstrate,preferenceloader,com.rpetrich.rocketbootstrap (>= 1.0.10~beta1)
-Filename: debs/com.xybp888.CallAssist14_2.7.4_iphoneos-arm.deb
-Size: 2211744
-MD5sum: cfa53385281636aafc28c819270ee3dd
-SHA1: 99d4b59e443b225adda0c991c29fbbe34766cefd
-SHA256: 7eab1543eae651ded7b0b49410217f918fd99756a6af3339c48d30d119f8d836
-SHA512: e93056a7267dc4f2ec9a4f724688904c0dce007c7fc86c5277454315aee6ecef762cd7412a94e80a8a573c264271eca85d379ec89344e97254add1f753254e0a
-Name: 电话助手iOS14-正式版
-Author: xybp888
-Sponsor: 搬运工
-Icon: file:///Applications/Cydia.app/Sections/System.png
-Section: 插件
 
 Package: com.xybp888.callassist15.fugu15
 Architecture: iphoneos-arm64
@@ -25660,24 +24992,6 @@ Name: 魔术师(iOS15)
 Author: xybp888
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.xybp888.magiciannojailbreak
-Architecture: iphoneos-arm
-Version: 0.0.1-3963
-Maintainer: 搬运工
-Installed-Size: 916
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xybp888.magiciannojailbreak_0.0.1-3963_iphoneos-arm.deb
-Size: 285972
-MD5sum: dbc1297b9cb8406d91d6323f2ffbb801
-SHA1: 3a62927c162d20fbdd87e09f3d724a5be5ba8742
-SHA256: 246daaedb9c51074a43547b49dc04e2d89ad1add87a5dbf1bebb37a0a3a673e3
-SHA512: c8fc050ac6d46305bdd82c81580aba58cb4ccd0bd4c4efd97e308c41754ee5a6dbb5ba6195f3846e06b8a89d3e36c024f09c2487dcd20f386ff6a6d3cf181709
-Section: 插件
-Description: 屏蔽软件越狱检测
-Name: 魔术师(iOS11-iOS15)
-Author: xybp888
-Sponsor: 搬运工
 
 Package: com.yan.anitime
 Architecture: iphoneos-arm64
@@ -27020,23 +26334,6 @@ Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 
 Name: Jev-Chat
 Author: ray
 
-Package: mix
-Architecture: iphoneos-arm
-Version: 1.0
-Maintainer: 搬运工
-Installed-Size: 1520
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/mix_1.0_iphoneos-arm.deb
-Size: 438994
-MD5sum: eeb146db961fbf6031b85248ff995abe
-SHA1: aa4368868af31e5d23eb5f89ca2f01f3f8e0ee86
-SHA256: ae04ab5d203225d4c3636e37918713b24260f548aa0be9ef08693dbeb1dfd5b4
-SHA512: 26a36625a90d24cc86c3a5122fde68452dbfc86cbe4782675778c845e4ff6e67c49d8030c5e85606925bb6f2d5aedf1f169e1f8a50410520aa1f116f3e6df3e3
-Name: MIX相机破解
-Author: 小果子
-Sponsor: 搬运工
-Section: 插件
-
 Package: moe.waru.jikan
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -27147,76 +26444,6 @@ Description: Click to wake up and double-click to wake up.单击唤醒改为双�
 Author: Netskao <netskao@gmail.com>
 Name: DoubleClickWake-rootless
 dev: netskao
-
-Package: netskao.jxboxcrack
-Architecture: iphoneos-arm
-Version: 1.1-2
-Maintainer: 搬运工
-Installed-Size: 396
-Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/netskao.jxboxcrack_1.1-2_iphoneos-arm.deb
-Size: 85432
-MD5sum: a1848cdfcdf1d837a94a657d3aa8dadd
-SHA1: 6608b391ea82236f0d3e6757bd2ad14eabdc924e
-SHA256: 15c583769335f2418d72a649b90fb2eb74d27186b14b671e6ad9f1f4b1edb8b5
-SHA512: 707b50c514a924d926a69850ccbc96717aa6a7fce5c0bc19b23de9489c27160cd9ef04edc802437296211f7360ebcec2e1d2d3b6109494fe45d1b7269e62d879
-Name: JSBox 破解
-Author: Netskao
-Sponsor: 搬运工
-Section: 插件
-
-Package: netskao.kanoads
-Architecture: iphoneos-arm
-Version: 1.1-2
-Maintainer: 搬运工
-Installed-Size: 376
-Depends: firmware (>= 11.0), mobilesubstrate
-Conflicts: netskao.kanosplash
-Filename: debs/netskao.kanoads_1.1-2_iphoneos-arm.deb
-Size: 86926
-MD5sum: d0d08d410b767e4da82eef7bea9b7a0e
-SHA1: a84e5123718981b741a03dfb258681ec0d0cc7f3
-SHA256: 15c540f1bd1489bebdd19f26e42cfc93241dbe44fda99fdf4919158bf485dd81
-SHA512: 71eaae0f8f12132e127f424b5606c56fc8da62ca9d24d3e5a6630a22de7588afe134ff9d78dc35f2219f7b0825ea4db46f6312082fb2f411c2c90a0b76c0cbe9
-Name: 酷安 去广告
-Author: Netskao
-Sponsor: 搬运工
-Section: 插件
-
-Package: netskao.kwctcrack
-Architecture: iphoneos-arm
-Version: 1.1-4
-Maintainer: 搬运工
-Installed-Size: 444
-Depends: mobilesubstrate, firmware (>= 10.0)
-Filename: debs/netskao.kwctcrack_1.1-4_iphoneos-arm.deb
-Size: 104652
-MD5sum: 665341f7c1455e0b9861fd632b2db80e
-SHA1: 93f50c1ffe88a6b53506dc4850e0cc10dc062d78
-SHA256: d59fd70734c36fcef652a491f21dccedeb33f79deeb1f35d86e8edaf4038841c
-SHA512: 836aa7f28f18209af1e2973b5991900c0d10892563b69f0998f7a5f4a95f9fbddf9552a36a91b0867768818874360c220f16732b4f4bcf7d2383f4e0f5a5b672
-Name: 酷我畅听 破解
-Author: Netskao
-Sponsor: 搬运工
-Section: 插件
-
-Package: netskao.limneoscrack
-Architecture: iphoneos-arm
-Version: 1.1-3
-Maintainer: 搬运工
-Installed-Size: 136
-Depends: mobilesubstrate, firmware (>= 10.0)
-Filename: debs/netskao.limneoscrack_1.1-3_iphoneos-arm.deb
-Size: 4726
-MD5sum: cdb6dfb08da2423e7199eb1c6b59155d
-SHA1: 8dc603957ad36f66dff0ed016f25e974ab0a7c79
-SHA256: 0274480cc6a606235c384444e64db5ddb12ea4e8ca570ea4a3330d4800dfc8c9
-SHA512: 25c1d3b1d3bd91ec5a8d0b0510c0f2ff44bea4227bd3259b9ab69d2c5fdedf272587a10f20effbec4ae54febf0cfc75ef8659dcc7f93f722580ee7e57fb02771
-Section: 插件
-Description: 解锁Limneos所有插件全功能
-Name: Limneos 插件破解
-Author: Netskao
-Sponsor: 搬运工
 
 Package: netskao.wechatpurifications
 Architecture: iphoneos-arm64e
@@ -27343,27 +26570,6 @@ Author: MainRepo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: org.mr.aquaboardx
-Architecture: iphoneos-arm
-Version: 2.0-58
-Maintainer: 搬运工
-Installed-Size: 768
-Depends: mobilesubstrate, preferenceloader, org.mr.unsubs
-Conflicts: net.limneos.aquaboard, net.limneos.aquaboard8, com.fuyuchi.unlockize
-Filename: debs/org.mr.aquaboardx_2.0-58_iphoneos-arm.deb
-Size: 767370
-MD5sum: da51f8c6f134f64750e6cf87b79e9735
-SHA1: 217001156aee37d69e3ded08236f48bf473a7db4
-SHA256: 9a4f0bed6c6baf86dde6b430b7700fa12071800e3a4a0b2e14511b7298bf62b9
-SHA512: 35476f615d1b9f7ae97e99e396da714f47c1dad2f3ed4d0770139fdfd9b9e0d9a4e77a7ba98723057abc7fb44c69677facf96d6e1799a14d5d3899de3326cd28
-Section: 插件
-Description: Amazing Water Effects On SpringBoard
- 水滴特效破解版
-Name: AquaBoard XS 水滴特效
-Author: MainRepo
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
 Package: org.mr.autoanswerx-rootless
 Architecture: iphoneos-arm64
 Version: 2.0-2
@@ -27423,25 +26629,6 @@ Author: MainRepo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: org.mr.dynamicpeninsula
-Architecture: iphoneos-arm
-Version: 0.6-79
-Maintainer: 搬运工
-Installed-Size: 1668
-Depends: mobilesubstrate, preferenceloader, firmware(>=12.0), org.mr.unsubs
-Filename: debs/org.mr.dynamicpeninsula_0.6-79_iphoneos-arm.deb
-Size: 345918
-MD5sum: bf33201f04a9190b9c40165414d464c9
-SHA1: 3d81259b97e5e6421a3f284dfe116928ed601009
-SHA256: a3cc3d01efced423fa9a4b711dfbf26373a6d2797780cc788c776aa3311655d2
-SHA512: 48eb307359fad2bf0c8507b51d178936db6f3808b1344dd3d92a375a5499c9a964037cddde6c5b064b159208fc6b8a92fc6fc2068c0fec2ea79d5ae888c3e273
-Tag: Cydia
-Name: DynamicPeninsula 灵动岛破解版
-Author: MainRepo
-Sponsor: 搬运工
-Icon: file:///Applications/Cydia.app/Sections/System.png
-Section: 插件
-
 Package: org.mr.nfcwriterx-rootless
 Architecture: iphoneos-arm64
 Version: 4.0-3k
@@ -27481,23 +26668,6 @@ Name: SmartTap XS 破解版-Rootless
 Author: MainRepo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: org.mr.unsubs
-Architecture: iphoneos-arm
-Version: 0.0.6
-Maintainer: 搬运工
-Filename: debs/org.mr.unsubs_0.0.6_iphoneos-arm.deb
-Size: 12666
-MD5sum: ec7b8954dc20fb81f7b1e35f858060d0
-SHA1: bc28791d1ff3de59e21736ab69deca6de4799a7d
-SHA256: 2d26a7632e6e96e2e8f1ba9bc9381a48b03274c3ccb2e5d7b1226f79ae3bff3f
-SHA512: 111e5f7c52bafe3b076150c122acb8eb47db749da759e8c130aa8fe12772e05efa3abb40d194f0b0bb032947266ca9da800e07f654b12925c02f9f2e5698e68f
-Section: 插件
-Description: 破解插件依赖
-Name: Unsubs破解依赖
-Author: MainRepo
-Sponsor: 搬运工
-Icon: file:///Applications/Cydia.app/Sections/System.png
 
 Package: org.mr.unsubsrl
 Architecture: iphoneos-arm64
@@ -27958,27 +27128,6 @@ Description: AI tool within your hands.
 Name: Write Now
 Author: Lessica <82flex@gmail.com>
 
-Package: ws.hbang.alderis
-Architecture: iphoneos-arm
-Version: 1.2
-Maintainer: 搬运工
-Provides: org.thebigboss.libcolorpicker (= 1.6.7), me.nepeta.libcolorpicker (= 1.6.2-3)
-Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), uikittools
-Conflicts: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
-Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
-Filename: debs/ws.hbang.alderis_1.2_iphoneos-arm.deb
-Size: 690928
-MD5sum: bdcd568cdf29182daffadc516aaed99c
-SHA1: 919a644d06bb99ef1052db7ec9ba80475202ba16
-SHA256: 798bb401608430a3d25dc4c30445fdcf709f00b5c7ad4f86ddf3bef0c3d35137
-SHA512: 75bc4e737f161db9f36b259f7e214722bc5b845a4d22ccc0a1f92495acd6343a72752a8f707f36870cd8b51a2e3169d7f4f2b7ca817967491a6203ab1e0d6f4b
-Section: 插件
-Description: Color picker support library for tweaks
-Name: Alderis Color Picker
-Author: HASHBANG Productions
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
 Package: ws.hbang.common
 Architecture: iphoneos-arm64
 Version: 1.9
@@ -28114,24 +27263,6 @@ Section: 插件
 Description: Xinamine bundle. Includes linker, patcher, 'chex' link checker, 'chix' link fixer, plus other supporting filza scripts.插件依赖包！
 Name: Xinam1ne All-in-One插件依赖包
 Author: Paisseon, Sudo, NoW4U2Kid
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: xyz.itznebbs.libnebbs
-Architecture: iphoneos-arm
-Version: 1.6
-Maintainer: ItzNebbs
-Installed-Size: 272
-Filename: debs/xyz.itznebbs.libnebbs_1.6_iphoneos-arm.deb
-Size: 57728
-MD5sum: 0f5331b5c32895fc4ea35308b56043e2
-SHA1: 4633e82dd0a6de40c10530ab00409b02de992a59
-SHA256: ee6a3b60e3a146ead1cae8553077022e29471e28abf343bf2d87f19b48b945ec
-SHA512: 42549a51b5b4df6334d20baaeeabcabe93d2d8a041dd9346fcd2fb63cb16ba90cc09001397402294f762248f38f262a7ecce92c7969c8678104ed7e064a179e2
-Section: 插件
-Description: A library of things commonly used in my tweaks.
-Name: libnebbs
-Author: ItzNebbs
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
