@@ -18778,6 +18778,102 @@ Author: dvntm
 Icon: https://axs66.github.io/pro/icon/fbo.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/fbo/js.json
 
+Package: com.Axs.filzacarplugin
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Axs
+Installed-Size: 10644
+Filename: debs/com.Axs.filzacarplugin_1.0.0_iphoneos-arm64.deb
+Size: 5351416
+MD5sum: 7e43521fb543c2de96d6ddb47822e686
+SHA1: 59f48494072ad050b2be12a067a12b58671432d3
+SHA256: f35b29c56cc47a66e3e8dc20104ed02e1ffa7166d09e1a008989822c0a45df6f
+SHA512: 4f7b415c3371c22811ab65d3625d947015a22bc9fe31aaff595e4e03821f0fb0416052c86bb30057e627caa9f2813fbbbd37ecbe403fb1ead2dc1eb1a4911eaa
+Section: 插件
+Description: 提取与修改 Assets.car 资源 (Filza 插件)
+Name: FilzaCarPlugin
+Author: iosdump
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/filzacarplugin/js.json
+
+Package: com.Axs.filzacrack
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: debs/com.Axs.filzacrack_1.1-9_iphoneos-arm64.deb
+Size: 28804
+MD5sum: 030a1ddf372f6b822550d3a6e4cdcb6f
+SHA1: fbf227feb99602035f38a996af035a7d9936fd48
+SHA256: 260dce95397f44f06a756a6f8740a17024f2b7c8d4f541ca280652363da0aac0
+SHA512: e45de6e720aeb43279afb48857c301f85a77de241263adedec21f8d224d9f2323720e0637df0ccb5f37483603c841ccdb5b62352f6c92f3d5e9706502c1db480
+Section: 插件
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份。
+Name: Filza Crack
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/filza.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/filzacrack/js.json
+
+Package: com.Axs.filzaswipeselect
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: Axs
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.filzaswipeselect_0.0.2_iphoneos-arm64.deb
+Size: 8680
+MD5sum: 08c0fb954591d22031208f0b2d9975b3
+SHA1: 2572d732bd5edc5fb950a6da5b39f95397d4c7e4
+SHA256: 9db85b70f62236844c1d2b6589865f4424a303382f04c898eaa0e40f0e5293ab
+SHA512: 2c0c4f99f23dce875f4dfd2bde65a1ec0e3c4a7374ded080e16f3b2dcd1218eb09fd62d8170ce7a0d88c9950a17f9da0feb47d6555b384341fad8bc4a3797cc1
+Section: 插件
+Description: Filza 支持滑动多选文件，告别逐个点击
+Name: Filza滑动多选
+Author: korboy
+Icon: https://axs66.github.io/pro/icon/filza.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/filzaswipeselect/js.json
+
+Package: com.Axs.fkjdcvip
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs
+Installed-Size: 1708
+Depends: mobilesubstrate
+Filename: debs/com.Axs.fkjdcvip_0.0.1_iphoneos-arm64.deb
+Size: 342032
+MD5sum: 8f9c7d383a7deba39cd534b0edb6ac5a
+SHA1: ee9947fc6c902b441d50df28ecd838c2317b1b55
+SHA256: 8bf5af81723244b9b686f17d05a273cfaf1765082964e6de380fb8a5d9e2c775
+SHA512: b7c723df1d5afc790cef0c738e5b322de6c298517439e3668455de6424227420d51a9ee934852fdf2bf1d855095cbb03431557babbdb70d30abca055ede10fc6
+Section: 插件
+Description: 疯狂背单词 解锁vip
+Name: 疯狂背单词 解锁会员
+Author: 🅷🆆
+Icon: https://axs66.github.io/pro/icon/fkjdcvip.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/fkjdcvip/js.json
+
+Package: com.Axs.flex3
+Architecture: iphoneos-arm64
+Version: 1:3~Beta90
+Maintainer: John Coates
+Depends: mobilesubstrate, firmware (>= 12.2) | org.swift.libswift (>= 5.0), firmware (>= 9.0)
+Recommends: com.rpetrich.rocketbootstrap
+Conflicts: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
+Replaces: flexpackage, flexpackagebeta, com.fuyuchi.flex, flex2packagebeta, flex2package, com.fuyuchi.flex2, flex2blackpackagebeta, com.johncoates.flex3, flex3featurecatalog, flex3toolsonly
+Filename: debs/com.Axs.flex3_1_3_Beta90_iphoneos-arm64.deb
+Size: 6329644
+MD5sum: e437f289c2f708a52baf8b63f746e0df
+SHA1: d4db3dfd50306ffd21de9e465fcd08ff1f326ce3
+SHA256: 0cb34f5e65d7e1837ff8e592b5270cfd08bce315f9317cecc86c1e1c91c6fce3
+SHA512: 9df71e060ea06bc1c7fecf78f3e1648aacbd1ab35d64cac72568db8f66a54dfcf30933dfbc331a2a5e0e2a6362e16f7562dc83522f30ad670f03e74519ee15e8
+Section: 插件
+Description: 开发您自己的调整并在Flex社区云上共享。Dopamine2.0可生效系统补丁，内置Legacy arm64e Support补丁。Xina2.0不要安装，不要安装！！！！
+Name: Flex 3 Beta90
+Author: John Coates
+Icon: https://axs66.github.io/pro/icon/flex3.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/flex3/js.json
+
 Package: com.Axs.floating-view
 Architecture: iphoneos-arm64
 Version: 1.6.0-6
@@ -18801,6 +18897,197 @@ Name: FV分屏（免授权）
 Author: be-huge
 Icon: https://axs66.github.io/pro/icon/svp.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
+
+Package: com.Axs.floatlyrics
+Architecture: iphoneos-arm64
+Version: 1.0.0-14+debug
+Maintainer: Axs
+Installed-Size: 548
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.floatlyrics_1.0.0-14_debug_iphoneos-arm64.deb
+Size: 47040
+MD5sum: d13a9aa532c2a43b51eaee26076f7f7f
+SHA1: 98d13720081cc0746840e7bcfeba5d1e72068db8
+SHA256: 0b32aabac1415e557b275c6402bbef797e1e403b060cb3ff259e2044bd1a8ad5
+SHA512: 8dcbec933d19d768fdbee51fe9caa625369ecd756c4626178df32e92dfa71360c27e38ceb0a00aa0c576bb29a2d31e821f5ffe80c2501ff17d56b0e9fda376e9
+Section: 插件
+Description: 悬浮歌词显示插件 - 在屏幕上实时显示当前播放的歌词，支持苹果音乐，汽水音乐，qq音乐等等。
+Name: FloatLyrics 悬浮歌词
+Author: xwzios
+Icon: https://axs66.github.io/pro/icon/floatlyrics.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/floatlyrics/js.json
+
+Package: com.Axs.freepip
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.freepip_0.0.5_iphoneos-arm64.deb
+Size: 4996
+MD5sum: 03cb8b4996683c4b5a28f3b582276bec
+SHA1: 07a6998541e8e2a9f70767f08bfb19d6ddf5b87b
+SHA256: 1a055eac36793d618ae590a0b2c0aa7cd98f2cf7b52bb78535759aef354f3409
+SHA512: aa69d799e425ccc8d63545574792a01621cc89f70bc0575a7f2cfdab44c4d3239e6760906774e5ed7d2eecce9beb890f85d84d8f64f1daa4de9ce0ce584bdc7d
+Section: 插件
+Description: 任意调整画中画大小和位置，长按画中画窗口切换模式！
+Name: FreePIP窗口模式
+Author: Soh Satoh & SINI
+Icon: https://axs66.github.io/pro/icon/freepip.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/freepip/js.json
+
+Package: com.Axs.fvicon
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: icon
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.fvicon_1.0.0_iphoneos-arm64.deb
+Size: 7448
+MD5sum: ec5ef3f4db1a63e64a42658aca98c3ea
+SHA1: 05d6550a128b230ba6355be6e6593541d5596aa9
+SHA256: f3ba8f61c5d755c20f30af76dbda6144bb2111341b3d525609a51617d14489ef
+SHA512: 5df7ddd8cfb767375cca5103ac07ae3459e159061d1f74910bcc9cd5497d5bee9b945d64553fdd8f71e5bb1f3fd2e89abccf9aaad799894818022ffa2920540e
+Section: 插件
+Description: 这款插件的作用是:工具栏图标映射
+  * 无根: /var/jb/var/mobile/Library/FloatingViewInfo/
+  * 隐根:[jbroot]/var/mobile/Library/FloatingViewInfo/
+  * 命名规则：与FV设置界面arc工具栏排序界面的名字为准。如：锁屏.png、截图.png、录屏.png
+Name: FV分屏-工具图标美化
+Author: icon
+Icon: https://axs66.github.io/pro/icon/svp.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/fvicon/js.json
+
+Package: com.Axs.geltouch
+Architecture: iphoneos-arm64
+Version: 5.2.0
+Maintainer: Axs
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/com.Axs.geltouch_5.2.0_iphoneos-arm64.deb
+Size: 14008
+MD5sum: 363cd5766344bc3ed286d3bdc0932967
+SHA1: ae55e790e89444668585bd2321335f198ef93d66
+SHA256: 0d9f1f46d09ce5b6b2298617bd870ded454c401bd7ad0dfa7feb0c028155efac
+SHA512: 6997ffdced4724b5ab925560cbb14b05207489dd15b1a3d3b7045440312a627d47f488624d09892419c440f463a7c24ab1d2b591462bcb52de8ba924507dcb75
+Section: 插件
+Description: 微信图标点击动画动效，模拟果冻弹性反馈！
+Name: 微信图标果冻动画
+Author: baiy
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/geltouch/js.json
+
+Package: com.Axs.googletranslatedownload
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Axs
+Depends: mobilesubstrate
+Filename: debs/com.Axs.googletranslatedownload_1.0.0_iphoneos-arm64.deb
+Size: 9224
+MD5sum: 61f0bdf67af6444feb55e7b77ce77b3c
+SHA1: d35a691faafd70ec4499af9ea1d5644a3b6e7678
+SHA256: 2f60f254ac72a33ac29ad18d283aded9f5db090b6ffb841dc942ca1f4ac729d1
+SHA512: edfd93ae271a9c16c9de4943863cc700daf92a0163355ef9b4860d0e0c1aa50a1fdcf9e17df43de731dd34295645f2e851689c6f9de7ebdb9d68af62794ab36b
+Section: 插件
+Description: 长按 Google 翻译中的图片译文，即可直接保存至相册
+Name: 谷歌-软件增强
+Author: waruhachi
+Icon: https://axs66.github.io/pro/icon/googletranslatedownload.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/googletranslatedownload/js.json
+
+Package: com.Axs.gps
+Architecture: iphoneos-arm64
+Version: 0.3
+Maintainer: Axs
+Installed-Size: 1308
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.Axs.gps_0.3_iphoneos-arm64.deb
+Size: 248112
+MD5sum: 5e7fb0d381b80b733f9830761344334a
+SHA1: b5657f68a094b93f1b90cc317283b5f99d628c4f
+SHA256: 83286498d4c1aea8ce554f9f310a8fcbbb01a0a153ad54a938f2ef2fa6dcb12a
+SHA512: d1c9aa6adb3582bd5e2098ea4adfb647a212adf824af8745ff1d166e39836465edb7b10b4e6030479a423d95bf38a481d0b95214a9d68c5abc9b21b8ac383b47
+Section: 插件
+Description: 功能强大的iOS位置工具
+Name: GPS++
+Author: pxx917144686
+Icon: https://axs66.github.io/pro/icon/gps.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/gps/js.json
+
+Package: com.Axs.gravitation
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Axs
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.Axs.gravitation_1.0.0_iphoneos-arm64.deb
+Size: 71448
+MD5sum: e6c0b985e86dbdec169fc42fafec3f94
+SHA1: 934ef92a2cde3dd46bc4b9dee6b3a6d5ee15d909
+SHA256: 0fe972057966e1fed980dfaa5fc542acd2334a55728ced4934d51728a7966cba
+SHA512: df9b043ee9f0325fef5a80dba788f62364cc66f7ad5e683b64e0abf52c986295aebeba4b33912ad83f693c32620368296a82108ac7e44706426865e7d66e62ca
+Section: 插件
+Description: Shake the phone once on the desktop, and the app will start a gravity-sensing dance; shake the phone again to return to normal. Only supports iOS 15.0-16.6.1 systems
+Name: Gravitation 重力感应
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/gravitation.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/gravitation/js.json
+
+Package: com.Axs.guodong
+Architecture: iphoneos-arm64
+Version: 8.8.8
+Maintainer: baiy
+Installed-Size: 436
+Depends: mobilesubstrate
+Filename: debs/com.Axs.guodong_8.8.8_iphoneos-arm64.deb
+Size: 65972
+MD5sum: 33815dd20c01c5aff4bb7b990205c8a1
+SHA1: 115aabb7d2dc0d3fea64ba049b09bb24f87f77ae
+SHA256: 804bc91406896e827fb580ff04f688858650319d8d544faea25cde97d283b6c4
+SHA512: 235f6710869d03358eb68a259a830e78f6448270f795860218ef35fe45687a656a9d15f57984a24053f1e0a62b0374f41b5d9f4c87e5c190ef1f32fb7033ce43
+Section: 插件
+Description: 给Wechat套上一层玻璃质感的图标。
+Name: 微信美化助手
+Author: 白衣
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/guodong/js.json
+
+Package: com.Axs.h5gg
+Architecture: iphoneos-arm64
+Version: 7.9.1
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.Axs.h5gg_7.9.1_iphoneos-arm64.deb
+Size: 2104344
+MD5sum: 518b648dbb1b16ff55b4353ea22bef33
+SHA1: 881daac6de513537603baac579139b307fdd0784
+SHA256: eeb4f6373cdde20e94a3047563944b49d3e1de24eb8c05298d7e374a94ec9db0
+SHA512: 189a8ca315ec7e0733d63713e89529bbd3b5fee97dce7db24cd4b9fcb2f0846d67e69072dcff8832ddf5157cf69d674dff685a8c376962343953bd87f33df1ee
+Section: 插件
+Description: 游戏开挂神器，会用的使用，不会用的就不要安装。
+Name: H5GG跨进程悬浮版
+Author: tuancc
+Icon: https://axs66.github.io/pro/icon/h5gg.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/h5gg/js.json
+
+Package: com.Axs.hapticalert
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: Axd
+Depends: mobilesubstrate, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: debs/com.Axs.hapticalert_0.0.2_iphoneos-arm64.deb
+Size: 3240
+MD5sum: 552fc55d4ba85940681c2471d5ff7a6e
+SHA1: 8b64feb54a747ca640145b3a29eb3b442fb7dbcc
+SHA256: d411255630565ec084a13fcfa2c307866c417bc92859302bb630087451ef822f
+SHA512: f51cfc33e9339fd14969362befdf29c5d8b1d0d029c01037b1620bb29a76e2d2eb2dd4b85348f5c670d9ee84d9e2763f26a0cca2dddcbc00cb3e6f5341e7dd46
+Section: 插件
+Description: 触觉反馈。
+Depiction: https://axs66.github.io/pro
+Name: Haptic Alert触感
+Author: pxcex
+Icon: https://axs66.github.io/pro/icon/hapticalert.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/hapticalert/js.json
 
 Package: com.Axs.kongzhidiy
 Architecture: iphoneos-arm64
