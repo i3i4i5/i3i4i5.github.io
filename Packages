@@ -17009,6 +17009,24 @@ Author: 热心网友＆雪糕
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/WCElite/js.json
 
+Package: com.Axs.WCRefine
+Architecture: iphoneos-arm64
+Version: 2.1-5
+Maintainer: Axs
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.Axs.WCRefine_2.1-5_iphoneos-arm64.deb
+Size: 9311420
+MD5sum: fa0168e9ac6e8b792c0939557f9e090c
+SHA1: d309684a05c1650248155df59a7ba5c9a1b10466
+SHA256: 0a1de7777ec555ce8db8d187d2eaffcf97ddf69f1946d4e7aa32cb5216799ad8
+SHA512: 730dbfa64bd271d84962f25e7e8528ce4e7ccef327eee7ef8b51330e0ea59219989a0e186b43ee09856f2b3285807f28c4c7f394b89f432561ac82754d8c7915
+Section: 插件
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Name: WCRefine 破解版
+Author: 傻网友
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: com.Axs.afn
 Architecture: iphoneos-arm64
 Version: 3.6.1
