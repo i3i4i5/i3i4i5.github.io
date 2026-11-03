@@ -19797,6 +19797,465 @@ Author: b4db1r3
 Icon: https://axs66.github.io/pro/icon/lstimeseconds.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/lstimeseconds/js.json
 
+Package: com.Axs.lyric
+Architecture: iphoneos-arm64
+Version: 3.0
+Maintainer: Mika <qiaozhani000@163.com>
+Depends: mobilesubstrate
+Filename: debs/com.Axs.lyric_3.0_iphoneos-arm64.deb
+Size: 116056
+MD5sum: 972eaedf6bc2553948163a2be5479172
+SHA1: 3fdf94fc0960ced0df05291e2c00e7c6ba83f76a
+SHA256: eaf7b10beb5770a787d47f1876ecc46b72678429e8d56d9174b33d6fbf7533a5
+SHA512: 9453613c9b8b3f177491c9687986f48f7cfc30a473960a9b5464e29e299c548f546e23c04c8f238080c70580d69543bd020086033eecf1748f978ceab4d52bbd
+Section: 插件
+Description: 适配任何带锁屏歌词的应用！不用授权也可以使用，不要浪费钱。
+Name: 桌面歌词
+Author: Mika <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/lyric.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.memorystatus
+Architecture: iphoneos-arm64
+Version: 3.9.0-6
+Maintainer: zqbb
+Installed-Size: 11450
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl,com.axs.compatibility
+Filename: debs/com.Axs.memorystatus_3.9.0-6_iphoneos-arm64.deb
+Size: 3071600
+MD5sum: 20eacad2447df0c39c76ea1d54d14974
+SHA1: 827172762a791fdb90a27d637addf1573a16addb
+SHA256: 636a54e6b2389a2f16e6c58aac1f07e48f53431afd063fb2577c8de2b3ec258e
+SHA512: b52442f68c116fc09e2f3d71397320250d969bdc1f316415846e9a35ca9fdfd2c33c6194a26549bd77383478da5584d781fb389a8733fd18429b5231cda96679
+Section: 插件
+Description: Set memorystatus to avoid being killed by the system
+Name: Hello Memory Status
+Author: zqbb
+Icon: https://axs66.github.io/pro/icon/memorystatus.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/memorystatus/js.json
+
+Package: com.Axs.mikotohelper
+Architecture: iphoneos-arm64
+Version: 1.3.6-10
+Priority: optional
+Essential: no
+Maintainer: Misaka
+Provides: mikotohelper
+Depends: mobilesubstrate
+Conflicts: mikotohelper
+Replaces: mikotohelper
+Filename: debs/com.Axs.mikotohelper_1.3.6-10_iphoneos-arm64.deb
+Size: 20123036
+MD5sum: c26bab8640373ef26b7dbb519d277492
+SHA1: e29ace2dbf42702738148fae497537b73f7149b9
+SHA256: a1316a6829bc89f2d3ec479368c6c2b821f24721215faa0470ccb62787859538
+SHA512: 4584b86e0dc979fc063869b6e52b68a1d1742f1d50f50e0b1469795073cf0ba551836fb0ebb5bfcd1785caee7372f50b80a6c2ec5fd04089160eabe8d387eb01
+Section: 插件
+Description: Misaka
+Name: MikotoHelper
+Author: Misaka
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/MikotoHelper/js.json
+
+Package: com.Axs.milkyway
+Architecture: iphoneos-arm64
+Version: 5.2.0-1
+Maintainer: Reborn
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.milkyway_5.2.0-1_iphoneos-arm64.deb
+Size: 54712
+MD5sum: 54382938d66629109408b2113be0db47
+SHA1: 888f28fec3093298c6f5d176b390ed191e911fd8
+SHA256: b9f28b71348c381d6cab822ef5ac13793f307311384387ef0e085e7d0124f2c0
+SHA512: a27e16d156b918d4e2b32229692061797b2d9a9bc5f72d036043119cb216de84cb5e4104b3bba504942a6db88a8e8e22dc56a5b821288a695ffdda21a7346de9
+Section: 插件
+Description: Windowed multitasking for iOS 17-18 and 26. A modern rewrite of MilkyWay2 by akusio.
+Name: MilkyWay 分屏插件
+Author: Reborn
+Icon: https://axs66.github.io/pro/icon/MilkyWay.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/MilkyWay/js.json
+
+Package: com.Axs.mineland
+Architecture: iphoneos-arm64
+Version: 2.0-6+debug
+Maintainer: Axs
+Installed-Size: 388
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
+Filename: debs/com.Axs.mineland_2.0-6_debug_iphoneos-arm64.deb
+Size: 99180
+MD5sum: 724714323ae724322e39dffca8e20e4e
+SHA1: 627c21c51006e3c680fa4739248f81cd69677ca2
+SHA256: b0f5ec89a99392ab5e3488ac575a4630d9e37e095865b6c65b5d45de7f50f0f8
+SHA512: b3dcc7e0786148fb89f8fb540bf917308208b72ee0e13f2fe8cf09cc562fd02fb0f9e0d4a5cee30e3e881b0508fd91b00718a68bee4041662a82189dce08da7e
+Section: 插件
+Description: 药丸爆改感叹号。仅支持16系统，对灵动岛进行调整，如透明度位置或比例，非灵动岛机型可强开灵动岛。Lower your Dynamic Island and make it disappear if you don't need it. All the original code is from KhanhDuyTran.
+Name: Mineland灵动岛调整
+Author: A
+Icon: https://axs66.github.io/pro/icon/mineland.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/mineland/js.json
+
+Package: com.Axs.minilsp
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Maintainer: Mr.Zhang
+Depends: mobilesubstrate
+Conflicts: com.skypain.minilsp
+Filename: debs/com.Axs.minilsp_1.1.2_iphoneos-arm64.deb
+Size: 5588
+MD5sum: 393b10232d51635c9c61d67ac460cc8f
+SHA1: 65ef63045642175728d940b241309d3168b6ca5f
+SHA256: 5b454b3fa7d47b998f6008398d337446f992ed97ea63b46e04a0c9aec0ea272e
+SHA512: 6861d9ca19d6c624552f710a23ea73e2ed1e7daf4b315f751c29bb382967fc8a479b3ae54bd886481dd4c6fdd6a3acb072885f8407607c618552ef25076fbda7
+Section: 插件
+Description: 锁屏时候，音乐播放器缩小，很美观。无设置。
+Name: MiniLsp锁屏迷你播放器
+Author: Mr.Zhang
+Icon: https://axs66.github.io/pro/icon/qqyy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/minilsp/js.json
+
+Package: com.Axs.minotaur
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Maintainer: Axs
+Depends: mobilesubstrate, preferenceloader, cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: debs/com.Axs.minotaur_1.2.2_iphoneos-arm64.deb
+Size: 147076
+MD5sum: 80d4a67b5e5ce4ed7b1ebd012b4980ef
+SHA1: b26302cb3a8a707f5e8dfd13c883928a239cc8df
+SHA256: 21b7b09edf8b90ec96c9e682ef62545e6043ac12d130e5e3ac167847b6771b98
+SHA512: 1400c31aa8df56eada0429fdab695cfe33a9f2feeda13e3ff40f8fe3182275bedd5281853024b040e4395469f97d49717d551cdd625c40ebbc056eb5949e9954
+Section: 插件
+Description: 设备状态栏中的通知样式风格。
+Name: Minotaur 横幅通知
+Author: Muirey03
+Icon: https://axs66.github.io/pro/icon/minotaur.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/minotaur/js.json
+
+Package: com.Axs.misaka
+Architecture: iphoneos-arm64
+Version: 0.1-1+debug
+Maintainer: Axs
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: debs/com.Axs.misaka_0.1-1_debug_iphoneos-arm64.deb
+Size: 5532
+MD5sum: 43c71e34ab3b57a109416ade83e31af2
+SHA1: 57d0790b7303677ebc334c5289254df9728c1a13
+SHA256: 3514f796e1752f60fda24a2edd7f9392f39fd7bd11ffa7617cf4f32803b2b093
+SHA512: 819ab07441667c88ec11afb3ba3bc41edcd7edacc487a79a4de558dd7ba940c9b4209eda2a02d65fe493cd694df35ec697d20d02141a4468e47ac45c80bb6175
+Section: 插件
+Description: 注入即生效，没有任何设置。
+Name: 去除misaka匿名艾特次数限制
+Author: Carck
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.mokeygg
+Architecture: iphoneos-arm64
+Version: 1.0.0-148
+Maintainer: mokey
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.mokeygg_1.0.0-148_iphoneos-arm64.deb
+Size: 14636
+MD5sum: 236c633c73c89ec451d6b0da9025a6b8
+SHA1: cd1e170763758c2be87e0192af0dea57030f514c
+SHA256: a0262dfdae60f329eeb45f7a88505cb8664a2aa0d99d5028dfac8f879275299a
+SHA512: 2e985ea6a37c2ccdab3cc67c552e82d4d4a213d80e1b8340932cafbb6e8e35fd80d202e7b6545b1b6043fea25b6f825db8d7db8123020f7d0eb91807e65d1009
+Section: 插件
+Description: mokeygg
+Name: 微信语音跑马灯
+Author: mokey
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/mokeygg/js.json
+
+Package: com.Axs.moorebarx15
+Architecture: iphoneos-arm64
+Version: 1.0.0~beta1.0.5
+Maintainer: tateu
+Installed-Size: 968
+Depends: firmware (>=15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: net.tateu.moorebarx13, net.tateu.moorebarx16
+Filename: debs/com.Axs.moorebarx15_1.0.0_beta1.0.5_iphoneos-arm64.deb
+Size: 185088
+MD5sum: 52c005d36871a493718044dc96a03d9a
+SHA1: f834c8b0cfc3adba477db73b8e943c4c5087a5ee
+SHA256: e53c17e263e30ee714ed8020bcd138f988eee512ea3b71ecee15c5dcf4373bae
+SHA512: b60b78b99a5fc338eda065faa574086106baa3cd926675bc5c33bc7fb716d6a2e86ad37d0e6fc35f3673ccf67652d390f1d2f0545c77955756e22bfa2275e5ae
+Section: 插件
+Description: 新晋状态栏插件，可将通知图标悬于状态栏，自定义状态栏控制中心样式，显示系统开关状态等
+Name: MooreBarX15状态栏图标
+Author: tateu
+Icon: https://axs66.github.io/pro/icon/moorebarx15.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/moorebarx15/js.json
+
+Package: com.Axs.movenotification16
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Axs
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.movenotification16_1.0_iphoneos-arm64.deb
+Size: 17376
+MD5sum: d76384ab3a98356d383f0ecae1415459
+SHA1: 93631a67e81b15cfa62f054522fa8078dff5ead4
+SHA256: 4c05c076e55e84f481a409b6d600ecf3e23fe3ba0ae51854a2c2400fcd2de630
+SHA512: 2dda846a899fcebd9e6bae4ccd90351ef2aa2b664448f44998bc3fbe47bf54bf8e8c17963cc8b002aebefa77b9c2942428da60e388843b2fb0fe7fe9289f5631
+Section: 插件
+Description: iOS16上的移动通知。
+Depiction: Axs
+Name: MoveNotification16
+Author: JunesiPhone
+Icon: https://axs66.github.io/pro/icon/movenotification16.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.msgfilt.rootless
+Architecture: iphoneos-arm64
+Version: 1.0-7
+Priority: optional
+Maintainer: Axs
+Depends: firmware (>= 5.0)
+Filename: debs/com.Axs.msgfilt.rootless_1.0-7_iphoneos-arm64.deb
+Size: 144848
+MD5sum: 59cdd4a2497e40427aa954fb23100f75
+SHA1: 250b8c44ade9e27d9e383152320ec47804836430
+SHA256: 0aafd468ecba74974cc041905c64cc51c36bd2b78a91597bd5ccf383943e3fa3
+SHA512: 06dc86c0d725dff99e8bb30dc053e4035eaa6a7bc47b95a58c960f397015481e7c89e68eb57acad7acd0f534121db44f6c5bc3524c64a8ce4fb22abd5aa49d76
+Section: 插件
+Description: 消息屏蔽助手
+Name: 消息屏蔽助手
+Author: Mao
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/msgfilt/js.json
+
+Package: com.Axs.mshfplayer
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs
+Installed-Size: 876
+Depends: firmware (>= 15.0), com.ryannair05.audiosnapshotserver2
+Filename: debs/com.Axs.mshfplayer_0.0.1_iphoneos-arm64.deb
+Size: 86412
+MD5sum: 54b2586d389d8eef4cd877e21ea5d668
+SHA1: 9c1840e29c375d407e607907c6f3dafe556d19f5
+SHA256: ec73ec953fb919f720c72e5eb2bb5647a970e9ac0cd1a23fea4cd2d3454f0565
+SHA512: 879e69d1377fc915abf014c32889b14da26249ae22f00be2641d72c83b86d21fa1b020f45530d435868eb6665096c75646ff7b3b4d6d35ec03d711bcd0254a98
+Section: 插件
+Description: 手机有声音时会跳动波浪！
+Name: MashPlayer 音乐波浪
+Author: lhh
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/mshfplayer.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/mshfplayer/js.json
+
+Package: com.Axs.mterminal
+Architecture: iphoneos-arm64
+Version: 1.6
+Maintainer: D.F (MTAC)
+Installed-Size: 272
+Depends: coreutils, firmware (>= 11.0), system-cmds, zsh
+Filename: debs/com.Axs.mterminal_1.6_iphoneos-arm64.deb
+Size: 86416
+MD5sum: fb67d213c8815cd80766e9337d5f90cd
+SHA1: b5edc390475548f407ae329f6ca3dcd519a1e64e
+SHA256: cbba409afcbaea402ae7c91dde0e2cb31ba1f1798370ba6cce4e221993f42b26
+SHA512: 0a9ed1f0e5e3669bbef0a1b7c9d2e0233b1b585f1b062e3befee01ee80fbf89d86b0b84ab0ce4648bccf6459b1bfa3c30ad6da952b351fd69622e11c4c884b69
+Section: 插件
+Description: 终端应用程序
+Name: MTerminal终端
+Author: lordscotland
+Icon: https://axs66.github.io/pro/icon/mterminal.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/mterminal/js.json
+
+Package: com.Axs.musiclizi
+Architecture: iphoneos-arm64
+Version: 1.1.8
+Maintainer: Simon
+Installed-Size: 396
+Depends: mobilesubstrate
+Filename: debs/com.Axs.musiclizi_1.1.8_iphoneos-arm64.deb
+Size: 23500
+MD5sum: d99aafcff1a57673ad9e52021c63f794
+SHA1: fc85e519434bf319f9766e683e61866b7c275743
+SHA256: 30ae9b061180ec3aa8612479459f0c87081252c2b9154421afcfe015b25c8e9c
+SHA512: 016e04555c18a7e4d48734e1f24272e61be4616e1395785879c9881d96c81d0f2e4ca3207fcfbb1b39c7d1a7fb6173688e83bcc64897975be34173414ef2df97
+Section: 插件
+Description: 用于灵动岛粒子动画
+Name: 粒子动画
+Author: A
+Icon: https://axs66.github.io/pro/icon/musiclizi.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/musiclizi/js.json
+
+Package: com.Axs.musicplayer
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs
+Installed-Size: 168
+Filename: debs/com.Axs.musicplayer_0.0.1_iphoneos-arm64.deb
+Size: 5788
+MD5sum: b677bbce4470c16d1304cf130f863b32
+SHA1: 10da4f486edb295dc365024180b8cccc68abb383
+SHA256: f4ec6def902c042df73e0df8cfa3ab19c713b63b8a752cbd78ad7737ebff19be
+SHA512: 47f4b887c98ddae0c41801f4d18e1f829a470f88ae867aa0da5229675f392f0ede627e87274117b17b0b2d03b8e864edcb62e121a920bbe856b37ae5e262ed11
+Section: 插件
+Description: 控制中心音乐播放器仿ios18样式!
+Name: iOS18 音乐播放器
+Author: liuf
+Icon: https://axs66.github.io/pro/icon/musicplayer.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/musicplayer/js.json
+
+Package: com.Axs.musicrotation
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Maintainer: zqbb
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.musicrotation_0.0.3_iphoneos-arm64.deb
+Size: 7976
+MD5sum: 9c87e462f1a0f79b5d99778abc84f2a0
+SHA1: 08731e3567a8a8ec7c8d773563602ff975e6c1da
+SHA256: d4e70ffd3d6f183d600f32fcbb53e38a6092b7026f52cffe5ebf1c08c8a504c5
+SHA512: 49c310fb707aa9dd0bfa26895746421e236d573411fcfdfadf3c28f274e789216ed4a60a843dd1baa69271a6c0db69dc0a49979c7431a6945bf6989a0db3bcba
+Section: 插件
+Description: 控制中心音乐专辑旋转。
+Name: 音乐旋转
+Author: zqbb
+Icon: https://axs66.github.io/pro/icon/musicrotation.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/musicrotation/js.json
+
+Package: com.Axs.muteplay
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: uz.ra
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.Axs.muteplay_1.0_iphoneos-arm64.deb
+Size: 3860
+MD5sum: 1cf591001fe0e771c97322eaa9d3d8a1
+SHA1: 8d14d2ab121549dfaa999d477abfd382415f124c
+SHA256: 3619a19afe141f9d05788669002e5a9d3281d251e397f8689d198449a3015f34
+SHA512: bf886041ef2301a3db0db2fe54c9d3cde8bd945369b9556148b59fcf63651f3a79d63d13ec1b9b7bdf9c999d625cdb61fc9b2a9915ba2236ef8f7534d18222b0
+Section: 插件
+Description: Mute notifications while playing music。播放音乐的时候，不会因为消息通知，影响音量大小。
+Name: MutePlay
+Author: uz.ra
+Icon: https://axs66.github.io/pro/icon/muteplay.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/muteplay/js.json
+
+Package: com.Axs.n95
+Architecture: iphoneos-arm64
+Version: 4.4
+Maintainer: Ethan Whited
+Installed-Size: 15096
+Depends: mobilesubstrate
+Filename: debs/com.Axs.n95_4.4_iphoneos-arm64.deb
+Size: 5729872
+MD5sum: 85b03cabeb2a044f778557146d7afef5
+SHA1: dd9e1277d31f5b3bde47d907f4516a01ae0c0faa
+SHA256: 1f4f02bf273bf553a8ee44b47a9bbec9ab88e75b4b79e10ec2f9cc7500545440
+SHA512: 19b5dfc167228cd249ba97682e3acb07b5dd52124b2288a9a88b98ca1aa044f6ba4d7954e4191de3d92c0c3371b0b569de67d011739c8823f6f9380063cad328
+Section: 插件
+Description: Mask album artwork images in Apple Music!
+Name: N95
+Author: Ethan Whited
+Icon: https://axs66.github.io/pro/icon/n95.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/n95/js.json
+
+Package: com.Axs.neowave16
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Axs
+Installed-Size: 8756
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.neowave16_1.0.0_iphoneos-arm64.deb
+Size: 495456
+MD5sum: adfbf29de1dc464b3f0f66628ff147e4
+SHA1: 08774cc64833728dbf83cf44c7fd9390e3f85fa7
+SHA256: 35f6a03757cbfe66b30c7b2ed23dd2c7ac2015b47cf113fa2706ccebb5d7419d
+SHA512: 0ae6754d090209255519baf455bb9b60e94084643289b60e84766d68380bae2375ea88cb70e0cb88e09df5d41348289afdb7f908a6e4f06318c4ae346120ede0
+Section: 插件
+Description: Siri唤醒显示色彩渐变边缘动画
+Name: Siri唤醒边缘动画
+Author: SHTM
+Depiction: https://axs66.github.io/pro
+Icon: https://axs66.github.io/pro/icon/neowave16.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/neowave16/js.json
+
+Package: com.Axs.net.hideserialnumber
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Maintainer: Axs
+Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.net.hideserialnumber_0.0.4_iphoneos-arm64.deb
+Size: 58592
+MD5sum: 090f9c47c0c239dcee0dcb6c088b7462
+SHA1: e2d6f41b8c881c9ab7606a840c7c736f84121224
+SHA256: 909c0cfe6a08d6250634ba566c30c333e9b71c0ee3197279b65ada11d3b36b75
+SHA512: 0b6f83329f85a2bc534d80e8efab545791e2584c326e95d3e89962bf194edfbd5d7039b68d20b7a5e9f5b439b633f74e29af093b7a44029447a18bfbc2ad217e
+Section: 插件
+Description: Hide Serial Number in Settings About page.在“设置关于”页面中隐藏/伪装序列号等相关信息。
+Author: ichitaso
+Name: HideSerialNumber
+Sponsor: Axs
+
+Package: com.Axs.notificationfilter
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: Tune
+Installed-Size: 908
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.notificationfilter_1.0.1_iphoneos-arm64.deb
+Size: 216220
+MD5sum: bff60506e1a473f0319c22af9fb2d805
+SHA1: 9fdc5e335e316abe7970f4d05c5627688ed14587
+SHA256: 370e029d4508235bd297c8efaa5c0de3932c8da3e8db57b15612c430aa96889f
+SHA512: 110640929c0a85449c513d504655b63c2096ac38ab85cf0480ad236a7961eebb9f046ff4b6e9e670e4fb06ad33d5b3d4776840444649bd831af087b5adaa112a
+Section: 插件
+Description: 为越狱的iOS提供强大的通知过滤功能
+Name: Notification Filter消息过滤
+Author: Tune
+Icon: https://axs66.github.io/pro/icon/notificationfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/notificationfilter/js.json
+
+Package: com.Axs.nowaveform
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: Nathan Senter
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.nowaveform_1.0.2_iphoneos-arm64.deb
+Size: 3556
+MD5sum: f399a2577f8d15bbe813a7fab60bb229
+SHA1: 7a472492709afe5bd63a31b615bf29d186d7a9bb
+SHA256: 2dd33a76c4464ce8142ee34882fb3e41de48f51280207bf2209bfdde404a229c
+SHA512: e7e90109508b9216e6f11dd74512c8e20268b04e18c448ee3a544a51f4bb73aaab34b908e297bc2918072f52afea0a69d742caa9f9b2f0c447aad0f2a7e1defb
+Section: 插件
+Description: 隐藏动态岛上右侧的音频波形，锁定屏幕音乐播放器！
+Name: NoWaveForm
+Author: Nathan Senter
+Icon: https://axs66.github.io/pro/icon/nowaveform.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/nowaveform/js.json
+
+Package: com.Axs.ocd5
+Architecture: iphoneos-arm64
+Version: 5.4.1.1
+Maintainer: b4db1r3 <nfive060@gmail.com>
+Depends: com.mrgcgamer.libgcuniversal, preferenceloader, ws.hbang.common, ws.hbang.alderis
+Conflicts: com.noisyflake.cozybadges, com.dao.ocd, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd5lite
+Filename: debs/com.Axs.ocd5_5.4.1.1_iphoneos-arm64.deb
+Size: 324968
+MD5sum: c29f1a432c7bbfec06a9b900f2e98fc0
+SHA1: 619c1f1a3a04a038057e68797383a664b3c4ed87
+SHA256: 33f5e013ea5437e205acea445e7bd2d84e7226edeaa51d2c49336604704701ca
+SHA512: bd4e1cea27cd26f5bfae4795bf6d825c41cfc6dfac244c36506bde8964d70ae057ff3d267a124f712fe7898f4b8ce3af5400610485b7d75b9809aebc949ffd0b
+Section: 插件
+Description: 根据App图标颜色来自适应App名称和角标的颜色，5系列更多新功能，有类似dotto+插件的圆点/空心效果，精简无用文件，替换插件图标。
+Name: OCD5
+Author: b4db1r3
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ocd5/js.json
+Icon: https://axs66.github.io/pro/icon/ocd.png
+
 Package: com.Axs.picsewvip
 Architecture: iphoneos-arm64
 Version: 1.0.0
