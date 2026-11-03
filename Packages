@@ -612,7 +612,7 @@ Icon2: 17.png
 
 Package: MisakaHelper
 Architecture: iphoneos-arm64
-Version: 2.0-0
+Version: 2.1-0-END
 Priority: optional
 Essential: no
 Maintainer: Misaka
@@ -620,16 +620,18 @@ Provides: MisakaHelper
 Depends: mobilesubstrate
 Conflicts: MisakaHelper
 Replaces: MisakaHelper
-Filename: debs/MisakaHelper_2.0-0_iphoneos-arm64.deb
-Size: 11817640
-MD5sum: de4b0d7a9d34ba1410976640b8a3447f
-SHA1: 63f2d01dcac98e500838bd7c96fca321651f2c60
-SHA256: b882179f191ea72e852c88148e130c9ba0a362639ae0a4285d57017f45f9fdcf
-SHA512: ca2ba106dac6a4046c4ac081603571ceee6f2fa519e94c6ff25235ba3464ff1a8e5b6aa5f3e90ea87c33a7c3cd98bcea510d660a10f6afafb7c4effa2c1b7440
+Filename: debs/MisakaHelper_2.1-0-END_iphoneos-arm64.deb
+Size: 13177904
+MD5sum: d97aa19cc32176f6a82f5b6cc791a48b
+SHA1: e6b202e8c0314d089c47dad3b815ae19c8195dda
+SHA256: 656c8afaef93243beff999291a9c9060d9f40abb85296b1d480f69898c54aabc
+SHA512: 463cbb046cc72378ad514b431289a292f39afe0c82df2f2cefa2102855cae6d26d7d73b8853d64145e0ba4494047c5900ee0463a1ac63521375c23bb7640115a
 Section: 插件
 Description: MisakaHelper
 Name: MisakaHelper
 Author: Misaka
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/Misaka/js.json
+Icon: https://axs66.github.io/pro/icon/wechat.png
 
 Package: Nets.llld.actionbarreborn
 Architecture: iphoneos-arm64e
@@ -16457,18 +16459,18 @@ Author: 来了老弟
 
 Package: cn.llld.customizeccroothide
 Architecture: iphoneos-arm64e
-Version: 1.21
+Version: 1.22
 Maintainer: 来了老弟
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.llld.customizeccroothide_1.21_iphoneos-arm64e.deb
-Size: 12192
-MD5sum: dd10725c3f2b4d1d7e1b4190a0e314b1
-SHA1: 88f438939e105bfda5dc11cdbfd0f5514af5f29a
-SHA256: 335606730d378899d9b2ea9ecf73702419b8b71cd74a950c3a246d63075f44b9
-SHA512: 5444bd8b9edfe96247a920d548e260e777639252fb5087a22e2e7de96e00200c3d1c5a2d91b58542e241862c1587f82457fb9707d52cd4a7e3aad68c67c30000
+Filename: debs/cn.llld.customizeccroothide_1.22_iphoneos-arm64e.deb
+Size: 12154
+MD5sum: c57269b7dc88eee42a057496bf3648a6
+SHA1: b33e66eb646fa6c82114cd1a741f63f4be869608
+SHA256: 9384c9986fcf5e189991c62045a07ec49d8512336f3fd89a98b97fd7632a8b4b
+SHA512: 57e343dc8cf34aeb305803e516402d28b12eb2dc0a1700ca42c2c1c6eefb34e10a895bbd7b07e42b61a196b57e7c66c18ee7c7c177c48ac09db5953688467271
 Section: 插件
-Description: CustomizeCC汉化-roothide
+Description: CustomizeCC汉化-roothide,231130更新处理任何汉化冲突问题
 Name: CustomizeCC汉化-roothide
 Author: 来了老弟
 
@@ -16929,22 +16931,22 @@ Name: 禁用主屏幕下拉搜索-rootless
 Author: 来了老弟 X：h_h_x_t
 
 Package: cn.llld.kbtool
-Architecture: iphoneos-arm
-Version: 2.4.0-3
+Architecture: iphoneos-arm64e
+Version: 3.3.0-1
 Maintainer: 来了老弟
-Installed-Size: 11252
+Installed-Size: 10484
 Depends: mobilesubstrate
-Filename: debs/cn.llld.kbtool_2.4.0-3_iphoneos-arm.deb
-Size: 3378800
-MD5sum: 783bd1183a757983a43f7962f4259aca
-SHA1: 02174eea96cbbb4e6d14c059567e572f796e6b98
-SHA256: 2789a08dfaa4168fd86fe7257cf432d1b3ddb54a06cb547cc9a6a0f33eb693d0
-SHA512: c1ec75168891539a9199f8a96765a34382d535431897d56b9a724919bdeb5cae17aac2fefa8b37a41aaeb26ae3a76b49b24a62585b5912cd656623f725de4a5e
+Filename: debs/cn.llld.kbtool_3.3.0-1_iphoneos-arm64e.deb
+Size: 3294328
+MD5sum: 29f9c2cccb6d2f54671daef650233eeb
+SHA1: 21d2c5d17881fe27d48e99061793556ff397b933
+SHA256: cb1b5b6942e05120a3ada488b1a982c354e8c2d37456df0d4bb8ea42064a7e45
+SHA512: 0f33aa8310ac8bdf6f7a7a10550b3f190a01e71b086521da6000e94b6cc8174e0c96c12e0b4ae72e86c0b1e957c85f5394d38fc4bdca61e1efd237e1c101fe94
 Section: 插件
-Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具（用于键盘增强）---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。粘贴下滑呼出Copyvault和kayoko粘贴板，复制或上下滑snapper2和ft悬浮交互，更多待新增功能补充。
-Name: PTools(keyboard)
+Description: Convenient tools on the keyboard (Used for keyboard enhancement)。键盘上的便捷工具条（用于键盘辅助）上下左右长按功能自定义。---传统的复制,粘贴,全选,换行,左移,右移,关闭键盘,清空文本,替换文本,统计字符，注释内容，便签等大几十功能都有，自定义高度宽度按钮，文字大小，文生图文字颜色,高度自定义等。支持呼出Copylog，Copyvault和kayoko新的旧的改的粘贴板，snapper2和ft悬浮和82妙写 交互，更多待新增功能补充或看更新日志。
+Name: PTools(keyboard) (rootless) (roothide)
 Author: 来了老弟
-Icon: file:///Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
+Icon: file:///var/jb/Library/PreferenceBundles/Kbllldprefs.bundle/icons-llld/KbTool.png
 SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.kbtool/kbtool.json
 
 Package: cn.llld.ldd
@@ -17087,19 +17089,19 @@ Author: 来了老弟
 SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.ppgxll/ppgxll.json
 
 Package: cn.llld.pts
-Architecture: iphoneos-arm64
-Version: 0.2
+Architecture: iphoneos-arm
+Version: 0.3
 Maintainer: 来了老弟
 Installed-Size: 172
 Depends: mobilesubstrate
-Filename: debs/cn.llld.pts_0.2_iphoneos-arm64.deb
-Size: 10638
-MD5sum: ce0edfdfb74109246a1efe84c7929a5d
-SHA1: da745c0022d639ea0f9a3261ee6a119deb4cf4cd
-SHA256: 05a98fc9c032d0ab1eb03daa25f7c2f757a1239c60f4296bc428a3eb5ea749d1
-SHA512: 16b5dd17ce576cd2b1cc502a0d2ab8eef8983a2bd5858f53ef47984b431a42d348f91c64de129dd88860c12602c11d5c263f15396bb48a34d15a614e649d5fdb
+Filename: debs/cn.llld.pts_0.3_iphoneos-arm.deb
+Size: 11150
+MD5sum: ac1614e25f220a3559cc07816e2efb5b
+SHA1: 733a49855953151d02432cfbc827dcfa120b9e0d
+SHA256: 110d857fcc4bf2adfb2b4d657e10be27dc5e5b93f4a8abfd808ae2296835d11b
+SHA512: 51e3f090f363edbf38ab68dfc3a19dc3c2d31f030a5252c2b71ae73464e461fed20688001b3551bd2b8dcb7614fc410419b4cd3d9a2c4fc6cc44bc100a7bab2f
 Section: 插件
-Description: 可注入可越狱使用，免费。补充iOS原生的不足，给多个网页类型的应用或场景（比如：各种浏览器Safari，或Ai工具Copilot，拼多多评价区，QQ我的收藏编辑框等），在原工具栏的基础上增加功能按钮(撤销，重做，全选，复制，粘贴，剪切板，换行)，顺便也解决我个人插件PT没有对这方面的行为处理.240915:修正粘贴问题
+Description: 可注入可越狱使用，免费。补充iOS原生的不足，给多个网页类型的应用或场景（比如：各种浏览器Safari，或Ai工具Copilot，拼多多评价区，QQ我的收藏编辑框等），在原工具栏的基础上增加功能按钮(撤销，重做，全选，复制，粘贴，剪切板，换行)，顺便也解决我个人插件PT没有对这方面的行为处理.240915:修正粘贴问题,241018:加入修改的kayoko支持
 Name: PTs
 Author: 来了老弟
 SileoDepiction: https://laileld.github.io/repo/sileodepiction/cn.llld.pts/pts.json
@@ -17379,18 +17381,18 @@ Author: 来了老弟 h_h_x_t
 
 Package: cn.llld.tmts
 Architecture: iphoneos-arm64e
-Version: 0.1
+Version: 0.2
 Maintainer: 来了老弟 X：h_h_x_t
 Installed-Size: 448
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/cn.llld.tmts_0.1_iphoneos-arm64e.deb
-Size: 116738
-MD5sum: 3c7889fcc774c2d982dc252fa99513ec
-SHA1: e6198c89fb6548312328320e1b60f7a74c189623
-SHA256: e2ab45a6ba7e40af293fe3962abdfb0b82a354b6d84094b3836769e625b7f883
-SHA512: f194cac3ba8233b378910f83091acb941dbbd8bcbe1d37d0422bb07680aca5a168ef1463cab9a3b48790f94fa1dc9509a5ceea827c0069581a23d0477716ec1d
+Filename: debs/cn.llld.tmts_0.2_iphoneos-arm64e.deb
+Size: 118158
+MD5sum: 801a85dbf072cda15bc6887408d4a1e3
+SHA1: 4e684492bac0c654912a4c2c48284157b014dc04
+SHA256: 63931061d1c3e94c6e39cb81f479420074caff1c6762067e5da68e1a838d9a94
+SHA512: d0ce69db0eac9c21d81fc9fa62904f8d4e367f4394c6d067a0075d2c6ee7a47ffd386b2691ee69eefba521cd3d47bfedfde3ab29a26d1dcb5ffbd171b528bd6a
 Section: 插件
-Description: Customize notifications, control center, multitasking background module transparency。自定义全局透明度(包含 播放器，负一屏，通知，控制中心，多任务后台模块等，有空就更)
+Description: Customize notifications, control center, multitasking background module transparency（alpha）。自定义全局透明度(包含 播放器，负一屏，通知，控制中心，多任务后台模块等，有空就更)，202401192005:增加专注模式和二级模式，拆开负一屏和文件夹背景单独设定.(群是那个芭比Q，满了，待扩张)
 Name: 全局透明Max-roothide
 Author: 来了老弟 X：h_h_x_t
 Icon: file:///Library/PreferenceBundles/tmllldprefs.bundle/icons-llld/qjtmmax.png
@@ -19254,19 +19256,19 @@ Section: 插件
 
 Package: com.llld.flexrootless
 Architecture: iphoneos-arm64
-Version: 0.0.2
+Version: 0.0.31
 Maintainer: 来了老弟
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.llld.flexrootless_0.0.2_iphoneos-arm64.deb
-Size: 9768
-MD5sum: dabbc7837c1883c576e487d86ba03098
-SHA1: 57f90bcee7e21fdd5623c00d1caffbda05573b7d
-SHA256: a6fa4a45b037a7414387a77458bac4fd9e354cde291021a28a7b501fe228089a
-SHA512: 6035a62dc35f48b623c09c49d3055c934aafe6c795e5a4870e86f09c1b8fb40270dad29dc8e22a6fceccd9c918ca950dba13e8a89e1132438fa251b0b050eb85
+Filename: debs/com.llld.flexrootless_0.0.31_iphoneos-arm64.deb
+Size: 12420
+MD5sum: b2f1e2dfd44d61917667f285448373ec
+SHA1: 887ae0d10df2e15e557d6517a6a6dd77fb4a4612
+SHA256: 8133c497d260cc4e428946c95ed6bffbd2395b1b91d928f1c825e6434c99e61a
+SHA512: 7e535a19a8c44beb4ed2b140aa22512d4ef97e55bad4b7d4b2a78d3ccba982fa81d837941e8e1519b0ae80cd2f010bc2e31424e58f6782e43c3d5e1008db3c48
 Section: 插件
-Description:  Flex3--(rootless专用)简体中文包
-Name:  Flex3汉化包-rootless
+Description: Flex3--(rootless专用)简体中文包
+Name: Flex3汉化包-rootless
 Author: 来了老弟
 
 Package: com.llld.fugap
