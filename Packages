@@ -26846,6 +26846,29 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: zhulongfei28
 icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/afhook.png
 
+Package: me.alfhaily.rockets
+Architecture: iphoneos-arm64
+Version: 3.8.36
+Priority: optional
+Maintainer: Rocket App
+Installed-Size: 6684
+Depends: firmware (>= 8.0), mobilesubstrate
+Conflicts: me.alfhaily.rocket
+Filename: debs/me.alfhaily.rockets_3.8.36_iphoneos-arm64.deb
+Size: 1462392
+MD5sum: dd4375f5ff16d0809b2ef366ec9f3d2a
+SHA1: 883c82dc1ab10f53bd595db4ee8881ec801898ae
+SHA256: 3e4d5f71cd4f7da9605006d64a5f4b0d0152efb974f3778fc5d872171908ce57
+SHA512: e074fab643bb5003d6cef065a8332f8798401fccd2b9736d7940221dcd4fb8efa5882fabd631abe90f8c854e7737cfd90ab730254ab9aa1193f670058aa15150
+Section: 插件
+Description: Instagram 增强插件
+ * 默认解锁 Pro 专业版本，不生效请打开插件设置反激活，再重新打开
+ * Save posts and view stories anonymously and do much more
+Name: Rocket for Instagram
+Author: Rocket App
+icon: https://TrollStoreX.Github.io/sileodepiction/Rocket_zh-Hans/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Rocket_zh-Hans/js1.json
+
 Package: me.jjolano.fmwk.hookkit
 Architecture: iphoneos-arm64
 Version: 1.0.14
@@ -26962,6 +26985,49 @@ Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 
 Name: Jev-Chat
 Author: ray
 
+Package: me.tomt000.copylog.zh-Hans
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: TomT000
+Installed-Size: 2240
+Depends: me.tomt000.copylog
+Conflicts: com.hk.copylog.cn.rl
+Replaces: me.tomt000.copylog
+Filename: debs/me.tomt000.copylog.zh-Hans_1.0_iphoneos-arm64.deb
+Size: 2988
+MD5sum: 31748102a8e22a4dc2ea878fe8768073
+SHA1: 8dfe33ec22f5bde6b16702f03fdad4f9e615d6ea
+SHA256: d395a1152c01db7c91c0671cb30eda60f0acd7b9a7b76bdce0de3eb45cedfe97
+SHA512: 12d2780adcba6219facc3f1ebd18673dd6890ad272c159ea973fa81462c44248c706e459758505b21e67297973646dc23ae6c8204d198015bc750f1ac852ec26
+Section: 插件
+Description: Copylog 汉化
+ * zh-Hans for Copylog
+Name: CopyLog 简体中文
+Author: TomT000
+Icon: https://TrollStoreX.Github.io/sileodepiction/Copylog/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Copylog/zh-Hans.json
+
+Package: me.tomt000.copylog
+Architecture: iphoneos-arm64
+Version: 1.7.1+debug
+Maintainer: TomT000
+Installed-Size: 2240
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.0xkuj.copylogfix16
+Filename: debs/me.tomt000.copylog_1.7.1_debug_iphoneos-arm64.deb
+Size: 1036724
+MD5sum: ff044f261c2e20b4edc41bceccf95a97
+SHA1: 7d233e4c5692cb618747a6d3d23accb58f9fd37b
+SHA256: 7d26d762cb1a5f76b9dee3feb6854ece5ee7c820cc1b56b70fbd1a871f391507
+SHA512: 3af9016ca9005a5d4f99911933c9d84a72e0aa34a78d1df00aeafceb7041507f2110f30b184b71a8f6b5cb296f29ea91b8c77f869df59478337f17509c3f1430
+Section: 插件
+Description: CopyLog 是一款强大的 iOS 剪贴板历史管理器，易于使用，兼容 iPhone 和 iPad，能够帮助你追踪设备上复制过的所有内容
+ * Clipboard history manager for iOS
+Name: CopyLog 剪切板
+Author: TomT000
+Icon: https://TrollStoreX.Github.io/sileodepiction/Copylog/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Copylog/js.json
+
 Package: moe.waru.jikan
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -27054,6 +27120,24 @@ Name: SimpleActivation插件依赖-Rootless
 Author: Elias Limneos
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: netskao.BlockAppsCreateAlbum
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Maintainer: Nets
+Installed-Size: 19660
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/netskao.BlockAppsCreateAlbum_1.1.2_iphoneos-arm64.deb
+Size: 4508
+MD5sum: 07913f2ebddbb34f9db154c484985b85
+SHA1: 52496d3a6f4043dc19d6c738f3b7538008b2af90
+SHA256: 1a75483d5aff7b1ba8d8a15ef66f7a9eaf0e530a11a24a2895ed3de27a959544
+SHA512: e20778148c8fd777a6d3662f5e9a611a6714e5664746ccbb5c799c748e747cbedd88f560250713e73c1d0e93805491c79d75a5bc291460d87e21cdd21e6648d7
+Section: 插件
+Description: 阻止应用创建自己的相册
+Name: 禁止应用自动创建相册BlockAppsCreateAlbum
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/photo.png
 
 Package: netskao.doubleclickwake
 Architecture: iphoneos-arm64
