@@ -649,6 +649,56 @@ Description: Undo, redo, select all, copy, cut and paste actions on bottom of ke
 Name: ActionBar Reborn-roothide
 Author: Netskao
 
+Package: com.snapbackup
+Architecture: iphoneos-arm64e
+Version: 3.8.11
+Maintainer: kanuo
+Installed-Size: 648
+Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
+Filename: debs/SnapBackup_3.8.11_roothide.deb
+Size: 2059556
+MD5sum: 03e1232808df1037044bbe2c2aec178b
+SHA1: a65f772853492dff7e8f7d6c486c2194777452c7
+SHA256: e860fd75634cd6a8525f2ac689b175713c5ae15693085d4d05cd83340c6b0147
+SHA512: 1648b3d7d24e3d2fbea798ab0e104381ce9f1f2c79ef08376da1e13a6c573f2556cc047b4f21793ee20b0352df40ed4ad3faa0c6766f4472746a26265a33380c
+Section: 插件
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
+ .
+ 【恢复流程】
+ - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
+ - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
+ - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
+ - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
+ - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
+ - 外观支持浅色、深色及跟随系统，自动记住选择
+ - root 扫描清理，覆盖隐根 AppGroup 缓存与日志，显示删除字节和可用空间变化
+ - 扫描系统目录占用，逐项批注可清理、需手动确认或仅查看，不明数据库禁止删除
+ - 独立文件扫描：从根目录逐层查看全手机容量，大小倒序，保留 Filza 定位且不提供删除
+ - Sileo 内仍支持多选 deb、导入文件夹与 SnapBackup 待恢复任务
+ - 使用 Sileo 原生安装队列；恢复插件与恢复配置为独立按钮
+ - 可单独恢复备份配置，也可按 Sileo 任务核验安装结果后恢复对应配置
+ - 保留恢复日志与配置覆盖前的副本
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包
+ ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Name: SnapBackup 备份恢复
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
+
 Package: cn.llld.urljg.roothide
 Architecture: iphoneos-arm64e
 Version: 1.1.7
@@ -22715,45 +22765,6 @@ Name: KillYourApps定时杀后台-Rootless
 Author: Snail
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.snapbackup
-Architecture: iphoneos-arm64e
-Version: 3.6.5
-Maintainer: kanuo
-Installed-Size: 812
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/com.snapbackup_3.6.5_iphoneos-arm64e.deb
-Size: 1100928
-MD5sum: 145bbff8491fe3dc444a95a469d73f33
-SHA1: 5bcd16b0e7113ad4de320ac5aa17f7fbff453048
-SHA256: e33edf2f4c3f1faaeacff97ef31ceb11a9af0f1aa70f4725aa6b2af2e177cb36
-SHA512: 6cc4baa740bd1c45ef20d3c047560d14df7d1efbab32097759fff7ddf7dcaa1e75a87fa5aaabb466ebd7689604b01844bea031355a805c94042e1477bb6310b7
-Section: 插件
-Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
- 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
- .
- 【核心功能】
- - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
- - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
- - 选择性备份：可勾选要备份的插件、配置、本地 deb 与 ipa，自动标记「设置有界面」的插件
- - 恢复配置一键完成（plist 恢复到 /var/mobile/Library/Preferences，本地执行，无需 root）
- .
- 【恢复难易度说明】
- - 恢复配置：★☆☆ 简单 —— App 内一键恢复，本地执行，无需 root 权限
- - 恢复插件：★★★ 较难 —— 需 root 权限，通过「Filza 显示」跳转 Filza，手动安装 debs/ 下的 deb（或 dpkg -i），装完注销/重启生效
- .
- 【操作流程】
- ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选内容 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
- ② 恢复配置：主页 →「恢复配置」→ 选备份包 → 自动恢复 plist（无需 root）
- ③ 恢复插件：备份包卡片 →「Filza 显示」→ 进入 debs/ 文件夹 → 逐个点 deb 安装 → 注销/重启 SpringBoard 生效
- .
- RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
- 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
-Name: SnapBackup 备份恢复
-Author: kanuo
-dev: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
 
 Package: com.spark.libsparkapplist
 Architecture: iphoneos-arm64
