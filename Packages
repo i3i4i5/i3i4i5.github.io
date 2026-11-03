@@ -18778,6 +18778,23 @@ Description: 分屏，不必太复杂，一切从简即可。
 Name: floatingView
 Author: be-huge
 
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64
+Version: 0.1.38.1
+Maintainer: doimty
+Installed-Size: 828
+Depends: firmware (>= 15.0)
+Filename: debs/com.be-huge.insulation_0.1.38.1_iphoneos-arm64.deb
+Size: 59732
+MD5sum: 28b27349aa2d8a560702ccb8a74f4b77
+SHA1: 417817a73765c65d908c657c46a9b3cb15276a58
+SHA256: a16ad08b248239e9f4e4b6813412925f2f3ca183c2365c0d10422480e906e7f7
+SHA512: 6cf867bfaaf98c1dab9bf503477ef9f02926bd3672b85b4a1505f1dcc6c521c0203e6b8529f834384a16c0e41037179fb595e1e12806f21ad6be0f4b096e28a2
+Section: 插件
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Name: insulation
+Author: be-huge & doimty
+
 Package: com.binglan.dynamicfx
 Architecture: iphoneos-arm64
 Version: 1.0.7-1
@@ -20392,6 +20409,21 @@ Name: UIScroller
 Author: iamdega
 icon: https://huayuarc.github.io/icon/uiscroller.jpg
 
+Package: com.icli.icli
+Architecture: iphoneos-arm64
+Version: 0.10.0
+Maintainer: icli
+Depends: firmware (>= 15.0)
+Filename: debs/com.icli.icli_0.10.0_iphoneos-arm64.deb
+Size: 1120476
+MD5sum: 1f2bd751e9b7be5866e436cf99e412c8
+SHA1: 06468d37cbfa1a7cf10ffe185683a114c901e1bc
+SHA256: 7dd20c99e9105c4427c5a021ea1ff25fb20395d96309e86ecfece82006d57a0f
+SHA512: faf87bd3faf82065a254a7ad17b5129823cbf583ba7bfc7408ac8379ace992b177371a1b5f4310d75efec5204de4637cadd6c6cccb1d13fec58e807aeb84a824
+Section: 插件
+Description: On-device iOS control CLI
+Name: icli
+
 Package: com.icraze.complicationsfix
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -21234,6 +21266,60 @@ Name: Clippa
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/clippa.png
 
+Package: com.mlgm.idata
+Architecture: iphoneos-arm64
+Version: 1.3.4
+Maintainer: mlgm
+Installed-Size: 8532
+Depends: firmware (>= 15.0), apt, dpkg
+Filename: debs/com.mlgm.idata_1.3.4_iphoneos-arm64.deb
+Size: 2532544
+MD5sum: ae40dfce1feeb2680188e475fec5fbf7
+SHA1: 59eee85614cbccf2bda8c4cce1ed428d949e3699
+SHA256: dfb84d3fa9c41dc4e7810c12d18632725b28449bd8f5463b315bb36b3bea74ea
+SHA512: 925e6f4f5dba47b8430f88faa50c6e1cd9aba451e37ceb4ff7fe43fedbe505446d254229f1737d53627b2da2a65d1ae941b8bc58c720d93e589cdfc2ec12e98b
+Section: 插件
+Description: 应用、插件数据管理工具，一键备份/恢复
+Name: iData
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/idata.png
+
+Package: com.mlgm.isgkb
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: mlgm
+Installed-Size: 448
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.mlgm.isgkb_1.1.1_iphoneos-arm64.deb
+Size: 41496
+MD5sum: c0e757ea42c547ea10f1b79827eaec1d
+SHA1: 4239f14bfcfcec13c372363975ef70c2b3f63354
+SHA256: 0abaf8dce4a7d09bd3006c42e4b3cee0f9629f0b3c68ed0f8d9afcfc60b1c467
+SHA512: 45a3fee8c6c2d68739be7050e927dcc3abb7250b8aeedad6a70efcec72c67c466fe67c9d5518c0e1e7d38363744f0598557358e6a2a350160947fdd8b77c588c
+Section: 插件
+Description: 更换搜狗输入法 Logo，自定义动作快捷呼出剪贴板。
+Name: iSgkb
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/isgkb.png
+
+Package: com.mlgm.iwxkb
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: mlgm
+Installed-Size: 424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.mlgm.iwxkb_1.1.1_iphoneos-arm64.deb
+Size: 44704
+MD5sum: 503f5f4a3e0aba18e21f97dff0cf84f2
+SHA1: 03d4e734bd9088249098d0088c33adf692355a90
+SHA256: f7af98d77ee4ec69cffbfb2e0c20c263026433c8e547c3f47c98716328f43bd0
+SHA512: 9a6d177286b08da43520b6d46143733bc53386cac2319ead2338cf0ac8481e8a902361597d67ee0b23f789729af0a0b5ff14c90afc2a4de9ba2830bdd6feb9b0
+Section: 插件
+Description: 更换微信输入法 Logo，自定义动作快捷呼出剪贴板。
+Name: iWxkb
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/iwxkb.png
+
 Package: com.mlgm.kayoko
 Architecture: iphoneos-arm
 Version: 5.1
@@ -21542,6 +21628,22 @@ Name: deb
 Author: zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js.json
 Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
+Package: com.nan.debd
+Architecture: iphoneos-arm64
+Version: 0.4.2
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq, defaults
+Filename: debs/com.nan.debd_0.4.2_iphoneos-arm64.deb
+Size: 4788
+MD5sum: 6794b6824bf170390848517805cd1218
+SHA1: 4a05a247d21f109b92951d62dc7af18160ba6c10
+SHA256: e91ffbdfb1fb61f8300f1e239db55e312bbd0ad640efaf9f50d380a984872a25
+SHA512: f50c34c97b6f3d759eae807364dd3c1bb57839bd2098a69b33397b3594864c54cbfd30bd589b9e353793a26e9a6e718ef72c25b17be659196b6166594d7c69cf
+Section: 插件
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Name: debd
+Author: zhaonan
 
 Package: com.nan.dpkg-fill
 Architecture: iphoneos-arm64
@@ -23602,6 +23704,23 @@ Name: 弹幕助手
 Author: Junhong
 icon: https://huayuarc.github.io/icon/danmutool.jpg
 
+Package: dev.owngoal.settingsorganizer
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Maintainer: MoWang
+Installed-Size: 505
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/dev.owngoal.settingsorganizer_0.0.4_iphoneos-arm64.deb
+Size: 81992
+MD5sum: d120d0ac4d113e0924b47baa4c28a55b
+SHA1: 280a8b56093703edf37e36466880672201d8be08
+SHA256: 22506089c4e7cc11f15df98e99d9bb6de502649760acf75b4df2943312ea91a1
+SHA512: a8853f38313d7ad836e76937b8815bf364b884844b946742cfa1a37c36068f3e8cbfc2f9496858091712428da13f0f1474269ef8d679fdd48cb30a9eca66dd34
+Section: 插件
+Description: 设置插件与应用分类、自定义名称、全局壁纸和首页横幅。
+Name: 设置插件收纳
+Author: MoWang
+
 Package: dev.traurige.libkitten
 Architecture: iphoneos-arm64
 Version: 1.4.1
@@ -23720,6 +23839,76 @@ Author: Sudo + Paisseon
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: fanqiefn
+Architecture: iphoneos-arm64
+Version: 3.3.0
+Maintainer: junhong
+Installed-Size: 3412
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/fanqiefn_3.3.0_iphoneos-arm64.deb
+Size: 2663734
+MD5sum: 65cdefd55c5bae44f3c869889af16003
+SHA1: 06bee00dea70b8693cb3949f4ec9179151de2de8
+SHA256: 2e7282ab709c00338824dcf920891e413aa10448e489f5b85e11730b088f20f4
+SHA512: 37122f7391e7c821e2a56f9ca0e86900d0c6a87b75e9267387f69e36da75b1253d130b6fc72c617127cf7c8b286603b9117fb1a5e79baa6f521c1840764dddc3
+Homepage: https://fanqie.goforit.si
+Section: 插件
+Description: 番茄小说通知/小组件伪装、阅读及听书广告净化、关闭章末圈子、评价邀请和听读赚钱挂件、会员状态伪装与原生设置开关，保留催更与更新历史 • 新增书城顶部列表自定义隐藏
+ • ﻿优化短篇去广告
+ ﻿ • 优化短篇自动解锁并展开全文
+ • ﻿新增屏蔽系统通知红点提醒
+ ﻿ • 新增屏蔽内容小组件添加提醒
+Name: 番茄净化
+Author: junhong
+
+Package: hongguofn
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Maintainer: junhong
+Installed-Size: 4456
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/hongguofn_2.0.0_iphoneos-arm64.deb
+Size: 3484938
+MD5sum: 27182fbb98c80312f3edc1a91f7fda6c
+SHA1: cc4a2c5ff16b491fa361f78569cc90bad6a2c994
+SHA256: 14e91371c90f2562880166013301295cf40a50b9c5aac427a7dcc563414bae2f
+SHA512: 08b7aaf1acec5c6cb215b6e9c22ad053ab6c8038193989061562679389c4acc95d92f25510b90fec75145f960e0be2a3ca8fd934ad0c79e6a88e4dea95d213bc
+Homepage: https://hongguo.goforit.si
+Section: 插件
+Description: 红果短剧界面净化、短剧广告控制、原生独立设置开关、时长显示及原生下载• 适配红果 7.4.1
+ • 新增本地视频保存到相册
+ • 新增保存到相册的进度提示
+ • 新增下载完成后自动保存到相册
+ • 新增整剧播放量显示
+ • 新增左右侧长按倍速独立设置
+ • 新增播放时完整清屏，暂停后恢复显示
+ • 新增播放时隐藏手机状态栏独立开关
+ • 新增播放页用户头像隐藏开关
+ • 新增播放页收藏按钮隐藏开关
+ • 新增播放页分享按钮隐藏开关
+ • 新增播放页评论按钮隐藏开关
+ • 新增播放页爱心按钮隐藏开关
+ • 新增小说阅读奖励挂件隐藏开关
+ • 新增小说双击自动阅读
+ • 新增解除小说自动阅读广告限时
+ • 新增截图识同款挂件隐藏开关
+ • 新增福利引导气泡隐藏开关
+ • 新增自动签到
+ • 新增宝奖励自动领取
+ • 新增红包任务自动领取
+ • 新增存钱罐奖励自动领取
+ • 新增自动完成预约任务
+ • 新增横屏长按倍速提示背景透明化
+ • 新增双击视频打开评论区
+ • 新增双指长按底部导航打开插件设置
+ • 优化切换视频卡顿问题
+ • 优化顶部、底部导航隐藏与恢复，即时生效
+ • 修复仅保留一个底部导航项时的位置偏移
+ • 修复爆剧标志异常隐藏和残留空位
+ • 修复视频暂停后返回前台自动播放
+Name: 红果净化
+Author: junhong
+
 Package: im.mjh.doleo
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -23742,6 +23931,27 @@ Depiction: https://apt.mjh.im/depiction/web/im.mjh.doleo.html
 SileoDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json
 ModernDepiction: https://apt.mjh.im/depiction/native/im.mjh.doleo.json
 Tags: compatible_min::ios15.0
+
+Package: im.mjh.xianyuadblock.roothide
+Architecture: iphoneos-arm64e
+Version: 3.2.2
+Maintainer: junhong
+Installed-Size: 1580
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Replaces: im.mjh.xianyuhelper, im.mjh.xianyuhelper.roothide
+Filename: debs/im.mjh.xianyuadblock.roothide_3.2.2_iphoneos-arm64e.deb
+Size: 572774
+MD5sum: 9d0317285d0e725d6da1b011dddb6bf0
+SHA1: f1a8d95a8448a0e454317cc542dc7003441166af
+SHA256: 91b6c48ffd0754c30528c3f2e709866884a375972d3d6cae28119d93f7e0367e
+SHA512: 8d7055f782f1060e019108c4e31ede36970377a3c7aef388d0c6f8c959f87a1752a6fbea6c48a94d723e26447a4c6c1959436586f085c199ba4555533ff0f537
+Homepage: https://xianyu.goforit.si
+Section: 插件
+Description: 闲鱼广告与页面净化、后台原样编辑商品、会员经验领取、任务控制及逐件运行记录。
+Name: 闲鱼助手
+Author: junhong
+Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
 Package: im.mjh.xianyuadblock
 Architecture: iphoneos-arm64
@@ -24294,6 +24504,40 @@ Name: NOMO 解锁PRO
 Author: yqcrack
 icon: https://huayuarc.github.io/icon/nomo.jpg
 
+Package: local.minis.hideairdrop
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: Minis
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
+Filename: debs/local.minis.hideairdrop_1.1.0_iphoneos-arm64.deb
+Size: 10976
+MD5sum: 692bdd3f1730f4e1809851890192a05c
+SHA1: 3572485dadee8a14b0ac4a619867b059379c3128
+SHA256: 3b4326fcb23cb73414c1fdb6a289053177f6115486095e25fb6e19850ab80617
+SHA512: 893417dcc792836337e3f0d107a0550114da951082a54d493b9fcea9c374e3691329bdc2b60cfac7225e2029bf03ca91e82f1cb7a44b38d65d1dd395cd6ee756
+Section: 插件
+Description: 如上，好像不支持 17 以下
+Name: 禁用分享隔空投送
+Author: Minis
+
+Package: local.notifybubbles
+Architecture: iphoneos-arm64e
+Version: 0.4.1
+Maintainer: NotifyBubbles
+Installed-Size: 436
+Depends: firmware (>= 16.0), firmware (<< 17.0), mobilesubstrate, preferenceloader
+Filename: debs/local.notifybubbles_0.4.1_iphoneos-arm64e.deb
+Size: 38318
+MD5sum: 06b8a4d2bf168555d1bfd7f87dc2ac07
+SHA1: a8ced756d2c45a98764a4fa5e58facacacf43432
+SHA256: 93106c67a4170bbd112ed915c7035c7976469fcb40294543a8a05ca3fed67754
+SHA512: 5b0ce5d99891dbf551cf765559df8282b790c7e0463ae0faee2ab5f222a0408f21dc98f3fd970d62b6570934819f27d859333ec8395407a2ee8324c630e8d3d3
+Section: 插件
+Description: Notification bubbles for iOS 16 and Dopamine RootHide. Experimental first build.
+Name: 通知悬浮气泡
+Author: NotifyBubbles
+
 Package: me.jjolano.fmwk.hookkit
 Architecture: iphoneos-arm64
 Version: 1.0.14
@@ -24393,6 +24637,23 @@ Author: jjolano
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: me.ray.jev-chat
+Architecture: iphoneos-arm64
+Version: 1.1.1-2+debug
+Maintainer: ray
+Installed-Size: 1536
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/me.ray.jev-chat_1.1.1-2_debug_iphoneos-arm64.deb
+Size: 314712
+MD5sum: ec3c912590aa69e37ea0a45223e2beae
+SHA1: a35bcffe9fe1eab6b1bc581c91ab50e21aa1d499
+SHA256: f1df39174da92457453de4c9a8356d481000eee83d2ebbcbbed83512d0aca7ed
+SHA512: 13898fdb33d122dc7a1c1eff3ed15aaaa9ca03cd32a93c1d763eb884558713d9560a1db8780dd68920f8b3ffb5efe1b6c082e35b59a7db294b1b83840d66e29b
+Section: 插件
+Description: 微信意图识别 + 人性化建议回复（判断层 SystemOne / 生成层 OpenAI 兼容；回复方式可多选）
+Name: Jev-Chat
+Author: ray
+
 Package: mix
 Architecture: iphoneos-arm
 Version: 1.0
@@ -24409,6 +24670,23 @@ Name: MIX相机破解
 Author: 小果子
 Sponsor: 搬运工
 Section: 插件
+
+Package: moe.waru.jikan
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: waruhachi
+Installed-Size: 2380
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/moe.waru.jikan_1.0.2_iphoneos-arm64.deb
+Size: 939092
+MD5sum: 447bd289ac3e84966f5cdf1c52e1f68f
+SHA1: 06acedbcc8509eb6592294f31d3966a7d8ef9a8b
+SHA256: ff959df04a3cafb3aeb7be6c49628d56532bda9e24c19cbb7b201ce1e6d100d7
+SHA512: 39c57dc6eeb4077b27160a3e2d364eaa8b23dfb076911563d036a44eb8dd5c7055b838dac1c820159386d0d0c320dbc97e92df84408811e3779d08f3c03bd6bc
+Section: 插件
+Description: Show time left to full charge on your lock screen
+Name: 锁屏充电胶囊
+Author: waruhachi
 
 Package: net.limneos.libbulletin
 Architecture: iphoneos-arm64
@@ -24574,6 +24852,30 @@ Name: Limneos 插件破解
 Author: Netskao
 Sponsor: 搬运工
 
+Package: netskao.wechatpurifications
+Architecture: iphoneos-arm64e
+Version: 2026.04
+Maintainer: BigBoss
+Installed-Size: 23256
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: netskao.wechatpurification
+Filename: debs/netskao.wechatpurifications_2026.04_iphoneos-arm64e.deb
+Size: 7996412
+MD5sum: 0c1d1ae9cddaefd45b517ed4c8737468
+SHA1: 4a3f0c4477120e4123b8afa510b9e2c7399d27e7
+SHA256: 10a8ead9bf54dff054d00304f233037f2bb1c79ee01b77cab267a2541a397c76
+SHA512: dcf344e58c5753fa569167113901f12a82001a4f2fafd6429de6540426b0cd1fb92bcf320d7ba5439e645656269f1bf68670c6209d274236e3f06923c916c168
+Section: 插件
+Description: 微信净化 2026.04 版本
+ * 还原聊天本质，干净的微信给你
+ * 2026 年基于 2023 年最终版重新编译，仅优化防止热更新导致的功能失效，未修复任何因微信版本更新出现的问题
+ * 如需私有版(¥68.00)可联系 admin@initnil.com 进行了解
+Author: Netskao
+Name: 微信净化 2026.04
+icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/js.json
+
 Package: oldabi
 Architecture: iphoneos-arm64
 Version: 0.3.1
@@ -24591,6 +24893,29 @@ Name: Legacy arm64e Support
 Author: Evelyn
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: org.coolstar.libhooker
+Architecture: iphoneos-arm64e
+Version: 1.6.9-22+roothide
+Priority: optional
+Maintainer: libhooker roothide port contributors
+Installed-Size: 580
+Provides: ellekit (= 1.2-3), mobilesubstrate (= 99)
+Depends: firmware (>= 16.0), firmware (<< 18.0), roothide
+Conflicts: ellekit, mobilesubstrate, com.ex.substitute, science.xnu.substitute, com.saurik.substrate.safemode
+Replaces: ellekit, mobilesubstrate, com.ex.libsubstitute
+Filename: debs/org.coolstar.libhooker_1.6.9-22_roothide_iphoneos-arm64e.deb
+Size: 48516
+MD5sum: 22804fd1899fdd0210e9de1980e5ac89
+SHA1: 430d9eb31c9ccbccae6be8180fc85b316a9fbcfb
+SHA256: b009abda7c5f8e345a2e047b2b40a789bf49e9a35b83e4910d0215eedabd9ec9
+SHA512: e92dfcbbeb6d95a1b730a99cd29f529c6ef3dcbe2e7f5e731005a36878937c95fa9163e6b1984ffde392f7b2d14fd8e6dc4479753d46990ad57d39701a8b7764
+Section: 插件
+Description: libhooker engine, tweak loader and safe mode for iOS 16+ roothide
+Name: libhooker (roothide port)
+Author: CoolStar and contributors
+Icon: https://apt.002599.xyz/web/icon/org.coolstar.libhooker.png
+SileoDepiction: https://apt.002599.xyz/web/org.coolstar.libhooker
 
 Package: org.mr.answeringmachinex-rootless
 Architecture: iphoneos-arm64
@@ -24847,6 +25172,24 @@ Author: limneos
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: org.shallowdream.dockpages
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: MoWang
+Installed-Size: 521
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Replaces: local.apelin.dockpages
+Filename: debs/org.shallowdream.dockpages_1.0.3_iphoneos-arm64.deb
+Size: 88634
+MD5sum: a5df6fe90808c8c7e18a1ee9fe9a2b9b
+SHA1: 3a2b04b3e5ecd12cfe7c8c67d1b1286b4dfd9547
+SHA256: 3a355bc56a7e5eceb6875b5abcec615ae07728bba7b62813ffafab250b60203f
+SHA512: 0cdcb8d0c8254dca41ae363050b06f3060c7589306ae43f2c9b828bcb46c2056f39c3a98bdf1c936498ae8ca0901afee8ebcf7dd7bbb66f89d48dde9ecda5598
+Section: 插件
+Description: Dock 左右各增加一页，每页四个图标，支持左右滑动切换。
+Name: 三页 Dock
+Author: MoWang
+
 Package: org.thebigboss.libcolorpicker
 Architecture: iphoneos-arm64
 Version: 1.6.8-9
@@ -25039,6 +25382,31 @@ Icon: https://owngoal-dev.github.io/DuoStatusRing/icon.png
 Depiction: https://owngoal-dev.github.io/DuoStatusRing/
 SileoDepiction: https://owngoal-dev.github.io/DuoStatusRing/depiction.json
 Author: OwnGoal Studio <https://github.com/owngoal-dev/DuoStatusRing>
+
+Package: wiki.qaq.ighostvt
+Architecture: iphoneos-arm64
+Version: 1.6.24
+Priority: optional
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 16512
+Depends: firmware (>= 15.0), uikittools, launchctl, shell-cmds
+Filename: debs/wiki.qaq.ighostvt_1.6.24_iphoneos-arm64.deb
+Size: 6450334
+MD5sum: ae12f3b68553bb165112ce563a6b5c28
+SHA1: 481e3af388a1c4eb16fe9395ec3ea8e7273db355
+SHA256: dfbc76e80a561bf8ba5894960bb477364a1090a88bbd3b54b69c7f3c9d38b181
+SHA512: 63551d04e7e0208f99ada11f2e9f5a705ca59374c2fccf6eb3d969fd20a8bf57efae91da5ec5991a6058bca3dfc3919d577e4c384f563ab73b649d6462609aaf
+Section: 插件
+Description: Ghostty-powered terminal for iOS
+ A real terminal on your device, drawn by the same engine as Ghostty on the
+ desktop. Your shell keeps running in the background, so a build you started
+ is still going when you switch apps and still there when you come back.
+ Runs on iPhone and iPad.
+Name: iGhostVT
+Icon: https://owngoal-dev.github.io/iGhostVT/icon.png
+Depiction: https://owngoal-dev.github.io/iGhostVT/
+SileoDepiction: https://owngoal-dev.github.io/iGhostVT/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.inspector
 Architecture: iphoneos-arm64
@@ -25305,23 +25673,6 @@ Name: VisioniOS26主题
 Author: Billie
 Sponsor: 百度主题源
 Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: local.minis.hideairdrop
-Architecture: iphoneos-arm64e
-Version: 1.1.0
-Maintainer: Minis
-Installed-Size: 168
-Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/去掉分享隔空投送等无用内容隐根.deb
-Size: 5244
-MD5sum: ba3f78b91ddbbdd00c9f50e913498460
-SHA1: 30e20dfd27526aee33038cc2b3ab460605022503
-SHA256: b6ca3385a297db249d83ed63800cf54190b3520200cfdfec72d8f065c4a6e745
-SHA512: 33d9dda25feb0f76b974aaa22104b3cacaba4913a0a600e79396c4febdcda038b2bb805bfd841a25a37c813fad526d594aa3e88c59bff42256341908f6479a67
-Section: 插件
-Description: 去掉共享后弹出菜单中的隔空投送图标，清除第一行建议
-Name: 去掉共享隔空投送
-Author: Minis
 
 Package: com.aptzh
 Architecture: iphoneos-arm64e
