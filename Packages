@@ -18392,6 +18392,26 @@ Author: kanuo
 Icon: https://axs66.github.io/pro/icon/snapbackup.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapbackup/js.json
 
+Package: com.banana.trollpadex
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Maintainer: Banana
+Installed-Size: 660
+Provides: com.kdt.trollpad
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), plistbuddy
+Conflicts: com.kdt.trollpad
+Replaces: com.kdt.trollpad
+Filename: debs/com.banana.trollpadex_2.0.3_iphoneos-arm64.deb
+Size: 58402
+MD5sum: 547e0681b3ec508b4b61575b4090dcff
+SHA1: 9a28a84be45f93adcfca6e0eca0c053001bbde6b
+SHA256: db44c1bbe4cb854220adc3d3c060471002263f71faa72a6e2be38223729cf3d0
+SHA512: d380127399eee4276727496dd5b4b68f62dc7a35112c20a540cce67ecbe447ddae74c2840440fd76248743db8702f405220db5ef8e6b8b98c13fc6acd7487a49
+Section: 插件
+Description: Enhanced iPhone multitasking and Stage Manager controls based on TrollPad.
+Name: TrollPadEx
+Author: khanhduytran0 & Banana
+
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm64
 Version: 0.3-5
@@ -18740,6 +18760,41 @@ Description: 当SpringBoard的Phys占用阈值超过一定数值，自动轻量�
 Name: SBTrim
 Author: crctdd
 
+Package: com.crctdd.stayalivelite
+Architecture: iphoneos-arm64
+Version: 0.4.1
+Maintainer: crctdd
+Installed-Size: 2568
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.crctdd.stayalivelite_0.4.1_iphoneos-arm64.deb
+Size: 280160
+MD5sum: bc3481e91f6dbd2f951e15032e24daad
+SHA1: 7c9de8bd369fce70001c6cff78b5eaf4a78cf704
+SHA256: c461432292217c9a22103107fdb8ea16f792a9f48345461747165efe18c89777
+SHA512: b086917e7372e0901a9d05da97a6a7d62219e4d982e00161624170c2f02ec054f2de9e3cb557b11e5dabec9cb0cfe36fee82e3013469bf9ded9fcca9c122bde5
+Section: 插件
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Name: StayAlive Lite
+Author: crctdd
+
+Package: com.crctdd.surgeactive
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Maintainer: crctdd
+Installed-Size: 236
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.crctdd.surgeactive_0.0.5_iphoneos-arm64.deb
+Size: 16128
+MD5sum: f47291b7b8026579dc398e9ca988b88c
+SHA1: b07695bac97356e5f49141bebfb60310c1aaf728
+SHA256: 6d65056663050dfe9e96a68b06a1287f9029656c2116b89c34203155ae79ab7a
+SHA512: 59a748cb90e558028f19cd7d9051408b8df32ef824ee358697c9bdf2ecba38039fe6376848c6845558a0cf17085b2e4f138a277ea5aba8e5c61ae3dcc84097fd
+Section: 插件
+Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
+Name: SurgeActive
+Author: crctdd
+icon: https://huayuarc.github.io/icon/surgeactive.jpg
+
 Package: com.creaturecoding.libcspreferences
 Architecture: iphoneos-arm64
 Version: 1.5.7
@@ -18905,6 +18960,25 @@ Section: 插件
 Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(arm64e → 绿色、arm64 → 蓝色、arm → 橙色、all → 灰色)，可识别刀刀源内的 RootHidePatcher 中文版，也识别 UmbraPatcher，转换插件一条龙。
 Name: Sileo(RootHide)
 Author: Amy While
+
+Package: com.dao.velvet2
+Architecture: iphoneos-arm64e
+Version: 2.3
+Maintainer: daodao
+Installed-Size: 668
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.initwithframe.velvet, com.noisyflake.velvet2, com.hk.velvet2.cn, com.hk.velvet2.cn.rl, com.hk.velvet2, com.hk.rootless.velvet2, com.qms.velvet2
+Filename: debs/com.dao.velvet2_2.3_iphoneos-arm64e.deb
+Size: 104792
+MD5sum: c40ef95405edf4be80bc258039f37e3d
+SHA1: 2e3740d9bd7456d17305d0aa43e7b3ffdf487f23
+SHA256: c8d06d4903d5ea1ef82b05ac5691aa72c019a4e137be193b20d727e0d5f67cfc
+SHA512: dc0f516d1785d2d388cd087006d415eea2d2005f0fa35523114fcc68ef8428b36341270ffa81f3f00c54eb28267308494d209e90ff5e6cbaf13af4e448a81619
+Section: 插件
+Description: 完全可自由定制的通知横幅变色，根据开源编译/优化/汉化而来。
+Name: Velvet2 中文版(RootHide)
+Author: NoisyFlake
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/velvet2/js.json
 
 Package: com.doimty.fiona
 Architecture: iphoneos-arm64
@@ -19406,6 +19480,24 @@ Author: Huayuarc
 Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
+Package: com.iamdega.uiscroller
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: iamdega
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.iamdega.uiscroller_1.0.5_iphoneos-arm64.deb
+Size: 9604
+MD5sum: 818d8f1cc6f81362b1d4fbe11ae6eb18
+SHA1: 1f135cfb0f812004047d8d725e2dff06aaccbb4d
+SHA256: dad9f872b19c236638d48ebd3b6c3c89439e6478280e04f0b0560c130e8e9b81
+SHA512: da70acc96ace9c054809f49832d7b54ad6b5bb0faa17679325b8f17304f446ac1ba9ffd114ce7058be561d4f77854bbb4e3576e5ddc8f19408ccd433dc770915
+Section: 插件
+Description: Rest your fingers, automate scrolling any pages!
+Name: UIScroller
+Author: iamdega
+icon: https://huayuarc.github.io/icon/uiscroller.jpg
+
 Package: com.icraze.complicationsfix
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -19515,6 +19607,41 @@ Author: iosrxwy
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.iosrxwy.vvebofix
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: iosrxwy
+Installed-Size: 220
+Depends: mobilesubstrate
+Filename: debs/com.iosrxwy.vvebofix_1.0.1_iphoneos-arm64.deb
+Size: 49680
+MD5sum: 3835368a624dfb83afc76681e94b6596
+SHA1: 22f2b68d62c8760eac7dec6b147b33427ff6933b
+SHA256: 143d66689b4227ed486733bf7c070d12719fd2a5aefbc211ef36b69bad68ce29
+SHA512: 5c525e43fc6f3d55905e6aa461952715b6f28d4f0d2316295de63654116aeac5973233f02d99bc6bec89a3ee4c5936bddb3beff13967d3f2e831598480f4e56e
+Section: 插件
+Description: 修复 VVebo 主页时间线，恢复专业版，把反馈入口改到作者频道。实况图可以点开播放，长按可以保存和分享。切换账号不再打开频道。三指双击打开设置，长按底栏编辑按钮打开或关闭设置。时间线、实况图、会员和 120Hz 默认开启
+Name: VVeboFix
+Author: iosrxwy
+icon: https://huayuarc.github.io/icon/vvebo.jpg
+
+Package: com.iris.wcneo
+Architecture: iphoneos-arm64
+Version: 1.2.0-4
+Maintainer: Iris
+Installed-Size: 11772
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.iris.wcneo_1.2.0-4_iphoneos-arm64.deb
+Size: 3174390
+MD5sum: cfde338d83320c00b91acfce5c161d3f
+SHA1: df242be90f40aa2d624e15868fe014f316691364
+SHA256: bf10a3c16e3efe85a39734bcc54935678ec7136c7ab494845b7095b075c5b1da
+SHA512: 79b97c54bec89bfcb9467a929929e9e674a2faaf2005d0c62359f7cce2fec80407e63c5e0ceee3fc69a9825c45863aa565b3509173a95e681bf2289d61d9b728
+Section: 插件
+Description: WeChat enhancement tweak with customizable interface, quick actions, and utility features.
+Name: WeChatNeo
+Author: Iris
+
 Package: com.itznebbs.edge2
 Architecture: iphoneos-arm64
 Version: 1.0.3.1
@@ -19612,6 +19739,24 @@ Description: 高德地图界面精简 · 纯本地运行
 Name: GaodeClean 高德精简
 Author: jibamao
 
+Package: com.johndie.triggr
+Architecture: iphoneos-arm64e
+Version: 2.0.0~beta7.1
+Maintainer: John d_ie
+Installed-Size: 1964
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, firmware (>= 15.0)
+Filename: debs/com.johndie.triggr_2.0.0_beta7.1_iphoneos-arm64e.deb
+Size: 227240
+MD5sum: b804fd49475fb47ae9959af35d54ec0c
+SHA1: 994586b40d01776cae0a778f8ce20b45801fe768
+SHA256: 027c292b27f682dafb10a18b7b94db187861563ed55f234d9a84016a1406fa0e
+SHA512: 8472bdc36a5d5b86f677b5da70c270ecb9505009181723005bc80664dfdf88dc840d25860c636d231c0c9df49423614eac58727b7e9230d58df1ffbacde7e4f4
+Section: 插件
+Description: 面向 rootless Dopamine 的 Activator 精简版：把操作分配给主屏幕、锁屏和音量按钮、触控 ID、静音开关、状态栏点按、图标滑动、摇动，以及充电器、Wi-Fi、电池电量或定时等事件。支持 A12 及更新机型（arm64e）。Activator-lite for rootless Dopamine: assign actions to the home, lock and volume buttons, Touch ID, the mute switch, status bar taps, icon flicks, shaking, and events like charger, Wi-Fi, battery level or a time of day. Supports A12 and newer (arm64e).
+Name: Triggr
+Author: John d_ie
+icon: https://huayuarc.github.io/icon/triggr.png
+
 Package: com.joshuaseltzer.sleeperx
 Architecture: iphoneos-arm64
 Version: 4.0.0
@@ -19631,6 +19776,23 @@ Name: SleeperX
 Author: Joshua Seltzer
 Sponsor: Joshua Seltzer
 icon: https://huayuarc.github.io/icon/sleeperx.jpg
+
+Package: com.kdt.unrestrictmirroring
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: khanhduytran0
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 18.0)
+Filename: debs/com.kdt.unrestrictmirroring_0.0.2_iphoneos-arm64.deb
+Size: 4274
+MD5sum: 8611a99fd402297b0bf438a3333b358b
+SHA1: c4bb80807e36fb9162824db5358ce5e9b78f9152
+SHA256: ba6c3b9a6fd67cb7e4d9470c64aec7dbc2921f92ff858c84caf8ccaae20975bc
+SHA512: 3c25364b8309680a6491a75b7c460b87f5d2f2eabd0909a81d34a3847caf6e85a032e6de9275a3ee4107f6ca03403309fa560a61e6872c6de8374480c29ce360
+Section: 插件
+Description: Enables iPhone Mirroring while unlocked and Device Hub remote control
+Name: UnrestrictMirroring
+Author: khanhduytran0
 
 Package: com.kernelrw.adytum
 Architecture: iphoneos-arm64
@@ -19809,6 +19971,23 @@ Description: Rune汉化--(rootless)简体中文包
 Name: Rune汉化包-rootless
 Author: 来了老弟 h_h_x_t
 
+Package: com.mallin.tunnelsharevpn
+Architecture: iphoneos-arm64
+Version: 1.2.6
+Maintainer: Mallin
+Depends: firmware (>= 15.0), mobilesubstrate | substitute | libhooker | ellekit, com.opa334.ccsupport, preferenceloader
+Filename: debs/com.mallin.tunnelsharevpn_1.2.6_iphoneos-arm64.deb
+Size: 166128
+MD5sum: 5f5917b1e0994ba050727d91700f0dde
+SHA1: d305dc1952b14141f4c8c88e6e507f56ed741530
+SHA256: 078faf30537a81d46b36f1781b1258b0e68a52e9f6cff8a86b8c0a8fc129fb7a
+SHA512: 7070064b2028127d7ea308a3cb1310c68468c8c9d7b941841cccb63e739637864985185bbf7293151232735e13976db44f6f132a25d6ea7d49ad2ef20e7ccc43
+Section: 插件
+Description: 该插件能够实现该手机的科学上网功能直接通过热点形式分享给其他设备，在“设置-控制中心”添加快捷键，即可实现一键操作，目前测试使用Shadowrocket科学上网，只用于科研与查阅外网资料！
+Name: TunnelShareVPN
+Author: Mallin
+Icon: https://mallinrepo.pages.dev/depictions/tunnelsharevpn/icon.png
+
 Package: com.miguelaka95.bettercc
 Architecture: iphoneos-arm64e
 Version: 0.0.51
@@ -19971,6 +20150,42 @@ dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
+Package: com.mlgm.taploom
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Maintainer: mlgm
+Installed-Size: 1124
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.mlgm.taploom_1.1.7_iphoneos-arm64.deb
+Size: 184588
+MD5sum: 2b6ffe0f1b51bab7f39645c21597e86b
+SHA1: 3c818ac654aef54b86f39324700d56e9be2d7c92
+SHA256: a5ec54d1dfa7171e70f2ee3d88187664609a26fac0772dc7ef22932625f371fc
+SHA512: 2df762087421fdead885d725bbf9c3e426a01463939b48739438fe9f6da6cdd95bfa842e5ec891981774d6443b25e749ef457e8c81cf9379e54c57d7f0b6cc2c
+Section: 插件
+Description: 触摸轨迹可视化
+Name: Taploom
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/taploom.png
+
+Package: com.mlgm.watchfix
+Architecture: iphoneos-arm64
+Version: 2.1
+Maintainer: mlgm
+Installed-Size: 5248
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.mlgm.watchfix_2.1_iphoneos-arm64.deb
+Size: 823780
+MD5sum: e7da2d27252cd4304728cfdeda46bcc7
+SHA1: 22ec6a975024d37a934791105f5bc5ce481032cc
+SHA256: aca4126b66430377da59c6eb95c49379cc4db4f15ecfdf7ce7327a9452841bb1
+SHA512: 131e900b526f4c376b842062ac616d0812159a3d47b3eae80234e758c71290aa268d1ca304e70984997c2727ffe61abe7ef12df8e17326734980c1f743e82223
+Section: 插件
+Description: 解决 Apple Watch 连接问题
+Name: WatchFix
+Author: 577FKJ
+Icon: https://mlgm66.github.io/icon/watchfix.png
+
 Package: com.monian.b612patch
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -20026,6 +20241,24 @@ Description: 字体挂载，支持 Rootless/RootHide
 Name: FontChange 字体挂载管理
 Author: moxuan1121
 Icon: https://TrollStoreX.Github.io/sileodepiction/FontChange/icon.png
+
+Package: com.mumu.wcgg
+Architecture: iphoneos-arm64
+Version: 0.2.0
+Maintainer: mumu
+Installed-Size: 1056
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.mumu.wcgg_0.2.0_iphoneos-arm64.deb
+Size: 289944
+MD5sum: b2a2f6d10504692addc30ecf56047f8b
+SHA1: bed506ffd70c24a590179366f00b1221ca297bbd
+SHA256: 904c45c7aaafae0a1acc9b7ba1813f3c1442fae54ed05a76c1cf5248078a210b
+SHA512: c0961ceb086b6470256042eed8d2d372a94b9bfb0f422425893790825e440b739a58c8ecfbfbfdbcbb7ac2ce7acb8a5281289baca8afc25ed49b2e6cbfd4d1d4
+Section: 插件
+Description: WeChat custom badge plugin
+Name: WCGG
+Author: mumu
+Icon: https://huayuarc.github.io/icon/WeChat.jpg
 
 Package: com.muzi.duostatusbar
 Architecture: iphoneos-arm64
@@ -20303,6 +20536,25 @@ Name: NoAdsX
 Author: 半生年华
 icon: https://huayuarc.github.io/icon/NoAds@2x.png
 
+Package: com.nx.stheno
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: kanuo
+Installed-Size: 3821
+Depends: dev.theos.orion, firmware (>= 16.1), mobilesubstrate, preferenceloader
+Filename: debs/com.nx.stheno_2.0_iphoneos-arm64.deb
+Size: 1074430
+MD5sum: d20a60132c26ed99d0dd7545fb996a37
+SHA1: 893542a0a8f0ea625caaa6d33b60daf4e3495cd3
+SHA256: e3b76aeddb4cbb0523b8cde8b443dacf0a8bfab79fe2fdbf235a2f364a0f74cf
+SHA512: def740d14851b6f6fe24065234cb2e33b3c6617bf0572baf9f70dc1dde004b48aab637b2bb3d931f50337e2c96dae86c64cb5018966f7a80cf1be41ccbc3722c
+Section: 插件
+Description: Stheno direct Swift settings with categorized controls, app icon and favorites rail.
+Name: Stheno-去除验证版
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/stheno/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.nx.stheno.json
+
 Package: com.opa334.altlist
 Architecture: iphoneos-arm64
 Version: 1.0.9
@@ -20341,6 +20593,22 @@ Name: libSandy
 Author: opa334
 Depiction: https://apt.htv123.com/view/476
 SileoDepiction: https://apt.htv123.com/sileo/476
+
+Package: com.opa334.trollstorelite
+Architecture: iphoneos-arm64
+Version: 2.1.1-2
+Maintainer: opa334
+Installed-Size: 11424
+Filename: debs/com.opa334.trollstorelite_2.1.1-2_iphoneos-arm64.deb
+Size: 3685666
+MD5sum: bdbef2c8245bf080aa5d2a4de50df12c
+SHA1: 22c808b70d9ff751f12b83ceb76110873a0fc07c
+SHA256: ec76ed0e882284f7366e3e7cc82a5480634222f0fe669fb1b9e173756c9c6ea8
+SHA512: 12c2361077296d884ffcd9cd039c20532a3da9dd54a017ef00c342b6485039f1b8da98f7903188ffc63c3898b3a66331d2513d2c21d81cbbb03a30a2d3b6272a
+Section: 插件
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Name: TrollStore Lite
+Author: opa334&iosdump
 
 Package: com.peterdev.libpddokdo
 Architecture: iphoneos-arm64
@@ -21022,6 +21290,24 @@ Author: sunshinesong
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.susudear.themecore
+Architecture: iphoneos-arm64
+Version: 0.5.0
+Maintainer: SuSuDear
+Installed-Size: 736
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/com.susudear.themecore_0.5.0_iphoneos-arm64.deb
+Size: 129302
+MD5sum: e4c9610b933e2b8202d434ec270ca59a
+SHA1: 9d453fe0f3c6de79f197c2868ba4dd1e45f57925
+SHA256: f5716bef079997f6f613f4e613d97417a76b695e965915669e6037866cad4c32
+SHA512: ecd416b62fb2c21b0e7261c3d494bd201c535a7696f411d54c0f2a474025b7142afffd35c8b25f6710d89ea72b48729b595b879cc4c1a889f18aed3ea256fcf1
+Section: 插件
+Description: 轻量化桌面图标主题插件，修改图标及图标阴影如此轻松，覆盖绝大部分区域，时钟日历可动态图标。
+Name: ThemeCore
+Author: SuSuDear
+Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+
 Package: com.tencent.live4iphone
 Architecture: iphoneos-arm64
 Version: 1.0.0-1
@@ -21134,6 +21420,25 @@ Section: 插件
 Description: AutoScroll scroll behavior tweak for RootHide.
 Name: AutoScroll
 Author: Tsangbaby
+
+Package: com.vita.yuki
+Architecture: iphoneos-arm
+Version: 0.1-2
+Priority: optional
+Maintainer: vita
+Installed-Size: 748
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.vita.yuki_0.1-2_iphoneos-arm.deb
+Size: 143340
+MD5sum: 75918966f2a8566a705f8c104da45cfb
+SHA1: ba52e9987f2b2de577fb233817977c330082a5fd
+SHA256: 9b227a0c8fc2cd926ef8605a263402cff44f77d662978e75a71963fc6427fcdc
+SHA512: feb95af91ee67e8d3e0662b97d64d2924cfbd6eeb1f0e2261d24a8bf9e57b9a974e5db880689500eccc1e35a2f6bbadbb064811fd491407b3a313c0ed222806c
+Section: 插件
+Description: 抖音防撤回等，优化性能，免费插件，随缘更新。
+Name: Yuki
+Author: vita
+icon: https://huayuarc.github.io/icon/douyin.jpg
 
 Package: com.wacljcr.qqmixtxtimg
 Architecture: iphoneos-arm64
@@ -22112,6 +22417,57 @@ Description: Play Snake, Tetris, Basketball, Breakout, Soccer, and Tank with ins
 Name: SpringBoardGame
 Author: hxhlb
 
+Package: iya.banana.trollisland
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Maintainer: Banana
+Installed-Size: 460
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0), firmware (<< 19.0)
+Filename: debs/iya.banana.trollisland_1.1.7_iphoneos-arm64.deb
+Size: 55004
+MD5sum: 4ff6e5113813bc11d6fdb81dcf21206f
+SHA1: d308f3b860ee7bc2a94aea27174ecc7ad6e8d5ac
+SHA256: ce63017e8329b30dbd00aabeed282fd696b82de25a4d7fd50d2e6612a29ef8a7
+SHA512: 5095eada2bfee63c13aea8b3239dbd80b3b930671a90b5497fa4e554235965b52f22cc8153d2ccbb39b746a88a0d2a900b322512f22e189779f7da5d56767302
+Section: 插件
+Description: Enable and reposition the native Dynamic Island without persistent MobileGestalt changes.
+Name: TrollIsland
+Author: Banana
+
+Package: iya.banana.tweak.loader
+Architecture: iphoneos-arm64
+Version: 0.4.3
+Maintainer: Banana
+Installed-Size: 2340
+Depends: mobilesubstrate, firmware (>= 18.0)
+Filename: debs/iya.banana.tweak.loader_0.4.3_iphoneos-arm64.deb
+Size: 873526
+MD5sum: 211bccd54cae03e689327e1803dcc573
+SHA1: 2c6ce57e2498ca606d22693ef728fdd6cf4353bb
+SHA256: b537b211dbfb1216fdc1a8b3b42456c0b91e970e010417b81b4de3ecea30ce32
+SHA512: b050599d0bdbce53cdd95daf65ce5391c9feb647c03c48b0916933687978cadcd37b8f9cd566db49b4daf137ea3aa64dd5c4bcbcdba92caf1f02daa4a9457d49
+Section: 插件
+Description: iOS 18 Settings home — tweaks list, status group, password
+Name: Tweak Loader
+Author: Banana
+
+Package: iya.banana.vehiclemotioncues
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: hades
+Installed-Size: 616
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport (>= 1.3.10)
+Filename: debs/iya.banana.vehiclemotioncues_0.0.2_iphoneos-arm64.deb
+Size: 33122
+MD5sum: 1efbb08fed350f880041d2ce468a4e44
+SHA1: 468a17fea575ed7266902847c1e3b08928ff36bd
+SHA256: 730f2139a27a0692b88b3cca55519ca2688b17d9d9d63af07a97cf961204cf00
+SHA512: da361065782acb966e07fa16183e5b6be8cf5b43b055a186e3efdd272fb8e34bfa62b9743d8706fb93573d16a50e8b9cdbdf3382efc83540dc149aa45557d3bf
+Section: 插件
+Description: Reverse-derived Vehicle Motion Cues for iOS 17.
+Name: Vehicle Motion Cues
+Author: hades
+
 Package: iya.iapple.liquidass
 Architecture: iphoneos-arm64
 Version: 0.1.1b+banana54
@@ -23008,6 +23364,27 @@ Icon: https://lakr233.github.io/Irisin/icon.png
 Depiction: https://lakr233.github.io/Irisin/
 SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
 Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.umbra.patcher
+Architecture: iphoneos-arm64e
+Version: 3.0-2
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 2532
+Depends: firmware (>= 15.0), bash, coreutils, findutils, grep, sed, libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Conflicts: com.roothide.patcher
+Replaces: com.roothide.patcher
+Filename: debs/wiki.qaq.umbra.patcher_3.0-2_iphoneos-arm64e.deb
+Size: 882202
+MD5sum: 98eba5ce5e44683b9d308f0a87d1f589
+SHA1: d3e6e3aad134bac31287a7f19f018aec7cf7ee37
+SHA256: 5d82e5d51e75f653412ecf0a8a255f4f73c8257c32d3f428d21eb633705eabe4
+SHA512: 295b8098b3ab5800c2a87e2a4eaeb5d1134fe99d3924a2ddc40687403072089ea9966b471f911abd2ad86fec73460087bec44805b82792442ab0aecac77125a0
+Homepage: https://github.com/owngoal-dev/RootHidePatcher
+Section: 插件
+Description: Convert supported tweak packages for RootHide custom firmware.
+Name: Umbra Patcher
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Support: https://github.com/owngoal-dev/RootHidePatcher/issues
 
 Package: ws.hbang.alderis
 Architecture: iphoneos-arm
