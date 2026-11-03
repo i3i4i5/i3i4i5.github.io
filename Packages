@@ -18995,27 +18995,50 @@ dev: cokepokes
 
 Package: com.colorblack.bottomx.floatingball
 Architecture: iphoneos-arm64
-Version: 6.104
+Version: 6.117
 Maintainer: kanuo
-Installed-Size: 3136
+Installed-Size: 3680
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/com.colorblack.bottomx.floatingball_6.104_iphoneos-arm64.deb
-Size: 1362884
-MD5sum: a4a7d32b501d43c9b31f41bee9dcc2fb
-SHA1: 9d38060165b3fbe086219328f181dc3c7a91a5a6
-SHA256: b7765ccd49557c6068176643992ea774d2a40df7222ee55c374d5bebb917ea7f
-SHA512: 089c1cb5df6739cb8834f8e2a6edc66eec6377960d8fa1541783846301eb58eddf722f8bd6aed59f759cc38c87caef523d84a7b387a97001c388451bf0df86ee
+Filename: debs/com.colorblack.bottomx.floatingball_6.117_iphoneos-arm64.deb
+Size: 1940592
+MD5sum: b5f61c875072d567585a80f0d84ec3d5
+SHA1: 793228c8543ed5d0963a25035612754c458872b8
+SHA256: a7b310410512d2e3ca78e39c206a6b7027cbbcbc151382bbc569578ef80aff63
+SHA512: 46e368c76088420b0770d312738e068623a579d24870a197ae6f8f7052115c993007991085ad628cfb00487d5d40ed42100c9d5c5c89303a49e6241ba7f08391
 Section: 插件
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
  .
  【核心功能】
- - 三键导航长按拖动可贴屏幕底边，键盘避让与收起回位均有平滑过渡
- - 三键导航：液态玻璃风格、霓虹灯管、炫光与点击动画；横竖排列、顺序交换及长按拖动
- - 圆圈键继承悬浮球上下左右动作，单击回桌面、长按拖动；三枚按键高亮霓虹发光
- - 三键导航可选横屏自动隐藏，跟随应用实际方向，恢复竖屏自动显示
- - 导航整体透明度与背景透明度独立调整；保留返回、桌面、多任务与键盘避让
+ - 6.117：补充 Turrit 独立导航控制器发现，以真实导航栈变化学习闭包触发的返回
+ - 场景激活和前台定时重连，捕获 App 自定义事件入口及兼容的节点按钮
+ - 网页内按钮独立学习，匹配域与元素结构；共用回调图标增加层级和位置消歧
+ - 诊断区分等待客户端连接、已收到触摸、节点回调限制和网页重放失败原因
+ - 学习成功可继续检测不同返回，相同机制提示后跳过并继续，已有记录不覆盖
+ - 排除依赖真实触摸位置的网页通用点击回调，诊断增加继续学习回执和重复跳过
+ - 返回学习增加图片等视图的单击手势回调和无事件参数按钮，仍需验证或确认后保存
+ - 失败诊断增加实际页面控制器、手势类与捕获的动作，区分不同页面返回机制
+ - 多个前台场景时优先匹配返回请求指定的场景，避免在进入学习匹配前直接拒绝
+ - 小窗按已确认场景的内容 key window 返回，精确租约允许非活跃托管场景重放学习
+ - 诊断增加引擎入口、窗口排除原因、学习机制摘要和原生匹配候选数
+ - 吸附键双击切换桌面宠物，宠物三击返回导航栏；保留单击吸附与双击固定
+ - 两种模式独立记忆位置，保留宠物、闲逛和导航设置，切换短淡入并提供触感
+ - 垂直位置范围扩展为 -160～160 点，设置滑块可下调到底部贴边
+ - 吸附键收起为 24×64 点透明玻璃把手，无黑线或霓虹，点击展开，长按上下移动
+ - 返回响应速度滑条调整单击判定与连续返回间隔，保留背景穿透
+ - 学习返回改由桌面代理保存，进入 App 自动连接并显示检测提示
+ - 学习同一 App 内可复用的单层返回、弹窗、网页及按钮动作，不再绑定整页内容
+ - 失效学习记录不再阻断原生返回，保留多层跳转限制；自绘手势可能不支持
+ - 新增诊断日志开关、导出与清空，记录返回请求、学习匹配和动作结果，按大小轮换
+ - 收起状态与展开位置分别记忆，保留旋转、横屏隐藏、键盘避让及回位动画
+ - 四键导航：系统合成层仅注册图标触摸区域，背景、光晕和空白不命中桌面窗口
+ - 方形键独立配置应用、系统工具、快捷指令或 URL，默认不执行
+ - 新增吸附键，默认向右，可在设置选择向左；保留高度及键盘避让
+ - 四键支持液态玻璃、霓虹灯管、点击动画、横竖排列、顺序交换及长按拖动
+ - 圆圈键继承悬浮球上下左右动作，单击回桌面、长按拖动；四枚按键高亮霓虹发光
+ - 导航按键可选横屏自动隐藏，跟随应用实际方向，恢复竖屏自动显示
+ - 导航整体透明度与背景透明度独立调整，保留底部贴边与键盘动画
  - 单击执行原生返回、网页后退或关闭弹窗，普通 App 无上一层后再次点击回桌面
  - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
  - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
@@ -21333,6 +21356,23 @@ Name: B612 Unlocked VIP
 Author: Monian
 icon: https://huayuarc.github.io/icon/b612.jpg
 
+Package: com.mowang.crashanalyzer
+Architecture: iphoneos-arm64
+Version: 1.4.2
+Maintainer: MoWang
+Installed-Size: 292
+Depends: preferenceloader
+Filename: debs/com.mowang.crashanalyzer_1.4.2_iphoneos-arm64.deb
+Size: 137008
+MD5sum: 12f0d687883f30faffce3b20861023dd
+SHA1: e38dd0bc4e6179a8402316ae8c535dfd0b35f9ce
+SHA256: 3c8906daff02b7a829b597477af6e1962eabdb7f7bbdcfeaa9b11964b232bc5b
+SHA512: 7aea6db4018bf8f14fc013f3362e116e73887d9dee11a78b275ed4a3539f53070b4c3f2a1a56f05e4eefb32201dbc0b9df4caabb0e8c5fcb5bca3bd4b5be9e34
+Section: 插件
+Description: iOS IPS 日志搜索、进程分组与证据分析
+Name: AI 日志分析
+Author: MoWang
+
 Package: com.mowang.kbglow
 Architecture: iphoneos-arm64e
 Version: 1.0.3
@@ -21348,6 +21388,23 @@ SHA512: 26730b817b5c8959fccd714d5e1b1b9da17d9289c69ee2dfdd9a3a34d226e2f608b7c77e
 Section: 插件
 Description: 第三方键盘按键发光效果插件
 Name: KBGlow
+Author: MoWang
+
+Package: com.mowang.rainbowkeyboard
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: MoWang
+Installed-Size: 1344
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.mowang.rainbowkeyboard_1.0_iphoneos-arm64.deb
+Size: 811876
+MD5sum: 8ab5c24c774f581fc9b7e7fdaccf6cc5
+SHA1: 6a273f894f5a93215d2f290dbe538e150aedd9e5
+SHA256: 7b7c53387dd82b624dd5cd546806257b89f27ae29cf61f423b5f8094cc98f8f2
+SHA512: 00220988cb4ab511d526e42fd6cd8480bd1442da818264ccdb39e0b952f3bdd9577ee4e0734b2adb3316a188e4aa4c9ed097f194eabc1219fc3b2320e85b5bac
+Section: 插件
+Description: 修复渐变表情 bug
+Name: 彩虹键盘光效（安全版）
 Author: MoWang
 
 Package: com.moxuan.fontchange
@@ -21388,6 +21445,25 @@ Description: WeChat custom badge plugin
 Name: WCGG
 Author: mumu
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.muratkurt.cyswitcher
+Architecture: iphoneos-arm64e
+Version: 0.5.70
+Priority: optional
+Maintainer: muratkurt
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000), rootless-compat (>= 0.9), com.mrgcgamer.libgcuniversal, com.creaturecoding.libcspreferences (>= 1.5.8), ellekit
+Conflicts: com.muratkurt.kaswitcher, com.sini921.quickappskill, run.cheng.autopower, com.dynamicx.tweak, com.axs.jikan, com.dao.powercuff, com.axs.zxbsp, com.cydia.love.april-rootless, com.wxhbts.storeswitcher.roothide, storeswitcher, apt.cydiakk.shuffle.rootless, net.kenhtao.shuffle
+Replaces: com.muratkurt.kaswitcher, com.sini921.quickappskill, run.cheng.autopower, com.dynamicx.tweak, com.axs.jikan, com.dao.powercuff, com.axs.zxbsp, com.cydia.love.april-rootless, com.wxhbts.storeswitcher.roothide, storeswitcher, apt.cydiakk.shuffle.rootless, net.kenhtao.shuffle
+Filename: debs/com.muratkurt.cyswitcher_0.5.70_iphoneos-arm64e.deb
+Size: 820496
+MD5sum: cb49355101bd536494af7116fc5dcb2a
+SHA1: a480d6f7d4f6eb8e1edcfb46689471710ea7e82d
+SHA256: 258c572ca11458fcc1f4defdb4b123d3fdbbbc47ed828dc81b686bae19ebc160
+SHA512: a9380321c9bfe6f865bde200a803f3eeaf90c16666d07b44805cbdd54a309fcb58469376f82a391f99a9670f762e3f1b14efa3aded53f8301da2002f6d4c4550
+Section: 插件
+Description: CYSwitcher unified preferences with native Shuffle settings classification and StoreSwitcher account switching
+Name: CYSwitcher
+Author: muratkurt / SINI
 
 Package: com.muzi.duostatusbar
 Architecture: iphoneos-arm64
