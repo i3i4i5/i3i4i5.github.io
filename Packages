@@ -21525,6 +21525,24 @@ Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
+Package: com.nan.deb
+Architecture: iphoneos-arm64
+Version: 0.3.0
+Maintainer: zhaonan
+Depends: coreutils, sed, findutils
+Filename: debs/com.nan.deb_0.3.0_iphoneos-arm64.deb
+Size: 4280
+MD5sum: 8d85747587fa2d3cb2733408bb0d28fd
+SHA1: eb2db2c14f4b615e001c2a957886deddedcd5638
+SHA256: b118565c12aa7257b0ab4c2b372e890586f84931ff0ea2aba059f74fec91a602
+SHA512: b8da8358b1e6acc3aa087950f7376227114c121ebe1354a5a88b4b415abc1b760641807fb5071c5bd331056095d6a82c137855cdfd68f35a0fcb857924a01be9
+Section: 插件
+Description: deb 工具，普通解压，普通打包，批量解压，批量打包，提取已安装软件包，deb 信息查看
+Name: deb
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.deb/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
 Package: com.nan.dpkg-fill
 Architecture: iphoneos-arm64
 Version: 0.3.4
