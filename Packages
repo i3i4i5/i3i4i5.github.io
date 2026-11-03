@@ -17389,6 +17389,314 @@ Author: Luki
 Icon: https://axs66.github.io/pro/icon/arizona.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/arizona/js.json
 
+Package: com.Axs.audiomix
+Architecture: iphoneos-arm64
+Version: 0.0.10
+Maintainer: Axs
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
+Filename: debs/com.Axs.audiomix_0.0.10_iphoneos-arm64.deb
+Size: 33228
+MD5sum: 9f1ecb3f0d406a1bdc95d4a43326d218
+SHA1: 1b292b5769a90ef88c7a62cc7c3e053ac14b4665
+SHA256: 74c627e89f08e066e453f965fc0d5341eee47a385aeb28ef748659ac921c5c2f
+SHA512: f7f8c5f4d78d9c2d731602bd0c033a3dcb9c2315e4bb6a83603a32e1f701efb2ab3d42010d96c1c4c18eef561c62c870007c812b5f08486756f3879348241793
+Section: 插件
+Description: 调整以同时播放两个或多个音频源。不适用于所有应用程序！有时第一个音频仍然会暂停，所以你必须重新启动它。
+Name: AudioMix 同时播放多个音频
+Author: KingPuffdaddi
+Icon: https://axs66.github.io/pro/icon/audiomix.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/audiomix/js.json
+
+Package: com.Axs.autolockscreen
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.autolockscreen_1.0.0_iphoneos-arm64.deb
+Size: 3700
+MD5sum: e9886a97ae2694ced65bfb33ccfff450
+SHA1: 5f12bb50eb97a4eb3b013cf1a0dd8b192de8e88d
+SHA256: d09eea9f33d6b4543dfad8ddadcb57f4b97e412e5c72a368376f6fb24214fd92
+SHA512: 1b8e4d24c696596d6da4e645e55d7aa172d5d9d638564a82889297ddaec3112ae60d1a934603002dbd8fe0087c56734bae84210d6d90edbd7b2264c6a26db9eb
+Section: 插件
+Description: Screen facing down, automatically locks.
+Name: Auto LockScreen
+Author: A
+Icon: https://axs66.github.io/pro/icon/autolockscreen.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/autolockscreen/js.json
+
+Package: com.Axs.autoscroll
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Maintainer: Axs
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.autoscroll_1.0.5_iphoneos-arm64.deb
+Size: 9788
+MD5sum: 48f04976c6855444a25240384afa056e
+SHA1: d338af413e4e33929837dc95bd203e6e63f2fa45
+SHA256: 04a3764fb4e1547cdfb657dd0b664c5acfa05bfe199f26a3061adcedcc587842
+SHA512: 7dc59a253fa2b74314e232057d7b726a74acd402468214e428cf8c95ce84c9b9ea269ac98a11c4029c74a91158965513480a353501436f5add97981bcf8c0f2e
+Section: 插件
+Description: 功能：页面自动滑动，全局生效，APP内双指长按出现设置菜单，然后自行设置功能即可，不要屏蔽插件注入应用，不然不会出现此插件！本插件能够跟随你的手指滑动幅度，页面始终自动滑动，直到你触摸屏幕才停止！一款小插件！还不错！
+Name: AutoScroll页面自动滑动
+Author: iamdega&daodao
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/contributor.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/autoscroll/js.json
+
+Package: com.Axs.backgrounderaction15
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Maintainer: Axs
+Installed-Size: 340
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/com.Axs.backgrounderaction15_0.1.0_iphoneos-arm64.deb
+Size: 9984
+MD5sum: 9bff73a181917cc09768a54bd0d8470c
+SHA1: 08b1f9911fbb8c0da5b09854b4a503a209578d48
+SHA256: f3b5d910d833b34474e5714f223f4b394ac0e673febd5997bf4ac320fc9bfd35
+SHA512: e1c56d4785ec6e6beb97ea6bed0a6454f658cffe07aedf291d689cca94124083eb6e7750d252b573fd16478627b8144c783208044d95d95c694c5cae92155b76
+Section: 插件
+Description: 一款真后台插件，先去系统设置控制中心里添加这个模块，方框形状的，然后进入你想要的APP，下滑控制中心点击真后台按钮即可！！
+Name: CCSupport真后台独立开关
+Author: akusio_RR
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/backgrounderaction15.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/backgrounderaction15/js.json
+
+Package: com.Axs.backgroundretainer
+Architecture: iphoneos-arm64
+Version: 0.0.1-7
+Maintainer: Axs
+Installed-Size: 472
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.dopamine.swapforcer
+Filename: debs/com.Axs.backgroundretainer_0.0.1-7_iphoneos-arm64.deb
+Size: 78580
+MD5sum: 00c09580ece4654f3eb28fb7b71e057b
+SHA1: 14d7d51416957813d68a7f3a9127c78861073f51
+SHA256: 10a900c6cffb0cf090657d3f07b47c681b4943a0138ae0f9c03fa5789a2e1f08
+SHA512: 02afe79c56cd71337eba08c2f681dded3ae5912e1bb916e2885195e755f345887428252ff566573706db3b6aab525907f537657a7782b2d43c971ee8527f68bd
+Section: 插件
+Description: 本插件的作用是基于iOS墓碑机制的后台应用留存增强插件,可以添加应用应用id 到白名单，冻结应用，防止被杀后台，如果感觉无效就卸载！例如微信是com.tencent.xin【应用id获取可以使用Appdata插件获取】
+Name: Background后台留存
+Author: A
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/backgroundretainer.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/backgroundretainer/js.json
+
+Package: com.Axs.badge
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.badge_0.0.1_iphoneos-arm64.deb
+Size: 4284
+MD5sum: 50c348a78b0583e3761fc660b06cc603
+SHA1: cd0a182b6717c7d9becd7e4a1de99ca7e464f43a
+SHA256: 69150ac668b4a2b9f7d80b81c504c8cf85a0d29255c1031758c95d4d35c5321f
+SHA512: bc6849408b583805fe1091c29c5965b4a4faaff31c5bccba1c055d5e5553a94737b39225ec8188303db2d627661a31fcc4cabd8ca15499be6c8d63d3f8e9149a
+Section: 插件
+Description: 让你的APP角标变的灵动起来，就是会动，非常不错的小插件，无设置项，注销即可生效！喜欢的小伙伴们可以入手了。
+Name: Badge灵动角标
+Author: Phuc Do <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/badge.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.betterbili
+Architecture: iphoneos-arm64
+Version: 2.3.3
+Maintainer: Axs
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.betterbili_2.3.3_iphoneos-arm64.deb
+Size: 6808184
+MD5sum: 4dfd99e618ef64966746d7824d6329b3
+SHA1: 42a7bb7733cca40fdfa47243c89bd25fe6b5bc10
+SHA256: 0281a8c064a904466e64e0560e658a25394a16e57bfac77443ca04e56e9cf983
+SHA512: 5a61680cb413c9afcbc5a75d899b741ecf38a0f66930549c26e7321c6a27e30a87796642e4b0aa6815747eafc7c137cde837f2e8f0f9cd6986cb9a546b0de6e2
+Section: 插件
+Description: 更好的哔哩哔哩，支持港澳特别版与原版，功能如下：解锁付费画质，付费缓存，去除广告，精简功能，下载缓存到本地... 包括多款插件注入：哔哩哔哩净化与精简（原版）
+Name: 哔哩哔哩增强
+Author: A
+Icon: https://axs66.github.io/pro/icon/betterbili.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/betterbili/js.json
+
+Package: com.Axs.bettercc
+Architecture: iphoneos-arm64
+Version: 0.0.55
+Maintainer: Axs
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport
+Filename: debs/com.Axs.bettercc_0.0.55_iphoneos-arm64.deb
+Size: 148544
+MD5sum: 3077979c9280525a89448af29c6b2e7c
+SHA1: 68947eb5041c6b1fe288b0445a86a7b89c55313c
+SHA256: 5dfeb62a7fadd5042cadfa03f4ae55467a4922445ea2896dc85a2baaf973b2e5
+SHA512: 7e9dd66ee81631d3bbb4f3431c56bef9a02b0daddc1af4d1961e6232afa96cea0e15515ea256013b23956af5d5bd415df193da1b0bdcccc1ffd10af4fa8c8205
+Section: 插件
+Description: 自定义您的控制中心！隐形模块。重新排列连接切换。更改模块大小。天气小部件。
+Depiction: Axs
+Name: BetterCC 自定义控制中心
+Author: Miguelaka95
+Icon: https://axs66.github.io/pro/icon/bettercc.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/bettercc/js.json
+
+Package: com.Axs.betteruiswitch
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: TiaoTiao <qiaozhani000@163.com>
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.Axs.betteruiswitch_1.1_iphoneos-arm64.deb
+Size: 58412
+MD5sum: c4f3e9b66c39fce43738be69ed786849
+SHA1: cd28ef82904753f91b1a1ab036550d7466bcfbf5
+SHA256: b5959da5e8e35398d9c4f14b605a4dabeab38a071cdfe75e9bc95432286f14ac
+SHA512: 743aae63473c8d97b376943ed179ef3d2a8be59e67d57898dc343488b1fe749c819b5529582b76131533ac87dab6362cff054a399783597f40d4193042fb5fd3
+Section: 插件
+Description: 给手机上的功能开关添加一个特效。这开关名称吾称之为淫荡开关。
+Name: 淫荡开关
+Author: TiaoTiao <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ydkg.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/betteruiswitch/js.json
+
+Package: com.Axs.bigshot
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: Axs
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
+Filename: debs/com.Axs.bigshot_1.1_iphoneos-arm64.deb
+Size: 19260
+MD5sum: 4cd3562d4ef6fe55c6e0501d15a04807
+SHA1: 673ac9df93649901ccb96a6a4ed704aa03afe296
+SHA256: ef565e82fd0368aff47323576a3fd88fe6b23e30ee325b0061a9304c8b7d93a2
+SHA512: 7283e286da813f41100ad290949b3f0ebbde445ba7e57719899ae09e3daa4d48d7bca16271104f9839d9772f8a2eb02fdd7dff90ccd553486d0460319330ff11
+Section: 插件
+Description: 注意：此插件需要购买正版Snapper3。支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用。
+Name: BigShot长截图
+Author: Axs
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/bigshot.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/bigshot/js.json
+
+Package: com.Axs.bizhi
+Architecture: iphoneos-arm64
+Version: 1.0.0-6
+Maintainer: Axs
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.bizhi_1.0.0-6_iphoneos-arm64.deb
+Size: 3288
+MD5sum: 174e1d78379df9ec7388efd5eedb6daf
+SHA1: dd6911a02e6daebb1b934c5d8b3b582b8b02c68a
+SHA256: d07cfd1996b80531fb82d5a36e48667c7d29c39b2db13b8c9dfecbf4672fb558
+SHA512: 8c1a5b2c87842b36e77d8d4e5305349bb7c1c7163fea8c607a09fb327d67259635f130a24c9e8a505a80b5bb27bca858529eb3099bc03124dbb83b9c7fbf0ee0
+Section: 插件
+Description: 壁纸(5.0.3版本)解锁会员
+Name: 壁纸vip
+Author: fries
+Icon: https://axs66.github.io/pro/icon/bizhi.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/bizhi/js.json
+
+Package: com.Axs.blacklist
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Maintainer: Axs
+Installed-Size: 288
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.blacklist_0.0.5_iphoneos-arm64.deb
+Size: 39432
+MD5sum: fa3451b7d82e49236708a3a8e5641f42
+SHA1: 9f39ec3de925421c2a529977db2161527138f6c2
+SHA256: 48af2d319c45eb906c1c21608ab690da0ea252fbb160ec997b590d17aa9046ca
+SHA512: cbc5e6bfabefb56a0bb793535f4302ef0f1010a4f74e2553864e4dd5135af26db92bb12058795a0d858c6a81f3276c1474d8a286fc2deb8f8b92a5475fdd4b4c
+Section: 插件
+Description: 将应用进程注入黑名单以屏蔽越狱检测，配合Choicy禁止注入。并不是所有应用都可以使用，需要自行测试！
+Name: 注入黑名单 (injectBlackList)
+Author: A
+Icon: https://axs66.github.io/pro/icon/blacklist.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/blacklist/js.json
+
+Package: com.Axs.blur
+Architecture: iphoneos-arm64
+Version: 1.0-8
+Maintainer: MrDeNsor
+Installed-Size: 176
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.blur_1.0-8_iphoneos-arm64.deb
+Size: 10424
+MD5sum: 597484133de4cd800b42431f41b614ec
+SHA1: 380b02a479da943af0782990fbe835b7ad51129e
+SHA256: 1e8ed61f327229af88496f5be89470623680102e23d5cd6abd406414033a008e
+SHA512: 5b4fff60d6c861f71afb9d8cd0e3b7205d9f4f94509732d7141845f9ffdf8e500f24a3684f700c38ca21119cb3a5a9780174979f351a3aac26720da562ab303c
+Section: 插件
+Description: 将私人照片隐藏在您的库中。用面部ID，触摸ID或密码解锁。
+Name: 照片隐藏
+Author: MrDeNsor
+Icon: https://axs66.github.io/pro/icon/blur.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/blur/js.json
+
+Package: com.Axs.blurrybadges
+Architecture: iphoneos-arm64
+Version: 1.5.3
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges
+Filename: debs/com.Axs.blurrybadges_1.5.3_iphoneos-arm64.deb
+Size: 42376
+MD5sum: 2c7b8df35ef240f3b1a6b3d462b38603
+SHA1: dc89979bbbf46a237f64d7a94ffa848b33a8e1bd
+SHA256: 12c498ad079a87e2c828d044ca6832011e5ceea08aba2633ac035b0d0794f43f
+SHA512: d219b40107908e68fb49815eda7dea97c29f913422c4d411bc8129f7667ca05354dba2e309cf623f62881a72d0d5251e451521781bb10f3a8ed67925a005cb8d
+Section: 插件
+Description: 角标颜色自适应，APP是什么颜色，通知角标就是什么颜色！
+Name: BlurryBadges角标颜色自适应
+Author: PoomSmart <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/blurrybadges.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.boardswipe
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Axs
+Installed-Size: 1036
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.boardswipe_1.0.0_iphoneos-arm64.deb
+Size: 486888
+MD5sum: 0e58cf129e15bb35447d0684f12e7bd6
+SHA1: 4082e39fbe62d0419a286bce83d4b221dd9f32af
+SHA256: a931bfced4ce1745c9b3f60426edd40347e8831066543ede6ee10436f4dae908
+SHA512: aded9ca4bcf8e6ccd7ee4b102d81f04216e65017c97a95b6f9555f0dc2edb56b9c44e56de041c3017ef0ab97d2abee77028adfb11a3848d9f1c4a8cc2925e28f
+Section: 插件
+Description: Swipe down to dismiss keyboard, swipe up to switch keyboards。向下滑动可关闭键盘，向上滑动可切换键盘。
+Name: BoardSwipe 滑动键盘
+Author: Anubis
+Depiction: https://axs66.github.io/pro
+SileoDepiction: https://raw.githubusercontent.com/AnubisTweaks/AnubisTweaks.github.io/main/assets/json/boardswipe/boardswipe.json
+Icon: https://raw.githubusercontent.com/AnubisTweaks/AnubisTweaks.github.io/main/assets/icons/boardswipe/icon.png
+
+Package: com.Axs.bofangqi
+Architecture: iphoneos-arm64
+Version: 0.3.14
+Maintainer: 夜辰
+Installed-Size: 2708
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.jaysuen.evocenter, com.local.nativeplayerresize
+Replaces: com.local.nativeplayerresize
+Filename: debs/com.Axs.bofangqi_0.3.14_iphoneos-arm64.deb
+Size: 603484
+MD5sum: b376c1216df51be8cecee7c074e84996
+SHA1: 2537a845a79d02297b857b0375bb47da4446b80e
+SHA256: d65edd49fd98a3c832594a841c72e1e045e51196a420113212a88709e13bd0b3
+SHA512: 67277dceac1664d2292c7727327f71be025f1e2eec63121dcd68276f8c5f211c958504f9565c0c21f3813cebb3b8bd563c0561f0bca07b1b512da2accc476390
+Section: 插件
+Description: 单纯原生播放器尺寸调节
+Name: 原生播放器调节
+Author: 夜辰
+Icon: https://axs66.github.io/pro/icon/ccaudioplay.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/bofangqi/js.json
+
 Package: com.Axs.floating-view
 Architecture: iphoneos-arm64
 Version: 1.6.0-6
