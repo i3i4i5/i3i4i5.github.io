@@ -24461,6 +24461,27 @@ Author: TTJB Repo
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.tiaotiao.betteruiswitchs
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: TiaoTiao
+Installed-Size: 232
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: byg.iosios.net.betteruiswitch, com.tiaotiao.betteruiswitch
+Filename: debs/com.tiaotiao.betteruiswitchs_1.1_iphoneos-arm64.deb
+Size: 58552
+MD5sum: 13f3f2e9e5cdf589f9916494b9fc7f66
+SHA1: ba911b27c3325d59642e1f1909a61f3a9631ed06
+SHA256: c9d8c0b0c739988f19f262b7d9ef7c49ce1cd7a1837b4bb07afe48419c0b9f61
+SHA512: 47592bd0586cef9f30a3c146732932293dd180696d91e17c602b8b1f874cfda37f4424c1d8dbc6f854fd1b298030e100678393bc7569315c1b0bbfd3ea12cce3
+Section: 插件
+Description: 修改开关按钮 UI 为 JB/B
+ * 无设置全局默认生效
+Name: JB 按钮 BetterUISwitch
+Author: TiaoTiao
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/BetterUISwitch/js.json
+icon: https://TrollStoreX.Github.io/sileodepiction/BetterUISwitch/icon.png
+
 Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm64
 Version: 4.0.1-3
@@ -24572,6 +24593,54 @@ Section: 插件
 Description: 鱿鱼三件套通杀插件
  下载鱿鱼三件套再安装这个插件即可本地激活授权。
 Name: 鱿鱼三件套通杀（免授权）
+
+Package: com.vita.awemespeedxs
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Maintainer: vita
+Installed-Size: 272
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.vita.awemespeedx
+Filename: debs/com.vita.awemespeedxs_0.1-1_iphoneos-arm64.deb
+Size: 32496
+MD5sum: 534d8e7cf5df82b726dba5b711bfcf31
+SHA1: b7ec1c449307f1dba15826cd0a41f572286b5e96
+SHA256: 2722effe24d45f9e1c279cda9d652794135c6aa200905ba51b8b0db608ec02a6
+SHA512: 2b56d1521f8ca27b06d3e824714076609b6ed1e87acc17d82836d4fd83ed7a44e0b6823e8c9ce40975ba88bf86c307b51b2892cf7583b8d7256240c1d2239bfb
+Section: 插件
+Description: 为抖音添加一个倍数播放按钮，长按可自定义倍数
+Name: 抖音倍数播放 AwemeSpeedX
+Author: vita
+Icon: https://TrollStoreX.Github.io/sileodepiction/AwemeSpeedX/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeSpeedX/js.json
+
+Package: com.vita.yukis
+Architecture: iphoneos-arm64
+Version: 0.1-0
+Priority: optional
+Maintainer: vita
+Installed-Size: 172
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.vita.yuki
+Filename: debs/com.vita.yukis_0.1-0_iphoneos-arm64.deb
+Size: 132248
+MD5sum: 7e5158ad0569a33a5b46c36e0099e5f5
+SHA1: 1ee75826eea167e9f08c0276a406e0e495d84aa8
+SHA256: 0ad203339b769ad246302f1154be6b01899ecb810e50387f7eeea83f22cf67c7
+SHA512: f7c068e18eb291df897bccc3607ae2b80cc6487412a8ca6016cf60c3812341de0bd6d21fd435219c8fa56b8f6587e1ef0b8b490470142de111fcabde37d1f858
+Section: 插件
+Description: 抖音消息防撤回
+ * 猜拳骰子作弊
+ * 语音转发
+ * 自定义语音秒数
+ * 屏蔽输入状态
+ * 无限看闪照
+ * 好友交换作弊
+ * 插件位于抖音设置内
+Name: 抖音防撤回 Yuki
+Author: vita
+Icon: https://TrollStoreX.Github.io/sileodepiction/Yuki/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Yuki/js.json
 
 Package: com.wacljcr.floatingurl
 Architecture: iphoneos-arm64
@@ -24789,6 +24858,46 @@ Description: WeChatNeo 微信美化全家桶（免授权）。主面板/截图�
 Name: WeChatNeo（免授权）
 Author: personal
 
+Package: com.wechat.themepro
+Architecture: iphoneos-arm64
+Version: 4.6.7
+Maintainer: MustangYM
+Depends: mobilesubstrate
+Conflicts: com.yourepo.themepro.themepro-312-rootless, byg.iosios.net.themepro
+Filename: debs/com.wechat.themepro_4.6.7_iphoneos-arm64.deb
+Size: 6555916
+MD5sum: be5b787b281211e2a9f49e3b5a0ae7ae
+SHA1: c6c6de76ffb1a258400273a8854a550c36ae3574
+SHA256: b151118b4c28ae7e1a5c47a5e8236261d47a5c93c02243c18e5d23a01fa1c450
+SHA512: d559b79cbd04a442ee294b5fd23b9869554e40ce566ca4a0bef0045e1d340cc4d3b613f871ee2cb0d053670218525084d79644c77d37d29fe756fabafdbb19bf
+Section: 插件
+Description: 微信主题插件
+ * 由 ThemePro 团队开发
+ * 用于加载微信美化主题
+Name: ThemePro 微信主题
+Author: MustangYM
+icon: https://TrollStoreX.Github.io/sileodepiction/ThemePro/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ThemePro/js.json
+
+Package: com.weifeng.noad
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Maintainer: ylr
+Installed-Size: 492
+Depends: mobilesubstrate
+Filename: debs/com.weifeng.noad_1.5.5_iphoneos-arm64.deb
+Size: 88108
+MD5sum: 27061204468981fa3c44824090b9103c
+SHA1: 16f707ee51e5bb6ce4eed66c279b09a6348a83d4
+SHA256: 8e469e1afd44fdc7c05903f1bc2b92004de5681f8c2f624643c9cb56faeb9d2b
+SHA512: 604e9a76a816837d45fe9350804b9e5291bd7b14b35681e209e865299ba30e5ea431a7d14b9b2e3b93139a0418215afa48ebc3d0e35a4f83d6790bf4ba7b9417
+Section: 插件
+Description: 最后在威锋 7.1.1 进行测试
+Name: 威锋去广告
+Author: ylr
+Icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/weifeng.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WF/js.json
+
 Package: com.wkk.copylogx
 Architecture: iphoneos-arm64
 Version: 1.1-9
@@ -24901,6 +25010,27 @@ Name: SystemX（wkk）
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 
+Package: com.wrp1002.cornbars
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: Wes <wes.hamster@gmail.com>
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.alderis (>= 1.2)
+Conflicts: com.wrp1002.cornbar
+Filename: debs/com.wrp1002.cornbars_1.1.0_iphoneos-arm64.deb
+Size: 110936
+MD5sum: 8e2e95251ac3b91107d0146fa93272b7
+SHA1: d3aeb9e027426b3221c459831e3c18cfb69569c2
+SHA256: 97cea12758898315ba6fa005e52e2285db9cb7e532dee17875baf5c61aff18ca
+SHA512: 2dfe2d25a2b6a9758597ca37ba7d3885ba73d5a1728cfafbc3b81498ad567eddbeb93d940117cb717c48d2b1ecc119d32775b87088f200cf8680bb26b0605b0e
+Section: 插件
+Description: 把你的HomeBar变成玉米！
+ * Change your HomeBar into corn!
+Name: CornBar 玉米手势横杠
+Author: Wes <wes.hamster@gmail.com>
+icon: https://TrollStoreX.Github.io/sileodepiction/CornBar/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/CornBar/js.json
+
 Package: com.wxkb
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -24918,6 +25048,240 @@ Section: 插件
 Description: 在微信输入法上启用上下滑手势切换输入方式 只会切换英文 不会和键盘切换按钮冲突 同理可以切换三种键盘
 Name: Wxkb
 Author: 小菜
+
+Package: com.xlzs001.dystorages
+Architecture: iphoneos-arm64
+Version: 1.2.76
+Maintainer: DYStorage Contributors
+Installed-Size: 240
+Depends: mobilesubstrate
+Conflicts: com.xlzs001.dystorage
+Filename: debs/com.xlzs001.dystorages_1.2.76_iphoneos-arm64.deb
+Size: 60434
+MD5sum: 5d83acf90882fe38a28302a6933199a6
+SHA1: 3ec1aed8d759b8a49c2b80fed8b016466dcc915e
+SHA256: 7d7f49302b991a911b45b4b3be9874298a7028abcb1b66e1f338ab3443b7031a
+SHA512: 565fa44f43a9112ba2741c7d4fe51e1caee337afa3576eb360440b34d61e2fe9295467965eb168b4e21cb60c50de826cdb95a6e782a0634d85904bdecc49fbdf
+Section: 插件
+Description: 将你的抖音插件收纳起来
+Name: 抖音插件收纳
+Author: DYStorage Contributors
+Icon: https://TrollStoreX.Github.io/sileodepiction/DYStorage/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/DYStorage/js.json
+
+Package: com.xuuz.douyinhelpers
+Architecture: iphoneos-arm64
+Version: 2.2-5
+Priority: optional
+Maintainer: XUUᶻ
+Installed-Size: 624
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.xuuz.douyinhelper, byg.iosios.net.dyzs
+Filename: debs/com.xuuz.douyinhelpers_2.2-5_iphoneos-arm64.deb
+Size: 6814468
+MD5sum: 7c0385439f8521fcf714358768de2808
+SHA1: 6d0789d1fb3a6fff1472c8b2c3df696f06239890
+SHA256: 40af76624cdfa9de6263b8dc620a8bc4edac4fdd16109adedffcf2aaf67dab21
+SHA512: 576a2ad6137d5359261dadf30e7b28ea57785ab4fbd2cd36be57c5a8e9dcc0cbcdd02f63420d6a48a15a68958958c59a6312653d4abbe86b6112566d6287cc18
+Section: 插件
+Description: 基于 DYYY 的抖音插件
+ * 四种插件打开方式
+ * 三指长按
+ * 长按视频
+ * 设置页面
+ * 聊天长按➕/✖️图标
+ * 支持信息防撤回
+ * 支持猜拳骰子作弊
+Name: Xuu 抖音助手
+Author: XUUᶻ
+Icon: https://TrollStoreX.Github.io/sileodepiction/Douyinhelper/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Douyinhelper/js.json
+
+Package: com.xx.dyhooks.old
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: x✨
+Installed-Size: 224
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xx.dyhooks.old_1.0.3_iphoneos-arm64.deb
+Size: 41732
+MD5sum: 849d2d26d00b50de0259320984e73f9f
+SHA1: ba5b3d9fed737e834f22fe047059c4b8e159c53d
+SHA256: 9e9b27775cb2f5501da58eec79b9682a4e36428be2b20971a99bc669228d9cb9
+SHA512: c1c514243f434ce39a1f17f7e73bfe7c0822eb8da34ee887311ad93b9f52fa469f0167faa8c6459d9f92b4c6a7c8a21f17a08e7cc9289b6d59c550fa2fdacbb4
+Section: 插件
+Description: 旧版本，功能较少
+ * 无限制使用
+ * 隐藏部分图层元素
+Name: 抖音图层旧版
+Author: x✨
+icon: https://TrollStoreX.Github.io/sileodepiction/dytc/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/dytc/js1.json
+
+Package: com.xx.dyhooks
+Architecture: iphoneos-arm64
+Version: 2.6.2
+Maintainer: 𝙓
+Installed-Size: 9332
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.dyhook, byg.iosios.net.dyhook, aweme.x
+Filename: debs/com.xx.dyhooks_2.6.2_iphoneos-arm64.deb
+Size: 3613776
+MD5sum: b46ebc622cb6de3d8d10b89e8eed9dd6
+SHA1: bdc2d692baf24f9cfcbdbcd4374b460218d50735
+SHA256: 67d2a1c18e5a0e8826475e67fb55641c43a6443159a3a52ae1f0fa6c7fbeb5b4
+SHA512: a113ea9f930c5f83416a775734413a3d5f2279f8b14bbc8a44fa077ae0d4f66907fcb233bae3fae60a0044f0ffe01f2b3f1cff68d948e16886f7f68567727d3c
+Section: 插件
+Description: 抖音多功能增强插件
+ * 无水印下载视频/图片/LivePhoto
+ * 隐藏各种元素按钮文字等功能
+ * 双指双击屏幕打开插件设置界面
+ * 此版本起采取自动授权 1-7天，随机授权哪天授权看运气
+Name: 抖音图层
+Author: 𝙓
+icon: https://TrollStoreX.Github.io/sileodepiction/dytc/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/dytc/js.json
+
+Package: com.xx.kshooks
+Architecture: iphoneos-arm64
+Version: 1.0.6-3
+Maintainer: x✨
+Installed-Size: 2784
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.kshook, byg.iosios.net.kshook
+Filename: debs/com.xx.kshooks_1.0.6-3_iphoneos-arm64.deb
+Size: 948888
+MD5sum: e1ac8172770f5a31be7674d6cb6f459a
+SHA1: a6d82643f9dbaa20fea6073553528cc087c0e801
+SHA256: bc13b07544aed3bab59d9b01a4c78e1d13c5446d4041685fdbf954056fb6e678
+SHA512: 43676affd4f30502d9d2da0b01a406981bfe8adb8ed77e5b80d0ed2ca5fb66c96f2beea23b78bc009dea0f4bfebc291c87a74ae85e8a86c3c1c38dc6af69f886
+Section: 插件
+Description: 快手增强插件
+ * 插件入口：依次点击-我-右上角三横-空白处长按打开菜单开启功能或在设置右上角打开
+ * 移除一些广告、弹窗
+ * 无水印保存视频图片
+Name: 快手图层
+Author: x✨
+icon: https://TrollStoreX.Github.io/sileodepiction/KS/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/KS/js.json
+
+Package: com.xx.qmxshooks
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: x✨
+Installed-Size: 400
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.qmxshook
+Filename: debs/com.xx.qmxshooks_1.0.3_iphoneos-arm64.deb
+Size: 115072
+MD5sum: 5e18c3c0f3a5cd02a51046af6254fbe6
+SHA1: 5911e9284f2b70aaf9d59483f6afa75e240d5c82
+SHA256: 1d8d353188153929f7b6af520160bd69a82029e017c4dc194caa06d14a1252fc
+SHA512: 9e6e714a5c09bea9d09c57d10881c64eb439d3e5c2999ccf4798700b6d6184ae0a022dcd8d495786aa1cd3e3443297a87667af5beaad5d1b723a82ab013e7171
+Section: 插件
+Description: 开通免广告权益
+ * 仅支持越狱和 Bootstrap 环境
+ * 不支持 TrollFools 注入
+ * 仅支持「七猫 7.63.10」
+ * 2024.12.23 上传
+Name: 七猫小说 Hook
+Author: x✨
+icon: https://TrollStoreX.Github.io/sileodepiction/repo/QiMao.png
+
+Package: com.xx.qqhooks
+Architecture: iphoneos-arm64
+Version: 1.6
+Maintainer: 𝙓
+Installed-Size: 1032
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.qqhook
+Filename: debs/com.xx.qqhooks_1.6_iphoneos-arm64.deb
+Size: 1332344
+MD5sum: 10cf0e94c366ab808901906b4189e4d2
+SHA1: 5ef75df65dd26638af1e9410352a683060b4c3d4
+SHA256: 34ff1d6fa925654ee2d904fdaad23982dafe9a0bded4f85ffc8e697340dc64b2
+SHA512: 46b0883a0a0fac49e732e563a1c3f395fa3f028155b605671582cdb241cb02c2fcc903d058aed73a3a1a7bbd0d210b3c982b3cb36200f0453746616f88d1a385
+Section: 插件
+Description: QQ 多功能插件
+ * 插件位于 QQ 设置内
+ * 支持防撤回/机型伪装/语音娱乐/闪照
+Name: QQ 防撤回图层
+Author: 𝙓
+icon: https://TrollStoreX.Github.io/sileodepiction/QQ/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/QQ/tuceng.json
+
+Package: com.xx.wccallkits
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: x✨
+Installed-Size: 552
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.wccallkit
+Filename: debs/com.xx.wccallkits_1.0.0_iphoneos-arm64.deb
+Size: 7328
+MD5sum: 92cbaa3497b8434251038ebfdff05b66
+SHA1: 6d8055598ae272b4f781a45fe19cdbb50876b8e9
+SHA256: fa41c512c47d8d430c6ea06101a2c00c1e7efb7ac5193e5d9f8e3791e0eca39b
+SHA512: c3c1677c7d0e8350611f75cf03d36be24e49cd7384e335d9efaaf652239723bf1c22250b955a83e8f9d03233c5a87601686a71bd5253e5257d8ac526bdb40535
+Section: 插件
+Description: 开启微信 CallKit 功能
+ * 仅支持微信最新版（在 8.0.46 测试）
+ * 需要微信在后台
+Name: 微信 CallKit
+Author: x✨
+icon: https://TrollStoreX.Github.io/sileodepiction/WCTabBar/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WCTabBar/js.json
+
+Package: com.xx.xhshooks
+Architecture: iphoneos-arm64
+Version: 1.2.9
+Maintainer: 𝙓
+Installed-Size: 3196
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook, xhs.x
+Filename: debs/com.xx.xhshooks_1.2.9_iphoneos-arm64.deb
+Size: 1392936
+MD5sum: 981503b72e0e2b24184de8d917679db8
+SHA1: 24da65210942e911d24e4038798a482aad5e786d
+SHA256: 2785cea894b440bea34d8a174e209e393a1d8ce026cd8dfdd75edae82fa1c116
+SHA512: 1db63af5fe3c0772fef2f401789279fe46d8f81b1a7ff4fa4a74af5f4ac5c2f87e0f487fe158360a6c6b8b29d2050d3461196521ae05ecd62f5aa6a43d8ab1cf
+Section: 插件
+Description: 小红书增强插件
+ * 移除一些广告
+ * 隐藏底栏菜单
+ * 修改字体
+ * 消息防撤回
+ * 保存评论区语音
+ * 批量无水印保存原图图片/LivePhoto/视频
+ * 应用设置内界面右上角打开插件界面或双指长按
+Name: 小红书图层 小红薯
+Author: 𝙓
+icon: https://TrollStoreX.Github.io/sileodepiction/XHS/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/XHS/js.json
+
+Package: com.xx.ysbrowserhooks
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: x✨
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.ysbrowserhook, byg.iosios.net.ysbrowserhook
+Filename: debs/com.xx.ysbrowserhooks_1.0.2_iphoneos-arm64.deb
+Size: 20812
+MD5sum: b68f11894616a872a1adc42c149496e8
+SHA1: c0d1351da113b8cbec0770a4b06062109098dccb
+SHA256: 6354eeb7b32bd3269c9e9f34a8dc539fbc71e1474de878ed313c55a6a3323570
+SHA512: 8e9da96da5c09152db7dd350c67c14d416a826c0370b261b73a95c0922cc8b89227e0db0fc69c7af109ce82202c87fd0a7cb6cc8fd6301b0acf08415f1404e05
+Section: 插件
+Description: 解锁 Pro 功能，屏蔽越狱检测
+ * 仅支持越狱和 Bootstrap 环境
+ * 不支持 TrollFools 注入
+ * 最后测试版本为「亚瑟浏览器 16.3」
+ * 2024.12.31 上传
+Name: 亚瑟浏览器 Pro
+Author: x✨
+icon: https://TrollStoreX.Github.io/sileodepiction/repo/YaSe.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/YaSe/js.json
 
 Package: com.xyaman.libkuro
 Architecture: iphoneos-arm64
@@ -24974,6 +25338,25 @@ Author: xybp888
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.xybp888.lockbuttons
+Architecture: iphoneos-arm64
+Version: 0.1-2
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.xybp888.lockbuttons_0.1-2_iphoneos-arm64.deb
+Size: 30708
+MD5sum: 80aa01ad75fa5b6af1320d24b097a8cd
+SHA1: 1897fa89205195d23e991203907fe82723fed5db
+SHA256: 244cd0bb6a0013d9dab65542d6f1757325bdbf0f036e69630a879be003b169e2
+SHA512: 1f874249df39668bf5a93e32b9835efa816fc6a9e54f832998b14f328eddab73349f258d5914cd75459bd353846881190f8f9d2f53c6c8d77a8d8b61b39701c2
+Section: 插件
+Description: 一键锁屏安装后在桌面显示一个图标，点击图标就能快速锁屏
+Name: 一键锁屏
+Author: xybp888
+Depiction: 一键锁屏安装后在桌面显示一个图标，点击图标就能快速锁屏
+Icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/suo.png
+
 Package: com.xybp888.magiciannojailbreak.fugu15
 Architecture: iphoneos-arm64
 Version: 0.0.1-4257
@@ -24992,6 +25375,33 @@ Name: 魔术师(iOS15)
 Author: xybp888
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.xybp888.noapplemobilerepairs
+Architecture: iphoneos-arm64
+Version: 0.0.1-88
+Maintainer: xybp888
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xybp888.noapplemobilerepair
+Filename: debs/com.xybp888.noapplemobilerepairs_0.0.1-88_iphoneos-arm64.deb
+Size: 10888
+MD5sum: 0c592bfb547c20d24d72f7c24a411545
+SHA1: 57c2f63018cc7c170f1d6165382e13f16006eecc
+SHA256: 4aee3bebf1056b20b8612621f1f2c031a02cbf59cb699ca3a980933c82eb5c3a
+SHA512: 9abfbec86dc0b852abde8f2e45a450d13b23f1f8ec860f545d117eb9808637d83344ba0731c44f60d5dbd1a4b109fbca8a2bfc570bc88eab63ea45ad33e4a9a8
+Section: 插件
+Description: No Apple MobileRepair
+ * 禁止在设置页面显示维修记录，例如更换电池的提醒、屏幕等
+ * 更换第三方电池后，开启显示正常电池健康值。
+ * 屏蔽关于本机显示未知部件记录。
+ * 屏蔽设置显示“红1”以及电池更新提醒信息。
+ * 屏蔽设置系统 OTA 升级显示“红1”提醒信息
+ * 本插件免费使用，安装即可生效，无设置
+ * 本插件在 16.5 多巴胺越狱环境下测试通过，其他系统自行测试
+Name: 禁止显示维修记录
+Author: xybp888
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/NoAppleMobileRepair/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/NoAppleMobileRepair/icon.png
 
 Package: com.yan.anitime
 Architecture: iphoneos-arm64
@@ -25012,6 +25422,26 @@ Author: yan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.yan.fionas
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Maintainer: yandevelop
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, firmware(>= 14.0), com.mrgcgamer.libgcuniversal
+Filename: debs/com.yan.fionas_1.0.6_iphoneos-arm64.deb
+Size: 122048
+MD5sum: ad62bd2bb84ba095ff369fa34f8fdcf6
+SHA1: 346d655fcf99227fb04a0fee5ef1d2b371a521cc
+SHA256: f9ad03d312437a5c9a861f23afbf4dc94430ae007dadd9ad5a47362288992fcb
+SHA512: 189124bfd1512eda78c79b5bb573ddd730e4a978a6639335b42867d7843f0e1082f85003f6b76ffa80fbee13fdc2f097af5decf9caf08a39b2b541f8556cadb7
+Section: 插件
+Description: 应用底栏浮动
+ * Floating Tab bar for iOS devices.
+ * 仅支持部分应用
+Name: Fiona 底栏浮动
+Author: yandevelop
+icon: https://TrollStoreX.Github.io/sileodepiction/Fiona/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Fiona/js.json
+
 Package: com.yaowell.cellbell
 Architecture: iphoneos-arm64e
 Version: 1.1
@@ -25029,6 +25459,43 @@ Description: 关闭电池百分比时启用 iOS 27 风格电池图标。(Enables
 Name: CellBell
 Author: yaowell & 半生年华
 icon: https://huayuarc.github.io/icon/cellbell.jpg
+
+Package: com.ydw.BypassWechatMSG
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: BypassWechatMSG
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.ydw.BypassWechatMSG_0.0.2_iphoneos-arm64.deb
+Size: 323160
+MD5sum: 088eeb3556cc2e55255ded1c1908a368
+SHA1: 67b1fabfa7fe13757324c83bfee485019e3de829
+SHA256: 3a4246172292b6a0eb66fe6a72fced513ca7e54dd99152805c522015939ae709
+SHA512: d1e91be49ec7d77f20dba828513bb1aad4f77dda36aa915efd202b67fe1e318c2264843a7922eec636ed6a18f976839841c93fd8b639f8ff6042249445e0e440
+Section: 插件
+Description: 修改「合并转发」聊天记录预览内容文本
+ * 依赖老猫「插件收纳」
+Name: 微信内容娱乐 BypassWechatMSG
+Author: BypassWechatMSG
+Icon: https://TrollStoreX.Github.io/sileodepiction/BypassWechatMSG/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/BypassWechatMSG/js.json
+
+Package: com.yi.wcenablemomentslivephotos
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: 怡点日常
+Installed-Size: 88
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.yi.wcenablemomentslivephotos_1.1-2_iphoneos-arm64.deb
+Size: 12924
+MD5sum: 211a8bf168583019c5024e79d37aca0e
+SHA1: d87458067be43cd50e0a38e184e854e3badc115a
+SHA256: e885fc026e787d80d56e0257775d9c0b40d73c04f1e9970cc9fc5cb09964a1a5
+SHA512: 685bcdb1527fed4314e1bb0bc202116deb2f09c3c68572d220ed10f23258210d0140ed40b3acbea904f09c1e1fb80a8052888fbe28d535b86dd1870146baf622
+Section: 插件
+Description: 微信强制开启朋友圈LivePhoto功能。WeChat Enable Testing Moments Live Photo v8.0.51+
+Name: WCEnableMomentsLivePhoto
+Author: 怡点日常
+icon: https://TrollStoreX.Github.io/sileodepiction/Wechat/icon.png
 
 Package: com.yidao.daynightswitch
 Architecture: iphoneos-arm64e
@@ -25083,6 +25550,26 @@ Description: 悬浮按钮分屏
 Name: 悬浮按钮分屏
 Author: ylr
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
+
+Package: com.yourepo.lly.adsspee-rootlesss
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Maintainer: lenglengyu
+Installed-Size: 616
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lenglengyu.adsspeed
+Filename: debs/com.yourepo.lly.adsspee-rootlesss_1.1.3_iphoneos-arm64.deb
+Size: 110320
+MD5sum: 7a3d52fba5825684885ecd0d9554d647
+SHA1: bdeef53fae88ab834530825441fbc4b64cb10f26
+SHA256: 27cbb65bdcf236c5d6b97d9257bc9c4f3711cd243a83d9be0cbe8083709f6304
+SHA512: d0567e54bc4731c5ba9fc744f696acb738bbe0de6c724f708523f76814ff717a198df130a4059a7232f5dc2d65ff1bbe8c1cdc6554eff23f3c49e8de840b9b1f
+Section: 插件
+Description: 快速跳过激励视频广告，奖励正常领取
+Name: 快速跳过广告 VideoAdsSpeed
+Author: lenglengyu
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/VideoAdsSpeed/js.json
+icon: https://TrollStoreX.Github.io/sileodepiction/VideoAdsSpeed/icon.png
 
 Package: com.yunx.app.ios
 Architecture: iphoneos-arm64
@@ -25366,6 +25853,48 @@ Description: 支持抖音/小红书/快手/视频号直播弹幕快捷发送
 Name: 弹幕助手
 Author: Junhong
 icon: https://huayuarc.github.io/icon/danmutool.jpg
+
+Package: de.finngaida.daynightswitchs
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: Finn Gaida
+Installed-Size: 584
+Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: de.finngaida.daynightswitch
+Filename: debs/de.finngaida.daynightswitchs_1.2_iphoneos-arm64.deb
+Size: 69268
+MD5sum: 0436d7f0a024897b458be928ef2558d7
+SHA1: 7aad8a4da76aa53db942776ed55ca4f733635b5e
+SHA256: 03a4d6be8edff5e18202cf8285d5648a7bddac47b14c190973b61eca4daaf489
+SHA512: 62b1d441e305fe81aa25f5eff4a9c529713403cee3ceda71f64f08cd551b97cde146a6c4ffec402235b7986fd13791be09a2d5225ab9048d4e378c187f5e6ef2
+Section: 插件
+Description: 为您的设置开关添加一些日月风格
+ * Add some style to your switches
+Name: DayNightSwitch 日月开关
+Author: Finn Gaida
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/DayNightSwitch/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/DayNightSwitch/icon.png
+
+Package: dev.mineek.appstoretrollers
+Architecture: iphoneos-arm64
+Version: 0.0.9
+Maintainer: Mineek
+Installed-Size: 344
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: dev.mineek.appstoretroller
+Filename: debs/dev.mineek.appstoretrollers_0.0.9_iphoneos-arm64.deb
+Size: 15824
+MD5sum: 365a3e73eee1e3131ef1a19969645a39
+SHA1: 28784d3e416be1f424706adf4e9dc0332e56ab28
+SHA256: 4bf2b489a15709ebe95a63ef636fd199c41fbaa7c5d4193afbb02842f0fe7a7e
+SHA512: 039324e8815c17934d645653ccb93e13444a3f21c83fc849573c7c7fe3c85c3027fd6164e19747601a6678d95404506b2427a9bc5ee2b3ab7ad94c535d2868b4
+Section: 插件
+Description: 强制低系统版本越狱设备使用 ID 购买高版本应用并安装，软件不兼容会导致闪退
+ * Modified version of mineeks tweak that lets you specify the minimum version and bypass installd version check
+Name: AppStoreTroller
+Author: Mineek
+Icon: https://TrollStoreX.Github.io/sileodepiction/AppStoreTroller/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AppStoreTroller/js.json
 
 Package: dev.owngoal.settingsorganizer
 Architecture: iphoneos-arm64
@@ -25654,6 +26183,28 @@ Name: No2Theft手机保护-Rootless
 Author: elias
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: it.ned.noappthinnings
+Architecture: iphoneos-arm64
+Version: 1.4
+Maintainer: ned
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: it.ned.noappthinning, byg.iosios.net.noappthinnings, com.dao.noappthinning
+Filename: debs/it.ned.noappthinnings_1.4_iphoneos-arm64.deb
+Size: 4412
+MD5sum: 4a13b1763cbce109814c9d80765bd665
+SHA1: 2033f2c144a4be550f19dd7d64cfd2e1fdcff9bb
+SHA256: 9c59fec9d0b07702a16fd70386ead56ff1978dbd8075e45fb8f2a2771bcf7153
+SHA512: f4d81af359a57f4df9daf95252e794c0fd66d662688431190c7fbbd05450063ecb21c75c7886a4b44f4d22faf315484ea01cd5cb8e969832c71acdb04ae48a23
+Section: 插件
+Description: 允许从 App Store 下载全量包应用
+ * 配合 Dumpdecrypter 全权限砸壳使用
+ * Disable AppStore/TestFlight app thinning - by level3tjg
+Name: NoAppThinning 全量包下载
+Author: ned
+icon: https://TrollStoreX.Github.io/sileodepiction/NoAppThinning/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/NoAppThinning/js.json
 
 Package: iya.banana.appleintelligenceenabler
 Architecture: iphoneos-arm64
@@ -26149,6 +26700,54 @@ Author: @akusio_RR
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: jp.akusio.backgrounderaction15s
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Maintainer: @akusio_RR
+Installed-Size: 340
+Provides: jp.akusio.backgrounderaction15
+Depends: mobilesubstrate, com.opa334.ccsupport
+Conflicts: jp.akusio.backgrounderaction15
+Replaces: jp.akusio.backgrounderaction15
+Filename: debs/jp.akusio.backgrounderaction15s_0.1.0_iphoneos-arm64.deb
+Size: 13484
+MD5sum: adeb01881842020835d81b6c27209790
+SHA1: f1ef4c0fa2b721b962af079aeb8ecc005f766493
+SHA256: 9bfa51153a80326a188aa17e66e0045876bf326e526bdc36b2fd799b2489dbed
+SHA512: d8e4621f84db3b18ffc1c9f32c6e0ad49eccdefe1115da64d42f73b6cb1bf132eedeb615cf68f4bccfffe8ccfca7414e6f7bdfce9469ba5eaf293137428a0008
+Section: 插件
+Description: 控制中心真后台模块
+ * 设置-控制中心添加模块
+ * 在应用内开启模块应用将真后台，返回其他界面仍然运行
+ * Add "Toggle Background Mode" action to ControlCenter.
+Name: 真后台 BackgrounderAction15 CCSupport
+Author: @akusio_RR
+icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/BackgrounderAction15.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/BackgrounderAction15/js.json
+
+Package: jp.soh.reprovisions
+Architecture: iphoneos-arm64e
+Version: 1.1.164
+Priority: optional
+Maintainer: AmorCool <admin@reprovision.dev>
+Depends: firmware (>= 15.0), zip, unzip
+Conflicts: jp.soh.reprovision
+Filename: debs/jp.soh.reprovisions_1.1.164_iphoneos-arm64e.deb
+Size: 6259978
+MD5sum: 130b7cbdf6f588c86bc9854fc711c7be
+SHA1: 13939cb1bb4ab47e4c7eae4c6ab1b246dfc4ef71
+SHA256: 4d8362e326ae69d7c1ca7f7069e7133182d6f0b12477e93cfb7fd6ad59427d28
+SHA512: c05e050f613326090c9321a82cca2528ec655b71efdf59b5f39cfb46a716281cba03dacd1d29e7d770326b92b8255afe55f2ab51c0dd793fb4efcdffd33c5a59
+Section: 插件
+Description: 使用 苹果 ID 续签 IPA
+ * 仅支持 iOS 17 Relaxin 越狱
+ * 解决非巨魔设备签名 Relaxin IPA 问题
+ * Re-signing tool for iOS jailbreak
+Name: ReSign 苹果 ID 续签
+Author: Coolapk@Analytics
+Icon: https://TrollStoreX.Github.io/sileodepiction/ReSign/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ReSign/js.json
+
 Package: llld.keyboard
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -26217,6 +26816,35 @@ Section: 插件
 Description: Notification bubbles for iOS 16 and Dopamine RootHide. Experimental first build.
 Name: 通知悬浮气泡
 Author: NotifyBubbles
+
+Package: me.afhook.apps
+Architecture: iphoneos-arm64e
+Version: 3.5.0
+Maintainer: BigBoss
+Installed-Size: 1024
+Provides: me.afhook.app
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: me.afhook.app
+Replaces: me.afhook.app
+Filename: debs/me.afhook.apps_3.5.0_iphoneos-arm64e.deb
+Size: 220242
+MD5sum: f5168515815c546ba4e59c9ac098a802
+SHA1: c8afb618f32baa92b7b8238987fb5a778d8b280c
+SHA256: 5e8c3f85efc1ffb4adc85a282715e39c97eb09fb76e92ebcc2df92caad1ae26a
+SHA512: 36e16b1fa9076fafe4f065bfbe723bb777c938e25175027427436c4b507c2aa305a832e8d1f048829a2f65b5a61739f70fde9c01d2fee8ae3146c1083b0101e5
+Section: 插件
+Description: 快速更改应用的名字、图标、机型、角标、版本号等。
+ 1. 随心所欲地更改系统应用和三方应用的名字
+ 2. 从系统相册任意选择图片剪切为应用的图标
+ 3. 手动选择软件内置机型和自定义需要的机型
+ 4. 只需要点击一次就永久生效的清空角标功能
+Tag: purpose::extension
+Author: 小哥哥
+Name: 改个应用-专业的应用修改软件
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: zhulongfei28
+icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/afhook.png
 
 Package: me.jjolano.fmwk.hookkit
 Architecture: iphoneos-arm64
