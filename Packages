@@ -18448,6 +18448,23 @@ Name: 游民星空去开屏广告
 Author: Apelin
 icon: https://huayuarc.github.io/icon/gamerskysplash.jpg
 
+Package: com.apelin.jufengvip
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Maintainer: Apelin <apelin@local>
+Depends: mobilesubstrate
+Filename: debs/com.apelin.jufengvip_0.1.0_iphoneos-arm64.deb
+Size: 29460
+MD5sum: 00fa5a6a59aee2e1dc01faa37178d7c3
+SHA1: 4098e19efb891950ea7f9351135ab3e310f4d4f9
+SHA256: f5a5b2e12daa30cae3c6b2cbe41c18a43a2b4218c09213d4c7a2eecb17f1a8c2
+SHA512: b71850e1ade62ae3560e341228d34d015bfb8c1c5b23da21532fd558f59d66d24c686c29e61251dfdb2d54eabfb8a7eefad083f714b005752e2c27fa2180dbbd
+Section: 插件
+Description: Unlocks the Pro membership of 飓风相机 on this device.
+Name: 飓风相机 PRO
+Author: Apelin
+icon: https://huayuarc.github.io/icon/jufengvip.jpg
+
 Package: com.apper.neigou
 Architecture: iphoneos-arm
 Version: 0.0.1
@@ -19926,6 +19943,23 @@ Description: Mango分屏，小液微信液态美化，系统级真液态玻璃�
 Name: mango
 Author: go
 
+Package: com.gu.xianyupick
+Architecture: iphoneos-arm
+Version: 1.9.1
+Maintainer: 故
+Depends: mobilesubstrate
+Filename: debs/com.gu.xianyupick_1.9.1_iphoneos-arm.deb
+Size: 153346
+MD5sum: 61c8a1b95aeaf654e7d0c246607c0bff
+SHA1: 61853cc463b5395e9f17991be2bf07a2bbc45b58
+SHA256: e60874e71d94f8fa4d1b28d5dd5bd7e0d947ec76dcceff3aab39b6b511941120
+SHA512: dd4574c8df726dacf22988d9defbbdf7ca8633b796398b41215d4713ca945feadaed1004928bd068be5a556b54e6b704d0f1170e8fb8b3cb9f76f8c44f4b15bd
+Homepage: https://t.me/zakadeep_bot
+Section: 插件
+Description: 闲鱼商品嗅探 + 筛选捡漏工具。悬浮球面板可按机型/容量/系统版本/机身颜色/成色/价格/想要人数筛选，自动翻页、单条复制、点击直达商品。v1.9.1：激活弹窗精简（去掉机器码说明与操作提示两行文字，界面更干净）；卡密校验改为进算法层做严格对账——错码不再只是弹提示，而是当场终止，挡掉批量试码的脚本。抓取与筛选逻辑与 v1.9.0 完全一致。
+Name: 闲鱼捡漏
+Author: 故
+
 Package: com.hades.locktouchx
 Architecture: iphoneos-arm64e
 Version: 2.2
@@ -19979,6 +20013,42 @@ Description: 原生键盘圆角与沿圆角轮廓的彩色发光点击特效
 Name: 键盘特效
 Author: 航
 icon: https://huayuarc.github.io/icon/keyboardeffects.png
+
+Package: com.hang.noti
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 航
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hang.noti_1.0_iphoneos-arm64.deb
+Size: 14264
+MD5sum: f510c12fcf6a66b9d42b9827018db91c
+SHA1: 97969505b8598cade3dbfe84206edb8acb7e3792
+SHA256: aef85576c31bec423d4ba83daf4e4cddfd407fc98d62d6a8627119d5cfcbdec9
+SHA512: a3ce7a13a9a997361868dd294e4f9e2b15162ff5d8262c3ef3a1893e84f9a07269a9d02af2b3c84b8b144d07cd7a2bcd9a1288626f2b917341ac297374281899
+Section: 插件
+Description: 从通知中提取验证码的工具
+ 通过双指长按通知提取其中的验证码。具体系统版本和设备兼容性尚不明确。
+Name: 通知验证码复制
+Author: 航
+
+Package: com.hang.zzzj
+Architecture: iphoneos-arm64e
+Version: 0.0.1-8
+Maintainer: hang
+Installed-Size: 180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hang.zzzj_0.0.1-8_iphoneos-arm64e.deb
+Size: 45136
+MD5sum: fb3971a530855428e9aaaa2b188f2124
+SHA1: ee19330cbb39612acbabde7f92b0b290e6d8a4ea
+SHA256: 2121881516193186337cfe9a84b152e44f622dc895dd639aca1b01807f5b8e74
+SHA512: 01c7ac3da53a745963fdd6124f1f3e96885826182db30c89640f4392a3376bc4eb5e01446a494ab843ef1915d73d61e85ae519fff8e8453edaf363e3b0697e47
+Section: 插件
+Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接。温馨提示：直装版Deb安装后要是没有显示悬浮窗就说明插件没有生效，请卸载后改用巨魔注入。
+Name: 转转找机-Roothide
+Author: hang
 
 Package: com.hierarch.dykiller
 Architecture: iphoneos-arm
@@ -21753,6 +21823,23 @@ Author: zhaonan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.ngkhoi.26home
+Architecture: iphoneos-arm64e
+Version: 1.3.15-settings-native-icons-fix-zh-roothide
+Maintainer: ngkhoi
+Installed-Size: 29440
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/com.ngkhoi.26home_1.3.15-settings-native-icons-fix-zh-roothide_iphoneos-arm64e.deb
+Size: 20072156
+MD5sum: 40b0c0a05f0dc7d393d231dc3f270ad5
+SHA1: cb00b8651ae51b1a24453d4873374f4fb09e6557
+SHA256: b1f435645f8c50f79167f2ef1fc8d086f17fc5313cb593f875159dd57076d71f
+SHA512: 977b7c08eb8508dab60ab5178e077f5c6c04a2e241e5bc609ee280a29ee651dcb41a3dd93a77fce8c45573e9c0a2892ac7690b3b38ff993c6cd5425deed35d8f
+Section: 插件
+Description: 26Home Chinese RootHide build with per-app cutout controls and custom icon sources.
+Name: 26Home
+Author: ngkhoi
+
 Package: com.niceios.nicebarx13
 Architecture: iphoneos-arm
 Version: 1.0.2.5-98
@@ -21949,6 +22036,80 @@ Description: 去除广告。
 Name: NoAdsX
 Author: 半生年华
 icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.ntm.batteryanalyzer
+Architecture: iphoneos-arm64
+Version: 1.6.10
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.ntm.batteryanalyzer_1.6.10_iphoneos-arm64.deb
+Size: 94104
+MD5sum: 54b469dfe8f70b7e6ceab9e59d5599a6
+SHA1: 63481dbe8eb8e07e6ad8178324f9d43a3a20ea93
+SHA256: c612f656b25e0d4b9c49ac9be971534bb6d9ce6c21173190b1a6f04edd7b1659
+SHA512: 81aa619f93b4155a4c85055bf43d15836d33cd686deb47865e0a7099f1b8f8c62b4d32d5610dcfca3b15f793bca7ba28edc813ed9c4d5e803afe69bc632b6feb
+Section: 插件
+Description: 电池耗电分析：注入SpringBoard监控每App前台/后台运行时间与电量变化，估算每App耗电，显示电量历史与本次耗电统计
+Name: 电池耗电分析
+Author: yzdmm2024
+
+Package: com.ntm.notifymanager
+Architecture: iphoneos-arm
+Version: 2.3.50
+Maintainer: yzdmm2024
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.ntm.notifymanager_2.3.50_iphoneos-arm.deb
+Size: 197848
+MD5sum: 3567c46c11e864e6c8c08f1ddacdcb48
+SHA1: 77eafa35ba877f5780fee19bfa69be2a6cdd1984
+SHA256: 3b25ddf4a426bab2a7568e882dd88557eda29e7632e4fcf5286d7356e541d04f
+SHA512: bb0e52e2770bbfb05ede5231057173bfb5ccf281b26030cbd05c26a1816bbb1a7e64feb90238943195a553c90f4b46ebbe2669d98f6a007141771d8030a0d0da
+Section: 插件
+Description: 通知管理 - 按 App 管理通知与网络，同步系统「蜂窝网络」设置
+ 轻量级 SpringBoard 通知 / 网络管理工具：无定时器、无轮询，通知到达只做内存查表，
+ 空闲时不耗电；不在后台常驻任何进程。
+ .
+ 【通知管理】按「用户应用 / 巨魔应用 / 系统应用」列出手机上所有真实 App
+ （自动过滤隐藏的系统辅助服务，无图标的系统组件不显示），逐个 App 控制：
+ - 总开关：关闭后该 App 的通知不再显示
+ - 分项开关：锁定屏幕 / 通知中心 / 横幅 / 声音 / 标记，各自独立
+ - 隐藏预览：只显示 App 名称，不显示具体内容
+ - 仅隐藏角标：保留通知，只去掉数字角标
+ - 关键词过滤：命中关键词的通知自动丢弃
+ .
+ 【网络管理】与「设置 - 蜂窝网络 - 某 App 的蜂窝数据」同源：
+ - 每个 App 可选：Wi-Fi + 蜂窝 / 仅 Wi-Fi / 仅蜂窝 / 完全断网
+ - 后台自动断网：App 进后台即切断已建立连接并拒绝新建连接，回前台自动恢复
+ - 新装 App 首次联网不再弹「允许使用无线数据」，按面板配置静默放行
+ - 不需要拦截时可一键关闭，恢复系统原生选择框
+ .
+ 【其他】
+ - 批量控制、搜索、单应用重置、配置导入导出
+ - 自动授权通知权限：抹除或还原设置后，打开 App 不再弹「想给您发送通知」
+ - 面板内置诊断日志，可查看弹窗拦截的命中情况
+ .
+ 支持系统：iOS 14 / 15 / 16 / 17（arm64、arm64e）
+ iOS 14 请安装 rootful 版；iOS 15 及以上安装 rootless 版。
+ 有问题请在「设置 - 通知管理」右上角点「反馈」，附上机型与系统版本。
+Name: 通知管理
+Author: yzdmm2024
+Firmware: >= 14.0
+
+Package: com.ntm.privacymanager
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: yzdmm2024
+Depends: preferenceloader
+Filename: debs/com.ntm.privacymanager_1.1.0_iphoneos-arm64.deb
+Size: 58816
+MD5sum: 8df26ee0b5fc585309f78c6cf5232d98
+SHA1: 6be984cc8f755903a066fd6dade3eeb4f721742e
+SHA256: 6fe34672eb9e99609c1276e84eb2489372286200cea1d2d94385cbf098030e0e
+SHA512: a0eaa654ec64f14eb440552937840dc866749e8fcf763029855472fbde44f6b77a42e58d845c008aef3cc14ed4ce09276524e58e12451462250dbd1d98c40b94
+Section: 插件
+Description: 隐私总开关：系统「设置→隐私与安全性」的实时镜像。App 列表直接取自系统 TCC 数据库（与系统面板完全一致），七个权限开关实时读写同一 TCC.db——你在此开/关，系统设置立刻同步（双向）。顶部「按功能一键开关」可一次性对某权限（照片/本地网络/麦克风/相机/定位/跟踪/通讯录）对全部应用开启或关闭；每个 App 卡片支持独立开关与重置。本地网络为尽力项。支持配置导入导出。跟踪权限为双重管控：面板写 TCC 授权状态，同时 App 侧 hook（PMHook）静默应答 ATT「允许跟踪」弹窗——抹除/还原设置后打开 App 不再弹出跟踪询问（未配置的 App 默认拒绝跟踪）。 定位支持三态：使用app期间 / 始终 / 下次询问或在我共享时（长按定位开关选择）。
+Name: 隐私总开关
+Author: yzdmm2024
 
 Package: com.nx.stheno
 Architecture: iphoneos-arm64
@@ -22448,6 +22609,23 @@ Author: SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.siwenjiajia.tweak.comm
+Architecture: iphoneos-arm64
+Version: 28.35
+Maintainer: personal
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Conflicts: com.siwenjiajia.tweak.free
+Filename: debs/com.siwenjiajia.tweak.comm_28.35_iphoneos-arm64.deb
+Size: 3587956
+MD5sum: 557cf40277104de011fb729f45380a66
+SHA1: 8f7ed16dc8bb9472035a3f7acadeb17931c3c653
+SHA256: 174c14a2a6b42799a9bcdbe1edb7961d9071e4c649e284d52e5581900b9cfeba
+SHA512: 8ea55710a48653b6e209b47a54895dac54132d02e2adb0dfa7911edb74b6f65e393e7306dc3a97768345fe5515cd356d08c48652669b5d01d2a414ef86f76378
+Section: 插件
+Description: 抖音优化 交流版 28.35（免授权·完整版）。玻璃拟态、语音朗读、视频统计等，联网功能较多，仅自用。
+Name: 抖音优化（免授权）
+Author: siwenjiajia
+
 Package: com.siwenjiajia.tweak.free
 Architecture: iphoneos-arm64
 Version: 28.17
@@ -22830,6 +23008,23 @@ Author: Spark
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.squidforce.disablepastealert16
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: SquidForce
+Conflicts: com.dao.disablepastealert16
+Filename: debs/com.squidforce.disablepastealert16_1.0_iphoneos-arm64.deb
+Size: 4056
+MD5sum: 51892795e639fa087628778131f53d44
+SHA1: 2bb8aa94f7fc936cbd8b8b867cda6697ef480a26
+SHA256: 61ec0274e939e23b2f2015930556201e70e6b849c59a99eb1dc360c1d613e727
+SHA512: 45d5f5726ac1365bcf59c3397686ceb6b4d5efba02b333c165bc72c92849beba393aad4bebc2051152a9c2fa739a20343ea11772f220a1924a211ed11c78ef8a
+Section: 插件
+Description: 禁用iOS16+粘贴警告弹窗和粘贴提醒，并自动允许。
+Name: 禁用iOS16+粘贴警告弹窗粘贴提醒
+Author: SquidForce
+icon: https://huayuarc.github.io/icon/disablepastealert16.jpg
+
 Package: com.sunshinesong.split-view-pro-helper
 Architecture: iphoneos-arm64
 Version: 999.1
@@ -22909,6 +23104,156 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.sunshinesong.split-view-pro.json
 
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64
+Version: 2.1.0
+Maintainer: kanuo
+Installed-Size: 4545
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/com.susudear.screencore_2.1.0_iphoneos-arm64.deb
+Size: 1213964
+MD5sum: bd8c5a81df4053319439d52a7511b4b6
+SHA1: a01f2882d2067d42116a5b050af0d7526d264f97
+SHA256: a9461c51ebb95197a9da634396130e2d303251068475a28e4490d4c0de30813c
+SHA512: d593bd4461fffd3687822fa9cd9bb943802aeae521a397a310bc6ab8e2f2ff502508beefbb3fe13b060097a4ad14ddf505bd59aeb680f8123d74bf8631dcc6a9
+Section: 插件
+Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
+ 作者：kanuo；版本：windowscheduler.12-12。
+ 基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
+ .
+ 功能与快捷操作：
+ 点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
+ 点击收藏应用切换当前卡片；上下滑动滚动收藏；长按后拖动使收藏栏与卡片联动移动。
+ 多窗口模式下长按收藏应用并原地松手另开窗口；数量上限为 1 时自动替换当前窗口。
+ 普通小窗沿用原版退场与入场，已放大卡片切换应用使用淡入淡出。
+ App 跳转弹窗处理符合条件的文件、链接及跨 App 请求，独立于普通窗口名额。
+ 支持原版 ARC、侧边手势、应用快捷方式、快捷指令、URL 工具与系统控制配置。
+ 收藏应用支持搜索、增删和排序，可分别调整收藏图标大小、收藏栏及窗口按钮不透明度。
+ 悬浮球显示和返回需配套插件；第三方快捷栏需对应插件支持。
+ .
+ 设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
+ 完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
+ 安装后重启桌面。
+ 修复小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边的问题。
+ 尺寸恢复通过原版队列补发，不延迟切换；重新打开小窗时取消旧恢复，不修改键盘避让。
+ App 跳转小窗使用原始尺寸和完整画面比例，不套用普通分屏的 16:9 预设。
+ 复用已有窗口时同步原始比例；普通分屏、收藏切换和键盘避让保持原方案。
+ 补全巨魔安装应用等特殊接收端的键盘场景归属，并为缺少可用宿主的真实键盘层提供显示接入。
+ 复用原版键盘窗口及输入框避让，不改普通或跳转小窗比例、动画、启动保护、悬浮球及应用注入。
+ 修复左上角放大后底部点击及上划无法退出：手势区保留在屏幕内，关闭前释放强制铺满。
+ 沿用原版退出流程及上划开关和阈值；取消旧放大回调，不改变键盘避让、快捷切换和悬浮球适配。
+ 长按收藏 App 原地松手打开自由独立窗口，不受普通浮窗数量、单窗口替换或自动边缘停靠限制。
+ 独立窗口沿用分屏比例，不依赖 App 跳转弹窗开关；普通切换保留它，同 App 复用原窗口。
+ 保留放大退出修复、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 设置新增移除底部系统 Dock 开关，默认关闭，更改立即生效；不影响键盘或应用内底栏。
+ 保留长按独立窗口、原生切换响应、启动失败保护、键盘避让及悬浮球适配。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 左上角通过原版流程转系统全屏，保留同一 App 返回图标；点击恢复小窗位置、收藏栏与独立属性。
+ 返回图标不抢焦点，只接收图标区域触摸；其他应用、桌面及锁屏隐藏，全屏输入由正常应用处理。
+ 保留原版交接失败恢复、键盘避让、快捷切换、悬浮球、独立窗口和 Dock 开关。
+ 修复键盘图层或承载窗口晚到时显示接入丢失，以及不可见原生宿主误接管造成的键盘空白。
+ 就绪恢复限定当前小窗及原版键盘显示请求，收起和切换取消旧重试；保留输入框避让与正常切换速度。
+ 新增 5:3 普通分屏比例，沿用 16:9 的键盘显示与输入框避让流程。
+ 同步应用画布、全屏交接和退出还原；跳转小窗保持原始比例，其他功能基于 .12-13。
+ 移除 4:3，保留原始比例、16:9、5:3；旧 4:3 设置自动迁移为 5:3。
+ 切换比例不再自动注销，确认后关闭并重新打开普通小窗生效；已打开小窗保持自己的比例。
+ 保留原设置保存及同步通知、手动注销、键盘与输入框避让和悬浮球适配。
+ 左右侧边向内滑动可实时临时放大，松手平滑恢复；侧边滑动替代移动。
+ 新增放大灵敏度滑条 1–8，默认 2；显示宽高分别不超过屏幕对应尺寸的 4 倍。
+ 保留 .12-17 的比例免注销、原有键盘避让、悬浮球适配和启动保护。
+ 底部向上滑动松手将小窗临时收进灵动岛，保留原应用会话。
+ QuickLaunch 圆形菜单未成全圆时松手立即恢复上次收起窗口；曾成全圆则保持原选 App 逻辑。
+ 进出带缩放、位移和淡入淡出；保留 .12-18 侧边临时放大及原有键盘与悬浮球适配。
+ QuickLaunch 按实际成圆状态判断快速呼出，扩大未成圆松手的可用范围。
+ 记录上次成功打开的 App，底部点击关闭后仍可重新呼出；已有窗口复用。
+ 保留原有键盘、悬浮球、灵动岛动画及启动失败保护，不增加固定等待。
+ 底部点击和上滑统一收进灵动岛后执行原生关闭，结束隐藏小窗托管。
+ 仅快速呼出使用灵动岛起点，其他入口保留 .12-17 原生出入场；保留键盘、悬浮球与启动失败保护。
+ 新增 16:10、18:10 普通分屏比例，沿用 16:9 键盘显示、输入框避让及收起还原。
+ 同步真实应用画布、全屏输入和退出尺寸恢复；切换比例免注销，已有小窗保留原比例。
+ 保留 .12-21 灵动岛动画范围，其他出入场动画、键盘兼容和悬浮球适配保持原有实现。
+ 恢复原有浮窗柔和阴影，硬黑边改为底部聚焦的柔和投影；聚焦阴影深浅 0–100%，默认 40%。
+ 新增实时圆角半径滑条 0–60，默认 24；全屏保持直角，支持缩放与返回小窗。
+ 保留 .12-22 全部窗口比例、键盘避让、悬浮球及原有动画范围。
+ 文件分享等待接收小窗画面和入场就绪再投递，复用已打开目标窗口，避免普通启动覆盖分享页面。
+ 保留文件 URL、Actions、沙盒授权和回调；启动失败完整请求回退系统打开一次。
+ 保留 .12-24 键盘避让、快捷栏、悬浮球、窗口动画、比例、阴影和圆角设置。
+ 新增点击顶部通知横条用小窗打开开关，默认关闭、即时生效，独立于 App 跳转弹窗。
+ 保留系统通知跳转动作、来源及回调；复用已打开小窗，启动失败回退系统一次。
+ 保留 .12-25 分享修复、键盘避让、快捷栏、悬浮球、动画、比例及阴影设置。
+ 修复分享、通知启动等待期间的系统栈回调生命周期，避免延迟交付导致 SpringBoard 安全模式。
+ 保留通知小窗开关、文件分享及此前功能；安装后重新启动 SpringBoard 生效。
+ .12-28 修正此前通知独立小窗行为：横幅通知改用所选比例的普通分屏，遵循窗口数量及单窗口模式。
+ 原版通知分屏开关与调度通知开关均可启用；通知不再创建原始比例跳转小窗，文件分享保留独立小窗。
+ 保留 .12-27 回调生命周期修复、启动失败保护及原有键盘、快捷栏、悬浮球和动画；安装后重新启动 SpringBoard。
+Name: screencore-窗口调度版
+Author: kanuo
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+X-Window-Scheduler-Version: 0.1.6
+X-Window-Scheduler-Author: kanuo
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rollback-Base-SHA256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Install-Environment: standard-rootless-var-jb
+X-Rootless-Input-SHA256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Rootless-Revision: exact11-libroot-paths.1
+X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
+X-Release-Base-SHA256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
+X-Core-Identity-Revision: expected-author-kanuo.1
+X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Geometry-Base-SHA256: e9cabb058422ab075eac379c15438bf6a962e86bccfa870ee7bc62cc8b286028
+X-Native-Jump-Geometry: popup-only-native-size.1
+X-Native-Jump-Base-SHA256: ff0edfa8b9ce6ee38054136a0e2da0d69004907dad70e00d8b8f24f74fa171fc
+X-Keyboard-Compatibility: scene-identity-and-bounded-readiness.2
+X-Keyboard-Base-SHA256: 1c77fd6f0c7c721d645a293c16d7b8cf6fa15178fd31adfd426b8c1812492fd4
+X-Fullscreen-Exit: onscreen-native-region-and-dismissal-release.1
+X-Fullscreen-Exit-Base-SHA256: cc28b5bc9408b504b09179029545c90c7d3fd6f110af80b2a8b520f76e5204e0
+X-Favorite-Standalone: independent-policy-normal-split-geometry.1
+X-Favorite-Standalone-Base-SHA256: f76ac941e43f74f0c57dff7b93ea3907d6af4e739b3497b865c555c3e2fa09a7
+X-Fullscreen-Native-Canvas: physical-screen-reversible-queued-geometry.1
+X-Fullscreen-Base-SHA256: 472fac2e6b474876df278e7c5fb457f443d155e1b34981d21e26f7ee38038bf6
+X-Fullscreen-Rendered-Canvas: instance-settings-hosted-resize-ack-validation.1
+X-Fullscreen-Rendered-Base-SHA256: 311a97ab829ac8dbcdd53964dab86477b1b30576a23e690f6fe5c7d1790db0a1
+X-Native-Fullscreen-Return: native-promotion-scoped-nonkey-icon.1
+X-Native-Fullscreen-Base-SHA256: 74aa276a95ac2633d2ecf174254bc04b9aded83084d61109cb9fffe723cdfaf8
+X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
+X-Native-Fullscreen-Canvas-Handoff: atomic-hosted-resize.1
+X-Native-Fullscreen-Scene-State: scoped-input-layout.1
+X-Aspect-Ratio: native,16:9,5:3,16:10,18:10; per-session-canvas.1
+X-Aspect-Ratio-Base-SHA256: 0ecd946fe8210a79f69b117a809a96eaa6036dd9bbcbb61187d5b4f3405b7552
+X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
+X-Edge-Peek-Base-SHA256: 1ff51ada1bd3ab5fb66cf2e6e413f00288ed6297dc2371e7abe1a6339ce69368
+X-Island-Return: quicklaunch.partial-circle.release-only.live-layer.1
+X-Island-Return-Base-SHA256: 76d12fe7881aa670d48c803cba862da8f0ed818384b3fce40fabde218ad9a926
+X-Quick-Recall: visual-circle.release-only.last-successful-app.closed-reopen.1
+X-Quick-Recall-Base-SHA256: ea86c6685947647de6e0309e68da1685d8cab97ca753b2dc38739ebd9628401d
+X-Island-Native-Close: tap.upward.native-close.island-reentry.1
+X-Island-Native-Close-Base-SHA256: 9337e212690b7db01dd89a6922f68b0a549e58a0a286e31803d4e878b87e0417
+X-Window-Frame: focused-shadow.opacity0-100.live-radius0-60.2
+X-Window-Frame-Base-SHA256: 25c1a2491d0237dbaf104ebd289a7c7557fb2667a60ad471b22d83673d2489f8
+X-Window-Shadow: native-shadow-preserved.with-bottom-focused-shadow.2
+X-Share-Handoff: host-ready.single-native-request.reuse-existing.failure-fallback.1
+X-Share-Handoff-Base-SHA256: 587ef9652b337e67a1ef2213b1ad32a60331fb9ba528a8fcaff49a86b2614751
+X-Notification-Popup: banner-only.default-off.live.independent.host-ready.native-payload.1
+X-Notification-Popup-Base-SHA256: 1c9c1b96474d1b81955a2a16ce5d37bb92fd6572c11869f68241d0d1bce323e4
+X-Callback-Lifetime: copy-native-completion.copy-queued-delivery.once.release.1
+X-Callback-Lifetime-Base-SHA256: e11118d5183f5af780b7b0c35c0e6035f9e06035f48fa49344bf94f1cafc69d5
+X-Notification-Split: ordinary.selected-ratio.native-pref.limits.original-animation.host-ready.1
+X-Notification-Split-Base-SHA256: 6eb880a626a2e224327547ed99639889ce2d38febc372c90e7b8361552c5f948
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
+
 Package: com.susudear.themecore
 Architecture: iphoneos-arm64
 Version: 0.5.0
@@ -22964,6 +23309,22 @@ Name: 腾讯视频多功能插件-Rootless
 Author: M哥
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.tencent.themebox
+Architecture: iphoneos-arm64
+Version: 2.3.6
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.tencent.themebox_2.3.6_iphoneos-arm64.deb
+Size: 7803502
+MD5sum: dd10703bc1456e0653112e7522823546
+SHA1: 15a6d32a75f3e2d76d179024f6c43f63b4ffe931
+SHA256: 3e63b8ba5bc6de88b42046e460adca809c2dfd550ea7060315fc7b5ae33179ed
+SHA512: 520b1c45e20d6201829099ceac489999ddb77795563bf3931c838df3bb76e9613ef53d2b3ebb47ebb243f567a9e3fefca6069be7b24530d37fa0c323aecd01a4
+Section: 插件
+Description: 微信主题盒子
+Name: 主题盒子（免授权）
+Author: Mao
 
 Package: com.thuthuatjb.iconrepo.rootless
 Architecture: iphoneos-arm64
@@ -23080,6 +23441,24 @@ Name: Kayoko
 Author: Tsangbaby
 Icon: https://github.com/Tsangbaby/Kayoko/blob/main/Icon/kayoko.png
 
+Package: com.tsangbaby.kbrc
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: Tsangbaby
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.tsangbaby.kbrc_1.0.3_iphoneos-arm64.deb
+Size: 4176
+MD5sum: dddc5ee0fa0eae5fb1c62d945e2d5bbd
+SHA1: 2dcc1027f882992afc84a4c3b10cd0d40a266ae7
+SHA256: 9efe266ac93fa082230b87d477263a5a9dc1345f9eb64c0179e7575651469218
+SHA512: 448e39cbf59c2b00c4c3c9865f72de0852412ce4ea2277b3fed0449e01a569f58926e7463367ad114eb70d7bd3a5112093a2db90676559cb506f3861ec784c97
+Section: 插件
+Description: 调整系统键盘按键圆角，让键盘外观更加圆润、简洁。需要 iOS 15 或更高版本。
+Name: 系统键盘圆角
+Author: Tsangbaby
+icon: https://huayuarc.github.io/icon/kb.jpg
+
 Package: com.unknown.wuzeililiang
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -23133,6 +23512,42 @@ Description: 解锁URL玩法！
 Name: 悬浮URL
 Author: wacljcr
 
+Package: com.wacljcr.hideglobe
+Architecture: iphoneos-arm64
+Version: 1.0.6-1+debug
+Maintainer: wacljcr
+Installed-Size: 364
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.wacljcr.hideglobe_1.0.6-1_debug_iphoneos-arm64.deb
+Size: 35936
+MD5sum: ca4c588cf8bf169f1bb8999ddec7fcb6
+SHA1: 2811e093804f51c3f27cbe6a73710681d5fecda6
+SHA256: 10d68156d243d84ff7c34e4924cabd163485283aec17b29fd292f6f089493379
+SHA512: 44e919adde81fd8530b3d5d2fead674ee85f86f3d318e225be4fdfccccc7b3fe5ac536389ac4e11816bb551e1592cdf5f89c498bc833a54e9ddb135ee3c929ba
+Section: 插件
+Description: 隐藏系统键盘地球（输入法切换）键，设置里可开关。rootless 适配，逐 App 生效。
+Name: 隐藏地球图标
+Author: wacljcr
+
+Package: com.wacljcr.keyboardstatus
+Architecture: iphoneos-arm64
+Version: 1.4.46
+Maintainer: wacljcr
+Installed-Size: 928
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/com.wacljcr.keyboardstatus_1.4.46_iphoneos-arm64.deb
+Size: 298980
+MD5sum: c6836089806fa0a7d5d91a8955e15151
+SHA1: afef55b34492cff0d5ab65a4e4378abd6569f42f
+SHA256: f442ff68c5f372166a5e01e063ba0ca26c1670fb793061f046784c923be2a74a
+SHA512: 99cf790da48346dccd91323e1ef6b1770c42ce4c0ad8bd799c279916ff515b6ad3025efa611ebf36062683e4f601c460d4a274928ce06c2d44083b1a97305812
+Section: 插件
+Description: 为系统键盘底栏添加可配置的快捷工具栏。
+ 据包内说明，提供全选、剪切、复制、粘贴、剪贴板历史、短语、光标移动、删除、撤销和输入法切换等功能。按钮可单独开关及排序，工具栏支持单排或双排、图标或文字显示，并可调整字号、间距和位置；另提供隐藏地球键、光标样式调整及设置备份与恢复功能。
+ 依赖 mobilesubstrate 或 ellekit，以及 preferenceloader。具体功能表现、系统版本及设备兼容性尚未验证。
+Name: 键盘下方状态
+Author: wacljcr
+
 Package: com.wacljcr.qqmixtxtimg
 Architecture: iphoneos-arm64
 Version: 1.0.6
@@ -23154,6 +23569,22 @@ Name: QQ图文同发
 Author: wacljcr
 icon: https://huayuarc.github.io/icon/qq.png
 
+Package: com.wacljcr.restartcc
+Architecture: iphoneos-arm64
+Version: 2.3.4
+Maintainer: wacljcr
+Depends: mobilesubstrate (>= 0.9.7000) | ellekit, preferenceloader, com.opa334.ccsupport, firmware (>= 14.0)
+Filename: debs/com.wacljcr.restartcc_2.3.4_iphoneos-arm64.deb
+Size: 72564
+MD5sum: d5ad842d7b70f8b0e707c492075cbb67
+SHA1: f26c6848e20982f9b0005048df1700c0f242f1ef
+SHA256: fbf2420f290abb5c249b4708502e390e571bd2a13f4438c8410ca896414b8936
+SHA512: 3311517b33a0c5af967d25c5f42fd73688d31a7371ac7a024e2eb1e6279827cabd8ddcd3e1047bee87cb880ebcc1588710aac38fea4436c0c1d648d602c89714
+Section: 插件
+Description: 控制中心「重启 / 注销」模块 + 设置面板。点按控制中心模块弹出选择框执行；设置内也有对应按钮。
+Name: 重启/注销
+Author: wacljcr
+
 Package: com.wacljcr.superscreenshot
 Architecture: iphoneos-arm64
 Version: 8.0.20
@@ -23170,6 +23601,52 @@ Section: 插件
 Description: 本项目仅限个人学习使用，仅针对 Relaxin 越狱环境、iOS 16.6.1 进行适配，其他越狱 / 系统版本均未测试。使用产生的各类报错、异常问题，请使用者自行排查解决。功能说明：截图与裁剪（控制中心按钮或手势呼出浮层，拖框选区可拖动 / 缩放微调，支持正常截图与长截图；触发方式支持双指上滑与「自定义手势」——录制一笔专属形状（圆圈 / 对勾 / Z 等），以后只有画出同样的形状才触发，避免打游戏误碰）；长截图提供 2 种采集方式（长截图界面左上角按钮循环切换）：① 自动滚动——注入驱动任意 App 的 UIScrollView 逐屏自动滚动并精确拼接整页长图，可随时点「停止」；② 手动——框好后滑动页面、点「下一屏 ▼」逐屏采集；自动滚动已放开为全 App 注入（不再仅限微信/QQ）；图片拼接编辑器（复刻 Picsew：多张截图缝线式拼接，单张照片可旋转 / 翻转 / 裁剪 / 删除 / 前后移动，裁剪界面内直接带标注工具（小马赛克 / 大马赛克 / 模糊 / 画笔 / 矩形 / 文字 / 撤销 / 完成），支持马赛克（大 / 小）/ 模糊 / 画笔 / 矩形 / 文字标注，结果可保存 / 复制到剪贴板 / 分享，可选机型套壳且套壳更真实）；OCR 文字识别（视觉大模型引擎与百度 PaddleOCR 两种识别源，结果按阅读顺序上→下、同行左→右重排，可复制全文）；翻译（大模型或百度翻译对选中文字翻译，原文 / 译文可分别复制）；画图标注（画笔实线 / 马克笔半透明粗线 / 橡皮，可选颜色与透明度、撤销）；识码（识别二维码 / 条码，结果可复制或用 Safari 打开）；打开豆包（把当前截图带进豆包 App 直接对话提问，图片同时存入剪贴板可长按粘贴，替代原问 AI / 去状态栏按钮）；图像打码（方块像素马赛克 / 高斯模糊两种涂抹脱敏，可手动涂抹或智能识别手机号、身份证自动打码）；取色（吸管点取图中任意颜色并复制 HEX 值）；旋转（90° / 180° 旋转当前图）；图片压缩（一键压缩并提示前后体积）；贴图（把图片作为浮动窗贴到屏幕，可拖动、双指缩放、关闭）；复制 / 保存 / 分享（复制图片或文字到剪贴板；保存到专属相册「超级截图」；系统分享）；导出 PDF（把截图导出为 PDF）；还原（一键还原为编辑前原图）；启动（工具栏「启动」弹层选要秒开的 App，微信 / QQ / 闲鱼 预设或自定义 URL Scheme，秒开并把截图存入剪贴板）；截图历史记录（回看历次截图）；手机壳库（设置开启后正常截图自动套入手机外壳模板，含中框与刘海，套壳渲染更真实）；常驻悬浮球（设置「启用常驻悬浮球」开关：屏幕常驻可拖动悬浮球，点它直接呼出超级截图，替代控制中心按钮；关闭则回到控制中心方式）；URL 指令（cjt://jb 局部截图 / cjt://zc 正常截图 / cjt://ct 长截图 / cjt://pf 拼接，可在 Safari 地址栏或快捷指令「打开 URL」里触发，设置里多选启用）；设置丰富（工具栏自由排序 / 显隐 / 改名 / 换图标 SF Symbol；控制中心图标五选一相机 / 剪刀 / 闪电 / 文档 / 星星；大模型库识别引擎 / 问 AI / 翻译 分别选模型、一键导入预设、连接测试；百度 PaddleOCR 与百度翻译密钥配置；本插件已彻底放开，无需设备授权或解锁码）。
 Name: 超级截图
 Author: yzdmm2024
+
+Package: com.wacljcr.wxkbtoolbar10
+Architecture: iphoneos-arm64
+Version: 4.0
+Maintainer: wacljcr
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wacljcr.nativekb
+Replaces: com.wacljcr.nativekb
+Filename: debs/com.wacljcr.wxkbtoolbar10_4.0_iphoneos-arm64.deb
+Size: 729850
+MD5sum: d42099987f9b0745fa6857448634901f
+SHA1: 06d5ba091817ea2223ecc357869e37587e56c27c
+SHA256: d46b6fdd67d7fb7cabe04c035a9b293b532015119f59cc4fc1a9d5133066b9ad
+SHA512: 27934d7852c6bc10e4ba94bc48f8abcb9392c0d9373a5bf9d254202fa9b5c4de8f4afc0efe03c7b68973cad8032ed1ec67f3dedb1d116af69453afa13d0290f9
+Section: 插件
+Description: 输入法自定义优化 —— 微信键盘与系统原生键盘的一站式外观定制
+ 一份 dylib 双引擎，同时管两套键盘：微信输入法键盘扩展（com.tencent.wetype.keyboard）与 iOS 系统原生键盘。v4.0 起把原来的「WxkbToolbar10」与「NativeKB」合并为一个插件，系统里少映射一份库、键盘扩展少一套 hook 表，设置里也只有一个入口。
+ .
+ **微信键盘 · 外观**
+ - 整键盘透明：递归清掉键盘自带的背景层（含毛玻璃与铺满型背景图），透出后面的内容；按键底色与文字色不受影响，仍是清晰黑字
+ - 键盘背景：纯色 / 相册图片（按键盘比例自动裁剪）/ 背景透明度
+ - 按键配色：字母、数字符号、左侧功能键、右侧功能键、空格分组取色，另有按键文字色与按下高亮色
+ - 主题色板 32 套（原图、彩虹、马卡龙、蜜桃、薄荷、森系、蒸汽波…），另有 4 套一键套用的配色预设：极光 / 莫兰迪 / 暗夜 / 清新，套用后仍可逐项微调
+ - 字母键进阶：A→Z 双色渐变，12 种变色方向（横 / 竖 / 斜 + 9 个角度），26 个字母也能逐个单独上色
+ - 彩虹键帽：用真实键帽图渲染，比程序生成的彩虹色更立体
+ - 我的主题：把当前整套外观存档，随时一键套用，不用每次重配
+ - 按键形状：圆角 0–22 pt，另有圆形 / 椭圆 / 半圆 / 五边形 / 六边形 / 星形 / 心形 / 水珠 / 描边
+ - 键盘上下位移；工具栏紧贴左侧 logo 铺满整行、图标保持原生尺寸不缩小、放不下时横向滑动
+ .
+ **系统原生键盘 · 增强**
+ - 字号：候选字大小倍率、键帽字号倍率，想让字大一点不用换系统字号
+ - 按键：按键圆角、隐藏系统灰底（默认开）、保留按键阴影、按键边框（颜色与宽度）、按键背景色、发送键单独配色
+ - 键盘底板：隐藏分割线、键盘整体背景色、底座背景色、保留毛玻璃
+ - 候选词栏配色：箭头按钮背景、网格背景、高亮背景与高亮文字、分隔线、预测栏背景
+ - 每组都有「恢复本组默认」，随时退回系统原生外观
+ .
+ **使用与说明**
+ - 改动后收起键盘再弹出即生效；批量调整完建议 respring 一次
+ - 微信键盘部分只改外观，不动布局与按键位置 —— 强改布局会被微信布局引擎反噬并触发键盘扩展崩溃
+ - 原生键盘增强在所有 App 内生效；微信键盘增强只在键盘扩展进程激活，普通 App 不加载，不额外占用内存
+ - 安装 v4.0 会自动移除旧的 NativeKB，原有设置继续沿用
+ - 设置入口：设置 → 输入法自定义优化；问题反馈可邮件联系 wacljcr@qq.com
+ .
+ 支持 iOS 15 – 16 的 rootless 越狱（Relaxin / Dopamine / RootHide），依赖 mobilesubstrate 或 ellekit、preferenceloader。
+Name: 输入法自定义优化
+Author: wacljcr
 
 Package: com.wangyou.tigong
 Architecture: iphoneos-arm
@@ -23653,6 +24130,24 @@ Name: 悬浮按钮分屏
 Author: ylr
 Icon: https://huayuarc.github.io/icon/WeChat.jpg
 
+Package: com.yunx.app.ios
+Architecture: iphoneos-arm64
+Version: 0.1.1-14
+Maintainer: muzikeji
+Installed-Size: 76836
+Depends: firmware (>= 15.0)
+Filename: debs/com.yunx.app.ios_0.1.1-14_iphoneos-arm64.deb
+Size: 20990050
+MD5sum: 21a1a5f2479b3334bf84f794329e7f2e
+SHA1: 418b72eb28d17cce76431310522789f062afe7c2
+SHA256: 7eceeb1b51e31f3a41c43a7a705fc4f178a575aeb7e09c3478b7859d25b8016d
+SHA512: 167d8395bfe8a85fb191f011f879411b6b983f8d2149f6f1fd968db89f3807a3574f84b67a9867c788d77fd08dc105b3599101ad0b50437f7cf3b937ec913792
+Section: 插件
+Description: 云析 YunX —— 夸克/UC/迅雷/百度/139/123 等网盘分享链接解析与 Range 分片并发下载（iOS 移植版越狱包）
+Name: YunX 云析
+Author: cc1477 (iOS 移植), CYQawa (上游)
+Icon: https://muzikeji.github.io/sileo/icons/com.yunx.app.ios.png
+
 Package: com.yzdmm.kbtheme
 Architecture: iphoneos-arm64
 Version: 1.1.1
@@ -23668,6 +24163,24 @@ SHA512: e283cfdce1c6c2929c46e0366fc772e0d83f02b37bd0e5a93080fa7040a32a17ff9736f6
 Section: 插件
 Description: iOS 原生输入法增强（键盘背景/整键盘透明/按键配色/彩虹皮肤/字母渐变/按键形状/工具栏布局）
 Name: 原生输入法增强
+Author: yzdmm
+icon: https://huayuarc.github.io/icon/kb.jpg
+
+Package: com.yzdmm.keyboardstatus
+Architecture: iphoneos-arm64
+Version: 1.3.7
+Maintainer: yzdmm
+Installed-Size: 612
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.yzdmm.keyboardstatus_1.3.7_iphoneos-arm64.deb
+Size: 82036
+MD5sum: 34a31271855118621817f4173d98944c
+SHA1: b35649292f9d668943a568cebc5b2c6b61291721
+SHA256: 7f73518e2edd7b6b5c92b3c1e5d56d5d986ca4fe47f3c3996be4a367e2bc6e47
+SHA512: 1d5243b43ac26ce929730358a21f895bb3a7049855174ca29d59af08133835efcecbe54361e16e10a626450d021dbea0de19c6e9c2b9e3a514c810148a2c37bb
+Section: 插件
+Description: 系统键盘底栏加功能按钮（全选/剪切/粘贴/光标移动/剪贴板历史/快捷短语/收起键盘）+ 可选状态条。rootless 适配，逐功能可关，安全不崩。
+Name: 键盘下方状态
 Author: yzdmm
 icon: https://huayuarc.github.io/icon/kb.jpg
 
@@ -25482,6 +25995,33 @@ Name: Graphite Library插件依赖-Rootless
 Author: Geometric Software
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: spoofnotify
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: Junhong
+Installed-Size: 300
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Filename: debs/spoofnotify_1.0.2_iphoneos-arm64.deb
+Size: 36720
+MD5sum: 2039fb5ee5b7d7baac07de9afcfeb85a
+SHA1: 1f9a2eace59ca3de41a9e5c613edd957160ffae1
+SHA256: 09ba1ac7b20c6fb1ac708e421b767876c900406a9c792889cac639635ffd4bb5
+SHA512: 83c63376ab62c828f15b810c54f9e30f24948e0b3ee16245c733586c58d8ede5ed0835447bb1b372e96e17d97e09733bd88e050a14003690bbebb506e854e833
+Section: 插件
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ .
+ 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ .
+ 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App
+ 即可生效，默认伪装已开启通知权限，无需配置。
+Name: 通知权限伪装
+Author: Junhong
+icon: https://huayuarc.github.io/icon/spoofnotify.png
 
 Package: weifengqad
 Architecture: iphoneos-arm64
