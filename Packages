@@ -17027,6 +17027,155 @@ Author: 傻网友
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
+Package: com.Axs.WCToolGesture
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.WCToolGesture_1.0_iphoneos-arm64.deb
+Size: 8292
+MD5sum: 624a20f37e9b36302563efc1c599e296
+SHA1: ba5321091a884418cecb12310c3e2b481fafef52
+SHA256: fae1a608008d9d27f417d7701456ba24797bf48ed05c3080fd3344a5775342b1
+SHA512: 51fcb004361470ad253d2e44cbe6623a376e6c69f1cd41668fe056ea1458b7ffc0a92dc9213140fbb349270d2dcbfe62d58fbfb4bf1501efa5c5f4a2b1764709
+Section: 插件
+Description: 微信输入框内嵌按键，右边朋友圈命名: clock_regular，左边视频通话命名: icons_filled_large_image
+Name: WCToolGesture输入框内嵌
+Author: A
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/WCToolGesture/js.json
+
+Package: com.Axs.WCallRecorder
+Architecture: iphoneos-arm64
+Version: 1.0-8
+Maintainer: HM
+Installed-Size: 11964
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.WCallRecorder_1.0-8_iphoneos-arm64.deb
+Size: 3269976
+MD5sum: 02b5c16543440caaf54dc73d8885e5f2
+SHA1: 3a3364bd0576d3f0889c1e11f08151f13d6fc261
+SHA256: 8de8288cb68b0cb76aeed4da05948fc006e497aff0e40cf66484f355cd9f4c4a
+SHA512: 1b5760d109faed1e809cab7e4d589d0c6dfeada5981c9e7548cd6141294760b016732438abb69130ebdda1cff49e0c48bf70ad3735cd71db828c2bdae43fe54a
+Section: 插件
+Description: 独立的微信通话录音机
+Name: 微信通话录音
+Author: HM
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/WCallRecorder/js.json
+
+Package: com.Axs.accode
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Crassna
+Installed-Size: 204
+Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
+Filename: debs/com.Axs.accode_1.0_iphoneos-arm64.deb
+Size: 19608
+MD5sum: 6d02f0b7a52539eb82c5b30e122645a6
+SHA1: 26ee87aa4e11aa9c2b99cf552b790fbe0cff6869
+SHA256: b2b428411a199c6706b1dfdaf2296d623491d263e00505d5bcd79b7a49c561a8
+SHA512: 815606246b263fed0ff07cc78e7a2d5b1f179c093bf33fe493f73ea17aef2e9d4db35a3a8ec164a025dee147deb2a4e8265ba5187baf5b6a549323f39fc7b1f8
+Section: 插件
+Description: 为奥利奥分屏生成激活码的插件，安装之后去Filza找到/usr/bin/vm_stat点击运行，并输入stheno+udid，回车即可获得16位激活码。在https://axs66.github.io/pro源里面先安装77.1.4.7版本，根据插件描述呼出页面输入激活码，激活成功后再安装77.1.4.8最终版本。
+Tag: role::hacker
+Name: stheno 奥利奥分屏激活码生成器
+Author: Crassna
+Icon: https://axs66.github.io/pro/icon/stheno.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/stheno/js.json
+
+Package: com.Axs.actionbar
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: Nets
+Installed-Size: 796
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.Axs.actionbar_1.1-2_iphoneos-arm64.deb
+Size: 162392
+MD5sum: 0279baaf20cf387a48655627c679db65
+SHA1: 8c7fd3daa1019dbadf07aa07efec1f77a9548e08
+SHA256: 9ce067bd913657385f4815cf449075aa1c1cc99c93e01dfb9b7bd5b65d7f8c8f
+SHA512: f212a0143eed244e570eacbb62456ff98ade87d0e76461feb6858f769105d504acc5e0ead060ed9fe35033d570e0aa12bcdb7cba2ff1b52f0a58d10322cb62dd
+Section: 插件
+Description: 键盘底部显示[撤销] [选择] [粘贴]按钮。Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition
+Name: ActionBar Reborn 键盘底部工具
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/actionbar.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.adguard
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs
+Installed-Size: 1756
+Depends: mobilesubstrate
+Filename: debs/com.Axs.adguard_0.0.1_iphoneos-arm64.deb
+Size: 346992
+MD5sum: 4f5d7a914d1d25bf90c7f5a74353bd97
+SHA1: ee2e79811c876043a7f96eb64d75eea19872c2df
+SHA256: ce23085b64b529cf94f7c750ea024165f6134012b68eb166af8dfd66069a256b
+SHA512: 21bef30813ef8c59d7b1a9902bf09ac544a03ffc93f9be70b4cbff93e32666a9b4074f5c20e22511399d51078542492c49f53171483c6471ce383f2a881aa986
+Section: 插件
+Description: AdGuard解锁会员。AdGuard 是 Safari 的超高效广告拦截器。它不仅可以删除烦人的 广告，还可以通过高级跟踪保护保护您的隐私。
+Name: AdGuard 解锁会员
+Author: 🅷🆆
+Icon: https://axs66.github.io/pro/icon/adguard.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/adguard/js.json
+
+Package: com.Axs.afc2d
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Maintainer: Axs
+Installed-Size: 343
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2, com.cannathea.afc2d-arm64
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: debs/com.Axs.afc2d_1.2.1_iphoneos-arm64.deb
+Size: 12460
+MD5sum: 1f101e7d499298a60e6ab059639f055c
+SHA1: 141f63e2cb237b54cb28309b6597119af114a69c
+SHA256: 00c7ddc7dd842a37b19801202a00eb266282113b9133bf13a97a32ae4f34d04c
+SHA512: c7909cb682adaff54d6da0a5aab38f104de9cfcfd719455d424c4014d9d5b759562d8017f0d2f2adad1c2df47968b3fae783f941b6077ea09a1b1590655e12f0
+Section: 插件
+Description: 允许设备通过USB访问完整的文件系统，对iOS11及更高版本的设备特别有用。
+Name: AppleFileConduit2电脑访问手机文件
+Author: Saurik, Cannathea
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/afc2d.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/afc2d/js.json
+
+Package: com.Axs.afhook
+Architecture: iphoneos-arm64
+Version: 3.5.0
+Maintainer: BigBoss
+Installed-Size: 1024
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.Axs.afhook_3.5.0_iphoneos-arm64.deb
+Size: 158012
+MD5sum: f72fdcce625cf246bd1c798a61705787
+SHA1: c80c1b2452e5e12898bc51ddf94eeaa085a7b57f
+SHA256: f71296dfb83a2bf3247217765ba01b3d222b3949a1c5982b1ddcaf87941b67ce
+SHA512: e97316b663e92cef17074623947a74434ae1524505f257dd8d3131a9ed3f01a7bcb70392b27bb4219c1edff9211075cfdff04c27baeb818f38ff9b8a60adedfd
+Homepage: https://axs66.github.io/pro
+Section: 插件
+Description:
+ 快速更改应用的名字、图标、机型、角标、版本号等。
+   快速更改应用的名字、图标、机型、角标、版本号等。
+  -随心所欲地更改系统应用和三方应用的名字
+  -从系统相册任意选择图片剪切为应用的图标
+  -手动选择软件内置机型和自定义需要的机型
+  -只需要点击一次就永久生效的清空角标功能
+Tag: purpose::extension
+Author: 小哥哥
+Name: 改个应用
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afhookDp
+Sponsor: thebigboss.org
+dev: zhulongfei28
+Icon: https://axs66.github.io/pro/icon/afhook.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/afhook/js.json
+
 Package: com.Axs.afn
 Architecture: iphoneos-arm64
 Version: 3.6.1
@@ -17046,6 +17195,199 @@ Name: AFN
 Author: AFN Team
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/afn/js.json
+
+Package: com.Axs.aimpro
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Maintainer: Axs
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 2.0), com.spark.libsparkcolourpicker
+Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
+Filename: debs/com.Axs.aimpro_1.1.2_iphoneos-arm64.deb
+Size: 2324284
+MD5sum: c73aa217995567ee0f6dbc81d239c211
+SHA1: 9bbd7bd3afb04b1e4b3602ddd8304bf0eb58c5e5
+SHA256: 2c08c1190b3cd10429b83bed85f33ba0b374a01e5834a2d872e0dad79aa994ad
+SHA512: e1ef1ff8c3e9a57252f9755a579b6375c749f966ac63f99348b3b43fd335fa9cf01e0f1a6c82e5ab300f715f9add0cf6805f6f3e24adf5fbc38ffca2db7e6fe0
+Section: 插件
+Description: iOS 16 Style Time & Date Lockscreen。iOS16样式的时间和日期锁屏。
+Depiction: https://pan.ios999.vip/
+Name: AIM Pro
+Author: alimaulana
+Icon: https://axs66.github.io/pro/icon/aimpro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.alwaysdark
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Maintainer: Axs
+Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
+Filename: debs/com.Axs.alwaysdark_1.2.3_iphoneos-arm64.deb
+Size: 37740
+MD5sum: 92e391aac18f89242c179b97f5ac1b6d
+SHA1: 719695e07d476354f3f0c32d5f6b07079bc3d7e3
+SHA256: 92c97dc1073c6d21d372759927ba983d060df05f6a1f320c3e4d941c14af057f
+SHA512: de0e48f4b401ad5619eb214a317ee0c743931b21328a10cac6c0439125833e4f31cee718ba6e004a00a2160458b09b509484db5816d9db9c4e771948fee4f01e
+Section: 插件
+Description: 运行特定的应用程序始终处于黑暗/光模式
+Depiction: https://axs66.github.io/pro
+Name: AlwaysDark
+Author: KingPuffdaddi
+Icon: https://axs66.github.io/pro/icon/alwaysdark.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/alwaysdark/js.json
+
+Package: com.Axs.analytics
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Maintainer: Axs
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/com.Axs.analytics_0.0.4_iphoneos-arm64.deb
+Size: 3112
+MD5sum: d910bf012d041b21e1391cca753fbf5a
+SHA1: a99c59b29e1b0b024b7f3f0160ed447131df8d15
+SHA256: 9015643bb4ad112ec8dec35747d7b95e672bb520f0dfe56123849d59b2c368ea
+SHA512: c400508e0bfd90272b3a6f35f746a3abde0426363324e6af0cf012688e167192738d9fb187499ab2496bc60b49bbc98b379d6f4161942c46f41f64ea43c50cf9
+Section: 插件
+Description: Enables various enhancements within stock iOS crashlogs，在库存iOS CrashLogs中启用各种增强功能。
+Depiction: Axs
+Name: OSAnalytics
+Author: daniel & PoomSmart
+Icon: https://axs66.github.io/pro/icon/analytics.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.anthocrack2
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate
+Filename: debs/com.Axs.anthocrack2_1.0.0_iphoneos-arm64.deb
+Size: 2924
+MD5sum: 885c9f578e890965183685f26c20cd62
+SHA1: 4ca1ada028fd96a10e6f3802312bdf87a755720f
+SHA256: 34121eb05c842594f5624817c43f79222a22b234bc15484429e89dc238b0c847
+SHA512: 184c34cad3e935b62c0a143f27feaa5bd1f1d596aaf386f15f6410c69d2af3b03bdbb93b22dc654b93d6e23c3c37825b08763249a1dc0f1b20d990dff17212cf
+Section: 插件
+Description: Disable alerts for AnthoPak tweaks. This one's for the 95% who pirate!破解依赖
+Name: AnthoCrack2
+Author: A <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/anthocrack2.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/anthocrack2/js.json
+
+Package: com.Axs.anuisance
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs
+Installed-Size: 716
+Depends: gzip, mobilesubstrate
+Filename: debs/com.Axs.anuisance_0.0.1_iphoneos-arm64.deb
+Size: 111344
+MD5sum: 1fc0cebd7b749a0ed825663fbb81bf64
+SHA1: 779f9e6bb3c8070cb3a52283cb18c2c774f0cc27
+SHA256: eea0e3011f45db5439800bd2a6cdae52743ad25df1e5f0abd27433581066f841
+SHA512: eb2ef0c465ced83f9a6ed0bdddab21857b7f93583f2e88d8bd847fe2bd75d481dfe2560c3011a7d2aeb6f9416a9a9974504bbb5bc7b37a03bebee18f7a1e85be
+Section: 插件
+Description: An awesome tool of some sort!!
+Depiction: https://axs66.github.io/pro
+Name: Anuisance
+Author: ZBC & CBZ
+Icon: https://axs66.github.io/pro/icon/anuisance.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.appstoretroller
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Maintainer: Axs
+Installed-Size: 212
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.appstoretroller_0.1.3_iphoneos-arm64.deb
+Size: 14284
+MD5sum: f503a4f36f01f68107c1fbd9f3deab30
+SHA1: 443823d673b9198116648d12f9026bff36aac829
+SHA256: ddf2c7f00268516f9feb2dfe7c47929a26b55f5339e7ac995b25da4721f4dc5d
+SHA512: 7c03b924d3509e622d007942ef369d15bc52946680a7fcb9263b178cbf35ceb93b135c2c2e63569ac88ab51724077191218f461b3e9ee7e5f5bba1f9d6690ca6
+Section: 插件
+Description: 将设置移至桌面AppStore长按快捷菜单
+Name: AppStoreTroller
+Author: Mineek
+Icon: https://axs66.github.io/pro/icon/appstore.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appstore/js.json
+
+Package: com.Axs.appstoreupdateblock
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Maintainer: 白白白
+Installed-Size: 239
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/com.Axs.appstoreupdateblock_0.1.0_iphoneos-arm64.deb
+Size: 16888
+MD5sum: 6c51a3fe5dd85e16113df17cf949f4a0
+SHA1: 8b4ee5339cf58b04eb3b0e9624cf1566164e1524
+SHA256: b5d29e2908d3bd29d5c732636bdbef076282790bb2c9e00e1930705912fe6a12
+SHA512: 1d18bc60f9fbc399e2250f81ec3c47798dfb51df1d83c3974494da2ef3617aa4b0b148be778c2b35cae4093e7fb44be00b1da6caefda518a532706b85707a12e
+Section: 插件
+Description: 在 App Store 里按应用屏蔽更新，被屏蔽的应用不再出现在更新列表，也不会被一次全部更新。
+Name: App Store 更新屏蔽
+Author: 白白白
+Icon: https://axs66.github.io/pro/icon/appstore.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appstoreupdateblock/js.json
+
+Package: com.Axs.aptv
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs
+Installed-Size: 1448
+Depends: mobilesubstrate
+Filename: debs/com.Axs.aptv_0.0.1_iphoneos-arm64.deb
+Size: 291152
+MD5sum: ae922fd8c7d1312d0505c7b41e851893
+SHA1: d20ae3748b1bafcbca0eadbe2943d3ec5d4da701
+SHA256: 061a6ad31ce64961a84d6c7bfbc3aacc4855ca0647c7830c451380196769dfa1
+SHA512: 5ba9fe22810ada03625a89309704cf83ccdcf3832e12f63e786d121eb57687fc5916dcf1339a1f7403e131ee11669061dcaccdb182e05ebc571f59b9f84d137f
+Section: 插件
+Description: APTV解锁永久SVIP
+Name: APTV 解锁会员
+Author: 🅷🆆
+Icon: https://axs66.github.io/pro/icon/aptv.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/aptv/js.json
+
+Package: com.Axs.aria
+Architecture: iphoneos-arm64
+Version: 0.9.8~RC
+Maintainer: Axs
+Installed-Size: 680
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.aria_0.9.8_RC_iphoneos-arm64.deb
+Size: 93276
+MD5sum: 3f8f284c26bcb1fa19daafdaf8f1586c
+SHA1: d3962bd0388fabaa2079fdcccbe36d2d2f66cb68
+SHA256: 898c751945294ea065af3ca298852126c0e5b762920c838e5317dd417d59523e
+SHA512: b089bce6945df84e2a53bbe46c052c7fa073d5b65332f850f9c04ca667f16abf4e809b121498370b91bb7ee5cecfca834456e63137f9df5295580a468ab1b131
+Section: 插件
+Description: 修改控制中心背景图，用第二个Stock就行了
+Name: Aria控制中心背景图
+Author: Luki
+Sponsor: Axs
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/aria/js.json
+Icon: https://axs66.github.io/pro/icon/Aria.png
+
+Package: com.Axs.arizona
+Architecture: iphoneos-arm64
+Version: 0.9.2
+Maintainer: Axs
+Installed-Size: 796
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: debs/com.Axs.arizona_0.9.2_iphoneos-arm64.deb
+Size: 427788
+MD5sum: 778d6b1300fa0fda52225e89b046cf46
+SHA1: e61bc8bfb21d0fe357007b3cfded5bd657602220
+SHA256: c4b8214ce305363ffa4b157033c1546757296bdce6a59f6884de93160c302d43
+SHA512: 8298843ea8a7102d2e9b5031731a292ff0e398edfc6093ecf2c0fd15250e07861a91e2a88521a0732836b7748bfb73b5c884e8b27da46d76298fb71e9b010c73
+Section: 插件
+Description: 自定义锁屏时间等位置。
+Name: Arizona 锁屏美化
+Author: Luki
+Icon: https://axs66.github.io/pro/icon/arizona.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/arizona/js.json
 
 Package: com.Axs.floating-view
 Architecture: iphoneos-arm64
