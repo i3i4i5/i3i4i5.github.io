@@ -22310,6 +22310,45 @@ Author: Snail
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.snapbackup
+Architecture: iphoneos-arm64e
+Version: 3.6.5
+Maintainer: kanuo
+Installed-Size: 812
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.snapbackup_3.6.5_iphoneos-arm64e.deb
+Size: 1100928
+MD5sum: 145bbff8491fe3dc444a95a469d73f33
+SHA1: 5bcd16b0e7113ad4de320ac5aa17f7fbff453048
+SHA256: e33edf2f4c3f1faaeacff97ef31ceb11a9af0f1aa70f4725aa6b2af2e177cb36
+SHA512: 6cc4baa740bd1c45ef20d3c047560d14df7d1efbab32097759fff7ddf7dcaa1e75a87fa5aaabb466ebd7689604b01844bea031355a805c94042e1477bb6310b7
+Section: 插件
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件、配置、本地 deb 与 ipa，自动标记「设置有界面」的插件
+ - 恢复配置一键完成（plist 恢复到 /var/mobile/Library/Preferences，本地执行，无需 root）
+ .
+ 【恢复难易度说明】
+ - 恢复配置：★☆☆ 简单 —— App 内一键恢复，本地执行，无需 root 权限
+ - 恢复插件：★★★ 较难 —— 需 root 权限，通过「Filza 显示」跳转 Filza，手动安装 debs/ 下的 deb（或 dpkg -i），装完注销/重启生效
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选内容 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包 → 自动恢复 plist（无需 root）
+ ③ 恢复插件：备份包卡片 →「Filza 显示」→ 进入 debs/ 文件夹 → 逐个点 deb 安装 → 注销/重启 SpringBoard 生效
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Name: SnapBackup 备份恢复
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
+
 Package: com.spark.libsparkapplist
 Architecture: iphoneos-arm64
 Version: 1.0.9~rootless
@@ -22582,6 +22621,66 @@ Author: sunshinesong
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.sunshinesong.split-view-pro
+Architecture: iphoneos-arm64e
+Version: 2.1.0
+Maintainer: kanuo
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: xyz.cypwn.splitviewpro, com.jtis.splitviewpro, com.tqm-mos.splitviewpro, com.bvn.splitviewpro
+Filename: debs/com.sunshinesong.split-view-pro_2.1.0_iphoneos-arm64e.deb
+Size: 2553712
+MD5sum: 4bcd2dd6b19a16ef4f01fa6da3bdaf84
+SHA1: e8515453d2df3d3683f556fcb6a6520a0d827259
+SHA256: ebf29c65d072f623c48eafb7d6eda3ddac022b937bb85f756bdc43df452ca730
+SHA512: 68e5798f26db52139a84a2a02f10082fbdf62538262ce5b6270e5165d92810179a3074492e937f5bc74d21a7bbff091ee115fefeb07dd8bc44c7b46c9820bfde
+Section: 插件
+Description: iOS 17 隐根（RootHide）优化版的真分屏插件，把任意 App 塞进可选大小的浮窗，
+ 同时开多个窗口、边看视频边聊天、边看文档边回消息。
+  .
+  【核心功能】
+  - 真浮窗分屏：任意 App 在独立浮窗中运行，可拖动、缩放、圆角可调
+  - 三屏模式：主窗口 + 左右两个小窗同时运行，配合自带 arc 环形菜单呼出
+  - arc 环形菜单：从屏幕角落滑出，1->4 层同心环，按钮大小与弧半径可调，
+    支持震动反馈、触控音效、松手收回
+  - 控制台：可排序的 App 工具栏，关闭时可选择是否一并关闭小窗应用
+  - 浮窗增强：极简模式、自动钉住、图钉位置（横/竖屏分别设置）、
+    竖屏浮窗固定在屏中心、横屏键盘弹起时放大浮窗
+  - 桌面唤起：开启后从桌面图标直接唤起对应 App 的浮窗
+  - 手势快捷：可选择手势快速呼出浮窗，摇晃手机打开分屏
+  - 悬浮图标：图标阴影与悬停透明度可调，已打开 App 可设为浮窗打开
+  .
+  【iOS 17 隐根适配】
+  - 主插件、键盘窗口、媒体、设置、UI 与兼容库共 7 个组件全部 arm64 + arm64e 双架构
+  - .roothidepatch 隐根重定向链接完整，适合 RootHide（Dopamine 2 / roothide 越狱）
+  - 键盘弹出时应用画面进入独立整屏窗口，键盘保持原生宽度与触摸区域，
+    收回后恢复原窗口几何；输入期间隐藏角落图标
+  - 浮窗尺寸记忆：按模式、横竖屏分别保存，重开浮窗后自动恢复上次大小
+  - 左上角 App 图标：轻点进入全屏，全屏中轻点同一图标返回分屏
+  - 长按左上角图标约 0.5 秒，把画面旋转 90 度移入顶部音乐区域
+  - 保留启动保护与设置刷新保护，覆盖安装不清除已保存配置与浮窗尺寸
+  .
+  【2.1.0 重点】
+  - 键盘收起还原提速：直接订阅正在输入的 App 回报，优先处理它的 WillHide
+  - 应用回报绝对结束时间，迟到的 Hide 只用剩余时间，不再播放完整缩窗动画
+  - 还原动画改缓出曲线，兜底时长不超过 0.22 秒；完成即清理保护与触摸接管
+  - 漏发 Hide 时编辑结束确认从 100ms 缩到 32ms，避免切换编辑器时误退出
+  .
+  【安装说明】
+  - 使用 RootHide 包管理器（Sileo / Zebra）覆盖安装，装完按提示注销一次
+  - 注销后请彻底退出并重开要用来分屏的 App，让 App 端组件加载新代码
+  - 设置路径：设置 > split-view-pro；开启开关后部分功能需注销才生效
+  - 需要 rootless-compat（rootless 兼容层），已随越狱环境提供
+  .
+  【已知限制】
+  - 本版为 iOS 17 适配分支，仅测试到 iOS 17 隐根环境；其他系统版本未验证
+  - 第三方输入法与自绘视频播放器的方向识别可能不准，需真机实测
+  - 与原版 Split View Pro 及第三方改版（cypwn / jtis / tqm-mos / bvn）冲突，需先卸载
+Name: split view pro-ios17优化版
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.sunshinesong.split-view-pro.json
+
 Package: com.susudear.themecore
 Architecture: iphoneos-arm64
 Version: 0.5.0
@@ -22599,6 +22698,26 @@ Description: 轻量化桌面图标主题插件，修改图标及图标阴影如�
 Name: ThemeCore
 Author: SuSuDear
 Icon: https://repo.susubaby.cn/icons/ThemeCore.png
+
+Package: com.taikulayyds.rotatefree
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Little 34306
+Installed-Size: 412
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.34306.upsidedowned
+Replaces: com.34306.upsidedowned
+Filename: debs/com.taikulayyds.rotatefree_1.0.0_iphoneos-arm64.deb
+Size: 51408
+MD5sum: 4de94d2be1fc43af9b10dceabba10a56
+SHA1: 8fa8fd18944e1f7fa9983f32ada9d596328666ba
+SHA256: f1c21e2790cd9034355ead639218e10c3d72519d7b0814eb3d0b0a39dffa6f11
+SHA512: 07b9f21610921b06d6e25079bba7ec8f6fef99d9478cb1d15767483211e29f860636d4a340349ac5f2dd981af7231316049ddb5b72cd1e80836096b8048611a9
+Section: 插件
+Description: 屏幕内容跟随手机状态随心旋转，可以上下左右自由旋转。设置内可单独指定app或者锁屏/主屏幕状态。
+Name: 旋转随心 · RotateFree
+Author: 34306, KhanhDuyTran, taikulayyds
+Icon: https://github.com/taikulayyds/icon/raw/refs/heads/mina/rotatefree.png
 
 Package: com.tencent.live4iphone
 Architecture: iphoneos-arm64
@@ -22712,6 +22831,26 @@ Section: 插件
 Description: AutoScroll scroll behavior tweak for RootHide.
 Name: AutoScroll
 Author: Tsangbaby
+
+Package: com.tsangbaby.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.8
+Maintainer: Tsangbaby
+Installed-Size: 3156
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/com.tsangbaby.kayoko_4.8_iphoneos-arm64e.deb
+Size: 670848
+MD5sum: b5b42792fdb59a7eb302d62b0f5fd100
+SHA1: 7bb6b4bf05e30816c02b57e8ff980905fbf8a95a
+SHA256: 5369546bbdab0f4ed2e3eb7e03bd828fed26bc9da052fd8cd06b52753477f744
+SHA512: f3a99ad0d9b31ff1f06587680f3feaec1b64e6f8b6ebc4429621a671872b57bd17e7cf9d09f3db94d213a2b7688c7e34780bfc1f57ad7798cdd001e652ad003f
+Section: 插件
+Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
+Name: Kayoko
+Author: Tsangbaby
+Icon: https://github.com/Tsangbaby/Kayoko/blob/main/Icon/kayoko.png
 
 Package: com.vita.yuki
 Architecture: iphoneos-arm
