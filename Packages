@@ -16175,6 +16175,25 @@ Author: iosign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: cn.dao.sbtweaker
+Architecture: iphoneos-arm64e
+Version: 1.3.9
+Maintainer: Kolbicz
+Installed-Size: 524
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.christoph.sbcustomizer, com.christoph.doubletaplock, com.christoph.noapplibrary, cz.kolbi.noslide, cz.kolbi.sbtweaker
+Replaces: com.christoph.sbcustomizer, com.christoph.doubletaplock, com.christoph.noapplibrary, cz.kolbi.noslide
+Filename: debs/cn.dao.sbtweaker_1.3.9_iphoneos-arm64e.deb
+Size: 76972
+MD5sum: 6b06ba508b66693d06e9ff42d629455c
+SHA1: ec5da660c72e21c8452156de992794831312703e
+SHA256: 62d7c53ad66e213e8266bce1f2550d0ea5eec89dc5f442c86faa3c6df2d1d9b4
+SHA512: 22ad4ca053d0a63aa706b86a14adb98b7880ddef3b6ff39849b8df5290a56d82386e93728029912ca376a04ba0828cc60c024bff3809f989f3a4f184cff8d1d4
+Section: 插件
+Description: iOS 15+ 越狱的 SpringBoard 定制工具，支持 Dock、主屏布局、双击锁屏、动画优化、App 资源库等功能；添加中英文翻译，其他微调。
+Name: SBTweaker(RootHide)
+Author: Kolbicz
+
 Package: cn.imkpatil.ezswipe
 Architecture: iphoneos-arm64e
 Version: 1.1.1
@@ -18333,6 +18352,46 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/keyboardtools.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/keyboardtools/js.json
 
+Package: com.axs.snapbackup
+Architecture: iphoneos-arm64
+Version: 3.8.3
+Maintainer: kanuo
+Installed-Size: 648
+Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
+Filename: debs/com.axs.snapbackup_3.8.3_iphoneos-arm64.deb
+Size: 1074984
+MD5sum: 0bffd2860077b11fdcd31986ddb54856
+SHA1: a42d8bebdce34fe566c03a99312fa1b294195bdd
+SHA256: fcb3587b1a009b2442606c6e59d1cbf7adcab1d6df8c3099abdda9edd9d8d051
+SHA512: 766f34b2e41ce3b1c56316ec3f1408ba12246c3d33e461241e7b25f322b8bdd4f011b564acd346e555643630ae15355d68e9bbace510c2271fa2b07584485e44
+Section: 插件
+Description: 全能越狱备份恢复与系统垃圾缓存清理工具，支持 Rootless + RootHide（隐根）。 轻量、现代化的越狱管理工具，集插件备份、配置恢复、批量安装与深度垃圾缓存清理于一体，解决重装系统、重新越狱、插件迁移及设备存储空间管理等问题。 
+ * 【核心功能】 
+ * 一、插件备份与恢复
+ * 1. 一键备份已安装插件，现场重新打包 DEB，同时保存软件源、依赖及插件偏好配置。
+ * 2. 支持轻量清单备份、完整离线备份、选择性备份及仅配置备份。
+ * 3. 自动识别带设置界面的插件，统一归档插件、依赖、配置文件及相关目录。
+ * 4. 支持多选恢复、批量安装本地 DEB，自动加入 Sileo 原生安装队列。
+ * 5. 插件安装与配置恢复独立操作，支持跳过已安装插件、配置覆盖前备份及恢复日志。
+ * 6. 记录SHA-256、文件权限、所有者及包元数据，辅助校验备份完整性。
+ * 二、深度垃圾缓存清理
+ * 1. 全盘扫描应用缓存、系统公共缓存、临时文件、日志及其他可清理数据。
+ * 2. 自动统计垃圾文件数量与占用空间，按应用及文件类型分类展示。
+ * 3. 支持逐项勾选、全选、全不选，清理前显示预计释放的存储空间。
+ * 4. 提供文件路径查看及目录定位，方便检查缓存来源与具体内容。
+ * 5. 对系统资源、系统诊断数据等敏感项目进行独立标记，默认不自动勾选，需手动确认后清理。
+ * 6. 支持选择性删除，避免误删重要系统资源及应用数据。
+ * 【操作说明】
+ * 1. 备份：主页 → 一键备份 → 选择备份模式 → 等待完成。
+ * 2. 恢复配置：主页 → 恢复配置 → 选择备份包。
+ * 3. 恢复插件：主页 → 恢复插件 → 选择备份包 → Sileo 确认安装。
+ * 4. 垃圾清理：主页→清理垃圾缓存→扫描→勾选项目→确认删除。
+ * 备份目录：/var/mobile/Documents/SnapBackup/ 后台不常驻运行，仅在用户主动打开时执行，不增加后台常驻功耗。
+Name: SnapBackup 备份恢复&清理工具
+Author: kanuo
+Icon: https://axs66.github.io/pro/icon/snapbackup.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapbackup/js.json
+
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm64
 Version: 0.3-5
@@ -18642,6 +18701,45 @@ Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
 Name: Disable CallPoP
 Author: crctdd
 
+Package: com.crctdd.pyvideo
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Maintainer: crctdd
+Installed-Size: 5848
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6)
+Filename: debs/com.crctdd.pyvideo_0.0.3_iphoneos-arm64.deb
+Size: 2625268
+MD5sum: 12593f2e3677e838fb3c1c704d415e12
+SHA1: 518a9c7db9988c32c6ca5c51290184d9c747c56b
+SHA256: 113e592b56142a9b4fad6840c546973683af4d6321f5cb345c7c79f0b07526f4
+SHA512: 0df1698aea13fee44a6db5d9080014f8f7add2c17727b34273504a0901cfaf44b83540fd7c71a7ba89af6b55d003ed896c4a1153b65dede6bc316ad324ccc9f7
+Section: 插件
+Description: 获取当前页面的视频并下载，仅Safari浏览器可用；无设置项。（支持iOS 15-17）\
+ \
+ 长按Safari右下角菜单键 或者\
+ ↓使用以下URL Scheme触发↓\
+ \
+ pyvideo://video-downloader
+Name: PyVideo
+Author: crctdd
+
+Package: com.crctdd.sbtrim
+Architecture: iphoneos-arm64e
+Version: 0.0.15
+Maintainer: crctdd
+Installed-Size: 524
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.sbtrim_0.0.15_iphoneos-arm64e.deb
+Size: 73022
+MD5sum: 0d5b656fc9e24bc5a386c51be26407a1
+SHA1: 6eba604d3fed08474758db7bd72ddcd41dfb66a9
+SHA256: 2339320c5fb22abe8142510dda562070b0e85703a74acc98c75d33c427908b50
+SHA512: 4b81a4f2ec21943d15ac5178eaeada1778b718a5987fa43697ae983693f3cc92a605fb90b830be918509c1a9de9b4ec840e383a5195af29e573b33ba3e59987d
+Section: 插件
+Description: 当SpringBoard的Phys占用阈值超过一定数值，自动轻量优化回收。(支持iOS 15-17)
+Name: SBTrim
+Author: crctdd
+
 Package: com.creaturecoding.libcspreferences
 Architecture: iphoneos-arm64
 Version: 1.5.7
@@ -18790,6 +18888,23 @@ Description: 为直屏设备（iPhone7/8/SE2 等）带来 iPhone X 手势，并�
 Name: Little16(RootHide)
 Author: michaelmelita1 & daodao
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/little16/js.json
+
+Package: com.dao.sileo
+Architecture: iphoneos-arm64e
+Version: 2.5.1-14.1
+Maintainer: 刀刀
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Replaces: org.coolstar.sileo
+Filename: debs/com.dao.sileo_2.5.1-14.1_iphoneos-arm64e.deb
+Size: 3007148
+MD5sum: 9411b8e67a2d1935bf1914ed1ea17b6c
+SHA1: 8cfb3ca1d51c126e7a95a831d225df2a6f93f5c4
+SHA256: a8172ba18ef6fdb3551f11c2498570f4306c228b9b12333281d1ee6108b1e237
+SHA512: 99f058479542892061c4c067be82f2f8b73adceebd651f8b6e1f61407b0c3d84bcd574f009cdcaa2637aacfa4b00dccdd5c8fbdbbba8c7765813a46e230a15a0
+Section: 插件
+Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(arm64e → 绿色、arm64 → 蓝色、arm → 橙色、all → 灰色)，可识别刀刀源内的 RootHidePatcher 中文版，也识别 UmbraPatcher，转换插件一条龙。
+Name: Sileo(RootHide)
+Author: Amy While
 
 Package: com.doimty.fiona
 Architecture: iphoneos-arm64
@@ -19345,6 +19460,24 @@ Description: iOS 14-17 控制中心背景自定义
 Name: CustomCCBg
 Author: iosdump
 
+Package: com.iosdump.shellx
+Architecture: iphoneos-arm64
+Version: 11.3
+Maintainer: iosdump
+Installed-Size: 11532
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim
+Filename: debs/com.iosdump.shellx_11.3_iphoneos-arm64.deb
+Size: 2603202
+MD5sum: bb109c1c3ba97e097ec9836a309174cf
+SHA1: b061b95c885ea74f5257471c5b8951ffa02458f2
+SHA256: 2e0d5abb304242e76a7f6b9c0fa89bad1e1dcad2fc11abb0fb9a20f8167a73ca
+SHA512: a5c62224cff63ef4b28ac8de0a7e552340e2373522da340df16341c22c9ae0e755a17cd5bef15f866db116b997329ff496fe05bf8f9592cf075640d533519c86
+Section: 插件
+Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
+Name: SHELLX
+Author: iosdump
+
 Package: com.iosnet.UniDream
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -19478,6 +19611,26 @@ Description: 高德地图界面精简 · 纯本地运行
  常用说明与更新日志见仓库 Release 页面。
 Name: GaodeClean 高德精简
 Author: jibamao
+
+Package: com.joshuaseltzer.sleeperx
+Architecture: iphoneos-arm64
+Version: 4.0.0
+Maintainer: Joshua Seltzer
+Installed-Size: 1768
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>=15.0), firmware (<<26.0)
+Conflicts: org.thebigboss.sleeper, com.joshuaseltzer.sleeper
+Filename: debs/com.joshuaseltzer.sleeperx_4.0.0_iphoneos-arm64.deb
+Size: 156628
+MD5sum: 103075458405d28132a1f8ab61fdd383
+SHA1: b0279a53beabf195fb2d01f19f7b91222f065c5a
+SHA256: 19b7eebd8c306947d1e33973778f83fe763d4b9ce2984879bda225e8b7be31bc
+SHA512: 2fb32dd95f0dccf1f65a38e1a4d786fca70c2326c291ef107455d0ff83ef8f5b4a7b5a7fb3059e696a516e27d1a4aff371cbf00745600a056095196ded1cd031
+Section: 插件
+Description: Set custom snooze times, skip alarms, and more with SleeperX.闹钟优化调整，原价0.99刀，现免费使用！
+Name: SleeperX
+Author: Joshua Seltzer
+Sponsor: Joshua Seltzer
+icon: https://huayuarc.github.io/icon/sleeperx.jpg
 
 Package: com.kernelrw.adytum
 Architecture: iphoneos-arm64
@@ -19712,6 +19865,23 @@ SHA512: 8469817ee9436af11fb728a3867201229b756277b3cc71c0dbd10f3af8986b8fdc117a1f
 Section: 插件
 Description: Configurable Lock Screen clock gradient.
 Name: 独立锁屏时间渐变
+Author: MoWang
+
+Package: com.minis.rainbowkeyboard
+Architecture: iphoneos-arm64
+Version: 1.2.60
+Maintainer: MoWang
+Installed-Size: 1028
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.minis.rainbowkeyboard_1.2.60_iphoneos-arm64.deb
+Size: 733988
+MD5sum: 406a7bca76f655d59d6d25bd492c96a6
+SHA1: f01e810105e32ac0c25279cfce404c6cba93011a
+SHA256: b0b8c273ee5238a307a22c4ecd0e6930f9a6ceb66f2f91dd405dd934c681f605
+SHA512: d3aa3448f82e7862f5d084dad2241b1f8ea3834e93f80edd7d6564e3f7bea68c1b1e19d1b6080a142ffd842c607a0e104dac5a2d4ff008c25581e4ea28a780ff
+Section: 插件
+Description: 修复表情渐变 bug
+Name: 彩虹键盘光效
 Author: MoWang
 
 Package: com.mlgm.actra
@@ -20227,6 +20397,50 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
 
+Package: com.qianuo.smartdeck.app
+Architecture: iphoneos-arm64e
+Version: 0.8.19
+Maintainer: kanuo
+Installed-Size: 1688
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Filename: debs/com.qianuo.smartdeck.app_0.8.19_iphoneos-arm64e.deb
+Size: 594572
+MD5sum: 392635737936018726e5837655b644e6
+SHA1: 2be238d69aa8677dc4bd0973813fc2387ebb3343
+SHA256: c64c048728ca928ed728e1409e3f94ce3c6405e9668f37be08756b49a92ba68b
+SHA512: faea01a9447bad0f387d0743f2d1ed489a0981aa0fb45304f5ffecc537619f5d76cfa0c39853a855cb7397f4112f5b074b862ba7d355407ed5917cf27e9ff0b1
+Section: 插件
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Name: SmartDeck App
+Author: kanuo
+
+Package: com.qianuo.soulpaste
+Architecture: iphoneos-arm64e
+Version: 0.2.0
+Maintainer: qianuo
+Installed-Size: 212
+Depends: firmware (>= 17.0)
+Filename: debs/com.qianuo.soulpaste_0.2.0_iphoneos-arm64e.deb
+Size: 40380
+MD5sum: ee72ebde61b8911fb9fb5762075bca57
+SHA1: d4a525e0b5ebbd8994ecb485b1f71431acd6e9ee
+SHA256: 4a28fe9d453d8c790e4a112f16fb2ce8d98045dc19a4de43d2571c054d8a5866
+SHA512: 4445aa9629168141754c8a226c6167605d0c267973c4d97889fd11ca8e8fd88e9c583be9a3e06418ebdac3721573d7876eac6573c6a8d9cb9541dfa7f7f993d7
+Section: 插件
+Description: Soul 私聊直接粘贴图片：在 Soul 私聊输入框直接粘贴剪贴板里的图片发送，无需先存相册再选图。
+ 【核心功能】
+  - 私聊直接粘贴：复制或截图图片后，在 Soul 私聊输入框直接粘贴发送
+  - 省去存相册步骤：不用先把图片保存到系统相册再从相册选择
+  - 通用兼容：不绑定 Soul 特定版本号，App 更新后一般仍可用
+ 【使用说明】
+  - 安装后请 Respring 一次
+  - 适用 iOS 17 及以上
+  - 使用方式：复制/截图图片后，进入 Soul 私聊，在输入框长按选择粘贴即可
+  - 本包为 RootHide（arm64e）版
+Name: SoulPaste
+Author: qianuo
+
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64
 Version: 2.0.350
@@ -20247,6 +20461,95 @@ Description: 三种模式一键切换的智能温控管理。 智能：游戏高
 Name: CPU智能温控(iOS16/17)
 Author: qq391160
 Icon: https://qq391160.github.io/repo/icons/thermal.png
+
+Package: com.quicklaunch.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.89
+Priority: optional
+Maintainer: kanuo
+Installed-Size: 3568
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/com.quicklaunch.tweak_0.1.89_iphoneos-arm64.deb
+Size: 637772
+MD5sum: c330a98f90cbd48dd3e2f2978ba71987
+SHA1: 65accf642a3c288db2696d61df32f9851b9f5408
+SHA256: 7bcd9a01d8c9b21b3c1f3846507605b1819e1c5fabaff2439129550f2026147e
+SHA512: 7a6d168f7b724cb2d570774df6864f774f5e165720f5ca001c41edc3fbc3052b078bc99d0b5ae8fde86381c6a72dfa91cba2ab57eca37ca9d68bea340789a589
+Section: 插件
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Adds radial-only gather/disperse, spiral, wave and fan animations with orbit and original unfold.
+ Shows saved choice labels and native checked option lists throughout menu settings.
+ Shares bounded prepared icon caches and deduplicated main-thread icon lookups across all menus.
+ Preserves excess radial favorites without deleting saved configuration.
+ Capsule recent mode keeps the full system App switcher list, including tombstones, and sorts by successful QuickLaunch launch counts.
+ Adds five optional Iya split opening modes using its supplied SpringBoard integration API.
+ Adds center image connected-background removal with tolerance, smoothing, feathering, undo and non-destructive edit persistence.
+ Adds native installed Shortcuts selection and background execution by unique identifier, without opening the Shortcuts app.
+ Adds guarded optional SVP 1.4.2 opening and seventeen native toolbar actions in all menus.
+ Adds automatic brightness, Night Shift, True Tone and independent region screenshot selection.
+ Follow the foreground App interface orientation and independently choose recent background Apps or saved favorites per menu.
+ Capsule notification icons retain native notification actions and use a 1-120 second duration slider.
+ New notifications reveal the capsule in recent and favorite modes; ordinary and radial menus are unchanged.
+ Recent rail and capsule shrink to live App count, retaining viewport limits and overflow scrolling.
+ Synchronizes cross-process menu preferences and shows a dedicated recent/favorite selection page.
+ Compensates the actual overlay host transform to prevent duplicate landscape rotation.
+ Preserves favorite Apps and actions when switching content sources.
+ Adds 21 shared tools including acknowledged screen recording, accessibility actions and optional Open window management.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
+ Choose fullscreen, PullOver-X, ScreenCore, Open, FV or SVP split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
+ Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
+ Circular menu supports 68 combined apps and actions, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
+ Adapt radial menus and debug touch regions to landscape, with independent landscape dimensions and position.
+ Optionally show the capsule only in landscape; scroll unlimited capsule apps within four landscape slots and one to ten portrait slots.
+ Expose a guarded optional SpringBoard bridge for the floating ball to present one selected menu.
+ Long-press a visible floating ball in apps or on Home to explicitly present a menu, with temporary keyboard and capsule portrait overrides.
+ Adjust docked capsule artwork opacity from 0 to 100 percent while preserving invisible touch targets.
+ Optionally retain one to three empty Home Screen pages after existing pages.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
+ Select any number of rail apps; scroll within a fixed eight-slot viewport.
+ Tap notification apps to open and remove them; long-press for the full list.
+ Both overlays share the lock-screen switch and hide for the keyboard unless explicitly presented by a ball long press.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depictions/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.quicklaunch.tweak.json
+
+Package: com.rain.rainback
+Architecture: iphoneos-arm64
+Version: 1.6.4-4+debug
+Maintainer: rain
+Installed-Size: 1124
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: debs/com.rain.rainback_1.6.4-4_debug_iphoneos-arm64.deb
+Size: 314204
+MD5sum: eec6bea7c3c1f31f90746e87105cb37c
+SHA1: d0cefebd88e76a04825f5d2eefa7a4128bbdaacf
+SHA256: 41f296fca74e09df3b952b272252e77d79efe8493057d87ff0950ab36c10d5ae
+SHA512: 915045b402c730aeb7e7ef348fcff9320d076b4380a2c3233f801c2aa56e7e6c5e5bce32ea18d1453d3ae283b3965130175e7a6f7bc15cb3ca16f9e879c88994
+Section: 插件
+Description: 从屏幕边缘或任意位置滑动返回上一页面，支持灵敏度调节、全屏手势、墨水扩散、光剑切割、动态触觉、自定义音效、黑白名单。
+Tag: role::hacker, purpose::extension
+Name: rain的返回
+Author: rain
 
 Package: com.rpetrich.rocketbootstrap
 Architecture: iphoneos-arm64
@@ -20832,6 +21135,27 @@ Description: AutoScroll scroll behavior tweak for RootHide.
 Name: AutoScroll
 Author: Tsangbaby
 
+Package: com.wacljcr.qqmixtxtimg
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Maintainer: wacljcr
+Installed-Size: 360
+Depends: firmware (>= 14.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/com.wacljcr.qqmixtxtimg_1.0.6_iphoneos-arm64.deb
+Size: 34192
+MD5sum: 9677eb2e7563a06acf2e86b350d85f15
+SHA1: 0d6e7492b56feb2fc41be384b7c0a91d87520275
+SHA256: efe960cab739dd65fbdb0dbfeca14731b7db01ee71e06dc8afdf243e7613a351
+SHA512: d4e635bf4609b37a547600085446132c566124d9d67482d49082a52e473f25bc096ac17a35a957ba135cb1cea80157d829cd4fab9fe1a45d6aa87472fda265b6
+Section: 插件
+Description: 让移动端 QQ 像电脑端一样把「图片 + 文字」合并成一条消息发送。
+ 在聊天发送流程里，把已选图片与输入框文字合并进同一条消息（text element + image element），
+ 不再需要先把图发完再补文字。支持 iOS 14+ rootless 越狱（Dopamine / Relaxin / RootHide）。
+ 设置入口：设置 → QQ图文同发。
+Name: QQ图文同发
+Author: wacljcr
+icon: https://huayuarc.github.io/icon/qq.png
+
 Package: com.wangyou.tigong
 Architecture: iphoneos-arm
 Version: 1.0.0
@@ -21104,6 +21428,24 @@ Description: 给Safari添加iOS27液态玻璃效果。
 Name: 27Safari
 Author: 泽哥
 
+Package: com.zege.sileobackground
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Maintainer: 泽哥
+Installed-Size: 260
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.zege.sileobackground_1.1.6_iphoneos-arm64.deb
+Size: 26224
+MD5sum: b8e26c195304961444dcda95848c7da1
+SHA1: 2f9f7c45da4764819a242a862481fb549353c9c6
+SHA256: 269431b8e43206a78734def001b59a422f7f8d208ea6744c67b67fc79bf5c856
+SHA512: fb942ba4c513d22a73aacbfcb9a1174a53f3d53474607812d0cddd2638e89ee44774812f53b28c6bf157ef7048abbb5d0a0d289b9df498044bdc0d1b05517feb
+Section: 插件
+Description: 给 Sileo 加整页自定义背景图（三指双击相册导入）。1.1.6：底部悬浮栏液态玻璃保留；日期小标题/分组头灰块继续透明化。
+Name: Sileo 背景图
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon-sileobackground.png
+Author: 泽哥
+
 Package: com.zegeyoudaoli.home27
 Architecture: iphoneos-arm64e
 Version: 2.1.62
@@ -21316,6 +21658,31 @@ Description: 基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
 Name: Liquid (Gl)ass · 泽哥维护兼容版
 Author: dylv&泽哥
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon.png
+
+Package: dylv.sbliquidglass
+Architecture: iphoneos-arm64e
+Version: 1.8
+Maintainer: MoWang
+Installed-Size: 4100
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Filename: debs/dylv.sbliquidglass_1.8_iphoneos-arm64e.deb
+Size: 1395254
+MD5sum: 3d440f2328257cb8534f55f8269a304a
+SHA1: e3295e497081dac033ac0d4d4b89c09143cf281b
+SHA256: ced0f46d9749fc452b7012a842412d1502d0e92e5eef3eb087e809706ccc612b
+SHA512: 9375db761b1c72edf6004725fd483bc42cdc1005f1a7fd5e7a416a53f2ef72464da6a2161ecdf4cc02c581e911ce8ce4249b4c8be4e18a48332b09b28a0b0168
+Section: 插件
+Description: iOS 26 风格「液态玻璃」系统 UI 美化插件：分阶段渲染的液态玻璃材质，安全表层架构，全局生效。
+ 【核心功能】
+  - 系统液态玻璃：为通知中心、控制中心、Dock、状态栏等系统界面套用 iOS 26 风格透明折射玻璃材质
+  - 安全表层架构：分层渲染，降低白屏/重启风险，稳定运行
+  - 多进程注入：覆盖 Backboardd、Dock 等多个系统进程，效果全局统一
+ 【使用说明】
+  - 安装后请 Respring 一次（建议注销后观察是否稳定）
+  - 设置路径：设置 → SBLiquidGlass
+  - 本包为 RootHide（arm64e）版
+Name: SBLiquidGlass
+Author: MoWang
 
 Package: emt.paisseon.xinamine
 Architecture: iphoneos-arm64
@@ -21672,6 +22039,78 @@ Section: 插件
 Description: A magnifying and scrolling Dock for iOS 15, 16 and 17.
 Name: KineticDock
 Author: Banana
+
+Package: iya.banana.replacedefapp
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Maintainer: Banana
+Installed-Size: 908
+Depends: firmware (>= 17.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iya.banana.replacedefapp_0.1.0_iphoneos-arm64.deb
+Size: 106620
+MD5sum: 3803850f1830f3da52bc7ed3a82c2baf
+SHA1: 5aba78cff650760c491bcbbcf32d0265e6c9e894
+SHA256: a7d12a628fc6693108518fab97dbc0cb285a6d6292949eca309a2fa3af44dccd
+SHA512: 6d809eb5ed13a847fac3f83ef0232da638128a51e99ef25976da6aa0f4be5f8f00d5a03a6229303b6f7ee072091bc5e4948c20c59e20f981acb6f48f9def8702
+Section: 插件
+Description: Unified default-app settings, URL routing and selected-text translation for iOS 17.
+Name: ReplaceDefApp
+Author: Banana
+
+Package: iya.banana.spatialscene
+Architecture: iphoneos-arm64
+Version: 1.1.18-1
+Maintainer: Banana
+Installed-Size: 12612
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iya.banana.spatialscene_1.1.18-1_iphoneos-arm64.deb
+Size: 5910998
+MD5sum: 8d10c843c44e3c000d9a776e2d4eb7c3
+SHA1: 30535716f0de7c708350fdc326cc9a857db25d63
+SHA256: dee6f5bf1df0ca903c7ebd3291c0c4846f0679af46d083d992ca9d2d5ffd8a8e
+SHA512: df542feabe7d94c117c81c1681a5da74850f0e05a4de986d63e25c18c7e4eb2cde95372b9de974962db88632e27923d24c4e3f5e8fff90fc0f6f22eb5d1ea692
+Section: 插件
+Description: 空间场景锁屏壁纸，由 SpatialScene App 导入、预览与管理。 / Spatial lock-screen scenes imported, previewed, and managed by the SpatialScene app.
+Name: SpatialScene
+Author: Banana
+
+Package: iya.banana.springboardaction
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Banana
+Installed-Size: 608
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0), firmware (<< 19.0)
+Conflicts: com.cameronkatri.quickactions
+Filename: debs/iya.banana.springboardaction_1.0.0_iphoneos-arm64.deb
+Size: 80868
+MD5sum: 778d94eac21c834b68fe1c43c5abda8b
+SHA1: 9a77d3f7d9c014902c9a29fcc74de8afccbd8971
+SHA256: 62471ca9452f2961b0098d7dcc3d2ae783b16d9651278f17467c896ad6dfff37
+SHA512: b2347fe014851276e2574d8b11c151e8ad7630861ae646b0615658e59c2b7bf54bd5386c379833927e037567210fca33de3bba61e48056eca955c1981376fa0c
+Section: 插件
+Description: 适用于iOS 16-18的自定义锁定屏幕快速操作、应用程序和快捷方式。Custom lock screen quick actions, apps, and shortcuts for iOS 16-18.
+Name: SpringBoardAction
+Author: Banana
+icon: https://huayuarc.github.io/icon/springboardaction.png
+
+Package: iya.banana.springboardgame
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: hxhlb
+Installed-Size: 716
+Depends: mobilesubstrate, preferenceloader
+Conflicts: iya.banana.iconsnake, iya.banana.icontetris
+Replaces: iya.banana.iconsnake, iya.banana.icontetris
+Filename: debs/iya.banana.springboardgame_0.0.2_iphoneos-arm64.deb
+Size: 118736
+MD5sum: 28d6ab2d5908945208323c8e5f5e641f
+SHA1: 6f70fcf7961b728ef416df8551936abbf45948e3
+SHA256: 6b6d3d394ed49b6cbd03a00f525170c9d34975b2835dc941cdb0e5488adcf9f6
+SHA512: 8f84e662e420a36c8632841bb1f304104d9000736c5747c1498371e74702d4eb69d055ae59c2021f23718a1df5dd5934dfde9d39e27292a7b1f6925acf7569fd
+Section: 插件
+Description: Play Snake, Tetris, Basketball, Breakout, Soccer, and Tank with installed app icons directly on the Home Screen. / 直接在主屏幕上使用已安装 App 图标游玩贪吃蛇、俄罗斯方块、篮球、打砖块、足球和坦克。
+Name: SpringBoardGame
+Author: hxhlb
 
 Package: iya.iapple.liquidass
 Architecture: iphoneos-arm64
@@ -22809,25 +23248,6 @@ Description: 左滑返回
 Name: 左滑返回
 Author: Mao
 Sponsor: admin@25mao.com
-
-Package: com.minis.rainbowkeyboard
-Architecture: iphoneos-arm64e
-Version: 1.0.26~lite4
-Maintainer: MoWang
-Installed-Size: 384
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/彩虹键盘_·_轻量版_1.0.26_lite4_iphoneos-arm64e.deb
-Size: 93244
-MD5sum: 8dd365f8418e81f18728896c269e7b86
-SHA1: 4aaa713e11664e13b19c943d2f9c7e5b73d32210
-SHA256: 35ad7a14beb08bb3ca6d48466d01b1b09708ce54b00239bd0a3063d27fd780c3
-SHA512: 332682eafd54a3ff2f5cfb64da618f69e4046cae67752572ecb52f672860c467d46f92843c8533b475459ce5d558dd7afad0c0f1e534afcb9f260159e2c67738
-Section: 插件
-Description: 彩虹键盘，五彩光效
-Name: 彩虹键盘
-Author: MoWang
-Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
 
 Package: com.yourepo.axs.wxkeyboarduihook
 Architecture: iphoneos-arm64e
