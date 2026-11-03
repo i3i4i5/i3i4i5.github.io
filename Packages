@@ -21931,6 +21931,25 @@ Description: Soul 私聊直接粘贴图片：在 Soul 私聊输入框直接粘�
 Name: SoulPaste
 Author: qianuo
 
+Package: com.qimiao.WCRefine
+Architecture: iphoneos-arm64
+Version: 2.1-5beta1
+Priority: optional
+Maintainer: 热心网友
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.qimiao.WCRefine_2.1-5beta1_iphoneos-arm64.deb
+Size: 9312472
+MD5sum: 9b93b43f3ead7c8ac1fde8597141c4f1
+SHA1: e8c920da029f630a8b65ad4ce33bd8377922f727
+SHA256: 67152ee850fc4fdf609b84adfdc53187f9d7e1e60137c37a3200f3ab34f37e65
+SHA512: ca8b87f4a5288c2069f2a0daccfa21096de80a6b0ef16ab89f815a7a3e6af6b3b649723c3291287c43dd9dbdfd4cda43317cba77f21b3418ba2f1dc4ebf97124
+Section: 插件
+Description: 微信优化的重制版，基于微信8.0.64+版本制作。
+Name: WCRefine内部2.1-5beta1（免授权）
+Author: 热心网友
+dev: 君临
+Icon: https://is4-ssl.mzstatic.com/image/thumb/Purple124/v4/eb/b5/a8/ebb5a892-c161-c79f-ba51-2089219fb833/source/512x512bb.jpg
+
 Package: com.qq391160.cpucore
 Architecture: iphoneos-arm64
 Version: 2.0.350
@@ -22130,6 +22149,40 @@ Author: ShemeshApps <tomerjshemesh@gmail.com>
 Name: NotiBlock-通知过滤-rootless
 dev: shemeshapps
 
+Package: com.shtm.amplify
+Architecture: iphoneos-arm64
+Version: 1.1-0beta2
+Maintainer: SHTM
+Installed-Size: 2008
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.shtm.amplify_1.1-0beta2_iphoneos-arm64.deb
+Size: 514264
+MD5sum: 697790000817f82f91f8a9e2deeeaaa3
+SHA1: 64f9c18cf695dba55ac6a5b5cc4551415a55e2bf
+SHA256: 443bc677961ba570bbe229e97fb555bfcba962eea2ea37a8981bebeb7bc3b222
+SHA512: 16e15410304db1e0ebfebc76c2ab849ed80b4207505027b368bf44206cabc0a704bd1682cb7666cc97df08f7c49afce1d20ed6fa7f3910dd16c88bf4f717130d
+Section: 插件
+Description: 微信美化插件
+Name: AmpLify
+Author: SHTM
+Icon: file:///Library/PreferenceBundles/AmpLifySettings.bundle/icon.png
+
+Package: com.sileowallpaper.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.8
+Maintainer: MoWang
+Depends: mobilesubstrate, firmware (>= 16.0)
+Filename: debs/com.sileowallpaper.tweak_0.1.8_iphoneos-arm64.deb
+Size: 26100
+MD5sum: a771650ed74549e5ab65bdbfcd4a4e0c
+SHA1: df26878e827843cb8d59a581754767705056fa5e
+SHA256: c19a91364e1eb7bc071f78279f868ef2edd11987dba818319f6c7297e90c23e8
+SHA512: 00eb03a91c628c0f5afe22c029df1b5eb50a22828d91c7cc8d7d6ee247838a83b86a4a3dacd5544f0b87b34641239f29f3f69a7aebe3657929b3dd874dc956c5
+Section: 插件
+Description: 为 Sileo 设置自定义背景壁纸，支持相册选图、文字颜色、背景柔化和列表底色调节。
+Name: sileo 壁纸
+Author: MoWang
+
 Package: com.sini.filzaswipeselect
 Architecture: iphoneos-arm64
 Version: 0.0.2
@@ -22185,6 +22238,23 @@ Name: QQ头像旋转-Rootless
 Author: SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.siwenjiajia.tweak.free
+Architecture: iphoneos-arm64
+Version: 28.17
+Maintainer: personal
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Conflicts: com.siwenjiajia.tweak.comm
+Filename: debs/com.siwenjiajia.tweak.free_28.17_iphoneos-arm64.deb
+Size: 2894200
+MD5sum: c980747340cf89f3d04cead8f1d00d4e
+SHA1: 850cda4f2c6fadd0aea42e7f80d51991d53f5d69
+SHA256: 429871b1f4d7eed42b38c5e5ea3efc2089dca7d29a1829bdff097702ae4fd598
+SHA512: 755e7eacd4869e579250fec9422eda72d3d001218df7ba8969c5d0d8faeb87ae5c026bdd4d0d36bed8548ddba390f0d5b4b199a242a27bfde92d29da296661d5
+Section: 插件
+Description: 抖音优化 破解版 28.17（免授权·精简版）。功能较少、联网轻，仅自用。
+Name: 抖音优化（免授权）
+Author: siwenjiajia
 
 Package: com.snail.airdrop16
 Architecture: iphoneos-arm64
