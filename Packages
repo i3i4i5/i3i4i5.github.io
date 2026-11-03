@@ -17697,6 +17697,159 @@ Author: 夜辰
 Icon: https://axs66.github.io/pro/icon/ccaudioplay.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/bofangqi/js.json
 
+Package: com.Axs.bounceit
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: BigBoss
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.bounceit_1.0.4_iphoneos-arm64.deb
+Size: 5520
+MD5sum: ebb8417cf03f62862b1008e65682da3f
+SHA1: 1f3b7f96803cf913af22e03019478d96bb80493b
+SHA256: a713412a0b6993f23c9c45decf4e95183395ad478c1057484004c9dc3bf6d434
+SHA512: e7d06d33f00337bc2e3cf894e8ce929069ec0a0f5f4673a843c631ff0e7dac57699e582c17793747d0619fbeb5cfd9686058f1a3fe1ec61bb16d3e9ebf6d6f3c
+Section: 插件
+Description: 添加弹跳效果动画
+Name: Bounce It 弹跳效果动画
+Author: Jake James
+Icon: https://axs66.github.io/pro/icon/bounceit.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/bounceit/js.json
+
+Package: com.Axs.bzhelper
+Architecture: iphoneos-arm64
+Version: 1.6.5
+Maintainer: iosrxwy
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/com.Axs.bzhelper_1.6.5_iphoneos-arm64.deb
+Size: 1721728
+MD5sum: 80e4680a85f632bb31b0b1d59c960a6e
+SHA1: 9899e096dce3f05061251231393682237962f5e2
+SHA256: 44b94bc9ceb66a1eb6c70cb77e0fc7d6f15891ec9d16c1d7ad596a7ee528f5a4
+SHA512: 64ad8ac09f13fffa6fb8c6fcbdeb554a756cfdf417dc93be4f413a77552b65b155880b8a6ff4f49842ea6478df384bbd11a3e776f225f9fede784ee477d5a27f
+Section: 插件
+Description: 广告加速、通用去广告、游戏增强去广、触摸轨迹、本地验证内购解锁，三指双击唤醒功能菜单，双指双击隐藏菜单!
+Name: bzhelper
+Author: iosrxwy
+Icon: https://axs66.github.io/pro/icon/bzhelper.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/bzhelper/js.json
+
+Package: com.Axs.cahighfps
+Architecture: iphoneos-arm64
+Version: 2.1.3
+Maintainer: Axs
+Installed-Size: 360
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4), ws.hbang.alderis (>= 1.1)
+Filename: debs/com.Axs.cahighfps_2.1.3_iphoneos-arm64.deb
+Size: 15992
+MD5sum: fd5f95c4c6d494b269f29aa502f60552
+SHA1: 97f644851e088eb68ea26f4657dc554e939b492a
+SHA256: 09a2c284650be11ccba0307082398023e1d1a82cbf503f8e738a0756c55e82bf
+SHA512: 9d728bbca0f3a17a801df56ae9044f997f125ac88c7861a645dde3d06b9954b31ef74a1e8047f7936c267d29824dc542a9d70079e143e251f75d435e2cf45816
+Section: 插件
+Description: 这是一款非常不错的免费锁120Hz刷新率的插件，适用于iPhone13Pro以上机型。让CoreAnimation应用使用最高可用帧率。帧率和颜色可以自定义。
+Name: CAHighFPS-120刷新率
+Author: PoomSmart
+Icon: https://axs66.github.io/pro/icon/cahighfps.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cahighfps/js.json
+
+Package: com.Axs.calculatorhistory
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: Axs
+Installed-Size: 240
+Depends: mobilesubstrate
+Filename: debs/com.Axs.calculatorhistory_1.2_iphoneos-arm64.deb
+Size: 24136
+MD5sum: 0e6c69440db2b8095b1b402a9bdb24bf
+SHA1: 34fff5d87da8a21534c638b76babf7c3d8ca6839
+SHA256: f90c8d4575bfb2b82e21f4cfa8a42600c68fd1de199d12104cbded91ed4701ad
+SHA512: 878ac206250caae4b73b9f1ba94083fa0d87720269a7ead0f4117004c3c1aeac1341462c8b284a343ecfb2017ed9a09823f8de4322c539957e910af63a6beab7
+Section: 插件
+Description: Calculator gains history!记录苹果自带计算器历史计算过程！
+Name: CalculatorHistory 苹果计算器历史记录
+Author: fiore
+Icon: https://axs66.github.io/pro/icon/calculatorhistory.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/calculatorhistory/js.json
+
+Package: com.Axs.callassist16
+Architecture: iphoneos-arm64
+Version: 2.3.9
+Maintainer: Axs
+Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.Axs.callassist16_2.3.9_iphoneos-arm64.deb
+Size: 3104644
+MD5sum: 3cfb7e64b8679a2da7fbe4f1504c0770
+SHA1: 7db4f2ded2d237be791973422ce2b2ed1892a4ca
+SHA256: c07f8e60884b25620ee671be1b8a0b73177e0c42c0356bac55d87ce02928edcb
+SHA512: 407d3fd5d8728b6d568603e8e67f6db45b1cd1b75b9dfe59e0179653099a3f113c9ab3459ea54078d54adc4b85ec47ea912938dc59109a3ed27dc43a3580700c
+Section: 插件
+Description: 电话助手授权版本,此版本仅限ios16系统，无根设备安装，仅用于个人备份。
+Name: 电话助手iOS16-正式版 (Rootless)
+Author: xybp888
+Depiction: https://axs66.github.io/pro
+Icon: https://axs66.github.io/pro/icon/callassist.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/callassist/js.json
+
+Package: com.Axs.cc18
+Architecture: iphoneos-arm64
+Version: 1.1.0-1+debug
+Maintainer: Axs
+Installed-Size: 376
+Depends: mobilesubstrate (>= 0.9.5000), firmware (<= 18.0)
+Filename: debs/com.Axs.cc18_1.1.0-1_debug_iphoneos-arm64.deb
+Size: 24412
+MD5sum: a33798a7fbe0c7658de434eb6fc82b22
+SHA1: 9ef3754520213c0345cfd15cb5b085f0d2412df7
+SHA256: dedfe4226c4e59f952ebe84d0ab91e7c23c931d3efd199e94918d24cba6561a6
+SHA512: 89cc02a7daf7d2b8cc9cbdeb9bd220f85dcfcf662991b3a2ef4096ea03d285b8bfd475140d9849b53016221a9158a208344b3f137bb4ec8f1a6f6d83cedd9c02
+Section: 插件
+Description: iOS18样式控制中心 基于作者dvntm的开源文件编译 并增加更多玩法!
+Name: CC18(带设置项)
+Author: dvntm & liuf
+Icon: https://axs66.github.io/pro/icon/cc18.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cc18/js.json
+
+Package: com.Axs.cc18s
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Maintainer: Axs
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)
+Conflicts: com.dvntm.cc18
+Filename: debs/com.Axs.cc18s_0.0.3_iphoneos-arm64.deb
+Size: 4616
+MD5sum: 3dd137ab1b4bfb5695850b2567f5991b
+SHA1: b55ee20d4f8c543e379d1164644597f47b6efa5a
+SHA256: 5159462f5f7f1cf4b6dc3a7273a0b00d3728273ffc6450a6c16cfe9e7906e55d
+SHA512: 50113c3b945ed40b9c5cc817b23be47f4aa05d505f8ed006ce4a28d5caf795cbee11e6bcfc1bf1528d13b1c7543a0d486a24392f155294d3f7306d90fa72b3c2
+Section: 插件
+Description:
+ iOS 18 圆角控制中心
+  * Round CC modules replication, like in iOS 18
+Name: 仿ios18控制中心圆角
+Author: dvntm
+Icon: https://axs66.github.io/pro/icon/cc18s.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cc18s/js.json
+
+Package: com.Axs.ccbadgeclear
+Architecture: iphoneos-arm64
+Version: 1.2-6
+Maintainer: Axs
+Installed-Size: 224
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/com.Axs.ccbadgeclear_1.2-6_iphoneos-arm64.deb
+Size: 25844
+MD5sum: 95e0dba0e018bab95cd975b9a458c9e6
+SHA1: e03625be8b63a13583a1f19b8e76ed510e8604dc
+SHA256: cd35c1572017df3596627c1fa28c96f291cfd9ea49616dbc673c6b7f0b445e59
+SHA512: 405f7f3b9090c07bfa6dae707c8d0db5680daed0062438292d380f38528061c1914bf42a74959e56e6fa58917b04056923223341f6e102a03222001f0b984a0f
+Section: 插件
+Description: Quickly clean up all red badge on desktop via Control Center, Support iOS15+。快速通过控制中心清理桌面上的所有红色徽章，支持ios15+
+Name: CCBadgeClear 控制中心清理角标
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/ccbadgeclear.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ccbadgeclear/js.json
+
 Package: com.Axs.floating-view
 Architecture: iphoneos-arm64
 Version: 1.6.0-6
