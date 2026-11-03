@@ -18102,6 +18102,296 @@ Author: A
 Icon: https://axs66.github.io/pro/icon/classdumptweak.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/classdumptweak/js.json
 
+Package: com.Axs.classicfolders
+Architecture: iphoneos-arm64
+Version: 3.0.6
+Maintainer: CoolStar
+Depends: mobilesubstrate
+Filename: debs/com.Axs.classicfolders_3.0.6_iphoneos-arm64.deb
+Size: 3294712
+MD5sum: 1dbcb9ec26b85bede437b0ba9cb6e749
+SHA1: 1999d99448a59a317cf6d6d6557262fda4e1d63f
+SHA256: fb5100796c6068a2d46da80a6eadce0072770688ec8d751ddcfaac055b8e8f66
+SHA512: 611c6baab2a5cbd691fc8fdf025024f79e12f7b86005b6381744843d00b2c995787956622dd38d93efa1e47ec5c1dd12ebf30bfbd0a2cadf124374c8d76198b4
+Section: 插件
+Description: iOS 6 folders with a modern twist
+Depiction: https://trollstore.yourepo.com/
+Name: ClassicFolders 3
+Author: CoolStar
+Icon: https://axs66.github.io/pro/icon/ClassicFolders3.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/classicfolders3/js.json
+
+Package: com.Axs.classickeyboardxs
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Maintainer: Axs
+Installed-Size: 1044
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.classickeyboardxs_1.1-9_iphoneos-arm64.deb
+Size: 275908
+MD5sum: 0400f316d3efbf70db36d5648d445696
+SHA1: 6aa3fee0d7e1cf817f1a3f242daa1941bcb5abc2
+SHA256: ccb6705ff803aeea5ce777ae5009f4f15037b7eff68bc38d45ed13e041f2ba9d
+SHA512: eb9cb0f8f81a92a777a5bc9e592519816362a0735281d7f3d3d37e1721f87d1e8f571df07e1941d8c4007a74646b27e2de94e154c64a62f3806abe4e415ae4bc
+Section: 插件
+Description: Customize the height of the bottom of the X-keyboard, the height of the bottom of the earth, etc.自定义X键盘底部的高度，地球底部的高度等。可以解决1.3.7版Svp分屏开启后，地球或者语音按不动的问题。
+Name: ClassicKeyboardXS 键盘高度调整
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/classickeyboardxs.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/classickeyboardxs/js.json
+
+Package: com.Axs.cocoatop
+Architecture: iphoneos-arm64
+Version: 3.1.2
+Maintainer: Axs
+Installed-Size: 840
+Filename: debs/com.Axs.cocoatop_3.1.2_iphoneos-arm64.deb
+Size: 183772
+MD5sum: 53f927338363699e23981bfb1d22350d
+SHA1: 323283e989a6ff257430a12f4d64ae456baac8e2
+SHA256: b27efcef04e0c91804ee2db517b77bd16fb9622016272622c96b7684202cf111
+SHA512: f8470352dbd133c0db05cbf09f0e61c7a8c340fe8a5f9392b54a5d1549b9079e4737ce3d7d7fcdaef49422281e3742d64e3f102fdc89505125fdde92fe024b08
+Section: 插件
+Description: iOS GUI进程查看器,修复支持无根越狱，并增加一些小功能.
+ - 1.长按图标的插件针对APP更友好
+ - 2.此app更适合屏蔽进程类的注入
+ - 3.laileld要加的copy给加上(如果是/开头,使用filza打开)
+Name: CocoaTop
+Author: Domo
+Icon: https://axs66.github.io/pro/icon/cocoatop.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cocoatop/js.json
+
+Package: com.Axs.cocoatophh
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Axs
+Installed-Size: 240
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.cocoatophh_1.0_iphoneos-arm64.deb
+Size: 19212
+MD5sum: fa7dd2800206f59c37f7943fc1a094e2
+SHA1: 16a3d7df73bba25216f4749f4e6cbfd02aa07eb3
+SHA256: 8f40398b3a4665eb7ec6953b2317c2d8f977fef67b5fc5fef9bb88d3946645d9
+SHA512: adda2aab55737ef97390153c04db8cb0ada1cfdce52ae8b8a930f129d2a9b673e194398b123ac34063b0c1851faed0b5aef2b95d7b0f6113f8aa8d2cbd588f0c
+Section: 插件
+Description: CocoaTop简易汉化，多巴胺专用。
+Name: CocoaTop 汉化
+Author: A
+Icon: https://axs66.github.io/pro/icon/cocoatop.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cocoatop/js.json
+
+Package: com.Axs.collection
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Axs
+Installed-Size: 520
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.Axs.collection_1.0_iphoneos-arm64.deb
+Size: 56872
+MD5sum: 034e6fc8ac432fd87db0661746400c8d
+SHA1: 256dbc729d471c32447688dfdd4c866878248f7a
+SHA256: 11f7399070257341641e8da6382ebf8f047e6e4ab61350e00c26d402d085ebde
+SHA512: 4ad96777fad6bfe8f79e8747c04351107daea794116f30f2609cd0e59ada78ea6ea52f8f2e88e1d2dac4091851a2d794f08843b4facc012a4b21480e2db9787c
+Section: 插件
+Description: 全局日月开关，控制中心中的（音量和亮度）水平滑块，键盘设置等三个功能。
+Name: Collection
+Author: A
+Icon: https://axs66.github.io/pro/icon/collection.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/collection/js.json
+
+Package: com.Axs.compatibility
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Maintainer: Hide2Less
+Depends: firmware (>= 15.0)
+Filename: debs/com.Axs.compatibility_0.1.0_iphoneos-arm64.deb
+Size: 17132
+MD5sum: 533a0ff4a1dcbffd187ea3b47ce82a9b
+SHA1: a974d6568dffb9d7f05f844664b4d4d14eca53eb
+SHA256: 1f00d1702ee8586ab6a8e1fb82b89a3795d779b98676d98471fa7a7faaa510df
+SHA512: ccc10a12d85c1ede975eedb562ff132541eb759c74ed24baab015030389d8fcd2c689d915ca6d3b831305b8304df9dfc4e566d55df479d4749ce806573adab79
+Section: 插件
+Description: 依赖插件，自动关联
+Name: Compatibility
+Author: Hide2Less
+Icon: https://axs66.github.io/pro/icon/compatibility.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/compatibility/js.json
+
+Package: com.Axs.controlcenterlayout
+Architecture: iphoneos-arm64
+Version: 2.1
+Maintainer: Axs
+Installed-Size: 620
+Depends: mobilesubstrate
+Filename: debs/com.Axs.controlcenterlayout_2.1_iphoneos-arm64.deb
+Size: 90644
+MD5sum: 2cca39d3a74f3e687f48a81c18d52103
+SHA1: 1fa947f6523a3a16e7b70ca200f1e3878c3e6654
+SHA256: 1fb1fd084c5eb1a5b0ab93feaae8388c8d35548d5ba3d6ad25cb0d25a0b77686
+SHA512: 6f365ca4a329f331886c1648cec35e5b6d06b4cd79cb4246526da5e942adc83fe40cecf1ccc79f798bbff6687572a33e8dbac97d76f8421ae6034aad99ae9efe
+Section: 插件
+Description: 用于部分自用控制中心模块2x1布局以及素材替换，半越狱不再卑微。
+Name: 控制中心模块
+Author: Simon
+Icon: https://axs66.github.io/pro/icon/controlcenterlayout.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/controlcenterlayout/js.json
+
+Package: com.Axs.copylog
+Architecture: iphoneos-arm64
+Version: 1.7.1
+Maintainer: Axs
+Installed-Size: 2240
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.0xkuj.copylogfix16
+Filename: debs/com.Axs.copylog_1.7.1_iphoneos-arm64.deb
+Size: 1036608
+MD5sum: 4066399d72ee16700848b606989b1663
+SHA1: 91fc2007b9a18a60b8bf2dcc2c0b2fa209708f02
+SHA256: 7b85cb9ceb5c4eedc4a563a8852547a2cfa94f603e319357f8687aa32ff487e1
+SHA512: d4caa318794e22e69e90b4d5e8fab067af1eff04bb2962f0ca389ff267e7c6b574b00eb082efd527d5fba3f58384b31bcf2c0a83f801fa334d36c8f686bde3da
+Section: 插件
+Description: Clipboard history manager for iOS!
+Name: CopyLog剪贴板
+Author: TomT000
+Icon: https://axs66.github.io/pro/icon/copylog.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/copylog/js.json
+
+Package: com.Axs.copyvault
+Architecture: iphoneos-arm64
+Version: 1.9.0-2
+Maintainer: SquidForce
+Installed-Size: 6220
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: debs/com.Axs.copyvault_1.9.0-2_iphoneos-arm64.deb
+Size: 1672600
+MD5sum: 541cf50aee25e6e0867792170a719b18
+SHA1: bd2e01ee9272f26a5aea5d1c25002b282811692d
+SHA256: 1dbbec7db1c0c5e2941318aef6146be23dcff82b852f2af0a9d6804db978589f
+SHA512: 02478238d84d73b7a59008f3333fef5304e4f375710638f6a9271d7431cc7a9f19a30353cc7a67c368c1cf1b3dd72ab21ea8039a9470d7d981a2d00d7401ea33
+Section: 插件
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！
+Name: CopyVault(激活码版)
+Author: SquidForce
+Icon: https://axs66.github.io/pro/icon/copyvault.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/copyvault/js.json
+
+Package: com.Axs.cozybadges
+Architecture: iphoneos-arm64
+Version: 2.1
+Maintainer: Axs
+Installed-Size: 596
+Depends: firmware (>= 13.0), mobilesubstrate, org.thebigboss.libcolorpicker (>= 1.6.7)
+Filename: debs/com.Axs.cozybadges_2.1_iphoneos-arm64.deb
+Size: 59652
+MD5sum: 5ac317fd76b11e658fb651f7e9f9920a
+SHA1: 5d59d8fa146189e4bcc45eef6844334ebb0251d6
+SHA256: 47ba59bd616abb5892e473c547411ac00737338a44d98e42672fc8b8c20f4d07
+SHA512: a1f7a1d13b4b058bf36c2237063a3457d999f633509e5a755e1d694d681cde8064672c03ed94952efabf80379c6a807de9d19857462820670defb4b3a1483086
+Section: 插件
+Description: 彩色角标通知，显示在APP下！
+Name: CozyBadges彩色通知
+Author: NoisyFlake
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/cozybadges.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.cr4shed
+Architecture: iphoneos-arm64
+Version: 4.3.2
+Maintainer: Axs
+Installed-Size: 2404
+Depends: mobilesubstrate, firmware (>= 9.0), ws.hbang.common (>= 1.11),  com.axs.libnotifications, cm90.crossoveripc
+Filename: debs/com.Axs.cr4shed_4.3.2_iphoneos-arm64.deb
+Size: 198392
+MD5sum: bd8ea6afa040ab261290546baad89f6d
+SHA1: 71d9f59dd5537524c51169dd15ca4db7c18f3921
+SHA256: dadb3671a4bda3212315d542a161e34ae7ea8aeb34a973e6a1c1d619152460c7
+SHA512: 336ab01d51cecadfa1b6e6cc2296d9aaea1537a1a889acf75445cd9a7f8c201c308951448dc7447aab3f657ce72d41740095373631bc1364e9f32d49cacf2b38
+Section: 插件
+Description: 查看崩溃日志，提交给Ai，让它告诉你问题出在哪里。安装此插件前，必须先安装Ldid插件，默认源就有，否则闪退。
+Name: Cr4shed 崩溃日志
+Author: Muirey03
+Icon: https://axs66.github.io/pro/icon/cr4shed.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cr4shed/js.json
+
+Package: com.Axs.custom-notification-sound
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: be-huge
+Installed-Size: 540
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.Axs.custom-notification-sound_1.0.0_iphoneos-arm64.deb
+Size: 59104
+MD5sum: 5e1f43637e9c1e65b39289891a44f843
+SHA1: b2c9c722247f25ff16d21efff8262b3804ca2524
+SHA256: b1f271bdcfe538ed73c4b209ab6807961192cdf9dc8d0f144d918eaca5cae256
+SHA512: 0ab8d0f13f4348c4c8bc398113e609a4b0fd0d9806aeb3dc12abed4905552b5f47043a51267d94df4f882ecca88efe1a5513751357848265718c54d3d87c11cd
+Section: 插件
+Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）。使用方式：在对话框中，长按对方头像即可。
+Name: 微信联系人通知声音自定义
+Author: be-huge
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/custom-notification-sound/js.json
+
+Package: com.Axs.daynightswitch
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: Axs
+Installed-Size: 584
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.Axs.daynightswitch_1.2_iphoneos-arm64.deb
+Size: 69156
+MD5sum: 75497760f4178a3a871f92f2239ba535
+SHA1: 59ffd1dfc312f1c68a23c2e20c81e82e59ae5329
+SHA256: b944d8110f48adccdad6cad5af658bb9034f921c5b73e8823ad5456f0784be3c
+SHA512: 9318646bde0a2334ce3f487c1cc647214a8630803d45a32c1af74f7e9ab78d37d2f684af06c7e1a5a7306c631d7d9f86d0f6839b8a56d1e75eac938d1bd05b79
+Section: 插件
+Description: Add some style to your switches
+Name: DayNightSwitch日月开关
+Depiction: https://axs66.github.io/pro
+Author: Finn Gaida
+Icon: https://axs66.github.io/pro/icon/daynightswitch.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/daynightswitch/js.json
+
+Package: com.Axs.denyphotoalbums
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Filename: debs/com.Axs.denyphotoalbums_1.2.1_iphoneos-arm64.deb
+Size: 72828
+MD5sum: afc8bb4fba9f05770ec1d9ff8eae7bb6
+SHA1: 9b2cd0f17e0eaba541d4a12cf1b5bee2e1f3c6b6
+SHA256: 194f330dfacbc646bace05a301ad5ac742a4389e7a990cb5e813773e6eff0f2e
+SHA512: a3be8cddaf5740acbdfe4a1dd7dc240d78685032642bee169334b5a63faebee76ef95957e2b314f20165a1465a9ed5f4f55cff29bd397bed7f7021f74ba76dcd
+Section: 插件
+Description: 系统照片增强，隐藏多个自定义选项
+Name: DenyPhotoAlbums相册增强
+Author: CydiaGeek <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/denyphotoalbums.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/denyphotoalbums/js.json
+
+Package: com.Axs.designer
+Architecture: iphoneos-arm64
+Version: 1.5.5
+Maintainer: Axs
+Installed-Size: 20612
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.designer_1.5.5_iphoneos-arm64.deb
+Size: 5797500
+MD5sum: ee1e94cdac93e3ef3c909ef3fa640828
+SHA1: 570728627d35fe142d0f78af321127f8f612c8a7
+SHA256: 1305be6563b953511ba4ef4f52e6130306f7e7fb1f5552aea19f4ff47be2412a
+SHA512: 00cbbb67970e7ffd511e90ac409c9f3f71d147d2d187bdaf45fcdc47f9566157b2af1185c982b0c3d66bea8de0ae2d71157ab435ff4ef84807c734d63d52dc03
+Section: 插件
+Description: Design layouts for lockscreen and homescreen
+Depiction: https://t.me/wxfx8
+Name: Designer 锁屏美化
+Author: JunesiPhone
+Icon: https://axs66.github.io/pro/icon/designer.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/designer/js.json
+
 Package: com.Axs.floating-view
 Architecture: iphoneos-arm64
 Version: 1.6.0-6
