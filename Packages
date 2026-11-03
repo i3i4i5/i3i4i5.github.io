@@ -18812,6 +18812,134 @@ Name: 冰蓝控制中心2.3.6-end（免授权）
 Author: binglan
 Icon: https://i.imgs.ovh/2026/06/10/dfb8c206be141bb3c7d070b29d0d9d56.jpg
 
+Package: com.binglanqjsy.deb
+Architecture: iphoneos-arm64
+Version: 3.0.0
+Maintainer: 冰蓝
+Installed-Size: 908
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Filename: debs/com.binglanqjsy.deb_3.0.0_iphoneos-arm64.deb
+Size: 164700
+MD5sum: 7b8c58cb8a72be2619d24206150ec195
+SHA1: 906f4452fecc7b97c088a4dab5badde54635ae75
+SHA256: c57f554ec6d687d2214fc9b39d52a20aa7be8d9ae2adc58c2f2be6645f6e16ce
+SHA512: c74236393ef3602b1d6b5f32e59007b5140eae3304a61d3d18c2d358c951d8dd5e8fd0c52258796750cf5e6bada229dc207b0605e595e2211dc058667c6b207c
+Section: 插件
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏。
+Name: 冰蓝全局水印套壳（免授权）
+Author: 冰蓝
+
+Package: com.bolilita.free
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Maintainer: personal
+Depends: firmware (>= 14.0), mobilesubstrate | org.coolstar.libhooker | ellekit
+Filename: debs/com.bolilita.free_2.0.3_iphoneos-arm64.deb
+Size: 1316724
+MD5sum: e5bcd8b2cd7153c4d411830af5c6af91
+SHA1: 2be47b4876264b709c991b891d6e225afbda6eb1
+SHA256: bf92c950379c32a5b7589210b6f187173efcfd37473a59e724974eb0a05d3880
+SHA512: 3604ee723dcf4d6d986edecbba2a3a5a4ca480da901f20baeecd41bbf2ea2aa009975b4d7713d8212f1a3c27ab54a6031b66ced35c2b37a8ad79264101fe08de
+Section: 插件
+Description: 微信液态玻璃（免授权）。内置 ECDSA 公钥离线授权校验，无联网端点，仅自用。
+Name: 玻璃液态（免授权）
+Author: personal
+
+Package: com.bvm.wuzeililiang
+Architecture: iphoneos-arm64e
+Version: 1.0.1-1
+Maintainer: BVN
+Installed-Size: 328
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.bvm.wuzeililiang_1.0.1-1_iphoneos-arm64e.deb
+Size: 38092
+MD5sum: edbdb03513b16f3880b7acd7cd0554d9
+SHA1: c5f46ce1816793ee2fc7ca995cb98b92e6e61289
+SHA256: 8026c0829fe9c7b5febe958a962814756ff9bd35ac0c2ff6b706e8e210400960
+SHA512: 8cb70fe06c81d38fef4e4720ea7b23ea89e3d61df62086d2315910d97e3dc4caff785ad454f237665487286a1a838299b8bfcb0e8252932b112541969568b90b
+Section: 插件
+Description: 乌贼三件套通杀插件，内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
+Name: 乌贼本地离线授权
+Author: BVN
+icon: https://huayuarc.github.io/icon/wuzeililiang.jpg
+
+Package: com.bvn.copyvault.rl
+Architecture: iphoneos-arm64e
+Version: 1.9.0k
+Maintainer: SquidForce, Backup
+Installed-Size: 6220
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.bvn.squidforcecrack.rl
+Conflicts: com.squidforce.copyvault
+Filename: debs/com.bvn.copyvault.rl_1.9.0k_iphoneos-arm64e.deb
+Size: 1640920
+MD5sum: 3557e6933f0a85ff3d11e2e1b58f8ed2
+SHA1: fdad90089ef2051c66aa62cfa3df5fcf8548400b
+SHA256: dad91deed84e180c33100abf5b4a74c193e2708e0bf1b0bbe72a94bbf8d078f2
+SHA512: aabad1e88b468b174941778f265609dada9ba740a677eea773bc329d4dc2062aad632b0f1d0fcfe37dc80926d910a4f2cccce29232d03e066a2e91cddc4bb584
+Section: 插件
+Description: 乌贼剪贴板
+ 先下载这个版本本地激活一下授权，授权激活成功卸载这个版本和依赖，再去源里下载 CopyVault（激活码版），即可免费使用正版乌贼剪贴板。
+Name: CopyVault（免授权）
+Author: SquidForce, Backup
+icon: https://huayuarc.github.io/icon/CopyVault@2x.png
+
+Package: com.bvn.squidforcecrack.rl
+Architecture: iphoneos-arm64e
+Version: 1.0.1-1
+Maintainer: BVN
+Installed-Size: 328
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.bvn.squidforcecrack.rl_1.0.1-1_iphoneos-arm64e.deb
+Size: 36936
+MD5sum: 3a817babf0231da296be4d9ae76b6573
+SHA1: 553d01b3a65b53821b9088d9bf197f7445565d82
+SHA256: 6a410d9869316a2b141e5dff9d656f71f60cb221e14762bf53c1627e714c390b
+SHA512: ed0c976d4ccf2e8403ca5a69381c1592a48700e9bcc06ee7c601130d00a3b98b412de540876ee05b5741a9207a3a0efde8987f98b25a918bdf68329f2c588acf
+Section: 插件
+Description: 乌贼系列VIP解锁无弹窗（CopyVault（免授权）依赖包）
+Name: SquidForce VIP
+Author: BVN
+icon: https://huayuarc.github.io/icon/squidforcecrack.jpg
+
+Package: com.callassist.caiphoneduostatus
+Architecture: iphoneos-arm64e
+Version: 1.5.10
+Maintainer: 热心网友CallAssist
+Installed-Size: 204
+Depends: firmware (>= 16.0)
+Conflicts: com.xybp888.caanimatedstatus
+Replaces: com.xybp888.caanimatedstatus
+Filename: debs/com.callassist.caiphoneduostatus_1.5.10_iphoneos-arm64e.deb
+Size: 18876
+MD5sum: f74550c327bbf48da1525176d8e32e31
+SHA1: 8f2e7291e0abbe5772604f9f9f736139b11b9c03
+SHA256: 0ecc1cdcb4a569f539356f6006449eded72310e887ffac36cd1e229b5f068306
+SHA512: a4d22ce6b0734dd09de9b6156867f0d631de54c93987bf8ab096ce571fb8df2823ec7de84f95f9ba1833cae9bf906370165a7b7742dc2a4ae5a66617e31bc65f
+Section: 插件
+Description: 本插件仅为体验版,不得用于商业收费,插件本身也不会收取任何费用,如遇收费,请立即拒绝,本插件发布后不会再进行更新,所以不用提要求和bug报告,如果不满意请自行卸载,信号,WIFI,数据,电量均为安装设备的真实交互
+Name: CAiPhoneDuoStatus
+Author: 热心网友CallAssist
+
+Package: com.callassist.duostatusguard
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Maintainer: CallAssist
+Installed-Size: 168
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 16.0), ellekit
+Filename: debs/com.callassist.duostatusguard_1.0.0_iphoneos-arm64e.deb
+Size: 960
+MD5sum: 4fad40aee9f874fec9855913c97fdbf2
+SHA1: 6677db08bdaa57ba6acb5118ced3d7c21f1ed4e6
+SHA256: 7587e964e25eeb6ab5167dc9a141199c87d56c0d739223ab568f5fe525cbe476
+SHA512: 51f69c05a81046570f2936735ef65ab267b825e0cf726a3e23a082e1d8ab4c785b07dcdc7cef0dd2d57fe69769c563d13aec461ac73595144b0308e3fa2e1d43
+Section: 插件
+Description: DuoStatus 启动保护器：拦截 SpringBoard 启动早期的 setBatteryMonitoringEnabled: 调用，解决 iOS 17 上 respring 安全模式（EXC_BREAKPOINT）。需与 DuoStatus 同时安装。
+author: CallAssist
+name: DuoStatusGuard
+
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm64
 Version: 0.3-5
