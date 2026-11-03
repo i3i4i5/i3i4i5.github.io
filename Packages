@@ -4278,25 +4278,6 @@ Author: Afnan Ahmad & SINI
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: byg.iosios.net.chromatic.rootless
-Architecture: iphoneos-arm64
-Version: 3.0
-Maintainer: 搬运工
-Pre-Depends: firmware (>= 13.0), dpkg, uikittools
-Conflicts: wiki.qaq.chromatic
-Filename: debs/byg.iosios.net.chromatic.rootless_3.0_iphoneos-arm64.deb
-Size: 4507842
-MD5sum: 5a7be1699aaa42c83c52646e71ef27e2
-SHA1: ad2e6e6f2340f054b906e790a0a56d1c119e1794
-SHA256: 6cf1da2b8f101f7c2e9d160d2b8aeb4018921b364b87c175443d0dd8fa534f46
-SHA512: b8876e376849ab0a9497453c59b6c288c11e56bb2bf11dc230b34545e4e673837c6e859c166f759f61e3b67e5578af7549013e2564b201a8bbc0fb1a02b10c70
-Section: 插件
-Description: Modern. Fast. Beautiful.一款类似于sileo的越狱插件商店，但是更现代化，本版本是多巴胺使用，只显示无根插件，值得使用！喜欢的小伙们多多支持搬运工源，继续努力为大家更新免费好用的插件！
-Name: Saily越狱商店-Rootless
-Author: Saily Team
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
 Package: byg.iosios.net.circleapps15
 Architecture: iphoneos-arm64
 Version: 1.0.2
@@ -22890,22 +22871,99 @@ SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.nx.stheno.json
 
 Package: com.opa334.altlist
 Architecture: iphoneos-arm64
-Version: 1.0.9
-Maintainer: 搬运工
-Installed-Size: 256
-Depends: firmware (>= 7.0)
-Filename: debs/com.opa334.altlist_1.0.9_iphoneos-arm64.deb
-Size: 46022
-MD5sum: 42df45a32ea8ce8e2333e277bb4abbef
-SHA1: 9f18a4fe6829f1c4ef92a65e189544530c821e8c
-SHA256: 0e0d259c2246c1b9de03fcff525dbcc048e8e52e0cab4bc21961323259c1ae5d
-SHA512: 85e058722547f10616093d141ae1733a54ad91b41805960fb24476f4b367691b640778273248a0259b8d8be26e8deeb21ad39ba7ea9a4b894ca9a84682647a71
+Version: 1.0.11
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>=7.0)
+Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm64.deb
+Size: 26884
+MD5sum: 1874e0da98f00417adab6dee7134f77c
+SHA1: 78b40438355e042de1ef082fcd9add718f7e1ec4
+SHA256: 5835a6b0eacd5d99d272b3f74a744b28b1c4c16ada03aade36d0a636bca5e1f0
+SHA512: e33f68a951d6c3b966c8d8b3a03774802613b6b7dba35f01415e2fcbe55f3c8c4e98f285c5fd1b35ba56a0138d651e98ba3bde26c847e6148cfc4502740c681a
 Section: 插件
-Description: A modern AppList alternative必备的插件依赖，考虑到xina2.0大多用户缺这个依赖特上架搬运工源，供用户使用，已降低版本号！就算被人喷劫持依赖，我也愿意承受这舆论，只为狱友提供方便！
+Description: A modern AppList alternative
+Tag: role::developer
 Name: AltList
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Author: opa334
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.opa334.cccleaner
+Architecture: iphoneos-arm
+Version: 1.1
+Maintainer: opa334
+Installed-Size: 0
+Depends: firmware (>=11.0)
+Filename: debs/com.opa334.cccleaner_1.1_iphoneos-arm.deb
+Size: 11610
+MD5sum: 57685ba2c1c468a781fa9c99a667fe0c
+SHA1: 06cf701f7e0540affe45431446f9a26c84da4958
+SHA256: 0c1da0d923102f831f6b849599b8babeebbaefee37f1a59e14289a57a0918042
+SHA512: 5b1ed0dd9579986b61c9e4a1b1b0ca794dd52d26840fa3bb1ec0213daf5759a5c57fdd03e198c636eacdcedd10a593fbb9acba76cde1a613d4eb085cae512e8a
+Homepage: https://opa334.github.io/
+Section: 插件
+Description: Cleans up modified CC system files!
+Name: CCCleaner
+Depiction: https://opa334.github.io/depic/CCCleaner/index.html
+Author: opa334
+
+Package: com.opa334.ccsupport
+Architecture: iphoneos-arm
+Version: 1.3.13-2
+Maintainer: opa334
+Installed-Size: 496
+Provides: com.ioscreatix.silo
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Filename: debs/com.opa334.ccsupport_1.3.13-2_iphoneos-arm.deb
+Size: 64204
+MD5sum: fb8f8641a2508106e155a2fa701d9099
+SHA1: a5229c5da464d2b2f9ff334748801f4194ac6a2e
+SHA256: 60de418d12dbf2384ce045c3f029fb6aa87c53da16c63860ab17d117b7b0473c
+SHA512: c904b6d92c4918c9e9e24bae6a232f1d751153c99771ecff55ed57e01fac57f5a9862a2cc79d9df0725a95cbc7e7aa362522e3e9ffdffe8423e4ccdcfb30f682
+Section: 插件
+Description: Support tweak for CC modules!
+Name: CCSupport
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
+Package: com.opa334.choicy
+Architecture: iphoneos-arm64
+Version: 1.5.4-2
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 1120
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: debs/com.opa334.choicy_1.5.4-2_iphoneos-arm64.deb
+Size: 161680
+MD5sum: 059def2744278086705f489efe8e1430
+SHA1: 25ef80a1d5f5a44af56ec42ad2160d4db1e343cb
+SHA256: 697db463d12244b70a7f399cc049f3e4faec9b4dd4949464983eedb188db5af2
+SHA512: 2b8fa6c28d674ec9b981169fe62bc90089253b548e3052193dabb8f98d7d3bcfd25a06aa52011e316d0f3cbfd2e9290c9ba8a5ae3cccb809cbe96667a60c23ab
+Section: 插件
+Description: Advanced Tweak Configuration!
+Name: Choicy
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Author: opa334 <opa334@protonmail.com>
+
+Package: com.opa334.choicyloader
+Architecture: iphoneos-arm
+Version: 1.2.3
+Maintainer: opa334
+Installed-Size: 228
+Depends: com.opa334.choicy
+Conflicts: science.xnu.substitute, com.ex.substitute, org.coolstar.tweakinject, org.coolstar.libhooker
+Filename: debs/com.opa334.choicyloader_1.2.3_iphoneos-arm.deb
+Size: 21280
+MD5sum: 6a144b3c43b6bc963d874cdff7da4ce4
+SHA1: 81028e8c897b5ae6b3ba571c22a7836cffa4c05b
+SHA256: 21da3b2e3d586de1da895ab09de1a594f1dc1ab137d8ebc2a8c4460f55266a5d
+SHA512: dba9e7abcdacf07911c5b56bc6196d96db413a9004aef9d3a28ac01cc23c77a0249b00c3f2dd971f19b984d74ca373280be5740e3446c056f3dc4354e00fdbd7
+Section: 插件
+Description: Hacky workaround to always load Choicy first
+Name: ChoicyLoader
+Depiction: https://opa334.github.io/depic/ChoicyLoader/index.html
+Author: opa334
 
 Package: com.opa334.dopamine.trollstore
 Architecture: iphoneos-arm64
@@ -24662,6 +24720,27 @@ Author: IP Man
 Icon: https://TrollStoreX.Github.io/sileodepiction/Telegram/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Telegram/js2.json
 
+Package: com.teleports.location
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: Super TrollStore
+Depends: mobilesubstrate
+Conflicts: xyz.cypwn.teleport
+Filename: debs/com.teleports.location_1.1_iphoneos-arm64.deb
+Size: 7382240
+MD5sum: 5fa93c667de0694be50e551719c1935b
+SHA1: bb7b835ea56edd6a124dc167d98ace40c110aa29
+SHA256: 89e7d45363e37b71ee6233f32e552eeb15196d68bc4925b0197f1c85f40e596d
+SHA512: f8b50fa89d86319c6ea8d39aa044f29f58d570a70fb0f53e0a576be31fd7c30b14ec70f9fb4c78c4a496aecec9314c4e9ce1f4d3fe054a55a7873a57b4dc0db8
+Section: 插件
+Description: 免费虚拟定位
+ * Spoof GPS location
+ * 支持 Bootstrap
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Teleport/js.json
+Name: Teleport 虚拟定位
+Author: SGWC
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/teleport.png
+
 Package: com.tencent.live4iphone
 Architecture: iphoneos-arm64
 Version: 1.0.0-1
@@ -25208,28 +25287,6 @@ Description: 录屏时自动开启勿扰模式，防止一切通知打扰录屏�
 Name: DNDMyRecording
 Author: gilshahar7, 0xkuj
 Icon: https://s1.imagehub.cc/images/2025/01/02/8ec09e4613791a26f568aed1a81478ef.png
-
-Package: com.wkk.installedpackages
-Architecture: iphoneos-arm64
-Version: 1.0-1
-Priority: optional
-Maintainer: wkk
-Installed-Size: 912
-Depends: firmware (>= 15.0)
-Filename: debs/com.wkk.installedpackages_1.0-1_iphoneos-arm64.deb
-Size: 431928
-MD5sum: a8375463f23edef27aa6989f592d963b
-SHA1: ba9bd4e2cbc28aad8ab40cf9d7934c84f947d9d7
-SHA256: 9a90461dfa409e3e4b815bb0522799497c984d33be46c68cec8086f3b38dc4f2
-SHA512: 769472f31ba3564e7756f158b8f0b59e86872a12a5c35e67773ff0aaa47b626987a268bf8b1537415345eeebb78b7f4bd51fb5d9d2fb36653f753d15b6a04e2f
-Homepage: https://github.com/roothide/Sileo-roothide
-Section: 插件
-Description: 是否受够了进入Sileo时卸载已安装插件慢如蜗牛般的速度？这是一款独立的越狱插件包管理器，用于快速查看和卸载本机已安装的插件包。
- 安装后会在桌面显示应用图标。
-Tag: purpose::application, compatible_min::ios15
-Name: InstalledPackages（wkk）
-Author: wkk
-Icon: file:///Applications/InstalledPackages.app/icon_large.png
 
 Package: com.wkk.keyboardx
 Architecture: iphoneos-arm64
@@ -27910,7 +27967,7 @@ SHA1: b7f3dc2984bd3ff68302bf82d955288997363a33
 SHA256: ffb9cd236b6aca7020a791fbc4efd40f9d7ead179d25db67711368e07094a67f
 SHA512: e1c9491a206b729be22a0303f656d371e1d802687d023472fd00ea6b5be022e5c877ecd0c44c3d4d6a4162542021fcfadca0ff752fd4ae672015381f4aa09788
 Section: 插件
-Description: A modern APT package manager frontend
+Description: 隐根专用sileo商店修改版，无需额外跳转转换，直接安装无根插件，内置自动转换，设置里打开 兼容模式更新即可，插件操作按钮增加多项功能
 Name: sileo修改版隐根直接安装无根插件
 Author: Amy While <me@anamy.gay>
 Icon: https://getsileo.app/img/icon.png
