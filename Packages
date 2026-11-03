@@ -21320,6 +21320,337 @@ Name: SwipeExtenderX
 Icon: https://axs66.github.io/pro/sileodepiction/SwipeExtenderX/icon.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/SwipeExtenderX/js.json
 
+Package: com.Axs.swipeextenderx
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.swipeextenderx_0.0.2_iphoneos-arm64.deb
+Size: 10356
+MD5sum: 2750fba7091cf55149b90c2f2c45edab
+SHA1: 6c7ec93daab5b7f1c5ebb5de8378e4f5d9b50d3e
+SHA256: 903324fb83387b6e1b5ff65dbf568572843b0d2d46322a97c6e2598d6b7e7e32
+SHA512: c5a06cfc0d61723510383e89b38989f569c779d89ff91c25e28380519ab74c116e0b08ad2447696a9b92e3aaf35ef5e9861e6162f2b6bc8d745ca5d007151761
+Section: 插件
+Description: 对插件设置进行汉化，方便你我他。
+Name: SwipeExtenderX汉化
+Author: A
+Icon: https://axs66.github.io/pro/icon/swipeextender.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/SwipeExtenderX/js.json
+
+Package: com.Axs.switchtheme3
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: baiy
+Installed-Size: 5520
+Depends: mobilesubstrate
+Filename: debs/com.Axs.switchtheme3_1.0.0_iphoneos-arm64.deb
+Size: 47316
+MD5sum: a308a8d01ee7671aee4e470749e2048c
+SHA1: 1b5eedc89451321aa56446ea9e4cbc8090976889
+SHA256: b8e4890773d9280abd683cb0209fa724f2f9db56a7d35540514f4b0b235fbc65
+SHA512: a1179835a8344129f5fe3e94aaad67df745f44d2de20bdd772f5c97c1f28149fe8398f22df474dabe411f7cc1eb39e2bb6289119447754bd5a17a8a226677ccc
+Section: 插件
+Description: 这是一款全新的Line-iOS动态开关，搭配Line微信主题绝配，丝滑的动画体验，极致的简约。
+Name: SwitchTheme-Line开关
+Author: 白衣
+Icon: https://axs66.github.io/pro/icon/switchtheme3.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchtheme/js.json
+
+Package: com.Axs.switchtheme4
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Axs
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: debs/com.Axs.switchtheme4_1.0.0_iphoneos-arm64.deb
+Size: 50100
+MD5sum: 96bc7f5abcb4d56cc9de5871652216c7
+SHA1: 140dd47ee404d5d9841af8d355d1b27b979ebd05
+SHA256: bea10bb32e9da0c856ef6c18df96b045923839fdfcc0c4008f0c24415c4f57e7
+SHA512: a6225fad7d84cc630deb4b9c346f1bacb243c133d7e87ebb8bd67b43151d553361a5cbf0a5ce09e980c65605e41852fa094639ae0e1281b531ea9c41a0f2fe51
+Section: 插件
+Description: 开关美化插件。
+Name: 皮卡丘开关
+Author: 白衣
+Icon: https://axs66.github.io/pro/icon/switchtheme4.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchtheme/js.json
+
+Package: com.Axs.switchtheme
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: baiy（qq：961666883））
+Installed-Size: 272
+Depends: mobilesubstrate
+Filename: debs/com.Axs.switchtheme_1.0.0_iphoneos-arm64.deb
+Size: 37428
+MD5sum: 7aec350c0aff54599b25f120fb4bbf1e
+SHA1: d172755b67d9eed851e17a391882963ee0e81461
+SHA256: f9a1677237f69940112ecbfb7ea54434e0c6d6d8915e665b5452488b810db1a8
+SHA512: 63f74799fbf9c8d161f75aa132315051d11da10ff12902c037e28f4bd896211572f243afe955298bc3824f6a10cd6d2ba18ce5668bcf139835a4500bd16c0db6
+Section: 插件
+Description: 这是一款款全新的开关主题，通过模拟太阳升起与落下的动画效果，带来极致流畅且视觉惊艳的替代体验。
+Name: 日月开关
+Author: 白衣
+Icon: https://axs66.github.io/pro/icon/switchtheme.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchtheme/js.json
+
+Package: com.Axs.tapticboard
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate,firmware (>= 13.0)
+Filename: debs/com.Axs.tapticboard_1.2_iphoneos-arm64.deb
+Size: 23528
+MD5sum: c5efb0ba09165c3c4c2a4a0cb02b1704
+SHA1: e7181a0f7fab72c64842357beb84ad95b1f7dcce
+SHA256: 5394220cbd163facc0285bad66e855cb909398c2cdc7f1e615d48b9f59577ac7
+SHA512: ada71dc120d15f9f04a7cc982e7fc24059c5f34939873a6e3a9bba62261b07e66a178f0696cc4fb4465645a03073dbb53fc39e36c01394e3da242bd450d3d7b6
+Section: 插件
+Description: Taptic keyboard without any lag!原生键盘添加震动反馈。
+Name: TapticBoard键盘震动
+Author: P2KDev <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/tapticboard.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.textyle3
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: Axs
+Installed-Size: 588
+Depends: mobilesubstrate, firmware (>=15.0), com.opa334.altlist
+Filename: debs/com.Axs.textyle3_1.0.1_iphoneos-arm64.deb
+Size: 90220
+MD5sum: 3a527d6c4e7622ac6790160494720ef9
+SHA1: 7f850c35e4352784df65301918f1051e61758e54
+SHA256: 4acf2e70b0fb51eac7a8d89ffafe935edbed36f3283e3353962dec9660ddd0d0
+SHA512: 21fb054b75d5547bf78d33df7c8f97d20cf5bfccb02d919dc0be70ea5f1fb68bf3f634dc457bb1154916b32f28f9c81028a366de5aa7338d92bac21d85986070
+Section: 插件
+Description: 快速设计任何文本
+Depiction: https://axs66.github.io/pro
+Name: Textyle 3
+Author: Ryan Nair
+Icon: https://axs66.github.io/pro/icon/textyle3.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/textyle3/js.json
+
+Package: com.Axs.tgextra
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: Axs
+Installed-Size: 4532
+Filename: debs/com.Axs.tgextra_1.2_iphoneos-arm64.deb
+Size: 1060892
+MD5sum: 797dde65f4f8949b77482ffae13e6672
+SHA1: c7f1ac1907a7a405500358ca8a098bfd3d5963f0
+SHA256: 21a9aaedb446cc411cb019d1cbf9755bded6f10938b89ca83353442d42160c9f
+SHA512: 2b09f8d236be7cca7a5b89bdfa5409c1d7aa84e7dc5e13d6129e8187d05d564f70b3cc59086e8c5d1a574ece0afc2c751b5d572973aa73bb130b490579f21277
+Section: 插件
+Description:
+ Telegram 增强插件
+   * 去除广告
+   * 隐藏一些输入状态
+   * 允许保存频道限制下载的文件
+   * 仅在Telegram 11.9.0版本测试。
+   * 打开设置，然后长按「我有疑問」或者「Ask a Question」
+Name: Telegram增强
+Author: choco
+Icon: https://axs66.github.io/pro/icon/Telegram.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/tgextras/js.json
+
+Package: com.Axs.themelab
+Architecture: iphoneos-arm64
+Version: 1.7.0-2
+Maintainer: duo
+Installed-Size: 6868
+Depends: mobilesubstrate
+Filename: debs/com.Axs.themelab_1.7.0-2_iphoneos-arm64.deb
+Size: 1682324
+MD5sum: c3bc1aa56b6a04b36e6896bd515419ca
+SHA1: e95aa0d4f6f28ea79097cb7573562337d6194dfa
+SHA256: 102553067b1cef4cdb8ae21772d21dd6ad506ab170ffb2c91ee54233a7913985
+SHA512: 464109096f5ea9c99c02a18076414eafddd25e044757b36577c344cbd2cdab57d5a38ce11b55ad78fcc547919702ea476350b35f8caa2923abbf2b4d32fc342c
+Section: 插件
+Description: 微信主题美化插件 - ThemeLab
+Name: ThemeLab
+Author: duo
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/themelab/js.json
+
+Package: com.Axs.thermalpatcher
+Architecture: iphoneos-arm64
+Version: 0.0.3-1
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.Axs.thermalpatcher_0.0.3-1_iphoneos-arm64.deb
+Size: 6296
+MD5sum: 6b026d01ed649d75a13520fe703ff051
+SHA1: defa4b9af4bf4da3110bbae187a6578f5b1f4a70
+SHA256: 7a43bd99f7c6b732bd150488227945c018c753d42b793ad910a960ff21c6bb3c
+SHA512: 1f4df6114465044632bc91c87a9da39ab776233d8f8102629781cb4aaef6b2145af209bcb807d3157164972a1b370d9e43c6d392db4a8311e39c44589ceef245
+Section: 插件
+Description: 温控
+Name: ThermalPatcher温控
+Author: A
+Depiction: https://axs66.github.io/pro
+Icon: https://axs66.github.io/pro/icon/thermalpatcher.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/thermalpatcher/js.json
+
+Package: com.Axs.time
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: Axs
+Installed-Size: 123
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.time_2.0_iphoneos-arm64.deb
+Size: 39356
+MD5sum: a9c20fcdb689942061e80d52f54db81a
+SHA1: 49112d639978f25480df91d1eeba83c87131ee11
+SHA256: 641b0490cded9c587e37e12342ce37752a0096605c335c4026f5014f33f4964d
+SHA512: 3ef4a7268064004b92fcad0095d6d809d208ee2440413c6c5bbeea14fc5aa6cb2874a7c394b907daa43dbdd32f1c6350db20d8e00f7504d981605e7e2749a5df
+Section: 插件
+Description: QQ净化复活设置。微信净化，抖音净化解除时间限制。仅限越狱使用！
+Author: gblw
+Name: 净化复活（微Q音）
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/time/js.json
+
+Package: com.Axs.togglow
+Architecture: iphoneos-arm64
+Version: 1.0.8
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker,oldabi
+Filename: debs/com.Axs.togglow_1.0.8_iphoneos-arm64.deb
+Size: 184776
+MD5sum: ccb1b77bc6416a748ae8e60609e02121
+SHA1: 41c637bede5d85ce1910c84335918c9885ead2a4
+SHA256: 4ffbaeff9879f14367144f91db5545f3f95299e0c7079b09d660037a6b747a02
+SHA512: d43cfb04844829a2613f1a376e7e69abc0c84547ba90041f4aac9b2a9a3cc0aa629be055be9c2346fe2b690e17c57b3ffe18ad4d80071faeb6670e01f72f4fcd
+Section: 插件
+Description: Make the control center your own !控制中心美化，发光
+Name: Togglow 控制中心发光
+Author: smokin1337 <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/togglow.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/togglow/js.json
+
+Package: com.Axs.touchvis
+Architecture: iphoneos-arm64
+Version: 2.8-1
+Maintainer: Axs
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.touchvis_2.8-1_iphoneos-arm64.deb
+Size: 708640
+MD5sum: 3f9da7789cfc6c543d7ac5593fb87b0e
+SHA1: d05940b05cbba364efd5a2e54877550b8ab7e6a6
+SHA256: e144835f3588f6e758d377b4bc2892f7e7b50c5223473f63af0c8504863d2b74
+SHA512: eb661da86e12138e1526b817d044c97a2a9e776c403cfba5f9a9c3e72aa0183e716feb7c49d47c4191b2491441c1bbb63f68e8d217d27a782e273d58b73f9ed6
+Section: 插件
+Description: Displays your touch interactions! 显示触摸屏幕的轨迹；很酷炫，很丝滑的一个插件，并附带拖尾效果。主要作用:做教程时候让别人知道你点的哪里。
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/touchvis/js.json
+Icon: https://axs66.github.io/pro/icon/TVZ.png
+Name: Touch-Viz触摸轨迹
+Author: Lessica
+
+Package: com.Axs.touxiang
+Architecture: iphoneos-arm64
+Version: 1.0+debug
+Maintainer: touxiang
+Installed-Size: 368
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.touxiang_1.0_debug_iphoneos-arm64.deb
+Size: 42832
+MD5sum: 2d5fc139bea5790ee169344d267a2822
+SHA1: f3af6b6f2cf2bced09d66c069b68e11e66bf7524
+SHA256: cf77f8c2ad189458eb0c5d906105295c342364b4d6f7c87b5e59cd9c74a9fdac
+SHA512: 1d9df739c583760364c894b7cf3bb06094bdbff1358059de7d2a25cfe8146bfdef6f5eaf309cf989a8cca2b62500be3a61daa1841b84cc826089a3ff28fff3a6
+Section: 插件
+Description: 微信头像自定义调整，圆角，边框及颜色等
+Name: 微信头像圆角
+Author: A
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/touxiang/js.json
+
+Package: com.Axs.trolldecryptjb
+Architecture: iphoneos-arm64
+Version: 1.3.1-1
+Maintainer: Axs
+Installed-Size: 1392
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), lldb
+Filename: debs/com.Axs.trolldecryptjb_1.3.1-1_iphoneos-arm64.deb
+Size: 280552
+MD5sum: 5541ceb7585dcecdf46dbab697df5df1
+SHA1: f8784dc7501ee82e26e65f1b81322455c69d80a4
+SHA256: 7f468c4c867cd9d85412d2706eb16fdff5f8b89912b3230016bbd348873add37
+SHA512: 38cd6c0b3f5d04b5121eee5c11e2edd02825d1fb53295dcb4603a4e2bb044323aa48f80435142ea6e7895c8bbc81c6990ff9b38a08238be9f81053fe68a6c65a
+Section: 插件
+Description: Decrypt Appstore App that require higher iOS，only ios15-16
+Name: TrollDecryptJB
+Author: 34306
+Icon: https://axs66.github.io/pro/icon/trolldecryptjb.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/trolldecryptjb/js.json
+
+Package: com.Axs.trollleds
+Architecture: iphoneos-arm64
+Version: 1.8.1
+Maintainer: PoomSmart
+Installed-Size: 224
+Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), gsc.camera-flash
+Filename: debs/com.Axs.trollleds_1.8.1_iphoneos-arm64.deb
+Size: 68096
+MD5sum: e4980a296715304f0dd20458c97ceb40
+SHA1: fb4ce4d90874d1c6ffc6e77d029c65501b8d95f6
+SHA256: a72d40e3637931cd7f31fe84b3ff19259c33f4bff9f7464d8141e34d8c34cab5
+SHA512: 8e3c191b00848b0f943c22a698a0d48901764627b476723fe81e222d9d9dfeaef35dec5f9412bcbbf59a1bf7ceb54e5f58a1038fe305aff185ad7c9c7deb37b6
+Section: 插件
+Description: Control flashlight LEDs with eases.
+Name: TrollLEDs手电筒
+Author: PoomSmart
+Depiction: Axs
+Icon: https://axs66.github.io/pro/icon/trollleds.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.trollopenextension
+Architecture: iphoneos-arm64
+Version: 0.4.0-1+debug
+Maintainer: Charlie Leung
+Installed-Size: 508
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.Axs.trollopenextension_0.4.0-1_debug_iphoneos-arm64.deb
+Size: 66988
+MD5sum: c84ac69703208a8be7fa0fc5b58ec502
+SHA1: e3dddb29caa80ba1883c8018f74999d59a82b7fe
+SHA256: 7619c6d52dad5b605551487328318fa87b955593dae7ef13beb4e0712b5f501c
+SHA512: a4b25a9184e06d815d1e59c7dc315a11eea49e12956efcf016649c56e7e66a3017a3c6661b9332c3802cee999b129faad66827472b6f921ee0ef0ee66d8a1ad8
+Section: 插件
+Description: 这是TrollOpen 的越狱扩展插件，所有功能仅在 iOS 17.0 上通过测试。
+ 如果启用后遇到异常导致无法卸载，可手动修改
+ /var/jb/var/mobile/Library/Preferences/com.charlieleung.trollopenextensionprefs.plist，
+ 将 enable = NO，再注销一次即可正常卸载。
+  让小日子的Aerial分屏插件结合Trollopen软件，可以达到用arc手势呼出的效果。
+Name: TrollOpen扩展
+Author: Charlie Leung
+Icon: https://axs66.github.io/pro/icon/trollopen.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopen/js.json
+
+Package: com.Axs.trollpad
+Architecture: iphoneos-arm64
+Version: 1.3
+Maintainer: Axs
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), plistbuddy
+Filename: debs/com.Axs.trollpad_1.3_iphoneos-arm64.deb
+Size: 29404
+MD5sum: 30bda0a38cc763ba675684193014f566
+SHA1: 42f6fd2506224536228769f576427247d5b6bbcf
+SHA256: 891afeffda249f7515be753864d914701327c743d5292426d88f1e35b06cf9cd
+SHA512: 1ed35739d56cc861404027d45c6136dab5b6c4a39e0326237ab76b4d8ecb537e5551433d4a7564b0198e186f55d746694bc3cabc4f226101627b402a0f6fbc15
+Section: 插件
+Description: Troll SpringBoard into thinking it's running on iPadOS.仿iPad后台样式，iPad的dock栏，也可以分屏，插件已汉化，安装注销生效！拖动后台分屏！
+Name: TrollPad 后台窗口
+Author: khanhduytran0
+Icon: https://axs66.github.io/pro/icon/trollpad.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollpad/js.json
+
 Package: com.Axs.wcplugins.rootless
 Architecture: iphoneos-arm64
 Version: 0.1-6
