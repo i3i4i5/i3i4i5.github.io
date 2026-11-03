@@ -20816,6 +20816,510 @@ Author: MegaDev
 Icon: https://axs66.github.io/pro/icon/sentinel.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/sentinel/js.json
 
+Package: com.Axs.settingsrevamp
+Architecture: iphoneos-arm64
+Version: 3.0.1
+Maintainer: SOPPPra
+Installed-Size: 888
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, zb.preferenceloader
+Filename: debs/com.Axs.settingsrevamp_3.0.1_iphoneos-arm64.deb
+Size: 206448
+MD5sum: 840b26e28781f67edf0985e6dfc6ab28
+SHA1: f65fc15d9ac602e9e43389ef753ac78f97426cf4
+SHA256: 45f00e4f0d709f1e5c4678deaa2e7f5bca82c977f3a9f3aa3b64296bac8bc7b4
+SHA512: b1a19a7fb5499844788216688f659ade0578a6a4400cf583935fbbaac5a7650d7c369f3c3976b1ffaab2025e2a2a9ccc3550e318739adff154ba3a72ae28d2c1
+Section: 插件
+Description: Customize the ios settings page
+Name: SettingsRevamp越狱插件收纳
+Author: SOPPPra
+Depiction: Axs
+Icon: https://axs66.github.io/pro/icon/SettingsRevamp.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/settingsrevamp/js.json
+
+Package: com.Axs.settingswidgetss
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Maintainer: shepgoba
+Installed-Size: 512
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.shepgoba.settingswidgets
+Filename: debs/com.Axs.settingswidgetss_1.2.3_iphoneos-arm64.deb
+Size: 73268
+MD5sum: c229dfc6b7bd222fb31610a0b25a81e9
+SHA1: 79b9a22169a7950fbc5cf6001fab4cce6e689319
+SHA256: 57308994f6b294222aaebd5db260b7991736682bbe580fcea713b04c8588cae9
+SHA512: ba0dd6dcee20eabccb17000b878cca96d66f971b2c524c250ba8fd485504a2de7d4ddd413f508e72f3476b1437400d90c66f441c4f2c1773af47861b3dcb38bc
+Section: 插件
+Description: 将好看的小部件带到设置首页！
+Name: SettingsWidgets设置小部件
+Author: shepgoba
+icon: https://axs66.github.io/pro/icon/settingswidgetss.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.shortlook
+Architecture: iphoneos-arm64
+Version: 1.0.24
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate, firmware (>= 16.0), co.dynastic.ios.lib.flora, oldabi
+Filename: debs/com.Axs.shortlook_1.0.24_iphoneos-arm64.deb
+Size: 1281804
+MD5sum: 27d9052488199703288f6632bdaaeb23
+SHA1: 54ab1cc0c695be5802f7ec7d79f0ce1bdf1e46d6
+SHA256: 75117213218ece95b6700de19b3bfafb8d1b48beaed68abb09b9d22f283084f3
+SHA512: 647f90e8ea87e3e493f9a7faeed800a36e0225bd1d8ffa99a55549fe33c6d47618b89e8aa8721fe11fccaf3700a909d8c7232a423a7f0e6bf641585c489c5d44
+Section: 插件
+Description: ShortLook将全屏显示您的通知。当您收到通知时，ShortLook会显示在锁定的iPhone上，它采用了漂亮的全屏设计，可以远距离阅读。注意：需要安装Legacy arm64e Support兼容层，仅支持iOS 16无根越狱的一部分App。
+Name: ShortLook 全屏通知
+Author: Dynastic <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/shortlook.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/shortlook/js.json
+
+Package: com.Axs.showmytouches
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Maintainer: dvntm & SINI
+Installed-Size: 492
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.showmytouches_1.2.1_iphoneos-arm64.deb
+Size: 82672
+MD5sum: 04f5f9e7552c3b76371cb1510237f765
+SHA1: 26ec94f25b8d44cfd127f0ee2c6d3e15ba4126ed
+SHA256: f48e673e8d20fe4825187e66f315996e6dd3f09b5a6eca217a207f889d82f893
+SHA512: 02ca2f91559dd24465287110351fd487c4b5766f5db16c432fc0dc89acd9f0e580bc4f32fb6156e62947af8f03e5e7ac68142d868602335f6e9527a313fb4b36
+Section: 插件
+Description: 触摸轨迹，基于开源代码的基础上，增加滑动轨迹效果
+Name: ShowMyTouches触摸轨迹
+Author: dvntm & SINI
+Icon: https://axs66.github.io/pro/icon/ShowMyTouches.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.singlevpn
+Architecture: iphoneos-arm64
+Version: 2.1-2
+Maintainer: 82Flex <82flex@gmail.com>
+Installed-Size: 404
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/com.Axs.singlevpn_2.1-2_iphoneos-arm64.deb
+Size: 34632
+MD5sum: 0483db2dd8b695e91d8b90b26b4b5048
+SHA1: 37e340b3d51ab4c4d4010e5b92375d2ce8c07053
+SHA256: 04edfd10214cbe5db69ad374ec05e0b3418e4e2948d06eb7b554f31ac7413fb0
+SHA512: db91d4eaf0d4e2a2bb843bf310a649155a41e650336ce92a2e7051f1e70ea8ffae8a0e8d00487268867e935e95c3f04aad23e9c2d0ae1ce271dd7d235f66cea0
+Section: 插件
+Description: Combine VPN state and wireless state into one icon.
+Name: Single VPN
+Author: 82Flex
+Icon: https://axs66.github.io/pro/icon/singlevpn.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/singlevpn/js.json
+
+Package: com.Axs.sixls
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: Skitty
+Installed-Size: 2236
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.sixls_1.1-1_iphoneos-arm64.deb
+Size: 1463696
+MD5sum: f2a0bd54d51cec01c280a9ed4d8c9625
+SHA1: c35c088fa6a0f5e13ad377e2e4ad2463ae79763d
+SHA256: 0d42515e8edc7b2e440ab969e035fbf4b3b124e196c07307d5b126902ba5b046
+SHA512: 87404771bdfec377283b4545fe76483dff3f0b7ba510aaea6e4590c5ed0a00a8f20f68d550956d13bb57c107243c430076f857273cc124f64a8d1998b18525ae
+Section: 插件
+Description: iOS 6 Style Lock Screen!
+Author: Axs
+Depiction: 将ios6的经典外观带到您的锁屏界面上，支持iOS 11到 16。目前功能：滑动解锁、通知、充电视图、声音等!
+Name: ios6经典锁屏及声音
+Sileodepiction: https://axs6.github.io/repo/sileodepiction/sixls/js.json
+Icon: https://axs6.github.io/repo/sileodepiction/sixls/sixls.png
+
+Package: com.Axs.smallbanners
+Architecture: iphoneos-arm64
+Version: 1.2-8
+Maintainer: Nets
+Installed-Size: 900
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Filename: debs/com.Axs.smallbanners_1.2-8_iphoneos-arm64.deb
+Size: 201844
+MD5sum: f41697c1a727a7152d63ea3c2ea04a2b
+SHA1: 54f7019478e1b4cab09e6860475bfe2aedc6a8dd
+SHA256: 2634d1b325a18e91a0db89daba17c6c2e6b0103e1f1059cd9efff7ddc08de9a9
+SHA512: eb739e946fa0a2b665e331e32814102827b13e66569d024101cb3b0f48bb91ec58000d0e50a8170b9c9f4df55052ed4b65f8b890c89c815534688bb7f7bb4751
+Section: 插件
+Description: Small Notification Banners. Support iOS15+
+Name: SmallBanners 小通知横幅
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/SmallBanners.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.smallboards
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: iCraze
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.icraze.smallboard
+Filename: debs/com.Axs.smallboards_1.1_iphoneos-arm64.deb
+Size: 3708
+MD5sum: 4cbc7264086cd665a5738656fa5b39df
+SHA1: 9c70d0fda99e4bd76fef0a5a4f7319420e2241eb
+SHA256: d97dd2a284633240a079b8b187b25598e403cc125b0531d1cb98587d2174152c
+SHA512: 119ff1a206dc6d7fbfd868adee6e000cf903ccd48c1e0e9f54f80d8441b0b783f3f56ac2ff10957dd055036c9e54c38aa510a90fcf44ecda169ef7ba30f64ece
+Section: 插件
+Description: 缩小键盘与底部的间隙，无设置项，安装注销生效。
+Name: SmallBoard 键盘下沉
+Author: iCraze
+Icon: https://axs66.github.io/pro/icon/SmallBoard.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/SmallBoard/js.json
+
+Package: com.Axs.snapper3
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.susudear.stayshot, com.iosdump.shellx,com.axs.snapper4
+Filename: debs/com.Axs.snapper3_1.2.1_iphoneos-arm64.deb
+Size: 1218428
+MD5sum: 0aed9cec96f858e1d5637388275fb9c3
+SHA1: 86dfb3b559cdf872199bb75b15f5d599d260434b
+SHA256: 36c1a03c70f6e9ceedee55aec8f842f1e8bbf2a9d064332b9d77b6f93c8baf7c
+SHA512: bba3f49b2e9051474981c02c5d1ca6bec21689404c3d27bff4b960ca18b2e21c5acf7180072360ecd97c537c3ce3b2177f5d51c531ba10ddaf538de43fcd74eb
+Section: 插件
+Description: 将截图钉在屏幕上，此为正版，仅做备份使用，内置透光图标。
+Name: Snapper 3
+Author: Jonathan Winger-lang
+Icon: https://axs66.github.io/pro/icon/snapper.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper/js.json
+
+Package: com.Axs.sneakycam
+Architecture: iphoneos-arm64
+Version: 2.2.5-1
+Maintainer: Axs
+Installed-Size: 1424
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.sneakycam_2.2.5-1_iphoneos-arm64.deb
+Size: 124644
+MD5sum: 491ea1ddbb2d016554a91d4980d57b91
+SHA1: 6748422c11b6bf68083c19d75659c557fa2bc370
+SHA256: 0ff58e4c426600ad8788e290d476b6790cc3ad7b9ae26861d61820ba9e36a760
+SHA512: 4d32bcd5def462669e7752dac43eadccb62fdf1b7c720372257f3d99863788e66f048dae471d3cc0c39f1d40e1efbdc3a716183ac683e06e17c9a0b690e6eec7
+Section: 插件
+Description: SneakyCam 是一款支持熄屏状态时也可以拍照或录像的插件。 使用方法∶快速按两次音量上键开始录制视频，再次按两次停止录制，快速按两次音量下键拍摄照片。控制中心可以添加模块，控制本插件总开关的启用/关闭。
+Name: SneakyCam 隐私相机
+Author: Spark
+Icon: https://axs66.github.io/pro/icon/camera.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/sneakycam/js.json
+
+Package: com.Axs.souvenir
+Architecture: iphoneos-arm64
+Version: 1.14
+Maintainer: Elio Feghali
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.souvenir_1.14_iphoneos-arm64.deb
+Size: 95924
+MD5sum: 3f3d3e62d77bd287e6d11c1116d77de6
+SHA1: f319f66b12cb74131cc9a994a49136ad53c1cf74
+SHA256: e496a8b71ea7ae80af26d34933cfb23f7651464fb45e3c84200979ed5ad7fa4e
+SHA512: d32ff666e35f7931c8523232375f13673375375aa844ed343938f2e195f7db07a9be07934ab48d5cf51a31c4a55da60e6791f3da9d3dc98954189143bf3c2a06
+Section: 插件
+Description: Lockscreen customization tweak!
+Name: Souvenir锁屏自定义
+Author: Elio Feghali
+Icon: https://axs66.github.io/pro/icon/eliofeghali.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.spectrums
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: Simon
+Installed-Size: 768
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.spectrums_2.0_iphoneos-arm64.deb
+Size: 123568
+MD5sum: 1922c9cd4f4756c037d5582b36c39c16
+SHA1: 7a1dfc2c619cd87458a40c5fcc12093851e835c4
+SHA256: 1156ac65fd0643c66432a0dde1aaf6eccdc8f73a3e509d6c859f885a65473315
+SHA512: 5c37c2d5f0cb208b37cc00ff8374e334356f72544e9933fca7771f9ea14c946a153a5405ea5a7b127784e92d6461a8015263ad289e5f976ed982d2e3ab6a61a1
+Section: 插件
+Description: 去掉音轨在17系统上面的小黑块，动感专辑圆环均衡器，17系统不再卑微！
+Name: spectrums
+Author: Simon
+Icon: https://axs66.github.io/pro/icon/spectrums.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/spectrums/js.json
+
+Package: com.Axs.split-view-pro-helper
+Architecture: iphoneos-arm64
+Version: 999.1
+Maintainer: sunshinesong
+Installed-Size: 13792
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/com.Axs.split-view-pro-helper_999.1_iphoneos-arm64.deb
+Size: 1456
+MD5sum: ec5a43e0d6a74c68a238a5121d00cc2f
+SHA1: 03ba96abfff77636ea93a6411d6ad9e463c4b560
+SHA256: de7011162f17e7aa20b81ede6878870c36ae814202824ba5c19155cbd2bac086
+SHA512: f53a3996e3a7b2b2c9c824279579b04ac2655bf9be167c0ce3fd6a0cb7dbb1834a5f7878b40df27479b0a6b51cd265ab06250f5a275488334afe005f00e59d1b
+Section: 插件
+Description: 假如Svp分屏安装出现安全模式，可以安装此依赖试试。
+Name: Svp分屏独立版 依赖
+Author: sunshinesong
+TS: sp-sss
+Icon: https://axs66.github.io/pro/icon/svp.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.split-view-pro
+Architecture: iphoneos-arm64
+Version: 1.4.1
+Maintainer: Axs
+Installed-Size: 5624
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Filename: debs/com.Axs.split-view-pro_1.4.1_iphoneos-arm64.deb
+Size: 1528096
+MD5sum: 3d6918fd8738675febd8a966c21d790e
+SHA1: 635598a2f551c9f1dd92e0f57b66493bd9340f7f
+SHA256: e830c9ba79f0fdc9e8f8d4c2c5c71806d578c2c2da87b85233651847c5c393ab
+SHA512: 570fb7598771c86dd3f3ad5c606cf41756c062a91ceb9817e7b693b95d8973a3aad479c3e03eafae6238fda5243b1a34bc58598b3e2fece0ded59e57e0c966bc
+Section: 插件
+Description: 免费的分屏插件，不必太复杂，一切从简即可。
+Author: A
+TS: sp-sss
+Name: SVP分屏独立版
+Icon: https://axs66.github.io/pro/icon/svp.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/split-view-pro/js.json
+
+Package: com.Axs.springanimations
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: Axs
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
+Filename: debs/com.Axs.springanimations_1.1.1_iphoneos-arm64.deb
+Size: 57084
+MD5sum: e181cae066c425f3027832dc7a107c65
+SHA1: 51ebacd078027a62ddb7e8d94fabd79a8373b050
+SHA256: 1aaf2b112206c4350d32705befd1e60b8157349f56e30d412590675eba1a8691
+SHA512: 39c345949ddd16fd0a77ce37fd074e8a06514d1dc17882081e43b2a0d2c76cb514667c3c58765bcb181bf574dfd7617bf560e3b57c4906719c9cee1a9486bf36
+Section: 插件
+Description: 桌面动画，原图标太丑，换了个图标以及汉化
+Name: SpringAnimations桌面动画
+Author: CydiaGeek
+Icon: https://axs66.github.io/pro/icon/springanimations.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/springanimations/js.json
+
+Package: com.Axs.squidextender
+Architecture: iphoneos-arm64
+Version: 3.7.4-2
+Maintainer: SquidForce
+Installed-Size: 9988
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/com.Axs.squidextender_3.7.4-2_iphoneos-arm64.deb
+Size: 2285372
+MD5sum: d3128885f3a8ec3827ea265b6f3c07a5
+SHA1: 1f4074b8a904c9849bf5ae185e3e8919f5861977
+SHA256: 208f9da2f9c8d1860abbb4f2033a819b5b31735ce9558b997a1d955a4a89031d
+SHA512: dc17155ad1b85d817c33e4849b11cf303fa0b46759e68e617d9c862a216fbc4804c301166e308967377a6c9f5fac3b2e9ba6dabf29bee0ae26e16fe030a88ae8
+Section: 插件
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！
+Name: SquidExtender(激活码版)
+Author: SquidForce
+Icon: https://axs66.github.io/pro/icon/squidextender.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/squidextender/js.json
+
+Package: com.Axs.squidforce
+Architecture: iphoneos-arm64
+Version: 1.0.1-1
+Maintainer: BVN
+Installed-Size: 328
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.Axs.squidforce_1.0.1-1_iphoneos-arm64.deb
+Size: 38056
+MD5sum: d86b30edb4f9713f80db2bd07579a355
+SHA1: a559b5d75dd888a82cfae42cdb9544aed1259bbc
+SHA256: ec35afee73e3c3dd02755140d6c0af9bdd560f8b1ee22553dcd0008cbbfdf7ac
+SHA512: ac5bfdc413217ded6dd34776fd308d29801798c79aadaed80429195fbd2a11fff514c2da1af9a4b598e0f5a9e82fe766ba251765671d884d2e59fb7cf4d4815e
+Section: 插件
+Description: 乌贼三件套(squidextender，squidgesturepro，copyvault）通杀插件，安装即可生效。
+Name: SquidForce VIP
+Author: BVN
+Icon: https://axs66.github.io/pro/icon/squidforce.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/squidforce/js.json
+
+Package: com.Axs.squidgesturepro
+Architecture: iphoneos-arm64
+Version: 2.7.6-2
+Maintainer: SquidForce
+Installed-Size: 6620
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/com.Axs.squidgesturepro_2.7.6-2_iphoneos-arm64.deb
+Size: 1769472
+MD5sum: 5a72f85244a42675d0e67abc5207b134
+SHA1: 9943cc3a57af138d48e54919fa71de2f9b507b7d
+SHA256: 8b03cf6286fe2fc09ba69fa61178103ae451bc79ec3e278e754234aba0005606
+SHA512: 2fa8d4723d14564bd9d4ae0c455fef4c07168138850309b9f03b9dda8c2abab43530eb3e1783e6c6c1868ffb20dc5fd8579f696c90daec09faccd90c2b8c982a
+Section: 插件
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码版)
+Author: SquidForce
+Icon: https://axs66.github.io/pro/icon/gesturepro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/squidgesturepro/js.json
+
+Package: com.Axs.stageduo
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: Axs
+Installed-Size: 4900
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist, preferenceloader
+Filename: debs/com.Axs.stageduo_1.2_iphoneos-arm64.deb
+Size: 3072340
+MD5sum: dddcc7eb521636da02c3142083f8ffc0
+SHA1: bb4e7363b7497712e99f20ea3e7182ba31b28d6e
+SHA256: 8d8d645fa605c0a091879a86930d976dc15f65670955f1e2ff198445774674cd
+SHA512: 2f51b3a83a0fd009f9697adfbec9fa64360f00e60851a044a26ce774a12e1c064cb80f4ad1cfa56bc43eb297e5c2c8c50ccf66cb9a707d069cf127d75bd27d87
+Section: 插件
+Description: Stage Manager Reimagined for iPhone
+Name: Dynamic Stage上下分屏
+Author: tomt000
+Icon: https://axs66.github.io/pro/icon/stageduo.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/stageduo/js.json
+
+Package: com.Axs.staypro
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.staypro_0.0.1_iphoneos-arm64.deb
+Size: 3576
+MD5sum: 8cf59580f6aec2d86e862c0acc120d4f
+SHA1: d24424c99dd97f52361bdccfe25997b02af09f45
+SHA256: 5d2eb67af027d556649c95ae903352d6b5dfc66137818f3c11d0b3c3376cd229
+SHA512: 6d1b8b796dca911e334b29da68ecf75447478ac96603c9ac235d9f5a0986bbcbb01b772fc121ad3e87e0cf2a565e9f931fad7fba1e05e0a1b0ca1f01b17ffb8d
+Section: 插件
+Description: Enable Pro for Stay for Safari extension. Must be signed out to use Pro features.
+Depiction: Axs
+Name: Stay Pro
+Author: 0xkuj
+Icon: https://axs66.github.io/pro/icon/staypro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/staypro/js.json
+
+Package: com.Axs.steppy
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Axs
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.Axs.steppy_1.0_iphoneos-arm64.deb
+Size: 9724
+MD5sum: 53b9d62dee2c999f79db02ff9a2c1d66
+SHA1: 6881a83780a6282812e8085860d16fcde629157d
+SHA256: 08e0c039ced8657262248bdb8c98bd50ff069c524f8ee1aed708b6112ae9bd65
+SHA512: 5a02717cf97eb3f74e96fdddee6474dcc977317261b5219416d423a1f2e8eda05513b5ff721efa8fa787d133d7d61b3aa418275bc53ef493d8707e9a5d4697a9
+Section: 插件
+Description: Spoof your steps!使用巨魔注入器TrollFools注入要修改运动步数的APP，当然也可以sileo直接安装
+Name: Steppy 步数修改器
+Author: uz.ra
+Icon: https://axs66.github.io/pro/icon/steppy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/steppy/js.json
+
+Package: com.Axs.stheno
+Architecture: iphoneos-arm64
+Version: 77.1.4.8
+Maintainer: Crassna
+Installed-Size: 2788
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: debs/com.Axs.stheno_77.1.4.8_iphoneos-arm64.deb
+Size: 530756
+MD5sum: b8cae806570143c103940633e74b6ccf
+SHA1: c08b99c2c7c432531e797d001ff8a1f87c3b47ef
+SHA256: b6b3653acf069d221474a0fd766173eeed677c7471817a8f903ff34a3edc95d7
+SHA512: 8be21458d2fdbf543ecea642bce670221af196ae4e94c857fb817ec8147892b4a8e4c940592e5a2c486cbe4aea3b2c696c78f7e9946b1accc08730ab300c7546
+Section: 插件
+Description: Medusa,Jump Whenever。
+Name: Stheno
+Author: Crassna
+Icon: https://axs66.github.io/pro/icon/stheno.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/stheno/js.json
+
+Package: com.Axs.storeswitcher2
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: 0xkuj <0xkujz@gmail.com>
+Depends: firmware (>= 11)
+Filename: debs/com.Axs.storeswitcher2_1.0.4_iphoneos-arm64.deb
+Size: 14388
+MD5sum: 6d05783460dd75f18ead00fce02cb644
+SHA1: e17eaf4013df53b893c129ed54d1a954b71c8d4b
+SHA256: efda7180d60aabde8353b544f3714f33183cdfdb124e96ea8d71fc8ff94c9170
+SHA512: 0dbec1ed40a03609400f385e49df6d32fd375ea11b7f87ab1fcb79f22516fee3052bd62782c81e83b05903e9dd95ff3931f1580add0e151c86d7cd8b06f5f73a
+Section: 插件
+Description: Adds a button to switch account in App Store account page on iOS 11+.
+Author: 0xkuj <0xkujz@gmail.com>
+Name: StoreSwitcher2 苹果商店账号切换
+Icon: https://axs66.github.io/pro/icon/appstore.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.strongerfi12
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: Axs
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.axs.xinamine
+Conflicts: net.tateu.strongerfi
+Filename: debs/com.Axs.strongerfi12_1.0.1_iphoneos-arm64.deb
+Size: 54500
+MD5sum: e45960ea5a113a051ce0f7db2fafd08e
+SHA1: 5049d59a16966c57c453fdcd3e759127080f95c7
+SHA256: 69c9dd36434e59567874ec7d2b6654450dc849c864ba5d9c513a06ede2662f64
+SHA512: af7ea2048454f2ca0418547f593a169d752fbf4cfa9440ec4febd55cefdb5e45f56e37cd63f9a1ef2d913f47312cbf72b85094cfc7b0cd93113e33cfb5a7a632
+Section: 插件
+Description: 自动切换到最强的WiFi网络.
+Depiction: https://alist.138686.xyz
+Name: StrongerFi12自动切换WiFi
+Author: tateu
+Icon: https://axs66.github.io/pro/icon/strongerfi12.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/strongerfi12/js.json
+
+Package: com.Axs.swapforcer
+Architecture: iphoneos-arm64
+Version: 0.0.2-7+debug
+Maintainer: Dopamine User
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: debs/com.Axs.swapforcer_0.0.2-7_debug_iphoneos-arm64.deb
+Size: 5936
+MD5sum: 8d3e26ac4231dcf6db113147aaaf9b1a
+SHA1: 2d45a16b2126d13d48282516141c0bb94974bd93
+SHA256: 574f5da123093bb569036e5b81a6f5ac01e90fb5548e05566d1d65ef96a69955
+SHA512: 50d18f0b0d184186a37e80644be6b1a79c3cf6233cda5833160aaab6cecb4ef028f341f7d06247ec7b98cdf97f025c7f7a61514ef0ab878987ac24b302ce9d56
+Section: 插件
+Description: 强制启用并稳定运行iOS 16的Swap机制,提高应用留存率。
+Name: SwapForcer后台留存
+Author: colorBlack
+Prefix: /var/jb
+Icon: https://axs66.github.io/pro/icon/swapforcer.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/swapforcer/js.json
+
+Package: com.Axs.swipeextender
+Architecture: iphoneos-arm64
+Version: 1.6.1~2
+Maintainer: MiRO
+Installed-Size: 614
+Depends: firmware (>=14.0), mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: debs/com.Axs.swipeextender_1.6.1_2_iphoneos-arm64.deb
+Size: 85400
+MD5sum: 937a68f5c0f6acfd928f2ce0bfb683c8
+SHA1: 82c784b0cf83a792f0be83bb5fd96be3c04e16c4
+SHA256: f304697a61ef53acf92977759ba5bc957821273613915ad1e30e6a442b78e886
+SHA512: d75e9bcc04e980e417bddb7baef21e2351989e44a513d2aaaead519afebb1cf063284672db9db8584b01763d740d84f76cda7bae9e1fc3378324da6878b152db
+Section: 插件
+Description: 通过传奇的 SwipeExpander 调整的完全重制，重塑您的键盘，专为现代 iOS 设计！
+Author: MiRO
+Name: SwipeExtenderX
+Icon: https://axs66.github.io/pro/sileodepiction/SwipeExtenderX/icon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/SwipeExtenderX/js.json
+
 Package: com.Axs.wcplugins.rootless
 Architecture: iphoneos-arm64
 Version: 0.1-6
