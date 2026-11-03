@@ -19089,6 +19089,336 @@ Author: pxcex
 Icon: https://axs66.github.io/pro/icon/hapticalert.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/hapticalert/js.json
 
+Package: com.Axs.hide2less
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Maintainer: Banana
+Installed-Size: 580
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid, shell-cmds
+Filename: debs/com.Axs.hide2less_0.1.3_iphoneos-arm64.deb
+Size: 162412
+MD5sum: 7b888f70cd9600ebfe8a3101607f5895
+SHA1: 60ad5d508d1980286b11bd73b7d6f7e134474d71
+SHA256: 2cfd9139d99357a6c7da7a7b831b373a027091ba26b869d9928a41bfbadcbbcf
+SHA512: 295c34a4a06dd6660c4f12dc66198a48ee1466deae829c045ab833d3ad4188b0c4e747a732ac758b77ac008e761189bb0df6710e6f4d6dddb78ea739514874a5
+Section: 插件
+Description: 隐根插件转换为无根插件
+Name: Hide2Less 隐根转无根
+Author: Banana
+Icon: https://axs66.github.io/pro/icon/hide2less.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/hide2less/js.json
+
+Package: com.Axs.hideairdrop
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.Axs.hideairdrop_1.1.0_iphoneos-arm64.deb
+Size: 5504
+MD5sum: 95bddad97ae77f716df5399c2699edeb
+SHA1: faf0d6d8fd4bf195939f7422be4f79de5e020d51
+SHA256: fd06cd5478ed582fdc39f1aa37eda24f2aeb597c2ff391d68c6c7e9a168a1a2b
+SHA512: adb6f91240541e550f389d70664054090d0b673caf6ed47dc68a1f38f631e1de6b2693ab454af0c93c20a9e153197f566630010112a303a8df8c143e68a8248e
+Section: 插件
+Description: 在原生 iOS 16 共享表中隐藏“隔空投送”和“热门人物建议”行。
+Name: 隐藏隔空投送
+Author: 承诺
+Icon: https://axs66.github.io/pro/icon/hideairdrop.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/hideairdrop/js.json
+
+Package: com.Axs.hidekbsettings
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Maintainer: Axs
+Installed-Size: 404
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.hidekbsettings_1.0.7_iphoneos-arm64.deb
+Size: 24608
+MD5sum: e93815a579eb5412ecf56c88ceebf1a5
+SHA1: d47f072cbc6dec422d9ee43d6408a5cff9220151
+SHA256: 006a8ef0c5e149df661127f3cd5e63aecf32eb6d18a66f9c73c42deb7e510d74
+SHA512: b112ba01ef79325394bda25fd5c5d368147a3a361b45f40bcfd624be6233f8bcf953d7ad2c123a200ffba9dcf732e9300136319d8b57d5c14dc9149e40942e8b
+Section: 插件
+Description: 隐藏键盘切换中的"键盘设置"选项
+Name: HideKBSettings
+Author: A
+Icon: https://axs66.github.io/pro/icon/HideKBSettings.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/HideKBSettings/js.json
+
+Package: com.Axs.hooktcs
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 1aaa3
+Depends: mobilesubstrate
+Filename: debs/com.Axs.hooktcs_1.0_iphoneos-arm64.deb
+Size: 89796
+MD5sum: 0bf04a2ee469971b3a826f86d882f6c2
+SHA1: 8288bf99bd24b5518241be68e2168323fa6cfb49
+SHA256: 9201107d57f5b388b0ac9a7417e6bcf332a4f44d9bdb3b0bbe509539d11e344b
+SHA512: 681b35e58e545bb65583c24b6f424ac7df264d3f9d8edc3790e51c573dda76b77df908c8b83ff1c4e8dcbe13c872c591926e10ef99150fb690b2f616117bcc49
+Section: 插件
+Description: 删除图层时间限制，屏蔽服务器闪退。去你妈的图层时间限制。人妖嘉嘉去死！可提供抖音图层，小红书图层、快手图层等插件正常使用。
+Name: 图层破解插件1aaa3
+Author: 1aaa3
+Icon: https://axs66.github.io/pro/icon/dy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.horizontalsliders
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/com.Axs.horizontalsliders_0.0.1_iphoneos-arm64.deb
+Size: 10608
+MD5sum: 8ed15dc90fded9d1d275e447543484fa
+SHA1: f932abee0b7e85887244ea78d08d4f174ea32d2e
+SHA256: fd1f349507ef112ee6a5e11f08303f316be697143166c24680fc7bda9c30f0e8
+SHA512: d1010c18b8f2663077e9626e4c26816440792e6e94dfffb46e40e112854ae65c754ad74c384b4919a117e6af788d4791292e19e00f9f583100a260f756e47429
+Section: 插件
+Description: 使控制中心的亮度和音量滑块水平滑动。
+Name: HorizontalSliders控制中心水平滑动
+Author: Nightwind
+Icon: https://axs66.github.io/pro/icon/horizontalsliders.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/horizontalsliders/js.json
+
+Package: com.Axs.ibisPaintX
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.Axs.ibisPaintX_0.1-1_iphoneos-arm64.deb
+Size: 192152
+MD5sum: 7160ac9118002fafa691f9195f4a0e96
+SHA1: 9999aa876a31b7acee9d43f155758241977ed3fa
+SHA256: 4c65f3f838996a97e0910188cf19a958c64bfab3ba8100ad2e56f8dd17155c38
+SHA512: 7d892e1f1ecf21d2bb8e497917fb87ad29b8e865de4c1c0106d9cec3157ba72572c4cb72caf04c131a37adf6a105fe2a30b80dd22c377f1a81195c9d6b73b82c
+Section: 插件
+Description: 爱笔思画解锁会员
+Name: 爱笔思画X 解锁VIP
+Author: iosrxwy
+Icon: https://axs66.github.io/pro/icon/ibisPaintX.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ibisPaintX/js.json
+
+Package: com.Axs.injectipa
+Architecture: iphoneos-arm64
+Version: 1.5-2
+Maintainer: Axs
+Installed-Size: 964
+Depends: firmware (>= 14.0)
+Filename: debs/com.Axs.injectipa_1.5-2_iphoneos-arm64.deb
+Size: 318612
+MD5sum: 8f6ac43c422d75e5b85f6e0a2d15d0aa
+SHA1: ff48bac278fe15c318ce753b6b480167b50223ae
+SHA256: 33da858748b922cd861a30f8c18fe0ac399f388b7ab77396d156a68a5a61f2a3
+SHA512: 178cb418adfeac6319f9ff8edfca97ccf37325c8468974a704429adb178be89410c437254a963dd4e763bf46581cb60c44554bc16148d9abf318e2b522b39dde
+Section: 插件
+Description:
+ InjectIPA Tool。
+   * 1.添加资源至根目录支持多个。
+   * 2.注入WeChat时支持-t开启WeChat插件加载库, 使用后可在微信设置页面（禁用插件中查看）动态禁用插件。
+   * 3.修改标识符功能优化支持同时修改组件中对应标识。
+   * 4.支持高级注入, 例如注入HBB无后台推送。例如-j "/path/libMMHBBackPush_8.1.dylib:ProtobufLite.framework"。
+   * 5.需要使用双引号包裹, 冒号分割 前部分为需要注入的dylib路径 后部分为需要注入进的框架名称。
+   * 6.对于需要多个-d -j参数的话 直接写多个-d -j参数即可。
+Name: injectipa
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/injectipa.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/injectipa/js.json
+
+Package: com.Axs.ios26
+Architecture: iphoneos-arm64
+Version: 0.4.3
+Maintainer: Axs
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), firmware (< 18.0)
+Filename: debs/com.Axs.ios26_0.4.3_iphoneos-arm64.deb
+Size: 12440
+MD5sum: 1a76b075f4a6d9f49bd6287f045daaba
+SHA1: 4fad82d89bd15d3edba2c069db38dbb721f55939
+SHA256: 77184199d06efd3d82ff2dbe18c039b350115672d4f73d362e9960515b4d82f2
+SHA512: a0f71c60921186faee47beced31ec6b92559c58af2d991d9132fadde8bde1cce736418bdbddefd0b49ca09fa73e0764f63c1f850a61741a1fb83d42630aa705b
+Section: 插件
+Description: 一款模仿iOS26样式的控制中心插件，安装注销生效。
+Name: iOS26控制中心
+Author: therealhoodboy
+Icon: https://axs66.github.io/pro/icon/visionos.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ios26/js.json
+
+Package: com.Axs.ioskaifa
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs
+Installed-Size: 624
+Depends: mobilesubstrate
+Filename: debs/com.Axs.ioskaifa_0.0.1_iphoneos-arm64.deb
+Size: 135484
+MD5sum: 4012cfc46f543149b464487a7bb1e5a3
+SHA1: 357f26bbe5fb0141940b20c0a317b5608d0edd9a
+SHA256: 7743863c48c142155ae0ffd7fed6f15b5d5cb022ba4f915aba7c06ff734c9b86
+SHA512: bfe01acded414497c7f9adf11d4c02d95967c15eb308098f3a130f101ee8d4015a10ec5fa8b9b9def3d6e9dd9e02c767c664e6b90be1679bd19091dfa6b08a87
+Section: 插件
+Description: 解锁VIP
+Name: iOS开发教程 vip
+Author: HW
+Icon: https://axs66.github.io/pro/icon/ioskaifa.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ioskaifa/js.json
+
+Package: com.Axs.iossecuritysuite
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Axs
+Depends: mobilesubstrate
+Filename: debs/com.Axs.iossecuritysuite_1.0.0_iphoneos-arm64.deb
+Size: 3160
+MD5sum: 00c4beee683739c2b1a73796c0d29c17
+SHA1: fd962b49d8b65180a3fe7c62cd93151fd9c874c6
+SHA256: 3e16fe68687d2de79862c96a21e4e06f2dc91999f0330caf89ad38a50ec48a57
+SHA512: 8d724c6f142bd7d22649ba42d77b5de85a06a2022b0ab326cedaf1116a8356d79ccf0872dd99939ed068e1172c9f9ff9b900941454b90dbd3a9983fa1193142d
+Section: 插件
+Description: 绕过 iOSSecuritySuite 越狱检测
+Name: iOSSecuritySuite屏蔽越狱检测
+Author: waruhachi
+Icon: https://axs66.github.io/pro/icon/iossecuritysuite.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/iossecuritysuite/js.json
+
+Package: com.Axs.jikan
+Architecture: iphoneos-arm64
+Version: 2.2-1+debug
+Maintainer: waruhachi
+Installed-Size: 528
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.jikan_2.2-1_debug_iphoneos-arm64.deb
+Size: 48464
+MD5sum: 3a1458bdde31e1525889804ded2df5e8
+SHA1: d7f89474cb2cad88b5384a32586ddd682ec79797
+SHA256: 7729dd2bf4d75b001f3aef558e336ebd867efc8c22b2924c315f21f89981792f
+SHA512: 3f4e7fc7017e8296a8c29d5aee34699fbfdbd00bf6a4e52c93ab8c7b7d841e2413d499d491ce4ff59ad49488bbfb1e7a476ab4140c0ded8ef33c7125c2ce0450
+Section: 插件
+Description: Show estimate time left to full charge on your lock screen
+Name: Jikan 锁屏显示充电剩余时间
+Author: waruhachi
+Icon: https://axs66.github.io/pro/icon/jikan.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/jikan/js.json
+
+Package: com.Axs.jptext
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Axs
+Filename: debs/com.Axs.jptext_1.0_iphoneos-arm64.deb
+Size: 15412
+MD5sum: 7554b3e85bb4c57bc386018f31fb0717
+SHA1: e0438ee9fbc0a2a28030ec7aac4b68e9267b4de9
+SHA256: 97adfa4046c1c23eca7e12bd8cd76a5826175fa97a12339a3225c3725823ad9e
+SHA512: ce1b86573d90e90c0afc1286fc594b4e2e04e5bac02ff21ffd7e40c2477ed059eb4e69c5845ba375203288921d8445e5f448d753079c0c6a6166a992e62dff1d
+Section: 插件
+Description:
+ 更改键盘文字。
+   * 键盘字路径：/System/Library/TextInput/TextInput_zh.bundle
+   * 注意：先挂载路径再下载此插件，Dopamine里重启Springboard，再重启用户空间即可。
+Author: A
+Name: 修改原生键盘上文字
+Icon: https://axs66.github.io/pro/icon/jptext.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/jptext/js.json
+
+Package: com.Axs.kawyibeauty
+Architecture: iphoneos-arm64
+Version: 0.0.1-32+debug
+Maintainer: mumu
+Installed-Size: 352
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
+Filename: debs/com.Axs.kawyibeauty_0.0.1-32_debug_iphoneos-arm64.deb
+Size: 51656
+MD5sum: d8692342c9e1d48bde501485042ac99c
+SHA1: deafaaa42a82fb1368dbcedde4669796ccd8b871
+SHA256: 9075d3322d0ec169bb00fef5c59565820db00684bf65945eb772d15f073d220f
+SHA512: 58ac141fedc1af0a498d740e921fecc1944ff245547eb8a9716ee163af74505043662c97330fc1a1a36f60d77b6fe04c4737e5bd4ccf1d79fb80b5aa99dce180
+Section: 插件
+Description: 为应用添加自定义GIF动画装饰效果
+Name: KawyiBeauty动画效果
+Author: mumu
+Icon: https://axs66.github.io/pro/icon/kawyibeauty.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/kawyibeauty/js.json
+
+Package: com.Axs.kbapp
+Architecture: iphoneos-arm64
+Version: 1.5
+Maintainer: Dcsyhi
+Depends: mobilesubstrate
+Filename: debs/com.Axs.kbapp_1.5_iphoneos-arm64.deb
+Size: 806992
+MD5sum: 598c4e5c5e76c6c97ae0717678d9ebaf
+SHA1: 4478f4204efddea1e40d8753dd31842e1af702ad
+SHA256: fbca6fbccf2b6659759ed41ddf2d62ced1a9b21440bf3d6badbd2f3277d6bb11
+SHA512: 0bc7c5b488b8dc1bab7c6f2dcf467bf5a837d71c7ad7599266b72b3bc70444247ffe21d1551351fd5de918b765855353ea6c8eba31f454c0fffede953885f7a9
+Section: 插件
+Description: You can arrange apps on the dock of keyboard｜KBApp 是一款在键盘底部添加快捷按钮或者App的插件
+Name: KBApp
+Author: Dcsyhi
+Icon: https://axs66.github.io/pro/icon/kbapp.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/kbapp/js.json
+
+Package: com.Axs.keyboardai
+Architecture: iphoneos-arm64
+Version: 6.6.6-3
+Maintainer: zqbb
+Installed-Size: 10995
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.libsandy,com.axs.compatibility
+Conflicts: com.zqbb.hello.keyboard.ai
+Filename: debs/com.Axs.keyboardai_6.6.6-3_iphoneos-arm64.deb
+Size: 2808940
+MD5sum: 38b09ecd4ea30a7a56d002015809152b
+SHA1: 0d16232b5d41253de8b4a8ed048c85e25e5608bb
+SHA256: 3edce312fb4a507df9d4d8e5e414ecd7186b64c19cded1e3bb06dd856de8a78a
+SHA512: 95b354ab20701c1f5a816e3397c8fb828efe0c5d408c3f32863b7207e9413248db264b1d695b59024cccaf18da68ff164581bed34654f1714112bf5462dc96d0
+Section: 插件
+Description: Quickly activate AI mode.
+Name: Hello KeyboardAi
+Author: zqbb
+Icon: https://axs66.github.io/pro/icon/keyboardai.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/keyboardai/js.json
+
+Package: com.Axs.keyboardhook
+Architecture: iphoneos-arm64
+Version: 2.1-3+debug
+Maintainer: Axs
+Installed-Size: 524
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: lym.keyboardhook
+Filename: debs/com.Axs.keyboardhook_2.1-3_debug_iphoneos-arm64.deb
+Size: 48932
+MD5sum: d8ced407fabed82ac0c2cefb0226d029
+SHA1: d4f9a9251006f07fa1a54e6948cb93582053b4a0
+SHA256: 8b9e65bb8ade1641b249910070a228900cc42d87da22302f300b16e6ca9a07e4
+SHA512: 09dd71af1bd6ab251d433e6ef5186f1ac7ee7e89c30918b05fb58587f8ec680badd652c18f9117cc427c1fef21e14e995a1de9e82b4dc334a32c7af3e87d7a2f
+Section: 插件
+Description: 关于系统输入法和微信输入法的一些自定义，包括：键盘背景自定义、预选词语自定义；付费插件，仅做个人备份。
+Name: Keyboard 系统输入法自定义
+Author: baiy
+Icon: https://axs66.github.io/pro/icon/keyboardhook.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/keyboardhook/js.json
+
+Package: com.Axs.keyboards
+Architecture: iphoneos-arm64
+Version: 3.0
+Priority: optional
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.Axs.keyboards_3.0_iphoneos-arm64.deb
+Size: 4164
+MD5sum: dd37bc6bd8b5a511130fc0f6468156f8
+SHA1: a8e6e705c91f6f18b3d04203f4dc736ca988a35c
+SHA256: 30d5c779effc620564a47d46e5307a9afc01fa751ebfb15e1df20c390731bde5
+SHA512: 0591831f1fed8c01403c2e0417ec171c1eddd9e4cce8d5c47684410bd965d11f972ccd6f3a9c86953d90b078e7468c0fdde9bdbed71c3e9952f6c0ecf7a5f4d6
+Section: 插件
+Description: 在很多时候输入，手机总默认自带键盘，且不能更换第三方，有了这插件，你想用啥键盘用啥键盘(第三方输入法都可以)
+Name: 强制使用第三方键盘
+Author: Axs
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/keyboards.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: com.Axs.kongzhidiy
 Architecture: iphoneos-arm64
 Version: 2.3.3-end
