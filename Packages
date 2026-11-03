@@ -18958,6 +18958,23 @@ Description: 88液态玻璃隐根版（免授权）。修复键盘模糊。液�
 Name: 88液态玻璃隐根版（免授权）
 Author: 一刀
 
+Package: com.charlieleung.liquidify
+Architecture: iphoneos-arm64
+Version: 1.3.7-4+dao88.1
+Maintainer: 一刀
+Installed-Size: 40597
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.charlieleung.liquidify_1.3.7-4_dao88.1_iphoneos-arm64.deb
+Size: 10756068
+MD5sum: 769b8ceb9288a65ecd20cdf9f0a414d4
+SHA1: 054dbdb602497a258b83a68183151a494a8f7fda
+SHA256: 2ab474fedfcb2679e5cb462542ab1748baa9b1510a036a17a6aa801ce71838a1
+SHA512: 6262fda7c63b07613aa253d057b72e857946472f628c61ecb2e2991d7a509bdf5ef8d2e13258af947fe37cf194fe4b9a96381774b51827141a0486bbec70810f
+Section: 插件
+Description: 液态玻璃
+Name: 88液态玻璃（免授权）
+Author: 一刀
+
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm64
 Version: 0.3-5
@@ -19230,6 +19247,25 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depictions/bottomx-floatingball/avatar.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depictions/com.colorblack.bottomx.floatingball.json
 
+Package: com.cracklock.7513
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: 7513
+Installed-Size: 1852
+Provides: com.cracklock.shatter
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.cracklock.shatter
+Filename: debs/com.cracklock.7513_1.0.4_iphoneos-arm64.deb
+Size: 1247048
+MD5sum: 0aa80f080b4f65091cd730f5bdefcf04
+SHA1: 72eef52fac8788b7e9faa4607a4e615128b72421
+SHA256: caf142edbcb050f1972cb207ddd83323da73ee3ec4c30836c23952f6762f0fc9
+SHA512: 3559924b3e742d3e937d9c57db4e6d04b8dca8a29736760fda4c7369fd732ddd606fad13939edd311c71c4ceef9b2448cc772d0c7f15d7a05f094ca0bbf463f7
+Section: 插件
+Description: 熄屏幻术（FadeCraft）—— 十六种熄屏动画（碎屏 / 像素消散 / 百叶窗 / 信号故障 / CRT 关机 / 竖条翻牌 / 旋涡吸入 / 灰烬升腾 / 风沙吹散 / 条带垂落 / 波纹扭曲 / 方块散开 / 螺旋甩出 / 漆皮剥落 / 灯管熄灭 / 烟尘飘散），每种可单独调参。
+Name: 熄屏幻术
+Author: 7513
+
 Package: com.crctdd.choicy-whitelist
 Architecture: iphoneos-arm64e
 Version: 1.5.4-6
@@ -19250,6 +19286,23 @@ Name: Choicy-Whitelist
 Author: crctdd
 icon: https://huayuarc.github.io/icon/ChoicyIcon@3x.png
 
+Package: com.crctdd.cranedd
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0), com.opa334.crane
+Filename: debs/com.crctdd.cranedd_0.0.1_iphoneos-arm64.deb
+Size: 24740
+MD5sum: d89ba41994808e651f59d83a78dcb5f9
+SHA1: 56b45a2da32805a869de8cf3a7b71a8054bdd554
+SHA256: 7e1554a03090e012ebfad1eb64756267d9f61eb82b1811cd0cd903bc99787ee3
+SHA512: a24d5f012666fcd59a6286fcca7693070b69880edd8ddf80bf289a1f6a8236ff43ef039101b862bcd6d29c493f928323e56b24c95abdfda3bd9679d161ac5e52
+Section: 插件
+Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持iOS 15-17)
+Name: Crane Drop Down
+Author: crctdd
+
 Package: com.crctdd.disablecallpop
 Architecture: iphoneos-arm64
 Version: 0.0.2
@@ -19265,6 +19318,41 @@ SHA512: 5946066812d79e5efa15c6cc01b9a8bf24bb1c90bd053ba4ce7abf4cb4546476b1efc0f9
 Section: 插件
 Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
 Name: Disable CallPoP
+Author: crctdd
+
+Package: com.crctdd.memtrim
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: crctdd
+Installed-Size: 820
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.memtrim_0.0.2_iphoneos-arm64.deb
+Size: 125198
+MD5sum: 37a2f6b78bad2d98266bd577b816aa97
+SHA1: 832c2a0d172b83fe1cc49b2bcfa25950d4080738
+SHA256: 24d6babe21eceacfffd06c4c26bb36e5f9077408f12b22cd8e53c5fd5baf1db5
+SHA512: 402bd1a9d38fa162f6b7972f98d7584cff641e8e5b738f03f9f651cf2c0bef24fc676ae8f256f78d72c50422816dec3a87de5fe5a7ad8922ac8b31a4e7d2174e
+Homepage: https://crctdd.github.io/repo/
+Section: 插件
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Name: MemTrim
+Author: crctdd
+
+Package: com.crctdd.mobileslideshowhook
+Architecture: iphoneos-arm64
+Version: 0.0.5
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/com.crctdd.mobileslideshowhook_0.0.5_iphoneos-arm64.deb
+Size: 31942
+MD5sum: a4a2d353e1cd54c54f184791ee41010b
+SHA1: 10232b15eb7eb151db4edc00e68b21824f123e39
+SHA256: 667d5cbd95e85af20b743c3ef9d14f0d2db42f1b79734e9ce518d9cd76a16436
+SHA512: d479ca05a909d4a6e1a5cbad0ba17190f2b35794e7b31fb1468dca7f86137a326ffb1350381c18cfea60e80884727fa44fcf746fc3767beef1aea6f714c51c24
+Section: 插件
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
+Name: 系统相册视频进度条
 Author: crctdd
 
 Package: com.crctdd.pyvideo
@@ -19304,6 +19392,23 @@ SHA512: 4b81a4f2ec21943d15ac5178eaeada1778b718a5987fa43697ae983693f3cc92a605fb90
 Section: 插件
 Description: 当SpringBoard的Phys占用阈值超过一定数值，自动轻量优化回收。(支持iOS 15-17)
 Name: SBTrim
+Author: crctdd
+
+Package: com.crctdd.shorbar
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: crctdd
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.crctdd.shorbar_1.0.0_iphoneos-arm64.deb
+Size: 59996
+MD5sum: d669c22f3e66188a05fe8a8ac138f97c
+SHA1: 28538c944d95f0c2c4d1fd583ed6b7cd72a544ab
+SHA256: 4584aca0f449a05763c8d06298c639d27950b27df24ff70f3b1133a639ec5bcf
+SHA512: 5454fcd8819bff5a86cde89cf6731b11d7cd33b59d895f123691c1d6aedd70ee750743be762e5167b83ea4762b1a88955fbec6bc9974f1a8b8d6f528c6fee701
+Section: 插件
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Name: ShortBar
 Author: crctdd
 
 Package: com.crctdd.stayalivelite
@@ -19526,6 +19631,23 @@ Name: Velvet2 中文版(RootHide)
 Author: NoisyFlake
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/velvet2/js.json
 
+Package: com.dd.adblock
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: DD
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.dd.adblock_1.0.0_iphoneos-arm64.deb
+Size: 28264
+MD5sum: fb1fe85454204379b38d78bd99a2373c
+SHA1: 67f01a860ec4bc317a0d6a2f6cb4b4bbb9a500db
+SHA256: 0ca7465b76008d1124fa01d42df3ac66d937b6fe10812f665ac45d1961c0667e
+SHA512: 87f9435d8d8653248a19c6ada82bd3d3b88512a23e8662119cebf290eea4d9f37853c7ad2be579c922feecc183f94778739cc82723d2b20ad291d1a2becc413f
+Section: 插件
+Description: DD微信广告屏蔽（提取 dyilb 用巨魔注入器注入到微信即可）
+Name: DD广告助手
+Author: DD
+
 Package: com.doimty.fiona
 Architecture: iphoneos-arm64
 Version: 0.3
@@ -19578,6 +19700,81 @@ Description: High-refresh policy tweak for supported iPhone Pro models, with app
 Tag: supports::roothide
 Name: ProMotion 120Hz
 Author: doimty
+
+Package: com.evgeniy558.controlcenter18
+Architecture: iphoneos-arm64
+Version: 3.0-beta
+Maintainer: evgeniy558
+Installed-Size: 22808
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0), preferenceloader
+Filename: debs/com.evgeniy558.controlcenter18_3.0-beta_iphoneos-arm64.deb
+Size: 6118376
+MD5sum: afbf04da48ed13f422fa13af46f89764
+SHA1: a0896c9daf2306e5d34adb45c4b9a3336265139d
+SHA256: 4fc59e15864002b1ef0f7e5efadb667dbad07f08c65f6fcda9ffb95616cac6d8
+SHA512: 10a11a6327aa63e14a970d36339fbf1eb3ca6d91bbcedca98efec9ff5ced080d6c5e84026319bf3e65969f8bc6577fdd3ba5508612d291047564117f2167ce3c
+Section: 插件
+Description: The full iOS 18 Control Center for iOS 16 and 17 (iPhone only).
+ ControlCenter18 brings the full iOS 18 Control Center to iOS 16 and 17. It's not a theme or a reskin: modules, pages and gestures work the same way they do on iOS 18.
+ .
+ iPhone only. iPad is not supported.
+ .
+ Pages and Customizable Modules
+ Control Center is no longer limited to a single page. Add as many pages as you like and move between them with a swipe or with the indicator on the side. Every module is customizable: change the size of any module to 1×1, 1×2 or 2×2. Some modules, such as the player, can be resized even more flexibly.
+ .
+ Editing Right in Control Center
+ Tap "+" in the top-left corner of the screen or press and hold an empty spot to enter edit mode. Move modules or remove the ones you don't need right in Control Center, with no need to open Settings.
+ .
+ Connectivity Module
+ Wi-Fi, Bluetooth, AirDrop, Cellular Data, Personal Hotspot, VPN and Airplane Mode are all together in the new Connectivity module. Open the module to see all of its buttons as a list.
+ .
+ Player
+ The player module now shows the album artwork, with a soft glow around it that matches the colors of the song that's playing, just like on iOS 18.
+ .
+ Everything Else
+ Focus, Flashlight, Timer, Calculator, Camera, Code Scanner, Silent Mode, Hearing and other system modules are redrawn in the iOS 18 style. Shortcut and Open App controls are included too, and Settings › Control Center looks like it does on iOS 18, including "Reset Control Center".
+ .
+ Settings
+ You'll find the tweak in Settings › ControlCenter18. It's turned off after installation, so turn it on and respring. There you can also save your layout as a preset to import later, and if SpringBoard ever crashes, send us the crash log in one tap (logs are kept for 3 days).
+ .
+ Before You Start
+ Turn off other tweaks that change Control Center: themes, module styles and custom layouts. ControlCenter18 draws the whole Control Center itself, so they will conflict.
+ .
+ This is a beta. If something doesn't work, send us the crash log from the settings and we'll fix it.
+ .
+ ControlCenter18 переносит полноценный пункт управления из iOS 18 на iOS 16 и 17. Это не тема и не перерисовка: модули, страницы и жесты работают так же, как на iOS 18.
+ .
+ Только iPhone. iPad не поддерживается.
+ .
+ Страницы и настраиваемые модули
+ Пункт управления больше не ограничен одной страницей. Добавляйте сколько угодно страниц и удобно переключайтесь между ними свайпами или с помощью индикатора сбоку. Каждый модуль настраивается: у любого модуля можно изменить размер на 1×1, 1×2 или 2×2. А у некоторых модулей, например у плеера, размер настраивается ещё гибче.
+ .
+ Редактирование прямо в шторке
+ Нажмите «+» в левом верхнем углу экрана или зажмите свободное место, чтобы войти в режим редактирования. Перемещайте модули и убирайте ненужные прямо в пункте управления — заходить для этого в настройки не нужно.
+ .
+ Модуль связи
+ Wi-Fi, Bluetooth, AirDrop, сотовые данные, режим модема, VPN и авиарежим собраны в новом модуле связи. Откройте модуль, чтобы увидеть все его кнопки в виде списка.
+ .
+ Плеер
+ Модуль плеера теперь показывает обложку, а вокруг неё — лёгкое свечение в цвет проигрываемой песни, точно так же, как на iOS 18.
+ .
+ Всё остальное
+ Фокусирование, фонарик, таймер, калькулятор, камера, сканер кода, бесшумный режим, слух и другие системные модули перерисованы в стиле iOS 18. Есть и элементы управления «Быстрая команда» и «Открыть приложение», а раздел «Настройки» › «Пункт управления» выглядит так же, как в iOS 18, вместе с кнопкой «Сбросить пункт управления».
+ .
+ Настройки
+ Твик находится в разделе «Настройки» › «ControlCenter18». После установки он выключен — включите его и сделайте респринг. Там же можно сохранить пресет, импортировать, а ещё отправить нам крашлог.
+ .
+ Перед началом
+ Отключите другие твики, которые меняют пункт управления: темы, стили модулей и собственные раскладки. ControlCenter18 сам рисует весь пункт управления, поэтому они будут конфликтовать.
+ .
+ Это бета-версия. Если что-то не работает, отправьте нам крашлог из настроек, и мы всё исправим.
+ .
+ .
+ Repo: https://repo.ya-ebal.mom
+Name: ControlCenter18
+Author: evgeniy558
+Icon: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/header-icon@3x.png
+SileoDepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
 
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
@@ -19636,6 +19833,40 @@ Name: GSWeather插件依赖-Rootless
 Author: Ginsu
 Sponsor: 搬运工源
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.go.mango
+Architecture: iphoneos-arm64
+Version: 1.0-Beta8-1
+Maintainer: go
+Installed-Size: 36192
+Depends: mobilesubstrate
+Filename: debs/com.go.mango_1.0-Beta8-1_iphoneos-arm64.deb
+Size: 16711572
+MD5sum: b32e1797b24cbcd65ed59bc686679797
+SHA1: 2d91e394fc07597948bc3a8c9bfe9d55b0003d35
+SHA256: 999ec0c3fdbd00489d64e88823473ed3d1a58e3a19b28f614b5e67a5eb2515eb
+SHA512: eb00d21f4bee100d729a3a77a9a18c1f3bcc5edfe4049d4c9851e663bfbd904bf51888e9ab75a1f31fd4b7778402d137f7408ea820ee66852d5113fd1894990c
+Section: 插件
+Description: Mango分屏，小液微信液态美化，系统级真液态玻璃，全局返回小芒，视频壁纸等一些实用功能。
+Name: mango
+Author: go
+
+Package: com.hades.locktouchx
+Architecture: iphoneos-arm64e
+Version: 2.2
+Maintainer: hades
+Installed-Size: 188
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hades.locktouchx_2.2_iphoneos-arm64e.deb
+Size: 29708
+MD5sum: f150100badb4b3170e6e3c732a31e2cd
+SHA1: c6e7135a77735b03d1cb88d113eabf21020c5b82
+SHA256: 38df8cece6291981222973f4b9ee599d36ddd7635ed4736ee1c1c7f89bbd8fb1
+SHA512: ae00fba92d316ed26a5c033b9b47b0bd5c6682ef3d7cd0137eea5cc32eec8034eb1c251d1c14a827a4e83e98eb557f58e0c56556132b276f95ee222fb7867580
+Section: 插件
+Description: 为 App 添加生物识别锁（Touch ID / Face ID），点击受保护 App 需认证。
+Name: LockTouchX(RootHide)
+Author: hades
 
 Package: com.hang.keyboardeffects
 Architecture: iphoneos-arm64
@@ -20044,6 +20275,82 @@ Author: Huayuarc
 Icon: https://raw.githubusercontent.com/qq391160/cputhermal-assets/main/IMG_1132.png
 Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
 
+Package: com.huayuarc.cputhermalpro
+Architecture: iphoneos-arm64
+Version: 1.6.2-144
+Maintainer: Huayuarc
+Installed-Size: 1880
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.huayuarc.cputhermalpro_1.6.2-144_iphoneos-arm64.deb
+Size: 136856
+MD5sum: 94e7c4ec27315b8fdc2a82b79821db7b
+SHA1: 33604767680eb798cfef52d9c00b234cd68adb5c
+SHA256: 68dbb8e7dd16f6ef4122c62a395a50de89dffe73cea1a2ee762c8d17bcad6a75
+SHA512: b386c9ee083c62375bbec9eb9bdc15837b7a99e493272f62c0be3c1ff41d4b826d7d7a36891f38e37577e35ad9507bdded80fea4764f8cb4796d0d4157c6dd0c
+Section: 插件
+Description: 适配 iOS 15-17 与不同 iPhone/iPad 机型的温控管理插件。注入 thermalmonitord，固定解除温控模式，支持 CPU/GPU/Package 温控旁路、ProMotion 120Hz。
+Name: CPU 解除温控
+Author: Huayuarc
+Icon: https://huayuarc.github.io/icon/cputhermal.png
+Sileodepiction: https://huayuarc.github.io/sileodepiction/CPUthermal/js.json
+
+Package: com.huayuarc.picturemodule16
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Maintainer: Huayuarc
+Installed-Size: 1868
+Depends: firmware (>= 16.0), mobilesubstrate
+Conflicts: com.4nni3.picturemodule
+Filename: debs/com.huayuarc.picturemodule16_1.3.2_iphoneos-arm64.deb
+Size: 68824
+MD5sum: 32fabccf8ebb4017e835c77a38d95c64
+SHA1: 713070f2b29e4b6adc89a16694303f399b260ea2
+SHA256: fc01a6b7817af066aae2c30339933710aabc652c715e6f82013688177ef83ab6
+SHA512: 013e0ea20a54f7117e169ec349a55bab29b85aae019859ffd307dab8937acc3010ab58684c1f231430fcdae855f0850399830fac3c2eb199134252122ca26a69
+Section: 插件
+Description: 适配 iOS 16 的原版风格图片与视频控制中心模块，内置自动互斥注册桥。
+Name: 控制中心视频模块背景
+Author: Huayuarc
+icon: https://huayuarc.github.io/icon/PictureModule.jpg
+
+Package: com.huayuarc.pulloverplus
+Architecture: iphoneos-arm64
+Version: 1.0.426
+Priority: optional
+Maintainer: Huayuarc
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.huayuarc.pulloverplus_1.0.426_iphoneos-arm64.deb
+Size: 609320
+MD5sum: 10a1d0269ca5d525ec3db9b975c5b883
+SHA1: 74ce7509f1a15c3623935d9b58bfc73e31b32c10
+SHA256: 4346d0e42a2dceab9a7ac921eb876c95800b8d294aec4af2293cca155bae9671
+SHA512: 2cbbdb08b8ab9b9e64271e9ca64dc981664ff1985a36bfde8b0a5bc3b04ad97a8329e7b80dad73fa821f079ba24b646e6a7c4239f41c7436ea1adef4864ca61a
+Section: 插件
+Description: 此插件基于 PullOver X（原作者 mlgm）与 PullOver Pro 修改。
+Name: PullOver Plus
+Author: Huayuarc（原版作者 mlgm）
+dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+
+Package: com.hx.120
+Architecture: iphoneos-arm64e
+Version: 2.2
+Maintainer: 半生年华
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.hx.120_2.2_iphoneos-arm64e.deb
+Size: 6020
+MD5sum: f8cdf665bf45e46a18f377da3d456b1c
+SHA1: 4d49b0a1f54f82b6f81809fdaf5bdabe584970ce
+SHA256: 9cc469193bf5e8f5b73fbf21ce4f0c2d2036dbccc6e7040f9dd56f1f79c797fb
+SHA512: 4baed6278b71e69fef7b22e632105deea6ccb56f287d40a0b2878aa770af57b56bed2221a66845c00e88523b421fc65439b6d5b19defe094d4f02111e727338a
+Section: 插件
+Description: 满血120赫兹、qq172942805
+Name: MotionX
+Author: 半生年华
+
 Package: com.iamdega.uiscroller
 Architecture: iphoneos-arm64
 Version: 1.0.5
@@ -20150,6 +20457,22 @@ Section: 插件
 Description: Zone 插件用于设置.tendies交互壁纸/视频壁纸 支持iOS14-17
 Name: Zone
 Author: iosdump
+
+Package: com.ioskuka.kukatoolbox
+Architecture: iphoneos-arm
+Version: 1.3.3
+Maintainer: ioskuka
+Installed-Size: 4284
+Filename: debs/com.ioskuka.kukatoolbox_1.3.3_iphoneos-arm.deb
+Size: 1009770
+MD5sum: 2b271f0636215b67ae577736c500bc55
+SHA1: de44899961089c13570a92c1233e2e792db220db
+SHA256: 5567db4ca6d749353b84aeb7910164ca0c65ec7fb3aafe3c016ca454041d0986
+SHA512: eb7e37d38129a5bcab98233dca2e746cc4c8944dfb9685e95dc25d3fa8dfa1571da28ffb8794e477a91750ef498bed5495d7477d1a657be386ec89b891639436
+Section: 插件
+Description: KAlert 5.7.0 based KUKA toolbox with compact adaptive UI, full-screen touch recorder, device tools and integrated GameSave submenu
+Name: KUKA工具箱
+Author: ioskuka
 
 Package: com.iosnet.UniDream
 Architecture: iphoneos-arm64
@@ -20297,6 +20620,33 @@ Section: 插件
 Description: A filmstrip video scrubber in the Photos playback interface.
 Name: FrameViewer
 Author: iyaway
+
+Package: com.jaysuen.evocenter
+Architecture: iphoneos-arm64
+Version: 4.0.0-beta.2
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 27220
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Conflicts: com.jaysuen.ccflex16
+Replaces: com.jaysuen.ccflex16
+Filename: debs/com.jaysuen.evocenter_4.0.0-beta.2_iphoneos-arm64.deb
+Size: 1445304
+MD5sum: a69af96b6bc11e194e7b7b5fae341193
+SHA1: 61cb12b06d1308cfd0f7519bd66b87d718d4477f
+SHA256: f2af771b7900ac7193416908c65335d7c2fd54e326a44c51313e38280879033a
+SHA512: 2b3d2868434f20fe22d1b963ea1660a76c0e970eb78dc73c860f9b455d6e0a6409f722f4de985755c9b642037f897250a089ef9e4baf77133d7bfe26f0fe59c0
+Homepage: https://eleveny123.github.io/EvoCenter/
+Section: 插件
+Description: 为旧系统带来类似ios18的现代化控制中心体验。
+ 调节模块尺寸、自定义圆角大小和控制中心背景透明度。
+ 支持iOS16.0-17.4（已确认支持iOS16.7），其他系统版本自行测试。
+ 反馈Bug和建议：在酷安 App 搜索 JAYSuen私信我，或搜索 Evo Center 找到最新帖子评论。
+ 向ccborder16、horizontalsliders、bettercc致敬，感謝其设计与实现带来的启发。
+Name: Evo Center
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
+Depiction: https://eleveny123.github.io/EvoCenter/
+SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.2
 
 Package: com.jibamao.gaodeclean
 Architecture: iphoneos-arm64
