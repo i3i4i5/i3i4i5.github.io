@@ -18940,6 +18940,24 @@ Description: DuoStatus 启动保护器：拦截 SpringBoard 启动早期的 setB
 author: CallAssist
 name: DuoStatusGuard
 
+Package: com.charlieleung.liquidify.roothide
+Architecture: iphoneos-arm64e
+Version: 1.3.7-4
+Maintainer: 一刀
+Installed-Size: 40967
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.charlieleung.liquidify.roothide_1.3.7-4_iphoneos-arm64e.deb
+Size: 15421002
+MD5sum: 6a873a609434b5b3773bcaa8171c9c81
+SHA1: 806fe4d35c837a4b7f6cf3b77522942ac9502188
+SHA256: 0d1170f8ae5bdc982aa6c3b9b504ae21fa951df8351517b226bd9fba069566dc
+SHA512: 03da9d8c5e5304be144239b7f53f395a56f9520524ce51619a27d4c637403880125be1c98afa091d2b9aa38b6aa21acd33495c9f1654b2f3d4e8bf5b71955af7
+Section: 插件
+Description: 88液态玻璃隐根版（免授权）。修复键盘模糊。液态玻璃美化，RootHide 隐根兼容。内置本地票据验证，无联网，仅自用。
+Name: 88液态玻璃隐根版（免授权）
+Author: 一刀
+
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm64
 Version: 0.3-5
