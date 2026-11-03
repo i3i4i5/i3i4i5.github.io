@@ -18224,6 +18224,31 @@ Name: CPU Free
 Author: Axs<qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 
+Package: com.axs.duostatus
+Architecture: iphoneos-arm64
+Version: 5.2.0-101
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 548
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.axs.duostatus_5.2.0-101_iphoneos-arm64.deb
+Size: 59356
+MD5sum: a7676a75cb4699cac35c6c69abae0ec5
+SHA1: 50cc44afdd2720a35934ff6306fcba6cfd625b5d
+SHA256: 654d4e6a1e0b7f01d0721827801c3daeb3fe19c6c9c7eee8c246245d420d9ba4
+SHA512: 9b82f80337259588d40299395d6a36d386788a3cb36ff6296b438a76f16d637333efbc0454293673927fe5eaf7e77dfbb88e40ff0bc10bde26f5b498adaec838
+Section: 插件
+Description: 状态栏信号/网络/电量三合一圆环图标。
+ * 1.圆环=电量、底部圆点=信号、环内=WiFi 或 5G/4G 制式
+ * 2.全部取自系统真实数据，实时刷新
+ * 3.点按图标可展开系统原生图标，保持 2 秒后自动收回
+ * 4.支持自定义元素的尺寸/位移/线宽/配色等参数，改动即时生效
+ * 5. 支持ios15.0~17.3.1系统
+ * 6. 兼容电话助手
+Name: DuoStatus
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/duostatus.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
+
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm64
 Version: 0.3-5
@@ -18626,6 +18651,23 @@ Section: 插件
 Description: ACTikTok 简体中文包(rootless)。
 Name: ACTikTok 简体中文包(RootHide)
 Author: 妖刀
+
+Package: com.doimty.fiona
+Architecture: iphoneos-arm64
+Version: 0.3
+Maintainer: doimty
+Installed-Size: 304
+Depends: firmware (>= 15.0)
+Filename: debs/com.doimty.fiona_0.3_iphoneos-arm64.deb
+Size: 4962
+MD5sum: eebc8e660c42510908751004ebbaab3f
+SHA1: 260b67696805c3d92215bd597fa1ac6d0ba4c8b5
+SHA256: 6c99bc146296e388299cefc65152df439151176f36d8e130303e8c3c72396af2
+SHA512: 363baa8683e7dde69f309b54d53fd93676e2c7c04d3effe5c4ba065c5f59af8ceaa831fcee5d5b171cdd075cbaa7d631a6807ce932c6550222e64f7c652159fc
+Section: 插件
+Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
+Name: Fiona
+Author: doimty
 
 Package: com.ginsu.comet
 Architecture: iphoneos-arm64
@@ -19179,6 +19221,63 @@ Author: Nebbs
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.iyaway.frameviewer
+Architecture: iphoneos-arm64
+Version: 0.1.6
+Maintainer: iyaway
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader, firmware (>= 18.0)
+Filename: debs/com.iyaway.frameviewer_0.1.6_iphoneos-arm64.deb
+Size: 22234
+MD5sum: f07afb0a5a4b5c2d638d6dc11827ca05
+SHA1: 7efd72ef3690b6f40437e75d83df7ce30dd62c22
+SHA256: f13aacbb1986451b3eadadb3e6971a553f6aed0a40a56092bd875bb077bd9638
+SHA512: 21caba1f495d0c62675cdc3a2334ccfaf5964f005ac54ac51022f9a7bdaf9eb28eb7ebfed6f9af1d24485039efcca8ef18885610cd06a639b8f07536b150fed0
+Section: 插件
+Description: A filmstrip video scrubber in the Photos playback interface.
+Name: FrameViewer
+Author: iyaway
+
+Package: com.jibamao.gaodeclean
+Architecture: iphoneos-arm64
+Version: 0.9.98
+Maintainer: jibamao
+Installed-Size: 404
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.jibamao.gaodeclean_0.9.98_iphoneos-arm64.deb
+Size: 76062
+MD5sum: 1327a8fb18978e0ff70b061437338f0a
+SHA1: 1f81210cdbecd8ea7bc2feb70c6073f3286156ff
+SHA256: c017bc91e7956056e4e7f451b14aed74db55fc4c38c4d8268c51972b9f5027a5
+SHA512: 9fc4a3bef76c69baff841834308d08a92495101f52fa93f1a84ae52790ea98bd780e27d0b530f3f777b3682f9361954882fdc3b1dc7233acfc4a27c4179798f6
+Section: 插件
+Description: 高德地图界面精简 · 纯本地运行
+ 把多余的视觉干扰去掉，把该在的位置摆回原样；不抓网络、不改安装包、不采集任何数据。
+ .
+ 添加源 https://gan-jibamao.github.io 后搜索 GaodeClean 即可安装（RootHide 选 arm64e，
+ Dopamine / rootless 选 arm64，两者不可同时安装）。
+ .
+ 界面精简：
+  • 去底栏「上拉发现」引导提示，去上拉白雾与闪白
+  • 去顶部高斯模糊带，去首页白块
+ .
+ 位置归位（对表高德原生布局）：
+  • 搜索栏 / 天气行 / 连接车机 / 2D·3D / 定位·路线胶囊，各归其位
+  • 2D·3D 按钮回到定位·路线胶囊正上方
+  • 连接车机按钮位于天气行上方，天气行与按钮左对齐
+ .
+ 稳定不闪：
+  • 切页、切 2D·3D 不再跳动
+  • 冷启动全程不会在屏幕中部闪出按钮
+ .
+ 全版本自适应：按控件特征判定，不绑定具体高德版本号。
+ 只改界面显示，不影响搜索、导航、路线规划等原有功能。
+ 装后请注销（sbreload）或重启用户空间再打开高德。
+ .
+ 常用说明与更新日志见仓库 Release 页面。
+Name: GaodeClean 高德精简
+Author: jibamao
+
 Package: com.kernelrw.adytum
 Architecture: iphoneos-arm64
 Version: 3.0
@@ -19377,6 +19476,26 @@ Description: Customize your Control Center!_________仅测试用,有问题卸载
 Name: BetterCC-roothide
 Author: Miguelaka95 <miguelaka95@gmail.com>
 
+Package: com.mikifp.griddys
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Maintainer: mikifp
+Installed-Size: 272
+Depends: mobilesubstrate
+Conflicts: com.mikifp.griddy, xyz.cypwn.griddy, com.dao.griddy, byg.iosios.net.griddy
+Filename: debs/com.mikifp.griddys_1.1.2_iphoneos-arm64.deb
+Size: 27712
+MD5sum: 8aae089e780dfe4bf891cec1cffb11d1
+SHA1: faeda084168cc90068d1db57ef1efdea2be96919
+SHA256: 2631e631c14f41968777668d0a31507cdadeeec485ea92e69c89d33690503617
+SHA512: add9f92703326c7efb923c7fac380b17f9a9c459ffde4d66e8a33091c5f28424833c7ea4113d6966fc0958a7722d67bbed201193a29e781f93657101eab7ae37
+Section: 插件
+Description: 桌面图标可以随意摆放
+ * Layout your icons anywhere you want!
+Name: Griddy
+Author: mikifp
+icon: https://TrollStoreX.Github.io/sileodepiction/Griddy/icon.png
+
 Package: com.minis.lockscreengradientclock
 Architecture: iphoneos-arm64
 Version: 2.0.24
@@ -19430,6 +19549,47 @@ Description: B612 Unlocked VIP
 Name: B612 Unlocked VIP
 Author: Monian
 icon: https://huayuarc.github.io/icon/b612.jpg
+
+Package: com.moxuan.fontchange
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: moxuan1121
+Installed-Size: 2016
+Depends: firmware (>= 15.0), unzip
+Filename: debs/com.moxuan.fontchange_1.1.1_iphoneos-arm64.deb
+Size: 1645672
+MD5sum: 9ece45a2a9bebfb78d4e3c58534dd93a
+SHA1: 32b72b8fd53e583499cf9087b9b577abab0d3b1d
+SHA256: 71d5f3e81c8c780557e6086ff1e4e0c8cc86df234ab91297e79ca8f33edfa1f4
+SHA512: f0f0c2bdf5339299da7dd29132c7656a5a04c07d0331301f3a2462610defe9094880c32db500fcc9203b5a266be232e6f1cfad442a5dbbe158ed48a2078f4dd2
+Section: 插件
+Description: 字体挂载，支持 Rootless/RootHide
+ * 管理受支持的 iOS 15+ 越狱环境中的自定义系统字体和锁屏字体，刷新语言缓存、恢复系统字体，并重启用户空间。
+ * 界面与操作：点击“导入字体”，选择全局字体压缩包或自定义锁屏时钟字体。在“字体方案”中选择需要使用的组合。点击上方预览卡片，在全局字体与自定义锁屏时钟之间切换预览。点击“检查并开始执行”。FontChange 会依次完成字体替换、临时语言环境切换、全局字体缓存重建、原语言恢复和用户空间重启。如需撤销，点击右上角恢复按钮即可恢复系统原生字体。请将字体文件保存到「我的 iPhone」，不要直接从 iCloud 云盘导入。也可以从其他 App 使用系统分享菜单发送到 FontChange。功能亮点：真正的一键替换与缓存刷新：一次确认即可自动完成字体包校验、字体挂载、语言环境切换、全局字体缓存重建、原语言恢复和用户空间重启，无需手动进入设置反复切换语言。利用系统语言环境刷新全局字体缓存：不是简单覆盖文件或只清理普通缓存，而是调用 iOS 原生语言切换流程促使系统重新加载全局字体，同时由后台恢复任务保障语言设置能够自动还原。全局字体与锁屏时钟自由组合：既可以只替换全局字体或锁屏时钟，也可以为每套全局字体搭配独立的自定义锁屏时钟，所见即所得的实时预览。
+ * Manages custom system and lock-screen fonts on supported iOS 15+ jailbreak environments, refreshes language caches, restores system fonts, and reboots userspace.
+Name: FontChange 字体挂载管理
+Author: moxuan1121
+Icon: https://TrollStoreX.Github.io/sileodepiction/FontChange/icon.png
+
+Package: com.muzi.duostatusbar
+Architecture: iphoneos-arm64
+Version: 2.9.1
+Maintainer: muzikeji <muzi@local>
+Installed-Size: 604
+Depends: mobilesubstrate (>= 0.9.7000)
+Conflicts: com.34306.duobar
+Filename: debs/com.muzi.duostatusbar_2.9.1_iphoneos-arm64.deb
+Size: 119082
+MD5sum: cd15745de73506d4d08b0c3f6eb888f9
+SHA1: 753798ad3bf32d4b838a5db27f79b38f043c9a46
+SHA256: 7aa7bf827b07f5a7022b463ad16613273028df4c653fe68a8c62dcacc008be69
+SHA512: 0d5c9543138b04f46a2a7557735ed70a07fac03f47cdb4ffba3c58ef01e3eb9602f9b09c7ccf00b22c35bbf4e078dd1694372ab745ffefb0396eb49524a26fa1
+Section: 插件
+Description: 把状态栏的电量、Wi-Fi、信号三件合并为一个环形小组件,致敬 iPhone Duo 外屏。
+Name: Duo 状态栏
+Author: muzikeji <muzi@local>
+Icon: layout/Library/PreferenceLoader/Preferences/DuoStatusBarPrefs.plist
+SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.duostatusbar
 
 Package: com.nan.dpkg-fill
 Architecture: iphoneos-arm64
@@ -19832,6 +19992,25 @@ Description: Block notifications and take control of your digital well-being。(
 Author: ShemeshApps <tomerjshemesh@gmail.com>
 Name: NotiBlock-通知过滤-rootless
 dev: shemeshapps
+
+Package: com.sini.filzaswipeselect
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.sini.filzaswipeselect_0.0.2_iphoneos-arm64.deb
+Size: 8716
+MD5sum: 7bcbd25de2a6bbc3bf6989d8aeaff789
+SHA1: 88b0dc31959390f146fe408dd052773f16456502
+SHA256: bb35b028584d80704653eac118dcd8a340cf1b4953b29d61d2241f062d7a8cc0
+SHA512: 42ea0fa6a83386b93ae06069eee415e0c85889ce811f9dc24c705d2203007253819c06ea497dff1a0a0b1fc0e9d5bd342f32ee580a07d49fc4b473f4a6bfbfb1
+Section: 插件
+Description: Filza的滑动多选功能。不再单独点击每个文件进行选择。
+Icon: https://huayuarc.github.io/icon/Filza.jpg
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/filzaswipeselect/js.json
+Name: FilzaSwipeSelect
+Author: korboy <korboybeats@gmail.com>
 
 Package: com.sini921.cylinderreborn
 Architecture: iphoneos-arm64
@@ -20824,6 +21003,75 @@ Description: Icon styles and theme packs on iOS 15-18, 26 and 27; photo wallpape
 Name: DarkIcon
 Author: hades
 
+Package: iya.banana.dynamicmusicbg
+Architecture: iphoneos-arm64
+Version: 1.0.15
+Maintainer: banana
+Installed-Size: 500
+Depends: firmware (>= 15.0), firmware (<< 19.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/iya.banana.dynamicmusicbg_1.0.15_iphoneos-arm64.deb
+Size: 59926
+MD5sum: f671720f4574ab1a0428d1738ea6141d
+SHA1: 4c47b4d577207220411c1b479f5e33cde37dd674
+SHA256: abb8fbe8a4778c97c2c7132eeca43bd959f1bb5f5ae704ce7df4d529788191d3
+SHA512: e0db73f25ef09c8ebd4dd1effacc1b27941631c8b213df67450818ae2ea0a8c973437618093e4767b6d02c6ab8a7b2d16e03ac34b967c528255ed5feb3ca707e
+Section: 插件
+Description: Album-art-driven animated color fields for Lock Screen Now Playing on iOS 15 through iOS 18.
+Name: DynamicMusicBG
+Author: banana
+
+Package: iya.banana.dynamicnotch
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Maintainer: Banana
+Installed-Size: 1452
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 27.0), iya.banana.audioservice (>= 1.0.4)
+Conflicts: com.dth.dynamicnotch, com.dth.dynamicnotch-rootless, com.dth.dynamicnotch-roothide
+Filename: debs/iya.banana.dynamicnotch_0.1.2_iphoneos-arm64.deb
+Size: 242594
+MD5sum: f052c87c6dab4352ead4acc4d02f8ebd
+SHA1: 88ee79a197ba5465777ed5c6685962799659f9fe
+SHA256: a2589c0238b6a8d5d00b5f550b6231bb11b61f92ab96dfff423984bbf3954944
+SHA512: 46e1e72415482121f03053819ce3a3e5c38083ef03a79cddbfbae091b859645f52dbcaf2264fd5e7c5c555c7d9000a63cfe3691edc324f16124f2feb8b09feb3
+Section: 插件
+Description: Notch activities, notifications and adjustable glass for iOS 15–26.
+Name: DynamicNotch · 动态刘海
+Author: Banana
+
+Package: iya.banana.facetimeaudioenabler
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Maintainer: hxhlb
+Installed-Size: 832
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/iya.banana.facetimeaudioenabler_1.0.6_iphoneos-arm64.deb
+Size: 66930
+MD5sum: 2d5688f29e83ae7ae4dc4d84f801f6e7
+SHA1: 663d8124279a2045bbb5e39750f355776befe315
+SHA256: d07d509e4444fcd4c57078a919bd1e8d543c0aa0a920d0344df56407919f72aa
+SHA512: 43c7b45a054a198c635ec5f435e8b5ed441933882207e4124101cb4fc6454a18faf1bafa140d0d97969c8fe77b90f15ada8e1cba5961a6a54929ef874a30040c
+Section: 插件
+Description: Enables FaceTime Audio with a scoped runtime override on iOS 15-17 and a guarded MobileGestalt workflow on iOS 18+.
+Name: FaceTime Audio Enabler
+Author: hxhlb
+
+Package: iya.banana.iphoneduoflow
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Maintainer: Banana
+Installed-Size: 1376
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/iya.banana.iphoneduoflow_0.1.3_iphoneos-arm64.deb
+Size: 143438
+MD5sum: ad3a69f7498273e6105cc4b01ad5bedc
+SHA1: dbeb3e24b5dbe9c2eb96407e6ac2b474094f205f
+SHA256: b74dcf0f4c5def02d425e13e60c89c3935c7973bae7cf0b55b73619eecfd5efc
+SHA512: e32c6a282b43ae3209c56cf33e949f527c38cbdc132439d9ebf00b72a8bfb9a5af8b2681228597fa21083e34d6171c4f27b36904fda4dd8cb0d154837e1f9029
+Section: 插件
+Description: Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
+Name: DuoFlow
+Author: Banana
+
 Package: jp.akusio.backgrounderaction15
 Architecture: iphoneos-arm64
 Version: 0.01
@@ -21583,6 +21831,28 @@ Icon: https://owngoal-dev.github.io/Apelin/icon.png
 Depiction: https://owngoal-dev.github.io/Apelin/
 SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.duostatusring
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Priority: optional
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 328
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/wiki.qaq.duostatusring_1.0.1_iphoneos-arm64.deb
+Size: 63812
+MD5sum: b6dc2b05bbceb183364908a42eb6f3c3
+SHA1: 903e84041da23523e55b38aeb7286af29658c72c
+SHA256: 0535b7f19d0e4073a5740d285c27c3fdef44360dd5ee48c482aa8afb72e1f09e
+SHA512: 53fd11d147d11772285ee90bccca20da25f8923444b95ceae94e18209f79ad281b162cf89283071e7b99f9f0c846489125c51dbc2d6731d9d675a1a1c6b88846
+Section: 插件
+Description: Fold the status bar into a ring when the Dynamic Island splits.
+ When the Dynamic Island shows two activities side by side, the signal, Wi-Fi and battery icons fold into a ring beside the bubble, and unfold when the island becomes one again. No settings.
+Name: DuoStatusRing
+Icon: https://owngoal-dev.github.io/DuoStatusRing/icon.png
+Depiction: https://owngoal-dev.github.io/DuoStatusRing/
+SileoDepiction: https://owngoal-dev.github.io/DuoStatusRing/depiction.json
+Author: OwnGoal Studio <https://github.com/owngoal-dev/DuoStatusRing>
 
 Package: ws.hbang.alderis
 Architecture: iphoneos-arm
