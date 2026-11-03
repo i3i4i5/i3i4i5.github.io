@@ -21870,6 +21870,23 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/chatassist/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.chatassist.json
 
+Package: com.qianuo.morrorlyrics
+Architecture: iphoneos-arm64e
+Version: 0.8.31
+Maintainer: qianuo
+Installed-Size: 1872
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/com.qianuo.morrorlyrics_0.8.31_iphoneos-arm64e.deb
+Size: 351838
+MD5sum: ea31299249b2daa5cabe47f3cc6c420e
+SHA1: 06c06651997ac851a4f5076a35ab73153829c048
+SHA256: bf5de47885bc5e8d133efa1e12e16621da3fe1686c3c5af8786387a40033e806
+SHA512: 960c0e2c73cc2b6f3eae741e7e89dedbf812b97e4fad10b241e0f66f2f0bc1635f66855ebc746e48137f059c4c9647a0ad7c7b3b528fda10ab941fe7b3e56c59
+Section: 插件
+Description: Isolated music lyrics, playback clock, artwork and audio spectrum bridge, with independent native low-power mini island and Settings source selector.
+Name: MorrorLyrics Data Bridge
+Author: qianuo
+
 Package: com.qianuo.smartdeck.app
 Architecture: iphoneos-arm64e
 Version: 0.8.19
