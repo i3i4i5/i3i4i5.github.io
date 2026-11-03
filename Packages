@@ -17634,6 +17634,24 @@ Description: Asset.car,View the resource pictures in the native system car and s
 Name: Aphrodite-Assets文件查看
 Author: Joey GM & Acreson
 
+Package: cn.zqbb.hello.gradientsound
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: zqbb
+Installed-Size: 76
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/cn.zqbb.hello.gradientsound_0.0.1_iphoneos-arm64.deb
+Size: 5964
+MD5sum: bb079496cceb99785ab097c7d9afe26b
+SHA1: 6be5a857d3462afefdbf34d8e9b4712e6bf3c3f7
+SHA256: 34be3a2c24688837f5a2bcfe70c12f2dcd5322b3502ca038c49b5bfe7f79f6a2
+SHA512: 99d3811109bc5685f15716ceb96670db31d9c9ce4025859a6ce3f4d33e115b61bfd23f67da1e53e3573a75935efb439e5b85efeda38744c30f758d7aaec1b53a
+Section: 插件
+Description: 为时钟 App 的计时器响铃和铃声试听添加平滑渐强效果，从低音量开始，在铃声前半段逐渐提升至正常音量。
+Name: Hello GradientSound
+Author: zqbb
+icon: https://huayuarc.github.io/icon/gradientsound.jpg
+
 Package: co.dynastic.ios.lib.flora
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -18249,6 +18267,31 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/duostatus.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
 
+Package: com.axs.keyboardtools
+Architecture: iphoneos-arm64
+Version: 5.2.0-195
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 1348
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.axs.colorfulkeyboard
+Filename: debs/com.axs.keyboardtools_5.2.0-195_iphoneos-arm64.deb
+Size: 238082
+MD5sum: 7d7c4fab0f865244459334c77ab3e220
+SHA1: 11546c225760d3ca198b96632f6623c15335272d
+SHA256: 7ce35082a4b39a554312aad0efb41878070ddaf297c8a5aee5d9b6ead177c934
+SHA512: ffd66309c68fd4ebf0e73fed997f056295d27e10bc5c41a039800020f50f88c4867271ee2e0af96b92619a1cee9dbd1ba0ab2df06f37a9d9097e8a04dc570ed9
+Section: 插件
+Description: 键盘文本编辑工具栏（可置于键盘上方或键盘下方，复制/粘贴/剪切/撤销/全选等快捷操作）+ 炫彩键盘（点击光效、键盘背景配色、候选词变色）。
+ * 1. 工具栏动作：全选、复制、粘贴、剪贴板、剪切、撤销、清空、光标左移、光标右移、换行、收起键盘
+ * 2. 工具栏位置：键盘上方或键盘下方
+ * 3. 每个按钮的点击与四个滑动方向可各自绑定动作，动作显示名可自定义，改动立即生效、无需注销
+ * 4. 键盘外观：点击光效、候选词变色；键盘背景色分浅色/深色设置，点行用系统取色器选色（可调透明度）
+ * 5. 剪贴板需要安装 Clipboard 插件，才能调出面板
+Name: KeyboardTools
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/keyboardtools.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/keyboardtools/js.json
+
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm64
 Version: 0.3-5
@@ -18651,6 +18694,42 @@ Section: 插件
 Description: ACTikTok 简体中文包(rootless)。
 Name: ACTikTok 简体中文包(RootHide)
 Author: 妖刀
+
+Package: com.dao.keybar
+Architecture: iphoneos-arm64e
+Version: 1.1
+Maintainer: daodao
+Installed-Size: 428
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.dao.keybar_1.1_iphoneos-arm64e.deb
+Size: 48786
+MD5sum: 72863180a5a56a3d3371da2fd27ae188
+SHA1: 6f1f075696484f973172fb0c0c496d05d345eae3
+SHA256: a3ffb4af1301c3ac8cecf1a3b51237a5428966aae5ff7d3ea117605e40c93a89
+SHA512: c02c79d5ec2654e0ca0de0935ec1603f3c59978d8d1e9668b6d956693a584e315b074b18a549f0065c004d9fe11e520c963996c7e5ca30b6c2907dfc9af4c972
+Section: 插件
+Description: 键盘增强插件，支持调整键盘底部间距及地球键、听写键的垂直位置，并在键盘下方添加全选、复制、剪切和粘贴快捷按钮，长按即可快速收起键盘，让输入操作更加便捷。
+Name: KeyBar(RootHide)
+Author: daodao
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/keybar/js.json
+
+Package: com.dao.liqlite
+Architecture: iphoneos-arm64e
+Version: 0.2
+Maintainer: daodao
+Installed-Size: 520
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 14.0), firmware (<< 26.0)
+Filename: debs/com.dao.liqlite_0.2_iphoneos-arm64e.deb
+Size: 74776
+MD5sum: 2f6bb8d81e38d18b6eb4d4fd13a3d2d3
+SHA1: 7f6935250ecb058dd162727654641acf8224acc9
+SHA256: fd5854ddd921009ff9f704d4977858ef87cd9968b9e9302c524fb1289f2ed62c
+SHA512: 730ac898b486b16e29e5473631294f8fe124501242d21791c117cfe8d5e37f75b264dadc37350a3aece0691198d5cde3cc1994ea5823092d7e18b95dd3bcd9f3
+Section: 插件
+Description: 基于dylv/liquidass项目，程序坞和文件夹图标启用液态玻璃效果。
+Name: LiqLite(RootHide)
+Author: daodao
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/liqlite/js.json
 
 Package: com.doimty.fiona
 Architecture: iphoneos-arm64
@@ -19532,6 +19611,27 @@ Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
+Package: com.mlgm.kayoko
+Architecture: iphoneos-arm
+Version: 5.1
+Maintainer: mlgm
+Installed-Size: 3896
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/com.mlgm.kayoko_5.1_iphoneos-arm.deb
+Size: 822890
+MD5sum: 994d6d129a2215e2ebd9dc33f59633d6
+SHA1: 773cb1e13651e0b13a91bbeaa229493d9ce2f004
+SHA256: a9a7696c99f1accb780ae566e081a00d244c94973da2a16da5df49fa67e1e44a
+SHA512: d76cc2a899393b529add8f13a2972af56f82d618c7c70d46f5971b156f4ad5d1aaed758a3eed40917152fe9168df1a2c2ec5ad01765069ee748bfec866fe03a0
+Section: 插件
+Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/kayoko.png
+SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
+
 Package: com.monian.b612patch
 Architecture: iphoneos-arm64
 Version: 0.0.1
@@ -19549,6 +19649,23 @@ Description: B612 Unlocked VIP
 Name: B612 Unlocked VIP
 Author: Monian
 icon: https://huayuarc.github.io/icon/b612.jpg
+
+Package: com.mowang.kbglow
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Maintainer: MoWang
+Installed-Size: 180
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.mowang.kbglow_1.0.3_iphoneos-arm64e.deb
+Size: 24694
+MD5sum: 503b44527d86ed0831e68eb8d06015f0
+SHA1: d53d6f68f1adfaa94a63af6f5010efcb0d76627f
+SHA256: 9952e2482faa98f93043b2cd3f20d18032a1e826ee1d64e1096f4a025bac1c6f
+SHA512: 26730b817b5c8959fccd714d5e1b1b9da17d9289c69ee2dfdd9a3a34d226e2f608b7c77e7c9e4c145a44890e1f84af2df3b62e3d74e34c3aeb40994f56edc788
+Section: 插件
+Description: 第三方键盘按键发光效果插件
+Name: KBGlow
+Author: MoWang
 
 Package: com.moxuan.fontchange
 Architecture: iphoneos-arm64
@@ -19590,6 +19707,26 @@ Name: Duo 状态栏
 Author: muzikeji <muzi@local>
 Icon: layout/Library/PreferenceLoader/Preferences/DuoStatusBarPrefs.plist
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.duostatusbar
+
+Package: com.muzi.keyboardx
+Architecture: iphoneos-arm64
+Version: 1.0.9
+Maintainer: Muzi
+Installed-Size: 7236
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.muzi.kayoko, com.lindo.typex, com.restiveconch.actionbar, com.udevs.dockx, com.lindo.dockx, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Filename: debs/com.muzi.keyboardx_1.0.9_iphoneos-arm64.deb
+Size: 1802540
+MD5sum: 345a8dd30f287f15530472b092152de2
+SHA1: 9ef5ca0c8953812e358dd52230d3fa531a3f8ea1
+SHA256: b0eed646615308a35d3fa9a2e881dd93195cdd4144919038d209c77d982b320a
+SHA512: 03f67100efd5da24daeb206d73069feef28d5465b9be1586da1fea078de3db5131f1b458d9d437542b56dfb1618ab0e42a8357427e85b1d239551ac0443f6c23
+Section: 插件
+Description: 键盘增强 + 剪贴板管理 二合一插件。集成 TypeX 的双工具栏/六向手势/滑动面板/桌面手势/自定义动作/JS 引擎/AI 面板，与 Kayoko 的剪切板历史管理/搜索/标签/悬浮粘贴。
+Name: KeyboardX
+Author: Muzi
+icon: https://huayuarc.github.io/icon/KeyboardXHeaderIcon.png
 
 Package: com.nan.dpkg-fill
 Architecture: iphoneos-arm64
@@ -20795,6 +20932,52 @@ Name: 27Home
 Author: ngkhoi&泽哥
 Icon: https://MrSuuu.github.io/Sileo/depictions/icon-home27.png
 
+Package: com.zegeyoudaoli.liquidass27
+Architecture: iphoneos-arm64e
+Version: 1.0.0-125
+Maintainer: dylv&泽哥
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.liquidass, dylv.zege.liquidass, dylv.blurless
+Filename: debs/com.zegeyoudaoli.liquidass27_1.0.0-125_iphoneos-arm64e.deb
+Size: 3659872
+MD5sum: 6a6c0f39849fa70c07e50805fbfdc04c
+SHA1: 995563a4e61242c5eb6ee2b2cb3a89baa7810367
+SHA256: 0e0a46a5436a736955ff699c0c4e153ed3d1f8a59eb661612273587267d42b51
+SHA512: 661b3e0a30b59d1743ff619dbdfa0a96389d8723c816ea14f8d3a26455e2080881abb2a2eb5c1d9119075e521e873ed4143ec2d312e70ee4e2c3f68efb8ec404
+Section: 插件
+Description: 本版是基于原作者 dylv 的 Liquid (Gl)ass 项目维护自用。
+ 【本版的改动】
+ • 重构液态玻璃渲染引擎 / 对标 iOS 27 系统
+ • 重构锁屏大时钟减少卡顿增强观感
+ • 新增锁屏时钟/日期/通知/横幅/灵动岛/上下文菜单/警报渐变引擎并设置可调参数
+ • 新增小组件去背景及相应设置项
+ • 新增更多可调参数
+ • 新增全界面导航栏液态玻璃
+ • 新增底部弹窗 / App 弹窗液态玻璃
+ • 新增灵动岛液态玻璃（上岛全元素液态）
+ • 新增「灵动岛」设置页面
+ • 新增锁屏日期 / 农历行液态玻璃（跟随时钟效果）
+ • 新增锁屏“通知清除按钮”透明化
+ • 新增锁屏“通知中心”文字直接隐藏
+ • 新增音量 HUD 液态玻璃
+ • 修复锁屏时钟景深效果
+ • 修复锁屏场景下灵动岛取不到子视图的问题
+ • 修复 iOS 16 设备标签栏透镜渲染错位问题
+ • 修复灵动岛实时活动远端渲染黑块问题
+ • 修复标签栏文字闪烁的 bug
+ • 修复调试日志开关被诊断包硬编码为常开、导致渲染路径每帧同步写盘（卡顿/掉帧/发热）
+ • 修复总开关关闭后，仍然保持液态的问题（需多次注销）
+ 【兼容性】
+ 已验证：iOS 17.0（roothide / Relaxin 越狱）
+ 支持系统：iOS 16.0–17.3.1；部分 iOS 16 设备存在兼容问题，那些设备请改装「Liquid (Gl)ass · 泽哥维护兼容版」（包名 dylv.liquidass）
+ 本插件包名已由 dylv.liquidass 改为 com.zegeyoudaoli.liquidass27，与旧版本是两个独立插件：装了旧线不会自动收到本线更新，需要重新安装本包（安装时会提示替换旧包）。
+Name: Liquid (Gl)ass 27
+Author: dylv&泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon27.png
+Depiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.html
+Sileodepiction: https://MrSuuu.github.io/Sileo/depictions/liquidass27.json
+
 Package: com.zooah.debrecords
 Architecture: iphoneos-arm64
 Version: 1.2.1
@@ -20873,6 +21056,40 @@ Description: 深度优化的液态玻璃效果，智能帧率控制 + 全局数�
 Name: Ai液态玻璃
 Author: Ai
 Icon: https://winaviation.github.io/repo/depictions/dylv.Deepliquid/icon.png
+
+Package: dylv.liquidass
+Architecture: iphoneos-arm64e
+Version: 2-0.1.1-2c+island136
+Maintainer: dylv&泽哥
+Depends: ellekit, firmware (>= 14.0), firmware (<< 26.0), preferenceloader, com.opa334.altlist
+Conflicts: dylv.zege.liquidass, dylv.blurless
+Replaces: dylv.zege.liquidass, dylv.blurless
+Filename: debs/dylv.liquidass_2-0.1.1-2c_island136_iphoneos-arm64e.deb
+Size: 3530222
+MD5sum: a2bc75352837c42c2541980003206e6c
+SHA1: 9ee26f1560d72f60e40d549e0ece93043f2742f1
+SHA256: a3695955ceb508cf67dbe5a6620cbd4488bf226c9b982a64296aabaf46c16867
+SHA512: 1c87fe637d51580290710b427a58872c881ffae95b7a81f7d9fad40092ce0c86a52dbe7e62151062792fdeb74a27b2f7e63358fd771a2215bc950c157c8a33fc
+Section: 插件
+Description: 基于原作者 dylv 的 Liquid (Gl)ass 0.1.1-2b 维护自用。
+ 本版的改动
+ - 修复锁屏快捷操作在 iOS 17 不生效的 bug
+ - 新增底部弹窗/App弹窗液态玻璃；新增灵动岛液态玻璃（壁纸实时采样，展开/收起全程几何跟随）；
+   新增锁屏日期/农历行、通知清除按钮液态玻璃；新增锁屏时钟/日期渐变色
+ - 新增音量 HUD 液态玻璃（iOS 17，锚点 SBElasticVolumeViewController + SBElasticSliderView）
+ - 音量胶囊：修正默认色调透明度过高（80%→10%）；隐藏胶囊内 depth2/depth3 原生材质让位玻璃，
+   白色填充条/音量图标保留；玻璃几何按原生胶囊内容链同心 1.318 倍对齐（修复内缩轮廓线、
+   跳位、内部小胶囊等动画异常）；胶囊形 mask 裁剪内容；每帧守护同步几何
+ - 修复灵动岛黑块：对内容子树套合成级 screenBlendMode（屏幕混合方案）
+ - 呼出/收起两态均显示玻璃；bezel 渲染参数修正为 7（prefs 覆盖，backboardd 立即重载）
+ - 重写音量 HUD 玻璃的注入位置（二十修，经实机逐帧定位后的关键结论）：玻璃改插到
+   _CCUIBaseSliderContentView（内容视图）内部，其 bounds 就是真胶囊尺寸 46.5×146.6，
+   天然重合 —— 废弃此前"1.318 同心放大 + 自定义 mask + 宿主不能裁剪"的整套绕法
+   （那是因为玻璃一直插在外层滑块里，而外层 bounds 只有胶囊的 0.76 倍，才派生出
+   内缩线/跳位/白条错位/内部小胶囊）
+Name: Liquid (Gl)ass · 泽哥维护兼容版
+Author: dylv&泽哥
+Icon: https://MrSuuu.github.io/Sileo/depictions/icon.png
 
 Package: emt.paisseon.xinamine
 Architecture: iphoneos-arm64
@@ -21055,6 +21272,39 @@ Description: Enables FaceTime Audio with a scoped runtime override on iOS 15-17 
 Name: FaceTime Audio Enabler
 Author: hxhlb
 
+Package: iya.banana.hide2less.compat
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Maintainer: Banana
+Depends: firmware (>= 15.0)
+Filename: debs/iya.banana.hide2less.compat_0.1.0_iphoneos-arm64.deb
+Size: 31314
+MD5sum: acec38fcfa6b63474507662eb8edbfe6
+SHA1: 4d8aa1c82023e3c6674c6a286b4852058dab12fa
+SHA256: 315cd37b903cd7a90fff890d6b95555f6368d2859142ba868bff4ccfcb804ca8
+SHA512: 338ec772f7874a556f6ea4f9f840927ea49361f55d549200534b25aa18552840b8947e5bec74ece035ace2857dd4485eea6b87068ee63df3fdf5df1c3f1cb045
+Section: 插件
+Description: Shared path API compatibility for packages converted by Hide2Less.
+Name: Hide2Less Compatibility
+Author: Banana
+
+Package: iya.banana.hide2less
+Architecture: iphoneos-arm64
+Version: 0.1.2~beta10
+Maintainer: Banana
+Installed-Size: 516
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid
+Filename: debs/iya.banana.hide2less_0.1.2_beta10_iphoneos-arm64.deb
+Size: 151904
+MD5sum: b8f04dc9b5596a79463173afe78f6c52
+SHA1: 82afdff719a0ff4bcc280d7d33363f11047cc63e
+SHA256: 89d6fccba055e4f74527c5c8a9539317dbeefc5cd0b084ae7c6e894db1ef9528
+SHA512: 0614471b7c9488b82dfa684784652d5abbe1b910404b8bb21f3b3c1afafb8c7be8f521318cefb09170e4daf103dddb494672a27856e6091e0b7a4691227b53ea
+Section: 插件
+Description: Convert supported RootHide tweak packages to Rootless on device.
+Name: Hide2Less
+Author: Banana
+
 Package: iya.banana.iphoneduoflow
 Architecture: iphoneos-arm64
 Version: 0.1.3
@@ -21070,6 +21320,57 @@ SHA512: e32c6a282b43ae3209c56cf33e949f527c38cbdc132439d9ebf00b72a8bfb9a5af8b2681
 Section: 插件
 Description: Tilt-driven scene shade, native landscape Dock, status ring and Control Center controls.
 Name: DuoFlow
+Author: Banana
+
+Package: iya.banana.jumpguard
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Maintainer: hades
+Installed-Size: 560
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Filename: debs/iya.banana.jumpguard_0.1.2_iphoneos-arm64e.deb
+Size: 66896
+MD5sum: 8f2461505dc9c4a62b4b852fc7d02fb3
+SHA1: 18d12de63116ac2a94ec670f5f5ff231675ddf34
+SHA256: ae21e54e432fafa72d6996d764085e26b2125e16d4db65af3904dbe5829040d9
+SHA512: 33d09e4cdab8b66c7c687e5ede15d76a234db79664544f1ddd22cdc144c68c3847842e822804c63eac64cdad0e233e62c5968b7d936f41470cb084ae960aa61c
+Section: 插件
+Description: Confirm or block cross-app launch requests on RootHide iOS.
+Name: JumpGuard
+Author: hades
+
+Package: iya.banana.lenticularwallpaper
+Architecture: iphoneos-arm64
+Version: 0.0.9
+Maintainer: banana
+Installed-Size: 616
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3)
+Filename: debs/iya.banana.lenticularwallpaper_0.0.9_iphoneos-arm64.deb
+Size: 78704
+MD5sum: b4d69fe7732e4c12a3301ad821cdc2e1
+SHA1: a74e02b451c7f87f86b5d81f24e913d49ad16269
+SHA256: 02dada89d5598e8ed42e511c6d7d674f9edf7132a04a2a6573c4b616f6c45879
+SHA512: 8f038ffb42a058f1968fb75035c31b89a7570aaa87d3ab3b2ef8cb02f648332cbf7f38d5441eaab22197bc54a8913450050a6755442498a0c4d37288d4b1199e
+Section: 插件
+Description: 趣味壁纸，为 SpringBoard 提供重力感应的多层、APNG、转场与光照壁纸效果。 / Fun Wallpaper with gravity-driven layered, APNG, transition, and lighting effects for SpringBoard.
+Name: Lenticular Wallpaper
+Author: banana
+
+Package: iya.banana.pickerwheeldock
+Architecture: iphoneos-arm64
+Version: 0.1.2-1
+Maintainer: Banana
+Installed-Size: 556
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: debs/iya.banana.pickerwheeldock_0.1.2-1_iphoneos-arm64.deb
+Size: 68030
+MD5sum: a412b34e1831c4cb63c9e84f729d76f5
+SHA1: 8e6e9d574abd4ce8561f3587529f420e50f9b8b9
+SHA256: e8c891b55514b7a4aa7ff02e7bf7caf45275b5516692b77ba7400dbb37fb4f2d
+SHA512: 04f522816d821e98d6fb8a3614fb2d2af338de6ca5fdec8a181a62279d64effb8a685a913e260ebd6182b819abd80d421e824d5b01e452231ebb0028f76e097c
+Section: 插件
+Description: A magnifying and scrolling Dock for iOS 15, 16 and 17.
+Name: KineticDock
 Author: Banana
 
 Package: jp.akusio.backgrounderaction15
@@ -21853,6 +22154,63 @@ Icon: https://owngoal-dev.github.io/DuoStatusRing/icon.png
 Depiction: https://owngoal-dev.github.io/DuoStatusRing/
 SileoDepiction: https://owngoal-dev.github.io/DuoStatusRing/depiction.json
 Author: OwnGoal Studio <https://github.com/owngoal-dev/DuoStatusRing>
+
+Package: wiki.qaq.inspector
+Architecture: iphoneos-arm64
+Version: 0.6.8
+Priority: optional
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 2808
+Depends: firmware (>= 15.0), uikittools, launchctl
+Filename: debs/wiki.qaq.inspector_0.6.8_iphoneos-arm64.deb
+Size: 1052050
+MD5sum: e9540c5f3d79cf66ddaf8a9c3b58bdbe
+SHA1: 1a10fd3c6191fc093e82e680d0d25c78d95496d0
+SHA256: 57206a41dead6cda21c3c804016d23f2c4ad1f52e1ccaef28ae08954e8356378
+SHA512: ae0de7cd7fae6446261bfae9afb1987f5991c2cfc06a9c5b2d5a7dfbc7c463c04085ee19dec521fb5ecb15c56e0e6c7df4060b539f0fc552b121d7505123a711
+Section: 插件
+Description: Live process inspector for iOS on custom firmware (rootless)
+ See what your device is actually doing. Every running process, refreshed once a
+ second, with its CPU share, memory, thread count and owner. Search by name or
+ PID, sort by any column, filter down to system, user or app processes, and
+ pause the list to hold a moment still. Open a process for its threads, open
+ files and sockets, Mach ports, loaded modules, sandbox status and disk and
+ network use, then quit it, force quit it, or export the whole report. The
+ `inspector` command answers the same questions from a terminal. Available
+ in English, Simplified Chinese, Japanese, Russian, German, French, Spanish and
+ Arabic.
+Name: Inspector
+Icon: https://owngoal-dev.github.io/Inspector/icon.png
+Depiction: https://owngoal-dev.github.io/Inspector/
+SileoDepiction: https://owngoal-dev.github.io/Inspector/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64
+Version: 5.1.5
+Priority: optional
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 20816
+Depends: firmware (>= 15.0)
+Filename: debs/wiki.qaq.irisin_5.1.5_iphoneos-arm64.deb
+Size: 5321312
+MD5sum: 46e3b6ad6d0f25d4025a5cc78f0c01a3
+SHA1: 76f51bb409487e7cfdb83158c0605d1dc0e0e4f3
+SHA256: f8b727b5260d37e6c472a82d17cbb3ce0fd1fc73f9c91266134821c7cc21072f
+SHA512: df115a2e547e66e6f2eb07f7367bd9d87ccfeed5171f83d5eb95d5acfff0ba04b268a56f36d25a0a9f935b041c171354ebca8baf65da530e36b9912b2bff2c29
+Homepage: https://github.com/Lakr233/Irisin
+Section: 插件
+Description: Modern package manager for rootless custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
 
 Package: ws.hbang.alderis
 Architecture: iphoneos-arm
