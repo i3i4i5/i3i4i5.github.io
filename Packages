@@ -18019,6 +18019,23 @@ Author: 82Flex <82flex@gmail.com>
 Icon: https://axs66.github.io/pro/icon/singlevpn.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
+Package: com.82flex.touchvis
+Architecture: iphoneos-arm
+Version: 4.2
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 3644
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.82flex.touchvis_4.2_iphoneos-arm.deb
+Size: 728442
+MD5sum: 65b8c41584b9cc77cc6e019f106a15e7
+SHA1: 812c2eafaa25c4b9dda2d131487f0624fd40dec3
+SHA256: 647ae9295e9ae3e44db516b4f22484435b72ddc54dd6fc7fd6be13e367deca5b
+SHA512: 08da9b33eb037c8a4a33deed48578fa1e4774cfbaadb51f90341808dbb717f4e1573ca727a0978af0d716b2b848c01c18a401082b26e03adf73928fe5cf37192
+Section: 插件
+Description: Display your touch interactions!
+Name: Touch-Viz
+Author: Lessica <82flex@gmail.com>
+
 Package: com.Axs.3dappversionspoofer
 Architecture: iphoneos-arm64
 Version: 2.1.1
@@ -18116,6 +18133,49 @@ Author: AFN Team
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/afn/js.json
 
+Package: com.Axs.floating-view
+Architecture: iphoneos-arm64
+Version: 1.6.0-6
+Maintainer: Axs
+Installed-Size: 2700
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.Axs.floating-view_1.6.0-6_iphoneos-arm64.deb
+Size: 652840
+MD5sum: 0d2d5aac852ff4378c2166ba65a1f5ab
+SHA1: 8cee066216cf72b1fdf8062d8c995570271c0782
+SHA256: b1607a1dc635f30616b1a138a0975299bf779758029331b35765fdd9ef6fd8a0
+SHA512: cf87c049b04685ad6d59664719081b8da2e9709b76e380e700da946eaddc6954a4050590e203b703930091a5bfd70a4017afc9b2033182684dd7e5fd0ed07c3e
+Section: 插件
+Description: 温馨提示:
+  * 1、仅供个人备份与学习研究使用。
+  * 2、本插件未经过大量设备测试，仅在 iPhone 14 Pro iOS 16.2、iPhone 14 Pro Max iOS 16.5 无根越狱环境下测试正常可用。
+  * 3、本版本仅处理授权验证逻辑，插件其他原有逻辑未作修改。若安装后无效、冲突或导致设备/应用异常，请自行卸载。
+  * 4、免责声明：安装和使用本插件所产生的一切风险由使用者自行承担。如因插件本身兼容性、原始代码逻辑或其他未知问题导致设备、系统、应用出现异常，请联系原插件作者处理。本人不承担因此产生的任何责任。
+  * 5、安全预警：鉴于越狱圈内部分特定人员（如Fv作者、苏苏、Wkk等）存在发布恶意格机代码、恶意抹黑及录制栽赃嫁祸视频的前科，需要用户自行甄别，从正确渠道下载插件。
+Name: FV分屏（免授权）
+Author: be-huge
+Icon: https://axs66.github.io/pro/icon/svp.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/floating-view/js.json
+
+Package: com.Axs.kongzhidiy
+Architecture: iphoneos-arm64
+Version: 2.3.3-end
+Maintainer: binglan
+Installed-Size: 3028
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.Axs.kongzhidiy_2.3.3-end_iphoneos-arm64.deb
+Size: 674340
+MD5sum: 666e7676fdc00eb84385165fde65a776
+SHA1: f9aa43f3a24de302530bd4c9884e117f4216fa25
+SHA256: 6586461cacda4d16afbe9a5fbbcd4ff3ad95bc92bf1aec96d633cf5fd3c5489b
+SHA512: 430ab544d1c31eeeab66ede8db6c127fec690da696cabf04f0f2f24d40ec3eef75013abede72f3f5bfa584d0b3f92681e680d151b51476395b757d459c5b55d4
+Section: 插件
+Description: 这是一个简单的控制中心美化插件。
+Name: 冰蓝控制中心2.3.3-end（免授权）
+Author: binglan
+Icon: https://axs66.github.io/pro/icon/kongzhidiy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
+
 Package: com.Axs.liquidglass
 Architecture: iphoneos-arm64
 Version: 0.1.2.3-22+debug
@@ -18151,6 +18211,25 @@ Description: App Store搜索Picsew，一款非常好用的长截图软件！本�
 Name: Picsew长截图 vip
 Author: x <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/picsew.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.qjsy
+Architecture: iphoneos-arm64
+Version: 4.1.6
+Maintainer: 冰蓝
+Installed-Size: 2496
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.qjsy_4.1.6_iphoneos-arm64.deb
+Size: 336980
+MD5sum: 165846e289de27614390df65340d308f
+SHA1: 016ab93d30fbc01d80acfbbe2df8f182d82f44c4
+SHA256: 7e2323b3a4a5f5ee8b3b7ffa98370a5de3d091ab9f667475ebdbfcddc758b0a5
+SHA512: 94c4b148db704f0cae962b27769b55a5e7bf48451855467f8e181952a01966ba347cebd91ec1ba1d620ec0c036363d06d0615347c9a55c0a95db0ec1afcc8392
+Section: 插件
+Description: 让简单截图，拥有更多可能。
+Name: 全局水印Pro（免授权）
+Author: 冰蓝
+Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
 Package: com.Axs.qsyy
@@ -18210,6 +18289,43 @@ Author: be-huge
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/wechat-push-msg-page/js.json
 
+Package: com.Axs.xmzs
+Architecture: iphoneos-arm64
+Version: 1.1-4C
+Priority: optional
+Maintainer: xmmm
+Installed-Size: 3728
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.Axs.xmzs_1.1-4C_iphoneos-arm64.deb
+Size: 1091608
+MD5sum: 8349817d3f3e4a0d935c64405f66b67c
+SHA1: bcc6b9659cde00cbe4eaa8b058ddbecebab51f81
+SHA256: ec9fda06272a8af6478dfdc3db90ee05e4a34fc664b5ae89b013e5867fcc6a19
+SHA512: 0f0a50bdd03b954a61806b72a5691e4b2e840ef34a4abe9056c07240cff181a6318e4cafeaffab2d4cc980edc0e6d07707a57ce9c780df69d2f8e7e89a3c45fd
+Section: 插件
+Description: 微信功能扩展
+Name: 熊猫助手（免授权）
+Author: xmmm
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/xmzs/js.json
+
+Package: com.MoWang.islanddigest
+Architecture: iphoneos-arm64
+Version: 0.3.25
+Maintainer: MoWang
+Installed-Size: 2108
+Depends: firmware (>= 15.0), firmware (<< 18.0), preferenceloader
+Filename: debs/com.MoWang.islanddigest_0.3.25_iphoneos-arm64.deb
+Size: 1571446
+MD5sum: 9862a2a9fe09f9aaf0de681fcb2afe06
+SHA1: 9ed24cfa7859b1f3315ec82fe43173dbff9cb06c
+SHA256: e7c66d52bdc66903278917eb2ed0cc5914c3f404682f40ae90fbfd9ed643cf95
+SHA512: 688c814f007c2f5cf88e58913dad96299a12c763de5c7915127d343b8b12640ac7e616c11e74b5dc7c2c90603ae7dfcac75b8c0ce526e04b7efc92d7a90441b9
+Section: 插件
+Description: 以简洁的应用胶囊归纳锁屏通知，严格保护锁定状态，并在解锁授权时显示系统通知预览。
+Name: 灵屿通知
+Author: MoWang
+
 Package: com. MoWang.islanddigest
 Architecture: iphoneos-arm64
 Version: 0.3.5
@@ -18244,6 +18360,40 @@ Description: 结合物理按键手势与六轴空间方向的高效插件，支�
 Name: AxisKeyGesture
 Author: aa22qq
 icon: https://huayuarc.github.io/icon/axiskey.png
+
+Package: com.anfyya.screenshotbypass
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Maintainer: Minis build (upstream Anfyya)
+Installed-Size: 352
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.libsandy, firmware (>= 16.0)
+Filename: debs/com.anfyya.screenshotbypass_1.0.2_iphoneos-arm64e.deb
+Size: 24724
+MD5sum: 832aa577679542adae980218b8e1e0a7
+SHA1: dcfcff8680a8f811f5b6469582a250a019eb1cd4
+SHA256: fbe71660b7465e5064cda42035e4f1d9c6679241bdbe6d9518089e63cbf4c419
+SHA512: c482df6a05311b3cc8776272246bf63a03bf40e975da2014068fffba83faed5478c957bf0f14c16c379069479c33d08ed6d62dfbc2a814b3223483d3625da6b4
+Section: 插件
+Description: 小工具。屏蔽截屏录屏检测
+Name: ScreenshotBypass
+Author: Anfyya
+
+Package: com.anyi.wcpluginsclone-v4.1.6
+Architecture: iphoneos-arm64
+Version: 4.1.6+trollfix
+Maintainer: Anyi <anyi@example.com>
+Installed-Size: 1612
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Filename: debs/com.anyi.wcpluginsclone-v4.1.6_4.1.6_trollfix_iphoneos-arm64.deb
+Size: 836156
+MD5sum: 7d431e7be070132fa73be5cd58d4cd2f
+SHA1: 79ed026a2950d9375fa7e4f8a9228fda127ef589
+SHA256: 4272924cc97c17f1825eabd22cb86982c96ee63e4fcc1f5f32034a8f2c7d7062
+SHA512: 0ac95bad17b1abdbb0a58ad1e446522d4ce20bab3ddddf74c33dd70abf5af6c6f78b7a2f00a922af91d73c6fa30804508b3c244620a6213eaaf3c8829db696c5
+Section: 插件
+Description: 微信插件收纳美化
+Name: WCPluginsClone
+Author: Anyi
 
 Package: com.apper.neigou
 Architecture: iphoneos-arm
