@@ -17850,6 +17850,258 @@ Author: Netskao
 Icon: https://axs66.github.io/pro/icon/ccbadgeclear.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ccbadgeclear/js.json
 
+Package: com.Axs.ccborder
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: Axs
+Installed-Size: 404
+Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.alderis
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
+Filename: debs/com.Axs.ccborder_1.1.1_iphoneos-arm64.deb
+Size: 28360
+MD5sum: 431dca615a84c65c4d3edbc120ffa86a
+SHA1: e1cbf908d60bc368838ff7b797913dbe6749d527
+SHA256: b7e1d391d41a88acae87c2c21dc06b81e823b7f295de7511f3e492fa94ea3046
+SHA512: 932bf7f08e8f88d6d0f964b3e5d4792a52d4f0ad745c24471dfb2ec2efd8b71d94d8042b7a8400ced4114fb352e157e2389f97438564416e1e3c808fb48b2189
+Section: 插件
+Description: 像CoolCC一样，删除控制中心模块背景并添加边框，控制中心发光。
+Author: fiore
+Name: CCBorder控制中心发光
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/ccborder.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ccborder/js.json
+
+Package: com.Axs.ccglow
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Maintainer: Simon
+Installed-Size: 384
+Depends: mobilesubstrate
+Filename: debs/com.Axs.ccglow_2.0.3_iphoneos-arm64.deb
+Size: 24228
+MD5sum: aec7eef03cc17ca6049907b12f9810e8
+SHA1: 2d41588cc6003bfaa941f528304abf05cf1db906
+SHA256: 5c278f708bec98090ddad48e158846ecf80fc72cd84b8860f7089f31793f98b4
+SHA512: a82bb9c720f38a6ba2055d8f3d9f839795f329b4a87f3633168a0701b12e8f715066697a64ed219d3167427fc98a222c34b6ded3ffd330dd7c67e9e47ca9fa74
+Section: 插件
+Description: 控制中心发光
+Name: 控制中心发光
+Author: Simon
+Icon: https://axs66.github.io/pro/icon/togglow.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ccglow/js.json
+
+Package: com.Axs.cclifttowake
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: Axs
+Installed-Size: 172
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: debs/com.Axs.cclifttowake_1.1-1_iphoneos-arm64.deb
+Size: 16480
+MD5sum: b7dc691fdb21a0c98e8657c21d7dbfd0
+SHA1: 4be4207d96cabde33bc86f283a027ca0b19bd4b2
+SHA256: 41cc0fe96ae6ca84203c7dd41214f7e7d26a4273defa4bee8a02c301d6864aac
+SHA512: 46ead798b1f5a7d97deb87fc00ccc2728a2e69a41cd27cc862ae3b560769c9aa660a28e4ae3ae9bd8d8b46295e13d12d476202300a5c4fc24cd030ff8b60b1c7
+Section: 插件
+Description: Quickly enable or disable Wake on Lift from Control Center, Support iOS15+。快速启用或禁用从控制中心的升降机上的唤醒，支持ios15+
+Name: CCLiftToWake 控制中心唤醒
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/cclifttowake.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cclifttowake/js.json
+
+Package: com.Axs.ccmusic
+Architecture: iphoneos-arm64
+Version: 2.4
+Maintainer: simon
+Installed-Size: 564
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/com.Axs.ccmusic_2.4_iphoneos-arm64.deb
+Size: 75616
+MD5sum: 568c044e5d14cecf325df3efd1a711f8
+SHA1: 77f03b2ac6f9012458b5d06502e263198495f426
+SHA256: 47b364cb97cb428b6bec942887229f3330ec58ffdc2f915cf9f46769629012a0
+SHA512: 0a3e9915111fd8741bef409eb315b3f67d1880988a7aad4f366841462a807c73ff4267f01e698ffb61eb5ba1b287ea20ce4624231f41e1932a3cd30c7e1e6071
+Section: 插件
+Description: 为控制中心的音乐模块添加动画
+Name: 控制中心音乐模块动画
+Author: simon
+Icon: https://axs66.github.io/pro/icon/ccmusic.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ccmusic/js.json
+
+Package: com.Axs.ccuiplayer
+Architecture: iphoneos-arm64
+Version: 1.0.7
+Maintainer: Axs
+Installed-Size: 436
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.ccuiplayer_1.0.7_iphoneos-arm64.deb
+Size: 45924
+MD5sum: e6880d09318892c4ac49ecbe3b0ffbe3
+SHA1: e69233ddf5f1779559d9f03fd868e3f1f8017b6c
+SHA256: a6bfdf726e8f7b3225a0ade94dccc5241975f149c8eade0e6ea092f6e80dd98d
+SHA512: cc9ab29caec9fc0501fe9622de91dcd20591393f7e2a8e67a082cb3b67642cd0df3c6da621e12653e2bb31f412be63a612f3a5e7313b5c1630c8dc721a5fc3ba
+Section: 插件
+Description: 控制中心音频窗口背景插件
+Name: CCUIPlayer 控制中心音频背景
+Author: 🐶
+Icon: https://axs66.github.io/pro/icon/ccuiplayer.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ccuiplayer/js.json
+
+Package: com.Axs.ccweathermodule
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: Axs
+Installed-Size: 356
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.Axs.ccweathermodule_1.0.4_iphoneos-arm64.deb
+Size: 92732
+MD5sum: 09e4c1533416a2636626b2ff6d8eaa0a
+SHA1: 2b2429cbc3cc0aa84479a6193fdd973840bbb290
+SHA256: 7c927994f103e4bfd8b9285d20e6bc5e60b593b85c9230deaf834bf5892a7e7e
+SHA512: fa059b57c17df6603c9c924c33b06e0f8e1f70232a63307db92c1c4b544403fd9685a9218c61a6cd1e92fb6bb933b41bc7b5da2c00b2bcb404767e57c51081a7
+Section: 插件
+Description: 控制中心的天气模块。 显示当前天气、温度和每小时预报。
+Name: 控制中心天气
+Author: simon
+Icon: https://axs66.github.io/pro/icon/ccweathermodule.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.cellbadge
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Priority: optional
+Maintainer: Axs
+Installed-Size: 432
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.cellbadge_1.0.1_iphoneos-arm64.deb
+Size: 36408
+MD5sum: b6933a8687ffef264cb29bb8798f563e
+SHA1: 3f750f1d5920694e0733e700d5ea8d59f484fec6
+SHA256: 9adf3434e1f82b3b139041c68ad5bc97781389c49b60f1d319bb64a0bc7897b6
+SHA512: f28fbb057c1f532abcfec81a136e7807378198789c34745a368d634e96d1df6d90ee173e696feb97426b19a6a91f93562c6bac157b39a8f60fb373f53d4120ad
+Section: 插件
+Description: 为设置列表中的项目添加自定义图标前缀，支持iOS 14.5+
+Name: CellBadge 系统设置前缀图标
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/cellbadge.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cellbadge/js.json
+
+Package: com.Axs.centerswitcherlabels
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 14.0)
+Filename: debs/com.Axs.centerswitcherlabels_0.0.1_iphoneos-arm64.deb
+Size: 4628
+MD5sum: 8d2a4ed53dd9a88700a61ad7360495db
+SHA1: 0d8ff82fc6470e686f89016b65d4cef7c03578d0
+SHA256: f7e3ae831fb91032111f7c0ee83fcbab9458e0766d0cf435730ba71d8190510f
+SHA512: acf4561b0e311aae01f588b8bdffb7184fa771fefd0c93f8f36f43cae36fa479a3273ded1c2da0364a4d7e767794f66f5cd96b5bf4a0ffd09245d189726828a4
+Section: 插件
+Description: Centers the label and app icon in the iOS app switcher for a cleaner look.将标签和应用程序图标置于iOS App Switcher中，以使外观更干净。
+Depiction: https://axs66.github.io/pro
+Name: CenterSwitcherLabels 标题居中
+Author: Korboy
+Icon: https://axs66.github.io/pro/icon/centerswitcherlabels.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/centerswitcherlabels/js.json
+
+Package: com.Axs.chatcapture
+Architecture: iphoneos-arm64
+Version: 1.0-7
+Maintainer: HM
+Installed-Size: 1760
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.chatcapture_1.0-7_iphoneos-arm64.deb
+Size: 423688
+MD5sum: b75c7a46b3487786d8a1e947329beb8f
+SHA1: afb15cd5e97bd4d1c7f5539e2b92b757f23cdfd0
+SHA256: bc5509f4f55306c11b0d168bd1401adfdaa1e602871202a56d0d55a68ce7e0e1
+SHA512: c1d5e37b88b2e888ddbf89bb3b55636196633f71c79d9f88262d962b51bc32cc1a411dab48814734febc8040e387bbce9f54852d4f4c58fd9f262297b0638bd0
+Section: 插件
+Description: 群聊/私聊 多选消息(长)截图插件，默认生效，多选消息后点击「更多」→ 截图 / 截图(打码)；齿轮图标进入设置。
+Name: ChatCapture
+Author: HM
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/chatcapture/js.json
+
+Package: com.Axs.chatgpt
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Axs
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.chatgpt_1.0.0_iphoneos-arm64.deb
+Size: 4176
+MD5sum: 311d6e30f4d6cdf339c810a877f41d1d
+SHA1: 8f32c68cd2d5c58618995d10eb696c81140cf248
+SHA256: 1b265f80599ec3e8d3006e0cf910eb5da439f326355b109c4e5e3a80c7e3e3e3
+SHA512: 956bc51e2e659fd48c0142a259a1d48aae4c2edd72d4d10ff9d83b831501a7aacd4f93f3534713e9e6d1cebaf34f4ea03204f4343124e0369a683be92ed2e2dd
+Section: 插件
+Description: 去掉ChatGPT每次打开都让更新系统的弹窗
+Name: ChatGPT 隐藏更新提示
+Author: A
+Icon: https://axs66.github.io/pro/icon/chatgpt.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/chatgpt/js.json
+
+Package: com.Axs.chromahomebarx
+Architecture: iphoneos-arm64
+Version: 1.0-2
+Maintainer: Afnan Ahmad & SINI
+Installed-Size: 480
+Depends: mobilesubstrate, ws.hbang.alderis
+Filename: debs/com.Axs.chromahomebarx_1.0-2_iphoneos-arm64.deb
+Size: 42132
+MD5sum: bc8647d55ffe5511ccf7cf23fde62a38
+SHA1: 20eb3caeaaf486c5c52ad3682a94b70348f622f7
+SHA256: d7de8aab0b5e3f79de8dbd806fc5c3cb9ec4ac2d12265e7ab66d9f1e04d00b5c
+SHA512: be2e74ceb623177854e92cb8ec2e9e369f4a28fb752c9fb41745515cd9c47f6a37791370d42a4be58817baa18bdaef56f70a207a87ab8de9e374e0ec7ca49562
+Section: 插件
+Description: 底部横条动态颜色，基于开源代码重新编译，修复支持iOS15+无根越狱
+Name: ChromaHomeBarX底部横条动态颜色
+Author: Afnan Ahmad & SINI
+Icon: https://axs66.github.io/pro/icon/chromahomebarx.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/chromahomebarx/js.json
+
+Package: com.Axs.cilizhai
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Priority: optional
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.Axs.cilizhai_0.1-1_iphoneos-arm64.deb
+Size: 177668
+MD5sum: c81e36669accb7a95ede410033a199f2
+SHA1: 6a11b912be948d70b41b351dab717de0f0c2ef06
+SHA256: cc3d341908d31af8233f008b9b7bbf690920bdef4483e3aa7f2d337ee1b2511d
+SHA512: 486257553ffe1668a70917744ee0747a2226376a22de16ab9d04937e1368a504dfaedfb487939f89ba7e406103e9ca9af15112a7b4c876eb7bf993dc1b145cc3
+Homepage: https://axs66.github.io/pro
+Section: 插件
+Description: 适配24.09.20版本，其他自测，失效卸载
+Name: 磁力宅播放器vip
+Author: A
+Depiction: https://alist.138686.xyz
+Icon: https://axs66.github.io/pro/icon/cilizhai.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cilizhai/js.json
+
+Package: com.Axs.classdumptweak
+Architecture: iphoneos-arm64
+Version: 3.7.0-1
+Maintainer: Axs
+Installed-Size: 1284
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/com.Axs.classdumptweak_3.7.0-1_iphoneos-arm64.deb
+Size: 251460
+MD5sum: 6b4e2d8113813f3564ad54dbc9233052
+SHA1: bbbf4a832d7630e3b83e31a59b001b23e50f5f3a
+SHA256: e156e2e72ec671ad974ab3ab748c23b1a6defbaa7ea1f03c288805f50e9c54dd
+SHA512: 39002a48a6343403374cd4328e4d4fe2db11b0554b199f6704e035bf5a9565cce1d9cd25fa7d6648999b247a2489ec80a5ba05d3b36e193713ce9a296b529249
+Section: 插件
+Description: 运行时类导出工具，带悬浮球界面。支持 rootless 越狱
+Name: ClassDumpTweak
+Author: A
+Icon: https://axs66.github.io/pro/icon/classdumptweak.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/classdumptweak/js.json
+
 Package: com.Axs.floating-view
 Architecture: iphoneos-arm64
 Version: 1.6.0-6
