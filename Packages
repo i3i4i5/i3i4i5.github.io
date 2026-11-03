@@ -27904,11 +27904,11 @@ Version: 2.5.1-15
 Maintainer: Amy While <me@anamy.gay>
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
 Filename: debs/sileo修改版隐根直接安装无根插件.deb
-Size: 3057832
-MD5sum: 1946752fe83d2cf2a854a2a4b2046668
-SHA1: 0d73dfa637ac5e1772801fc7c5abeefd9c59388c
-SHA256: d6bac8b5bf527c11b52826228aac60b8a54c4417eecba22e8a1c54cf9e6c5175
-SHA512: adf629614447cb77032e7d322f947940fa95bb20cfa649fb4b073f41d1f486b8109371070df8a66d310f3b84c02879cac4c5735703562aad3e9afea1c74e86c1
+Size: 3064128
+MD5sum: ddc85f9a52feb99fb9b3e09773f8512d
+SHA1: b7f3dc2984bd3ff68302bf82d955288997363a33
+SHA256: ffb9cd236b6aca7020a791fbc4efd40f9d7ead179d25db67711368e07094a67f
+SHA512: e1c9491a206b729be22a0303f656d371e1d802687d023472fd00ea6b5be022e5c877ecd0c44c3d4d6a4162542021fcfadca0ff752fd4ae672015381f4aa09788
 Section: 插件
 Description: A modern APT package manager frontend
 Name: sileo修改版隐根直接安装无根插件
