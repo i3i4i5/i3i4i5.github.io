@@ -21192,6 +21192,25 @@ Name: Actra
 Icon: https://mlgm66.github.io/icon/actra.png
 Author: mlgm
 
+Package: com.mlgm.clippa
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Priority: optional
+Maintainer: mlgm
+Installed-Size: 36728
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/com.mlgm.clippa_1.0.3_iphoneos-arm64.deb
+Size: 31185028
+MD5sum: 9d3d8f112d7b07119f6079072d4a5732
+SHA1: 41143ac2ad56bd68a45892e4fbdb1f7a15fb7c9a
+SHA256: 764890d4851f79a85c993a24ccea12cc38112d6f07f1c38ebfe2467301b76936
+SHA512: c631f6afd9eedd7bacee4b38378cafd49a7880f26c56f37bc0ce8097bff3dc4ae522dfbc00da140048bfd26c03dbb3744c9856b2014aaeb58cf1770d6dc8b268
+Section: 插件
+Description: 截图与悬浮贴图工具。
+Name: Clippa
+Author: mlgm
+Icon: https://mlgm66.github.io/icon/clippa.png
+
 Package: com.mlgm.kayoko
 Architecture: iphoneos-arm
 Version: 5.1
