@@ -20256,6 +20256,63 @@ Author: b4db1r3
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ocd5/js.json
 Icon: https://axs66.github.io/pro/icon/ocd.png
 
+Package: com.Axs.pancake
+Architecture: iphoneos-arm64
+Version: 2.3
+Maintainer: AnthoPak
+Depends: firmware (>=11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
+Filename: debs/com.Axs.pancake_2.3_iphoneos-arm64.deb
+Size: 111636
+MD5sum: e1f4968337347dea769461ee8deb7e6c
+SHA1: 37d45f002fefea851cef5e2cb85ab1edd9da7b7e
+SHA256: 38a074e6c83fa91956bd7fb31ff7161b39254af2ef4feae1bff83b2aabe5c8a9
+SHA512: c9d8d319a3e1e96840be257a1ec66a86fce5ff9b0035193e3565808dae16950e3d4af5fcd3a93703cc4e3a51465340c7a2fe05847db7b3cf3106607f25af54d5
+Homepage: https://axs66.github.io/pro
+Section: 插件
+Description: 所有应用程序在屏幕中间往左或者往右滑，可以返回上一步操作。
+Name: PanCake
+Depiction: Axs
+Author: AnthoPak
+Icon: https://axs66.github.io/pro/icon/pancake.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/pancake/js.json
+
+Package: com.Axs.passby
+Architecture: iphoneos-arm64
+Version: 1.9.1
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.Axs.passby_1.9.1_iphoneos-arm64.deb
+Size: 77568
+MD5sum: bcc2999eb9589cc2416c0148baee9dd0
+SHA1: 86f7cee0bd35990165f06298897ee09191e04189
+SHA256: 05072eaa7435a230e1f9fc957ed99bc71b4b11eef2d37b5e45152329c049bf99
+SHA512: f4f37e5bec6cd85975ff587f57999c7ce05c2ec8621d58f329166ccff583724c1d4e66fd846dcd07836ed7060ac785c925d8465898365d53ae36f66d8f90042c
+Section: 插件
+Description: Bypass passcode in many ways临时绕过人脸，WiFi自动解锁。
+Name: Passby智能化面容
+Author: M哥 <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/passby.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.photonoautoalbums
+Architecture: iphoneos-arm64
+Version: 3.0
+Maintainer: Mallin
+Installed-Size: 440
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.Axs.photonoautoalbums_3.0_iphoneos-arm64.deb
+Size: 44344
+MD5sum: 09f4104bd75f2e3f2b4d6c2441e7249d
+SHA1: 2e1a7fc227ec2a83485833837da0fa6287c40449
+SHA256: 182f160de6f499a08ad919fcc05a41903713fe152ed8cf66305f52aa3521fd73
+SHA512: d913cf694d6a88586ce6f832335d0f8b9d06b37f3bfa8e9cc23769c13b1512288440ab57499cfec79676946a0e3f00ae18c0602df73b1f45c6f5c4c5b586c39c
+Section: 插件
+Description: 禁止APP在照片内自动新建相册。
+Name: PhotoNoAutoAlbums
+Author: Mallin
+Icon: https://axs66.github.io/pro/icon/photonoautoalbums.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/photonoautoalbums/js.json
+
 Package: com.Axs.picsewvip
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -20273,6 +20330,245 @@ Name: Picsew长截图 vip
 Author: x <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/picsew.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.picturemodule
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: Axs
+Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport, oldabi
+Conflicts: com.4nni3.picturemodule
+Filename: debs/com.Axs.picturemodule_1.2_iphoneos-arm64.deb
+Size: 6689568
+MD5sum: cad6c30e2c64783818fd1b3bc7424fbb
+SHA1: 5276ce8714302824b8db24bd4991ee3b3aa61945
+SHA256: 2e313deb41b3476a3585538fea9d1f4caab43ef1c0fe9757a0b4f1966f9ce1cf
+SHA512: acf479efde499b67696504ac500a715794f93bdf2bdac94ce683c1dfb8692b8549e378e250f9cc151886996203f463c6ec83b054665be7b00314683989b2a338
+Section: 插件
+Description: Decorate your control center with photos, videos and widgets!
+Depiction: Axs
+Name: PictureModule控制中心视频
+Author: 4nni3
+Icon: https://axs66.github.io/pro/icon/picturemodel.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/picturemodule/js.json
+
+Package: com.Axs.plampycc
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: Axs
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/com.Axs.plampycc_1.0.2_iphoneos-arm64.deb
+Size: 1577692
+MD5sum: 070aa3b0cf47f0473e61303c2d218be9
+SHA1: ce8d5577f75dfd6c048f905edd524dcca2416e27
+SHA256: d6473f2aae747a470aaea58cf195fad66448b7888b7dfc1acea2a35c9b5173f4
+SHA512: 49bffc536bc2b0c5c2c5e8cca7d472557b70797b542eca6f78a62ab6f2b40d646c87953e94c2179812944385b9c446193624fbf4fd34a71dec7413e46ae81f1a
+Section: 插件
+Description: 控制中心UI美化，自定义背景图
+Name: PlampyCC 自定义背景图
+Author: A
+Icon: https://axs66.github.io/pro/icon/plampycc.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/plampycc/js.json
+
+Package: com.Axs.plamyuipro
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Phuc Do
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: debs/com.Axs.plamyuipro_1.0_iphoneos-arm64.deb
+Size: 727924
+MD5sum: ee311e6ebceed531532707fbc3a6d76b
+SHA1: 1c2942227d653c9acbfde5d10f911d455fda5c25
+SHA256: 30e0118de551c8a42e25d454ac7c1d2c10a04f380b55a4dbbdbf9e4ac076577e
+SHA512: 3d5a2521a79155efa9bdf8d73a2040295ec0d67053805c1927d3c97e952c71a0d9ffd3b4f31c489bc6266d33fc82bac1270d6ff9d7932c1c9e682e6ca21f6605
+Section: 插件
+Description: 支持 iOS15/16 的控制中心美化工具，可修改原生模块的图标/效果，修改控制中心背景壁纸等。
+Name: PlampyUIPro
+Author: Phuc Do
+Icon: https://axs66.github.io/pro/icon/plamyuipro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/plamyuipro/js.json
+
+Package: com.Axs.pogr
+Architecture: iphoneos-arm64
+Version: 0.5.5~prerelease3
+Maintainer: Ruphane
+Installed-Size: 484
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.pogr_0.5.5_prerelease3_iphoneos-arm64.deb
+Size: 76872
+MD5sum: 583460406e384084cc9b2aadd7ccc951
+SHA1: 38ee9ae72cf89f9775ab9fb04f1d8e1c0f7d38ec
+SHA256: 2e76c554f781ad3086c2efe533de54d35c69892ab8bcdb9badb1642d140d1a55
+SHA512: 21512a78412b996869a947219e9435ad2523d9c364f02743efb5124ad4b42c273fec8174b37b2ed50e8e9649b9b2247754dfd1186ef0981d81b875fd269993d4
+Section: 插件
+Description: Tweak for better AirPods compatibility on old devices，不会再提示低版本连接，支持最新版airpods5
+Name: AirPods Grant耳机弹窗
+Author: Ruphane
+Icon: https://axs66.github.io/pro/icon/pogr.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/pogr/js.json
+
+Package: com.Axs.popoutbuttons
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: Axs
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Filename: debs/com.Axs.popoutbuttons_1.0.2_iphoneos-arm64.deb
+Size: 56552
+MD5sum: fec4f484333524c26184073bfe935cf1
+SHA1: 24d964dc005b2b1e506ea6f1187ab7f47bbaf7b3
+SHA256: 30ae9e75a05b433d926ac93e1fc26d381651e827c6ff31d8acabce5eac594da1
+SHA512: b7e2d33e4dbabbece60a05b02bcfc682b8cc083a6721e04d62b77a142fca6fc17b97f121595c46be2893e4a0dc6e5fe6170e4180a38e06b2a6c67bf02d39a05d
+Section: 插件
+Description: 让你的音量键和电源键每按一次，在手机屏幕里显示动画效果，这是模仿iOS18的一个功能，还可以自定义按钮动画的大小！
+Name: PopOutButtons按钮动画
+Author: tesla_man
+Sponsor: Axs
+Icon: https://axs66.github.io/pro/icon/popoutbuttons.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/popoutbuttons/js.json
+
+Package: com.Axs.primalfolder2
+Architecture: iphoneos-arm64
+Version: 0.1.2
+Maintainer: ichitaso
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.ichitaso.primalfolder, me.qusic.taptapfolder, com.lizynz.folder6plus, info.rpdev.betterfourbyyfourfolders, com.ichitaso.primalfolder2
+Filename: debs/com.Axs.primalfolder2_0.1.2_iphoneos-arm64.deb
+Size: 50928
+MD5sum: eab66d371a067cc368b58c7db48463e6
+SHA1: 9870e32818013ba4444e198aeea1a7361dc96ab3
+SHA256: 7a8adf07a38d5c73c776c0c058778f48e29d29afc7089e56145d3a5cd200b178
+SHA512: 2137f6d636b0d4f07775ce13dbaec263645decb16dc761839935aa6923e2860c4ef55442b4affbad9e2e59c84fb1767d6efc1c2d29efd19b7c2f8873035fd381
+Section: 插件
+Description: 将文件夹显示为图标等多功能文件夹。
+Author: ichitaso
+Name: PrimalFolder2 桌面图标多功能
+Icon: https://axs66.github.io/pro/icon/primalfolder2.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/primalfolder2/js.json
+
+Package: com.Axs.prokeys
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Maintainer: Axs
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, ws.hbang.alderis, firmware (>= 15.0)
+Filename: debs/com.Axs.prokeys_1.1.2_iphoneos-arm64.deb
+Size: 94212
+MD5sum: f7975428a2f5a700ea69c659b457210c
+SHA1: 73b5867b0f364ca4c5c1e547715bc112e4d210e3
+SHA256: d0491bf0fa586b51d7dd93f8b741301fc80f09fcb01ff35a733702d78e680683
+SHA512: 12b4815ebe1816bc94c91d1989a6eba914583d0bb6e1d771874e339c2873d5ec3e0a53bd1dd4619190d7209d52985ed573ac3f96cd69badcb00048e03684c6bb
+Section: 插件
+Description: Prokeys是iPhone的触觉RGB键盘，Prokeys是iOS键盘的本应有的。您可以从字面上感觉到每一个击键，可以自定义键盘和键盘的外观，并且可以添加美丽的动画，以便您输入的每个字母都带有充满活力的颜色。为了使其变得更好，您可以对每个功能进行微调，以便您的键盘非常适合您！
+Depiction: https://axs66.github.io/pro
+Name: ProKeys键盘特效
+Author: Justin Proulx
+Icon: https://axs66.github.io/pro/icon/prokeys.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/prokeys/js.json
+
+Package: com.Axs.proknockout
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Axs
+Installed-Size: 1836
+Depends: mobilesubstrate
+Filename: debs/com.Axs.proknockout_0.0.1_iphoneos-arm64.deb
+Size: 377020
+MD5sum: d3ee0c0b0cfe8a8e2b9fdee9809fca6c
+SHA1: 045966df67e1549690632b1a56e9b68566ee758d
+SHA256: e385366419a72307c6b1b88836018366eb718f37797a542009b6732486917c34
+SHA512: 4a14cb892972b628a13e85ca3a084b08b506774db94812ca656b810a2fd4c109947cf5a24296e2a30ab86923dfb4424acbf0f416b73072490fa2ac62e0847828
+Section: 插件
+Description: 解锁VIP
+Name: ProKnockout
+Author: 🅷🆆
+Icon: https://axs66.github.io/pro/icon/proknockout.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/proknockout/js.json
+
+Package: com.Axs.promotion120
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Maintainer: doimty
+Installed-Size: 252
+Depends: mobilesubstrate
+Filename: debs/com.Axs.promotion120_1.0.6_iphoneos-arm64.deb
+Size: 26104
+MD5sum: b00e2583dc83074bd508c4c3d992f244
+SHA1: 905b8f9c9fe2945ae2428abdaec20c1cacd6196e
+SHA256: 4329cac701a851eaca46b07edf4cbaea5413ffa4db14be69b6cf1c73b7a5c33e
+SHA512: 45ed46227f6cb8af8d076fddd6c1e398948f4fb6f67789cd08a78fc25471fd41b8eacceff9cf4974074358024641d48ba6dba5eade42c626d520d796ddf636bd
+Section: 插件
+Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制。仅支持 iPhone 13 Pro 及以上。
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: doimty
+Icon: https://axs66.github.io/pro/icon/promotion.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/promotion/js.json
+
+Package: com.Axs.promotion120hz
+Architecture: iphoneos-arm64
+Version: 1.0.0-76
+Maintainer: 小白
+Installed-Size: 180
+Depends: mobilesubstrate
+Filename: debs/com.Axs.promotion120hz_1.0.0-76_iphoneos-arm64.deb
+Size: 12564
+MD5sum: dfc05ae6c90f066118f6b1daf36280c4
+SHA1: 7123347724fa891cf90320392c25063838e220ae
+SHA256: 95b8aa671cf42e07c483fc8a43fe7de0797e19fd952fb18e6e5d92b15a62cb40
+SHA512: cc190fad07cc188f85c503be42bf826ac724d1791adaac601a259d579d832d89350a2bbcbbac8d2617228ab398aabc5b0b21940f78b836dcd12d7b47b44e260c
+Section: 插件
+Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制
+ * 支持 Rootless、RootHide 越狱
+ * 支持 NathanLR、BootStrap 半越狱
+ * 支持 iPhone 13 Pro 及以上 ProMotion 设备
+Name: ProMotion 120Hz
+Author: 小白
+Icon: https://axs66.github.io/pro/icon/promotion120.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/promotion120hz/js.json
+
+Package: com.Axs.pulloverx
+Architecture: iphoneos-arm64
+Version: 1.7.1
+Priority: optional
+Maintainer: Axs
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.Axs.pulloverx_1.7.1_iphoneos-arm64.deb
+Size: 256548
+MD5sum: e4788bd563fa8c1f2e9ba4250f25c46f
+SHA1: e0bd5a7c0085b78ad19c9b984ec74b9bf0bb5270
+SHA256: feebd6ac6536e04cabc55294c51a09f6eb4fe67727f2e3fc67c782c62b3097e1
+SHA512: 0a9e0c9103bf4d8824a5f0d4b04eabb58f54b2d715d80eac1e2f8dbf993814456539131aeb7d4ec85b26c630ddea03254796b9a487f4ab065e71ccb0cd4f64fe
+Section: 插件
+Description: Pullover-X窗口调度版
+ 1、新增副窗口横幅控制栏，支持全屏、横竖屏切换、吸附边缘等。
+ 2、优化过场动画与卡片效果。
+ 3、优化副窗口弹出方式：长按收藏栏图标自动弹窗，副窗口与主卡运行不同 App。
+ 4、快捷操作：主卡双击收藏栏转全屏；长按 App 跳转副窗口；副窗口底部两角拖拽缩放；顶部多功能键快捷切换场景。
+ 5、本次插件开发暂告一段落。插件完全免费开放使用，如遇 BUG 或体验瑕疵，还请大家多多包涵。
+Name: Pullover-X窗口调度版
+Author: kanuo
+Icon: https://axs66.github.io/pro/icon/pullover.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/pullover/js.json
+
+Package: com.Axs.qishui
+Architecture: iphoneos-arm64
+Version: 1.0.0-129
+Maintainer: 黑猫
+Installed-Size: 568
+Depends: firmware (>= 14.0), preferenceloader
+Filename: debs/com.Axs.qishui_1.0.0-129_iphoneos-arm64.deb
+Size: 58004
+MD5sum: 47edb5946c12e8d38a49679d78030e1c
+SHA1: a754e8d0ef8ce43c2aea3d8d1ea5cf52b90005cf
+SHA256: d33be8094e927825c8d5dc719d5a485faf5090591408ff4c64db3bd0ee38f34a
+SHA512: c9df6e72f1d30c456d198c0d3c05e48c78a48f456d0869a5a296349631bfa0e2d5b6c73d77bf74c0d1b551fecb3cb7b292915ca1bd1af0e5bf5bf05f838b4dab
+Section: 插件
+Description: 实时显示汽水音乐的歌词到屏幕上，歌词可自由拖动，支持自定义歌词颜色、样式和伪音量柱状图，不支持mv，退出汽水音乐后10秒内会自动隐藏歌词显示
+Name: 汽水歌词
+Author: 黑猫
+Icon: https://axs66.github.io/pro/icon/qsyy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/qsyy/js.json
 
 Package: com.Axs.qjsy
 Architecture: iphoneos-arm64
@@ -20293,6 +20589,44 @@ Author: 冰蓝
 Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
+Package: com.Axs.qnsmw
+Architecture: iphoneos-arm64
+Version: 1.0.0-8
+Maintainer: Axs
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.qnsmw_1.0.0-8_iphoneos-arm64.deb
+Size: 5572
+MD5sum: 5c3dd08105747fcef7460c9a44a896e2
+SHA1: 485e5f170bb28cff90c670e852522edd7702f9b8
+SHA256: 572e95134cd96f2c81a9481f2183037294d409e54236dfb34a1829f42568bac7
+SHA512: daac1a2273328c2fe650740615fed1d2c1ac494523dfe97b714a57ca477f43273f89b0ed9b18cfe616bec2f37b97b87cb233b493fa4afb6d29fe7295e2de4144
+Section: 插件
+Description: 扫描全能王(6.92.0版本)解锁会员
+Name: 扫描全能王vip
+Author: fries
+Icon: https://axs66.github.io/pro/icon/qnsmw.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/qnsmw/js.json
+
+Package: com.Axs.qqnotiavatar
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Maintainer: Nets
+Installed-Size: 204
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: debs/com.Axs.qqnotiavatar_1.2-2_iphoneos-arm64.deb
+Size: 25664
+MD5sum: 22c6c67cfdc5adb71d3ece55fe388a7b
+SHA1: f1f0186c526aa21079b5e2ffa4d6fcb33fb5542f
+SHA256: c43ce4cb31b766c2f9b78ac507a6882e9aef692a8d10dd339718eb8b6a383e2a
+SHA512: 800f0651aa0d2d3115bfe9488773234ce847e59b1be61f0c758f99f67dcfc9ef90462e9a34639ef0c1f631b50ee1d01b7daac815fc3d58e058e9c3809a4a93e5
+Section: 插件
+Description: Display Notification Avatars for QQ App using iOS15+ APIs
+Name: QQ通知头像
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/qq.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: com.Axs.qsyy
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -20311,6 +20645,176 @@ Name: 汽水音乐
 Author: Starry6
 Icon: https://axs66.github.io/pro/icon/qsyy.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/qsyy/js.json
+
+Package: com.Axs.reachplayer
+Architecture: iphoneos-arm64
+Version: 2.6
+Maintainer: ETHN
+Installed-Size: 3636
+Depends: mobilesubstrate
+Filename: debs/com.Axs.reachplayer_2.6_iphoneos-arm64.deb
+Size: 1141636
+MD5sum: 2f5494ec20ff823092aa09c2cf63d2b4
+SHA1: e633f57bb426e46690d6ff8c557a5b623324c2c5
+SHA256: f9c510a122c2bf8efd0af2e421457808c2ea3911e3c1aadfe01e1e6bc85733b5
+SHA512: a507a9868f36e1da5625c1c512608705b2f0db91860e1e0e9e3f7689a37b439af4c783a5a5827440e20ba947fa29555ad7368806ba9e0864cf4b54b60c898ab9
+Section: 插件
+Description: ReachPlayer便捷访问音乐专辑
+Name: ReachPlayer音乐专辑
+Author: ETHN
+Icon: https://axs66.github.io/pro/icon/reachplayer.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/reachplayer/js.json
+
+Package: com.Axs.recordanywhere
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: Muirey03 & lclrc <qiaozhani000@163.com>
+Depends: mobilesubstrate
+Filename: debs/com.Axs.recordanywhere_1.1.0_iphoneos-arm64.deb
+Size: 4560
+MD5sum: 2bad0e3987d71413d2c9efa200485cb7
+SHA1: 86447246ca3246ce862e92af791dee79d6067ba4
+SHA256: d4d7b5d84df4c91481ef28f3eadb25bcf3207d5a28e9b7a04dac65a60e65c264
+SHA512: 69b440e583bf84db3ec22b110be54001e9c7b7771dc206673e91dff17ca023789e75dc2a31d5118ff4fc0b64eb18544493b6404aa3e52881e7db4bc261d6b03d
+Section: 插件
+Description: 使手机在锁屏状态也可以继续录屏。
+Name: 锁屏录屏
+Author: Muirey03 & lclrc <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/recordanywhere.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/recordanywhere/js.json
+
+Package: com.Axs.recorder-bubble
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: sunshinesong
+Installed-Size: 304
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.Axs.recorder-bubble_0.0.1_iphoneos-arm64.deb
+Size: 41820
+MD5sum: 7b105312d506286806a77e0f2d8f25c5
+SHA1: e2873774442f6f50d03ab73de26a695c788c07d9
+SHA256: f59f39f1ab2c32d9fcb33977e27beccd3c43b8959b5736d31b363da6bf308759
+SHA512: da649dbea8f3b953e59ca2d70abc0e9920ea24c8d9d2eab2276ffd86c71c8a8b58562deb9b3b7abab06735f0ba1d86e3ccd8344991de9227e7c778679671ce39
+Section: 插件
+Description: 无设置项，当录制屏幕时，显示一个花瓣悬浮球指示器。
+Name: 录屏花瓣
+Author: sunshinesong
+Icon: https://axs66.github.io/pro/icon/huaban.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/recorder-bubble/js.json
+
+Package: com.Axs.recordpause
+Architecture: iphoneos-arm64
+Version: 2.0.5
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate, firmware (>= 13.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause
+Filename: debs/com.Axs.recordpause_2.0.5_iphoneos-arm64.deb
+Size: 10236
+MD5sum: d8e08213e9919d42d17b843ab22bfebf
+SHA1: 3a2486f0667d57519f0ef61007d49cbe67e5d24c
+SHA256: b87155d626c31d4bf60fdba1837223a7f42acc2c96646fc9dc76b6e46b3e7e22
+SHA512: 0b088760e7afc0f152394aff273b904c289ec58e6dfa5db61eee37d36446ead5d069abe03a530152f5ae43e8b5f245abab0a7e5192ef1a3a39fdfef471d7bbc3
+Section: 插件
+Description: Pause/resume video recording.模仿iOS18功能，在开启相机录视频的时候左下角增加一个暂停键，非常的好用，从此以后录视频也可以暂停啦。
+Name: RecordPause录像暂停
+Author: PoomSmart <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/camera.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.redbookpure
+Architecture: iphoneos-arm64
+Version: 1.1.6-3
+Maintainer: Axs
+Installed-Size: 4488
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.redbookpure_1.1.6-3_iphoneos-arm64.deb
+Size: 1522152
+MD5sum: c006ec353fb98e256b37236d53803310
+SHA1: 61c74ce695f62e7eef4861d9912c5b6e1b4ff7f0
+SHA256: dc826a1dee93aaaa318ddafe6d6221dd1bbfbb8333a61fd5ae9a62b07a15ee94
+SHA512: 5bafca436ac020cd5d7647584ac3aabf897d5cffd7452ef7c0a6c9af257b2cfacbbbe384dfd59bdd91917a27f03e8aef2481465790ebf3686c06451fc10c2683
+Section: 插件
+Description: 设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片·live图 长按文案复制
+Name: RedBookpure
+Author: A
+Icon: https://axs66.github.io/pro/icon/redbookpure.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/redbookpure/js.json
+
+Package: com.Axs.reverie
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: Paisseon
+Installed-Size: 832
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.ccsupport
+Filename: debs/com.Axs.reverie_1.0.1_iphoneos-arm64.deb
+Size: 121372
+MD5sum: a7717716c8d787b0fd97325d4b795bb1
+SHA1: 27a73f024300c5809931582edc885d3a82e63d58
+SHA256: 9128778227c64aa9340114c36521804347514126e3f631962299cd8f56e03d30
+SHA512: 17e1120591112298883c0cd40bc62e0b2a92182acee1f80eef893fd6d8b58afb96597ea7f4fc4c31a2d4d2d10df9897186e8ba22ef55133e646d1e3dcb45d795
+Section: 插件
+Description: 自由的休眠设备来节省电量。
+Name: Reverie
+Author: Paisseon
+Icon: https://axs66.github.io/pro/icon/reverie.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/reverie/js.json
+
+Package: com.Axs.satella
+Architecture: iphoneos-arm64
+Version: 1.9.0
+Maintainer: Axs
+Installed-Size: 456
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Filename: debs/com.Axs.satella_1.9.0_iphoneos-arm64.deb
+Size: 69640
+MD5sum: b18cd88f32b50423151ea257d4fe949b
+SHA1: 6bc5b05d98e0c67515f7d96fe8b54c90e3671d6c
+SHA256: 72701049fce5a754ad67de78078d143bdacd8ee9fe63814d6d2da0639fa61a90
+SHA512: 95a7ec65a6b6140f7f5a02c86add08dcee078e0f32ff4392c9aa8f0a3eb06240a17bd539870e80d0834e701005fc53920f07421be2d953f5832487a6e114083f
+Section: 插件
+Description: Modern in-app purchase cracker
+Depiction: 破解应用内购，不是100%能行。
+Name: Satella
+Author: Paisseon
+Icon: https://paisseon.github.io/icons/Satella.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.Axs.screencore
+Architecture: iphoneos-arm64
+Version: 1.0.6-1
+Maintainer: 王云龙
+Installed-Size: 2476
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.Axs.screencore_1.0.6-1_iphoneos-arm64.deb
+Size: 366644
+MD5sum: 0471ac09229ca7358abcbf2aedd7df74
+SHA1: 14b67036c9440c0732f077680146cbe00e6fb841
+SHA256: 2cf589c63f156dac3edb97360a15a99158b1c46fc28f9a0f42ac4807197b4b0b
+SHA512: 8349af001d9aae255fb44f6c7466922e7969d4557d880e9f3abde9a5d52318a45f9295dfddb4f0ced076443611b3748909d57b1485ae9b30d0ffdc88dc15ba0f
+Section: 插件
+Description: 这是王云龙抄袭的分屏
+Name: ScreenCore
+Author: 王云龙
+Icon: https://axs66.github.io/pro/icon/screencore.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/screencore/js.json
+
+Package: com.Axs.sentinel
+Architecture: iphoneos-arm64
+Version: 1.3.2
+Maintainer: Axs
+Depends: mobilesubstrate,ws.hbang.common,preferenceloader,com.opa334.ccsupport
+Filename: debs/com.Axs.sentinel_1.3.2_iphoneos-arm64.deb
+Size: 77828
+MD5sum: f066cc93222c720cca0402d2949b9475
+SHA1: 51d9fc662f5b20c429ff46686205950bd888f0e7
+SHA256: f3b4b417f4500eca55bbc41af516ca721b72b087f95fe652188a22addf8bb873
+SHA512: b4993e6c0f4ea73d881b30c3d3d63bf9c912c4b1d91beb2a99079228114eb9924bcb99e79c9b9f1aab4fd88749ba46a6f9577a1e53a7ab16da108b3c12b800f5
+Section: 插件
+Description: Stop losing your jailbreak when your battery dies!当关机重启后，不再失去越狱环境，大家自行测试，无效就卸载！
+Name: Sentinel越狱守护
+Author: MegaDev
+Icon: https://axs66.github.io/pro/icon/sentinel.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/sentinel/js.json
 
 Package: com.Axs.wcplugins.rootless
 Architecture: iphoneos-arm64
