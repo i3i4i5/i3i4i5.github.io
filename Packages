@@ -23105,6 +23105,92 @@ Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 Section: 插件
 
+Package: com.level3tjg.redditfilters
+Architecture: iphoneos-arm64
+Version: 1.1.7
+Maintainer: level3tjg
+Installed-Size: 124
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.level3tjg.redditfilter
+Filename: debs/com.level3tjg.redditfilters_1.1.7_iphoneos-arm64.deb
+Size: 41460
+MD5sum: 43bd7ce16500db8d5804d22beae53e02
+SHA1: 1b241c87d462e697c1632a3adc18e3fca2dab860
+SHA256: a9c2ee2c96669447154c594d5a2c6f86ee5c8702015c71c9dcbefb7453873d61
+SHA512: 0a4f610422630f6c91426e447c7a224bc4c7ae0510f87d9d612920189bb4b1576a8f39f79fdd46137e3b15fafc9226297b20076cffdf46ebcb6d4e52554a911e
+Section: 插件
+Description: 从 Reddit 过滤掉不需要的内容
+ * Filter out unwanted content from your Reddit feed
+Name: RedditFilter 去广告
+Author: level3tjg
+Icon: https://TrollStoreX.Github.io/sileodepiction/Reddit/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Reddit/js.json
+
+Package: com.level3tjg.telegramnoseparatorss
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Maintainer: level3tjg
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.level3tjg.telegramnoseparators
+Filename: debs/com.level3tjg.telegramnoseparatorss_0.0.3_iphoneos-arm64.deb
+Size: 4652
+MD5sum: 83a2a6a7f8ea791fd4f83bb5a9c3942d
+SHA1: 53be438d016e45544576b0a3dd75135d68a24543
+SHA256: 2ff48f0c65ee9b7120fffe709c9ba2a1dc691d86c3d4154e9dfcdb1c17348a28
+SHA512: 8f7b41fb76785e147eacb784534b6c0b91aee2771ba6dfed6dd9f442a46add449541af23abc5c36b1ddb5f30a5e72fc58da8497d5de7c115006001cc6044b3bb
+Section: 插件
+Description: 从 Telegram 中删除分隔符
+ * 支持 Telegram、Swiftgram、Turrit、Nicegram
+ * Remove table view cell separators from Telegram
+Name: Telegram 删除分隔符
+Author: level3tjg
+icon: https://TrollStoreX.Github.io/sileodepiction/Telegram/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Telegram/js.json
+
+Package: com.level3tjg.twitchadblocks
+Architecture: iphoneos-arm64
+Version: 0.1.5
+Maintainer: level3tjg
+Installed-Size: 144
+Depends: mobilesubstrate
+Conflicts: com.level3tjg.twitchadblock
+Filename: debs/com.level3tjg.twitchadblocks_0.1.5_iphoneos-arm64.deb
+Size: 21268
+MD5sum: c49656afa9e3b6f1fee9fac21833796f
+SHA1: 4ff2ede1fbb4a8fb538699abf06c908002c2732f
+SHA256: f3cccdd55ced809ba66197ed93ff493c5966a8b424cad9a4c32a735eafcdb52d
+SHA512: 5b3cf32d335912be5c20009166322e0ca53ee0e2b07ae432b005bc8af2b20dc672caaee9404bf29f9612421fa508c2c45e0c7469b36691cd8af7ef843ed41e13
+Section: 插件
+Description: Twitch 去广告插件
+ * Block Twitch video ads
+Name: TwitchAdBlock
+Author: level3tjg
+Icon: https://TrollStoreX.Github.io/sileodepiction/TwitchAdBlock/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/TwitchAdBlock/js.json
+
+Package: com.liam.chatgbefrees
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: Liam
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.liam.chatgbefree
+Filename: debs/com.liam.chatgbefrees_1.0.0_iphoneos-arm64.deb
+Size: 3712
+MD5sum: b7bca0b11ce09c220ac9df57439636b5
+SHA1: 96fef5f6890273633aac7de1e735954c7d8a7262
+SHA256: a249a0494d80578fb8514b51e5e80271e8b1baaae22166b06731dd2d3524e879
+SHA512: f8a9b7acf4e313ed384522ad3fd63599fd5027bf76bc3f2a2adb3db897b97ca55616cb6c91c1e6f2fcc7d87c5abe9df14e4b4070367a3895ebc122733148fdd3
+Section: 插件
+Description: 让 iOS 16 可以使用旧版 ChatGPT
+ * 绕过 ChatGPT 应用中强制的升级界面
+ * Bypass the forced 'sunset' upgrade screen in the ChatGPT app.
+Name: ChatGBeFree 绕过 GPT
+Author: Liam
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ChatGBeFree/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/ChatGBeFree/icon.png
+
 Package: com.liquidui.liquidui
 Architecture: iphoneos-arm64e
 Version: 1.80
@@ -23120,6 +23206,25 @@ Section: 插件
 Description: 微信液态玻璃美化插件，已去除授权。微信界面液态玻璃风格美化，含输入框、列表、动态岛等组件。
 Name: LiquidUI（免授权）
 Author: TLzypjy
+
+Package: com.liuf.jpyj
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: liuf
+Installed-Size: 280
+Depends: mobilesubstrate
+Filename: debs/com.liuf.jpyj_0.0.1_iphoneos-arm64.deb
+Size: 3764
+MD5sum: c615ecfd3b17037ad41a76d2939b99af
+SHA1: 0b9946661634b5f5f9401bcf5db23ce586290b89
+SHA256: 9ff289357fdf086cc4f7ee765fbacf151dc864770e2131a5f2834eb3e57ebc22
+SHA512: 88ba5f2ea7bd06afd847c891431bf9a5055a22f55a4b07883831351d1ff78379e24634bc14c4cdccd4ac78daa455bbfc0fd2b29b9970cd354874be5f29ce87b9
+Section: 插件
+Description: 修改系统键盘圆角 Modify the keyboard icon to have rounded corners.
+Name: 修改系统键盘圆角
+Author: liuf
+icon: https://TrollStoreX.Github.io/sileodepiction/keyboard/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/keyboard/js.json
 
 Package: com.liuf.wxyj
 Architecture: iphoneos-arm64
@@ -23242,6 +23347,48 @@ Description: Rune汉化--(rootless)简体中文包
 Name: Rune汉化包-rootless
 Author: 来了老弟 h_h_x_t
 
+Package: com.lns.pogrs
+Architecture: iphoneos-arm64
+Version: 0.5.4
+Maintainer: Ruphane
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: debs/com.lns.pogrs_0.5.4_iphoneos-arm64.deb
+Size: 75172
+MD5sum: ccf33a5310d657d8cc97139fac71e3bd
+SHA1: d1f23c6540a90ac8989d8889e3fb955566ee6340
+SHA256: f8ef4b484fe501ca15ea1400424d650c958f751f1ef24813fa91fc6cffc8a90f
+SHA512: b2535e3dfb4e13692b10c21f94449188a437e86882668864075768782de189a6f143dc2ee4d9fad40347556a67f8170bac7a4e71ff6c6d8181c28fb43d134db4
+Section: 插件
+Description: 提高低系统与新 AirPods 兼容性
+ * Tweak for better AirPods compatibility on old devices
+Name: AirPods PodsGrant
+Author: Ruphane
+icon: https://TrollStoreX.Github.io/sileodepiction/PodsGrant/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/PodsGrant/js.json
+
+Package: com.lns.whereplays
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: Ruphane
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.whereplay
+Filename: debs/com.lns.whereplays_0.0.2_iphoneos-arm64.deb
+Size: 6228
+MD5sum: 27e32f56a8433f8d6b7a55ccaecc4214
+SHA1: f95e3bcdc9a949e58c49f62719558bad5c58e4d1
+SHA256: 92691ee62915fb3afd384e02dc1b67db2751c4e525d479d756fed5d0a33693f8
+SHA512: 9b40a3ad0761b92197dbd24305b4c5eca1c8ec9ad946d445f870bfe1547cb82894c8821c38475a934c31f0e9b97489778fa17c3f4511f968258566b46c1c2ad7
+Section: 插件
+Description: 将“隔空播放”图标替换为已连接设备的 iOS 插件
+ * An iOS tweak that replaces the AirPlay icon to the device connected
+Name: WherePlay
+Author: Ruphane
+icon: https://TrollStoreX.Github.io/sileodepiction/WherePlay/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WherePlay/js.json
+
 Package: com.local.activationsuppressor
 Architecture: iphoneos-arm64e
 Version: 1.1.5
@@ -23275,6 +23422,48 @@ Section: 插件
 Description: 状态栏左右耳朵手势：单击/双击/左滑，刘海灵动岛触摸忽略，下滑透传兼容控制中心插件，分区独立配置+黑名单。rootless 适配。
 Name: 我的手势
 Author: yzdmm2024
+
+Package: com.lxcloud.wcehances
+Architecture: iphoneos-arm64
+Version: 2.0-4
+Priority: optional
+Maintainer: huami
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.lxcloud.WCEhance, byg.iosios.net.wcehances
+Filename: debs/com.lxcloud.wcehances_2.0-4_iphoneos-arm64.deb
+Size: 2404692
+MD5sum: 5faefb326f07cbe5629603210ee78de6
+SHA1: ac1528afb5ff4ea8f88332a0318b3effeb2a66b0
+SHA256: 420f5634dc0576136c7cf64e5a08e25f99f9db434a2da66b76625a40be3962e5
+SHA512: ba4034ac76da208b485c363820472b24d7f274d7d3f607c57c06300c337006da8de77330ceab5dd810a334f8effaae75ec0fbf45b5f79cb12a7d14830805ae49
+Section: 插件
+Description: 用于优化一些反人类设计并增强功能
+Name: 微信增强 WCEhance
+Author: huami & Lxcloud
+Icon: https://TrollStoreX.Github.io/sileodepiction/WCEhance/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WCEhance/js.json
+
+Package: com.m4fn3.mikkyys
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: m4fn3
+Installed-Size: 1500
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.m4fn3.mikkyy
+Filename: debs/com.m4fn3.mikkyys_1.0.2_iphoneos-arm64.deb
+Size: 427168
+MD5sum: 1238476c71d50ce0e3afee124fdd1d0d
+SHA1: 943bd2902cb0ddbfd915f2939be41679856e4f37
+SHA256: 1286ebfdfdcae6f1e01f38cead47ec3b166ea8791cf93961507b9804a9cee136
+SHA512: 9f64776b3487d4688966f77c817d940e8f2402ec1da6b6a9c90d55dd7bac7c93220d068509f1930e7cd74548e9e8b77dcf9f8ddbf9feebbb4ce8a3084475c8ad
+Section: 插件
+Description: iOS 越狱主题管理插件
+ * 现代、轻量级的主题引擎，支持 iOS 16 至 iOS 26。  
+ * 可将图标主题应用于主屏幕、Dock 栏、App 切换器、共享菜单、设置界面、文件夹预览，以及实时更新的日历和时钟图标。
+Name: Mikkyy 主题插件
+Author: m4fn3
+Icon: https://TrollStoreX.Github.io/sileodepiction/Mikkyy/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Mikkyy/js.json
 
 Package: com.mallin.tunnelsharevpn
 Architecture: iphoneos-arm64
@@ -23310,6 +23499,26 @@ Description: Movable overlay showing CPU, RAM, battery, network and system info.
 Name: InfoBar
 Author: mathelord
 
+Package: com.mg.adskips
+Architecture: iphoneos-arm64
+Version: 3.3.0
+Maintainer: M哥
+Installed-Size: 144
+Filename: debs/com.mg.adskips_3.3.0_iphoneos-arm64.deb
+Size: 24036
+MD5sum: 5e5974e33cc407658cca7e4e4462d1cd
+SHA1: d0769107c9f567bb27a9c9863dcff808e7eb8444
+SHA256: 9f2550396c8d6ba8546d2508302c85bfb85f87ac0a862350d2e41f523ea99042
+SHA512: ceb5f105402a8326824c50e99b49e382ce98464071452d482950eb96bf1a6ce79dca303bfd0b8d3981208503a8aaf7956b679d9bd51d07b4e6453009bb81b8ae
+Section: 插件
+Description: 快速跳过开屏广告
+ * 适配大多数应用，具体自测
+ * 插件注入 com.apple.UIKit，有冲突自行禁用
+Name: AdSkip 跳过启动广告
+Author: M哥
+Icon: https://TrollStoreX.Github.io/sileodepiction/AdSkip/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AdSkip/js.json
+
 Package: com.miguelaka95.bettercc
 Architecture: iphoneos-arm64e
 Version: 0.0.51
@@ -23330,6 +23539,27 @@ Description: Customize your Control Center!_________仅测试用,有问题卸载
  Weather Widget.
 Name: BetterCC-roothide
 Author: Miguelaka95 <miguelaka95@gmail.com>
+
+Package: com.mikey820.pleasedontstopthemusics
+Architecture: iphoneos-arm64
+Version: 2.3.1
+Maintainer: mikey820
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: com.mikey820.pleasedontstopthemusic
+Filename: debs/com.mikey820.pleasedontstopthemusics_2.3.1_iphoneos-arm64.deb
+Size: 42174
+MD5sum: e87414276535cc878e9217af2d6f26ee
+SHA1: 27182d42d2e083c2b9c0edbac7c1ba73d89f14c2
+SHA256: 444248c1d5018fd3c33e5c466b1037ea0b2ad138429d3a624ba2b18a03cec5cf
+SHA512: d13e55a0d77c3a06d86bd0d1df7bda1af1924566ad03c9fbd7c768e6ccd9a04f68a0e72b758d5f0568fe422090a31a5903dcf480bca9bedd0c53ebc3ea0d9082
+Section: 插件
+Description: 请勿停止音乐是一款注入 iOS 的 AVAudioSession 以启用音频混合的插件。这使您当前正在播放的音频（音乐、播客等）在其他应用请求播放音频时能够继续播放，而不会像系统通常那样暂停您的音频并仅播放新来源。
+ * Prevent apps (e.g. Roblox) from pausing your background music
+Name: 请别暂停音乐 PleaseDontStopTheMusic
+Author: mikey820
+Icon: https://TrollStoreX.Github.io/sileodepiction/PleaseDontStopTheMusic/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/PleaseDontStopTheMusic/js.json
 
 Package: com.mikifp.griddys
 Architecture: iphoneos-arm64
@@ -23726,6 +23956,28 @@ Description: 字体挂载，支持 Rootless/RootHide
 Name: FontChange 字体挂载管理
 Author: moxuan1121
 Icon: https://TrollStoreX.Github.io/sileodepiction/FontChange/icon.png
+
+Package: com.moxuan.fontchanges
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: moxuan1121
+Installed-Size: 2016
+Depends: firmware (>= 15.0), unzip
+Conflicts: com.moxuan.fontchange
+Filename: debs/com.moxuan.fontchanges_1.1.1_iphoneos-arm64.deb
+Size: 1645072
+MD5sum: 3c3057086d7c7ae9218394855ea9346b
+SHA1: be35d83cb2621441d780de24cd0d014e44179812
+SHA256: af826aba363298f411ac70c2d848711550b46d4407c5bbe50726ddab02bd962d
+SHA512: 4a557d24a519435984e560ecb2dd511e0a769c2c63c8e3531dac795e3c151374c432431faae9057e3bc2a4eaf8a11c28dd4bf51d0177a4e088b4b022c846c46e
+Section: 插件
+Description: 字体挂载，支持 Rootless/RootHide
+ * 管理受支持的 iOS 15+ 越狱环境中的自定义系统字体和锁屏字体，刷新语言缓存、恢复系统字体，并重启用户空间。
+ * Manages custom system and lock-screen fonts on supported iOS 15+ jailbreak environments, refreshes language caches, restores system fonts, and reboots userspace.
+Name: FontChange 字体挂载管理
+Author: moxuan1121
+Icon: https://TrollStoreX.Github.io/sileodepiction/FontChange/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/FontChange/js.json
 
 Package: com.mumu.wcgg
 Architecture: iphoneos-arm64
