@@ -25383,6 +25383,33 @@ Depiction: https://owngoal-dev.github.io/DuoStatusRing/
 SileoDepiction: https://owngoal-dev.github.io/DuoStatusRing/depiction.json
 Author: OwnGoal Studio <https://github.com/owngoal-dev/DuoStatusRing>
 
+Package: wiki.qaq.fila
+Architecture: iphoneos-arm64
+Version: 0.8.3
+Priority: optional
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 91384
+Depends: firmware (>= 15.0), uikittools, launchctl
+Filename: debs/wiki.qaq.fila_0.8.3_iphoneos-arm64.deb
+Size: 21464468
+MD5sum: 037b87e0921abb336dc8be5a7f4ff50d
+SHA1: d3d66dac3c610f597dd67243c446110faeb36f80
+SHA256: 1f507b214e1f5304583a326a0a9c78b70274b7e476f8b7f3d5c2ce9f31cf750c
+SHA512: 8eae6a6e06bd358272514049888ed54f56c9e61ced9d3d92a912716ab10a25519c849079f264abc0ac4ea17ec4d0685b41ee9e5b53a853b951e93f6d047bfd98
+Section: 插件
+Description: Root file manager for rootless bootstraps
+ Browse and edit every file on your device, not just the ones an app is allowed
+ to see. Copy, move and rename with progress you can cancel, create and unpack
+ zip, 7z, rar and tar archives, edit text with syntax highlighting, read plists,
+ preview images and video, open a terminal, and share a folder to your computer
+ over WebDAV. Deleted files go to a trash you can restore from, and the files
+ your device needs in order to boot cannot be deleted by mistake.
+Name: Fila
+Icon: https://owngoal-dev.github.io/Fila/icon.png
+Depiction: https://owngoal-dev.github.io/Fila/
+SileoDepiction: https://owngoal-dev.github.io/Fila/depiction.json
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
 Package: wiki.qaq.ighostvt
 Architecture: iphoneos-arm64
 Version: 1.6.24
