@@ -23979,6 +23979,29 @@ Author: moxuan1121
 Icon: https://TrollStoreX.Github.io/sileodepiction/FontChange/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/FontChange/js.json
 
+Package: com.mrgcgamer.libgcuniversals
+Architecture: iphoneos-arm64e
+Version: 1.7.0
+Maintainer: MrGcGamer
+Installed-Size: 380
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker, com.mrgcgamer.libgcuniversal
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Conflicts: com.mrgcgamer.libgcuniversal
+Filename: debs/com.mrgcgamer.libgcuniversals_1.7.0_iphoneos-arm64e.deb
+Size: 55656
+MD5sum: be29fb5c3efa26c04206750cca8ae4e9
+SHA1: ed06b482de481dc5edaf8544443dba2f71c9ae38
+SHA256: 848f76874307aea47fc7b9fd6325126cb19c8fd9e0d3b985375741bd675d9502
+SHA512: 5c8f4bc12b6119aeaa5beb98f245ad2f781634226960753db4dd2d6ff4893464b224f73bae36abf3bc9339c6df5a09dbb8cdbd457417e00234e093d4b9802c15
+Section: 插件
+Description: 越狱依赖 RootHide 版本
+ * 为方便 RootHide 安装上传，并非挟持依赖
+Tag: role::developer
+Name: LibGcUniversal
+Author: MrGcGamer
+icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/LibGcUniversal.png
+
 Package: com.mumu.wcgg
 Architecture: iphoneos-arm64
 Version: 0.2.0
@@ -24146,6 +24169,609 @@ Name: dpkg-fill修复sileo报错-Rootless
 Author: zhaonan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.nathan.dynamicnotlands
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Maintainer: Nathan
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.nathan.dynamicnotland
+Filename: debs/com.nathan.dynamicnotlands_1.2.3_iphoneos-arm64.deb
+Size: 12232
+MD5sum: b0b599ffd7fc0f3d658c9bcd9febdb5e
+SHA1: 5b4190a887428af22e939826cfaf58503ad76ad0
+SHA256: fdc47d8fcff3bb008089a2b645ce195dd434c5cfb2715743b7a1329acba19dfd
+SHA512: d3295a6195215bdf5dd8c5ffbf85c9d0a4a6a75ec050d08edbc1bb56f00af59c0413f421d8d9f8d7e4660039eaa8fc071a7ddf75e7c59e67fe0eaf32bf6d6b60
+Section: 插件
+Description: 在 14 Pro 系列上，隐藏未使用时的灵动岛
+ * A tweak to hide the Dynamic Island on the 14 Pro series when it's not in use
+Name: DynamicNotLand 隐藏灵动岛
+Author: Nathan
+Icon: https://TrollStoreX.Github.io/sileodepiction/DynamicNotLand/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/DynamicNotLand/js.json
+
+Package: com.nathan.homehiders
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: Nathan Senter
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.nathan.homehider
+Filename: debs/com.nathan.homehiders_1.1_iphoneos-arm64.deb
+Size: 2800
+MD5sum: 16a4e06d0a7be85aa8c20b4e6c1e83f6
+SHA1: 7678e4595fee99fb737771c5a432b143a840a595
+SHA256: 1a729e2c52da1478387a997aaf5fd55f0bcf5f1d08413f0b81bc5ce7660bd89a
+SHA512: 336ed607e7a1150b5b02e15f3bd6c5b8bdfdb12a0434c04d41dce11205a901c5349ca85568c48e3f196319ee4400fb86f4c6e3de83ab8a85b301f31aa63d3f2b
+Section: 插件
+Description: 隐藏设备底部小白条
+ * 支持 iOS 15 - iiOS 17.0
+ * Tweak to hide your homebar!
+Name: 隐藏小白条 HomeHider
+Author: Nathan Senter
+Icon: https://TrollStoreX.Github.io/sileodepiction/HomeHider/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/HomeHider/js.json
+
+Package: com.nathan.internalstoragesettingss
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Nathan Senter
+Installed-Size: 136
+Filename: debs/com.nathan.internalstoragesettingss_1.0_iphoneos-arm64.deb
+Size: 4072
+MD5sum: eea4504514f5ad60d8386a1f7651a8b4
+SHA1: 3d86a9701431315536b547c7f9750429b1c80faa
+SHA256: 23c9677af42fa18236313737e3afa1402e3ebf86e4f64675876df9f28eb97235
+SHA512: 63ba6e4b6759033a3744575d0c6366733d0b0524a79532b7b0bb950d2472be032b3a2c54d1c2c8d63eee2a24aa7c949096a56c0c02ac814aaf870c7c9da643b2
+Section: 插件
+Description: 显示存储“系统数据”详情 Tweak to enable the hidden storage settings
+Name: 显示存储系统数据详情InternalStorageSettings
+Author: Nathan Senter
+icon: https://TrollStoreX.Github.io/sileodepiction/InternalStorageSettings/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/InternalStorageSettings/js.json
+
+Package: com.netskao.appdatas
+Architecture: iphoneos-arm64
+Version: 1.4.4
+Maintainer: Netskao
+Installed-Size: 3772
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdata, byg.iosios.net.appdata-rootless, com.dao.appdata
+Filename: debs/com.netskao.appdatas_1.4.4_iphoneos-arm64.deb
+Size: 5048888
+MD5sum: 1ebd5a2cccde19cefc70977f5fca3a02
+SHA1: 0487a8c14b5940383102e0cfa419401abe4265e7
+SHA256: 7f8dca87b919417fa4028f2a0d61b010b963f15d1869d2c90a5875e87932364d
+SHA512: 1b240d715cf0a31bfeeb3a5547a28eccda2de01120633374e31b3cc63e4b20f912357d5c5dbf47940fdef286b90dac510ffd9b19cb6a7a5eb5627fe20bd36395
+Section: 插件
+Description: 桌面图标增强插件
+ * 由 Netskao 汉化修改
+ * 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标
+ * View & Manage Applications Data from your Home Screen
+Name: AppData
+Author: Fouad Raheb
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Appdata/js.json
+icon: https://TrollStoreX.Github.io/sileodepiction/Appdata/icon.png
+
+Package: com.netskao.awemealwaysshowtimes
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: Nets
+Installed-Size: 56
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: com.netskao.awemealwaysshowtime
+Filename: debs/com.netskao.awemealwaysshowtimes_1.1-1_iphoneos-arm64.deb
+Size: 2348
+MD5sum: 8cfd8a0152494e90db0361fa4114f1ac
+SHA1: 3f0749bb3efdf9ca5fc56414323863389acf3ee0
+SHA256: 9061569eeab5cc64b6c043acd66d3fefb3220e4d2bc6ca1c0eaa90663fe8c783
+SHA512: 84bf46da6af38cafd44d47e81a581c87e3b8488ec5a3acfb5c9f40f756761095312e4f46c3641786f6854812bcc22c64cd7cdb1e904f1671748d1965ad99d44c
+Section: 插件
+Description: 抖音视频始终显示视频发布时间
+Name: 抖音发布时间 AwemeAlwaysShowTime
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/AwemeAlwaysShowTime/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeAlwaysShowTime/js.json
+
+Package: com.netskao.awemedisablebars
+Architecture: iphoneos-arm64
+Version: 1.1-6
+Maintainer: Nets
+Installed-Size: 172
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.awemedisablebar, byg.iosios.net.awemedisablebars
+Filename: debs/com.netskao.awemedisablebars_1.1-6_iphoneos-arm64.deb
+Size: 304816
+MD5sum: 80f75e64e2f757b7673f8ddbd8ae6f9c
+SHA1: ae427e4f3e24add232401a50685836fb60d959c2
+SHA256: e7cf8f1dce6de38eb32137d23d03365cd643515fc71b6c26b92087dca118d126
+SHA512: 55e745beee00d6e79e0b858a9b29e56b3f90b7f6b53ec8fcf3152ce688edaa1e7f86e5bccffb040c3a0b0ae45372caa2c4545fe3be4790bdc4f62679d92e94ab
+Section: 插件
+Description: 抖音禁用按钮菜单
+ * 禁用「顶部｜底部｜右侧」选项按钮
+ * 仅在 30.3.0 及更高版本上进行测试
+Name: 抖音禁用 AwemeDisableBar
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/AwemeDisableBar/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeDisableBar/js.json
+
+Package: com.netskao.awemedownloadmedias
+Architecture: iphoneos-arm64
+Version: 1.1-8
+Maintainer: Nets
+Installed-Size: 208
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.netskao.awemedownloadmedia
+Filename: debs/com.netskao.awemedownloadmedias_1.1-8_iphoneos-arm64.deb
+Size: 147520
+MD5sum: 3cd46b6911f59ec078cb87ea1c210c4b
+SHA1: c687562b2f515c926a2ba5efc9bbfc25ee86eef0
+SHA256: 13cf588ec07100e91102d776e731a9e7e856524c480cca2ac25c9ae5da7fbfbc
+SHA512: 90d5f2035b9d06618cecdf760c41b885c80a34910e56a4f1c9c3d903a0fb6667dba800a13809198fe34e6eb189f85c4fadbb33e20fdd91f8276de2fb7d24c5a6
+Section: 插件
+Description: 抖音下载增强插件
+ * 右下角显示下载按钮
+ * 无水印保存图片、视频、LivePhoto
+ * 仅在 31.7.0 及更高版本上进行测试
+Name: 抖音下载 AwemeDownloadMedia
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/AwemeDownloadMedia/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeDownloadMedia/js.json
+
+Package: com.netskao.awemefullscreens
+Architecture: iphoneos-arm64
+Version: 1.3-7
+Maintainer: Netskao
+Installed-Size: 448
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.awemefullscreen, byg.iosios.net.awemefullscreen
+Filename: debs/com.netskao.awemefullscreens_1.3-7_iphoneos-arm64.deb
+Size: 191464
+MD5sum: bdb7eca52e4f81dfbd6dad2a339f97c7
+SHA1: cda50359ec343947a93633f8057923b0337adcdb
+SHA256: dd4fa791752a8bbc1407c28f677f1d7a7de5fe76b3f1e37489dfa6f13fadceb4
+SHA512: d9192f1d5690a679d41b566eba951d1c62edd58d8b6d172924b3a85caa28c6bfe3130cfd8176f01e467a5c7592826f078df784a2248a9ac57cc3dab5577ee88d
+Section: 插件
+Description: 抖音主页全屏显示
+ * 支持抖音极速版
+ * 插件开关位于抖音设置内
+ * 仅支持抖音 34.7.0 及以上版本
+ * 放大视频达到全屏显示，视频区域会部分丢失
+Name: 抖音全屏 AwemeFullScreen
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/dy.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeFullScreen/js.json
+
+Package: com.netskao.awemenoads
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Maintainer: Nets
+Installed-Size: 140
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.netskao.awemenoads_1.1-3_iphoneos-arm64.deb
+Size: 32796
+MD5sum: f745ddf8556369e4eb08660d12159ae0
+SHA1: f2f062371d2b4eb99e4dfb7575045d1f4982222f
+SHA256: 57340502044a8d0d7fb4a95646b18766b6e0813635503090c780fc1fdddcb6b8
+SHA512: 15ebab8334921407097adeeb317e1247d07c0826422618eadebc3242dfd1aa6c86c7dec231214490c536c90026e69991ffabf7767a36ef3eec2126e7f19147d4
+Section: 插件
+Description: 抖音去广告插件
+ * 默认生效
+ * 去启动广告
+ * 去视频流广告
+ * 去青少年提醒
+ * 小程序跳广告，单独开关控制
+ * 内存清理功能，单独开关控制
+Name: 抖音去广告 AwemeNoAds
+Author: Netskao
+Icon: https://TrollStoreX.Github.io/sileodepiction/AwemeNoAds/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeNoAds/js.json
+
+Package: com.netskao.awemesaveemojis
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: Nets
+Installed-Size: 224
+Depends: firmware (>= 12.0), mobilesubstrate
+Conflicts: com.netskao.awemesaveemoji
+Filename: debs/com.netskao.awemesaveemojis_1.1-2_iphoneos-arm64.deb
+Size: 74992
+MD5sum: 794cbe4c0559b3423e5b6eb06cdd90e0
+SHA1: 8a6cce9f398219e80d55b803c3789843f620680b
+SHA256: af2fcce80ffe805b4885e860bb32ab40f5da045e60cd0965c35bd383a2ea184e
+SHA512: 7b6de1bea68917ac7dc58858a276e66e8c534381e69ab158b3ea36bb21e7549b028aff51837fffce674426f087c25f21cfe97b76037318da7e955bff86b402b6
+Section: 插件
+Description: 抖音评论区表情保存
+ * 插件位于抖音设置内，默认关闭
+ * 保存评论表情功能仅在 32.3.0 版本上测试
+ * 开启功能后只有评论区中长按表情才可保存至相册（不要点开放大表情）
+Name: 抖音保存表情 AwemeSaveEmoji
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/AwemeSaveEmoji/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeSaveEmoji/js.json
+
+Package: com.netskao.awemevideotimes
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: Nets
+Installed-Size: 124
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.awemevideotime, byg.iosios.net.awemevideotime
+Filename: debs/com.netskao.awemevideotimes_1.1-2_iphoneos-arm64.deb
+Size: 31716
+MD5sum: 6b05296852a9bef4e07fa5649d0958a9
+SHA1: 807ba913ce39bb9c82ef86789204f8dde5936833
+SHA256: 44097995021348de29ed9ac11e4a6c3ee7de524d586bf51f6fc2fd058b909085
+SHA512: 15b304d08e171fff50e36d28cbfbce69feeead1476c61906e2f84d1de87595b44d780f43f31471f6bfcc29fc55f6aa840d79ad13c0ac94ce9782e584755d2c51
+Section: 插件
+Description: 抖音视频下方显示视频时长
+ * 仅在30.3.0及更高版本上进行测试
+Name: 抖音时间 AwemeVideoTime
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/AwemeVideoTime/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeVideoTime/js.json
+
+Package: com.netskao.dumpdecrypters
+Architecture: iphoneos-arm64
+Version: 1.5-1
+Maintainer: Nets
+Installed-Size: 848
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.dumpdecrypter, byg.iosios.net.dumpbinaryfiles-rootless, com.dao.dumpdecrypter
+Filename: debs/com.netskao.dumpdecrypters_1.5-1_iphoneos-arm64.deb
+Size: 393784
+MD5sum: 1cd54e577f7e70526df9a86b36921781
+SHA1: b7c9f583d7da6465944b14a6720cc1a8208c0956
+SHA256: d624605dc81f0f82e4193c142187734ccffd48ae951cdec79db606ebe86934d4
+SHA512: bd48c991ed218703cb77062be2a04eb8502fd8e4bfc49f65e308b899625d0475d3ad4bdd3d6096a93d52ab8146c7e917998446a5f5478816271c532301a1b1f4
+Section: 插件
+Description: 砸壳 App Store 应用插件
+ * 支持砸壳小组件和分享组件
+ * 动态砸壳，可能会闪退，无法砸小组件
+ * Decrypt iOS Apps and Plugins, Supports iOS15+, Only Tested iOS16.1
+Name: DumpDecrypter 砸壳
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/Dumpdecrypter/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Dumpdecrypter/js.json
+
+Package: com.netskao.imgplaycracks
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Maintainer: Nets
+Installed-Size: 1012
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.imgplaycrack
+Filename: debs/com.netskao.imgplaycracks_1.1-5_iphoneos-arm64.deb
+Size: 381556
+MD5sum: 2b3caf199318d976537c9500fa0bea50
+SHA1: 1fe882ae464c635281fe2a0a92ed05059f838845
+SHA256: 7bf0b70c63eeeb05cd65bee87f9437fe65436b8c0dd0c6f5ec5be7ce46ac9171
+SHA512: cb6bc9929b85e4e2c5eed894649f18d2b2ceb6138548dc630a997e1573f1db47b5817aa1ea296ab22a5dd9bf11f3cbdd680cd92d483d8362996dbd859ae5cd60
+Section: 插件
+Description: ImgPlay Crack
+ * 仅支持 Imgplay 6.5.2 版本
+Name: ImgPlay Crack
+Author: Netskao
+Icon: https://TrollStoreX.Github.io/sileodepiction/ImgPlay/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ImgPlay/js.json
+
+Package: com.netskao.qqipadmodelogins
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: com.netskao.qqipadmodelogin
+Filename: debs/com.netskao.qqipadmodelogins_1.1-1_iphoneos-arm64.deb
+Size: 2416
+MD5sum: 1dd5a3791d2388a22dc546864f39a238
+SHA1: 2e5422d2685351dfd6ff88e1bb86dfba6beea891
+SHA256: e05a8fd260be4afd53028498c8e6499c116e9c2d90a1e5a9f1ac72cfe86100b3
+SHA512: 23fb54a281638f9e7cdab011205ed43d99050b1b87963155511c1f9df40242a570ca2ea4739f4630975c6eb5dec49e7d8b7949cbdaaf74750487b43af714605b
+Section: 插件
+Description: 让 iPhone QQ 客户端伪装成 iPad 登陆
+ * QQ simulates iPad mode login
+Name: QQ iPad 模式
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/QQ/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/QQ/js.json
+
+Package: com.netskao.qqnotiavatars
+Architecture: iphoneos-arm64
+Version: 1.2-3
+Maintainer: Nets
+Installed-Size: 236
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.netskao.qqnotiavatars_1.2-3_iphoneos-arm64.deb
+Size: 32416
+MD5sum: 5a43ce00002bd5cd14a9a6583a160587
+SHA1: 625a85ba7c4de579d506e9ad31d7f59939a128e5
+SHA256: 4f7bfa93a9385b0401cf65f823e1f8b38b4b6c30a1cb44fdf7aba19383d73c9c
+SHA512: a9d5e5448349a30ca1ecf3a9a90a09c64ae292f638806fd4ff1d38397045f80cc588706f57ba3f77a0d6dfd64cbf711d6c3d81ef4a03490e08683f4f7285e066
+Section: 插件
+Description: 让 QQ 推送消息通知显示好友头像
+Name: QQNotiAvatar QQ头像
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/qq.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/jss.json
+
+Package: com.netskao.swiftgramcracks
+Architecture: iphoneos-arm64
+Version: 1.1-7
+Maintainer: Nets
+Installed-Size: 1080
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.netskao.swiftgramcrack
+Filename: debs/com.netskao.swiftgramcracks_1.1-7_iphoneos-arm64.deb
+Size: 423284
+MD5sum: 962de2976312f8fe12e4d4d5e7a52665
+SHA1: 96f82d7e9bf0ae16f4d059990cbe37f473befab6
+SHA256: a77b887d47bd81cb67c22f9114e76a30b0424e52d4e27e6a62d1dbe6bd348267
+SHA512: adf9c2f633afddaef8e3242bdda74fb7ee5193065ab4d2804827f504c0ffb6c468216d7319e8f6b9c406f25efc67730bd2cc7e24c51c6627ed76122f9ba8588f
+Section: 插件
+Description: Swiftgram Pro
+ * 附加解除下载保护
+ * 解除截图保护
+ * 去除官方广告
+ * 解锁 Pro 首次登录需重启一次应用
+ * 最后在 Swiftgram 12.2 进行测试
+Name: Swiftgram Crack
+Author: Netskao
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Swiftgram/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/Swiftgram/icon.png
+
+Package: com.netskao.twitternoadss
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.netskao.twitternoads
+Filename: debs/com.netskao.twitternoadss_1.1-2_iphoneos-arm64.deb
+Size: 2724
+MD5sum: ff85c6b9ad8d74b9a05d3978ddd04498
+SHA1: 0e6fde12b97715ac74dba05b3c6faa9a7e64e1a6
+SHA256: 05d5728711c6b75a736eac1de67e9dde95b7be1616151dcb0a2ba6380d10908e
+SHA512: 5c00c0632d3d799f1fb1ef9cd5fe9491b09a90aef27f486f87187164fe560a40addb2291ed379b2d6d933a5793ea803ca3810d1985b3e075d233811d8ccc0f1d
+Section: 插件
+Description: Twitter X 去广告
+ * 在 Twitter 中删除广告，仅在 10.64.1 版本上测试
+ * Twitter removes ads from data stream. Tested on version 10.64.1 only
+Name: Twitter NoAds
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/TwitterNoAds/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/TwitterNoAds/js1.json
+
+Package: com.netskao.wcabtestlocalbackups
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: com.netskao.wcabtestlocalbackup
+Filename: debs/com.netskao.wcabtestlocalbackups_1.1-1_iphoneos-arm64.deb
+Size: 2712
+MD5sum: bb0e854ab15bac14660d6d44a31a55d7
+SHA1: f982e8b7044ea55db24d14347561deee3d06fa29
+SHA256: ada59ff1f25daaafec7e9055a0a87b0141a19918979e843dcd11ca50678c7829
+SHA512: f97b46fd7e48a68613755fa316d46050f34c008dc7c27da3256251d3d8ab539f009a593b4dd5e573a3748514f402cac3a0b5f97f2f295a148c076aa30880f5fe
+Section: 插件
+Description: 微信开启聊天记录本地备份灰度测试
+ * 仅支持微信 8.0.50 及以上
+Name: 微信开启聊天记录本地备份
+Author: Netskao
+Icon: https://TrollStoreX.Github.io/sileodepiction/WCABTestLocalBackup/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WCABTestLocalBackup/js.json
+
+Package: com.netskao.wcabtestvoicerecordviews
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.netskao.wcabtestvoicerecordviews_1.1-1_iphoneos-arm64.deb
+Size: 2296
+MD5sum: 118a8d120e8ef3c010e42f26b3aba819
+SHA1: 4b4e38f7851f5f7b5bfddead0649e62af852cc30
+SHA256: 22c319367acf4a6fac4ccae0b70881410ef2327e3da9dd2f6d791647f0f7378c
+SHA512: 03f40fb76ed7fdff9e4e98c379e0aaf35b1ca6f20f391f791f7e41030a6513586f71fd642f96d0c18d428d68f127ec99e2c0f09674d6d568341bb351b9abacfe
+Section: 插件
+Description: 在微信 8.0.60 开启新的语音按钮 UI
+Name: 微信开启新语音按钮
+Author: Netskao
+Icon: https://TrollStoreX.Github.io/sileodepiction/WCPluginsOrder/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WCABTestVoiceRecordView/js.json
+
+Package: com.netskao.wcaddnotiheadimgswitchs
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: Nets
+Installed-Size: 944
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.netskao.wcaddnotiheadimgswitch
+Filename: debs/com.netskao.wcaddnotiheadimgswitchs_1.1-2_iphoneos-arm64.deb
+Size: 468900
+MD5sum: 7a90f9500f375c0c9f7e28d8aa50e3f6
+SHA1: e6c30e7c7cd5fa13b1667e57affa6f51c33e850b
+SHA256: 2fe3765c566b538a8848d4ca2249257ecaec75209d1ac906919198d732c09254
+SHA512: 6a35021de8afb544b50034a2fc1d362d096370dd95d0f507411c5dac01a4f1a996aa44ed4e118d9e447624163c1f8f7e19eb0c683b5321fa185999f61588bd04
+Section: 插件
+Description: 强制开通微信灰度测试的信息推送显示头像功能
+ * 支持 微信 8.0.63 - 8.0.66
+ * 开关位于微信设置顶部
+ * 打开开关即可生效，升级微信或切换设置皆有效
+Name: 强开微信信息推送显示头像
+Author: Netskao
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WCAddNotiHeadImgSwitch/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/WCAddNotiHeadImgSwitch/icon.png
+
+Package: com.netskao.wcdisablehotupdatess
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wcdisablehotupdates
+Filename: debs/com.netskao.wcdisablehotupdatess_1.1-2_iphoneos-arm64.deb
+Size: 2516
+MD5sum: cebaacda46fc611b927dff0e138792ce
+SHA1: 6cf14d3741f3f465ab200ef55b151d05e6dec98c
+SHA256: 1f082645bd515b0300fbc02a8b36ca6bb13d989c9b95de0d9ad746b03e46a7ba
+SHA512: fe24d01bac89782f27d6b4115565cb21468419062e03395000d5d640ee3a62be7d801a51eededd56ea675247b0fcdd9459c3c0fa58160d32b3c27d80e2e4e416
+Section: 插件
+Description: 微信 8.0.56 及以上高版本会云控微信，导致第三方插件设置入口和功能失效，该插件解决此问题
+ * 1.1-2:修复微信 8.0.61+ 失效问题
+ * 最后更新：2025 年 07 月 17 日
+Name: 禁止微信热更新 WCDisableHotUpdates
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/WCDisableHotUpdates/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WCDisableHotUpdates/js.json
+
+Package: com.netskao.wcisoverseausers
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wcisoverseauser
+Filename: debs/com.netskao.wcisoverseausers_1.1-1_iphoneos-arm64.deb
+Size: 2356
+MD5sum: aa325c422e167ab3d41ee336fdaf362c
+SHA1: 6ea5f150dca2a62642ab2471b5442046eb4bfac7
+SHA256: 55764e70d0d84bb1afd5b340e2816f17123bed88af21794bf354d1d58350e6f0
+SHA512: 18a3ca8735759993404bb11d9cf7199d86a582fbe9b03837574d401fc57d2dcdda64c68134cb4ef2427301a0607154f322f7bc12672e45bc2c46db05ccef79c9
+Section: 插件
+Description: 微信插件
+ * 强制激活 86+ 号码使用「通行密钥」功能
+ * 设置-账号与安全-通行密钥
+ * 仅支持微信 8.0.54 及以上，仅支持 iOS 16 及以上
+Name: 微信通行密钥 WCIsOverSeaUser
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/WCIsOverSeaUser/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WCIsOverSeaUser/js.json
+
+Package: com.netskao.wckeyboardhidelogos
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: com.netskao.wckeyboardhidelogo
+Filename: debs/com.netskao.wckeyboardhidelogos_1.1-1_iphoneos-arm64.deb
+Size: 2368
+MD5sum: b2357ce35b7316a7e3d25553d5a9023d
+SHA1: 7b23a3793261343a028571670fa46aa3875e15fb
+SHA256: 96d9b66d5a1a488694dd836de3225dd463f9a7bd11097fe04318c1dd48224df3
+SHA512: fd1dda1b8f0b449f7aa05d2ecdc4e6733cec31a85ed4120c41e97d98ac44319f290f8c22bf3f283c4522afb444dc67472509c99e1a3481be6883c87ccf1eafff
+Section: 插件
+Description: 隐藏微信键盘左上角标志 Logo
+Name: 隐藏微信键盘 Logo
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/WCKeyboardHideLogo/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WCKeyboardHideLogo/js.json
+
+Package: com.netskao.wcmypageinfocenters
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Maintainer: Nets
+Installed-Size: 140
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wcmypageinfocenter
+Filename: debs/com.netskao.wcmypageinfocenters_1.2-2_iphoneos-arm64.deb
+Size: 66472
+MD5sum: f67b79d2acba8ad761e741fc49470de2
+SHA1: 491537c1091fca0c1e19f18b1d033659a1e594be
+SHA256: e8549c75a76141945bab1a754072bac466b8dddb2ac80a8cb14d622a935bfe16
+SHA512: 24418f8f303abb9d709e4df6305d218441bcc3aa3716bc7d541ef01242c43aa816149e5c108347fb1dc29ee009a5173820d2f90602ee7f9cafb3438b9dd94b29
+Section: 插件
+Description: 我的页面资料居中
+ * 仅支持微信 8.0.31 及更高版本
+ * 可收纳在老猫收纳插件内
+Name: 我的页面资料居中 WCMyPageInfoCenter
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/WCMyPageInfoCenter/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WCMyPageInfoCenter/js.json
+
+Package: com.netskao.wctimelinemessagetails
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.netskao.wctimelinemessagetails_1.1-1_iphoneos-arm64.deb
+Size: 5496
+MD5sum: 6ae6b913efc532b7e8151e419eb22125
+SHA1: 82fe34e93cc5d511b4cb7b6e50d3c1277fb20d24
+SHA256: ede497bdfbab5c7b1e0520fb07a6e7aba4d6972ed7bd8b755b1f78fd8aa164bc
+SHA512: caeff1ccbebdadded859f9e4ec7581bd1e3fc158c4ec3fc7582d5f39cf89d83722b550279a42e3be74a26d6ea1380f3da96fb5ec0278785ade4d713251af88a5
+Section: 插件
+Description: 微信朋友圈消息小尾巴自定义文本
+ * 仅在 iOS 客户端可显示
+Name: 微信小尾巴 WCTimeLineMessageTail
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/WCTimeLineMessageTail/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WCTimeLineMessageTail/js.json
+
+Package: com.netskao.wctimelinereplacefinds
+Architecture: iphoneos-arm64
+Version: 1.1-3
+Maintainer: Nets
+Installed-Size: 836
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wctimelinereplacefind
+Filename: debs/com.netskao.wctimelinereplacefinds_1.1-3_iphoneos-arm64.deb
+Size: 338316
+MD5sum: 281bc207750b1c374434b90f04f60cb3
+SHA1: 2d64e4cc717910bbd7921881b8837a085ed4fe43
+SHA256: 9743ebeda2cb8cd4e43dd825ffcf86cd60e48f12e872b54eca6dd7df3ab665bd
+SHA512: b44f8d862d89d9c7c47bcf5d0f409dca3b1121af3251c6aebb3a65b66a1cce308e5ae5e0c17787f71ac4d88f3343ce944df06bbcc3f66c0432845bc11405b233
+Section: 插件
+Description: 使用朋友圈替换发现底栏
+Name: 微信使用朋友圈替换发现底栏
+Author: Netskao
+Icon: https://TrollStoreX.Github.io/sileodepiction/WCTimeLineReplaceFind/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WCTimeLineReplaceFind/js.json
+
+Package: com.netskao.wechatnotiavatars
+Architecture: iphoneos-arm64
+Version: 1.3-1
+Maintainer: Nets
+Installed-Size: 2336
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: debs/com.netskao.wechatnotiavatars_1.3-1_iphoneos-arm64.deb
+Size: 243788
+MD5sum: 3f0b6673d73db4a3a959d32ae9fac83a
+SHA1: a1acdc6954258f6baad57e00c8e996eb5768fda0
+SHA256: c00e4fd0671180158f7dda1d479aa2f6deff31de9276d27e4a10197f10263254
+SHA512: 321e28a24b33588157b8dc18dbcf477dd6bd0c2c2edced61198435b3ef99cde2168b7a93d56d2e0c874b27dffc73218a38437b39c68ec501b14e91c1ef040dd5
+Section: 插件
+Description: 让微信消息通知显示微信好友头像
+Name: WeChatNotiAvatar 微信头像
+Author: Netskao
+icon: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/js.json
+
+Package: com.netskao.wechatuiswitchloaders
+Architecture: iphoneos-arm64
+Version: 1.1-5
+Maintainer: Nets
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wechatuiswitchloader
+Filename: debs/com.netskao.wechatuiswitchloaders_1.1-5_iphoneos-arm64.deb
+Size: 119296
+MD5sum: 1f48d5e2c30ebc785add5723c2cba5bb
+SHA1: 84ecd54955c8d5719c7bd0951298bf06e8a94dc1
+SHA256: ac501ee3fe1aea5f584112ba029681a5e0991a684c9abd3f92c6a8beee12ac27
+SHA512: fee0321644e56f2a71a4e6a5553e269de1974e380afd7dc9bb6457efe0d7f36080cf16c5c040988d7904e707db361b5dc47d875ab316b7c76e74065c0d5c3e0b
+Section: 插件
+Description: 微信开关图标修改，可自定义
+ * 从曾经的净化功能中独立出来附加新的设置
+Name: 微信按钮 WeChatUISwitchLoader
+Author: Netskao
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WeChatUISwitchLoader/js.json
+icon: https://TrollStoreX.Github.io/sileodepiction/WeChatUISwitchLoader/icon.png
 
 Package: com.ngkhoi.26home
 Architecture: iphoneos-arm64e
@@ -24343,6 +24969,27 @@ Author: nicho1asdev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.nightwind.matchingiconlabelss
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: Nightwind
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.nightwind.matchingiconlabels
+Filename: debs/com.nightwind.matchingiconlabelss_0.0.1_iphoneos-arm64.deb
+Size: 3764
+MD5sum: c9a58e6b0818494104c69a03e1d25ef4
+SHA1: 27bbf1a4f49181c218247c9a9bc4de539c71361c
+SHA256: b9b5e7046ab02130dccd6385717efa673669df6ba615f685eb36a3f311f25f8c
+SHA512: f6824a5112e03ad9351118d96e5015c69d4690408323fa90bc6e593d085e5460115b1da125642cd3f9f2524c6d2d2407f6b594a91169d9d034715c141cd13b29
+Section: 插件
+Description: 将图标标签的颜色与其图标相匹配
+ * Match icon labels colors to their icons
+Name: MatchingIconLabels 匹配图标标签
+Author: Nightwind
+Icon: https://TrollStoreX.Github.io/sileodepiction/MatchingIconLabels/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/MatchingIconLabels/js.json
+
 Package: com.noads.tweka
 Architecture: iphoneos-arm64
 Version: 1.3.1
@@ -24360,6 +25007,27 @@ Description: 去除广告。
 Name: NoAdsX
 Author: 半生年华
 icon: https://huayuarc.github.io/icon/NoAds@2x.png
+
+Package: com.notificationsgroupcounts.zh-Hans
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 巨魔商店 Telegram
+Installed-Size: 448
+Depends: mobilesubstrate (>= 0.9.5000)
+Replaces: com.0xkuj.notificationsgroupcounts, com.0xkuj.notificationsgroupcount
+Filename: debs/com.notificationsgroupcounts.zh-Hans_1.0_iphoneos-arm64.deb
+Size: 1908
+MD5sum: 7e2efa9cb4c05b6e384046f8930956ea
+SHA1: 900ca818dc1af7cbb0699136e19dea4d1251ecab
+SHA256: ce83586ff81c822b7d3e9116766c42f87e6d67cd62ba79aeae65d24a52541105
+SHA512: 9f3dee2e9d5baacd0e58c3cc7d24628020a859c3dcd21db40580b860cfe9089bee507622883d84a0199ca6ee25c419a1c8e44b2bf701b6c9aebe46c9575e671d
+Section: 插件
+Description: zh-Hans for NotificationsGroupCount
+ * NotificationsGroupCount 简体中文
+Name: NotificationsGroupCount 简体中文
+Author: 巨魔商店 Telegram
+icon: https://TrollStoreX.Github.io/sileodepiction/NotificationsGroupCount/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/NotificationsGroupCount/js1.json
 
 Package: com.ntm.batteryanalyzer
 Architecture: iphoneos-arm64
@@ -24435,6 +25103,26 @@ Description: 隐私总开关：系统「设置→隐私与安全性」的实时�
 Name: 隐私总开关
 Author: yzdmm2024
 
+Package: com.nwzj.hooktcs
+Architecture: iphoneos-arm
+Version: 1.0
+Maintainer: 逆无止境
+Installed-Size: 123
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.1aaa1.1aaa3, com.yourepo.huayuarc.1aaa3, byg.iosios.net.tucengpojie
+Filename: debs/com.nwzj.hooktcs_1.0_iphoneos-arm.deb
+Size: 92424
+MD5sum: dc6ed546106c90c9eef3a94bfdabfb73
+SHA1: 3c27a85a5626f04b8842d48c18444be0129ab6d9
+SHA256: 41766e252ed29c93a1876de1887b351c9d7199b19aa99aea974978e551549477
+SHA512: dcbc96fe4ef2b08623f73f31f43929a5851c79c4d16ae2a5dab6796fbdab76a11ae4691f2614c890e19e4188b6f34325a83deb253002fbf60317da007b629061
+Section: 插件
+Description: 删除图层时间限制，屏蔽服务器远程闪退
+Name: 逆无止境图层 1aaa3
+Author: 逆无止境
+icon: https://TrollStoreX.Github.io/sileodepiction/1aa2/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/1aa2/js.json
+
 Package: com.nx.stheno
 Architecture: iphoneos-arm64
 Version: 2.0
@@ -24473,6 +25161,24 @@ Author: opa334
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.opa334.dopamine.trollstore
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: TrollStore
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/com.opa334.dopamine.trollstore_1.0_iphoneos-arm64.deb
+Size: 872
+MD5sum: 7792fb34c4ebd10de45c5edc5e9fb684
+SHA1: 1e301a6a5dedd284459dac0631e21db08aaa354b
+SHA256: e44d7fcfc1a43e0f0575bf90f1acd6a1a558db15a9a23027b30597dc889f2082
+SHA512: 435239b048087a0d179260f516b3bf3d392e792f97ee5e619f68e92a939de5d83f3969ee5660a7c2d15f9a1d35d8f85afeaf54601561f5f28079312552eda0b8
+Section: 插件
+Description: opa334
+Name: opa334
+Author: TrollStore
+icon: https://TrollStoreX.Github.io/sileodepiction/opa334/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/opa334/js.json
+
 Package: com.opa334.libsandy
 Architecture: iphoneos-arm64e
 Version: 1.1.3-3-1+debug
@@ -24509,6 +25215,90 @@ Description: A modified TrollStore by iosdump for jailbroken iOS
 Name: TrollStore Lite
 Author: opa334&iosdump
 
+Package: com.opa334.trollstorelites
+Architecture: iphoneos-arm64
+Version: 2.1.1-1
+Maintainer: opa334
+Installed-Size: 592
+Depends: ldid
+Conflicts: com.opa334.trollstorelite
+Filename: debs/com.opa334.trollstorelites_2.1.1-1_iphoneos-arm64.deb
+Size: 213240
+MD5sum: 64e7a54caa558046d9d587f321adbc72
+SHA1: 172fbeea197b9b175487ced8801ad37361e1b173
+SHA256: 91a54eb8272cf8c9f42ab2b37345fc5495781d68dafeeddb15fa217a4368a0d8
+SHA512: 0de0b5b23480793c02dd67164ee45bb236da201dd0741b400201f446ac1f582d49196e78c36b2a2c4202eea8af20f59a92db2a6f598d39877109b64bafac8cbd
+Section: 插件
+Description: 巨魔商店越狱版
+ * 支持安装 IPA 文件
+ * 重启设备后丢失越狱环境将失效
+ * TrollStore for jailbroken iOS
+Name: TrollStore Lite 白巨魔
+Author: opa334
+Icon: https://TrollStoreX.Github.io/sileodepiction/TrollStore/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/TrollStore/js.json
+
+Package: com.p2kdev.facebooknoads
+Architecture: iphoneos-arm64
+Version: 1.3
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.p2kdev.facebooknoads_1.3_iphoneos-arm64.deb
+Size: 5436
+MD5sum: 9bca7fdeba43659f25c28c57c8d7b849
+SHA1: 8de281c0d69298adab788e8777b795b8cc716058
+SHA256: 4563d4ae17e7018730b096da98410188d189ff89093082b3d1422717821ba317
+SHA512: 1f4197202618aaf875f3cce9ae702ee841865f3de45429008ec26fb4e4aea68c0f8060147356668314b76d7111bacf8d7f659a21ecd9e86539a54cc6d628e190
+Section: 插件
+Description: Facebook NoAds 去广告插件
+Name: FacebookNoAds
+Author: P2KDev <p2kdev@gmail.com>
+Icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/facebook.png
+
+Package: com.p2kdev.instagramnoadss
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: P2KDev
+Installed-Size: 176
+Depends: mobilesubstrate
+Conflicts: com.p2kdev.instagramnoads
+Filename: debs/com.p2kdev.instagramnoadss_1.1.1_iphoneos-arm64.deb
+Size: 7432
+MD5sum: dbbcbdfe7608d1ec4232d355e49a5b63
+SHA1: 0bbc7c85273028aa54199e85cc8e21476c122df5
+SHA256: d72ae1cee70a80a6aad4308cf4d0c946b149333561d147f175f1357bf99faf1e
+SHA512: b50e68b6b8cc58616e4ec28aaad60e55bb8ad024896ee16f21e17802f5176728a3fab1bc9855db614152fed4420078997400c0491035a640e3966800abb38d51
+Section: 插件
+Description: Instagram 去广告插件
+ * 最后在 Instagram 386.0.0 进行测试
+ * No Ads in the Instagram App!
+Name: InstagramNoAds
+Author: P2KDev
+Icon: https://TrollStoreX.Github.io/sileodepiction/Rocket_zh-Hans/Instagram.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/InstagramNoAds/js.json
+
+Package: com.p2kdev.twitternoadss
+Architecture: iphoneos-arm64
+Version: 1.2.5
+Maintainer: P2KDev
+Installed-Size: 172
+Depends: mobilesubstrate
+Conflicts: com.p2kdev.twitternoads
+Filename: debs/com.p2kdev.twitternoadss_1.2.5_iphoneos-arm64.deb
+Size: 7544
+MD5sum: 4a1ef8014c8e18e32a210e2558655cf7
+SHA1: 963452a927bf26b08023df80cb494fca00234000
+SHA256: 8fe4be8f6ff60510531be22beac68a85a228ec9a78fb2bff862ad9b8e219993c
+SHA512: 7ff5cb603996543c8d6ae532b723182a1271752826ca4f6912d5054c897ab5ebb17b38122277e2e4eb569e6171098336716cccc5d6d99af9134aeec35a1d5603
+Section: 插件
+Description: 去除 X Twitter 广告
+ * No Ads in the Twitter App
+Name: TwitterNoAds
+Author: P2KDev
+icon: https://TrollStoreX.Github.io/sileodepiction/TwitterNoAds/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/TwitterNoAds/js.json
+
 Package: com.peterdev.libpddokdo
 Architecture: iphoneos-arm64
 Version: 1.3.5
@@ -24544,6 +25334,51 @@ Name: 微信虚拟视频-Rootless
 Author: pingfan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.promotion.120hz
+Architecture: iphoneos-arm64
+Version: 1.0.0-76+debug
+Maintainer: 小白
+Installed-Size: 180
+Depends: mobilesubstrate
+Conflicts: com.promotion120
+Filename: debs/com.promotion.120hz_1.0.0-76_debug_iphoneos-arm64.deb
+Size: 12616
+MD5sum: 299fe2c73eca4cf37bdbc8eeccd2171e
+SHA1: 637b41413a46d5493f370c6560c5576c1971887c
+SHA256: 774ff53b63ce63bd48a9bdf8aa714e843f73d556c049cef6aac6b558012c4331
+SHA512: e5857e0591bc37c6d39cf77c6522b5568de0ba18e35ff1b597b223f295ef97d7b20e4e8bdd80511b7022883d01626ec57104b332cc5378d823ee19cc33026d44
+Section: 插件
+Description: 强制全局 120Hz ProMotion 刷新率，解除系统 80Hz 限制
+ * 支持 Rootless、RootHide 越狱
+ * 支持 NathanLR、BootStrap 半越狱
+ * 支持 iPhone 13 Pro 及以上 ProMotion 设备
+Tag: supports::roothide
+Name: ProMotion 120Hz
+Author: 无尽伤痛都锁进黑夜
+Icon: https://TrollStoreX.Github.io/sileodepiction/120hz/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/120hz/js.json
+
+Package: com.ps.recordpauses
+Architecture: iphoneos-arm64
+Version: 2.0.3
+Maintainer: PoomSmart
+Installed-Size: 168
+Provides: org.thebigboss.recordpause, com.spicat.recordpause,com.ps.recordpause
+Depends: mobilesubstrate, firmware (>= 14.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Filename: debs/com.ps.recordpauses_2.0.3_iphoneos-arm64.deb
+Size: 10132
+MD5sum: c6774dc21f1183070116a989689b50c6
+SHA1: 01057a62d3cdc3de4238ce255903173909fbb7f4
+SHA256: b0a9d5e6c8074f54a898f8d82a99d217c213983d44a1a79685ab3c53ecff02d4
+SHA512: c21bbb82f2d68ab4c08de580c6446ee60b86b3fffdaacd471b60ae0087e6b6b51ca881bd24b4e9f913e0ca4dd0985d96e16a54f7a37264dea8abb758bc6192ba
+Section: 插件
+Description: 录像暂停 Pause/resume video recording in iOS Camera app.
+Name: 录像暂停 RecordPause
+Author: PoomSmart
+icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/camera.png
 
 Package: com.qianuo.chatassist
 Architecture: iphoneos-arm64
