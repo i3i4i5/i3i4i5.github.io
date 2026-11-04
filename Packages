@@ -31413,6 +31413,44 @@ Author: subdiox & iosdump
 icon: https://TrollStoreX.Github.io/sileodepiction/StoreSwitcher/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/StoreSwitcher/js.json
 
+Package: com.sunshinesong.dynamic-notifier
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Maintainer: sunshinesong
+Installed-Size: 812
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/com.sunshinesong.dynamic-notifier_1.0.4_iphoneos-arm64.deb
+Size: 130296
+MD5sum: 98e42766b4c977e0556d05fa5f4d09c1
+SHA1: d727c8619a0710306f56fab9895635e34842539f
+SHA256: 6bde9b309d3653e6e5a742b5fc6425c14fefbc53a1def9c06509bbdbd1d1c212
+SHA512: de099edb0cbe73d637e7024d12b33d29111a602d569325494531851eb1f80214f07259c56f76b660464fad451ffb29d575298d695d221013286dd0d3c278c84c
+Section: 插件
+Description: 灵动消息，就是这么简单。仅仅支持iOS16+ (14pro,14pro max)。不支持伪装的灵动岛，源里面该作者另外一款支持伪装灵动岛。
+Name: dynamic-notifier灵动岛
+Author: sunshinesong
+Icon: https://axs66.github.io/pro/icon/notifier.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/dynamic-notifier/js.json
+
+Package: com.sunshinesong.native-island
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: sunshinesong
+Installed-Size: 908
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), org.thebigboss.libcolorpicker
+Filename: debs/com.sunshinesong.native-island_1.0.3_iphoneos-arm64.deb
+Size: 151872
+MD5sum: f95b661d3aef4a7132b6e4dd73b3b3eb
+SHA1: 0bbcabdb05563d713200386d279e5ee358f7814a
+SHA256: fd58b0f39175daaba70033d4c9ac613001d6012bbdd6a1e99132398f1b25abf0
+SHA512: c63adc982bc005010a4080fc8b94e14644b0192248d88f3cf4477458647fba33983811db07d5f76342a01aace889cd9a52d92b157d770fb7b94ba550da4c30da
+Section: 插件
+Description: 原生岛通知，从简即可。仅仅支持iOS16.0+，支持伪装的灵动岛。
+Name: native-island-notifier灵动岛
+Author: sunshinesong
+Icon: https://axs66.github.io/pro/icon/notifier.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/native-island/js.json
+
 Package: com.sunshinesong.split-view-pro-helper
 Architecture: iphoneos-arm64
 Version: 999.1
@@ -31433,64 +31471,24 @@ Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.sunshinesong.split-view-pro
-Architecture: iphoneos-arm64e
-Version: 2.1.0
-Maintainer: kanuo
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: xyz.cypwn.splitviewpro, com.jtis.splitviewpro, com.tqm-mos.splitviewpro, com.bvn.splitviewpro
-Filename: debs/com.sunshinesong.split-view-pro_2.1.0_iphoneos-arm64e.deb
-Size: 2553712
-MD5sum: 4bcd2dd6b19a16ef4f01fa6da3bdaf84
-SHA1: e8515453d2df3d3683f556fcb6a6520a0d827259
-SHA256: ebf29c65d072f623c48eafb7d6eda3ddac022b937bb85f756bdc43df452ca730
-SHA512: 68e5798f26db52139a84a2a02f10082fbdf62538262ce5b6270e5165d92810179a3074492e937f5bc74d21a7bbff091ee115fefeb07dd8bc44c7b46c9820bfde
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Maintainer: sunshinesong
+Installed-Size: 13648
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Filename: debs/com.sunshinesong.split-view-pro_1.1.6_iphoneos-arm64.deb
+Size: 3482196
+MD5sum: f9446e3114909754f0f23d4a4a3321da
+SHA1: 69cc3326eb439e3563755ae63fe17343878963a4
+SHA256: 66ff6e82d231ee893f7fca625dc3c5f7aff5b320fd32848cb3a8b70b8da939f7
+SHA512: 1802faa4cf22b879c08ae6ee879e759e285833a7bb76d527d776879e7c7b3146b98e42770c436942ba49f9f654a812d2a14b28b4d35845d90cbc1dfc3405c4df
 Section: 插件
-Description: iOS 17 隐根（RootHide）优化版的真分屏插件，把任意 App 塞进可选大小的浮窗，
- 同时开多个窗口、边看视频边聊天、边看文档边回消息。
-  .
-  【核心功能】
-  - 真浮窗分屏：任意 App 在独立浮窗中运行，可拖动、缩放、圆角可调
-  - 三屏模式：主窗口 + 左右两个小窗同时运行，配合自带 arc 环形菜单呼出
-  - arc 环形菜单：从屏幕角落滑出，1->4 层同心环，按钮大小与弧半径可调，
-    支持震动反馈、触控音效、松手收回
-  - 控制台：可排序的 App 工具栏，关闭时可选择是否一并关闭小窗应用
-  - 浮窗增强：极简模式、自动钉住、图钉位置（横/竖屏分别设置）、
-    竖屏浮窗固定在屏中心、横屏键盘弹起时放大浮窗
-  - 桌面唤起：开启后从桌面图标直接唤起对应 App 的浮窗
-  - 手势快捷：可选择手势快速呼出浮窗，摇晃手机打开分屏
-  - 悬浮图标：图标阴影与悬停透明度可调，已打开 App 可设为浮窗打开
-  .
-  【iOS 17 隐根适配】
-  - 主插件、键盘窗口、媒体、设置、UI 与兼容库共 7 个组件全部 arm64 + arm64e 双架构
-  - .roothidepatch 隐根重定向链接完整，适合 RootHide（Dopamine 2 / roothide 越狱）
-  - 键盘弹出时应用画面进入独立整屏窗口，键盘保持原生宽度与触摸区域，
-    收回后恢复原窗口几何；输入期间隐藏角落图标
-  - 浮窗尺寸记忆：按模式、横竖屏分别保存，重开浮窗后自动恢复上次大小
-  - 左上角 App 图标：轻点进入全屏，全屏中轻点同一图标返回分屏
-  - 长按左上角图标约 0.5 秒，把画面旋转 90 度移入顶部音乐区域
-  - 保留启动保护与设置刷新保护，覆盖安装不清除已保存配置与浮窗尺寸
-  .
-  【2.1.0 重点】
-  - 键盘收起还原提速：直接订阅正在输入的 App 回报，优先处理它的 WillHide
-  - 应用回报绝对结束时间，迟到的 Hide 只用剩余时间，不再播放完整缩窗动画
-  - 还原动画改缓出曲线，兜底时长不超过 0.22 秒；完成即清理保护与触摸接管
-  - 漏发 Hide 时编辑结束确认从 100ms 缩到 32ms，避免切换编辑器时误退出
-  .
-  【安装说明】
-  - 使用 RootHide 包管理器（Sileo / Zebra）覆盖安装，装完按提示注销一次
-  - 注销后请彻底退出并重开要用来分屏的 App，让 App 端组件加载新代码
-  - 设置路径：设置 > split-view-pro；开启开关后部分功能需注销才生效
-  - 需要 rootless-compat（rootless 兼容层），已随越狱环境提供
-  .
-  【已知限制】
-  - 本版为 iOS 17 适配分支，仅测试到 iOS 17 隐根环境；其他系统版本未验证
-  - 第三方输入法与自绘视频播放器的方向识别可能不准，需真机实测
-  - 与原版 Split View Pro 及第三方改版（cypwn / jtis / tqm-mos / bvn）冲突，需先卸载
-Name: split view pro-ios17优化版
-Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/icon.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.sunshinesong.split-view-pro.json
+Description: 分屏，不必太复杂，一切从简即可。
+Name: split-view-pro
+Author: sunshinesong
+TS: sp-sss
+Icon: https://axs66.github.io/pro/icon/split.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/split-view-pro/js.json
 
 Package: com.susu.fuckwechatadss
 Architecture: iphoneos-arm64
@@ -31962,6 +31960,23 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 dev: tomaszpoliszuk 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/HomeScreenQuickActionsSettings.bundle/icons/HomeScreenQuickActions@3x.png
 
+Package: com.trifecta.akara
+Architecture: iphoneos-arm64
+Version: 2.0.2
+Maintainer: trifecta
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.muirey03.libimagepicker, firmware (>= 15.0)
+Filename: debs/com.trifecta.akara_2.0.2_iphoneos-arm64.deb
+Size: 613256
+MD5sum: 07e88969e3d40644d5753f7243168768
+SHA1: 1a23af2718ff9f6526783e335111320417efcf17
+SHA256: e4c333b2d464642ea3625ca29cb537a12c36647f94433621437a555078d675e7
+SHA512: 44caa9b6a4a3e8a433043ca4694bcaef250cbcfce0896410b0f6f259a415a89acbc6d7a53f0f57c2afea8346b517b4712a08c4b5d06b29992c940b1603d3702e
+Section: 插件
+Description: Minimal design without compromise
+Depiction: https://axs66.github.io/pro
+Name: Akara
+Icon: https://img.chariz.cloud/icon/akara/icon@3x.png
+
 Package: com.tsangbaby.autoscroll
 Architecture: iphoneos-arm64e
 Version: 0.0.1
@@ -31978,6 +31993,25 @@ Section: 插件
 Description: AutoScroll scroll behavior tweak for RootHide.
 Name: AutoScroll
 Author: Tsangbaby
+
+Package: com.tsangbaby.galaxy
+Architecture: iphoneos-arm64
+Version: 5.2.0-6
+Maintainer: Tsangbaby
+Installed-Size: 2152
+Depends: firmware (>= 15.0), preferenceloader
+Filename: debs/com.tsangbaby.galaxy_5.2.0-6_iphoneos-arm64.deb
+Size: 427748
+MD5sum: ad6907324c4e401d07aad45e400d96c3
+SHA1: 26210086cd1c8cdffdb4677b7ec88f764df0b9b1
+SHA256: 11e2dd6d81aba5bb8f2f6b5d96f301bdb4183c7912aac8fcb41ea0df7ad1b273
+SHA512: 42ee116bb1a4338e5c07fe746a0dc2f460ca5a7d1c69f92df49fb3d22a18b33d1edf4ce671f481fc88e83d51a0541587108d8e4c5ae09ee9fa6f0fbc9fd6c889
+Section: 插件
+Description: 适用于 iOS 15 及更高版本的独立圆形应用启动器，支持Split Screen、PullOver X、Myrtle、FloatingView分屏打开。
+Name: Galaxy 启动器
+Author: Tsangbaby
+Icon: https://axs66.github.io/pro/icon/galaxy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/galaxy/js.json
 
 Package: com.tsangbaby.kayoko
 Architecture: iphoneos-arm64e
@@ -32297,6 +32331,25 @@ Section: 插件
 Description: WeChatNeo 微信美化全家桶（免授权）。主面板/截图工具/手势截图/头像自定义/主题色等。内置授权服务器与更新通道，仅自用。
 Name: WeChatNeo（免授权）
 Author: personal
+
+Package: com.wechat.enhance
+Architecture: iphoneos-arm64
+Version: 1.6-5
+Maintainer: Axs
+Installed-Size: 1196
+Depends: mobilesubstrate
+Filename: debs/com.wechat.enhance_1.6-5_iphoneos-arm64.deb
+Size: 343168
+MD5sum: 12b7958e03fe337e24d5a351e620b2b3
+SHA1: f64476fe26e82f406ef90cbbefe464d8ca27faf0
+SHA256: 908798ef89841a489a0d63b9c87b5a011adcbe4d8e41e47bccf4c1ff9da5f4f8
+SHA512: 5831d88a32a761c54de9c99b1fee0a8a9aa0ce7cf2a6c87ab14b3647434ff29896206e7fd18e3936a7a426328e29e85696e01b8db2aa5f44ec289e27ba92b079
+Section: 插件
+Description: 一个简单的微信插件，无需关注公众号。
+Name: WeChatEnhance微信增强
+Author: A
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/WeChatEnhance/js.json
 
 Package: com.wechat.themepro
 Architecture: iphoneos-arm64
@@ -32820,6 +32873,26 @@ Name: 禁止显示维修记录
 Author: xybp888
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/NoAppleMobileRepair/js.json
 Icon: https://TrollStoreX.Github.io/sileodepiction/NoAppleMobileRepair/icon.png
+
+Package: com.xybp888.perfectdynamiclsland
+Architecture: iphoneos-arm64
+Version: 1.2-30
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.xybp888.perfectdynamiclsland_1.2-30_iphoneos-arm64.deb
+Size: 562736
+MD5sum: ef481edb23b635ddac99fffc140bdedb
+SHA1: 1e073ce326c66360e8047ba329682d5585b426a4
+SHA256: 561ffd9753c5e52e211bac4c585f9fe317335875de65a984b571e2784cf117c0
+SHA512: 1bb0aaa08140491db98be68874accc94986bf2eb5776858b38e800beef827e19b5e720fb5cf4df2b8b86eb8e9e7f21ed08e668c60c92458ea06d08719115285f
+Section: 插件
+Description: 完美的使用原生灵动岛展示系统通知等
+Name: 灵动通知
+Author: xybp888
+dev: xybp888
+Icon: https://axs66.github.io/pro/icon/perfectdynamiclsland.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/perfectdynamiclsland/js.json
 
 Package: com.yan.anitime
 Architecture: iphoneos-arm64
@@ -33429,6 +33502,25 @@ Description: iOS 26 风格「液态玻璃」系统 UI 美化插件：分阶段�
   - 本包为 RootHide（arm64e）版
 Name: SBLiquidGlass
 Author: MoWang
+
+Package: eg.anubistweaks.translux
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: anubistweaks
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: debs/eg.anubistweaks.translux_1.1.0_iphoneos-arm64.deb
+Size: 374348
+MD5sum: 46fdb1c1e79e84e84db3f877191c721f
+SHA1: bc89dbd92a3db056b933b434bd77270ef220438b
+SHA256: 6f34857e22951b90e83922a4409b6ff15c4cc87294648c63cadaaef80290cd6d
+SHA512: 19a2bb469c8d6a3e414b0091994f96f4be3ecc7d13f7a2bb00b1a7755e3fc73dba0cb03b56cc3597d65adc89d464a0409fbd2cd02ef303592c09d8a3281cde9c
+Section: 插件
+Description: iOS高级翻译集成，支持OCR（调试BUILD，增强日志记录）。在所有应用程序的文本选择菜单中添加翻译按钮。包括Snapper 3集成，用于图像OCR和翻译。支持谷歌、百度、ModernMT、微软翻译引擎和有道、Yandex OCR引擎。具有可定制的UI、应用程序白名单。🔥由Axs源汉化🔥
+Name: TransLux 翻译
+Author: AnubisTweaks
+Depiction: https://axs66.github.io/pro
+Icon: https://axs66.github.io/pro/icon/translux.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/translux/js.json
 
 Package: emt.paisseon.xinamine
 Architecture: iphoneos-arm64
@@ -34143,6 +34235,27 @@ Author: @akusio_RR
 icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/BackgrounderAction15.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/BackgrounderAction15/js.json
 
+Package: jp.dcsyhi.zetsu
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 12005
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
+Filename: debs/jp.dcsyhi.zetsu_1.6.2_iphoneos-arm64.deb
+Size: 10164840
+MD5sum: e738f25549c8d4a5251bdaba35d39f16
+SHA1: 0427489950d57024485b7e7a987c24f44b4c6372
+SHA256: 9490427e1e1ba6f81955fb1c3c767011baf5ab0cac4b25c444ebbd75cd415760
+SHA512: 1180999298c4ab7db9f4b74f5fc1c40cfa236588d399c62825182a1ee764f250302f3119358b2cdf9c6c66294156f1506f6c4a22b73840fd0f4fb5326aa40600
+Section: 插件
+Description: Multitasking on iOS15 - iOS16.
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Zetsu
+Depiction: https://chariz.com/get/zetsu
+Icon: https://axs66.github.io/pro/icon/zetsu.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/zestu/js.json
+
 Package: jp.soh.reprovisions
 Architecture: iphoneos-arm64e
 Version: 1.1.164
@@ -34165,6 +34278,29 @@ Name: ReSign 苹果 ID 续签
 Author: Coolapk@Analytics
 Icon: https://TrollStoreX.Github.io/sileodepiction/ReSign/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ReSign/js.json
+
+Package: kr.xsf1re.vnodebypass
+Architecture: iphoneos-arm64
+Version: 0.4.7
+Maintainer: Axs
+Depends: firmware (>= 15.0), firmware (<< 17.0), com.opa334.ccsupport, libkrw0-dopamine (>= 2.0)
+Filename: debs/kr.xsf1re.vnodebypass_0.4.7_iphoneos-arm64.deb
+Size: 66064
+MD5sum: 4a8dee66f71c13f06881454b30554829
+SHA1: a6180ee0502776b5d8fe925b010e64b695e23055
+SHA256: 55edd17fd569600b40a04c9677667aa4875846d5dbc2aa594a44e465f2cf25a7
+SHA512: 9252e61fe21ff9c6b1c18678059ac0cda7e059f1a33f4d3f1bb0e2bcc3721f79381943a82de53151f9a973c11879ea9f242593cb59d9e88cf2128e1be964b56c
+Section: 插件
+Description:
+ 功能介绍
+    * 很强力的一款屏蔽越狱检测的工具。但同时也很难删除，删除教程如下：
+    * 点击启用,然后打开你需要打开的软件，使用完毕后一定要点禁用,不然很多插件都失效了!
+    * 这个插件不好删除,sileo删不掉的话要去Filza根目录里搜vnode,搜到的文件全部删除,然后去多巴胺里重启用户空间即可!
+    * 仅支持iOS15-16系统Dopamine2越狱。
+Name: Vnodebypass 屏蔽越狱检测
+Author: XsF1re
+Icon: https://axs66.github.io/pro/icon/vnodebypass.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/nodebypass/js.json
 
 Package: llld.keyboard
 Architecture: iphoneos-arm64
@@ -34234,6 +34370,25 @@ Section: 插件
 Description: Notification bubbles for iOS 16 and Dopamine RootHide. Experimental first build.
 Name: 通知悬浮气泡
 Author: NotifyBubbles
+
+Package: love.litten.rose
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: Litten
+Installed-Size: 2832
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 14.0)
+Filename: debs/love.litten.rose_1.1.0_iphoneos-arm64.deb
+Size: 428584
+MD5sum: a6f38b8079eeb3352f4680388b28fe8d
+SHA1: 2db38e3e52df8015c66c7a431ffe398e87c0ee97
+SHA256: 3acec8f930cd51d593091711cf9a56f4b74b4e8721fb7df3ea8db1f3209c8c1b
+SHA512: 40411f88afa3bbd2459cb2a6d66e88ae73203c2cf882f351930c50d9ae628caf184c341c5674efb7db9b429a1722ea53adac688592ea7378aa0b59c60f2022b0
+Section: 插件
+Description: Getting peeped by a rose doesn't feel that good, it's time to change that
+Name: Rose 🌹
+Author: Litten
+Icon: https://axs66.github.io/pro/icon/rose.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/rose/js.json
 
 Package: me.afhook.apps
 Architecture: iphoneos-arm64e
@@ -34594,6 +34749,28 @@ Author: Netskao <netskao@gmail.com>
 Name: DoubleClickWake-rootless
 dev: netskao
 
+Package: netskao.wcpureextension
+Architecture: iphoneos-arm64
+Version: 4.2-6
+Maintainer: Nets
+Installed-Size: 19660
+Provides: netskao.wechatpurification-rootless
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: netskao.wechatpurification-rootless
+Replaces: netskao.wechatpurification-rootless
+Filename: debs/netskao.wcpureextension_4.2-6_iphoneos-arm64.deb
+Size: 7087520
+MD5sum: 8193c9ca0e3e9310d626cf179f82c9ac
+SHA1: 041bfb96cdf8108e7c7ca4f7fd609c1288e57e91
+SHA256: acf518234755012ac5765f9241f39738a62f466deee3689406e43012bf1b8cfc
+SHA512: af5c79510fbf88bbcf44dda5bdccf32e7c123059e835af305211e44d626443355228af0b3a61ce39a06548552e88aca4afb519449d4002c0e0c065eba2fb8036
+Section: 插件
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Name: 微信净化-Rootless
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/wcpureextension/js.json
+
 Package: netskao.wechatpurification.last
 Architecture: iphoneos-arm64
 Version: 4.2-6
@@ -34615,6 +34792,25 @@ Author: Netskao
 Name: 微信净化
 Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/jss.json
+
+Package: netskao.wechatpurification
+Architecture: iphoneos-arm64
+Version: 4.2-6-END
+Maintainer: Netskao
+Installed-Size: 16708
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/netskao.wechatpurification_4.2-6-END_iphoneos-arm64.deb
+Size: 6273688
+MD5sum: 69a6fc01bfb8f2cf84aa27079caeca67
+SHA1: d85005b83b3a56cf0efaba7a371f36366a95b7a6
+SHA256: b9fa232c22900ef2536b178afa2926c7e4d5a0c2edc1495e31ddd34f01ba9fb0
+SHA512: 522de5061b86595debc6f8dc25706ba4dbba246ced6eaf3123ca54db1027e7d10a9e200f44682f8b7aaaf5d4ccbb3107138b51731c7bb64b72533c6f6df65161
+Section: 插件
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Name: 微信净化END
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/wcpureextension/js.json
 
 Package: netskao.wechatpurifications
 Architecture: iphoneos-arm64
@@ -34917,6 +35113,25 @@ Description: Dock 左右各增加一页，每页四个图标，支持左右滑�
 Name: 三页 Dock
 Author: MoWang
 
+Package: org.swift.protobuf.swiftprotobuf
+Architecture: iphoneos-arm64
+Version: 1.29.0
+Maintainer: eevee
+Installed-Size: 10116
+Filename: debs/org.swift.protobuf.swiftprotobuf_1.29.0_iphoneos-arm64.deb
+Size: 1445804
+MD5sum: eae8e524faaedd9418b03065332334c4
+SHA1: 0d633e798501141365b7e972b0c2373b43143287
+SHA256: 07b7ad5c34eb2e0e4eac8c7964763061c97573fe58a57d4f04e5edb1d593ce48
+SHA512: 8add02dc589cb1e268809e3fd1d562ed83156d4196462acde949cac738f2d11d97783d4ea7471c562d91bbc4101902a32c8f6fdbda5d01399349f632d5d5493f
+Section: 插件
+Description: Plugin and runtime library for using protobuf with Swift
+Tag: role::developer
+Name: SwiftProtobuf
+Author: eevee
+Icon: https://axs66.github.io/pro/icon/swiftprotobuf.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/swiftprotobuf/js.json
+
 Package: org.swift.protobuf.swiftprotobufs
 Architecture: iphoneos-arm64
 Version: 1.29.0
@@ -35216,6 +35431,25 @@ Depiction: https://owngoal-dev.github.io/Apelin/
 SileoDepiction: https://owngoal-dev.github.io/Apelin/depiction.json
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
+Package: wiki.qaq.colorfulwallpaperx
+Architecture: iphoneos-arm64
+Version: 4.6
+Maintainer: Axs
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/wiki.qaq.colorfulwallpaperx_4.6_iphoneos-arm64.deb
+Size: 1234100
+MD5sum: 6bd72ded9bccc2fe1e6f78ac84dd3fa6
+SHA1: 189b91f598bc08c7aa2f011b4e1b50b00ee3e431
+SHA256: 7a97138e72a43d17aff2fde9b8180b4888f862f577cb27342957d977dceeaa44
+SHA512: 5e5d7d8a9139f40804cbd47397d7b156bf344cb373828df9b1c3315beb4ae5b62753f9a63f45fcab9c16ecf2865ee43ad6adb1790be669b34c9e15f4e6922a46
+Section: 插件
+Description: Dynamic wallpaper with colorful effects.
+Depiction: Axs
+Name: ColorfulWallpaperX
+Author: Lessica
+Icon: https://axs66.github.io/pro/icon/colorful.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: wiki.qaq.duostatusring
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -35404,6 +35638,26 @@ Name: Cephei Tweak Support
 Author: HASHBANG Productions <support@hbang.ws>
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: xc.lzsxcl.o2pro
+Architecture: iphoneos-arm64
+Version: 18.9.18-1
+Maintainer: lzsxcl
+Installed-Size: 32248
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Filename: debs/xc.lzsxcl.o2pro_18.9.18-1_iphoneos-arm64.deb
+Size: 13312448
+MD5sum: a89dbdff9b2900df5e990a0ca3fd74a5
+SHA1: 31e706cd51e61a757f9f428c5e7ce671d2ffb715
+SHA256: 6d0b19544533ec87ca6823d073b6e481ad995826ea96ff6d2076cac00a57ffdb
+SHA512: 6a8a590170a3e8dd45bdb6a5c93db0ac18599df06f8fad0bddd4ede0297ccc58acabbffa0c8487befbf4d89db831fccaf9191acb4e0405d70cab0946ce09301f
+Section: 插件
+Description: 注重设计与用户体验的优雅产品。
+Name: o2Pro
+Author: lzsxcl
+Depiction: https://axs66.github.io/pro
+Icon: https://axs66.github.io/pro/icon/o2pro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/o2pro/js.json
 
 Package: cn.llld.xds
 Architecture: iphoneos-arm64e
