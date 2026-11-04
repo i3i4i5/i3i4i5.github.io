@@ -22859,6 +22859,23 @@ Author: AFN Team
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AFN/js.json
 Icon: https://TrollStoreX.Github.io/sileodepiction/AFN/icon.png
 
+Package: com.alucard.wifiqr.cn
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Maintainer: Alucard
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.alucard.wifiqr.cn_1.1-1_iphoneos-arm64.deb
+Size: 3972
+MD5sum: e61e89f706f3621f2a901550c80f3cff
+SHA1: 4b06a40851125c308f85ddff0ca61de4cf12cdfd
+SHA256: 7e111699e5efe542a98df9c1aec4d83ea579e8c116bd891ca56a5c8cfff64511
+SHA512: 1472c1e2f127b6262883aade2a6536bb211a2253f3ade3ea5d80556358029a2901a6a3c7641932d9ade44cf76a28f718a000fa95b620462a4ae8304b8c78a406
+Section: 插件
+Description: WiFiQR和HotspotQR 共用简体中文包(rootless)。
+Name:  WiFiQR & HotspotQR 简体中文包(rootless)
+Author: Alucard
+
 Package: com.anfyya.screenshotbypass
 Architecture: iphoneos-arm64e
 Version: 1.0.2
@@ -23002,6 +23019,22 @@ SHA512: 942bb7efbf0de806915ea068a13da59633448093f3c620ca609d3c389476760c5dcc7ebb
 Section: 插件
 Description: 去除所有广告，无弹窗。
 Name: 威锋去广告(RootHide)
+Author: 小果子
+
+Package: com.apper.wf.rootless
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 小果子
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.apper.wf.rootless_1.0.0_iphoneos-arm64.deb
+Size: 83924
+MD5sum: cbcc2686a4ca9910ca43d924435d7d2a
+SHA1: bf2b5b275c254f99268e534cfe4b866a9303dc85
+SHA256: 4f8fb9bcde451de86c6bdc5be848bd23e8b9482e2cb0f3b2dc6c0469e79acaeb
+SHA512: 6415f159b9264b704acb2bb8da09eff6a461ad0a5693d2d982771e198538178cd5a820676cec38436e6132803178aa6ecd9b5c914bb632b935dec1dadca66b92
+Section: 插件
+Description: 去除所有广告，无弹窗。
+Name: 威锋去广告(rootless)
 Author: 小果子
 
 Package: com.appku.wechat
@@ -23987,6 +24020,21 @@ Name: Axs
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/wechatpro/js.json
+
+Package: com.ball.ultrasound.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.2.12
+Depends: firmware (>= 11.0),mobilesubstrate
+Filename: debs/com.ball.ultrasound.cn.rl_1.2.12_iphoneos-arm64.deb
+Size: 2136
+MD5sum: a2fb8315d706a98817f63760b3ecfaa3
+SHA1: d99f88d262781bcc82e8d16a478c8e232ed1f944
+SHA256: 321a97687fed08b9412282bfb3bd9d3e8de9fb1c8c717e504c59a6da8cd1a2eb
+SHA512: 433bc047512b24092085a845a14848bc64cd669e0232cb3b32ba74baf8c916d21fb51d225101189cda1bd4c7f4dabcd856a91dde29a037eb6f3a7668e366e947
+Section: 插件
+Description: Ultrasound 简体中文包(rootless)。
+Name: Ultrasound 简体中文包(rootless)
+Author: Ball <ball@hackcn.net>
 
 Package: com.ban.mydocks
 Architecture: iphoneos-arm64
@@ -25235,6 +25283,25 @@ Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图�
 Name: AppData(rootless)
 Author: Fouad Raheb
 
+Package: com.dao.appinst
+Architecture: iphoneos-arm64
+Version: 2.1
+Maintainer: Karen, Linus Yang
+Provides: ai.akemi.appinst (= 2.1)
+Depends: firmware (>= 5.0), com.dao.appsyncunified (>= 112.0)
+Conflicts: ai.akemi.appinst, xyz.cypwn.appinst
+Replaces: ai.akemi.appinst
+Filename: debs/com.dao.appinst_2.1_iphoneos-arm64.deb
+Size: 56336
+MD5sum: 2603694a131e831daea1e23768fa5b02
+SHA1: 298fe6b7e225703c8d5b7fb80d94296449093f27
+SHA256: 9818c0222142b32d60c6b1fe2c0fc5638a4648ffb3c3d0b1019e351173ddd932
+SHA512: a0a2fc24f9e1f1834f287e36e6c66f1f25dc5339880dedaef5ee9dda253f6ab12b5465aa5ffe7fa6b5de25e96e01bfb04f3c4164c70472c6eaaf10d90b1c0d59
+Section: 插件
+Description: 命令行IPA应用程序安装器；目前明美源gg中，上架备份。
+Name: appinst(rootless)
+Author: Karen, Linus Yang
+
 Package: com.dao.appprotect
 Architecture: iphoneos-arm64e
 Version: 2.4.9
@@ -25839,6 +25906,23 @@ Author: Hmmzzz
 Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
 SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
 
+Package: com.dao.fuckthermal
+Architecture: iphoneos-arm64
+Version: 1.2-38
+Maintainer: Shadow-
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.3)
+Conflicts: com.shadow.fuckthermal
+Filename: debs/com.dao.fuckthermal_1.2-38_iphoneos-arm64.deb
+Size: 216416
+MD5sum: 4c7994fd588ccdfa9b7e92ed4e260c6f
+SHA1: 3a1f6c7a5a142762014f66856ed19714f7d84115
+SHA256: 1a4bf7ad3ed7caa1c97943de757b0703cbce63119a67cc11b82979e78d642e43
+SHA512: e546c6663c556019c9a5cc053bbf9eec598765ed0dc7426ec726283d00e302f9fa3da7164042179310124d6d0c35a627ef16f8f0049812e2ee168f0d26db8072
+Section: 插件
+Description: 去你X的温控，测试支持iOS15.1.1及以下，其他系统版本自测。
+Name: 去你X的温控iOS15(rootless)
+Author: Shadow-
+
 Package: com.dao.gesturesxv
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -25929,6 +26013,23 @@ Description: 在“设置关于”页面中隐藏/伪装序列号等相关信息
 Author: ichitaso
 Name: HideSerialNumber(rootless)
 
+Package: com.dao.icleanerpro
+Architecture: iphoneos-arm64
+Version: 7.10.0
+Maintainer: Ivano Bilenchi
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
+Filename: debs/com.dao.icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 1102336
+MD5sum: 3c9d5e8f50d3851323d1adfba15c2815
+SHA1: 82332268b27ba9d5e3ab6c3d18dd46781a490471
+SHA256: de49859a7c0bfa63c2ff5bc4793e896c0342ba9de1d35a7d3f80c7916909bc48
+SHA512: a232dd70b14bdf0032b4b39e325993eff4a21a455f85c648b4f625ec3f78b01a535622f4274568712568ba4857d3b312f2a5c6dd963d7b6a06e9250a47c4bf2a
+Section: 插件
+Description: 真正的iOS系统清理和管理实用程序，默认简体中文，破解版。
+Name: iCleaner Pro(rootless)
+Author: Ivano Bilenchi
+
 Package: com.dao.immortalizer
 Architecture: iphoneos-arm64
 Version: 2.0.1.1
@@ -26015,6 +26116,23 @@ Description: Relaxin白魔注入器：让应用在屏蔽越狱状态下可以注
 Name: JailFools(RootHide)
 Author: zqbb <zqbbzz@gmail.com>
 SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.jailfools
+
+Package: com.dao.kanoads
+Architecture: iphoneos-arm64
+Version: 0.1
+Maintainer: 佚名
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.dao.kanoads_0.1_iphoneos-arm64.deb
+Size: 3422
+MD5sum: 4ccfe186e70be1fcb85e580a9f4d7465
+SHA1: 5d6ad7ad379535458307519c7618d12b32b5cd64
+SHA256: 302dd15072c328e2111d75cbd177dbef7cb0fed344c42e73f6d14d49946247ea
+SHA512: 8e96680350a8e96c28e6e194f5f974aef8fbb9bd9cd911f84393460d773c448949b1aab003679bb9350cf970769ee607a984fc4e4bc666a07168af5f5c1dfcac
+Section: 插件
+Description: 清爽开屏～
+Name: 清爽酷安(rootless)
+Author: 佚名
 
 Package: com.dao.kayoko
 Architecture: iphoneos-arm64e
@@ -27591,6 +27709,23 @@ Description: 便捷截屏3，已由CBZ破解。已修正OCR，源内可安装中
 Name: Snapper 3(rootless)
 Author: Jonathan Winger-lang
 
+Package: com.daodao.wicellswitcher
+Architecture: iphoneos-arm64
+Version: 1.2
+Maintainer: Bruno Andrade <brubiluco@globo.com>
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Conflicts: com.brunonfl.wicellswitcher
+Filename: debs/com.daodao.wicellswitcher_1.2_iphoneos-arm64.deb
+Size: 23376
+MD5sum: e346220b751510c064c204c49f3517bc
+SHA1: f5f9788e3b2dcc4efa06ea9971919d9ac31263c1
+SHA256: 67a14b4c6c50ebb663158f5ac2550dcc6c9db6c7b443d0dddb9e7afd79c947e0
+SHA512: af2a8e4cb565d7c0a6718537e29d9ce003c6dbf62a2c06db5648874f21fe76774f0babb6c5cbc2ab0b0cb53c29c165d0137167cac1f3a2c97949ed06d9c8ecc9
+Section: 插件
+Description: WiFi和蜂窝数据之间智能切换，控制中心连接WiFi关闭蜂窝，连接蜂窝关闭WiFi，或者断开连接时触发。Skypain基于i_82修复支持iOS15的源码，编译支持rootless。
+Name: WiCellSwitcher(rootless)
+Author: Bruno Andrade <brubiluco@globo.com>
+
 Package: com.dd.adblock
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -28638,6 +28773,22 @@ Description: AudioRecorder XS 简体中文包(RootHide)。
 Name: AudioRecorder XS 简体中文包(RootHide)
 Author: Sandy0 & 妖刀
 
+Package: com.hk.audiorecorderxs.cn
+Architecture: iphoneos-arm64e
+Version: 5.0-7
+Maintainer: Sandy0 & 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.audiorecorderxs.cn_5.0-7_iphoneos-arm64e.deb
+Size: 13700
+MD5sum: af09071c9443a274bad818fd350d9667
+SHA1: 538ee2a71df3690858107d4473f589c2e9494d3f
+SHA256: 945704bc41e1c6eea3b0842651951a35dbd32412d91cf4f6e03239631c76868e
+SHA512: d6f0c3126d0a698c587636727c239d30ac86282cadd41d618d1fb26b77da01cd184f829b03e512239b671eadd316e47bcf07c65c38bd19ddeb2117c8839f3129
+Section: 插件
+Description: AudioRecorder XS 简体中文包。
+Name: AudioRecorder XS 简体中文包
+Author: Sandy0 & 妖刀
+
 Package: com.hk.autounlockx.cn.rl
 Architecture: iphoneos-arm64
 Version: 1.1.0
@@ -29323,6 +29474,23 @@ Section: 插件
 Description: 基于82的20323.3版Barmoji，Netskao修复支持Fugu15。
 Name: Barmoji(rootless)
 Author: CP Digital Darkroom
+
+Package: com.hk.rootless.bfdecrypt
+Architecture: iphoneos-arm64
+Version: 1.3.6
+Maintainer: alias20
+Depends: mobilesubstrate, com.opa334.altlist, firmware (>=15.0)
+Conflicts: com.level3tjg.bfdecrypt, alias20.bfdecryptor
+Filename: debs/com.hk.rootless.bfdecrypt_1.3.6_iphoneos-arm64.deb
+Size: 68040
+MD5sum: 94938c44b9d9c5dea4ada3de96fa63bf
+SHA1: 514917a5843910d1f84816fdd5c23442db4e5e58
+SHA256: 3dd70ec8405e0f88428ee47007b5ae1164c5a7400a72f24aaef8371c0335195e
+SHA512: 58846822628d67bfe55b86ffa686459f66137c13c16a5ad03a1c3c8282097829e23975a55e900e66f7f94d0b513770e132f380ce611de4a6af6262a12508c48b
+Section: 插件
+Description: bfdecryptor脱壳工具 for Fugu15(多巴胺)，设置——bfdecryptor——选择要脱壳的App，然后打开该App，会有弹窗提示——选择"Yes/No"(随意选)，等待一会，脱壳完成，该App的数据目录——Documents下——"decrypted-app.ipa"文件。记得脱壳完成后，去设置里取消勾选App。砸壳出来不是全权限的，小组件可能会gg。
+Name: bfdecryptor脱壳工具(rootless)
+Author: BishopFox
 
 Package: com.hk.rootless.cc
 Architecture: iphoneos-arm64
