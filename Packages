@@ -25897,6 +25897,24 @@ Name: OCD5 Lite(RootHide)
 Author: b4db1r3 <nfive060@gmail.com>
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ocd5l/js.json
 
+Package: com.dao.patcher
+Architecture: iphoneos-arm64e
+Version: 2.1.5
+Maintainer: daodao
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Conflicts: com.roothide.patcher
+Replaces: com.roothide.patcher
+Filename: debs/com.dao.patcher_2.1.5_iphoneos-arm64e.deb
+Size: 894828
+MD5sum: a88faaa35c16f96c5aa6516ad9982e4f
+SHA1: 5d328f0987f87533450a716ac3af479c783bd8ca
+SHA256: 6735aeea784a01f5f161d1c9a661e5a62ea1dbbef17c88046bca8e1dd2db725c
+SHA512: 04f3a19705eada4eef13f3725f4969acd58d12319556421d6030d462e3b370617d51de459915e9c9a90768642312a81f6f4373a0f72bad3851897841d8344eec
+Section: 插件
+Description: 转换器：把 rootless 包转换/修补成 RootHide 格式，但不保证所有插件或软件包都兼容；刀刀简单汉化，必须用刀刀源内的 Sileo 才能调用。
+Name: RootHidePatcher 中文版
+Author: roothide
+
 Package: com.dao.pf2.cn
 Architecture: iphoneos-arm64e
 Version: 0.1.2
@@ -26023,6 +26041,61 @@ Description: 悬浮多任务窗口工具，基于 mlgm 的 PullOver X 打造的�
 Name: PullOverX(RootHide)
 Author: mlgm
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/pulloverx/js.json
+
+Package: com.dao.reverie
+Architecture: iphoneos-arm64e
+Version: 1.1
+Maintainer: 刀刀
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, com.opa334.ccsupport
+Conflicts: lilliana.reverie, com.hk.reverie, com.qms.reverie
+Filename: debs/com.dao.reverie_1.1_iphoneos-arm64e.deb
+Size: 132560
+MD5sum: 16ddaf35896ad809ff20590af43b3ed4
+SHA1: b5216d8125153bec3efa69d9a0bf9fb91b13f267
+SHA256: 87fa2cc4be4636ec4315ef6ca853e1c722f3ed48429422a90a48afedd9bd401f
+SHA512: 74d82feb5c92424d92d55ccc773bfa821dfd84e92bae4c9a8da42280d2a3251055ecb41a62dccc15241ccf9824eee0b5d70f874d3f7165f94eacdd7ceca1b990
+Section: 插件
+Description: 自由的休眠设备来节省电量。
+Name: Reverie 中文版(RootHide)
+Author: Paisseon
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/reverie/js.json
+
+Package: com.dao.rode
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: rootfs & daodao
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: fr.rootfs.rode
+Filename: debs/com.dao.rode_1.0_iphoneos-arm64e.deb
+Size: 4476
+MD5sum: d6478352eced9d1c04626fd8c774d50c
+SHA1: 8881107426cee39ec848550c20d8554c2808ab42
+SHA256: 930600bb7f662629d37e52184ebf64f1a69ac4776cea3c31870a141536701be2
+SHA512: f65d0f8041473f70925a78a6fa208b56db9b8d085bcdc94157b3f25ee42932a6d59624252402ae25f494046e374864d9486db270bfac9159346f6d45f138f904
+Section: 插件
+Description: 打乱锁屏的密码盘，每次数字位置随机，无设置项。
+Name: Rode(RootHide)
+Author: rootfs
+
+Package: com.dao.scinsta
+Architecture: iphoneos-arm64e
+Version: 0.6.0
+Maintainer: SoCuul & 妖刀
+Depends: mobilesubstrate, ws.hbang.common
+Conflicts: com.bandarhl.bhinsta, com.socuul.scinsta, com.hk.bhinsta.cn.rl, com.dao.bhinsta, com.hk.bhinsta, com.hk.bhinsta.cn
+Filename: debs/com.dao.scinsta_0.6.0_iphoneos-arm64e.deb
+Size: 505544
+MD5sum: f759143cd75f0fef514dce413282d5f0
+SHA1: a05059215a38bb8f831517efd0e5d26fa2886768
+SHA256: 5a3023a2b33d9ace9dbe431241975f02dd6447ea23ccd91fa236224a120c3d17
+SHA512: 379cd7b68af3dc9db51e4feed331f845ad792a52f8e3b031ce28b29ba380cc082162e7eda4b363e3d38e0aee3e13646e267a975f36e64838b91e35fd8163b518
+Section: 插件
+Description: Instagram功能丰富的插件，可去广告、可隐藏推荐、二次确认、下载媒体等，长按主页面左上角“Instagram图标”进入插件设置，刀刀根据开源直接编译的中文版。
+Name: SCInsta 中文版(RootHide)
+Author: SoCuul
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/sci/js.json
 
 Package: com.dao.sileo
 Architecture: iphoneos-arm64e
@@ -27496,6 +27569,22 @@ Name: Jan-WeChat-Rootless
 Author: Jan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.hk.rune.cn.rl
+Architecture: iphoneos-arm64e
+Version: 1.3
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.rune.cn.rl_1.3_iphoneos-arm64e.deb
+Size: 7568
+MD5sum: 78a3c671189ff1b822e8f4ac3e3241f8
+SHA1: a562dd8dbbb620ce351c8aacbd813efaca45afa1
+SHA256: f11fb1e0f9ab5ccc3d34b94e995246772d841b1c77ae81eb6693e202748df0bb
+SHA512: f85fdb1f9124656f5e739ddd3c4489b44d0e10771dd2f5d9cbea5e1871fc0b27d0eb262965ffd9953b564f1668788d5606e380377a88be6f2d81ab512aaa49e4
+Section: 插件
+Description: Rune 简体中文包(RootHide)。
+Name: Rune 简体中文包(RootHide)
+Author: 妖刀
 
 Package: com.hk.youtubereborn.cn.rl
 Architecture: iphoneos-arm64
