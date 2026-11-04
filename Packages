@@ -36326,21 +36326,41 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.xybp888.callassist15.fugu15
 Architecture: iphoneos-arm64
-Version: 2.2.3
-Maintainer: 搬运工
+Version: 2.5.1
+Priority: optional
+Maintainer: xybp888
 Depends: firmware (>= 15.0), preferenceloader,com.opa334.libsandy
-Filename: debs/com.xybp888.callassist15.fugu15_2.2.3_iphoneos-arm64.deb
-Size: 2573028
-MD5sum: 2f7cd818410349d45f738c01e4013635
-SHA1: 14461ddc22cd68e1aee3b9e868bbbd5bacd24104
-SHA256: 6c65a16c82af83ad81242e0281838ef2caccf5288b3019cd6852e8457d5f4b91
-SHA512: 6ec2dd0d46a59605ac335dc374702b5663fdb90e1512fd29a325c4c0a88ae9b2861b60a89e0973d1dbf576f2235b97bf5cb214c31ed998a58bb753b79394d2c5
+Filename: debs/com.xybp888.callassist15.fugu15_2.5.1_iphoneos-arm64.deb
+Size: 2849150
+MD5sum: 7fa7b0d7ab804f073cf8ae8c73e1c197
+SHA1: c786f0f1ba5e15b8c3f3962374da5db8aa89935d
+SHA256: 7422fbf2282bd44eb4d8a99ab908272c9d01e60f506f58ec7fb3f86093376e60
+SHA512: e894dd3733e09da449be9b1d10b606beeed9685c174c4e28950503f29b569636ca8167b5b8d24439c0283b8733b21f3489c0d7d8e32f31628825fedceddf6d31
 Section: 插件
-Description: 电话助手需要20块购买激活,T9双卡选卡拨号键盘,短信双卡选卡,通话录音,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Name: 电话助手iOS15-Rootless
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS15-正式版(Rootless)
 Author: xybp888
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
+Depiction: https://apt.htv123.com/view/626
+SileoDepiction: https://apt.htv123.com/sileo/626
+
+Package: com.xybp888.callassist15.roothiden
+Architecture: iphoneos-arm64e
+Version: 2.5.1
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 15.0), ellekit, preferenceloader,com.opa334.libsandy
+Filename: debs/com.xybp888.callassist15.roothiden_2.5.1_iphoneos-arm64e.deb
+Size: 2809946
+MD5sum: 32269a5f0312f5bf27f3e8cacd560b4b
+SHA1: d1d95ad79cc1475c98cab5480ea6cc3f3903aa75
+SHA256: a3843c698e98a72abcfd2e07268eb1a4bef5ccf653d4347f1b9a470dd904abd9
+SHA512: 654110879b80ac2ea07cdc6353615349e2d9a0241da2f4d5ae0239c79265baba7b156fe7f6ebeff9ba31d95c000214f7f9975c96ea5f7f1e9f1a550c90a74346
+Section: 插件
+Description: 电话助手授权版本,T9双卡选卡拨号键盘,短信双卡选卡,通话录音,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS15-正式版(Roothide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/627
+SileoDepiction: https://apt.htv123.com/sileo/627
 
 Package: com.xybp888.callassist16.dopamine
 Architecture: iphoneos-arm64
@@ -36359,6 +36379,102 @@ Name: 电话助手iOS16-正式版
 Author: xybp888
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.xybp888.callassist17.dopamine
+Architecture: iphoneos-arm64
+Version: 2.4.3
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.xybp888.callassist17.dopamine_2.4.3_iphoneos-arm64.deb
+Size: 3649620
+MD5sum: 385528e5a657484fe3ef162b6ae1b1a3
+SHA1: b0718264ad3c3fdb5cc4c40b09bd546b2e00451f
+SHA256: ce4087fb6b95858b88826f014ef61ff96b64a5fb24e396edc97e7ae2d38555ba
+SHA512: 1ce67703e2394c8413a8e08b14e8f2ecf024bfd20b5f596da6f0489fefead4fc8f43106963915d63bac2034972c775d1d43d161263d1ac21b75f6420fd9428fd
+Section: 插件
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS17-正式版(Rootless)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/1125
+SileoDepiction: https://apt.htv123.com/sileo/1125
+
+Package: com.xybp888.callassist17.roothide
+Architecture: iphoneos-arm64e
+Version: 2.4.3
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.xybp888.callassist17.roothide_2.4.3_iphoneos-arm64e.deb
+Size: 3640862
+MD5sum: 2b5d344d126d2a18b6b26c7aeb6f466d
+SHA1: b7effb52096877d5e1dc32fa3a8456b464ae1b0e
+SHA256: 3958af364eeeff85279f9202fb3b06e55d46fdf91bac74bf2214141b1415c7af
+SHA512: b3f5cd7a6b868c618d40684524c85d9f0210a737c223786b6b97a9065fb73a405befc14287959e9e7e0401b3f5b010540a13500776a106e6eb8b86b95814f073
+Section: 插件
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS17-正式版(Roothide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/1126
+SileoDepiction: https://apt.htv123.com/sileo/1126
+
+Package: com.xybp888.disabledgesture
+Architecture: iphoneos-arm64
+Version: 0.0.1-75
+Maintainer: xybp888
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xybp888.disabledgesture_0.0.1-75_iphoneos-arm64.deb
+Size: 4178
+MD5sum: 55764429195dd89959165e8e80c135b0
+SHA1: 60739720d7ce992b77cadf9a3d2b0ebd7e1ff3ba
+SHA256: 3cd66cf350ca6691592bc54cd8e08375e2a5a63bc963ffcf0aced6adaee3eedc
+SHA512: 1a3fbc8541e40098d02057aeeed25e5c7cebe7093c24427b1a2ab8d513239c97f224d1ab4afe6b788017649d3c83d30e68d02fdb6a776249a287288cf50651c7
+Section: 插件
+Description: 禁用系统底部左右滑动切换 App 的手势
+Name: 禁用底部切换APP手势
+Author: xybp888
+Depiction: https://apt.htv123.com/view/62
+SileoDepiction: https://apt.htv123.com/sileo/62
+
+Package: com.xybp888.lockbutton17.roothide
+Architecture: iphoneos-arm64e
+Version: 0.1-2
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.xybp888.lockbutton17.roothide_0.1-2_iphoneos-arm64e.deb
+Size: 26712
+MD5sum: 54967843d76919d05ee574659698b1b0
+SHA1: 7c6aad33ea148ce3bc733819ff52ae1699441a90
+SHA256: 868a660eb3e8297143b52ef18b79810b29474d6567fc2e05472d915b6191f1af
+SHA512: 8e3c9e1631b9b41631059cfb5df7cb80b229522056459f8ab424a3bdb0c35c41ed17f82ab0e29595941b35c831fa72759157f383a0827abbfe68c2411f1ad1e7
+Section: 插件
+Description: iOS17 一键锁屏
+Name: 一键锁屏-iOS17(Roothide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/490
+SileoDepiction: https://apt.htv123.com/sileo/490
+
+Package: com.xybp888.lockbutton
+Architecture: iphoneos-arm64
+Version: 0.1-2
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.xybp888.lockbutton_0.1-2_iphoneos-arm64.deb
+Size: 30584
+MD5sum: c1ae967bf63af85a2a019c0a89dab5b6
+SHA1: 055d12273586b754df9e338238a60e9cf9aa9cea
+SHA256: 14ae3f01b1ef9679338d1e1032846f1a6ecc5fbd5b41758558e5d4ba1437588c
+SHA512: ed48f325a6b0ea4b6350d84c0d2e02094ffdd27f13434ebd1c59dcacf2ba8e69a2b7dc2bb5b01d86e350dba5f207c8f58ce025db782f8bc7b1a1d27e6658a2ce
+Section: 插件
+Description: 一键锁屏(Rootless)
+Name: 一键锁屏(Rootless)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/26
+SileoDepiction: https://apt.htv123.com/sileo/26
+Icon: add You IconFiles URL
 
 Package: com.xybp888.lockbuttons
 Architecture: iphoneos-arm64
@@ -36379,6 +36495,25 @@ Author: xybp888
 Depiction: 一键锁屏安装后在桌面显示一个图标，点击图标就能快速锁屏
 Icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/suo.png
 
+Package: com.xybp888.magiciannojailbreak.dopamine
+Architecture: iphoneos-arm64
+Version: 0.0.1-529
+Maintainer: xybp888 <8657156@qq.com>
+Installed-Size: 516
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xybp888.magiciannojailbreak.dopamine_0.0.1-529_iphoneos-arm64.deb
+Size: 98154
+MD5sum: e8fe84203a7fbc42dccd34dd22c9c190
+SHA1: 6fea77a622f854a6c88563dcaf0dcfc6d877d39f
+SHA256: 7450651d274b87da6eb8d2de8c394114d4db5eeb111c03c65181a8b927a85a4a
+SHA512: 1c10ebcc8454bd6db82c1309afa1404075d539b781f0d83bfd2837c7a5b4c488e5e4811e9cf6b660c106e584ac2cf50dc8e908970d91a65b4e1962fb4f0b2f10
+Section: 插件
+Description: 本插件仅供学习测试之用,请于24小时内卸载,一切法律责任与本插件和作者无关
+Name: 魔术师(Rootless)
+Author: xybp888 <8657156@qq.com>
+Depiction: https://apt.htv123.com/view/377
+SileoDepiction: https://apt.htv123.com/sileo/377
+
 Package: com.xybp888.magiciannojailbreak.fugu15
 Architecture: iphoneos-arm64
 Version: 0.0.1-4257
@@ -36397,6 +36532,44 @@ Name: 魔术师(iOS15)
 Author: xybp888
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.xybp888.magiciannojailbreak.roothide
+Architecture: iphoneos-arm64e
+Version: 0.0.1-4
+Maintainer: xybp888 <8657156@qq.com>
+Installed-Size: 512
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xybp888.magiciannojailbreak.roothide_0.0.1-4_iphoneos-arm64e.deb
+Size: 97694
+MD5sum: 8b947ea02ce2e731c04461f4198f0252
+SHA1: 337dd7129440a5d578c1ae2d107d7ac745a8029e
+SHA256: 96388c43157448c10c9cb6389fca88f65e0d13b8babeffe7480621d6f741845c
+SHA512: 9dc938d079277ff9d4f1622affc28ca15cd674d3530196f6e1c04e6f2805031430a1cb041cef93ee6d0203679f5291b92d9604aba7229c83ceb4abc5df13c0e6
+Section: 插件
+Description: 本插件仅供学习测试之用,请于24小时内卸载,一切法律责任与本插件和作者无关
+Name: 魔术师(Roothide)
+Author: xybp888 <8657156@qq.com>
+Depiction: https://apt.htv123.com/view/378
+SileoDepiction: https://apt.htv123.com/sileo/378
+
+Package: com.xybp888.noapplemobilerepair
+Architecture: iphoneos-arm64e
+Version: 0.0.1-104
+Maintainer: xybp888
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xybp888.noapplemobilerepair_0.0.1-104_iphoneos-arm64e.deb
+Size: 11026
+MD5sum: 50a05f0bd16e85aa035774371f39b03e
+SHA1: d640a200241ae024d9e4f2352a04b248386ca103
+SHA256: fc6e8c858fe4e50c53197d86470a83dbd31830efb77dad921d6ce17d555cd58e
+SHA512: 2f508446333525b1d3006f63ed5f0e376ddb7bcd5d36dba7d4eae3bff2e8c5c2b40aa6b7e1fdeb5cb295d203d9a7a77c25d002a7862e2f5474c2e635eb158fe1
+Section: 插件
+Description: No Apple MobileRepair
+Name: No Apple MobileRepair(RootHide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/185
+SileoDepiction: https://apt.htv123.com/sileo/185
 
 Package: com.xybp888.noapplemobilerepairs
 Architecture: iphoneos-arm64
@@ -36424,6 +36597,67 @@ Name: 禁止显示维修记录
 Author: xybp888
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/NoAppleMobileRepair/js.json
 Icon: https://TrollStoreX.Github.io/sileodepiction/NoAppleMobileRepair/icon.png
+
+Package: com.xybp888.perfectdynamiclsland.roothide
+Architecture: iphoneos-arm64e
+Version: 1.4.0
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/com.xybp888.perfectdynamiclsland.roothide_1.4.0_iphoneos-arm64e.deb
+Size: 922314
+MD5sum: 0c2e7bf6845270af5d2155722e6bf166
+SHA1: f98c31684da2ce8c47375e1f228edf7a9f56ac70
+SHA256: bcaeec09627fe09eba39e698ff5d6e574cd0f490c57023bba4673ca6567f0883
+SHA512: 6356cc6126ce0cb2a00857cb44a320015ed308e2dbea3ffab6f49d8fadd70b2e274632bd8ed5ef1eb7626ef7f9cccf43c478478c8d9b8e3a47850d276da2f6ff
+Section: 插件
+Description: 完美的使用原生灵动岛展示系统通知等...
+Name: 灵动通知iOS16-正式版(RootHide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/999
+SileoDepiction: https://apt.htv123.com/sileo/999
+
+Package: com.xybp888.perfectdynamiclsland17.roothide
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.xybp888.perfectdynamiclsland17.roothide_1.1.0_iphoneos-arm64e.deb
+Size: 973396
+MD5sum: fd7217705397b1e6d4c8478648803c29
+SHA1: 3d7cbfb201e0f0890cd187d5919569276dc2fd0d
+SHA256: 854c6849ebebbdcdc060d7c656a2e4c96659d18ad056f2d5d62abe90059587cc
+SHA512: 0da4b3f2ab7ceb1c3c2906edd8e31b7ec5c193a9ddf069a88030dcf88fc3c0bb7abdb3a8fb834fc3b83377b260f403898bb0c5018419aea91112c1b15d3da26d
+Section: 插件
+Description: 电话助手激活用户专属免费插件
+ 完美的使用原生灵动岛展示系统通知等...
+ iOS17 的半越狱专用版本
+Name: 灵动通知iOS17-正式版(Roothide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/1000
+SileoDepiction: https://apt.htv123.com/sileo/1000
+
+Package: com.xybp888.perfectdynamiclsland17
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.xybp888.perfectdynamiclsland17_1.1.0_iphoneos-arm64.deb
+Size: 954232
+MD5sum: 6c8ea0f31faaf0e944c8d73abf7edab4
+SHA1: 77bf11e581fdeb77fc77b3db7a2a94fe0c5f07cf
+SHA256: 567fe24597d2908edaac7ccd5303e4b93b9bb46795f48f31a44a40be963a140a
+SHA512: 36958b0f3f79568ab65375b0840b6480c209620126a3ca6413474b066781d6859af801401590770958cee3f3a03b1788d9e40fcc9cf3655f37f7128f1b237e2e
+Section: 插件
+Description: 电话助手激活用户专属免费插件
+ 完美的使用原生灵动岛展示系统通知等...
+ iOS17 的半越狱专用版本
+Name: 灵动通知iOS17-测试版(Rootless)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/1001
+SileoDepiction: https://apt.htv123.com/sileo/1001
 
 Package: com.xybp888.perfectdynamiclsland
 Architecture: iphoneos-arm64
