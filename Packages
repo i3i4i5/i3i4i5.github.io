@@ -24259,6 +24259,25 @@ Author: Charlie Leung
 Icon: https://axs66.github.io/pro/icon/snapvision.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapvision/js.json
 
+Package: com.charlieleung.trollopenjb
+Architecture: iphoneos-arm64
+Version: 1.3.7
+Maintainer: Charlie Leung
+Installed-Size: 4460
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/com.charlieleung.trollopenjb_1.3.7_iphoneos-arm64.deb
+Size: 1121588
+MD5sum: 46a549d88b3e6f1cf82942fa62ddf24f
+SHA1: d52eebbef26765dcd53065834d515baba20d1793
+SHA256: c69ea7527c5486d73d03e5638b55782b69ce70848c184e805a60da2d507102f0
+SHA512: 7e986f1bae818617d20125cc65b5ff6349131a5b561eba2f2b081efaa53a08665286c03d03a522596b4f7154a73e4bf8ae3e21384f5a0f229178e1b8678d7045
+Section: 插件
+Description: TrollOpen 的越狱版本，支持 ios16 及以上，免费公开版，无后续更新，不需要反馈 bug。QQ 群：1094778353，后续付费更新联系群主或群管理。小黑子闭嘴吧，看看什么是最强分屏！
+Name: TrollOpen 分屏
+Author: Charlie Leung
+Icon: https://axs66.github.io/pro/icon/trollopen.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/trollopenjb/js.json
+
 Package: com.chloe.physpringboards
 Architecture: iphoneos-arm64
 Version: 1.9.19
@@ -24846,6 +24865,31 @@ Author: CreatureSurvive
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.creaturecoding.shuffle
+Architecture: iphoneos-arm64
+Version: 1.6.2
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: debs/com.creaturecoding.shuffle_1.6.2_iphoneos-arm64.deb
+Size: 254252
+MD5sum: 1b3ac5bb89a63dda852cbf41b95412d9
+SHA1: 0426188ae3664d53d8c4609054a02cdd81e53fc5
+SHA256: 01d62c3a1e3776650ea166dbc99970ee16ddac99fa1153e7b66ffa74cd7e8728
+SHA512: 550e1dd7b330c6a304ea36c6efc34aeb8fbb44f975f57d805290270f292a7df441c8c4862d6bc649907b0ae9275fa18a97fd285de812260fd6896eb09a208dd4
+Homepage: https://creaturecoding.com/
+Section: 插件
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Author: CreatureSurvive <support@creaturecoding.com>
+Name: Shuffle越狱插件收纳
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+
 Package: com.creaturesurvive.libcscolorpicker
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -24886,6 +24930,26 @@ Name: CC26
 Author: therealhoodboy
 Icon: https://TrollStoreX.Github.io/sileodepiction/CC26/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/CC26/js.json
+
+Package: com.curtin.pkc.rootless
+Architecture: iphoneos-arm64
+Version: 0.9-8
+Priority: optional
+Maintainer: curtinlv@126.com
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc.rootless_0.9-8_iphoneos-arm64.deb
+Size: 1378500
+MD5sum: af1ceacb80935b63ed6e188f64f6899d
+SHA1: 532e1a233fa16d0f22365c3a30823ba27c8aa527
+SHA256: e98a9e25d885742fb17c6b00bea26f18e03d5345db904ffc1b028d005559ea10
+SHA512: 7dbed9d4af151302e7a4a34c54682056e6f79bcdf5813896cea684dca099e1cf864baa07875b2093d3b28748674314fbee5f1cb1c553197964e6c1fca77a18a1
+Homepage: https://axs66.github.io/pro
+Section: 插件
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Name: PKC
+Author: Curtin
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
 Package: com.curtin.pkc.rootlesss
 Architecture: iphoneos-arm64
@@ -25153,6 +25217,25 @@ Author: DeNsor
 icon: https://TrollStoreX.Github.io/sileodepiction/TWIGalaxy/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/TWIGalaxy/js.json
 
+Package: com.developlab.appbadge
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: developlab
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Filename: debs/com.developlab.appbadge_1.0_iphoneos-arm64.deb
+Size: 8156
+MD5sum: 5eb6c6a3651454c6b47c6613f13be2cc
+SHA1: cf586529a37c56e672e10e075fe16cdd99848b8b
+SHA256: 8ffe3829cc85284f1fdc7ba9aae5ecaf8a9f63dfa66993b8c936ed03d4926989
+SHA512: 1883a5200c05bb17360e322ec960e5ccb21341df51b6e68b53477907ee1b7e3aaeca789895f855c79b995c4d72ae6955fb09f40acd854665b6479af31cdbd926
+Section: 插件
+Description: 在刘海或灵动岛下显示app icon和名称
+Name: AppBadge顶部显示当前app图标及名称
+Author: developlab
+Icon: https://axs66.github.io/pro/icon/appbadge.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appbadge/js.json
+
 Package: com.developlab.appbadges
 Architecture: iphoneos-arm64
 Version: 1.0
@@ -25172,6 +25255,25 @@ Name: AppBadge 应用胶囊
 Author: developlab
 Icon: https://TrollStoreX.Github.io/sileodepiction/AppBadge/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AppBadge/js.json
+
+Package: com.developlab.clickvibration
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: developlab
+Installed-Size: 216
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.developlab.clickvibration_1.0_iphoneos-arm64.deb
+Size: 8168
+MD5sum: aa7546e458c7f34c4619cf3bfb43f4d7
+SHA1: ab304b8f311662ef0dac435b888314947b0dcd4a
+SHA256: 86a2ae83331041b967308379c42a14484956d333a64cb6d8a51fe88d4e01183e
+SHA512: 1b4a9876d919858167a787824a86cf9f8bbc8b10bc1148e393917b4d7cb5ff47e5ecef2067ea96b9fbc65397db2b211d852c3dc6eba25d9085864e648190f73d
+Section: 插件
+Description: 点击或者滑动震动效果，以及声音效果
+Name: 触摸震动音效
+Author: developlab
+Icon: https://axs66.github.io/pro/icon/clickvibration.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/clickvibration/js.json
 
 Package: com.doimty.fiona
 Architecture: iphoneos-arm64
@@ -25225,6 +25327,25 @@ Description: High-refresh policy tweak for supported iPhone Pro models, with app
 Tag: supports::roothide
 Name: ProMotion 120Hz
 Author: doimty
+
+Package: com.dumpapp.wechat-rootless
+Architecture: iphoneos-arm64
+Version: 2.4.1
+Maintainer: DumpApp
+Installed-Size: 14436
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/com.dumpapp.wechat-rootless_2.4.1_iphoneos-arm64.deb
+Size: 5625536
+MD5sum: 13d0022af773520d2270022b48e9b818
+SHA1: 70f4dbcded304aba120e1cb1158583b0d2c0207c
+SHA256: b49737e7e4d9975052500727511945e87c9cd2e4e33f56f2dbc027d2ef0cbf21
+SHA512: b7e24a619ef7fb3b92826e58599d0d2681892c736714518fecfa597d9837c01b0d910283e1a8da88de9f438d3f0b9aec75f908e66a6ef4060dc1ac19bf532bb5
+Section: 插件
+Description: 锤子助手
+Name: 锤子助手
+Author: DumpApp
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/dumpapp/js.json
 
 Package: com.dumpapp.wechat-rootlesss
 Architecture: iphoneos-arm64
@@ -25464,6 +25585,25 @@ Author: dylv
 Icon: https://TrollStoreX.Github.io/sileodepiction/Liquidass/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Liquidass/js.json
 
+Package: com.edge.siri
+Architecture: iphoneos-arm64
+Version: 3.1.1-9
+Maintainer: tangerine
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/com.edge.siri_3.1.1-9_iphoneos-arm64.deb
+Size: 15240
+MD5sum: 141c5e49ee1f80e97c7c3c2c58d9bb8d
+SHA1: 0677842abe8f7ca5b66256df93d0c5021d26c1a5
+SHA256: 4a38ded7440b698219e039f4b563e5f55110d56d0da7dd18064119bc015c454f
+SHA512: 261173de51e7ecb15bbea646af8c6b271128dc0f5d3f58a5f4bb4630fa278329fc33a50a8bc3d88d98d0bb76d4f9e2bf7dd4ea417b33845dd03eedeb7fdf21c5
+Section: 插件
+Description: 模仿iOS18唤醒Siri边框效果，无设置项。安装即生效-----EdgeSiri是一款为 iOS设计的越狱插件，它能够在 Siri 激活时在屏幕周围显示彩色边框。这个边框不仅增加了视觉吸引力，还能在 Siri 被使用时提供更加直观的反馈。
+Name: EdgeSiri
+Author: tangerine
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/edgesiri/js.json
+Icon: https://axs66.github.io/pro/icon/siri.png
+
 Package: com.eevee.spotifys
 Architecture: iphoneos-arm64
 Version: 6.6.8
@@ -25485,6 +25625,28 @@ Name: EeveeSpotify
 Author: Eevee
 icon: https://TrollStoreX.Github.io/sileodepiction/Eevee/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Eevee/js.json
+
+Package: com.ethxnn88.visibleisland
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: ethxnn88
+Depends: firmware (>=16.0), mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Filename: debs/com.ethxnn88.visibleisland_2.0_iphoneos-arm64.deb
+Size: 28480
+MD5sum: 18b1ed9f3b6a475655ca356a91e15ae5
+SHA1: c3456cb489b21ca6aa5df6960c2a7650004e4703
+SHA256: cdd510b177ee6e13b9e37931d82c20f3d55ba821d871cb0f88f24100fe2e04aa
+SHA512: 1b3b907e57787ea25cc32424c86159415055ceb1a204d3d6f07af0404b01f22f56218747787059eb9e157709e871a7c67e01e4d21a70a781570ee2b7f8a51c5c
+Homepage: https://axs66.github.io/pro
+Section: 插件
+Description: Enable, fix, and customize the Dynamic Island on older devices.在旧设备上启用，修复和自定义动态岛。
+Name: VisibleIsland
+Depiction: https://ethxnn88.github.io/repo/depiction/web/com.ethxnn88.visibleisland.html
+SileoDepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.visibleisland.json
+ModernDepiction: https://ethxnn88.github.io/repo/depiction/native/com.ethxnn88.visibleisland.json
+Icon: https://ethxnn88.github.io/repo/assets/com.ethxnn88.visibleisland/icon.png
+Tags: compatible_min::ios16.0, compatible_max::ios16.6.1
+Author: ethxnn88
 
 Package: com.evgeniy558.controlcenter18
 Architecture: iphoneos-arm64
@@ -25560,6 +25722,27 @@ Name: ControlCenter18
 Author: evgeniy558
 Icon: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/header-icon@3x.png
 SileoDepiction: file:///var/jb/Library/PreferenceBundles/ControlCenter18Prefs.bundle/Depiction/depiction.json
+
+Package: com.exile90.icleanerpro
+Architecture: iphoneos-arm64
+Version: 7.10.0
+Maintainer: Ivano Bilenchi
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 977908
+MD5sum: 2152aa3075aa8da63b2916856eed43b6
+SHA1: f4f336406c354aedf5ae947134901e52f9b8e9be
+SHA256: 745264c2e1c4fc9c00cca37bd75f921199d88bd198519625bd82254c5b1cecc5
+SHA512: 97a10fd6715d6d1b892764637c995b656218d6d6439912ef0d3f9341667ad28c8a5136e3a3e17a68311c00b74cb80b585cea32ac44e9c6c66806169412f678c4
+Homepage: https://axs66.github.io/pro
+Section: 插件
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi
+Name: iCleaner Pro 小扫把
+Icon: https://axs66.github.io/pro/icon/iCleanerPro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/icleanerpro/js.json
 
 Package: com.exile90.icleanerpros
 Architecture: iphoneos-arm64
@@ -25719,6 +25902,23 @@ Section: 插件
 Description: Mango分屏，小液微信液态美化，系统级真液态玻璃，全局返回小芒，视频壁纸等一些实用功能。
 Name: mango
 Author: go
+
+Package: com.gou.systembox
+Architecture: iphoneos-arm64
+Version: 1.0-3-1
+Maintainer: 🐶
+Installed-Size: 688
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.gou.systembox_1.0-3-1_iphoneos-arm64.deb
+Size: 106012
+MD5sum: 95b180af6bed73e66fb2f0f2bb8a6712
+SHA1: a540a9770918dceb515da8057c5fe1df66f29292
+SHA256: a359cf81b25cc0d36bb77260662a3304c9c2dcd4a24348fb74af87efd7e63e8d
+SHA512: fe7506f62e0e3e91282d46786c3bdbf34a63771d58694ef0e2611a82c96236f966b621a4fed9fc4074ffa8f2fc668b85f00a8d40f0ff575f7d7066040bd39b7b
+Section: 插件
+Description: cool
+Name: SystemX
+Author: 🐶
 
 Package: com.gtoks
 Architecture: iphoneos-arm64
@@ -25959,6 +26159,25 @@ Author: Ball
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.hk.rootless.cc
+Architecture: iphoneos-arm64
+Version: 2.0.6
+Maintainer: 妖刀
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration
+Filename: debs/com.hk.rootless.cc_2.0.6_iphoneos-arm64.deb
+Size: 515100
+MD5sum: ebf8b1d77e493419fd7815e2e4f68086
+SHA1: a0521f6e48d48b1d4634b3b68dff6f53ce28d864
+SHA256: 8327989b9cc5bbc7fb5aa2928ea4a667f7180d34b83953d5c657a9ab18aad01a
+SHA512: 67b815e0f293e0ddcfce83fd03470253aeeb70cd3ecfe86202a378e0f82d45e6b98eb86cf1b780b2b8af56b4db28639d71327f4b9fb57812e0fe930cac096859
+Section: 插件
+Description: 超级控制中心模块集合！
+Name: CCLess++(rootless)
+Author: 妖刀
+Icon: https://axs66.github.io/pro/icon/CCSettings.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/CCLess/js.json
+
 Package: com.hk.rootless.janwechat
 Architecture: iphoneos-arm64
 Version: 1.1.5-1
@@ -26046,6 +26265,23 @@ Author: Hmmzzz
 Icon: https://TrollStoreX.Github.io/sileodepiction/MarkFont/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/MarkFont/js.json
 
+Package: com.hoangdus.speedster
+Architecture: iphoneos-arm64
+Version: 2.1.1
+Maintainer: Hoangdus
+Installed-Size: 380
+Depends: firmware (>= 13.0)
+Filename: debs/com.hoangdus.speedster_2.1.1_iphoneos-arm64.deb
+Size: 40876
+MD5sum: 0a94eb8b05a2190f93e03d5c4b04e2ed
+SHA1: eb2602e30edcb7a9d8a00dec854d97220c26ff0a
+SHA256: 048ea34a54e1e03d4dd153317247cc9b027554f7d0bf11d843b6a4b659950953
+SHA512: 1b9f980e9b88b245975ed8ea13ef806caef4a647d07b2a10bae4f7e294e97a7dbe5ce850d52c5d4a760f314c25b0fc9cfbab62bddefe5e7254dc0c745a866947
+Section: 插件
+Description: Faster iOS animation.
+Author: Hoangdus
+Name: Speedster
+
 Package: com.huam.wcenablecleanorigmsg
 Architecture: iphoneos-arm64
 Version: 1.0-2
@@ -26064,6 +26300,43 @@ Name: WCEnable原图自动清理-Rootless
 Author: huami
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.huami.WCPluginsOrder
+Architecture: iphoneos-arm64
+Version: 1.0-2
+Maintainer: huami
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.WCPluginsOrder_1.0-2_iphoneos-arm64.deb
+Size: 15172
+MD5sum: 2529d7f041fd62c5eccd9e90460cf14f
+SHA1: 5078cbfa8d844407ca6172dcdaa0715477651d79
+SHA256: c686f85d0e4280377fc63b4a5a5d0533fd3e7f7801e8a68fa1c7f84bfb54d1ec
+SHA512: 5e04b1170228e75dd37ef7f84fb26f88d9a0e3c4e5414045e18e968711b174dd18734a5e4fb91935789542605f48fb3803efc8764709146228cd2738649f4b9d
+Section: 插件
+Description: An awesome MobileSubstrate tweak!
+Name: WCPluginsOrder微信插件排序
+Author: huami
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/WCPluginsOrder/js.json
+
+Package: com.huami.WCPulse
+Architecture: iphoneos-arm64
+Version: 1.7-5
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.WCPulse_1.7-5_iphoneos-arm64.deb
+Size: 3572352
+MD5sum: a133d21d88d82baffa6020b1a9f27751
+SHA1: 9f4dcaaffc0e8b42a822e84f1a589ee29a742149
+SHA256: fc674c3a9b48ece2fc40af53552e913e095f13f1d0f143db078b91625b33978c
+SHA512: 7cf3080043dc55f850b62526954752257f35892d4c5bc7db04ffdd0b1be29cd6661af9ec2064e5f08246f1a459b7d95f395da596a02d64ba12611c9d66d2c5de
+Section: 插件
+Description: WCPulse
+Name: WCPulse
+Author: 小学生
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/WCPulse/js.json
 
 Package: com.huami.bilinoads
 Architecture: iphoneos-arm64
