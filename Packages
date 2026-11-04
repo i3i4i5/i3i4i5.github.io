@@ -39673,6 +39673,21 @@ Name: 左滑返回
 Author: Mao
 Sponsor: admin@25mao.com
 
+Package: com.mg.adskip
+Architecture: iphoneos-arm64e
+Version: 3.4.5
+Maintainer: M哥
+Filename: debs/广告跳过.deb
+Size: 26128
+MD5sum: 8608c8e0ad3f853b4434915c1f564b7e
+SHA1: 28413cbd22471b53b9952f672dec5a089b1e600d
+SHA256: aeaa66666fcc3926e8350bdf92f710c2618fcceeb5a569eb3f467f2f1734916d
+SHA512: 84a8d660523c3c8eb6b6b0a5d8f515859ad3f9470534f15c4e5c14e550e7916f832f5bef1eca5d09fa56f654889194ee8e2fb2fdeb473ff25a27ae75226a54df
+Section: 插件
+Description: 跳过开屏广告，无黑名单·事件驱动秒跳·容器门控两级词表+防摇一摇+摇一摇带按钮秒跳+防误点广告主图+结构防自点，不影响无广告应用。
+Name: 广告跳过
+Author: M哥
+
 Package: com.yourepo.axs.wxkeyboarduihook
 Architecture: iphoneos-arm64e
 Version: 1.8
