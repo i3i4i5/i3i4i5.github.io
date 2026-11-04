@@ -16890,6 +16890,22 @@ Author: Lessica
 icon: https://TrollStoreX.Github.io/sileodepiction/Yuyin/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Yuyin/js.json
 
+Package: com.AudioMix.zh-hans
+Architecture: iphoneos-arm64
+Version: 0.0.1
+Maintainer: 萧箫c
+Depends: mobilesubstrate
+Filename: debs/com.AudioMix.zh-hans_0.0.1_iphoneos-arm64.deb
+Size: 1512
+MD5sum: c9fba126a846ab7058204da66ffc773a
+SHA1: 9f4173c9cf798e905bdd83f1888198f89be9cc3a
+SHA256: e93879e181ce2327637d7845a2d7d2e41fd4bed9fccdc848dfb9e03c6d7de51a
+SHA512: 9a89bcbe5f5261cfb45efb90e86b0f70a67de3db0f81a27894cbc6dc34dfa89170fe34547a3303c7e5254c49c581bc33bad194c435de577597196c45c1c72875
+Section: 插件
+Description: 为AudioMix提供简体中文，萧箫帅比倾情汉化。
+Author: 萧箫c
+Name: AudioMix 简体中文包(rootless)
+
 Package: com.Axs.3dappversionspoofer
 Architecture: iphoneos-arm64
 Version: 2.1.1
@@ -22650,6 +22666,22 @@ Author: Beanbuns
 icon: https://TrollStoreX.Github.io/sileodepiction/Doubao/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Doubao/js.json
 
+Package: com.Bloom.zh-hans
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Maintainer: 萧箫c
+Depends: firmware (>= 15.0)
+Filename: debs/com.Bloom.zh-hans_0.0.2_iphoneos-arm64.deb
+Size: 1984
+MD5sum: 3d7b8a12cc91f71cb77d5d301e526e73
+SHA1: c1abdb9ed8b71ec55f37da7fe3ed60834386100a
+SHA256: c6e6d8a77f54c298ca66f77d5254972c17b4f17ad7496964440ab1af1365bd3f
+SHA512: 231cf0bf9ff698a072f53e16f1b02822e473e2fa29180a820aa855d3e702b8ec567dfd036e485ff1b4a289a455f9271cd8c6d7c8b39ea8aecd444825180aa799
+Section: 插件
+Description: 为Bloom提供简体中文，萧箫帅比倾情汉化。
+Author: 萧箫c
+Name: Bloom 简体中文包(rootless)
+
 Package: com.CBZ.82crack
 Architecture: iphoneos-arm64
 Version: 0.0.2
@@ -25138,6 +25170,22 @@ Description: 不可思议的简约控制中心，源内有汉化包。
 Name: Akara(rootless)
 Author: Tr1Fecta & Kennyroo
 
+Package: com.dao.appaze3.cn
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.dao.appaze3.cn_1.0_iphoneos-arm64.deb
+Size: 7472
+MD5sum: c4059a6aa97e6f63a4c42c957c9b99d6
+SHA1: 5a6155e619fa7597ee191ca58843824e5e7a1d1d
+SHA256: 0f02dca735abcc44ac56ba576c7142a71c2e50a1e4ed7a9f7071cd1adf3a49c1
+SHA512: 71907329f5887dde44780f8fe2f3942dacdda91f78a1ce8e2dd9502280a84dc4ecc01a137cd5b6e7b69ddcf4163f49dd602eee18274ae83c5ebfdbc87c31e5a8
+Section: 插件
+Description: Appaze 3 简体中文包(rootless)，仅汉化常规设置部分。
+Name: Appaze 3 简体中文包(rootless)
+Author: 妖刀
+
 Package: com.dao.appdata
 Architecture: iphoneos-arm64
 Version: 1.4.7
@@ -25262,6 +25310,23 @@ Description: 可以设定设置App的背景图/模糊等，让设置App变得更
 Name: April 中文版(RootHide)
 Author: Luki
 
+Package: com.dao.autoscroll
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: pxcex
+Depends: mobilesubstrate
+Conflicts: com.pxcex.autoscroll, com.Axs.autoscroll, xyz.cypwn.autoscroll15, byg.iosios.net.autoscroll, com.autoscroll.jb
+Filename: debs/com.dao.autoscroll_1.0.0_iphoneos-arm64.deb
+Size: 5396
+MD5sum: 72f17e9ef1490477a5cfe6e324d13855
+SHA1: d86341939729bc531024632fc9c300c213df8186
+SHA256: 5e02e50b608fbc6cfed3ab57429bdd33c93ebdcef3041eb9a89746cd3fb2c2f8
+SHA512: a37170d6074ca51f74b0c655bb5f59400aa9188df8a7b4c36e6f6f229fbca53b9fb952ed9e22c81d500f7ce238dae4e18c5d846059ccc2c38e8f0f786f137613
+Section: 插件
+Description: 防止手指疲劳，跟随手指自动滚动页面，直到再次触摸屏幕停止滚动，无设置。
+Name: AutoScroll 自动滚动(rootless)
+Author: pxcex
+
 Package: com.dao.axon
 Architecture: iphoneos-arm64e
 Version: 2.6
@@ -25351,6 +25416,23 @@ Description: Instagram 的多功能插件，插件入口：长按左下角首页
 Name: BHInsta 中文版(RootHide)
 Author: Bandar Alruwaili
 
+Package: com.dao.bigshotsnapper3plugin
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: Jonathan Winger-lang
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
+Filename: debs/com.dao.bigshotsnapper3plugin_1.1_iphoneos-arm64.deb
+Size: 19256
+MD5sum: b1d501cc728682627113f5ffcced8d18
+SHA1: 243d9a241649369a6dc75d95e271791c810ebd80
+SHA256: 9b783f02260492f99525d93f599b01de8dd6b26a9477454bd2ca84fc3256529b
+SHA512: 15a81103ac7a28e510d58a71763577f336d3f453359015695fa8980938cb1d435a61348dfaf6030462a6717374a77edecd108198c26f3be49443d937d6dd21ae
+Section: 插件
+Description: 支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用(没提示)。
+Name: BigShot 长截图(rootless)
+Author: Jonathan Winger-lang
+
 Package: com.dao.blurrybadges
 Architecture: iphoneos-arm64e
 Version: 1.5.3
@@ -25406,6 +25488,23 @@ Description: 在 CarPlay 中打开任何应用程序！
 Name: CarBridge(RootHide)
 Author: leftyfl1p <carbridge@havoc.app>
 
+Package: com.dao.catvnc
+Architecture: iphoneos-arm64
+Version: 1.2.0-1
+Maintainer: 0x530c
+Depends: mobilesubstrate, preferenceloader
+Conflicts: xyz.cypwn.catvnc, com.catvnc.server
+Filename: debs/com.dao.catvnc_1.2.0-1_iphoneos-arm64.deb
+Size: 1336404
+MD5sum: 3fdedb432c208fc551d0a3aeb08a5a23
+SHA1: 2ceaaf67ce2f0f4d96562371a69a5fb041275253
+SHA256: 6a66cae89d6cc5447d0cdae17c88f8e72c0e8f62da46c0d445fc0789aa6404ae
+SHA512: 81f41cd46b82b2a86a3c825c43a6f6ca2edb094cd0e3810e4ffde283e97f7a49c7be876e770f5c25e8065bd199e69b854fb578dd798f938cc0f8d8ce4a620efe
+Section: 插件
+Description: CatVNC是iOS平台上的VNC服务器，不需要使用的时候关闭插件；可以使用电脑上的VNC客户端（如UltraVNC、RealVNC等软件）连接到iOS设备，从而远程控制iOS设备；如果遇到bug（黑屏等）请重启用户空间！
+Name: CatVNC(rootless)
+Author: 0x530c
+
 Package: com.dao.ccborder
 Architecture: iphoneos-arm64e
 Version: 1.2
@@ -25441,6 +25540,23 @@ SHA512: fae6387e3473974de3040c1211dce6043a2ca342d6cf7be403ea8897aef99cdf9f8a2284
 Section: 插件
 Description: 适合iOS17(Bootstrap)的超级控制中心模块集合！
 Name: CCLess++(Bootstrap)
+Author: 妖刀
+
+Package: com.dao.choicy.cn
+Architecture: iphoneos-arm64
+Version: 1.5
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Conflicts: com.hk.choicy.cn.rl, com.hk.choicy.cn
+Filename: debs/com.dao.choicy.cn_1.5_iphoneos-arm64.deb
+Size: 3924
+MD5sum: 57f3dfb34eb6798605d6dee2e351cf14
+SHA1: 2efd7f0d0fabca939f63f8830d6a968abfd82389
+SHA256: ff95d9b8bcc4ef12c7576d19494f1fb99a5c03f2c043afa3d6be47cc91fe9672
+SHA512: c7c89202ce66e195c3d7048933d2291beb0c7765466d2f86fa326eafa337cae1435d2894e93611f2d73a0533fa017005d0f8ee841e10a8966c0b8b2603d14c57
+Section: 插件
+Description: Choicy 自用中文包(rootless)。
+Name: Choicy 自用中文包(rootless)
 Author: 妖刀
 
 Package: com.dao.choicy
@@ -25516,6 +25632,57 @@ Name: CoolCC Reborn(RootHide)
 Author: alias20
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/coolcc/js.json
 
+Package: com.dao.copylogfix16
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 0xkuj
+Depends: firmware (>= 16.0)
+Conflicts: com.0xkuj.copylogfix16
+Filename: debs/com.dao.copylogfix16_1.0.1_iphoneos-arm64.deb
+Size: 6528
+MD5sum: c0858fa1f15e9696cf96f5d457cd8ac1
+SHA1: 3f189feae8574690090924fb99d54fc13308bac7
+SHA256: 670ac01c3d2f00be3167ed8f1c2e42262caf156a32e4c1bf6b1b0167a8d4dc4e
+SHA512: b2036425fe6a933af79ae506979517b24c213a3eba2da9d4023899d58a195484f90b13b6e46f1036f10f2353dc2b86ab607b7df8f16dcd870e4c9f24d807c34d
+Section: 插件
+Description: 修复CopyLog不能在iOS16上使用的问题，但听写键呼出是无效的，必须借助第三方插件(如：乌贼力量的DockX)呼出面板。v1.0.1：修复CopyLog在iOS16上听写键可用。
+Name: CopyLogFix16(rootless)
+Author: 0xkuj
+
+Package: com.dao.ct5
+Architecture: iphoneos-arm64
+Version: 5.1
+Maintainer: CyPwn
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils
+Conflicts: com.hk.ct5.cn.rl, xyz.cypwn.cracktool5, xyz.cypwn.ct5extra
+Filename: debs/com.dao.ct5_5.1_iphoneos-arm64.deb
+Size: 1116592
+MD5sum: a87e364366eeff88f99f7a5421b47ec8
+SHA1: 9b430e500d24aede72186b56e8a2ba7c1ec191a4
+SHA256: 9c1fbed0ed4b256a45432b6c8fa4de59400ead3923fa8c39a4abee11f5723fa6
+SHA512: 18c967e7014c1d5049953e59eb80e00b13031feb6a275b07238251a63e761331d1854a5ebd955c61e71487830c4f2f8fd74215e06abe2045ae0c2e857b0e7b24
+Section: 插件
+Description: 一键破解插件，具体效果自测！
+Name: CrackTool5(rootless)
+Author: julioverne
+
+Package: com.dao.designer
+Architecture: iphoneos-arm64
+Version: 1.4.5
+Maintainer: JunesiPhone
+Depends: mobilesubstrate, preferenceloader
+Conflicts: xyz.cypwn.designer, com.junesiphone.designer
+Filename: debs/com.dao.designer_1.4.5_iphoneos-arm64.deb
+Size: 11657972
+MD5sum: c6a6da9165be60d78ad95265a5d9909c
+SHA1: ca51c64bbe22a6f980610801adfc79b2138f1592
+SHA256: 6060095c38c996506b7882557ca7e05e7d44a299b5a2e8c3b120f9dcc9d6684a
+SHA512: ed955c3361e33753ddbd41867f18028018b8be87f71ff4d5107dd7da0310c09906432acdd84a101c31b7a1e740f5868a977a57817ae3ff9806596c1f508a0317
+Section: 插件
+Description: 一款锁屏和主屏幕的主题布局插件。
+Name: Designer(rootless)
+Author: JunesiPhone
+
 Package: com.dao.disablepastealert16
 Architecture: iphoneos-arm64e
 Version: 1.0
@@ -25584,6 +25751,40 @@ Section: 插件
 Description: 桌面图标通知角标变为图标下方的彩色横条，自适应颜色；基于刀刀源的 Donut、BadgeBar 显示效果，并向所有贡献者致谢。
 Name: Donut-bar(RootHide)
 Author: 文武
+
+Package: com.dao.dumpdecrypter
+Architecture: iphoneos-arm64
+Version: 1.5-1
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.dumpdecrypter
+Filename: debs/com.dao.dumpdecrypter_1.5-1_iphoneos-arm64.deb
+Size: 393836
+MD5sum: f4954b80277a029d1bfce336c8f3a586
+SHA1: cba562a4da0c6f36573d4fbe6bf0952eb0220d84
+SHA256: d8edc6c131a45994abff9bcf377f9bda2608f875528d77c2d7361f563e77b7e4
+SHA512: 9bcd8a671873e99e20d92690e8519467255f9c690ee66a96c026c8c45192cb61448ee80303b4fed9f576f71cd630899cccab31579c6ffc3cebb594bcf7c0a6ea
+Section: 插件
+Description: iOS应用提取工具，手机端的bagbak，支持iOS15~16多巴胺；上架备份。
+Name: DumpDecrypter(rootless)
+Author: Netskao
+
+Package: com.dao.flexlist
+Architecture: iphoneos-arm64
+Version: 1.4-2
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.flexlist, netskao.flexlist-rootless
+Filename: debs/com.dao.flexlist_1.4-2_iphoneos-arm64.deb
+Size: 1320860
+MD5sum: c0f6bf24e7e6ec8898ebbb83272ab797
+SHA1: 59864e607105781af7f1e36ac00f78385fe04113
+SHA256: ea70390eb164f1c7d7f9ee536e96277b62d254a0cb3fba6143316719aaba0136
+SHA512: 46a71042377ba7b82744662eafcbdbbd04a544946f6f41a36d54b52fecb6e9939588fa568da514b28240d3ff8baa1d25b26aced3fc930e6c79293d339cc81fe3
+Section: 插件
+Description: FLEX调试工具，Netskao新更的版本，上架备份。
+Name: FLEXList(rootless)
+Author: Netskao
 
 Package: com.dao.fontmanager
 Architecture: iphoneos-arm64e
@@ -25678,6 +25879,23 @@ Name: HideSerialNumber 简体中文包
 Author: 妖刀
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/HideSerialNumber/jss.json
 Icon: https://i.imgur.com/uFWkBXD.png
+
+Package: com.dao.hideserialnumber
+Architecture: iphoneos-arm64
+Version: 0.0.4
+Maintainer: ichitaso
+Depends: firmware (>= 12.2), mobilesubstrate, preferenceloader, com.dao.hidenumber.cn
+Conflicts: com.ichitaso.hideserialnumber
+Filename: debs/com.dao.hideserialnumber_0.0.4_iphoneos-arm64.deb
+Size: 55200
+MD5sum: 9df4c3d444a59bb29f659c3efbcb7ef9
+SHA1: 4c387dc2287658282cfd47f75234480d53045ffb
+SHA256: 9978e4359219114723c50298442187afcb1445d112d1b2c9c6d45f6b60f86202
+SHA512: aeaff3f012255ee22549d0f1a0a1508cd45f446a85b027ddd095f5d7b3a44f27fa9e6ddbd74ffd4a1aede0587473028d3c445a8fc8a0010ed27ebca527d72bb0
+Section: 插件
+Description: 在“设置关于”页面中隐藏/伪装序列号等相关信息，源内有汉化包。
+Author: ichitaso
+Name: HideSerialNumber(rootless)
 
 Package: com.dao.immortalizer
 Architecture: iphoneos-arm64
@@ -27844,6 +28062,54 @@ Description: AudioRecorder XS 简体中文包(RootHide)。
 Name: AudioRecorder XS 简体中文包(RootHide)
 Author: Sandy0 & 妖刀
 
+Package: com.hk.autounlockx.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Maintainer: Sandy0
+Depends: mobilesubstrate
+Filename: debs/com.hk.autounlockx.cn.rl_1.1.0_iphoneos-arm64.deb
+Size: 1520
+MD5sum: ad3e420ab174c7aa5ff3dd81981acf97
+SHA1: b8ec4b694df3a132073112df2d273f6b38bcd2cf
+SHA256: fd9312d2cac3b9eafcfe4a6d9492405c5de8655a5eaba0fdfb15a62ad4541c17
+SHA512: c146409ffc9a79ac638cd616206b57c7565b23cf8c81ede7bcb16f3d489ddc94a8ead5e5eb235d0649895f74780e2c06ef89c7da3db8e5b0b1556261d58269b3
+Section: 插件
+Description: AutoUnlockX 简体中文包(rootless)。
+Name: AutoUnlockX 简体中文包(rootless)
+Author: Sandy0
+
+Package: com.hk.betteralarm.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.4.1
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.betteralarm.cn.rl_1.4.1_iphoneos-arm64.deb
+Size: 2992
+MD5sum: bb1e7ac98e3e66911ff7c45beb25a5e8
+SHA1: c65d977dab696f91a3e49b0eff8773f72adfb923
+SHA256: 2fbacf7484d86e4c02beb4d1c1d0c17d584e1a763f74553fae7bafd37054dfc5
+SHA512: c53e1d401d75e36723c1b46772b603bce82114b34556fceebbf14069c3311d60c6989b51e860658fa95a72894b2639ddcf2f61e43eb8474f46452453c4194544
+Section: 插件
+Description: BetterAlarm 简体中文包(rootless)。
+Name: BetterAlarm 简体中文包(rootless)
+Author: 妖刀
+
+Package: com.hk.bettercc.cn.rl
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Maintainer: Ball <434479917@qq.com>
+Depends: mobilesubstrate
+Filename: debs/com.hk.bettercc.cn.rl_0.0.6_iphoneos-arm64.deb
+Size: 5740
+MD5sum: fc1d51455b5f4659fd0328ca392111d8
+SHA1: 2b3607f8c8154d3d826286c68b3fd92b44a612ac
+SHA256: 51c33267aeb7ff7614cdf74293ad466e7ef864ebc740f9a9f8240f864751ed74
+SHA512: 9e26991b9033e9344a661b3a2afaac84cd7c136812e90ab4d4cbc463894e62d188d5aa18596130a5e7eac237e62e5aee54b19c6a8a5437525413e6f2c033cee3
+Section: 插件
+Description: BetterCC 简体中文包(rootless)。
+Name: BetterCC 简体中文包(rootless)
+Author: Ball <434479917@qq.com>
+
 Package: com.hk.bigsur.cn.rl
 Architecture: iphoneos-arm64e
 Version: 1.4.4
@@ -27875,6 +28141,70 @@ Section: 插件
 Description: BioProtect 简体中文包(RootHide)。
 Name: BioProtect 简体中文包(RootHide)
 Author: Sandy0 & Ball
+
+Package: com.hk.blurryalerts.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Maintainer: Ball
+Depends: mobilesubstrate
+Filename: debs/com.hk.blurryalerts.cn.rl_1.2.2_iphoneos-arm64.deb
+Size: 1620
+MD5sum: 098373b5046fd07774cfa7c5fb22a0e6
+SHA1: 10f12798af3fa27a603f6395f1993c0a1e36cf1d
+SHA256: 71cc27709014e038427df5023c8f52b4b5125e5473896b03a21aeee6c37a7ca1
+SHA512: 12708774f58b4df36dd929b6258e595acd7ae71a9c68f98e0546a25bc48b2a994c56f5eb7f0ca0a656ebe820506ac94677031d4ade9567a7689d1b8afa8d21c6
+Section: 插件
+Description: BlurryAlerts 简体中文包(rootless)。
+Name: BlurryAlerts 简体中文包(rootless)
+Author: Ball
+
+Package: com.hk.cask3.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.cask3.cn.rl_1.0.2_iphoneos-arm64.deb
+Size: 1552
+MD5sum: 9dd0d8c01cd048d2f0edb1ec96855376
+SHA1: 5dc25e87d5d9383f0f9034213c13c308029a48e9
+SHA256: 0ea0d4ac749e7564191cc89f6c44c062dee5dedb96076f68f9184cd2a47a0f24
+SHA512: 302388f454c8db2f7685f47a743a49d66d634d93ca7a47c21d2fef0b6e53f47e41f61a4db56e2f9ab8606833d9685aaaec45bc890a1cedd0954036e772b63819
+Section: 插件
+Description: Cask 3 简体中文包(rootless)。
+Name: Cask 3 简体中文包(rootless)
+Author: 妖刀
+
+Package: com.hk.ccmusicartwork.cn.rl
+Architecture: iphoneos-arm64
+Version: 2.4.0
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.ccmusicartwork.cn.rl_2.4.0_iphoneos-arm64.deb
+Size: 1532
+MD5sum: 750deda31bc9b34b97cc38dd5108a431
+SHA1: 07ce78780532756f86ca0bab043b3e54c23b1455
+SHA256: 0bb50ca55f2f351bea6f80c56bb28a49d5f9d9bbe012233e8434ba2692f2779f
+SHA512: 590f7ccbcb125a48ccaa3a1b803c278f7f16a7672b7c74212a2f2b246c3049ba84554be8ce68d17117dc7b15bd8329d5dc5e664089aaa358e9e7743e8420ac4a
+Section: 插件
+Description: CCMusicArtwork 简体中文包(rootless)。
+Name: CCMusicArtwork 简体中文包(rootless)
+Author: 妖刀
+
+Package: com.hk.coolcc.cn.rl
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.coolcc.cn.rl_2.0_iphoneos-arm64.deb
+Size: 1796
+MD5sum: 901ee4613f317e6601390dcc64bd2337
+SHA1: 01fcd9751f3cd41396ef4b8fdde05b656445baf9
+SHA256: d57a9a8a994626ac4bf5d754ae23cf3ee06f95a563adedd4690f645ed90fa5a6
+SHA512: 5ff5b97be45c55c9edc515d146d3d193f2873e05db661c2aaf887c4ed54b94448ef7808db0a12585181f395d15deef2a3f4ab04e1caeacafde330162cb3c5976
+Section: 插件
+Description: CoolCC Reborn 简体中文包(rootless)。
+Name: CoolCC Reborn 简体中文包(rootless)
+Author: 妖刀
 
 Package: com.hk.copylog.cn.rl
 Architecture: iphoneos-arm64e
@@ -27908,6 +28238,38 @@ Description: Crane 中文修复包(RootHide)。
 Name: Crane 中文修复包(RootHide)
 Author: 妖刀
 
+Package: com.hk.ct5.cn.rl
+Architecture: iphoneos-arm64
+Version: 5.0
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.ct5.cn.rl_5.0_iphoneos-arm64.deb
+Size: 2384
+MD5sum: cdd9bcdde0e660d82b34c10bcdc9561a
+SHA1: f87be0ae3f4770a820f018218183fb1e6375e2d4
+SHA256: 95c624acc659d1cde78e9478c42cc7306fd030daeb98bca0320df41352477aca
+SHA512: 3a255a971ecade758463dfe5d9c366a1c66f6ae78d625767c82022aa553ed9dc24eef18bc297df9e07e97da7be542e52eb51b3a3074e451e499e3aa3a563de8c
+Section: 插件
+Description: CrackTool5 中文修复包(rootless)，如果插件更新了，需要再次安装本中文包。
+Name: CrackTool5 中文修复包(rootless)
+Author: 妖刀
+
+Package: com.hk.cylinder.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.cylinder.cn.rl_1.1.1_iphoneos-arm64.deb
+Size: 2296
+MD5sum: 1ed6ca956d1a7130e92b1db7ba94a34d
+SHA1: 596ff9a06c9d6502074ebad990d4716ea8687a14
+SHA256: 4b4de7fc6c1689263de0a946fe289fe021867b3a7282ffcd19694342be5a6181
+SHA512: 91e0c024bc3dee3ab3bf5229e5a8048571add67ded5107a17b69a8f3989c0f77559dbe1fa625163e5e9b59f0c92472f540929a5a79a854571cd6cb0f1d7a979a
+Section: 插件
+Description: CylinderReborn 中文修复包(rootless)。
+Name: CylinderReborn 中文修复包(rootless)
+Author: 妖刀
+
 Package: com.hk.designer.cn.rl
 Architecture: iphoneos-arm64
 Version: 1.4.5
@@ -27923,6 +28285,22 @@ Section: 插件
 Description: Designer 简体中文包(rootless)。简单汉化下插件主设置，部分汉化。
 Author: 妖刀
 Name: Designer 简体中文包(rootless)
+
+Package: com.hk.dleasy.cn.rl
+Architecture: iphoneos-arm64
+Version: 2.13.5
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.dleasy.cn.rl_2.13.5_iphoneos-arm64.deb
+Size: 3832
+MD5sum: f75a0d14298a6392cdc9c3756d6975ef
+SHA1: 516a18dda4edf3236a340d1647f4bfb09c1f5cb4
+SHA256: c365e75b9adce614d9a1c6572b608cedfddc153de52781f36aa76ccb07477451
+SHA512: 2cc370d32c4862fa86dbbe347b9c8dbfb816d4803dd90c4d36b5964a67245366faa61c980e7eca6813eaa36abc0019b14daa798413c082d9ef8b2ee1618b4bd2
+Section: 插件
+Description: DLEasy 简体中文包(rootless)。
+Name: DLEasy 简体中文包(rootless)
+Author: 妖刀
 
 Package: com.hk.dvirtualhome
 Architecture: iphoneos-arm64e
@@ -27975,6 +28353,38 @@ SHA512: 81e0f2b1f9075bc7e48db0b265ad020e6bb87807d14d46fe8039e88b3cae3e40e2cb4a51
 Section: 插件
 Description: DynamicStage 简体中文包(RootHide)。
 Name: DynamicStage 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.hk.edge2.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.edge2.cn.rl_1.0_iphoneos-arm64.deb
+Size: 1876
+MD5sum: 32b10eb9d3dbd537d5a1e15b5a1bb3ed
+SHA1: 76073b60ba25a3e08ec7fd64c8bcdab1b9ce94c5
+SHA256: 3245d5aecf72751d1deac75be194e7aae7b82477fb62151435866fd474f71ee3
+SHA512: f8e3b3776f11a897dfd419816a792ffed5309d6f72ff1579d3c3dccb63f35a0a5c7a9a7aa58ecddbcf5213a664295c7ebac3d54a8a92646f918b41c66a896495
+Section: 插件
+Description: Edge2 简体中文包(rootless)。一款跑马灯效果的插件，插件源：https://repo.itznebbs.com/。
+Name: Edge2 简体中文包(rootless)
+Author: 妖刀
+
+Package: com.hk.ezswipe.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.1.1
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.ezswipe.cn.rl_1.1.1_iphoneos-arm64.deb
+Size: 1484
+MD5sum: 4b1e97a4814f3740dabb71a22528754c
+SHA1: 710e8070f158c46bf508c48b145696077b5cf0a6
+SHA256: 6d93e3936a3c574f6208c4fb4b9c690d1ed036d91a73f94a83ec9abd7043292b
+SHA512: 2b650fb0acc786450eaeed731d28c69cda3193b0b2edfa72ea14cc0ddc6eea90a7ee052b1b593ea07696bad2c88509707367b0878d8b0362256277666753a88c
+Section: 插件
+Description: EZSwipe 简体中文包(rootless)。
+Name: EZSwipe 简体中文包(rootless)
 Author: 妖刀
 
 Package: com.hk.filza.cn.rl
@@ -28040,6 +28450,39 @@ Section: 插件
 Description: Halo 简体中文包(RootHide)。
 Author: P神
 Name: Halo 简体中文包(RootHide)
+
+Package: com.hk.hsqa.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.6.5
+Maintainer: Mo
+Depends: mobilesubstrate
+Filename: debs/com.hk.hsqa.cn.rl_1.6.5_iphoneos-arm64.deb
+Size: 2528
+MD5sum: 0a6ffa80ac2e6090e12c29655ab52794
+SHA1: 92f0158a6898911c68867d77a58d90cabf3cf59e
+SHA256: b8e5020407d49b1026c4e04da8d43bc5566b34262aee6785309907f63598e2dd
+SHA512: e61814aa9fffb0bc0488528c27a1e86b9486b29e6b34e75530e75ab0f3cfe6616203cabdc6305b25a8b92728cd0e9b62ef8b6d5eb86670069c68c0301958abdd
+Section: 插件
+Description: Home Screen Quick Actions 简体中文包(rootless)。
+Name: Home Screen Quick Actions 简体中文包(rootless)
+Author: Mo
+
+Package: com.hk.intelligentpass5.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.0-1
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.hk.intelligentpass5.cn.rl_1.0-1_iphoneos-arm64.deb
+Size: 6108
+MD5sum: 58a97c7fdc5d02e57b94debef8c7f4b1
+SHA1: ffb9564f747cc60989a759b372e21dda5fd30f1d
+SHA256: 466ae135248768602fc3fd0dbab1b659b3fc9524fe034d489a15ac9984949698
+SHA512: 8b896112a1843682cba982352ad10f95e363bdbff521b9d4c9292d9827c1a951c04fbd3bd9ada9fb82bea14f5bfbb86ee0321bf0d83bdb14360b67d2d0aaae66
+Section: 插件
+Description: IntelligentPass5 简体中文包(rootless)。
+Name: IntelligentPass5 简体中文包(rootless)
+Author: 妖刀
 
 Package: com.hk.jjolano.shadow.cn.rl
 Architecture: iphoneos-arm64
@@ -28123,6 +28566,23 @@ Description: Mochi15 简体中文包(RootHide)。
 Name: Mochi15 简体中文包(RootHide)
 Author: 妖刀
 
+Package: com.hk.nebula.ding
+Architecture: iphoneos-arm64
+Version: 2.0
+Maintainer: Mo
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common (>= 1.17), firmware (>= 13.0)
+Conflicts: me.nebula.ding
+Filename: debs/com.hk.nebula.ding_2.0_iphoneos-arm64.deb
+Size: 25084
+MD5sum: 2fa32c132097582047718bec9a7278b5
+SHA1: 726adbd17981f3cf913b3600a39f91eab9fb0c96
+SHA256: 7a5e705234a9b7da57a31eb7377798c2166f305ade0e03f59afa4ad73e21c3dd
+SHA512: f26b0c8c3b289b4ca260e18bb5e75540a1268c63e42b8156bb97f36be0cbbfd519af8e378fd3f2085f79eae248236b734af64c6e2e8a7a6e45e7fc487441363d
+Section: 插件
+Description: 控制您的铃声开关！
+Name: Ding 汉化版(rootless)
+Author: Mo
+
 Package: com.hk.nfcwriterxs.cn.rl
 Architecture: iphoneos-arm64
 Version: 4.0-1
@@ -28174,6 +28634,23 @@ Name: CCHide++(RootHide)
 Author: 妖刀
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/cchide/js.json
 
+Package: com.hk.rootless.barmoji
+Architecture: iphoneos-arm64
+Version: 2023.3.3
+Maintainer: CP Digital Darkroom
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.cpdigitaldarkroom.barmoji
+Filename: debs/com.hk.rootless.barmoji_2023.3.3_iphoneos-arm64.deb
+Size: 44080
+MD5sum: debffca34bb185cd422341c3910a1a50
+SHA1: 9a3333afcb4a8e2431c994e42ad5d71a8cc9edfb
+SHA256: 12e89f002a0b68f1f61ac1f4c3baa8245946a5ba0cd1fbb4aa42b92fe6bcc0eb
+SHA512: 8cb779137d202dcf0263bb8d9d2ebc137340f9dabaf6f696c8bfbccc3868ee9556d12d4820aa76122bb5b80a76096138863320d9c547945e164c17bf0854f9b4
+Section: 插件
+Description: 基于82的20323.3版Barmoji，Netskao修复支持Fugu15。
+Name: Barmoji(rootless)
+Author: CP Digital Darkroom
+
 Package: com.hk.rootless.cc
 Architecture: iphoneos-arm64
 Version: 2.0.6
@@ -28192,6 +28669,40 @@ Name: CCLess++(rootless)
 Author: 妖刀
 Icon: https://axs66.github.io/pro/icon/CCSettings.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/CCLess/js.json
+
+Package: com.hk.rootless.colorbadges
+Architecture: iphoneos-arm64
+Version: 1.5.0
+Maintainer: David Goldman
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, oldabi
+Filename: debs/com.hk.rootless.colorbadges_1.5.0_iphoneos-arm64.deb
+Size: 61060
+MD5sum: 263cf50ca6b6a296e9934a6416eaa2b6
+SHA1: 4ec31e7d5f6c03b550bf6c41d5e1f2dbef40cb4b
+SHA256: fc6520975c339548e33ce1ef81f9aa8d0a9367706c76c63bd4beb07525263b0a
+SHA512: 73e5c40616bdee365d35beb9c0b5c9181f39dfa033af0a37d28a4f4996c72a4edb3020a02696cb910b5d8e2d7289ad1df234a2b4e25b8e69dbd63775ba1fb03a
+Section: 插件
+Description: ColorBadges彩色角标，刀刀转换支持Fugu15，已带汉化包。安装前确保使用的Fugu15和ElleKit是最新版。提示：毕竟不是插件作者更新支持rootless，可能会出现闪退、卡注销、卡用户空间重启等bug，若出现风险，自行承担！
+Name: ColorBadges(rootless)
+Author: David Goldman
+Sponsor: Hi客源
+
+Package: com.hk.rootless.crane
+Architecture: iphoneos-arm64
+Version: 1.3.14-6
+Maintainer: opa334
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.5), com.opa334.libsandy, com.hk.crane.cn.rl, com.opa334.libundirect (>= 1.1.4) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices, com.opa334.crane
+Filename: debs/com.hk.rootless.crane_1.3.14-6_iphoneos-arm64.deb
+Size: 571396
+MD5sum: eaaf11a64cd26c96da16c08ed42254b0
+SHA1: dbe7320637137c8457237ee2d99a129e005da059
+SHA256: 1212789daebac0db7e281d549629607b4cdea59588f960b3ded13545bbf36a91
+SHA512: 697c225fa1003d69ff5626c138b70df3ed2b3ae543a90e9d9491ec6c57955f9ceb36c383df926d22063243e116199741d427143c1b8e3201b5c5a37ab4be2656
+Section: 插件
+Description: 为应用程序提供多个容器，账号多开神器。
+Author: opa334
+Name: Crane(rootless)
 
 Package: com.hk.rootless.janwechat
 Architecture: iphoneos-arm64
