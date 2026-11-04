@@ -16949,6 +16949,29 @@ Author: A
 Icon: https://axs66.github.io/pro/icon/CCMusicPlayer.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/CCMusicPlayer/js.json
 
+Package: com.Axs.MikotoHelper
+Architecture: iphoneos-arm64
+Version: 1.3.6-1
+Priority: optional
+Essential: no
+Maintainer: Mikoto
+Provides: MikotoHelper
+Depends: mobilesubstrate
+Conflicts: MikotoHelper
+Replaces: MikotoHelper
+Filename: debs/com.Axs.MikotoHelper_1.3.6-1_iphoneos-arm64.deb
+Size: 20604796
+MD5sum: a7ce2317e1a2cbd42553d791d83a5211
+SHA1: 292e0be818b76f2ea3452222d072d1ab32fe4de3
+SHA256: cfdb152dad2978121a90e28afa847996d4a6c1a616407e06e6944a82c24cdf7e
+SHA512: e8d1f6e1a8eabfc0594822364d67dd1888a986bb93cd1d8a4221fe6196c9668cebef2230e2021935e907139d1308c3117975231bddc2e83917f37af8a8e9795e
+Section: 插件
+Description: 多功能微信插件，好友分组，群分组，自动抢红包，自动接收转账，图片套壳等。为Mikoto的免费无需授权的为爱发电版本。功能拓展：转发朋友圈，自动跟圈，布局修改，美化功能，视频套壳等。
+Name: MikotoHelper
+Author: Mikoto
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/MikotoHelper/js.json
+
 Package: com.Axs.SwitchPro
 Architecture: iphoneos-arm64
 Version: 1.0.1
