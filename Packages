@@ -17854,6 +17854,25 @@ Author: dvntm
 Icon: https://axs66.github.io/pro/icon/cc18s.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/cc18s/js.json
 
+Package: com.Axs.ccaudioplay
+Architecture: iphoneos-arm64
+Version: 0.0.1-94+debug
+Maintainer: Axs
+Installed-Size: 29540
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.ccaudioplay_0.0.1-94_debug_iphoneos-arm64.deb
+Size: 25090852
+MD5sum: 6173a6c3780916fff1a046077ba38e14
+SHA1: 54d7c3fe28c733a900adff57dca21145d56383c0
+SHA256: ce49c801fbd504679d3797daa65af198abdae1067dc8631395d5de3f2e7e2d07
+SHA512: b8d4de6871e07e2d83e261b0f1a195cfb1a7e80e7bb176b8e84181689e30d8857355c64da1b384b8971e6f63859ecf96b89713f972549f53018d8f5f1f26c341
+Section: 插件
+Description: 播放器美化 不支IOS15
+Name: CCAudioPlay控制中心播放器
+Author: thefool
+Icon: https://axs66.github.io/pro/icon/ccaudioplay.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ccaudioplay/js.json
+
 Package: com.Axs.ccbadgeclear
 Architecture: iphoneos-arm64
 Version: 1.2-6
@@ -25049,6 +25068,24 @@ Section: 插件
 Description: ACTikTok 简体中文包(rootless)。
 Name: ACTikTok 简体中文包(RootHide)
 Author: 妖刀
+
+Package: com.dao.appprotect
+Architecture: iphoneos-arm64e
+Version: 2.4.9
+Maintainer: aReo
+Depends: mobilesubstrate,preferenceloader
+Conflicts: com.flex2areo.appprotect, com.flex2areo.appprotectroothide, com.flex2areo.appprotectrootless, com.dao.appprotectrootless, com.dao.appprotectroothide
+Filename: debs/com.dao.appprotect_2.4.9_iphoneos-arm64e.deb
+Size: 708104
+MD5sum: df9ae3378a47732e0480a7d35b5f0b53
+SHA1: 5690570680ff727e8f74f492ba6787dbb5b14738
+SHA256: 12af3d2175363cf1d1d961475924e6ba6d7a5c1d6f54f6069b0a3bed246f446e
+SHA512: 0231db1c6acb4742aacf68ec98fd96dbfa9817574585cce4c68e76b7c531c5d9ba8e8268c110898f6cae4abecca5e4a5b92e3bc1ffcb91f02c21180db5089be2
+Section: 插件
+Description: 一款强大的App隐私保护插件，系付费插件，自行购买。
+Name: AppProtect 隐私保护(RootHide)
+Author: aReo
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/appprotect/js.json
 
 Package: com.dao.hidenumber.cns
 Architecture: iphoneos-arm64
