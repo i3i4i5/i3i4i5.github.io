@@ -25138,6 +25138,23 @@ Description: 不可思议的简约控制中心，源内有汉化包。
 Name: Akara(rootless)
 Author: Tr1Fecta & Kennyroo
 
+Package: com.dao.appdata
+Architecture: iphoneos-arm64
+Version: 1.4.7
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdata, netskao.appdata-rootless
+Filename: debs/com.dao.appdata_1.4.7_iphoneos-arm64.deb
+Size: 1498336
+MD5sum: 3be0b069834ed7c9ecbf7951a909bef7
+SHA1: 3b20a321f145a6d6a1bdf718b8f1e865ff8b7667
+SHA256: 65713153e38a6ca834f3a13f3c375f8ab7ab88cd28026c0ed59c025e11155eb7
+SHA512: 9359a7c54b3617da19d16dbe69e59e6039019b053d4e5895bf1a00fd29d7d49d77b36687935f6b9dcac1c6166f0095813c06e8bae0349d2b7af9e128724d87d2
+Section: 插件
+Description: 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标应用数据的快捷工具。Netskao新更的版本，上架备份。
+Name: AppData(rootless)
+Author: Fouad Raheb
+
 Package: com.dao.appprotect
 Architecture: iphoneos-arm64e
 Version: 2.4.9
