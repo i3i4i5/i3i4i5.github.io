@@ -26782,6 +26782,30 @@ Author: iCraze
 icon: https://TrollStoreX.Github.io/sileodepiction/SmallBoard/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/SmallBoard/js.json
 
+Package: com.iface360.pandabeautyloader
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Maintainer: Axs
+Installed-Size: 48820
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iface360.pandabeautyloader_1.2.0_iphoneos-arm64.deb
+Size: 20660296
+MD5sum: 4ba2be08be7c67db98fd86d84952843b
+SHA1: 4ea1a047cb0593313e8cec6b49950e3f1d9f77a6
+SHA256: e5eb3c70015a9bb384dd6d0246aa410f505431f10553156616ce470b9f016c54
+SHA512: 5516cfa6feac8f55d7be2c60a54066e8d01b2b14212c4b2ddfcc4e29f454d0ef2fcf3d303fb545d3c39800ccf29e950b3beb6618262195add9a08233a1086caf
+Homepage: Axs
+Section: 插件
+Description: 将视频美容效果添加到应用程序中！
+Tag: purpose::extension
+Author: FinalStreamer
+Name: Panda Beauty Assistant(熊猫美颜助手)
+Depiction: Axs
+Sponsor: thebigboss.org
+dev: finalstreamer
+Icon: https://axs66.github.io/pro/icon/pandabeautyloader.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/pandabeautyloader/js.json
+
 Package: com.immortalizer.zh-Hans
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -27032,6 +27056,24 @@ Author: iosrxwy
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.iosrxwy.heiheipay
+Architecture: iphoneos-arm64
+Version: 0.1-1
+Priority: optional
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.iosrxwy.heiheipay_0.1-1_iphoneos-arm64.deb
+Size: 106456
+MD5sum: 2582d482425a5f5299c5c66771f9cad6
+SHA1: bb21a1a75522aefec5b011c40811d44fe3e6700b
+SHA256: 5f6f531b0819cd23ad4c3f453b3ac17cf8f37900dba6b77740012fb4b2f38573
+SHA512: 51e5e43e0c8e8787690a19d11f751fc5791328733d526b56e531b65799b7c318db996c649ad6439e8866829b9728859d1e425ede6bdf0eab499714d970fea2d6
+Section: 插件
+Description: iOS内购插件，适用于小部分本地验证应用,若无效可点击购买后取消。
+Name: heiheipay
+Author: iosrxwy
+Icon: https://axs66.github.io/pro/icon/LockScreen.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: com.iosrxwy.vvebofix
 Architecture: iphoneos-arm64
 Version: 1.0.1
@@ -27226,6 +27268,23 @@ Icon: https://eleveny123.github.io/EvoCenter/assets/icon.png
 Depiction: https://eleveny123.github.io/EvoCenter/
 SileoDepiction: https://eleveny123.github.io/EvoCenter/native.json?v=4.0.0-beta.2
 
+Package: com.jd4iphone
+Architecture: iphoneos-arm64
+Version: 1.3
+Maintainer: M哥
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.jd4iphone_1.3_iphoneos-arm64.deb
+Size: 5468
+MD5sum: 9391f5dcbdfa334f41cca13dd19ab266
+SHA1: c623f3e2d39ae18ae1ef495c3e14fac4f695bfbe
+SHA256: 5d69409e88afcae084894d75bcabfe69046bd9433fdb1b6d8cf08b6e41e5700d
+SHA512: ddcbdd1cb8f0c85bfd10b3a6325c68068d53497769513655ab030ace40de8b475e8380ae06d8865320a169a0f36b7988d4db2e872be38686f8f131a2b02d4d0b
+Section: 插件
+Description: 京东去广告+精简
+Name: 京东（去广告+精简）
+Author: M哥
+
 Package: com.jibamao.gaodeclean
 Architecture: iphoneos-arm64
 Version: 0.9.98
@@ -27360,6 +27419,44 @@ Name: Adytum
 Icon: https://img.chariz.cloud/icon/adytum/icon@3x.png
 Depiction: https://chariz.com/get/adytum
 
+Package: com.ketty.meowtimemachine
+Architecture: iphoneos-arm64
+Version: 0.0.1-106+debug
+Maintainer: 预言小猫
+Installed-Size: 6912
+Depends: firmware (>= 14.0)
+Filename: debs/com.ketty.meowtimemachine_0.0.1-106_debug_iphoneos-arm64.deb
+Size: 2322836
+MD5sum: d009dc7b02f7bca5017d791cccea9976
+SHA1: 5779303ebe6d8f2163253c7b613923238a5d0bca
+SHA256: 82fde08537f9960bc3b1d6c0ff379f4535a178564325ae7f1a9619d0a49a7a69
+SHA512: 80492e4c67429ba625603b56e650fa0e26f28471580aaac16d3b96e9c06f8717f12bca0ed87b60d4e58cc10849c23f8c732871c8e57f7427d28b4d4d4635a9ab
+Section: 插件
+Description: An awesome SwiftUI application!
+Name: MeowTimeMachine插件备份(含配置)
+Author: 预言小猫
+Icon: https://axs66.github.io/pro/icon/meowtimemachine.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/meowtimemachine/js.json
+
+Package: com.ketty.tweaktool
+Architecture: iphoneos-arm64
+Version: 0.0.1-252+debug
+Maintainer: Ketty Allen
+Installed-Size: 452
+Depends: firmware (>= 14.0)
+Filename: debs/com.ketty.tweaktool_0.0.1-252_debug_iphoneos-arm64.deb
+Size: 362584
+MD5sum: c02922004f9d8a66bf07c9334e2d0593
+SHA1: 8b9fa5905c240f85d317298e60a07492e9d290fb
+SHA256: 6576d2eb73dea2ab7a8bec40b916e4d6f92107c219f0e2ece8c651d828499a1b
+SHA512: 2bf5df214f76b562391f4eaea0703d50eba3e129e60685aae29977167c8b9b9d7bcd85ea5f7afba2fcfc3d642074a5fe0f005093dcb6f84728ba8a1e6c4e4494
+Section: 插件
+Description: An awesome SwiftUI application!
+Name: TweakTool
+Author: Ketty Allen
+Icon: https://axs66.github.io/pro/icon/TweakTool.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/tweaktool/js.json
+
 Package: com.kingpuffdaddi.control-center.ccvpn.surge
 Architecture: iphoneos-arm64
 Version: 1.0.6
@@ -27422,6 +27519,24 @@ Description: 去除录屏延迟，并可实时配置控制中心收起行为
 Name: 去除录屏延迟
 Author: LaYii
 icon: https://huayuarc.github.io/icon/luzhi.jpg
+
+Package: com.lclrc.hammerit
+Architecture: iphoneos-arm64
+Version: 1.7.1
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64.deb
+Size: 977980
+MD5sum: b4947ce9d7641779da10ae35cdc3f9cd
+SHA1: fa81f24f85f93e3a40e6c266d3e6709e279ba061
+SHA256: 47ad012cd3c299b27cac3fce18cbd48a5e487e85bdfadada1b798102edff07cc
+SHA512: 7be9235eb30e4dc70b0c9b7d8f3cbd5c5d1342e757e3a6b37ecb8ebfa80697aa791d854a7c4e7cf5750fa6e5697f9a75de34c183d9cdb96646a508ffdef65ead
+Section: 插件
+Description: Control your text or translate as you wish.
+Name: Hammer It
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 
 Package: com.lclrc.hammerits
 Architecture: iphoneos-arm64e
@@ -27507,6 +27622,25 @@ Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/passbycc.html
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/PassbyCC/js.json
 icon: https://TrollStoreX.Github.io/sileodepiction/PassbyCC/icon.png
+
+Package: com.lenglengyu.shortvideodl-rootless
+Architecture: iphoneos-arm64
+Version: 2.1.5K
+Maintainer: lenglengyu
+Installed-Size: 3752
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.lenglengyu.shortvideodl-rootless_2.1.5K_iphoneos-arm64.deb
+Size: 991128
+MD5sum: 070f73fdfa8d66a02afc2ac6ed9ad086
+SHA1: b9e142a29a53eadf08015b7e803c12a88eab4cb8
+SHA256: 0f64989cf067df257b0786f41cd645a1423d609c775608f3509a7d164b259571
+SHA512: e8b8f069376e44ace3290ad03f43f567f5b4a8333d5d51339f5645c646b1a9fd8294df2d17f93c0b411889773c682b1343f96f8f10f5ea0646de3ecdfc927883
+Section: 插件
+Description: 支持抖音、快手、微信、小红书等无水印下载。支持微信公众号、视频号视频下载。很简单方便。插件设置在系统设置开启！另外抖音可以单指双击视频然后点其他功能那个进入设置，非常的强大！小红书打开设置的方式为长按视频打开！支持小红书去广告！
+Name: 短视频助手
+Author: lenglengyu
+Icon: https://axs66.github.io/pro/icon/shortvideodl.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/shortvideodl/js.json
 
 Package: com.lenglengyu.shortvideodl-rootlesss
 Architecture: iphoneos-arm64
@@ -28387,6 +28521,32 @@ Name: LibGcUniversal
 Author: MrGcGamer
 icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/LibGcUniversal.png
 
+Package: com.mtac.vitreux
+Architecture: iphoneos-arm64
+Version: 1.4
+Maintainer: Axs
+Installed-Size: 7028
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: debs/com.mtac.vitreux_1.4_iphoneos-arm64.deb
+Size: 121272
+MD5sum: 96e0d7f2b034d05e7782757a1d6a8f6f
+SHA1: da28620487819b155951c2b1bd436d7ae6e72055
+SHA256: 9920f60bd851c044130066f297f7277bf8d98f8980437d7c27e103bc84e601fa
+SHA512: c3177c70c2d089c8ab92753c00332669c389f8a8c5bc9b9d09566bd8333b5159e1ba1567ffa4f9f351cad67ae1efcb0272a53bc253545fb8f145fd063858a90b
+Section: 插件
+Description:
+ A recreation of Liquid Glass
+   * 1.主打 iOS 26 系统液态玻璃设计。
+   * 2.让旧系统体验液态玻璃风格。
+   * 3.目前版本，效果主要体现在锁屏、主屏、控制中心、通知、App 资源库、小组件等。
+   * 4.自定义选项丰富。可以自定义模糊设置等。
+   * 5.目前仅仅支持 SpringBoard 范围。
+   * 6.支持 iOS 15.x - 16.x 系统。
+Name: Vitreux 液态玻璃
+Author: MTAC
+Icon: https://axs66.github.io/pro/icon/vitreux.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/vitreux/js.json
+
 Package: com.mumu.wcgg
 Architecture: iphoneos-arm64
 Version: 0.2.0
@@ -28502,6 +28662,25 @@ Author: Muzi
 Icon: https://muzikeji.github.io/sileo/icons/mutool.png
 SileoDepiction: https://muzikeji.github.io/sileo/depictions/com.muzi.mutool.json
 
+Package: com.nahtedetihw.airpodscompanion
+Architecture: iphoneos-arm64
+Version: 1.5
+Maintainer: Ethan Whited
+Installed-Size: 10704
+Depends: preferenceloader
+Filename: debs/com.nahtedetihw.airpodscompanion_1.5_iphoneos-arm64.deb
+Size: 10269144
+MD5sum: d9db3a42025fc63dd09806f2bb6ac80c
+SHA1: bd87c1a007f8e76a42e70364b40f3822d028736e
+SHA256: db16ee7539f2fe5968161ac2c56d75b3bb28ba04327dcb3859fce365ebae066e
+SHA512: de54fb47f3e39d0c358ee62e8ad3d392926533a076ae3231fab1aff6111d5e7a66652664aeb02f0651f1ae2ce13f9b4754abb921f8f59bfc05be03bfdcb2aa84
+Section: 插件
+Description: Floating Noise Cancellation control next to volume slider
+Name: AirpodsCompanion
+Author: Ethan Whited
+Icon: https://axs66.github.io/pro/icon/AirPods2Pro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: com.nan.deb
 Architecture: iphoneos-arm64
 Version: 0.3.0
@@ -28554,6 +28733,24 @@ Name: dpkg-fill修复sileo报错-Rootless
 Author: zhaonan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.nan.givemedeb
+Architecture: iphoneos-arm64
+Version: 0.3.1
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: debs/com.nan.givemedeb_0.3.1_iphoneos-arm64.deb
+Size: 2220
+MD5sum: 1dc16ff3c0766a8b2155987e4980a2b9
+SHA1: 764a0cb39e2f2900abf6a6da1915e0030b49e483
+SHA256: 29a8acd24bcb17d40163c9f65ba29849f24c1e5b40f3ab1ce71f6d39a49a9765
+SHA512: c83419f1933fedd9c3a304eae7d290f8db40ac25d2bb4e091b5d42e122b1c6a32fde77968aad9dbaef3c6978bb8e557b374a446de2ad26fc0c6667f20caf9a82
+Section: 插件
+Description: 尝试保存 apt 缓存目录下所有 deb
+Name: Give me deb
+Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+Icon: https://axs66.github.io/pro/icon/givemedeb.png
 
 Package: com.nathan.dynamicnotlands
 Architecture: iphoneos-arm64
@@ -28797,6 +28994,25 @@ Author: Netskao
 icon: https://TrollStoreX.Github.io/sileodepiction/AwemeVideoTime/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeVideoTime/js.json
 
+Package: com.netskao.dumpdecrypter
+Architecture: iphoneos-arm64
+Version: 1.5-1
+Maintainer: Nets
+Installed-Size: 952
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.netskao.dumpdecrypter_1.5-1_iphoneos-arm64.deb
+Size: 393796
+MD5sum: ece7a7053a42329f549759bca42eb901
+SHA1: 654e1505aa6e3c4d23b2967918e2ab26876e1f62
+SHA256: 9fba2f5e5d9f2cf941c7b04b61ffc041fc2874eddb817fd66fa09da36b9b69c8
+SHA512: 5c6bde7237df22f6276ee26d4ce4e15d6f0da426d42f41cc23c8c47f884da591354fa632c24b23367088cf4f9b32bde3681523f1529a3f25f6476fe12f0cdf4d
+Section: 插件
+Description: Decrypt iOS Apps and Plugins, Supports iOS15+, Only Tested iOS16.1
+Name: DumpDecrypter
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/dumpdecrypter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/dumpdecrypter/js.json
+
 Package: com.netskao.dumpdecrypters
 Architecture: iphoneos-arm64
 Version: 1.5-1
@@ -28841,6 +29057,45 @@ Author: Netskao
 Icon: https://TrollStoreX.Github.io/sileodepiction/ImgPlay/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ImgPlay/js.json
 
+Package: com.netskao.injectipa
+Architecture: iphoneos-arm64
+Version: 1.5-7
+Maintainer: Nets
+Installed-Size: 1064
+Depends: firmware (>= 14.0)
+Filename: debs/com.netskao.injectipa_1.5-7_iphoneos-arm64.deb
+Size: 416852
+MD5sum: abcf84e9b10400f7de050f90e038d942
+SHA1: fda02413fb07bf587cd9f9da2e38cefd2bf6f511
+SHA256: c21b7c0df58bbd9b4a9a842db1cc9659bb9ec765af9d04c415c9a25b41adce89
+SHA512: e607bc287f6237d0499aea9e0ec45ab838054a4631747a49f88c319dd3268e612c378eeea0a515aa64d6b6f32847943191063e7dffee00d9f4ef890f798d2dbb
+Section: 插件
+Description: InjectIPA Tool
+Name: injectipa注入器
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/injectipa.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/injectipa/js.json
+
+Package: com.netskao.pulloverpro
+Architecture: iphoneos-arm64
+Version: 2.1.6
+Maintainer: Nets
+Installed-Size: 2440
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.c1d3r.pulloverpro
+Filename: debs/com.netskao.pulloverpro_2.1.6_iphoneos-arm64.deb
+Size: 696376
+MD5sum: 95b6be709c2b9ef51315090111be2b13
+SHA1: dc58d060f7dd0f1d0ca5f20a394acc2b192a88f2
+SHA256: 7da75e11a42babd4262fbaac6fd0f2d5a8ad6e42cc28e6bd6ca45c409503c883
+SHA512: 7f945d7ccbfce90b20f8972ccd81af6f6ad46f10fb99ed6177db4b0366251f2ab28700b505bf76b8cd405824a31515f5663bbba42c4f2964052f1a3a8fd7e5bf
+Section: 插件
+Description: A better way to multitask! Fix support for iOS15+
+Name: PullOver Pro
+Author: c1d3r
+Icon: https://axs66.github.io/pro/icon/PullOverPro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: com.netskao.qqipadmodelogins
 Architecture: iphoneos-arm64
 Version: 1.1-1
@@ -28880,6 +29135,44 @@ Name: QQNotiAvatar QQ头像
 Author: Netskao
 icon: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/qq.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/jss.json
+
+Package: com.netskao.showtouch
+Architecture: iphoneos-arm64
+Version: 1.0.4-3
+Maintainer: Nets
+Installed-Size: 1432
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.netskao.showtouch_1.0.4-3_iphoneos-arm64.deb
+Size: 376048
+MD5sum: 8c55b7c945f6d6b07a75c4f214904178
+SHA1: 389efc29fc1595188d49bd2a656f8c546fbf34c4
+SHA256: 4170648e279cb2e99b84bfc8684ac3102de85397e07ba097b861303ecba60dc0
+SHA512: 7ffcb9364a06259df16e797b0bb76c54a230c82e7e72ac1461c5f92122144a81537da01f89f953c669946ed7fc2a07695123178646b5ddd1a6a871a7d3099919
+Section: 插件
+Description: Shows where you touch the screen
+Name: ShowTouch
+Author: LonestarX
+Icon: https://axs66.github.io/pro/icon/ShowTouch.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.netskao.storeswitchaccounts
+Architecture: iphoneos-arm64
+Version: 1.1-4
+Maintainer: Netskao
+Installed-Size: 460
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.netskao.storeswitchaccounts_1.1-4_iphoneos-arm64.deb
+Size: 102316
+MD5sum: 9c40a8b76ea6e109d650ddb87efcc42d
+SHA1: fae2393b552b71119c90c7deb5233c7d21e5ee87
+SHA256: 64df62bed1d65b4265137e01056a0d70f1cd69763c98e887b4221995421515f8
+SHA512: 67d0af62ef55d23fdc3cebaef854dda8fb6a44472276aa482721cc4bd60bfcad0ad6cba23e7ed03b0cf073a698bf15ecc2e5bd7e8683f9f82945ca698160efa0
+Section: 插件
+Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
+Author: Netskao
+Name: StoreSwitchAccounts苹果商店账号切换
+Icon: https://axs66.github.io/pro/icon/appstore.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
 Package: com.netskao.swiftgramcracks
 Architecture: iphoneos-arm64
@@ -29137,6 +29430,25 @@ Author: Netskao
 icon: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WeChatNotiAvatar/js.json
 
+Package: com.netskao.wechatuiswitchloader
+Architecture: iphoneos-arm64
+Version: 1.1-4
+Maintainer: Nets
+Installed-Size: 320
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: debs/com.netskao.wechatuiswitchloader_1.1-4_iphoneos-arm64.deb
+Size: 121056
+MD5sum: c4cbc1068ba037b05b21e07fc4c43e21
+SHA1: c28fe6bec277697682decf6619d8e656d93c21d5
+SHA256: 87896e56a27b40e3b2779e65665173259c09f0b8d645de2806aaad0b1cf4e59d
+SHA512: 3759adaf24633a2e61ffebdfe620a9d3d8ed03f809b62b0654dad91f34ab9e512fb620e5cdbe9a9f8330a6af13ce1f0432a9972573104c6aad7ccd6a54c89511
+Section: 插件
+Description: WeChat UISwitch Loader
+Name: WeChatUISwitchLoader
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/wechat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: com.netskao.wechatuiswitchloaders
 Architecture: iphoneos-arm64
 Version: 1.1-5
@@ -29380,6 +29692,25 @@ Name: 逆无止境图层 1aaa3
 Author: 逆无止境
 icon: https://TrollStoreX.Github.io/sileodepiction/1aa2/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/1aa2/js.json
+
+Package: com.nx.appcardlite
+Architecture: iphoneos-arm64
+Version: 3.3.3-END
+Maintainer: Crassna
+Installed-Size: 1948
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
+Filename: debs/com.nx.appcardlite_3.3.3-END_iphoneos-arm64.deb
+Size: 409128
+MD5sum: 5eb09772dceba5336e6eb3216dd13e93
+SHA1: f3daecb3a85aa76155424a473f6f378086555305
+SHA256: cf82af154bc2dbb80da5f3382d3cbe7793d65fdff528f61af0ef2d6e84dc92c8
+SHA512: dfa8742cb98f1559269a9dc368bb50600d346a74d068ee48cbbdc6dde2482371326d146cefffe4c9cb6fe098fb2c451d211a5b82b8886633140a3caf59145b44
+Section: 插件
+Description: Jailbrea!
+Name: App Lecard 分屏插件
+Author: Crassna
+Icon: https://axs66.github.io/pro/icon/applecard.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/applecard/js.json
 
 Package: com.nx.stheno
 Architecture: iphoneos-arm64
@@ -29681,6 +30012,22 @@ Description: Spinlock timeout with ease!
 Name: TimeBomb
 Author: opa334
 
+Package: com.opa334.trollstorehelper
+Architecture: iphoneos-arm64
+Version: 2.1
+Maintainer: opa334
+Installed-Size: 4400
+Filename: debs/com.opa334.trollstorehelper_2.1_iphoneos-arm64.deb
+Size: 1920336
+MD5sum: da66077445be5f2399cdee1b21255916
+SHA1: 7302a5aca35a627890a544ea4349ede078b332ec
+SHA256: 2c644f6e85d4032fa58e88948dba043d68433847380d86b71902ae71dfe86faf
+SHA512: 59f8c8a8cee94e453efbb6eb4b1ebf2baa2c964cb7cca94f71cc62287e50b1aad7a5d0e4312ffaffa26f481b6f0994f6957949b06df3b0b0756225c28132c657
+Section: 插件
+Description: Helper utility to install and manage TrollStore!
+Name: TrollStore Helper
+Author: opa334
+
 Package: com.opa334.trollstorelite
 Architecture: iphoneos-arm64
 Version: 2.1.1-2
@@ -29836,6 +30183,26 @@ Name: 微信虚拟视频-Rootless
 Author: pingfan
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.pkgfiles.harlemshakereborn
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: Axs
+Installed-Size: 2161
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: debs/com.pkgfiles.harlemshakereborn_1.0_iphoneos-arm64.deb
+Size: 1880524
+MD5sum: d5f6ef73d6796330abaef2519b8e9099
+SHA1: ad8ceea77809b9ba3bd30675c357e038b8bc63cb
+SHA256: 475a31841cb47557a0a96b3355f07e4737246ccc64c1ca26720dbe8698d8e79c
+SHA512: bb35e5975c12ab81522945528b58ad1ca8bf5665898a1e66b6fbae3bb16773dbf60e55e93dfac5b9c44d2d675e1dfac88600bae7e0fc32ef62352b98149a0cc1
+Section: 插件
+Description: 老插件重生版，完全免费，摇晃手机，播放音乐，图标跟随舞动，为 iPhone 带来新鲜活泼的活力。
+Name: HarlemShake桌面图标舞动
+Author: pkgFiles
+Icon: https://axs66.github.io/pro/icon/harlemshakereborn.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/harlemshakereborn/js.json
+Depiction: https://axs66.github.io/pro
 
 Package: com.promotion.120hz
 Architecture: iphoneos-arm64
@@ -30231,6 +30598,27 @@ Section: 插件
 Description: A modified iOS mediaserverd hook to serve snapshots of current audio buffer via TCP/IP
 Name: AudioSnapshotServer-依赖
 Author: Ryan Nair and Nepeta <ryannairtweaks@gmail.com>
+
+Package: com.ryannair05.cask3
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Maintainer: Ryan Nair <ryannairtweaks@gmail.com>
+Installed-Size: 862
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Replaces: com.ryannair05.cask2
+Filename: debs/com.ryannair05.cask3_1.0.2_iphoneos-arm64.deb
+Size: 321568
+MD5sum: 546fff5024c3001ff16e2f3bccb8191f
+SHA1: 0a7f077c7bd7a86b93c0685ddd15a273a459a412
+SHA256: e43a697df7ace2ca007c1051d8d355063a836c8fb5cc3766f4bab126858b8a26
+SHA512: abf7d0099627149b44f9775901be8df073824a914c4e0f66d5c32ae2a7a9d4c4acb9f04caa36be98da19f84b5e86908bdf23bdf871b7465e8cd2ef434af687c5
+Section: 插件
+Description: Animated table scrolling
+Tag: compatible_min::ios14.0
+Author: Ryan Nair <ryannairtweaks@gmail.com>
+Name: Cask 3
+Depiction: https://chariz.com/get/cask-3
+Icon: https://img.chariz.cloud/icon/cask-3/icon@3x.png
 
 Package: com.ryannair05.cylinders
 Architecture: iphoneos-arm64
