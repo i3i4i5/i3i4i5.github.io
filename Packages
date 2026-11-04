@@ -14975,23 +14975,6 @@ Description: This tweak makes ControlCenter cool! Compatible with iOS 15/roothid
 Name: CoolCC Reborn-roothide
 Author: alias20
 
-Package: cn.llld.customizeccrootful
-Architecture:
-Version: 1.2
-Maintainer: 来了老弟
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/cn.llld.customizeccrootful_1.2_iphoneos-arm64.deb
-Size: 12170
-MD5sum: ac3e9631a41cfa632210c24f15166a0b
-SHA1: 455650fca703607238da625eea6e0735ef98b0de
-SHA256: d94bf330f9cc26305a5c28b08a305271aa4bed2db9057f3188b98efd62ef204a
-SHA512: e294037eb4af131bdea014462bb6619a847f96d15e5f783bdb422badb5bc3a3a1149eb6f64a498e8b603fb17d627903021cf7e851838e2bf9331d81f3aee220c
-Section: 插件
-Description: CustomizeCC汉化-rootful
-Name: CustomizeCC汉化-rootful
-Author: 来了老弟
-
 Package: cn.llld.customizeccroothide
 Architecture: iphoneos-arm64e
 Version: 1.22
@@ -25117,6 +25100,44 @@ Description: ACTikTok 简体中文包(rootless)。
 Name: ACTikTok 简体中文包(RootHide)
 Author: 妖刀
 
+Package: com.dao.afc2
+Architecture: iphoneos-arm64
+Version: 1.1.7-1
+Maintainer: Cannathea <csupport@cannathea.com>
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, firmware (>= 11.0), ldid | firmware (>= 15.0)
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2, com.cannathea.afc2d-arm64, com.82skao.afc2d-arm64
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: debs/com.dao.afc2_1.1.7-1_iphoneos-arm64.deb
+Size: 11568
+MD5sum: e0bb3f795412279fab6f33292b3ee8ec
+SHA1: 74c9e8e2f69d7535f4bc2d2f0bd19b8e72dc92b5
+SHA256: 79d0dd8cb1ddc2cf16f83f838f67aa75c00c167677a5f5aff7edd0c88987268c
+SHA512: 8cea0b648f5494f642814e9d00a875b745e2ceee95dabbbde358648e71d7e24fc7592144ffed976c6b25c6e218facfce78d5332c8d36487a0fbd0453b289d758
+Section: 插件
+Description: 允许设备通过USB访问完整的文件系统，对iOS 11及更高版本的设备特别有用。神秘大佬修复支持rootless，神秘版本适合某些越狱。
+Tag: purpose::daemon, role::enduser
+Name: AFC2(rootless)
+Author: saurik, Cannathea <csupport@cannathea.com>
+
+Package: com.dao.akara
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Maintainer: Tr1Fecta & Kennyroo
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.muirey03.libimagepicker, firmware (>= 15.0), com.hk.akara.cn.rl
+Conflicts: xyz.cypwn.akara
+Filename: debs/com.dao.akara_2.0.0_iphoneos-arm64.deb
+Size: 612176
+MD5sum: 0b2b8d2a6e86353ccb8f0a4b2ffab96c
+SHA1: fd5a59c725b7a3da15001d990d543943ff1d4d0c
+SHA256: 5cb129e2b44d26a9c305bf18b631c1fad9e1953d164d2d7a535db1283b1a0d74
+SHA512: 0767f98bb326e8728a3cc8811afbeece695d40a8b5c83286e23953bbcb31edb3c0c3cf515ad16d63b31e2d2d2139ecd861695e67c0326df874f1c07bfb7da1be
+Section: 插件
+Description: 不可思议的简约控制中心，源内有汉化包。
+Name: Akara(rootless)
+Author: Tr1Fecta & Kennyroo
+
 Package: com.dao.appprotect
 Architecture: iphoneos-arm64e
 Version: 2.4.9
@@ -25872,6 +25893,24 @@ Description: NeoFreeBird 推特增强插件。
 Name: NeoFreeBird(RootHide)
 Author: NeoFreeBird
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/nfb/js.json
+
+Package: com.dao.ngc
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Maintainer: 0xkuj
+Installed-Size: 432
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.0xkuj.notificationsgroupcount
+Filename: debs/com.dao.ngc_1.0.6_iphoneos-arm64e.deb
+Size: 32744
+MD5sum: 90ae4efd7c01dadb935590ac866bb471
+SHA1: 7dc4c0425b7dbf86b772615250ab21b46fdcb521
+SHA256: 02d6f1bbc006dd00d0da0d427784a9a06f2b5757dfdbe4ea204622c444975dbf
+SHA512: 8354bab1ca2a3bc7f32dc1284dbb5f28e9fdf0cf278f761cf6bc5f8ca1fd4f00171ca659e71563920bbe7b67539c0f18a6b6d146f1b1e22833ffab1ed524cf23
+Section: 插件
+Description: NotificationsGroupCount：仿 iOS18.1，在锁屏通知堆栈中添加角标，显示组内的通知计数；根据开源编译并汉化。
+Name: 通知组计数(RootHide)
+Author: 0xkuj
 
 Package: com.dao.noline
 Architecture: iphoneos-arm64e
@@ -27691,6 +27730,22 @@ Name: 黄白助手
 Author: HuangBai
 icon: https://TrollStoreX.Github.io/sileodepiction/HB/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/
+
+Package: com.hk.afont.cn.rl
+Architecture: iphoneos-arm64
+Version: 1.9.3
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.afont.cn.rl_1.9.3_iphoneos-arm64.deb
+Size: 2568
+MD5sum: f6aec4cbce0f5d8bf6c92548bd0b53dd
+SHA1: 89411bc2ae4f18595f04aaf1a44004152fe87a5b
+SHA256: 3d6253148643ebcac83f190021c84c19f297c982c8cbbb24f81626cfafc3ef3c
+SHA512: 031c4edb18c404cb221abb0a884482cebed98e42cc6d153f968c7fab9c48df0b63fa691d88e2444e25ac0e9b40b02e7d09247a67742d9127b0eb4f3606218165
+Section: 插件
+Description: A-Font 简体中文包(rootless)。
+Name: A-Font 简体中文包(rootless)
+Author: 妖刀
 
 Package: com.hk.akara.cn.rl
 Architecture: iphoneos-arm64e
