@@ -25448,6 +25448,22 @@ Name: CoolCC Reborn(RootHide)
 Author: alias20
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/coolcc/js.json
 
+Package: com.dao.disablepastealert16
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: SquidForce
+Conflicts: com.squidforce.disablepastealert16
+Filename: debs/com.dao.disablepastealert16_1.0_iphoneos-arm64e.deb
+Size: 3972
+MD5sum: 0ba158da1f62e6f72a73af9c7ed8b586
+SHA1: ca11b4010e136099031b0e82fca5c4d0c8bc67b7
+SHA256: d8d4d196a4e334504c7a9453b8929dc3093bf16892b3b237bfbf9a4c3a4c73d1
+SHA512: 4045a1e9cc3ecc05fcc545722e424a8cbf3220252732afe352f2e7fdd2c67b65297b7ada88f7daed09ce3ee5e15c29a6e1f08abb1158cf7ce23d2911b5730661
+Section: 插件
+Description: 禁用iOS16+粘贴警告弹窗和粘贴提醒，并自动允许。
+Name: NPA16(RootHide)
+Author: SquidForce
+
 Package: com.dao.dockx
 Architecture: iphoneos-arm64e
 Version: 2.6.2
@@ -25500,6 +25516,27 @@ Section: 插件
 Description: 桌面图标通知角标变为图标下方的彩色横条，自适应颜色；基于刀刀源的 Donut、BadgeBar 显示效果，并向所有贡献者致谢。
 Name: Donut-bar(RootHide)
 Author: 文武
+
+Package: com.dao.fontmanager
+Architecture: iphoneos-arm64e
+Version: 0.3.7
+Maintainer: Hmmzzz
+Installed-Size: 2512
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt, com.hmmzzz.fontmanager
+Filename: debs/com.dao.fontmanager_0.3.7_iphoneos-arm64e.deb
+Size: 493844
+MD5sum: 26afe6fa736250566e9a27ff7bf8a633
+SHA1: d24167ca28ef83346c3d57bea5ac611ddefb3c39
+SHA256: b9142e1d31c6363619743a8a806771fc7516eb09eb171312ee2c46d34621eac1
+SHA512: 8820fbd51e5797d059cfce24702a50b66d7ed95ffc1a4653dbccd3f593a4a8101f98f857fc463faec4986a309fb606e1faab49e46510e646f21ea6ee6c4663a5
+Homepage: https://hmmzzz.github.io/repo/
+Section: 插件
+Description: iOS 16+ 全局字体管理器，支持导入 ZIP、TTF、TTC 和 OTF 字体，MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。创建并切换多套字体方案，可以随时恢复系统默认字体。
+Name: MarkFont(RootHide)
+Author: Hmmzzz
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
 
 Package: com.dao.gesturesxv
 Architecture: iphoneos-arm64e
@@ -25768,6 +25805,225 @@ Description: LockGlass 简体中文包(RootHide)。
 Name: LockGlass 简体中文包(RootHide)
 Author: 刀刀
 
+Package: com.dao.milkywayreborn
+Architecture: iphoneos-arm64e
+Version: 1.4
+Maintainer: MilkyWay Reborn
+Installed-Size: 308
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.milkyway.reborn
+Filename: debs/com.dao.milkywayreborn_1.4_iphoneos-arm64e.deb
+Size: 49220
+MD5sum: 3150bd7695a04d8b89a457ae2233031d
+SHA1: b743949e88ce39d8c630c0876124348d8a0fef77
+SHA256: 5f6bce55853466ff8f1cafe044746ed2c51168d17f4d4213fc8ded8ed4e9fc35
+SHA512: d57dc5e5331c9569bb556fd36228959b77b6688559e48bfc53ad93b5327dfd217d0db908829c1db1600b4b3eb590355ac764d03c010a15765388cac2678175a6
+Section: 插件
+Description: 窗口化分屏，长按APP图标菜单—>窗口分屏；或者后台界面，按住程序卡片1.5秒，即可将此程序分屏；点击红按钮—>关闭窗口(长按彻底杀死)、黄按钮—>最小化(长按胶囊彻底杀死)、绿按钮—>最大化。
+Name: MilkyWayReborn(RootHide)
+Author: MilkyWay Reborn
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/milkyway/js.json
+
+Package: com.dao.neofreebird.bht
+Architecture: iphoneos-arm64e
+Version: 7.3.0+debug
+Maintainer: NeoFreeBird
+Installed-Size: 14128
+Depends: mobilesubstrate
+Conflicts: com.den.twigalaxy, xyz.cypwn.twigalaxy, xyz.cypwn.bhtwitter, com.netskao.twitternoads, xyz.cypwn.bringbacktwitter, com.nfb.tweak
+Filename: debs/com.dao.neofreebird.bht_7.3.0_debug_iphoneos-arm64e.deb
+Size: 4477140
+MD5sum: b7357a699e588d55b099b257daa647b8
+SHA1: 9a9bdcc593f59a6d862271c27ab804878039fe60
+SHA256: ad59b5d8cbb345fe6f9408ca659c49134ba060338a28cbb9f4f99805ec571fe0
+SHA512: 81c9ec25f211461787638d36013fd18924f40a88b1e2930d5317ea48a20da2ba4955aab35e77191bf47165a534c246b07393ab1befcac42af4344a8af1a0f1a9
+Section: 插件
+Description: NeoFreeBird 推特增强插件。
+Name: NeoFreeBird(RootHide)
+Author: NeoFreeBird
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/nfb/js.json
+
+Package: com.dao.noline
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Maintainer: daodao
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.hk.daodao.noseparators, com.hk.daodao.rootless.noseparators, com.qms.noseparators, com.hk.noline, com.qms.noline
+Filename: debs/com.dao.noline_1.0.2_iphoneos-arm64e.deb
+Size: 4972
+MD5sum: c3b2f30fb988d2e2204a47b8214c1911
+SHA1: 82c90ceee188a7ac02439e8a3723df83312cf787
+SHA256: c801e55235d7a77e01e153d221d3a3c46b206f7cb1735e41d1d14dfaca9c2016
+SHA512: d07b8d97ad5d8f64a64311b8da00c13a3636e4ddc70722fdd6c8d5422f0125cb87e7cfadd4c0bf94311740d58cef8e21d9c1c8ef53632abf8b69e9dad2d1892a
+Section: 插件
+Description: 去除弹窗/UI/长按菜单等地方的分割线，NoLine的新版本，重构代码。
+Name: PurifyLine(RootHide)
+Author: daodao
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/line/js.json
+
+Package: com.dao.ocd.cn
+Architecture: iphoneos-arm64e
+Version: 5.0
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.dao.ocd.cn_5.0_iphoneos-arm64e.deb
+Size: 6084
+MD5sum: 6ed922d50b75595a7c3c6acbe2af5b3e
+SHA1: 592a97ebc7208d98b6a96549673d88a837750c3c
+SHA256: cacb4160d1930c89619ed329a4adad8915648ff561eaed469d119d250af9d8d2
+SHA512: 20df88dd61942ce031583cfd2ae470178496cde6710166de8765139f164a0b6e10a7ac6c854fa7d5c1234fae6893ad0e7142c7867a3c9f2acedbad53bee32a62
+Section: 插件
+Description: OCD4和OCD5的通用简体中文包(RootHide)。
+Name: OCD 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.dao.ocd5lite
+Architecture: iphoneos-arm64e
+Version: 5.4.1.2
+Maintainer: 妖刀
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.mrgcgamer.libgcuniversal, preferenceloader, ws.hbang.common, ws.hbang.alderis, com.dao.ocd.cn
+Conflicts: com.noisyflake.cozybadges, com.dao.ocd, com.yourepo.b4db1r3r3p0.ocd, com.b4db1r3.ocd, com.dao.ocd5
+Filename: debs/com.dao.ocd5lite_5.4.1.2_iphoneos-arm64e.deb
+Size: 156464
+MD5sum: 58f4ce8d0e69daa17c4bc8f79071e7e5
+SHA1: 975710a467f64e7d460f49b9abda2ef129a17247
+SHA256: 5670c689b4881a06a67721337e0af9485cb3a02102e1c3c4227879af0dcd5e0b
+SHA512: c0d89a4fb4b298666aa40bb98fbb019b115f664b9d6b81baf649f14bfa8cda8ceeb1dd1a934ca0654f79dc828a9e74f996dadfc381a2c44c2265a368b8ff9be0
+Section: 插件
+Description: 根据App图标颜色来自适应App名称和角标的颜色，精简5系列其他功能，只保留圆点/空心角标效果。
+Name: OCD5 Lite(RootHide)
+Author: b4db1r3 <nfive060@gmail.com>
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ocd5l/js.json
+
+Package: com.dao.pf2.cn
+Architecture: iphoneos-arm64e
+Version: 0.1.2
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.hk.pf2.cn, com.hk.pf2.cn.rl
+Filename: debs/com.dao.pf2.cn_0.1.2_iphoneos-arm64e.deb
+Size: 5410
+MD5sum: b040528719497e51b9ddffba9a4d55f5
+SHA1: 5de93342e562e96acd5c97e35b8b45f2c4c4837c
+SHA256: 991e6ebbcd0d29a156846c504c98f892345eec1030ee72721a8ceadec34e88e3
+SHA512: 4b52844fe66b97b603389e9f5e4a7fe2208d085d829ce7a26cdbfe60996e7f483391d4126cee73da2e75d9c9d70ead1b3182e383054f735d1a2792fc54940a80
+Section: 插件
+Description: PrimalFolder2 简体中文包(RootHide)。
+Name: PrimalFolder2 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.dao.photosplus
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Maintainer: nowesr1
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: twitter.nowesr1.photosplus
+Filename: debs/com.dao.photosplus_0.0.1_iphoneos-arm64e.deb
+Size: 25188
+MD5sum: 082cea73ab4fb79f4219c6b0bdd81d2c
+SHA1: 192905eb3e209370d3ba4efb7f41e7ffaf0ac27e
+SHA256: 79ffa45362bd94f9cfa033db2acec4bc3c84bed45de44cec2ace6e4d59d55192
+SHA512: ecd818ce34d759bc929f9c08ce78809e6ff960f0b89f396bfaaa71f6ad940e4a864e5729eae598cafa7e1376ed8f2ed5303076fa9e93a8cd3427f047e9eedfa3
+Section: 插件
+Description: 照片增强的轻量插件，刀刀已汉化。
+Name: PhotosPlus(RootHide)
+Author: nowesr1
+
+Package: com.dao.picobanner
+Architecture: iphoneos-arm64e
+Version: 1.2
+Maintainer: daodao
+Installed-Size: 820
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.liddell, dev.traurige.liddell
+Filename: debs/com.dao.picobanner_1.2_iphoneos-arm64e.deb
+Size: 126230
+MD5sum: aefa99f05f6a478d2381db8fae1a3b44
+SHA1: 1afc7ce932bba43ca1c2d2a907ca14ac5947e941
+SHA256: f1c13e26fcc23b540126ad6e177c03e2f63dbc48e1206c55e9672e7fe1e0d625
+SHA512: 176fa5d25c46e45b846392b7fa1809de570fbc8df62f4736accd7db3af8f33e8b3de3a492e0d086bee2da0c6177be39f4b894a2a3b963b15499f5e53bb5d4242
+Section: 插件
+Description: 样式丰富多彩的小巧通知横幅。
+Name: PicoBanner(RootHide)
+Author: daodao
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/picobanner/js.json
+
+Package: com.dao.pogr
+Architecture: iphoneos-arm64e
+Version: 0.5.3
+Maintainer: Ruphane
+Installed-Size: 620
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr
+Filename: debs/com.dao.pogr_0.5.3_iphoneos-arm64e.deb
+Size: 79742
+MD5sum: 092a1a944134bf7d310d086c1939e709
+SHA1: e3ee8a459b84abdea02313c2553c2f3fc6fdea79
+SHA256: d4d5c283785eb5e86a9d3248e18b40be77347a42ec04175bf5dd72e7b5763639
+SHA512: a577c0bf48a15de3f277a28c618f740e20f8a817c2e959580904c411248f44854564e52538005b2dca391231327f031b9309a996b3a168c6bde9155437b3a27b
+Section: 插件
+Description: 将AirPodsPro2伪装成AirPodsPro，让其在旧iOS系统上更好地运行；支持 iOS16和USB-C版AirPodsPro2；支持AirPods4；自行实测！
+Name: PodsGrant(RootHide)
+Author: Ruphane
+
+Package: com.dao.powercuff
+Architecture: iphoneos-arm64e
+Version: 1.1
+Maintainer: 刀刀源
+Installed-Size: 176
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: com.rpetrich.powercuff, com.hk.powercuff, com.qms.powercuff, byg.iosios.net.powercuff
+Filename: debs/com.dao.powercuff_1.1_iphoneos-arm64e.deb
+Size: 13494
+MD5sum: 85a5d4eb7d7020d1c7c85a1fdc775c50
+SHA1: d593327e5d4e8e92fd06ac031ad4b3388b22b554
+SHA256: bafd54775ce88e5a56bdd32ec52a87a547b5cefb29a737fd9b93ea7fbdb40934
+SHA512: 07c536686c927a7c549966d8599be48c420cb377a6c8a69f68f7e86d830969e704e2e45e6ea8f9f635cfbe4ff6fa8210ffe462f7c4ef2cf4f5efd8a19ddfa966
+Section: 插件
+Description: 节能插件，效果自测，重新编译。
+Name: Powercuff(RootHide)
+Author: Ryan Petrich <rpetrich+powercuff@gmail.com>
+
+Package: com.dao.prefnest
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Maintainer: mlgm
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Conflicts: com.mlgm.prefnest
+Filename: debs/com.dao.prefnest_1.2.3_iphoneos-arm64e.deb
+Size: 171748
+MD5sum: 314230e4c1cb0c9c7f7a4e7dfc558922
+SHA1: a23a997b3dd55d85234c71ac4f66c07366249976
+SHA256: 34e52f97991e2c7f12a6fa2f80ef69ce01785b97bbafa5fdb559e8e7e791525e
+SHA512: e71c7c7c5dc4b7610fb187677c47c46b0637d6763eab7e1952d7b6319d16520bb3c06234b638ca3a93f2d2028ea0a8837331ab77afd95304fe9252e5b3ce73ae
+Section: 插件
+Description: 整理设置首页，集中收纳越狱插件；支持iOS15-26.0.1，特别是iOS18+默认插件入口在设置的通用里，用这个可以归纳到设置顶部/底部。
+Name: PrefNest(RootHide)
+Author: mlgm
+
+Package: com.dao.pulloverx
+Architecture: iphoneos-arm64e
+Version: 2.2.9
+Maintainer: daodao
+Installed-Size: 796
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro
+Filename: debs/com.dao.pulloverx_2.2.9_iphoneos-arm64e.deb
+Size: 177284
+MD5sum: 81707b706d735c4e97e932897c82e9cb
+SHA1: 3f813f2d260e6163ef20551516fc2b4e28f50b6c
+SHA256: 19bc2036dcd2b16c7f07c95f7320b80ddbe5a84fd60a86dfea96d5e86aa1e8ad
+SHA512: 5837de7bb973584e7423417c7d299aa2b353afc7aafdf6b6c0c7ddfe530ba9f34f31dbb226ddf568103a3d9416403e3704fed0a8ec71f1268e5107b732b2e5c5
+Section: 插件
+Description: 悬浮多任务窗口工具，基于 mlgm 的 PullOver X 打造的客制化版本。
+Name: PullOverX(RootHide)
+Author: mlgm
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/pulloverx/js.json
+
 Package: com.dao.sileo
 Architecture: iphoneos-arm64e
 Version: 2.5.1-14.1
@@ -25840,6 +26096,23 @@ Description: 更好的 WiFi 配置，查看 WiFi 信道、加密方式和密码�
 Name: GoodWiFi(RootHide)
 Author: julioverne & daodao
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/goodwifi/js.json
+
+Package: com.daodao.nocshare
+Architecture: iphoneos-arm64e
+Version: 1.1.5
+Maintainer: Hades
+Depends: mobilesubstrate
+Conflicts: com.devvix.nocshare
+Filename: debs/com.daodao.nocshare_1.1.5_iphoneos-arm64e.deb
+Size: 4100
+MD5sum: 393e3071e1dddfb811abfff478f1559b
+SHA1: 69f05e07e7ef04f85cf1d6b7f0c2026fa48a360e
+SHA256: 60ff8b0fa85e42c6be80d7cf64dea173abd8ff3ba84e0f7877300b760769ea61
+SHA512: b292f3147c4b8dc61b0487e803bee5f7f421a2def75d08547f1996df26f3127745c61431e38ea4274ca269e40ea904b79b790e8ded9b9fa55ee1fd705bd4478a
+Section: 插件
+Description: 移除分享菜单中烦人的投送和联系人，Hades基于i_82的源码修复支持16+系统。
+Name: NoCShare(RootHide)
+Author: Devvix
 
 Package: com.dd.adblock
 Architecture: iphoneos-arm64
@@ -26661,6 +26934,22 @@ Description: 为 App 添加生物识别锁（Touch ID / Face ID），点击受�
 Name: LockTouchX(RootHide)
 Author: hades
 
+Package: com.hades.pullclearnc
+Architecture: iphoneos-arm64e
+Version: 2.1
+Maintainer: hades
+Depends: mobilesubstrate
+Filename: debs/com.hades.pullclearnc_2.1_iphoneos-arm64e.deb
+Size: 21624
+MD5sum: f84863c8b2fa1635407a351a9bcaacb0
+SHA1: 21bd7c0cef7c27b415dfe0cf696c5c3d0d4f2ea2
+SHA256: 3d5c5ddc5dbb593c5a6a4017c497f137fc37d92890c057b8d2ca2e14490cadce
+SHA512: b4fb816dc125d9700304e81fbeebcdac34567b81898f30d87eed312390d894cc487418556f0483faeb4a09a25abf1f48779663b9e95de91356520ca49439b3c4
+Section: 插件
+Description: 锁屏/通知中心下拉即可清空全部通知，原作者Netskao，更新支持iOS16+；本版新增设置页，可用滑条调整触发距离（默认关闭，需在设置里开启）。
+Name: PullClearNC(RootHide)
+Author: hades
+
 Package: com.hang.ccbackground
 Architecture: iphoneos-arm64
 Version: 1.5
@@ -27071,6 +27360,54 @@ Description: KBApp 简体中文包(RootHide)。
 Name: KBApp 简体中文包(RootHide)
 Author: 刀刀
 
+Package: com.hk.lynx2.cn.rl
+Architecture: iphoneos-arm64e
+Version: 2.5-1
+Maintainer: M哥 & 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.lynx2.cn.rl_2.5-1_iphoneos-arm64e.deb
+Size: 25960
+MD5sum: 974d6121f6d5e90f21828192932ab096
+SHA1: 9734d39a28421cb33d86bce8f86f07d5d1915172
+SHA256: 88739d6b912e5e9fa4d2f2c923bb791baca6f07c4a9fad3ff7c033c77c046faa
+SHA512: d80527c1527486f110746458ce2a71bd1d939727edf170df865cf8df6a2cd4e4fbabfc2e3ca3ca967a04ac4ad9d14d4cd0b4b67f2997e79636062c9337df8925
+Section: 插件
+Description: Lynx 2 简体中文包(RootHide)。
+Name: Lynx 2 简体中文包(RootHide)
+Author: M哥 & 妖刀
+
+Package: com.hk.milkway4.cn.rl
+Architecture: iphoneos-arm64e
+Version: 0.1.1
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.milkway4.cn.rl_0.1.1_iphoneos-arm64e.deb
+Size: 3992
+MD5sum: 773ad71fe209a9a98d2fc370dd50e132
+SHA1: 8ba21a0642403d5e6a55b3f428b08773140b52d4
+SHA256: 1da8478cbe4e5970eb916becba77adec36a77788f5d8047ac70e832e5ba07505
+SHA512: 695c3986fff4a1ac0c41c36205dee4735491148de932074df3a40ea22b70ec75bf1819f41e736703a51522666733ca4fdf6563ebbe8e23935f242040655110e0
+Section: 插件
+Description: MilkyWay4 简体中文包(RootHide)。
+Name: MilkyWay4 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.hk.mochi15.cn.rl
+Architecture: iphoneos-arm64e
+Version: 1.0.3
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.mochi15.cn.rl_1.0.3_iphoneos-arm64e.deb
+Size: 4692
+MD5sum: ccb0d5241d38b45dd76490f5822d50f6
+SHA1: 62ee6479930020ef6fa4ed65696b7c593d63ea0d
+SHA256: 027982b7dc0845ba7b8ad653e72c89cf056dec038e06bf61d71c03eb750f19e0
+SHA512: cc33cd17a22f9bf0026a62cecd4f2c14f5702e7b34d4c39cb9ccd8f33a36e7c13bab5707082e2279ed7f43e5d6097e150bb1cbc08eecf116de7c6fd3c6049b61
+Section: 插件
+Description: Mochi15 简体中文包(RootHide)。
+Name: Mochi15 简体中文包(RootHide)
+Author: 妖刀
+
 Package: com.hk.nfcwriterxs.cn.rl
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -27088,6 +27425,22 @@ Name: NFCWriter XS 简体中文包-Rootless
 Author: Ball
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.hk.onesettings.cn.rl
+Architecture: iphoneos-arm64
+Version: 2.1.2
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hk.onesettings.cn.rl_2.1.2_iphoneos-arm64.deb
+Size: 12436
+MD5sum: 372a73ddc219229d87ecaee0be1a9dcf
+SHA1: 0a9b281a49360c95a58bd5d103a032360f71cf2e
+SHA256: 6b0cd141c33fd54667c1040fd246a67c298e45a24b9547c89c9890b925358690
+SHA512: c525103f4e4a8b3736e1fa1af3f44812e5ec11622a5c4457895dfcaa31e165036bca16f5fae1ec92ae465f39b125f98805197647fe4608c2d21d99139f805be5
+Section: 插件
+Description: OneSettings 简体中文包(rootless)。
+Author: 妖刀
+Name: OneSettings 简体中文包(rootless)
 
 Package: com.hk.roothide.cc
 Architecture: iphoneos-arm64e
