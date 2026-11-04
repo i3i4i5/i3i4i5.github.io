@@ -22941,6 +22941,22 @@ Author: www.apibug.com
 Icon: https://TrollStoreX.Github.io/sileodepiction/Sileo/ApibugTextToVoice.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ApibugTextToVoice/js.json
 
+Package: com.apper.wf.roothide
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Maintainer: 小果子
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.apper.wf.roothide_1.0.0_iphoneos-arm64e.deb
+Size: 87596
+MD5sum: 4a63fd261cf7ff13f0902864899514b0
+SHA1: 284924f1cd6414a6a435742bfbfcf277f4b190cf
+SHA256: 8737acdb552521729a232f460a4eff7c9c9764005d5d0c4b8056333a165c9fca
+SHA512: 942bb7efbf0de806915ea068a13da59633448093f3c620ca609d3c389476760c5dcc7ebbb1847a175ead1114946147aa6ae49a7bfbec240908b9914dd745d84c
+Section: 插件
+Description: 去除所有广告，无弹窗。
+Name: 威锋去广告(RootHide)
+Author: 小果子
+
 Package: com.appku.wechat
 Architecture: iphoneos-arm64
 Version: 1.6-3
@@ -26056,6 +26072,23 @@ Name: PullOverX(RootHide)
 Author: mlgm
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/pulloverx/js.json
 
+Package: com.dao.replaced
+Architecture: iphoneos-arm64e
+Version: 1.0
+Maintainer: Little 34306
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.34306.replaced
+Filename: debs/com.dao.replaced_1.0_iphoneos-arm64e.deb
+Size: 3292
+MD5sum: 7ddbd8f467ea20b0165a122dc2abbd70
+SHA1: 35f3bae941ae3b0a48fd8a7ccf633531b738956d
+SHA256: 29343757e5c015b69c5805bfa8544d4621627d749be9516653c298feb3bde984
+SHA512: 78f8ab77cb84fb947785c712683a65189a82524631549323c809d63dbd5c2179cf68fc699a5bb69bca1af631da360c03ea9a74c73cd147f07aacf7d17a15c659
+Section: 插件
+Description: 删除“关于页面”中的“未知部件”或“部件和服务历史记录”（更换的组件，如电池、摄像头、显示通知）。
+Name: replaced(RootHide)
+Author: 34306
+
 Package: com.dao.reverie
 Architecture: iphoneos-arm64e
 Version: 1.1
@@ -26372,6 +26405,160 @@ Description: 支持Telegram、Swiftgram等的多功能插件，能保存频道�
 Name: TGExtraFE(RootHide)
 Author: choco/waruhachi/TheWinner02/thewinner0217/daodao
 
+Package: com.dao.translux.cn
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.dao.translux.cn_1.1.0_iphoneos-arm64e.deb
+Size: 2472
+MD5sum: f0d3ba6bcb7a7c19c61e0b56c556146e
+SHA1: f1490c04f2f0a9a56c1e994b7d4f8e6ca7979c3e
+SHA256: 4ed703f2a0e530b19533b204a1d0016678af46f12fd981085a24b250ee4407bc
+SHA512: 59ce7a7bd590e7af52a000c9ee67eeb745ade1b9c3858b4be8dbccddd7406bebbad20844f47f269cf113035d986177cd56a131b9e5db81a7c3f249f7c186391f
+Section: 插件
+Description: TransLux 简体中文包(RootHide)。
+Name: TransLux 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.dao.trollstore.cn
+Architecture: iphoneos-arm64e
+Version: 2.1
+Maintainer: 妖刀
+Installed-Size: 184
+Depends: mobilesubstrate
+Conflicts: com.qms.trollstore.cn, com.hk.trollstore.cn, com.hk.trollstore.cn.rl
+Filename: debs/com.dao.trollstore.cn_2.1_iphoneos-arm64e.deb
+Size: 15226
+MD5sum: 4cc786580a046f43c3d05a1cbd7a1b79
+SHA1: ad7d3f25481963f4835ac137d27aa5bdea69b936
+SHA256: 6ace754a292d0b870ffe18a994aab4ae5c0082b01306bae9b866ac0399e8fa2c
+SHA512: e66da3600b1e5f3e2031f112625bf221f74458db0e4bcd2353d35fedf42c262fa91ca7b3fe8612f48f75ee32e1b8882c0659f63787e1e0f67c01e53093fccc34
+Section: 插件
+Description: TrollStore 和 TrollStore Lite 的简体中文包。
+Name: TrollStore 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.dao.trollstorelite
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Maintainer: Fluoxetine
+Depends: ldid, ellekit
+Conflicts: com.opa334.trollstorelite, com.fluoxetine.jumor
+Filename: debs/com.dao.trollstorelite_1.0.4_iphoneos-arm64e.deb
+Size: 592332
+MD5sum: 931f31ff502c59d75b6eac46bdedb522
+SHA1: 6027215b4e6401aecbf9090f83e95f04e27d77ad
+SHA256: 929cea52bdf879a3be4b433099c1eb63e39647d4d98f12dd0937f1b36de89a93
+SHA512: 63fdb4f76367f40bb161cb7ccd9bbf51c809774e589bc5165b94261656a020584582f3d4531c60f74d1890bbf8804b210faed6459e38689e14809a91c508ae8a
+Section: 插件
+Description: 巨魔R(白巨魔增强版) 由 Fluoxetine 为 Relaxin 越狱特别制作；越狱状态下支持免签安装 IPA、Tipa 应用，支持注入任意 dylib 和deb 插件。反馈及建议：1103945342@qq.com。
+Name: 巨魔R(RootHide)
+Author: Fluoxetine
+
+Package: com.dao.tslite
+Architecture: iphoneos-arm64e
+Version: 2.1.1-2
+Maintainer: opa334
+Installed-Size: 3948
+Conflicts: com.opa334.trollstorelite
+Filename: debs/com.dao.tslite_2.1.1-2_iphoneos-arm64e.deb
+Size: 1766918
+MD5sum: 38b24e7e4387ea981ab6b6730217ef58
+SHA1: dea7f298a755af463cf9fe05ae991e54d5e5cf52
+SHA256: aba952aa5125aa65cf0ab09ef73c6c1ed330d818547a9a7a8873fa9e398b6fa0
+SHA512: c1390e0bc3e9fa07c98325f5963d55f0bfb82b51f73df9ccca74d08144abc5ac4261bf12d2bb98751dc9695f5a7bdbc8177d8421bb875dc53be4c66c41f9cf03
+Section: 插件
+Description: 白巨魔，越狱专用的APP安装器，Relaxin(隐根)优化版，支持中英文翻译。
+Name: TrollStoreLite(RootHide)
+Author: opa334
+
+Package: com.dao.ttnoads
+Architecture: iphoneos-arm64e
+Version: 0.1
+Maintainer: 佚名
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.dao.ttnoads_0.1_iphoneos-arm64e.deb
+Size: 3206
+MD5sum: 7c56e30e08fa35e19fcc15ad4e4de29b
+SHA1: a2fa3e49f113861ed1e5c9c628775ff134353b9e
+SHA256: 8e32af3ad8ffc097a26a0d4617219e07a2f012e107a3e6b899fada1b3d55a38a
+SHA512: 5d33b87f08e0bd7949390d871e3ad78ee5e0c4cfd1dd201c417e6f1052d0c333e1b33620d1e7b8235a180ee5d5b5ea8f0582f295f755551ea0d25f6f74e3fcbc
+Section: 插件
+Description: 移除Talkatone烦人的广告。
+Name: TalkatoneNoAds(RootHide)
+Author: 佚名
+
+Package: com.dao.tvlock.cn
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Maintainer: 妖刀
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.dao.tvlock.cn_1.2.3_iphoneos-arm64e.deb
+Size: 1664
+MD5sum: ea72033dcb4ee0d194a08799244dfe9e
+SHA1: 9e29c00562daef0927aeb30aeb1554af11592b66
+SHA256: 414456e33bc7e3a3a9ad18b1bab10f796ed6a0f69d43ab7fedc576c3b4ac4fec
+SHA512: 93428da27765128661335c740fd5116634eea65cfc96d716aa1a9937ddc5a06a139f247cbe3af46e492c93d8fee24cd8f12f9eb3ce85f6127fea5cbb26b7900c
+Section: 插件
+Description: TVLock 简体中文包(RootHide)。
+Name: TVLock 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.dao.tvlock
+Architecture: iphoneos-arm64e
+Version: 1.2.3
+Maintainer: Wes <wes.hamster@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.wrp1002.tvlock, com.dao.tvlock.cn
+Filename: debs/com.dao.tvlock_1.2.3_iphoneos-arm64e.deb
+Size: 34368
+MD5sum: 7118db3255c6bd9838c9fade6588fb34
+SHA1: 4a0006bb03db9f15c9be284d477669ecc634672b
+SHA256: 446c57a98eaefd25fa2c31f0f766fbdec879712b99c8622e2678f4ad8988deeb
+SHA512: b4b57b029066902e404685eddb387891efee831e9c8d6aa7e83bfcd44ab9a18ce5f7812d062d90b465340e6e1e2bef21f8f0b86d31718b7333ff4ee800492e2a
+Section: 插件
+Description: 很棒的老电视关屏动画，根据开源编译，已内置简体中文。
+Name: TVLock(RootHide)
+Author: Wes <wes.hamster@gmail.com>
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/tvlock/js.json
+
+Package: com.dao.uiscroller
+Architecture: iphoneos-arm64e
+Version: 1.0.5
+Maintainer: iamdega & daodao
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.iamdega.uiscroller
+Filename: debs/com.dao.uiscroller_1.0.5_iphoneos-arm64e.deb
+Size: 9516
+MD5sum: ece3803e884eaa93b97b0420541c91de
+SHA1: d970d387b9e8a5c79fd2a88c998998b8a57f28aa
+SHA256: 754161c216b387a78707f270682693c5b7bcd4975510cd5b127799d5e6005cf8
+SHA512: 8c1660622473e806b906b4ffe4d3075dac89899ac5de22bdc613cc452b26bc3ab935a83ef9090de1a0772dd2be8249ec9b2ca903c4dc7b02602ab5a6b43f0d43
+Section: 插件
+Description: 放松手指，自动滚动任何页面，全局生效，App内双指长按出现菜单。
+Name: UIScroller 中文版(RootHide)
+Author: iamdega & daodao
+
+Package: com.dao.underdock.cn
+Architecture: iphoneos-arm64e
+Version: 1.3
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.hk.underdock.cn, com.hk.umderdock.cn
+Filename: debs/com.dao.underdock.cn_1.3_iphoneos-arm64e.deb
+Size: 4708
+MD5sum: d45f739d3b3233e023b5b0e51eb4ee74
+SHA1: 0863cf481df178467c88397e74c22376a5b357e9
+SHA256: 39684d1284beebf38e6a143e2a88a54bffb9217cb83d275c6f8f8aa7ed1c5553
+SHA512: ed251807268e38736a27c35bbbc4c8b9c835adfac01574fbf2545adc4ebe625654e3cee5e33838aac833f1c044adf0080b597599914fa3c32d31b950025572b3
+Section: 插件
+Description: UnderDock 简体中文包(RootHide)。
+Name: UnderDock 简体中文包(RootHide)
+Author: 妖刀
+
 Package: com.dao.velvet2
 Architecture: iphoneos-arm64e
 Version: 2.3
@@ -26390,6 +26577,133 @@ Description: 完全可自由定制的通知横幅变色，根据开源编译/优
 Name: Velvet2 中文版(RootHide)
 Author: NoisyFlake
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/velvet2/js.json
+
+Package: com.dao.vivostyle
+Architecture: iphoneos-arm64e
+Version: 1.2
+Maintainer: 34306
+Installed-Size: 456
+Depends: ellekit, preferenceloader, firmware (>= 15.0)
+Conflicts: com.vivostyle.tweak
+Filename: debs/com.dao.vivostyle_1.2_iphoneos-arm64e.deb
+Size: 49430
+MD5sum: 834fb76d631a3a9d538add14bfd8a200
+SHA1: 33b02db3e3d9f67c64a7140a3dff21195ffdc74f
+SHA256: 53e107d136ade4e2cae6b107872c87decfda0f295a55dadbbf35a7e9e22c8a59
+SHA512: 7ab0e9501c1d49b61c1e62a44f682e4b09fb7d454af660c8ab947867a0e080449224c543caa808a88bf36b939bd0dfd4521bc8b14445e50496238c51e967ba60
+Section: 插件
+Description: vivo OriginOS 风格的陀螺仪「翻转卡片」锁屏壁纸 —— 倾斜手机时，可在自己的照片之间进行交叉淡入淡出切换，并带有视差景深效果。
+Name: VivoStyle(RootHide)
+Author: 34306
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/vivo/js.json
+
+Package: com.dao.watched
+Architecture: iphoneos-arm64e
+Version: 2.0
+Maintainer: Little 34306
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Conflicts: com.34306.watched
+Filename: debs/com.dao.watched_2.0_iphoneos-arm64e.deb
+Size: 5792
+MD5sum: 798e9b53c8040954725bb99c2338535d
+SHA1: 80f2efb395d3d1b472fdbc3243e157ad55f3e445
+SHA256: e291fef8696216c564f7dafd59fa0167f45d9379646b7ed9d49ec5dd077e88b5
+SHA512: e605cf0be426a23e436d07ae0e15da159cde991b8559bd8c5732c64318da199e20c6470888646986c5fefafd204bd2712f069cb9e17250865eb57f2d945a2f1e
+Section: 插件
+Description: 让旧 iOS 版本配对新 watchOS(自测) 版本，无设置，安装即可生效；2.0：支持iOS17+，添加功能：支持照片同步、支持音乐同步、支持可安装应用同步、支持地图同步。
+Name: watched 手表配对(RootHide)
+Author: 34306
+
+Package: com.dao.youmod
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Maintainer: Tonwalter888, G Rohit
+Installed-Size: 1164
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: dev.water888.youmod
+Filename: debs/com.dao.youmod_2.0.0_iphoneos-arm64e.deb
+Size: 277368
+MD5sum: 4ecffc636d7396ec3a0114eda4b83a83
+SHA1: 95456d728b622b3cb84db860bebcf5aba38b9478
+SHA256: 435cf77a20b27530495d7dc8c53a3b6dead883d980f9ed4d8818137ed9a7d374
+SHA512: ada61df75b71958a3cd23592ba0e220e279f8f1147f1e082cc4b31fcbb62c1769e40ff2304d0032804f1647dd80f78742e535d48f4e21224059d2fbd56dbfca4
+Section: 插件
+Description: 轻量级 YouTube 功能增强：因 YTLite 不再免费，尽可能还原 YTLite 功能的插件，功能可能没 YTLite 多，够用。
+Name: YouMod(RootHide)
+Author: Tonwalter888
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/youmod/js.json
+
+Package: com.dao.youtubereborn
+Architecture: iphoneos-arm64e
+Version: 4.2.6-2
+Maintainer: arichornlover & 妖刀
+Installed-Size: 24876
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: net.sarahh12099.youtubereborn, com.twickd.sarahh12099.youtube-reborn, com.yourepo.jpet26.youtubetools1, com.justinpetkovic.youtubetools, com.johnzaro.perfectyoutube, com.ichitaso.youtubepatcher, com.yourepo.ikghd.youtubekiller, com.yourepo.ikghd.youtubekillers, com.sinfool.youtopia, com.google.ios.ytadblock, prasa.youtubeplus, com.unlimapps.ytpp, com.twickd.laki.raspberry, com.laki.raspberry, com.twickd.lazar.raspberry, 0xcc.woodfairy.noytads, weeb.lillie.enhancerforyoutubepremium, weeb.lillie.youtubepremiumplus, com.miro.uyou, com.ps.uyoucompat, com.ps.ytsystemappearance, com.yourepo.mohadu31.dzyoutube, com.lyvendia.ytspeed, com.miro.uyouimport, com.ichitaso.uyouplus, com.stem.deficient, com.ps.ytabconfig, com.ps.ytx, h.ryan.youtubereborn, com.hk.ryan.youtubereborn, com.hk.rootless.youtubereborn, com.hk.youtubereborn.cn.rl, com.hk.youtubereborn.cn
+Filename: debs/com.dao.youtubereborn_4.2.6-2_iphoneos-arm64e.deb
+Size: 9083310
+MD5sum: 2ac9783685a61e1447576269b593b8f9
+SHA1: 4096d5c1ce6164693282c48203731c79cafadccf
+SHA256: c8b6db222191ce1a3821dde2884bdcad53f6cf43167658862e40d7e5bb601c4b
+SHA512: e7caa8117b01bcda92ad8d90b91b9a9446a9005d7b1b753a39f11cbc6c8c16f5902997537c887d11ee7795617c4243d109c607a094ecc40da354444a654a8bf6
+Section: 插件
+Description: YouTube Reborn 中文版，根据开源，刀刀直接编译的中文版。油管高级自定义插件，可去广告、下载、画中画、改布局等。
+Name: YTR 中文版(RootHide)
+Author: Lillie & arichornlover
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ytr/js.json
+
+Package: com.dao.ytkace
+Architecture: iphoneos-arm64e
+Version: 1.1.4
+Maintainer: daodao
+Installed-Size: 6256
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.itzzace.ytkace
+Filename: debs/com.dao.ytkace_1.1.4_iphoneos-arm64e.deb
+Size: 2010208
+MD5sum: 5a6b6814988fafdf3113968e472d5c6f
+SHA1: 408b2dbf8e1299ca01b5c5b26a04e805ca4d81d5
+SHA256: 10a9cedfe7a0c623f14de762cf417d58d230b40789381d2e063291b6556b1a06
+SHA512: 430ff181e08cac719b27afd50b521746cea19e5101e8e10800892c68d6ced110f7bc092df6fbb7394cbe53bd146dc03d9fca2fa016f7c3073a0e293a2fd4d46d
+Section: 插件
+Description: YouTube 多功能插件，根据开源编译，刀刀补全翻译，并优化部分功能。
+Name: YTKACE(RootHide)
+Author: itzzace & daodao
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ytkace/js.json
+
+Package: com.dao.ytlite
+Architecture: iphoneos-arm64e
+Version: 5.2.1
+Maintainer: dvntm
+Depends: mobilesubstrate
+Conflicts: com.dvntm.ytlite
+Filename: debs/com.dao.ytlite_5.2.1_iphoneos-arm64e.deb
+Size: 7415512
+MD5sum: 983bc63624702e9beb7b963985fd0776
+SHA1: 0eba6af9c4aad74d230e5844d31b81e4fe8f2bfb
+SHA256: e4b8c5fd927b8318e4da1d4285ae5944da8f086504ffa26cab90fc32e9534416
+SHA512: 59ce08623e410df286f5a1a53f86ef75046ead7e7534c83987dbe5ea0743a254425505e33941fbdf0d7d7c261acf1f32136dbf938e892b147df1541e9150a2cb
+Section: 插件
+Description: 综合性 YouTube 多功能插件，可去广告、下载、调节播放器等超多功能；插件选项位于油管“设置—YouTubePlus”，更多功能请自行启用。
+Name: YTLite(RootHide)
+Author: dvntm
+
+Package: com.dao.ytmusicultimate
+Architecture: iphoneos-arm64e
+Version: 2.4.1
+Maintainer: Ginsu & dvntm
+Depends: mobilesubstrate
+Conflicts: com.ginsu.ytmusicultimate
+Filename: debs/com.dao.ytmusicultimate_2.4.1_iphoneos-arm64e.deb
+Size: 6570168
+MD5sum: 5bc5a0c9c947a8177ca5552e6405955d
+SHA1: c3681ad956c5b4e015f577d85d09b4dcf0cf7d9e
+SHA256: 15c4224a4f4ff4246c2a26721a148999442a85afa36f80a6db6fe407192140d9
+SHA512: 097a17d355ccfb68247f62b7e9cf70e24d4637ab2666696c5652a1aebab36f360d7bf77c9c7c7d7038130ed95d21eda876d099c833815720d6d08a4e33d0b9d9
+Section: 插件
+Description: YouTube Music 多功能插件，可下载，还有更多实用功能。
+Name: YTMusicUltimate(RootHide)
+Author: Ginsu & dvntm
 
 Package: com.daodao.goodwifi
 Architecture: iphoneos-arm64e
@@ -27937,6 +28251,56 @@ Description: Snowboard 中文修正包(RootHide)。
 Name: Snowboard 中文修正包(RootHide)
 Author: 妖刀
 
+Package: com.hk.tako.cn
+Architecture: iphoneos-arm64e
+Version: 3.5
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.tako.cn_3.5_iphoneos-arm64e.deb
+Size: 2800
+MD5sum: 54f3ed496255cef3bb9e9ac358270840
+SHA1: ff7bec30115b4fbbd7f967c5000015a2303e7eb6
+SHA256: 8f26795de705f225115f1ab789f87c5016a217774b4ed0466f45446c558dc7f1
+SHA512: 27e3929aac713fdf9eecc78f11f221cf372ca53f2452d297dcf204c11fa1fd288424d1119e86d9dfabd25ea216768b35922037f2e33d6b41f38e22d295990e74
+Section: 插件
+Description: Tako 简体中文包(RootHide)。
+Name: Tako 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.hk.trollnonce.cn.rl
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Maintainer: 妖刀
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.hk.trollnonce.cn.rl_1.0.1_iphoneos-arm64e.deb
+Size: 4696
+MD5sum: b8d6c83a4bffb0d35d5706806c502bf2
+SHA1: 6ffc737c60103a19b722be57bcd3ffbe30490b05
+SHA256: 38c8d9a2ab5de7738534d6be1e737fb182478eaa4599e3c5a98e6083b353214b
+SHA512: 4cf7e41954c15209581ad59793ba5dce581c8896ede6e8c0be6e589e874a7c86773e687967e7781a2b0d3f213e3d0495d73a9348ec0d465e4d8ee13347f839cc
+Section: 插件
+Description: TrollNonce 简体中文包(RootHide)。
+Name: TrollNonce 简体中文包(RootHide)
+Author: 妖刀
+
+Package: com.hk.uyou.cn.rl
+Architecture: iphoneos-arm64e
+Version: 3.0.1
+Maintainer: 妖刀
+Installed-Size: 184
+Depends: mobilesubstrate
+Filename: debs/com.hk.uyou.cn.rl_3.0.1_iphoneos-arm64e.deb
+Size: 12322
+MD5sum: c5970e63f41c6b26d2e462970269c6a7
+SHA1: e800d429f2705583c12fbe77874816083e62614c
+SHA256: 501862656e347c66aa10fa1881c4ee057b1f82568bbe507ad61fec91eb4d5a19
+SHA512: 59467f18c8107abaec9c26709bf45dfbfa4ff41ac3a60bc314d3d0b59b1bc62bbd3723cc28b88b02862b2d43b2e8332cbbda7f27b971c35d1fecee0e7729fc13
+Section: 插件
+Description: uYou 简体中文包(RootHide)。
+Name: uYou 简体中文包(RootHide)
+Author: 妖刀
+
 Package: com.hk.youtubereborn.cn.rl
 Architecture: iphoneos-arm64
 Version: 4.0.9
@@ -27954,6 +28318,22 @@ Name: YouTube Reborn 中文包-Rootless
 Author: 妖刀
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.hk.zetsu.cn.rl
+Architecture: iphoneos-arm64e
+Version: 1.6.1
+Maintainer: 妖刀
+Depends: mobilesubstrate
+Filename: debs/com.hk.zetsu.cn.rl_1.6.1_iphoneos-arm64e.deb
+Size: 12488
+MD5sum: 982898e8da73ef8e6ea41f797f21f481
+SHA1: c84fd15bdd01a0b339bf96d5076d92fcf8912dc4
+SHA256: 3714e5f5f68ca7abbfe7cad90ac3519a6eaafe4f57f33863b1b6148b7f857661
+SHA512: d89e46ac1e4fe1825507fad7ebd9110e5954b9e47c58f3cc3610e3994bc8b361ad85603bff81ebfba4483f5818805dc47bbae180b35b930c3925bc60d30cbdca
+Section: 插件
+Description: Zetsu 简体中文包(RootHide)。
+Name: Zetsu 简体中文包(RootHide)
+Author: 妖刀
 
 Package: com.hmmzzz.fontmanager
 Architecture: iphoneos-arm64
@@ -28702,6 +29082,23 @@ Section: 插件
 Description: 支持录屏/截图套壳，水印以及区域截图、长截图、Ai问答、快捷手势等，兼容iOS14-17所有越狱
 Name: SHELLX
 Author: iosdump
+
+Package: com.iosdump.tslite
+Architecture: iphoneos-arm64e
+Version: 2.1.1-2
+Maintainer: opa334
+Depends: ldid
+Conflicts: com.opa334.trollstorelite, com.dao.tslite
+Filename: debs/com.iosdump.tslite_2.1.1-2_iphoneos-arm64e.deb
+Size: 3679176
+MD5sum: 9ef95fa117cb9927c4b5e7d3e58f964b
+SHA1: 8563e273e59d78c0e763a080172daa3add6cee1e
+SHA256: 23426e9bb86ee0ad8b6df796621844139e08785a9511b2a4675ba9561e352786
+SHA512: 9af6879753c7f3951031b6a3e5a43f60015becd46d236a28c5316b413b7f4df56bdd31e21e7953bda354e839892d9f1deb24c7f7e76ed210bcbcb8662f27899e
+Section: 插件
+Description: 越狱专用的APP安装器，iosdump修改版TrollStoreLite，功能多多(程序改名、换图标、解密、降级等)；同步最新代码v2.1.1-2：修复内置 ldid 生成的签名可执行段信息。
+Name: TSLite(RootHide)
+Author: opa334
 
 Package: com.iosdump.zone
 Architecture: iphoneos-arm64
