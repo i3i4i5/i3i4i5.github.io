@@ -1,3 +1,43 @@
+Package: com.axs.ahsfilter
+Architecture: iphoneos-arm64e
+Version: 5.2.0-3
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 712
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/AhsFilter_5.2.0-3_iphoneos-arm64e.deb
+Size: 128944
+MD5sum: 9a9bba17dc14ee3fd79f780db1868dd9
+SHA1: 9edb3c1343d53d2fb120ff8b0410e9165c869721
+SHA256: 030252a386e7ee2b908492cf9e05223fcfa681d7999c663d885ccd2d64c2f907
+SHA512: a11b52c6634ce58476f53f9436d90741fc923ce8b65be49adbcfac985b200b1a5d074789ac174f954b52ac2ea99990ee09912fd4dfd220a22a5ceb9dbde8ee61
+Section: 自用
+Description: 爱回收筛选
+Name: 爱回收
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/ahsfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/ahsfilter/js.json
+
+Package: com.axs.appselect
+Architecture: iphoneos-arm64e
+Version: 5.2.0-12
+Maintainer: Axs
+Installed-Size: 456
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/AppSelect_5.2.0-12_iphoneos-arm64e.deb
+Size: 45364
+MD5sum: 2f82cd10d6207637ac62e7a530c49d27
+SHA1: 14f3675886a4ae71210e39fa64b24950a6ed12c9
+SHA256: 886a391d245448d317f6fadb98c3aba5576eddc3e515d8b5513e65a60c8f0ee4
+SHA512: fcaac9daa16bdbdcdbde218ef943acca240f8e4d28de1fadb5c75e99df6afa57c5d386bebe7bcf4869559d8afb9cfe6f3ae42fe7f4ea0ebc9f03f3358b27a8ef
+Section: 自用
+Description: 设置各种app跳转指向
+Name: 跳转拦截
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/appselect.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
+
 Package: byg.iosios.net.autofillfix
 Architecture: iphoneos-arm64e
 Version: 0.1
@@ -211,6 +251,28 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/ips.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/ipslog/js.json
 
+Package: com.cydiabc.fontmanager-roothide
+Architecture: iphoneos-arm64e
+Version: 0.3.8
+Maintainer: Hmmzzz
+Installed-Size: 2512
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt, com.hmmzzz.fontmanager
+Filename: debs/MarkFont字体管理器-Roothide_0.3.8_iphoneos-arm64e.deb
+Size: 494992
+MD5sum: 25282243750a3839b62de907ce886efe
+SHA1: a9b15d99502a6cd56f7a6ec1d013fc2a5777b94a
+SHA256: e3d450c0e607e0fe04d822b1d8de912cb3915b459a29d2a2dacf531931ad1bd9
+SHA512: d87dec7ae0f5d6286a36d43c6196001351ba75d75a379bf6d59c3312d64377ec4339a6dc66eb807dfbfbd139a03098b6e09ffdc82a8394b338abd96e2f0c09c1
+Section: 自用
+Description: 更换系统字体，带预览
+A12: 1
+Name: 字体管理器
+Author: Hmmzzz
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 17.png
+
 Package: byg.iosios.net.onesettings
 Architecture: iphoneos-arm64e
 Version: 2.2.1
@@ -293,6 +355,56 @@ Name: 闹钟增强
 Author: Joshua Seltzer
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.snapbackup
+Architecture: iphoneos-arm64e
+Version: 3.8.11
+Maintainer: kanuo
+Installed-Size: 648
+Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
+Filename: debs/SnapBackup_3.8.11_roothide.deb
+Size: 2059556
+MD5sum: 03e1232808df1037044bbe2c2aec178b
+SHA1: a65f772853492dff7e8f7d6c486c2194777452c7
+SHA256: e860fd75634cd6a8525f2ac689b175713c5ae15693085d4d05cd83340c6b0147
+SHA512: 1648b3d7d24e3d2fbea798ab0e104381ce9f1f2c79ef08376da1e13a6c573f2556cc047b4f21793ee20b0352df40ed4ad3faa0c6766f4472746a26265a33380c
+Section: 自用
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
+ .
+ 【恢复流程】
+ - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
+ - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
+ - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
+ - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
+ - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
+ - 外观支持浅色、深色及跟随系统，自动记住选择
+ - root 扫描清理，覆盖隐根 AppGroup 缓存与日志，显示删除字节和可用空间变化
+ - 扫描系统目录占用，逐项批注可清理、需手动确认或仅查看，不明数据库禁止删除
+ - 独立文件扫描：从根目录逐层查看全手机容量，大小倒序，保留 Filza 定位且不提供删除
+ - Sileo 内仍支持多选 deb、导入文件夹与 SnapBackup 待恢复任务
+ - 使用 Sileo 原生安装队列；恢复插件与恢复配置为独立按钮
+ - 可单独恢复备份配置，也可按 Sileo 任务核验安装结果后恢复对应配置
+ - 保留恢复日志与配置覆盖前的副本
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包
+ ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Name: SnapBackup 备份恢复
+Author: kanuo
+dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
 
 Package: com.axs.snapper4
 Architecture: iphoneos-arm64e
@@ -406,6 +518,47 @@ Name: 触摸轨迹
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/touchtrail.png
 
+Package: cn.llld.urljg.roothide
+Architecture: iphoneos-arm64e
+Version: 1.1.7
+Maintainer: 来了老弟
+Installed-Size: 1140
+Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate
+Filename: debs/URL管家隐根1.1.7.deb
+Size: 683880
+MD5sum: b1145d78925018501bd9577b8c89c3a0
+SHA1: 0de6d876f742d63e11782ed00a3da4cbccb8d459
+SHA256: f770f1ae19d85aa973dbc9bdd6e7b6044a0edc53ce98a045c8ae41cce9444b4e
+SHA512: 20dd476682c11b6eeb0c636bacaf5c85eec3d1798a35d4875f6f338bd073cfd66e07b23695ed2e0451b4779362c421588a8b5d7e0cfe973b04b35c7f91c6da54
+Section: 自用
+Description: URL管家（RootHide 版）— 统一接管本机 URL Scheme（隐藏 / 重定向），支持单应用或者全局，也可防范某些应用检测某东东
+Tag: purpose::uikit, compatible::ios14
+Name: URL管家-隐根
+Author: 来了老弟
+
+Package: com.axs.zzfilter
+Architecture: iphoneos-arm64e
+Version: 5.2.0-8
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 372
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/ZZFilter_5.2.0-8_iphoneos-arm64e.deb
+Size: 65084
+MD5sum: a7afe275fabcfc9fb163a92725f61587
+SHA1: e8cbdc43ff5c9209d37dc179481d2f271001c829
+SHA256: e978489ecec1a60bb6c2f3b83ceccb971ccccde36e3240bbdd0a11c736bc6fd9
+SHA512: b4a37bccf66d3247ebdae224cadbd7e76d721db86d64c5ae28c599895a5bd695fa0de61e7f73faf3ed5ec66513799575dca0d24f70e15be1457a1a292176ae7e
+Section: 自用
+Description: 转转筛选助手
+ * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ * 2.按机型/电池/系统版本/成色/内存筛选
+ * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+Name: 转转筛选
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/zzfilter.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
+
 Package: byg.iosios.net.icleanerpro
 Architecture: iphoneos-arm64
 Version: 7.10.0
@@ -450,22 +603,22 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
 
 Package: com.xybp888.callassist16.dopamine.roothide
 Architecture: iphoneos-arm64e
-Version: 3.3.3
+Version: 3.3.4
 Priority: optional
 Maintainer: xybp888
 Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
-Filename: debs/com.xybp888.callassist16.dopamine.roothide_3.3.3_iphoneos-arm64e.deb
-Size: 3573356
-MD5sum: 67139c31636ba1a67937596ad4bfc080
-SHA1: 0429b5999c4ae0cd7b63bb82fe8fd7a3978f8c35
-SHA256: a4f0c402640d4c96f8d90df76afeeeef43f2149bb9ed3e0dc9fa0aebba7f60ac
-SHA512: 844785173c452079195c110e8db222423af8d1da98e197ee7a9c7c1f1c0d27578c47fa69e16aec45fccd83bde908c1a879a4589d14cadbfc6624d7a62053cfba
+Filename: debs/com.xybp888.callassist16.dopamine.roothide_3.3.4_iphoneos-arm64e.deb
+Size: 3600566
+MD5sum: 2422dfb8e3df37fe1c1fe3b7955ea2f7
+SHA1: 9cba6916204bee72676b1f84300bd1abcae78229
+SHA256: 59a81008bbf4afa9c47e8d5f2b286866491806ad9e1dade486c40f3224ff0d45
+SHA512: 6023ff3687e115e10ad98e1d523c50c369c2a8c1c95275bfb54ff4e97b8f215ebdf637dff6f623feae728d494bc5e1323050e2f6ef891de00321ad9e1da6af7a
 Section: 自用
 Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
 Name: 电话助手iOS16-正式版(Roothide)
 Author: xybp888
-Depiction: https://apt.htv123.com/view/1119
-SileoDepiction: https://apt.htv123.com/sileo/1119
+Depiction: https://apt.htv123.com/view/1123
+SileoDepiction: https://apt.htv123.com/sileo/1123
 
 Package: ellekit
 Architecture: iphoneos-arm64e
@@ -505,45 +658,40 @@ Description: 防止漏洞入侵
 Name: lockdown
 Author: roothide
 
-Package: com.axs.ahsfilter
+Package: org.coolstar.sileo
 Architecture: iphoneos-arm64e
-Version: 5.2.0-3
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 712
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/AhsFilter_5.2.0-3_iphoneos-arm64e.deb
-Size: 128944
-MD5sum: 9a9bba17dc14ee3fd79f780db1868dd9
-SHA1: 9edb3c1343d53d2fb120ff8b0410e9165c869721
-SHA256: 030252a386e7ee2b908492cf9e05223fcfa681d7999c663d885ccd2d64c2f907
-SHA512: a11b52c6634ce58476f53f9436d90741fc923ce8b65be49adbcfac985b200b1a5d074789ac174f954b52ac2ea99990ee09912fd4dfd220a22a5ceb9dbde8ee61
-Section: 插件
-Description: 爱回收筛选
-Name: 爱回收
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/ahsfilter.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/ahsfilter/js.json
+Version: 2.5.1-15
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/sileo修改版隐根直接安装无根插件.deb
+Size: 3064128
+MD5sum: ddc85f9a52feb99fb9b3e09773f8512d
+SHA1: b7f3dc2984bd3ff68302bf82d955288997363a33
+SHA256: ffb9cd236b6aca7020a791fbc4efd40f9d7ead179d25db67711368e07094a67f
+SHA512: e1c9491a206b729be22a0303f656d371e1d802687d023472fd00ea6b5be022e5c877ecd0c44c3d4d6a4162542021fcfadca0ff752fd4ae672015381f4aa09788
+Section: 自用
+Description: 隐根专用sileo商店修改版，无需额外跳转转换，直接安装无根插件，内置自动转换，设置里打开 兼容模式更新即可，插件操作按钮增加多项功能
+Name: sileo修改版隐根直接安装无根插件
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
 
-Package: com.axs.appselect
+Package: com.aptzh
 Architecture: iphoneos-arm64e
-Version: 5.2.0-12
-Maintainer: Axs
-Installed-Size: 456
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/AppSelect_5.2.0-12_iphoneos-arm64e.deb
-Size: 45364
-MD5sum: 2f82cd10d6207637ac62e7a530c49d27
-SHA1: 14f3675886a4ae71210e39fa64b24950a6ed12c9
-SHA256: 886a391d245448d317f6fadb98c3aba5576eddc3e515d8b5513e65a60c8f0ee4
-SHA512: fcaac9daa16bdbdcdbde218ef943acca240f8e4d28de1fadb5c75e99df6afa57c5d386bebe7bcf4869559d8afb9cfe6f3ae42fe7f4ea0ebc9f03f3358b27a8ef
-Section: 插件
-Description: 设置各种app跳转指向
-Name: 跳转拦截
-Author: Axs
-Icon: https://axs66.github.io/pro/icon/appselect.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
+Version: 1.3-3+debug
+Maintainer: Custom
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/sileo汉化配合隐根直接安装插件arm64e.deb
+Size: 42060
+MD5sum: 166459fe1e28902af2ca1c6646b7f768
+SHA1: 55695bfceb13ecf6852eba83aea60d98cefa3114
+SHA256: 7ca02cce9e992551914a8d6e0e5094dafe3983e2926c8a9650338bc46f1adad2
+SHA512: bfb6a651abc91ffe7cc73c257529cc513e07954317e510bef113328b7f8bf2ce0e110a192962482a72fb899c13ad63082b665e30f142f62384c63e00a9994b04
+Section: 自用
+Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
+Name: sileo汉化配合隐根直接安装无根插件
+Author: Custom
 
 Package: Flex3beta
 Architecture: iphoneos-arm64e
@@ -588,28 +736,6 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
-Package: com.cydiabc.fontmanager-roothide
-Architecture: iphoneos-arm64e
-Version: 0.3.8
-Maintainer: Hmmzzz
-Installed-Size: 2512
-Depends: firmware (>= 16.0), uikittools
-Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt, com.hmmzzz.fontmanager
-Filename: debs/MarkFont字体管理器-Roothide_0.3.8_iphoneos-arm64e.deb
-Size: 494992
-MD5sum: 25282243750a3839b62de907ce886efe
-SHA1: a9b15d99502a6cd56f7a6ec1d013fc2a5777b94a
-SHA256: e3d450c0e607e0fe04d822b1d8de912cb3915b459a29d2a2dacf531931ad1bd9
-SHA512: d87dec7ae0f5d6286a36d43c6196001351ba75d75a379bf6d59c3312d64377ec4339a6dc66eb807dfbfbd139a03098b6e09ffdc82a8394b338abd96e2f0c09c1
-Section: 插件
-Description: 更换系统字体，带预览
-A12: 1
-Name: 字体管理器
-Author: Hmmzzz
-Sponsor: Ai-小苹果™
-Icon: file:///Applications/Cydia.app/Sections/System.png
-Icon2: 17.png
-
 Package: MisakaHelper
 Architecture: iphoneos-arm64
 Version: 2.1-0-END
@@ -648,97 +774,6 @@ Section: 插件
 Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition,键盘底部的撤消、重做、全选、复制、剪切和粘贴操作。 ActionBar 免费重生版，感谢Netskao辛勤劳作
 Name: ActionBar Reborn-roothide
 Author: Netskao
-
-Package: com.snapbackup
-Architecture: iphoneos-arm64e
-Version: 3.8.11
-Maintainer: kanuo
-Installed-Size: 648
-Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
-Filename: debs/SnapBackup_3.8.11_roothide.deb
-Size: 2059556
-MD5sum: 03e1232808df1037044bbe2c2aec178b
-SHA1: a65f772853492dff7e8f7d6c486c2194777452c7
-SHA256: e860fd75634cd6a8525f2ac689b175713c5ae15693085d4d05cd83340c6b0147
-SHA512: 1648b3d7d24e3d2fbea798ab0e104381ce9f1f2c79ef08376da1e13a6c573f2556cc047b4f21793ee20b0352df40ed4ad3faa0c6766f4472746a26265a33380c
-Section: 插件
-Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
- 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
- .
- 【核心功能】
- - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
- - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
- - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
- - 插件、依赖、偏好与配置目录统一归档，记录 SHA-256、权限和所有者
- .
- 【恢复流程】
- - 独立 root helper 校验备份完整性、包元数据与架构，依赖由 Sileo 处理
- - 恢复插件后自动打开 Sileo 并加入安装队列，用户手动确认安装
- - 备份结果支持多选恢复，自动处理 Sileo 获取及本地重新安装入队
- - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
- - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
- - 外观支持浅色、深色及跟随系统，自动记住选择
- - root 扫描清理，覆盖隐根 AppGroup 缓存与日志，显示删除字节和可用空间变化
- - 扫描系统目录占用，逐项批注可清理、需手动确认或仅查看，不明数据库禁止删除
- - 独立文件扫描：从根目录逐层查看全手机容量，大小倒序，保留 Filza 定位且不提供删除
- - Sileo 内仍支持多选 deb、导入文件夹与 SnapBackup 待恢复任务
- - 使用 Sileo 原生安装队列；恢复插件与恢复配置为独立按钮
- - 可单独恢复备份配置，也可按 Sileo 任务核验安装结果后恢复对应配置
- - 保留恢复日志与配置覆盖前的副本
- .
- 【操作流程】
- ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
- ② 恢复配置：主页 →「恢复配置」→ 选备份包
- ③ 恢复插件：主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 手动确认安装
- .
- RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
- 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
-Name: SnapBackup 备份恢复
-Author: kanuo
-dev: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
-
-Package: cn.llld.urljg.roothide
-Architecture: iphoneos-arm64e
-Version: 1.1.7
-Maintainer: 来了老弟
-Installed-Size: 1140
-Depends: firmware (>= 14.0), roothide (>= 0.0.1), ellekit | mobilesubstrate
-Filename: debs/URL管家隐根1.1.7.deb
-Size: 683880
-MD5sum: b1145d78925018501bd9577b8c89c3a0
-SHA1: 0de6d876f742d63e11782ed00a3da4cbccb8d459
-SHA256: f770f1ae19d85aa973dbc9bdd6e7b6044a0edc53ce98a045c8ae41cce9444b4e
-SHA512: 20dd476682c11b6eeb0c636bacaf5c85eec3d1798a35d4875f6f338bd073cfd66e07b23695ed2e0451b4779362c421588a8b5d7e0cfe973b04b35c7f91c6da54
-Section: 插件
-Description: URL管家（RootHide 版）— 统一接管本机 URL Scheme（隐藏 / 重定向），支持单应用或者全局，也可防范某些应用检测某东东
-Tag: purpose::uikit, compatible::ios14
-Name: URL管家-隐根
-Author: 来了老弟
-
-Package: com.axs.zzfilter
-Architecture: iphoneos-arm64e
-Version: 5.2.0-8
-Maintainer: Axs <qiaozhani000@163.com>
-Installed-Size: 372
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/ZZFilter_5.2.0-8_iphoneos-arm64e.deb
-Size: 65084
-MD5sum: a7afe275fabcfc9fb163a92725f61587
-SHA1: e8cbdc43ff5c9209d37dc179481d2f271001c829
-SHA256: e978489ecec1a60bb6c2f3b83ceccb971ccccde36e3240bbdd0a11c736bc6fd9
-SHA512: b4a37bccf66d3247ebdae224cadbd7e76d721db86d64c5ae28c599895a5bd695fa0de61e7f73faf3ed5ec66513799575dca0d24f70e15be1457a1a292176ae7e
-Section: 插件
-Description: 转转筛选助手
- * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
- * 2.按机型/电池/系统版本/成色/内存筛选
- * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
-Name: 转转筛选
-Author: Axs <qiaozhani000@163.com>
-Icon: https://axs66.github.io/pro/icon/zzfilter.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
 Package: acreson.rootless.cj.atria
 Architecture: iphoneos-arm64
@@ -36364,21 +36399,22 @@ SileoDepiction: https://apt.htv123.com/sileo/627
 
 Package: com.xybp888.callassist16.dopamine
 Architecture: iphoneos-arm64
-Version: 1.7.0
-Maintainer: 搬运工
+Version: 3.3.4
+Priority: optional
+Maintainer: xybp888
 Depends: firmware (>= 15.0), preferenceloader, com.opa334.libsandy
-Filename: debs/com.xybp888.callassist16.dopamine_1.7.0_iphoneos-arm64.deb
-Size: 4514502
-MD5sum: fc92b78a57eab2af86b422f4b6aaca8e
-SHA1: b9033bd532d49f21c8c7b6693b108ae9a8837c31
-SHA256: 13e7defdca12fcfe1347ca2c2c521fd5f129dc512f411b779c8d13733273c437
-SHA512: a0f553047d55de413c2ed93ce62db06e0dde5b32ef0d61938149cabff853b94163e1f23e1dd57723dd703f742a593143716093488ea7af787ca9f45dd571010b
+Filename: debs/com.xybp888.callassist16.dopamine_3.3.4_iphoneos-arm64.deb
+Size: 3612084
+MD5sum: 7324080875a7049ab67af8025bc085e3
+SHA1: 429776ed4210f23ab3f6fc69e0a5783801e9b157
+SHA256: a7a49b32bb655a018e23832b327530346e4b30af76e26bf95a8093341da7653b
+SHA512: 76d14f4b76ad66433236cf5a8022eb72f87ef6fa21decfc3a069d214fa815a4de50d907e1dc90083bec4e81af48c2cd26b92f3061ad15656a41120000365f9c0
 Section: 插件
-Description: 电话助手需要购买，20块钱！！！没破解！,通话记录合并,通话录音,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,大部分刚需常用功能等的强大插件！作者源地址apt.htv123.com  有需要的自行添加！搬运工源，只为给大家提供越狱方便！
-Name: 电话助手iOS16-正式版
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS16-正式版(Rootless)
 Author: xybp888
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
+Depiction: https://apt.htv123.com/view/1124
+SileoDepiction: https://apt.htv123.com/sileo/1124
 
 Package: com.xybp888.callassist17.dopamine
 Architecture: iphoneos-arm64
@@ -36516,22 +36552,23 @@ SileoDepiction: https://apt.htv123.com/sileo/377
 
 Package: com.xybp888.magiciannojailbreak.fugu15
 Architecture: iphoneos-arm64
-Version: 0.0.1-4257
-Maintainer: 搬运工
+Version: 0.0.1-4258
+Maintainer: xybp888 <8657156@qq.com>
 Installed-Size: 432
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.xybp888.magiciannojailbreak.fugu15_0.0.1-4257_iphoneos-arm64.deb
-Size: 67728
-MD5sum: 3fa7d517d762e7b4510fc2412d34e7f9
-SHA1: e4f1ee7dba7a9e3ce93a0d3626e63183e6c5cb09
-SHA256: 798a83288b0352f5294565962e9f4517d4269d6fdbecc0a069c90088ed5aa7dd
-SHA512: 170c745e35efc2aba4d4b54b40bac191f868a737be91a0194298b4ad26474fcb5ae45b0761fe03d2bdf035775cee8db95445b3ed312de0833891bf9880d5af68
+Filename: debs/com.xybp888.magiciannojailbreak.fugu15_0.0.1-4258_iphoneos-arm64.deb
+Size: 67582
+MD5sum: 961dc898a93eab1ec87f0447aa06671d
+SHA1: 033a083213ddb5dcef83fefda93a36bd91bdba70
+SHA256: cb57d4cdcab46e6fc5f7d71671870a67ae05b7cd591657ac9cd3289926bdaa51
+SHA512: 45a193957a5c25371db0f70217c2847dd303688b1d3ca698abb448fa6ce8d40964b6fcc81749a61ffcc9b7751e891337566ec2846dd6af38109957ab24211e06
 Section: 插件
-Description: 本插件仅供学习测试之用,请于24小时内卸载,一切法律责任与本插件和作者无关！本插件的作用是屏蔽插件注入软件，从而避免越狱检测，但是需要付费购买了电话助手才能免费使用！和choicy的效果差不多吧，因人而异！
+Description: 本插件仅供学习测试之用,请于24小时内卸载,一切法律责任与本插件和作者无关
 Name: 魔术师(iOS15)
-Author: xybp888
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
+Author: xybp888 <8657156@qq.com>
+Sponsor: xybp888
+Depiction: https://apt.htv123.com/view/14
+SileoDepiction: https://apt.htv123.com/sileo/14
 
 Package: com.xybp888.magiciannojailbreak.roothide
 Architecture: iphoneos-arm64e
@@ -36661,23 +36698,23 @@ SileoDepiction: https://apt.htv123.com/sileo/1001
 
 Package: com.xybp888.perfectdynamiclsland
 Architecture: iphoneos-arm64
-Version: 1.2-30
+Version: 1.4.0
 Priority: optional
 Maintainer: xybp888
-Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
-Filename: debs/com.xybp888.perfectdynamiclsland_1.2-30_iphoneos-arm64.deb
-Size: 562736
-MD5sum: ef481edb23b635ddac99fffc140bdedb
-SHA1: 1e073ce326c66360e8047ba329682d5585b426a4
-SHA256: 561ffd9753c5e52e211bac4c585f9fe317335875de65a984b571e2784cf117c0
-SHA512: 1bb0aaa08140491db98be68874accc94986bf2eb5776858b38e800beef827e19b5e720fb5cf4df2b8b86eb8e9e7f21ed08e668c60c92458ea06d08719115285f
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/com.xybp888.perfectdynamiclsland_1.4.0_iphoneos-arm64.deb
+Size: 923978
+MD5sum: 1b59cdd19b690ce1f92b588d832a4f5a
+SHA1: 400b93eb3ae565aec9df5efadcac4f0ab96940d8
+SHA256: b71f86d08fb78e68516a2478f836ff2533c26273b6edc3333b695ef6a626d11b
+SHA512: 7ed3615e1ff74bece9902f0e8064282dc207ce6b55d48666fe9101e856d7ef9903f2713f61fe2df7331af8a46147d8ef5c4ab817f6f8add0497d7909e42860b3
 Section: 插件
-Description: 完美的使用原生灵动岛展示系统通知等
-Name: 灵动通知
+Description: 电话助手激活用户专属免费插件
+ 完美的使用原生灵动岛展示系统通知等...
+Name: 灵动通知iOS16-正式版(Rootless)
 Author: xybp888
-dev: xybp888
-Icon: https://axs66.github.io/pro/icon/perfectdynamiclsland.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/perfectdynamiclsland/js.json
+Depiction: https://apt.htv123.com/view/1002
+SileoDepiction: https://apt.htv123.com/sileo/1002
 
 Package: com.yan.anitime
 Architecture: iphoneos-arm64
@@ -39040,41 +39077,6 @@ Name: Graphite Library插件依赖-Rootless
 Author: Geometric Software
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: org.coolstar.sileo
-Architecture: iphoneos-arm64e
-Version: 2.5.1-15
-Maintainer: Amy While <me@anamy.gay>
-Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: debs/sileo修改版隐根直接安装无根插件.deb
-Size: 3064128
-MD5sum: ddc85f9a52feb99fb9b3e09773f8512d
-SHA1: b7f3dc2984bd3ff68302bf82d955288997363a33
-SHA256: ffb9cd236b6aca7020a791fbc4efd40f9d7ead179d25db67711368e07094a67f
-SHA512: e1c9491a206b729be22a0303f656d371e1d802687d023472fd00ea6b5be022e5c877ecd0c44c3d4d6a4162542021fcfadca0ff752fd4ae672015381f4aa09788
-Section: 插件
-Description: 隐根专用sileo商店修改版，无需额外跳转转换，直接安装无根插件，内置自动转换，设置里打开 兼容模式更新即可，插件操作按钮增加多项功能
-Name: sileo修改版隐根直接安装无根插件
-Author: Amy While <me@anamy.gay>
-Icon: https://getsileo.app/img/icon.png
-SileoDepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: com.aptzh
-Architecture: iphoneos-arm64e
-Version: 1.3-3+debug
-Maintainer: Custom
-Installed-Size: 240
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/sileo汉化配合隐根直接安装插件arm64e.deb
-Size: 42060
-MD5sum: 166459fe1e28902af2ca1c6646b7f768
-SHA1: 55695bfceb13ecf6852eba83aea60d98cefa3114
-SHA256: 7ca02cce9e992551914a8d6e0e5094dafe3983e2926c8a9650338bc46f1adad2
-SHA512: bfb6a651abc91ffe7cc73c257529cc513e07954317e510bef113328b7f8bf2ce0e110a192962482a72fb899c13ad63082b665e30f142f62384c63e00a9994b04
-Section: 插件
-Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
-Name: sileo汉化配合隐根直接安装无根插件
-Author: Custom
 
 Package: spoofnotify
 Architecture: iphoneos-arm64
