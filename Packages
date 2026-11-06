@@ -33405,6 +33405,25 @@ Author: Nightwind
 Icon: https://TrollStoreX.Github.io/sileodepiction/MatchingIconLabels/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/MatchingIconLabels/js.json
 
+Package: com.nightwind.rootless-patcher
+Architecture: iphoneos-arm64e
+Version: 0.0.1-38+debug
+Maintainer: Nightwind
+Installed-Size: 168
+Depends: odcctools, ldid
+Filename: debs/com.nightwind.rootless-patcher_0.0.1-38_debug_iphoneos-arm64e.deb
+Size: 34208
+MD5sum: 4f9a83453faf0c24d0279de8e2654b93
+SHA1: 79c9c763c0a2d65aec6eab4262ad518cec624f2f
+SHA256: 2ba340a0659f8b1c15b8ec9a659a33b692e39b605cc50e7f0492a5d0ce4a7794
+SHA512: 2e72cd17db55107bc1d9e1b69d5a4f798fb8ae0b8c748f735bd14029c89902807a3564a4a4af29413f8e5cc92bd30fa69f2a47124fb8f27fc82ed0381ae9302a
+Section: 插件
+Description: A CLI rootful to rootless patcher.
+ Utilizes a technique that does not require Xina-style symlinks.
+Tag: role::hacker
+Name: rootless-patcher
+Author: Nightwind and staturnz
+
 Package: com.noads.tweka
 Architecture: iphoneos-arm64
 Version: 1.3.1
