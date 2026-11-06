@@ -34197,6 +34197,23 @@ Author: roothide
 Icon: https://TrollStoreX.Github.io/sileodepiction/Lockdown/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Lockdown/js.json
 
+Package: com.roothide.patchloader
+Architecture: iphoneos-arm64e
+Version: 0.0.8
+Maintainer: roothide
+Installed-Size: 132
+Filename: debs/com.roothide.patchloader_0.0.8_iphoneos-arm64e.deb
+Size: 3930
+MD5sum: 50811beb07159320a3606de37b4604dc
+SHA1: a5e692536cf006f32a80be98131c546047405643
+SHA256: ed3d0c2e72865e70166752d8508006a9a32b4d76407fb838a2c485d5e6613d3a
+SHA512: 6c9a305bff836dc4bf686472425bf634af88eb62c9cd0c6131ed74982987c3c584d3aafee44cb87baddbd82f8ce95a805b7e12b8ea6735a831c7aa4905fef729
+Section: 插件
+Description: RootHide Dynamic Patches Loader
+Tag: role::developer
+Name: PatchLoader
+Author: roothide
+
 Package: com.rpetrich.rocketbootstrap
 Architecture: iphoneos-arm64
 Version: 1.0.9~rootless
@@ -37290,6 +37307,25 @@ Description: 设置插件与应用分类、自定义名称、全局壁纸和首�
 Name: 设置插件收纳
 Author: MoWang
 
+Package: dev.theos.orion14
+Architecture: iphoneos-arm64e
+Version: 1.0.1-3+debug
+Maintainer: Theos Team <theos@kabiroberai.com>
+Installed-Size: 1220
+Provides: dev.theos.orion (= 1.0.1-3+debug)
+Depends: firmware (>= 14.0), firmware (<< 18.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/dev.theos.orion14_1.0.1-3_debug_iphoneos-arm64e.deb
+Size: 181106
+MD5sum: 86b1f3a313d1d4f4bbf9aa50ce99c274
+SHA1: 0fb7e6b04357773e9c9250c7156a5fdc1b96f4fd
+SHA256: a2de49957df5c5211ffb7e522ee9e95c020c123979ff4faeb43c70e7c6607400
+SHA512: 6e0c1cfd425a4e4ceff08155a51d3ecf642c08e19a0772e2aa914173faace9f6d54c6106a902fa4db8067513a407f0d082dcdc7755e8cf4785dc79269eea0f93
+Section: 插件
+Description: Runtime for tweaks built using Orion and Swift
+Tag: role::developer
+Name: Orion (iOS 14-17)
+Author: Theos Team <theos@kabiroberai.com>
+
 Package: dev.traurige.libkitten
 Architecture: iphoneos-arm64
 Version: 1.4.1
@@ -38721,6 +38757,27 @@ Name: 微信净化 2026.04
 icon: https://TrollStoreX.Github.io/sileodepiction/WechatPure/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPure/js.json
 
+Package: oldabi-stub
+Architecture: iphoneos-arm64e
+Version: 0.3
+Maintainer: alexia <me@alexia.lol>
+Installed-Size: 0
+Provides: oldabi (= 0.3)
+Conflicts: cy+cpu.arm64e
+Filename: debs/oldabi-stub_0.3_iphoneos-arm64e.deb
+Size: 852
+MD5sum: 6afccebad4e207ec93c9cf34b42d4518
+SHA1: c7d1710e055889fb99cd46d69ee1ec241e9fad1a
+SHA256: 4ae0b70990695194f2625fcb8cb4d03e5b2824f36b47422d9d0195de62a2a0ae
+SHA512: a6b8e03534eebdc547fea099a2607b5d74450da653a548517293fc9f05930da94b45b5fa8d7309caf37a3b936d5082c8c63c9a7bbf216839d806099a0ec76c59
+Section: 插件
+Description: oldabi stub for arm64 devices
+ .
+ This package does nothing, it just provides a stub for oldabi on arm64 to be able to install tweaks with broken dependencies.
+Tag: role::hacker
+Name: oldabi-stub
+Author: alexia <me@alexia.lol>
+
 Package: oldabi
 Architecture: iphoneos-arm64
 Version: 0.3.1
@@ -39062,6 +39119,53 @@ Author: Bailey Seymour
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: owngoal-bootstrap-vphone
+Architecture: appletvos-arm64e
+Version: 1.2.0
+Priority: optional
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depends: apt, dpkg, bash, zsh, dash, sudo, coreutils, debianutils, shell-cmds, system-cmds, file-cmds, diffutils, findutils, grep, sed, gawk, less, tar, gzip, xz-utils, ncurses-bin, ncurses-term, profile.d, ca-certificates, openssh-server, curl, wget, nano, vim, htop, git, fastfetch, uikittools, launchctl, wiki.qaq.irisin
+Filename: debs/owngoal-bootstrap-vphone_1.2.0_appletvos-arm64e.deb
+Size: 1132
+MD5sum: 4e2f6193bf0f61aa6c9b122a8deb57e6
+SHA1: 52e947832584bab9440ce06c045866217c6401f3
+SHA256: 159f8e67f5d4e03b00803dc0e4d2a3c18ca15c972a53461ad4dc4272b25cab55
+SHA512: 0aa2bd1e6889cc91eb10cf98ccc514e1aa22d721f6893afdb006fcd795b89264fd55534944ce838aa5e9507b14870c25b6f0bd2062cc367f9b8239e6f8f945d4
+Section: 插件
+Description: Base system, command-line tools and Irisin for an Apple TV vphone
+ Installs apt and dpkg, bash, zsh and dash, sudo, the core command-line tools,
+ openssh-server, curl and wget, nano and vim, htop, git and fastfetch,
+ uikittools and launchctl, plus Irisin. The base packages come from OwnGoal
+ Stripe. This package installs no files of its own.
+Name: OwnGoal Bootstrap for vphone
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/ball.png
+Depiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/
+SileoDepiction: https://apt.owngoal.dev/depictions/owngoal-bootstrap-vphone/depiction.json
+
+Package: owngoal-essential-apps
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Priority: optional
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Depends: wiki.qaq.irisin, wiki.qaq.fila, wiki.qaq.ighostvt, wiki.qaq.xrash, wiki.qaq.inspector
+Filename: debs/owngoal-essential-apps_1.0.1_iphoneos-arm64.deb
+Size: 944
+MD5sum: b34a2672321da4974d4f8a60eab1a89c
+SHA1: 62ec50a762becb05f1c51ab8458880b7990bce5b
+SHA256: bc6add86ec93ad3bdf2e7b310f4b0dae7752489a70d1d826d188db889c325a05
+SHA512: b3e9e792a71b2947cb17961f7c3cc193566f6efe13c42ac106e8f15dbeb3ba9686d969e53c6bdbdad76d1ebd5b9402a5cfa4349a62aebb6d3d7c727166c4bd84
+Section: 插件
+Description: Irisin, Fila, iGhostVT, Xrash and Inspector in one install
+ Installs the five OwnGoal apps: Irisin, Fila, iGhostVT, Xrash and Inspector.
+ Each app stays its own package and updates on its own. This package installs
+ no files of its own.
+Name: OwnGoal Essential Apps
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Icon: https://apt.owngoal.dev/depictions/owngoal-essential-apps/ball.png
+Depiction: https://apt.owngoal.dev/depictions/owngoal-essential-apps/
+SileoDepiction: https://apt.owngoal.dev/depictions/owngoal-essential-apps/depiction.json
+
 Package: preferenceloader.rootless.tops
 Architecture: iphoneos-arm64
 Version: 2.2.7
@@ -39121,6 +39225,23 @@ Section: 插件
 Description: 去除键盘的延迟(主用作于第三方，若没有延迟，则不用装)，安装即生效。
 Name: 去除键盘延迟-rootless
 Author: 来了老弟
+
+Package: rootless-compat
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Maintainer: roothide
+Installed-Size: 300
+Depends: com.roothide.patchloader(>= 0.0.4)
+Filename: debs/rootless-compat_2.0.1_iphoneos-arm64e.deb
+Size: 42110
+MD5sum: 61b06ff7e409d2eebef5e34fe28be38d
+SHA1: 1cbd3ff9fe3ab966b99eec7fdc08bc48596ae6b3
+SHA256: d255796e2fc7cd1b849cd376414e7a62bb0a2c7d149115b344e00f422371298d
+SHA512: b991c042024e37a5d8d119dd6e6a8707a7f126675a097ae59ccc5098b8ae189ffa3165178c8fe292917ea33a12eeda09a81cc620c24cec2704acedb0c92409b3
+Section: 插件
+Description: Compat Layer for Rootless Tweaks
+Name: rootless-compat
+Author: roothide
 
 Package: se.geometric.graphite
 Architecture: iphoneos-arm64
@@ -39210,6 +39331,72 @@ Author: z
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: wiki.qaq.apelin.agent-tools.assembler
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Priority: optional
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 4020
+Depends: firmware (>= 16.0)
+Enhances: wiki.qaq.apelin
+Filename: debs/wiki.qaq.apelin.agent-tools.assembler_1.0.0_iphoneos-arm64.deb
+Size: 1028526
+MD5sum: 47b5c48380b3c7c9d917340e8a5d0390
+SHA1: 8af4d43416124dedc0c13d7b734ecbba6f5011fe
+SHA256: be70edbb779284795fc91e6b934173ee3fe11783f3b2bd6018aba70875f1f8cd
+SHA512: a21fdf14321ef8aa4392dd7f1ec3739d1dc856beffb6d2cc58c0e74cd67c4122692c4d522c06aa105300026ae1156609d9445d5a2d4acd9eef1a942b513ec45b
+Section: 插件
+Description: An assembler tool for Apelin's agent, built on Keystone (GPLv2), for rootless jailbreaks
+ An agent tool extension for Apelin. It gives the agent one tool, assemble, which turns ARM64, ARM, Thumb or x86 assembly into machine code with Keystone. Keystone is licensed under the GNU GPL version 2, so this package ships separately from Apelin. The license, and where to get the corresponding source, are installed in usr/share/apelin/agent-tools/wiki.qaq.apelin.agent-tools.assembler/licenses under the jailbreak root.
+Name: Apelin Assembler
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.agent-tools.assembler.png
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.agent-tools.disassembler
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Priority: optional
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 37140
+Depends: firmware (>= 16.0)
+Enhances: wiki.qaq.apelin
+Filename: debs/wiki.qaq.apelin.agent-tools.disassembler_1.1.0_iphoneos-arm64.deb
+Size: 1980434
+MD5sum: 868fec3eddd06d97d3a5ff9d0e654f28
+SHA1: 3b5f4941a4f8d2bf861ca85dd6d3b3e9db3f5817
+SHA256: d1fcf9f75cefed5a920d79317e5da777c1e2f9b2598b4976544b1e9c6f1b5d6c
+SHA512: da83128b5884474f72ba2f6c25285b0fba72e261fe76d9145ee869cd4974716c26eb5991df60f0c94e5fd20574125e44d9768a56c77cb44e1e019847199e3b8a
+Section: 插件
+Description: Disassembly and Mach-O symbol tools for Apelin's agent, for rootless jailbreaks
+ An agent tool extension for Apelin. It gives the agent two read-only tools: disassemble, which decodes instructions from a Mach-O binary with Capstone, and symbols, which lists a binary's symbol table. It runs as its own process and only when Apelin's agent calls it.
+Name: Apelin Disassembler
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.agent-tools.disassembler.png
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.app
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Priority: optional
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 76
+Depends: wiki.qaq.apelin (>= 0.1.0), uikittools
+Enhances: wiki.qaq.apelin
+Filename: debs/wiki.qaq.apelin.dev.app_0.1.1_iphoneos-arm64.deb
+Size: 8912
+MD5sum: adff4bdfea95a99c777d891c5952a9ae
+SHA1: 89b6f4b75e4fd627f7119bbfc51c005685554412
+SHA256: c6c84b7e531271e805f12d85e45547aa86093f3b74d53164d1ce7c36b3c010d1
+SHA512: 15d732a895a606d0e580c813a8bc116d5bd24981c41a8a180badb6a5f0cf4aa8f9d44dc7e511d85938619cad46ee2612d4f2867c18c6640bcb012fab38fa6b84
+Section: 插件
+Description: UIKit app templates for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package UIKit apps on the device, installed
+ into /Applications: an Objective-C template, and a Swift one for when the
+ Swift toolchain component is set up.
+Name: Apelin App Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.app.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
 Package: wiki.qaq.apelin.dev.cli
 Architecture: iphoneos-arm64
 Version: 0.1.1
@@ -39256,6 +39443,31 @@ Description: Settings pane templates for Apelin, for rootless jailbreaks
  installs with it.
 Name: Apelin Preference Bundle Development
 Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.preferences.png
+Depiction: https://owngoal-dev.github.io/Apelin/
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.apelin.dev.tweak
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Priority: optional
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 32
+Depends: wiki.qaq.apelin (>= 0.1.0), mobilesubstrate
+Enhances: wiki.qaq.apelin
+Filename: debs/wiki.qaq.apelin.dev.tweak_0.1.1_iphoneos-arm64.deb
+Size: 6686
+MD5sum: cff24a560618b1414a295038dda9309f
+SHA1: 628443801d8588c3db95772eec9fc5fcac481b02
+SHA256: ff4fd6617aa9dd55d97748c78fb11c0a0a2170a8c979d3e091aafd45e2c68fbe
+SHA512: d8fee207d5248e3419d97059f7a8d622cd6d3001588c3a5b799a5004302ad412835f9f29e66be94ebd862420a3fcc7b6cfa39e37bc85af7fdc38ba4dd2065e2b
+Section: 插件
+Description: Tweak templates and hooking headers for Apelin, for rootless jailbreaks
+ Lets Apelin create, build and package Objective-C tweaks on the device: a
+ template that hooks SpringBoard through the substrate-compatible API, the
+ headers and link stubs for that API, and the process filter. Needs an
+ injection framework, which your preferred package manager installs with it.
+Name: Apelin Tweak Development
+Icon: https://owngoal-dev.github.io/Apelin/icons/wiki.qaq.apelin.dev.tweak.png
 Depiction: https://owngoal-dev.github.io/Apelin/
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
