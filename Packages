@@ -1654,24 +1654,6 @@ Author: AnthoPak
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: byg.iosios.net.appcardlite
-Architecture: iphoneos-arm64
-Version: 3.3.3-end
-Maintainer: 搬运工
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
-Filename: debs/byg.iosios.net.appcardlite_3.3.3-end_iphoneos-arm64.deb
-Size: 704850
-MD5sum: 14aa0361ea13ddd3bd776c62b2721cdc
-SHA1: 1cba4cc9bb85278d12f18f14134971e83e7b17c6
-SHA256: bc13fef327a53975a034eb541c82f607655793d3413c67a2073bc8854090e4cf
-SHA512: 171ed8b978711a5bb0e0c7144ab20236ea9d3728ca31b317bda972563f68362900e7761a6b41e67495e9b76d21b46bca0ca1da75ffa6fc4efebbcf4104f5797b
-Section: 插件
-Description: 又一款分屏插件，小编个人不太喜欢这种分屏方式，但是也有不少人用户喜欢，效果如截图介绍所示，大家可以试试，觉得不好用的可以缷载！开启教程如下：看第一张截图照片手势介绍，右侧最下面往左侧最下面滑，就出来设置项了，然后自己研究怎么进行设置！感觉不太好用，喜欢的小伙们就使用吧！搬运工源一直在为用户着想，希望大家多多分享，更新才快！
-Name: App Lecard分屏-Rootless
-Author: Crassna
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
 Package: byg.iosios.net.appdata-rootless
 Architecture: iphoneos-arm64
 Version: 2.7.5
@@ -1687,84 +1669,6 @@ Section: 插件
 Description: 本插件功能非常的强大，可以降级APP软件版本，这是最nice的功能，还可以查看软件所占内存的大小，可以清除APP缓存，修改软件名称，修改角标数量，可以重置APP到刚下载时候的设置！可以查看软件的bundleID，可以直接跳转到软件的缓存及安装路径，可谓越狱必装插件，效果看截图介绍！安装之后去设置里开启插件唤醒的方式，然后注销即可，可以选择长按或者上滑软件，任君选择，搬运工源，永久免费！本插件由iosdump大神修复更新！感谢iosdump！
 Name: AppData软件降级-Rootless
 Author: Fouad Raheb
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.apphide
-Architecture: iphoneos-arm64
-Version: 0.0.2
-Maintainer: 搬运工
-Depends: mobilesubstrate, firmware (>= 12.2), com.opa334.altlist
-Filename: debs/byg.iosios.net.apphide_0.0.2_iphoneos-arm64.deb
-Size: 135810
-MD5sum: 80d0c38bf2df15f4ae99c729b8a3e984
-SHA1: 454a2cbfe367198557bb5620d871c3a7249d68a1
-SHA256: 5658687fda5b3c7ee09c63254b3dc9b4fc714616fd1d17a1a6ef1e6718b9e5f2
-SHA512: 43af8d13aa5130e649f0d4944cdacf86728e11a497eed7559a834292ae51062510bc744833bd52639cc44a6899f5bb1abfe9b80eb8f33ae80b065c54e0e7c102
-Section: 插件
-Description: 模仿iOS18的功能，隐藏已经安装的黄色APP，哈哈。本插件可以在设置里隐藏应用使其消失在搜索，资源库，主屏幕上。谨慎开启密码，因为我也没搞懂有了密码之后咋弄，可能你需要清除越狱才能恢复插件设置了，不是重装插件就能解决的！搬运工源，搬你所想！暂无汉化！
-Name: App Hider应用隐藏-Rootless
-Author: Paisseon
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.apphider-rootless
-Architecture: iphoneos-arm64
-Version: 0.0.6
-Maintainer: 搬运工
-Installed-Size: 260
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), com.opa334.ccsupport
-Filename: debs/byg.iosios.net.apphider-rootless_0.0.6_iphoneos-arm64.deb
-Size: 53942
-MD5sum: 41f29d145b274e501d4e861ae87ca971
-SHA1: 7986f4f989d33b9820de63849dee0aee0057b2b4
-SHA256: afd06a552e7a8d5667795102eb01abbf3f1c409b11a757cd5e9e749d2bfdb43d
-SHA512: 80877f477f1c469a5367db46999654bf0bc70d518e24e54ad0cd3d720320de9162fce96320048fbfdbc614b2d77824aaee5d0782326582c20fcc8e2f87201c0f
-Section: 插件
-Description: 应用隐藏，控制中心可设置隐藏-恢复设置里的应用隐藏。
-Name: 应用隐藏-Rootless
-Author: lenglengyu
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.applibrarydisabler
-Architecture: iphoneos-arm64
-Version: 1.1
-Maintainer: 搬运工
-Installed-Size: 176
-Depends: firmware (>= 14.0), mobilesubstrate, cy+model.iphone | cy+model.ipod | firmware (>= 15.0), com.thuthuatjb.iconrepo.rootless
-Conflicts: com.tomaszpoliszuk.applibraryenabler
-Filename: debs/byg.iosios.net.applibrarydisabler_1.1_iphoneos-arm64.deb
-Size: 4688
-MD5sum: 2886338a56d0370971a37fd5a586dbfe
-SHA1: 8864066eb0a44dbed719fe44713d542349b6c427
-SHA256: 4b4aea8124763a828beefff05b5882bc350aa4a6ac859744264395b304259022
-SHA512: 04ecc558ee9fc071f7699d6a9b23940adb0fb5831eca61af6490e469bafcd2f9189aad7b5a8169fcbba87954a0492794562396bb1d772b682d229263dbb1f516
-Section: 插件
-Description: Loại bỏ hoàn toàn App Library trên thiết bị禁用系统自带的资源库，电话助手或者很多插件都有此功能，此为单独插件，安装即生效，不用设置！
-Tag: purpose::extension
-Name: 禁用资源库-Rootless
-Author: Tomasz Poliszuk
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.apppad
-Architecture: iphoneos-arm64
-Version: 1.1.3
-Maintainer: 搬运工
-Installed-Size: 172
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4), firmware (>= 9.0)
-Conflicts: com.yourepo.isaact1012.requirefullarm64e, com.matrix.requirefull
-Filename: debs/byg.iosios.net.apppad_1.1.3_iphoneos-arm64.deb
-Size: 7112
-MD5sum: 9ca22cbddbf4abbbd83aade8a4bc59e9
-SHA1: 20eef5bd058bd0ebb2af2aa79ec3098cc8d74e04
-SHA256: 9e969efba76eeb01a2a327f64d884b5471db7eb0876f7289e116786f8fd4f728
-SHA512: 35595f577d83145cf9dbcfb7266d5901c51863496b35423878d3bc36832998aafeda578aea97b3a4938eb6f8772edb7d67354f69249085f4b8027ab8ee6455b9
-Section: 插件
-Description: 在ipad上任意应用强制全屏/强制竖横屏，iPhone应该无效，请自己测试，无效就缷载！搬运工源，永远免费！
-Name: 平板应用强制全屏/竖横屏
-Author: PoomSmart
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1841,63 +1745,6 @@ Section: 插件
 Description: 需付费使用！AppTools for iOS15-16 Rootless，强大的App类辅助插件，锁120帧！！！锁120Hz这个功能是免费的（不保证更新后一定如此），其它的需要付费激活！可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，25元自行购买激活。详情看截图介绍！
 Name: AppTools应用增强
 Author: aReo
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.april
-Architecture: iphoneos-arm64
-Version: 3.1
-Maintainer: 搬运工
-Installed-Size: 832
-Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Conflicts: com.midnightchips.bettersettings, me.luki.april, com.hk.april, com.qms.april
-Filename: debs/byg.iosios.net.april_3.1_iphoneos-arm64.deb
-Size: 421138
-MD5sum: 34343910210d7bd5022d3a3ff6937856
-SHA1: b4496f65cbfb7c52b169944206206f77fbd45cbe
-SHA256: 2acc72f8c08bac9c25e1c902c5bf6b03d4717aac603aa9662455c622984ae842
-SHA512: 24c47225a2a83bc0bb690b2ecfb3328b5e45601aff1a541d00a295dc1247940fadecac2751fca6462594af67655e2715422394683bf8801235b1401a3bc389cb
-Section: 插件
-Description: 可以设定设置App的背景图/模糊等，让设置App变得更好看。喜欢美化的朋友们可以下载试试！
-Name: April设置美化-Rootless
-Author: Luki
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.aria
-Architecture: iphoneos-arm64
-Version: 0.9.8.1
-Maintainer: 搬运工
-Installed-Size: 680
-Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Filename: debs/byg.iosios.net.aria_0.9.8.1_iphoneos-arm64.deb
-Size: 129634
-MD5sum: 0ea9f7f59b08d37d5c7b97287c438d9b
-SHA1: 3a29fe2a244361604d5ac2c5680d5d1a964ff283
-SHA256: 7f9dd1434ca0421c53592f87ad371c32aadd496af090d5be7ffe36a3a5dadbf5
-SHA512: ad5202f6288676abea224d4ce9f161b793075749d6ce4c9b37e5ee2d8e50b5534d6593b76c95cad86636b6ad5b492da64625c400390ff02736bc2cfb0c22f53c
-Section: 插件
-Description: Enhance the stock CC or Prysm on the fly(修改控制中心背景图，用第二个Stock就行了)已汉化感谢来了老弟汉化支持，有没有bug自行测试！
-Name: Aria控制中心背景图-Rootless
-Author: Luki
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.arise
-Architecture: iphoneos-arm64
-Version: 1.2.3
-Maintainer: 搬运工
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 13.0)
-Filename: debs/byg.iosios.net.arise_1.2.3_iphoneos-arm64.deb
-Size: 858580
-MD5sum: 300c920a6175b3bdc183243cd5ceceea
-SHA1: 416cf1edc79ebfc723906e5a90ce7788d18c8dac
-SHA256: 35a216bc452d67e8d745c3d38d98c6fdf761aaf5e65dc32c2195fa8e3290c2f5
-SHA512: 06639d2e864b8c0d0d2781be24b7a747a4548213bf1b3d361eadd0352a6f3bc372ea6792f3bcaeed70f9b584d0265307444140ad96dc90ec1e8408d4f81d1da6
-Section: 插件
-Description: Customize and automate your lock screen.锁屏增强，界面显示通知视图等等，搬运工源已汉化，自行体验！
-Name: Arise锁屏增强-Rootless
-Author: EthanRDoesMC
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -22643,6 +22490,23 @@ Name: 爱锋助手
 Author: appku
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/appku/js.json
 Icon: https://axs66.github.io/pro/icon/wechat.png
+
+Package: com.apple.DocumentsApp
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Maintainer: 半生年华
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: debs/com.apple.DocumentsApp_1.0_iphoneos-arm64.deb
+Size: 3742
+MD5sum: 74e073684c5853dacd0a09078b9c03bf
+SHA1: dff3cfad5d813467dd65c4487b0b9f951d7a9e9a
+SHA256: 164bd55c53b0b55fcbdcd4476a77cb281dbcc977b5e82987b3f58a349b5ea8c6
+SHA512: 3590228adf5313b525f1f04d94182983821a5081a4b6c200abf4f285a293841a7ad234915077d57cc45cb32ce606514221198533a3d285a8d01d591e038c4d7b
+Section: 插件
+Description: 文件去横线 去除底栏
+Name: 文件精简
+Author: 半生年华
 
 Package: com.aronsz26.lockscreenrestore
 Architecture: iphoneos-arm64
