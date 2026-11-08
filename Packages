@@ -22135,6 +22135,23 @@ Depiction: https://t.me/wxfx8
 Name: 82Crack
 Author: CBZ
 
+Package: com.Capsula.wechat
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.Capsula.wechat_1.0.0_iphoneos-arm64.deb
+Size: 13702
+MD5sum: 89eed6f42223431d50c1347b0d93140c
+SHA1: 72ce6a21782526c416635040f3af726201d6dba6
+SHA256: e4cae0785ae8c3d2da9e3c54369acfc8d041bb9deef912edbc36da3d03112ff3
+SHA512: cf13bc15b75d5c611342aede51fb29343c26d278087c78144c36614f218f05001f4ab14e078e321518ee520cab063443e3ae80b23a128d3451f5024850e5754b
+Section: 插件
+Description: 微信群名玻璃胶囊设置 在群聊聊天页双指长按可调出弹窗
+Name: Capsula
+Author: 半生年华
+
 Package: com.Doki.kbstyle
 Architecture: iphoneos-arm64
 Version: 1.1
@@ -22190,6 +22207,40 @@ Name: 黄白助手
 Author: HuangBai <QQ:1343309363@qq.com>
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/HBWechat/js.json
+
+Package: com.HalfLifetime.tongz
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.HalfLifetime.tongz_1.0_iphoneos-arm64.deb
+Size: 4018
+MD5sum: f996b3e59dae174a268ad3e1937556ed
+SHA1: 0e89d885348429758066167cfca2a85899bdcdaf
+SHA256: 27fd3fa5f964a54022c1363a8555cf1c0ac2018fe91f4401809dbc3e97e47100
+SHA512: 3e694259921e761b4f75e1bc6b29d23828ed919d03320a3220fee453f7bd211d28e567997ab83e9475054b3cc1600d3e97fac436c1007953419dfcebb86ab81e
+Section: 插件
+Description: 单指双击清除通知。qq172942805
+Name: 单指双击清除
+Author: 半生年华
+
+Package: com.Hengxian.dj
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.Hengxian.dj_1.0.0_iphoneos-arm64.deb
+Size: 3552
+MD5sum: a55b738a160d82ecea47816e5c79c504
+SHA1: 54456ad6f6048ef1d9296831f10677efba6d7318
+SHA256: 7c9985d331fa2f287f2690e3731951269b98c070de6fddf8c521576824a4aae6
+SHA512: c1ab0e9831a4ac03fba197a66d4b4845a04a31e7a231522ae2ebf975b154d9fdfd9839e4c3c442b424beb8fdefc5b890987d7f09d6fa4a13d4f55699c25b3d04
+Section: 插件
+Description: 去除分享页面的所有软件横线
+Name: 去除分享横线
+Author: 半生年华
 
 Package: com.MenuSupport.zh-hans
 Architecture: iphoneos-arm64
@@ -22506,6 +22557,108 @@ SHA512: 3590228adf5313b525f1f04d94182983821a5081a4b6c200abf4f285a293841a7ad23491
 Section: 插件
 Description: 文件去横线 去除底栏
 Name: 文件精简
+Author: 半生年华
+
+Package: com.apple.mobilecal
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Maintainer: 半生年华
+Installed-Size: 80
+Depends: mobilesubstrate
+Filename: debs/com.apple.mobilecal_1.0.0-1_debug_iphoneos-arm64.deb
+Size: 5262
+MD5sum: 72c89b97665e35a98fcaecad9515de40
+SHA1: 9e31665c624710cff67ff3f4123489e6f4726d50
+SHA256: f3e49fcdd608cf7c519eec5c7af10bdea04cf20beea0bfe24db7cdb067519a42
+SHA512: 2236cef52ca72370f8d5727ba69b646e1a34d54e494e18718213147ca08376d06ac96740e713fede9da43513a04144bea14662da3d628ccb5fbb01701f5b9acc
+Section: 插件
+Description: 日历去横线
+Name: 日历去横线
+Author: 半生年华
+
+Package: com.apple.mobilenotes
+Architecture: iphoneos-arm64
+Version: 1.0.0-2+debug
+Maintainer: 半生年华
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: debs/com.apple.mobilenotes_1.0.0-2_debug_iphoneos-arm64.deb
+Size: 3550
+MD5sum: c5b24900dc26821df37d9392f3bd7643
+SHA1: 90b6f84f6248f504d7adf9f49fd2f7e7a934cbf5
+SHA256: 640f0b7c9c84345d774b13c7652beb2505440c3f43512b532167e0fc66062d23
+SHA512: 54ca4f0f8dd810cba7ce70c0c49c6caf5cb0ffd83d9867721ba4d0b2891ae9888392ae167490214da1043b3500a6859dc126ff3c402bcdcf0762e5921f8c84a6
+Section: 插件
+Description: 备忘录去横线 滚动条
+Name: 备忘录去横线
+Author: 半生年华
+
+Package: com.apple.mobileslideshow
+Architecture: iphoneos-arm64
+Version: 1.0.3
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.apple.mobileslideshow_1.0.3_iphoneos-arm64.deb
+Size: 6692
+MD5sum: 6df696194f97faf6af0292938ead9e88
+SHA1: dd337083c48637a7185d2e37a5237f07e1c95d6a
+SHA256: b97b1af1194f321b2c0832e7ba91e395363f39d03231cb19f66419b7771a4370
+SHA512: 1ec8bdb56913f835ffebdbdac1e84e3fd5c96ea268cef5613f2c8e7a116b332c6828dc3ec83df474093ce43cc58bb4f6662f2ecdb295235a43c377bb91506f92
+Section: 插件
+Description: 照片点垃圾桶就直接删除 删除的照片想恢复直接点恢复 不需要弹出确定框 底栏优化 把页面内的横线去除
+Name: 照片简洁
+Author: 半生年华
+
+Package: com.apple.MobileSMS
+Architecture: iphoneos-arm64
+Version: 1.0.0-2+debug
+Maintainer: 半生年华
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: debs/com.apple.mobilesms_1.0.0-2_debug_iphoneos-arm64.deb
+Size: 3604
+MD5sum: 64e3d7989a82ab1f6cf52ef878788846
+SHA1: 3fd55e56e381ac5e78d1e6bf192b0eab4c903821
+SHA256: bf9223a3faec621e81adca23498bfca4166e216f439c7bcf173728c847fd09c9
+SHA512: 96a7342dc91b16072cfbad837785ce731043412071233e21ce0899b12482ae1b2368f091ae12e8d5affe0ffcb405d2bfbaaa2db8dde0b0b69f29b9328791dfd2
+Section: 插件
+Description: 短信去横线
+Name: 短信去横线
+Author: 半生年华
+
+Package: com.apple.mobiletimer
+Architecture: iphoneos-arm64
+Version: 1.0.0-1+debug
+Maintainer: 半生年华
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: debs/com.apple.mobiletimer_1.0.0-1_debug_iphoneos-arm64.deb
+Size: 4740
+MD5sum: 157c01de6283041bd3231efbc87fc4a3
+SHA1: 083a105968460825f866bfeaa8477736df337e94
+SHA256: ec43e85b6431b40dd8e423c5b47bf8e97d8a5bb2889135f7caa9736b36c91a33
+SHA512: f2ec78634f897394bd3b9a5ca5548fef510df0eb71dff15832f4bb7719da86c0c8d887407ec99e6373bc759f02ad2365ed281000b60587aab1db4c9dee3ddb2d
+Section: 插件
+Description: 闹钟去横线
+Name: 闹钟去横线
+Author: 半生年华
+
+Package: com.apple.reminders
+Architecture: iphoneos-arm64
+Version: 1.0.0-2+debug
+Maintainer: 半生年华
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: debs/com.apple.reminders_1.0.0-2_debug_iphoneos-arm64.deb
+Size: 3656
+MD5sum: 3484af6f689f88a3667715c41a13333b
+SHA1: a470c05c2da0576b51019ea647378297d4e21582
+SHA256: 19205bc09c605a01e2d334897c8316691522f176045ba5f85e8baa493b7b4ce6
+SHA512: efef8f0b0ca95fd9897df0495f5242b10eeb02e09b5095508255e5452ee5ec789a63e045f1b975465229319407c18123d019e104041def8150fd582f7565e13e
+Section: 插件
+Description: 提醒事项去横线 去滚动条
+Name: 提醒事项去横线
 Author: 半生年华
 
 Package: com.aronsz26.lockscreenrestore
@@ -23489,6 +23642,23 @@ Description: Ultrasound 简体中文包(rootless)。
 Name: Ultrasound 简体中文包(rootless)
 Author: Ball <ball@hackcn.net>
 
+Package: com.ban.mydock
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.ban.mydock_1.1_iphoneos-arm64.deb
+Size: 5068
+MD5sum: 400f93263e34616a56b3fa8cda4f4a1e
+SHA1: c5c9c90cba81ba9789b79f6c6037bebb28a6274a
+SHA256: 6864a6cfb751338e12e2c3a1c338df6f8a885bcebeb4fffdf6b5b5819e58bfc1
+SHA512: 474136d4fa8c37d8ad148dad30fed43b33a1038575a4143bcd1cee5d1b156269024e6819395f6a803038b8fc5ab92788b893890c8bc0b7deb26345a496b10224
+Section: 插件
+Description: 键盘增强 自用
+Name: MyDock
+Author: 半生年华
+
 Package: com.ban.mydocks
 Architecture: iphoneos-arm64
 Version: 1.0.0
@@ -23552,6 +23722,23 @@ Name: NeoFreeBird BHTwitter
 Author: NeoFreeBird
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/BHTwitter/js.json
 icon: https://TrollStoreX.Github.io/sileodepiction/BHTwitter/icon.png
+
+Package: com.bansheng.nolinephone
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Maintainer: 半生年华
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: debs/com.bansheng.nolinephone_1.0.1_iphoneos-arm64.deb
+Size: 5192
+MD5sum: 728797487fd8e3949dad55fde46af1bb
+SHA1: b0f730108ac7572c584ebfa0cd118cffc241ab24
+SHA256: e043bddea784f230bfc8904216ca394b449ea426cae34d93a8b43a2451f0b611
+SHA512: 23a4f9bc4efa3a7a9ff5e19e70741dd2a03309cb134dc950dff4ebf64c34e1e4d5d2e85c3711e35b20b2bfc3c79dfda9cae11a782c23a2a76a33d2b5c6dd2b89
+Section: 插件
+Description: 完美去电话的横线 去除滚动条 包括同款插件去不到的地方 去除个人收藏语音留言
+Name: 电话精简
+Author: 半生年华
 
 Package: com.be-huge.floating-view
 Architecture: iphoneos-arm64
@@ -23993,6 +24180,23 @@ Author: choco
 Icon: https://TrollStoreX.Github.io/sileodepiction/Telegram/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Telegram/TGExtra.json
 
+Package: com.clipTools.tewak
+Architecture: iphoneos-arm64
+Version: 1.6
+Maintainer: 半生年华
+Installed-Size: 676
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.clipTools.tewak_1.6_iphoneos-arm64.deb
+Size: 75292
+MD5sum: e699114a3da2e6bfd0b194438e6b2852
+SHA1: 863b25c19faaa60ebaff536f485c752e3dbcc3be
+SHA256: 4dc19362fddd8a913fac007b7a582469d344384d61e6a31fc1d06b5d7551e0b4
+SHA512: 8cb022b07bb736ab9fdd6999ecc631a62ac8583a920938d71c473d8a427b2d8ec9cb08c921e004748e55436cb9f245b6f1098fed7f64feff82ad5e16a1720248
+Section: 插件
+Description: 极简剪切板 一切从简、最多支持500条历史记录。
+Name: ClipTools
+Author: 半生年华
+
 Package: com.cokepokes.libnotifications
 Architecture: iphoneos-arm64
 Version: 0.3-5
@@ -24310,6 +24514,23 @@ Name: Bottom-x 小白条返回
 Author: Color Black
 Icon: https://TrollStoreX.Github.io/sileodepiction/Bottom-x/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Bottom-x/js.json
+
+Package: com.colorfulclouds.minimalui
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 半生年华
+Installed-Size: 304
+Depends: mobilesubstrate
+Filename: debs/com.colorfulclouds.minimalui_1.0_iphoneos-arm64.deb
+Size: 49818
+MD5sum: 0bde5bf068da71d1ef12b26b9810e15d
+SHA1: b390066782b4abcdd91b0f97cf8f683638a33b8e
+SHA256: d7cd27124bfbd591fd5f342925c941f8d6b4969f206315518745caa9d13ddbc7
+SHA512: c88e65966b362fc93d5f79a04c33dae2e2435489f4b9f7371770140fcfab72764c9d36f31a2e4e25b2de9284b18c31f68e7e8217a0d4accddbe9ed5cd5e2420d
+Section: 插件
+Description: 彩云天气纯净首页 UI 双指长按
+Name: 彩云UI设计
+Author: 半生年华
 
 Package: com.cracklock.7513
 Architecture: iphoneos-arm64
@@ -27650,6 +27871,24 @@ Author: dylv
 Icon: https://TrollStoreX.Github.io/sileodepiction/Liquidass/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Liquidass/js.json
 
+Package: com.dynamicx.tweak
+Architecture: iphoneos-arm64
+Version: 1.4.8
+Maintainer: 半生年华
+Installed-Size: 1628
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.dynamicx.tweak_1.4.8_iphoneos-arm64.deb
+Size: 185030
+MD5sum: a506cb83a2bc27ace18459642a2d5f7a
+SHA1: ba57befccbf54ff389204d7a385cb9db0113f3dd
+SHA256: 25c39e3bcf50c6c1c24487c47d37d410b032af9dd009dc8575cfc6b71ca2c9c0
+SHA512: 78c228d6e011641394f2ff2808a95623adb62ecf7f052d82641d6c9cbd909766fd3d3bd614db04665e249c5273ac36606e3af0a2161d53554d0c464358024223
+Section: 插件
+Description: 万物皆上岛
+Name: DynamicX
+Author: 半生年华
+Icon: https://abc07968695-a11y.github.io/Sileo/DynamicX.png
+
 Package: com.edge.siri
 Architecture: iphoneos-arm64
 Version: 3.1.1-9
@@ -29467,6 +29706,23 @@ Description: Faster iOS animation.
 Author: Hoangdus
 Name: Speedster
 
+Package: com.hong.teleprompter
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 半生年华
+Installed-Size: 204
+Depends: mobilesubstrate
+Filename: debs/com.hong.teleprompter_1.0.0_iphoneos-arm64.deb
+Size: 16596
+MD5sum: 42671af51e6a7b9397832e42fea37135
+SHA1: 4efe70c40a9d3bd5571a8891b451790c1eeb7228
+SHA256: ea2a56d1566d6eca8818745034d8dfa6f6695f5199b51fade8909c0bf2624b4f
+SHA512: 13e8ccfef0a321e52332b720d9c781a568313cfb2052aa53e12fb2a868fa9624c1df17e6b2aab5bd0db3d40335bc8c9df5c3d9e17dc64f650cee1bf34b5d5efa
+Section: 插件
+Description: 红果自动保持1080p妈妈再也不用担心需要自己调整了 双指长按
+Name: 红果增强
+Author: 半生年华
+
 Package: com.huam.wcenablecleanorigmsg
 Architecture: iphoneos-arm64
 Version: 1.0-2
@@ -29855,20 +30111,71 @@ dev: mlgm
 Icon: https://mlgm66.github.io/icon/pullover.png
 
 Package: com.hx.120
-Architecture: iphoneos-arm64e
-Version: 2.2
+Architecture: iphoneos-arm64
+Version: 2.0
 Maintainer: 半生年华
-Installed-Size: 72
+Installed-Size: 168
 Depends: mobilesubstrate
-Filename: debs/com.hx.120_2.2_iphoneos-arm64e.deb
-Size: 6020
-MD5sum: f8cdf665bf45e46a18f377da3d456b1c
-SHA1: 4d49b0a1f54f82b6f81809fdaf5bdabe584970ce
-SHA256: 9cc469193bf5e8f5b73fbf21ce4f0c2d2036dbccc6e7040f9dd56f1f79c797fb
-SHA512: 4baed6278b71e69fef7b22e632105deea6ccb56f287d40a0b2878aa770af57b56bed2221a66845c00e88523b421fc65439b6d5b19defe094d4f02111e727338a
+Filename: debs/com.hx.120_2.0_iphoneos-arm64.deb
+Size: 4970
+MD5sum: cae4ea22bb967a99ab791cba4925efaa
+SHA1: e3c79e88aa205084c123e5ef8ea7553c6946d1d0
+SHA256: fec635eb988948923fe247ad2e05b3cbf5f53310dee7d96e8955fa275d75742f
+SHA512: 4d27bb03091c554345968f058912afd49192eccd608e2c5f7a93de00309a21c1ef60f46314860de6d0c16ec12836f9a3eb83a7ffc561ca9770c13a6a4abfa2cc
 Section: 插件
-Description: 满血120赫兹、qq172942805
+Description: 满血120HZ，qq172942805
 Name: MotionX
+Author: 半生年华
+
+Package: com.hx.Flashlight
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.hx.Flashlight_1.0_iphoneos-arm64.deb
+Size: 3180
+MD5sum: e0533d6656703ab5f8ab3cb88134db3d
+SHA1: ae8d1945c2b2961cd187a7c33fbab96fcf7962fd
+SHA256: 24c818823a46acb31e266c8a250c77d216c5d74250fcf249cb781816d8cb6e96
+SHA512: d402d6d1af0e8b95b39423ccd727a16bd8ea2f5c39f03318680b43ada5ec556b44d60dd82e6bb992d357e54279ba52eea617353fa2465bf686b69469e8efcad1
+Section: 插件
+Description: 长按电源开手电筒。
+Name: 长按电源开手电筒
+Author: 半生年华
+
+Package: com.hx.shihua
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.hx.shihua_1.0_iphoneos-arm64.deb
+Size: 3156
+MD5sum: 4bababa66798859d7abdd04205e97240
+SHA1: 257d00c246ecc434eebcbb32186b7aa41581c39a
+SHA256: 9ebb226091700d1968c7aa1d959afe51149203be81c80ee5539841acd4e78e55
+SHA512: 5f07674551b50668a4cdf15c3a453e9990c41cc031ccc58374d85c12e5e96dee3f59fd1fb37d5074222ad0570d4b9946bbe866fd6a81b3fdb937a2f7bb8e57a5
+Section: 插件
+Description: 光标丝滑。qq172942805
+Name: SilkCursor
+Author: 半生年华
+
+Package: com.hx.wn
+Architecture: iphoneos-arm64
+Version: 1.0.6
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.hx.wn_1.0.6_iphoneos-arm64.deb
+Size: 11480
+MD5sum: 10e44da262ebdb45f321d51fd0c5293d
+SHA1: d9c3410f445b49f44733b549c44fa49c42b9bfbe
+SHA256: 0bf696f33c05042a231ed8fd46e6d7e0a83b9068a2ffe07980b5de5afb2d3694
+SHA512: 001aa7d60246ab5406ed76e658e289c88e14fa6b99e34e4ae6f015315f73d1ae1c6cc0af01bf7b332723cbdd8daded5d8709da9992fa66466e03e7c9f5311138
+Section: 插件
+Description: 去除系统自带软件的横线 电话、文件、相册精简了页面。把全局分享、弹窗横线去除，如果有更好的想法，qq172942805
+Name: AllInOneNoLines
 Author: 半生年华
 
 Package: com.iamdega.uiscroller
@@ -29926,6 +30233,23 @@ SHA512: c373f7e8dbdd89f6a12322577effc29ed8a02fe0030a99741dfbb2936efb34d8bb549f6a
 Section: 插件
 Description: On-device iOS control CLI
 Name: icli
+
+Package: com.iclick.teleprompter
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.iclick.teleprompter_1.0.0_iphoneos-arm64.deb
+Size: 5076
+MD5sum: aa71c1d5d7522f02032db4ed047ef08a
+SHA1: bb64d02c6b6ae173e1d5d0383ac335d7076d4867
+SHA256: beea76c61e5b2c307a821ae4f3bb66c1f9b1e0527440522ffcdf8c15479a6fb7
+SHA512: 254731bac4eaed2ec3a46cfdfcaf5b8bacf2a5b535974fd419e01092af6289a7882075da3033ff91963140bc2de091810acbe3a294e39aca615c95b6b78dc5e2
+Section: 插件
+Description: 快题词去开屏广告 精简首页无用功能 测试版本：5.1.3
+Name: 快题词精简
+Author: 半生年华
 
 Package: com.icraze.complicationsfix
 Architecture: iphoneos-arm64
@@ -30704,6 +31028,23 @@ Author: Unknown 佚名
 icon: https://TrollStoreX.Github.io/sileodepiction/repo_pic/kuan.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Kuan/js.json
 
+Package: com.kugou.kgyouth
+Architecture: iphoneos-arm64
+Version: 1.0-1+debug
+Maintainer: 半生年华
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: debs/com.kugou.kgyouth_1.0-1_debug_iphoneos-arm64.deb
+Size: 16884
+MD5sum: d827c61f03f2142c5f737851c3b571c1
+SHA1: 50f71190e37ca34a06f5186af9b494a77b077a83
+SHA256: 739193eaa6b423ee80a7cb77e865f5372777b9af62d8ec80df4fd9ed45fa1021
+SHA512: 9c4f197d92ec6d3043b846431ab45630dfb9a0de4233758707187b02cedaffd6e6c7b0e929f71e2c53eba0fa36021ca04653fc428c893105c1f98db173bccfc4
+Section: 插件
+Description: 酷狗概念版极简页面 用了直接舒服自用 双指长按可调出大专辑的显示方式 适用版本2.5.6
+Name: 酷狗极简
+Author: 半生年华
+
 Package: com.layii.ccrnd
 Architecture: iphoneos-arm64
 Version: 0.1.0
@@ -31131,6 +31472,23 @@ Author: Ruphane
 icon: https://TrollStoreX.Github.io/sileodepiction/WherePlay/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WherePlay/js.json
 
+Package: com.local.OrientationLockIsland
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 半生年华
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/com.local.OrientationLockIsland_1.0_iphoneos-arm64.deb
+Size: 11500
+MD5sum: 11292fb93bad64464757a928c7c8c909
+SHA1: daeba1af8fe0f55879c5af9293c945d6e90092ad
+SHA256: 6accb0dfb123e00808925092a31029bbefa47062ac8ae55ee6242f6ec8718b06
+SHA512: 5043f0570049d289bdc22967d9a352709a3892539a8dea9a721f72931523ea6ba66c26e2defac546c8c9a9df46fdf85f5a0784f221087b2f4a48bd4a5a010aa8
+Section: 插件
+Description: 锁定方向上岛
+Name: 锁定方向上岛
+Author: 半生年华
+
 Package: com.local.activationsuppressor
 Architecture: iphoneos-arm64e
 Version: 1.1.5
@@ -31164,6 +31522,41 @@ Section: 插件
 Description: 状态栏左右耳朵手势：单击/双击/左滑，刘海灵动岛触摸忽略，下滑透传兼容控制中心插件，分区独立配置+黑名单。rootless 适配。
 Name: 我的手势
 Author: yzdmm2024
+
+Package: com.local.temperatureislandstandalone
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 半生年华
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.local.temperatureislandbridge, com.local.temperatureislandbridge2
+Filename: debs/com.local.temperatureislandstandalone_1.0_iphoneos-arm64.deb
+Size: 11736
+MD5sum: 283337af7e22b4d222452a49e7c4e880
+SHA1: 043defe969d2e1696a8027bf31731b44d037600a
+SHA256: ca3657aeff1967524efb0433b033b73b485edae33a9b03a3aa91dc1d76abe0f7
+SHA512: af379aa9c20f608e37b55b5f16e72a53c66a356928336b12f5b2e8c20812238e6b1614e2c7b5525d0607eedc30a1d7aa218e857fb7ff561ccfd9cb3156973658
+Section: 插件
+Description: 当手机电池温度到了40度会有一个温度计的标识上岛提醒 120秒下岛或者温度低于40下岛
+Name: 温度上岛
+Author: 半生年华
+
+Package: com.local.tongz
+Architecture: iphoneos-arm64
+Version: 1.1
+Maintainer: 半生年华
+Installed-Size: 188
+Depends: mobilesubstrate
+Filename: debs/com.local.tongz_1.1_iphoneos-arm64.deb
+Size: 22422
+MD5sum: bedf9f009244c98d14a8132f7066f749
+SHA1: b768209b0795f1e6d9583000941650893b000f3e
+SHA256: 3f05d663475ad2b266ea9c6d47bf2fb4e9b16f8c7ee538230b7803373c177156
+SHA512: 319aba39f1f96397f673f2fc3615bb4824a3fdf1fb42c0863e00f858dd0291322f60aacf296f94ffa3458a73c5417224d5a1f377c687ff15442bccf74f364659
+Section: 插件
+Description: 通知上岛
+Name: 通知上岛
+Author: 半生年华
 
 Package: com.lxcloud.wcehances
 Architecture: iphoneos-arm64
@@ -34458,6 +34851,23 @@ Author: SquidForce
 icon: https://TrollStoreX.Github.io/sileodepiction/HideNotificationBadge/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/HideNotificationBadge/js.json
 
+Package: com.stayshot.vvv
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.stayshot.vvv_1.0.0_iphoneos-arm64.deb
+Size: 3660
+MD5sum: 096b410a8184672e774c052c4358fcb8
+SHA1: 3b87cdf9eaf068bec8f9159ef814939f77417da4
+SHA256: f996af3271516f7a66009df5116fafaf61e308d59705cdd409275dec88e44bd4
+SHA512: 3eed9372b5b278181de31081844811402a4d58b4373eb68c51b1177fb0462c46856412da20e94f2050598a50c5025f770a4bb2acfd89a39ef6cf33e1f8e19007
+Section: 插件
+Description: 音量减调出snapper或者StayShot的冻结模式
+Name: SnapperVolDown
+Author: 半生年华
+
 Package: com.storeswitcher.appstore
 Architecture: iphoneos-arm64
 Version: 1.0.6
@@ -35026,6 +35436,40 @@ Author: Tomasz Poliszuk 来了老弟
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: tomaszpoliszuk 来了老弟
 Icon: file:///var/jb/Library/PreferenceBundles/HomeScreenQuickActionsSettings.bundle/icons/HomeScreenQuickActions@3x.png
+
+Package: com.tongtongsuo.app
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: debs/com.tongtongsuo.app_1.0.0_iphoneos-arm64.deb
+Size: 6710
+MD5sum: fa65e62abd7541215f9b9904fcc5afea
+SHA1: 493409663fe1ba462bc09d5aff719619f9b70ea4
+SHA256: 8fb29cea8e9e8674158a79fcc78b7111ba796c62b0b3f9afb5c3e5b72024ffca
+SHA512: 7a964544fd82586e026572427eedb7f1a7a794b44ba702dd2007cf12c5f14eec556c3c65a03fb39d48e3de989522aa06c332bd3fd1ae17e3e84641dc2e58cc69
+Section: 插件
+Description: 通通锁去广告 加自动到开锁页面 并且给你开锁 达到点击软件即开锁的效果 测试版本：9.8.260710
+Name: 通通锁速开
+Author: 半生年华
+
+Package: com.tq.weather
+Architecture: iphoneos-arm64
+Version: 1.0
+Maintainer: 半生年华
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: debs/com.tq.weather_1.0_iphoneos-arm64.deb
+Size: 3184
+MD5sum: 58b4a295e2097bd15a551f6c6d819703
+SHA1: 23e70e79e67ed14b4b17c86c3030828f3d561ff1
+SHA256: 807a2b82d83a785bb8b5b094d3c1b8882f5728a368f91fa877a0e2a9983d1a7b
+SHA512: 8ef9d68a90c5b7e47dc7ac490683f3f2df9b9d09e9735803a68a81a69b2c9bf0ca25ac4a46c0640c9bb7fca63403f8b473368e0287071d92fd2a47e326f3026a
+Section: 插件
+Description: 酷友要求做的天气去横线
+Name: 天气去横线
+Author: 半生年华
 
 Package: com.trifecta.akara
 Architecture: iphoneos-arm64
