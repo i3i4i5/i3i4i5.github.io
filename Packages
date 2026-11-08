@@ -37595,6 +37595,26 @@ Name: 闲鱼助手
 Author: junhong
 Icon: https://apt.mjh.im/assets/im.mjh.xianyuadblock/icon.png
 
+Package: com.bazik1337.ios2627anims
+Architecture: iphoneos-arm64e
+Version: 1.4.7
+Maintainer: bazik1337
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.bazik.codexgenie27, com.bazik.genie27
+Replaces: com.bazik.codexgenie27
+Filename: debs/ios2627过渡动画_roothide.deb
+Size: 32272
+MD5sum: e7ae48f6b779c9ce1d55ad869ef4aedc
+SHA1: 0dc38a7e260554f08f2f6c1924e7624d5fad042b
+SHA256: 4cb89749e67f4dfacd6873868853268d8c389cb28253f722b880c8fa06b1fc2f
+SHA512: 5cd089969437d4cc2a30852d4d34da1b8d9fd89697498c158f3b1f71979ccc4313b1cc516ecf797734605a6a371aa093f6951a3dce5a7aec11212764c55488ff
+Homepage: https://t.me/ba31k_tweaks
+Section: 插件
+Description: 仿 ios27过渡动画
+Name: ios27过渡动画
+Author: haoge修改版-bazik1337
+
 Package: iosios.net.no2theft
 Architecture: iphoneos-arm64
 Version: 1.2
