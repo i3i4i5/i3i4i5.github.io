@@ -795,25 +795,6 @@ Author: Acreson
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: acreson.rootless.cj.dockpadrl
-Architecture: iphoneos-arm64
-Version: 1.1
-Maintainer: 搬运工
-Installed-Size: 136
-Depends: mobilesubstrate
-Filename: debs/acreson.rootless.cj.dockpadrl_1.1_iphoneos-arm64.deb
-Size: 3868
-MD5sum: e64bdce7bee353d711c6118e6307280b
-SHA1: 2bba954aaffb17c43ea4c4b6ffed1872dd3f6839
-SHA256: 73cf6b6847751ace972432709610ff4e60c289f5fe5dca66e5d123bc86644558
-SHA512: c1a2562bcadc0487ee847bfda654aa708055a37c1ceaaad6124500c2c7c690f900401db61ab39f034c390715169a9a04b04b5c82711ad79191264fa5c24ca5d6
-Section: 插件
-Description: iPad的dock栏
-Name: DockPad -Rootless
-Author: 34306
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
 Package: acreson.rootless.cj.gestures15full
 Architecture: iphoneos-arm64
 Version: 4.0b1-1
