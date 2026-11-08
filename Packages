@@ -1581,26 +1581,6 @@ Author: PoomSmart
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: byg.iosios.net.ampere
-Architecture: iphoneos-arm64
-Version: 1.4
-Maintainer: 搬运工
-Installed-Size: 604
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
-Conflicts: com.hk.ampere.cn.rl
-Filename: debs/byg.iosios.net.ampere_1.4_iphoneos-arm64.deb
-Size: 159016
-MD5sum: 481bdd080c7a680dad100df21f52072d
-SHA1: b31af2fd40d01e29d9c86911290106c0ffb37ea5
-SHA256: 23e068ab440eb9dea390ca749420d0ddfc6b644e77d899b4b1e235680c4718bc
-SHA512: 422ea1418ffcf3ca62312bf6866711bacfd9687676c44620bbf2cb5fa3faf5f0e92c8fe72f08343aaf422a3b21c600b06c6c7501808f3b8b3822b35d17215b92
-Section: 插件
-Description: iOS 16 Style Battery Indicator一款模仿iOS16电池的插件，也可以更改电池的填充颜色，还不错，免费插件，需要的小伙伴们可以下载！已经汉化完成！
-Name: Ampere电池美化-Rootless
-Author: MTAC
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
 Package: byg.iosios.net.anouk
 Architecture: iphoneos-arm64
 Version: 1.2
