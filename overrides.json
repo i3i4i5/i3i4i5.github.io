@@ -162,5 +162,9 @@
   "sileo汉化配合隐根直接安装插件arm64e.deb": {
     "name": "sileo汉化配合隐根直接安装无根插件",
     "desc": ""
+  },
+  "ios2627过渡动画_roothide.deb": {
+    "name": "ios27过渡动画",
+    "desc": ""
   }
 }
