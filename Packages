@@ -30496,15 +30496,15 @@ Icon: https://i.imgur.com/uFWkBXD.png
 
 Package: com.icli.icli
 Architecture: iphoneos-arm64
-Version: 0.10.0
+Version: 0.11.0
 Maintainer: icli
 Depends: firmware (>= 15.0)
-Filename: debs/com.icli.icli_0.10.0_iphoneos-arm64.deb
-Size: 1120476
-MD5sum: 1f2bd751e9b7be5866e436cf99e412c8
-SHA1: 06468d37cbfa1a7cf10ffe185683a114c901e1bc
-SHA256: 7dd20c99e9105c4427c5a021ea1ff25fb20395d96309e86ecfece82006d57a0f
-SHA512: faf87bd3faf82065a254a7ad17b5129823cbf583ba7bfc7408ac8379ace992b177371a1b5f4310d75efec5204de4637cadd6c6cccb1d13fec58e807aeb84a824
+Filename: debs/com.icli.icli_0.11.0_iphoneos-arm64.deb
+Size: 1147244
+MD5sum: fdd4aae885b7cd123bdb3898dae8f508
+SHA1: 4d064019edefba072b537e645e612d15d657134e
+SHA256: d2132555e92f8c9e45731b8d71875522be5bb13b89da32499f62dca720d3582e
+SHA512: c373f7e8dbdd89f6a12322577effc29ed8a02fe0030a99741dfbb2936efb34d8bb549f6ae2d0fe19f6984cee4a3a4131249a42f7fdb98d984bc133e001725825
 Section: 插件
 Description: On-device iOS control CLI
 Name: icli
@@ -33610,24 +33610,22 @@ icon: https://TrollStoreX.Github.io/sileodepiction/opa334/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/opa334/js.json
 
 Package: com.opa334.libsandy
-Architecture: iphoneos-arm64e
-Version: 1.1.3-3-1+debug
+Architecture: iphoneos-arm64
+Version: 1.1.6-4
 Maintainer: opa334
-Installed-Size: 416
-Conflicts: ws.hbang.stopcrashingpls (<= 1.0.2)
-Filename: debs/com.opa334.libsandy_1.1.3-3-1_debug_iphoneos-arm64e.deb
-Size: 20938
-MD5sum: 2bebfa31a375f2acf58d0dc2448fc6a2
-SHA1: 2af651cb9aa64dbac977b31121843a6b3c0f992b
-SHA256: 9516e1b424d0b484637f1a7effe386e263f8f668a25e49a1ccd569803f8fc401
-SHA512: 5e3c031cd9c1a26ca37a156078bbdaa91461258539f0726fd617c4946c8a8f011003de28fdbdd6d97419d2b49e8e70ed2c6746705393deb9949a4b1bd8c0b250
+Installed-Size: 420
+Filename: debs/com.opa334.libsandy_1.1.6-4_iphoneos-arm64.deb
+Size: 18154
+MD5sum: f0910991262882d4ffc0b60a5dcc191b
+SHA1: ce71d90d0165ee7325683d4465fb271fc98451c1
+SHA256: 568c98650d8b452d68a1f893ec87f02a4f7082848b1abeec80531c4c9d484065
+SHA512: c6f466b1b2ce6357171486d176d930d7a79ea2d8c37071368c8153af12fbd88c96a7255568fd22b3d05dddc6901af7f2f3ea8e2b612d66886b7a4b8d7aee4991
 Section: 插件
 Description: Securely extend the sandbox of system processes and user applications
 Tag: role::developer
 Name: libSandy
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Author: opa334
-Depiction: https://apt.htv123.com/view/476
-SileoDepiction: https://apt.htv123.com/sileo/476
 
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm64
@@ -39399,18 +39397,18 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin.dev.cli
 Architecture: iphoneos-arm64
-Version: 0.1.1
+Version: 0.1.2
 Priority: optional
 Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Installed-Size: 36
 Depends: wiki.qaq.apelin (>= 0.1.0)
 Enhances: wiki.qaq.apelin
-Filename: debs/wiki.qaq.apelin.dev.cli_0.1.1_iphoneos-arm64.deb
-Size: 6004
-MD5sum: baff4c18a9b96aed68f99f0ad52912dc
-SHA1: 89ba7ba0ef45f7ec9b359e697232c83b0f305f77
-SHA256: d7f49891447790f8f388020d685a457bc092da03d1eb0c64ce724b6396868d2b
-SHA512: a092920f97f04c39a59f8c3195a5220a33b88be9ea9e8282c32b3068a39ab2f17dd3e18139da4aa8dec2c1ad49658c9733265ac6d2f3c6ce524359db00e21b6d
+Filename: debs/wiki.qaq.apelin.dev.cli_0.1.2_iphoneos-arm64.deb
+Size: 6096
+MD5sum: ef0dfd0e709017e05e6de0d519e20763
+SHA1: f4c349d5fec7095abd9075070184c276e0f1fb4f
+SHA256: 2250196e094b30a0baea98d9d51caf52033c2433e00c1849ae4a8b400487e366
+SHA512: 4167580fcdb5eabb1040ea7686b99afa93be131f2870b45b2c1829be218a866f03b71e6b1ed10243be13bec8ee61e83b1c2d4b1ead092c4e3c5eecf4a905eddb
 Section: 插件
 Description: Command-line tool templates for Apelin, for rootless jailbreaks
  Lets Apelin create, build and package C and Objective-C command-line tools
@@ -39473,18 +39471,18 @@ Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 
 Package: wiki.qaq.apelin
 Architecture: iphoneos-arm64
-Version: 0.3.4
+Version: 0.3.8
 Priority: optional
 Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Installed-Size: 96260
+Installed-Size: 96764
 Depends: firmware (>= 16.0), uikittools, launchctl, wiki.qaq.irisin (>= 4.7.3), wiki.qaq.fila, wiki.qaq.ighostvt (>= 1.6.19), com.icli.icli (>= 0.10.0)
 Recommends: wiki.qaq.apelin.dev.app, wiki.qaq.apelin.dev.tweak, wiki.qaq.apelin.dev.cli, wiki.qaq.apelin.dev.preferences
-Filename: debs/wiki.qaq.apelin_0.3.4_iphoneos-arm64.deb
-Size: 33106052
-MD5sum: 057b7c130e5b10d14532c2834e923966
-SHA1: ae7433a091ad2f1ca7fcb9e32a17fab7fa323c20
-SHA256: 7bf642a2daa6b90a82b5670b9b69314242e97724404166c08604ffc6bd099789
-SHA512: c3186bd96ef65be26e63b9f12752e3eb707502835b5a3624c4a7499e4074d43f77128318a0c343b929d5c1131320634501e452b86052362f5db2717a896a5a7d
+Filename: debs/wiki.qaq.apelin_0.3.8_iphoneos-arm64.deb
+Size: 33353310
+MD5sum: 61b4d65b80a5f70c3ded3033b66e286d
+SHA1: 22c667cb85d5a64302f07570065162aac6518fce
+SHA256: 4d2238b9552e7b7dc23175a76cc3a392443803827f293c181f01fc9121dcf96f
+SHA512: fc919ab2c43605462f27f2e3ecf67acf92a6165bad92b6d880586c92f3a025ceac9fe88d32fb51c8e634d5439d4adb21c81e3d68590429780ae8dbd959cfa282
 Section: 插件
 Description: An on-device IDE where an agent writes, builds and installs tweaks, for rootless jailbreaks
  Apelin is an on-device IDE for jailbroken iOS: an editor, a terminal and an agent that edits, builds, packages, installs and debugs tweaks on the device itself.
