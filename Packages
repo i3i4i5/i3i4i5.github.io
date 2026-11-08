@@ -795,25 +795,6 @@ Author: Acreson
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: acreson.rootless.cj.gestures15full
-Architecture: iphoneos-arm64
-Version: 4.0b1-1
-Maintainer: 搬运工
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Conflicts: acreson.rootless.cj.gestures15
-Filename: debs/acreson.rootless.cj.gestures15full_4.0b1-1_iphoneos-arm64.deb
-Size: 46778
-MD5sum: d3c9e2e9528ffa2221819e14b2e91dbb
-SHA1: b2f0a309295826abcec1e9d3c637855765d2b095
-SHA256: 8c97c477e6af05999e59db32b87daf7b9cfc92432762d9137081e32eebb334fb
-SHA512: f3ce8c74c98b35b3346454989cae0e0614ae7481dd3e5b9f3d60c2ad84cfb7b409bfc49ebe8dd59ad32a03c644e89bd0b85055e936f614935d27ca3cbada82ae
-Section: 插件
-Description: 给非全面屏的手机提供iPhonex手势和X状态栏，感谢LF分享！如果有问题或者造成安全模式请缷载！
-Name: Gesturesi16FullX手势
-Author: Acreson
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
 Package: acreson.rootless.cj.goodwifi
 Architecture: iphoneos-arm64
 Version: 1.2
@@ -830,31 +811,6 @@ Section: 插件
 Description: 提供已知WiFi密码，更好的WiFi配置，在原有的基础上，1.1版本添加简体中文！更新増强好看的页面和图标，详情看截图
 Name: GoodWiFi-Rootless
 Author: julioverne
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: acreson.rootless.cj.shadow
-Architecture: iphoneos-arm64
-Version: 3.7.6
-Maintainer: 搬运工
-Installed-Size: 1076
-Provides: me.jjolano.shadow.beta
-Pre-Depends: dpkg
-Depends: firmware (>= 8.0), com.opa334.altlist, com.opa334.libsandy, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.substrate, me.jjolano.fmwk.rootbridge
-Recommends: preferenceloader, me.jjolano.hkmodule.fishhook
-Suggests: com.ps.injectionfoundation
-Conflicts: me.jjolano.shadow.beta
-Replaces: me.jjolano.shadow.beta
-Filename: debs/acreson.rootless.cj.shadow_3.7.6_iphoneos-arm64.deb
-Size: 170672
-MD5sum: 6ccbafe49aeb140e8977dede37ab1f47
-SHA1: 62a07cb67293ddeae94dc5cd9fa44f9a25c13d16
-SHA256: 37146909e2b1b7aec2994da5f50b347b80f09b3b489078965ddcdf5121148e73
-SHA512: 0eca1fb3f669f2966937a1fbb4c877fcaddac101c48b3a07678065eab6d66c4bc25ed85d65448cbae1b3424b19445ce46a658387cb8aeedb7836385d8e3b259f
-Section: 插件
-Description: 一款屏蔽越狱插件，屏蔽软件越狱检测。有没有效自行测试，应该是没啥用的！应群友要求，所以上架！
-Name: Shadow屏蔽越狱-Rootless
-Author: jjolano
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -877,49 +833,6 @@ Section: 插件
 Description: Support library allowing tweaks to communicate with sandboxed processes
 Name: RocketBootstrap插件依赖-Rootless
 Author: Acreson
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: app.lookinside.tweak
-Architecture: iphoneos-arm64
-Version: 0.1.2
-Priority: optional
-Maintainer: LookInside
-Installed-Size: 4336
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/app.lookinside.tweak_0.1.2_iphoneos-arm64.deb
-Size: 1455976
-MD5sum: 1040b20e1ff23fa4794b7c0ebbac762f
-SHA1: db73edc47bdffe10843f3a62d0abeefc8a11d27b
-SHA256: efafe3b3028cf7fe4ff5a937420bf09443afe0030cab6dbb6ecc6c6f65c4f0f6
-SHA512: 7431ee48771d91d8c453e73237f80b207e6b9e5ce4c379e292c7164047196e3edf08ad7a0d83e62695270fa2d4842042252d266e68d590ee01bed5a600766c8d
-Homepage: https://lookinside-app.com
-Section: 插件
-Description: Load LookInside Server into the apps you choose, so LookInside on your Mac can inspect them over USB.
- Pick apps in Settings, open them, and inspect their views and layers with LookInside on your Mac. The apps need no changes and no re-signing.
-Name: LookInsideTweak
-Icon: https://lookinsideapp.github.io/LookInside-Tweak/icon.png
-Depiction: https://lookinsideapp.github.io/LookInside-Tweak/
-SileoDepiction: https://lookinsideapp.github.io/LookInside-Tweak/depiction.json
-Author: LookInside <https://github.com/LookInsideApp/LookInside-Tweak>
-
-Package: applist
-Architecture: iphoneos-arm64
-Version: 1.0.09
-Maintainer: 搬运工
-Installed-Size: 780
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
-Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Filename: debs/applist_1.0.09_iphoneos-arm64.deb
-Size: 195598
-MD5sum: 8574bc5522c7ef5475f8b03a88e23f82
-SHA1: cfa29e4a0a6d06f85174604b14b0170762ce794b
-SHA256: cddf59891f8ef9b65daa5b66a3fee5fb8abb51472d46e1653e082f4e604f58c2
-SHA512: a65b55c2f6eb89418754c1c6fcc95f6d75cdee6b60e59f5a49ff0c9afce65b8025de0d98463ff5c3bc608a0a7bc1aac29da66361072829e5bd6b8887a0aab1f0
-Section: 插件
-Description: Allow extensions to read the list of installed apps
-Name: AppList
-Author: Ryan Petrich
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1088,24 +1001,6 @@ Section: 插件
 Description: 安装之后注销，长按桌面图标唤出应用菜单，快捷修复该应用的联网权限！
 Name: 3DNetworkFixer修复联网-Rootless
 Author: Netskao
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.77theme
-Architecture: iphoneos-arm64
-Version: 1.0.8
-Maintainer: 搬运工
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: debs/byg.iosios.net.77theme_1.0.8_iphoneos-arm64.deb
-Size: 7273452
-MD5sum: fe8d251360fb5b17f1b8148abde9b0a8
-SHA1: b2e51422aa3f44d6e45464034674324265a5c4fb
-SHA256: 8fff7e02e547cdaed4365e6911f5eaaded11692f47bc190ecafc05563f2d98b8
-SHA512: 42768b005a333e6657a8dadc758ef176beebbef34d93feafac63621d552d5d8ae3fffa03703f41ca9d8e663b2296a0e4f7b722832dbcbe5254acb872e393b8f3
-Section: 插件
-Description: 又一款微信主题美化工具，主题同样需付费，怎么找免费的，建议你试试微信搜一搜搜微信主题，不要问搬运工源小编，小编也没有，只为给大家带来工具！不造子弹！
-Name: 77Theme微信主题工具
-Author: 77Theme
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1528,44 +1423,6 @@ Author: Baw Appie
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: byg.iosios.net.accdemo
-Architecture: iphoneos-arm64
-Version: 0.2.5
-Maintainer: 搬运工
-Installed-Size: 828
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/byg.iosios.net.accdemo_0.2.5_iphoneos-arm64.deb
-Size: 108426
-MD5sum: bad4609ca481488fe9e4d914c66d9302
-SHA1: a36626794a603814535797c2f29ae32c3dce2c71
-SHA256: 0853eb853837e82c6a8a5f736a7c3b2f05b9501e55d8c61815241c9fcca00b11
-SHA512: 949b730cf1b96b23ca6644c3bcafa438612aad005ad7c75c4c49b3581b6145f8c297608b3613076d6856296315b6668782f343ded9c73bef173e69cc260ee849
-Section: 插件
-Description: Control the speed of your game游戏加速器，会玩的玩，应群友要求，所以上架！有任何问题请缷载！
-Name: AccDemo游戏加速器-Rootless
-Author: Brend0n
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.actionbarreborn
-Architecture: iphoneos-arm64
-Version: 1.1-2
-Maintainer: 搬运工
-Installed-Size: 796
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/byg.iosios.net.actionbarreborn_1.1-2_iphoneos-arm64.deb
-Size: 288686
-MD5sum: b56644a95905e80a892e775af8bfed8e
-SHA1: b32e7d6784fa7d98c13143abdbb9d16144533470
-SHA256: eff8750bf3a63b23230067c853946da36487452fbd5c714d2ce64cfb17d32506
-SHA512: b39b24a60d18c6ae3143f145c2a446a5ed1e91a5810a56ff7466fcbbf9856590175f28cfbdd4c019cca391eddc43ea7b7a248e3c71c1c86ad20cb1555bdc7c7d
-Section: 插件
-Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition键盘增强，增加复制、粘贴、撤销按钮，详情请看截图！可以源里搜索键盘获取更多插件！
-Name: ActionBar键盘增强-Rootless
-Author: Netskao
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
 Package: byg.iosios.net.adkeyboard
 Architecture: iphoneos-arm64
 Version: 1.4
@@ -1582,44 +1439,6 @@ Section: 插件
 Description: Make keyboard color adaptive to app color.键盘颜色根据APP颜色自行调整，个人觉得，呃呃呃 不好看 哈哈哈哈。搬运工源，万古长青！
 Name: 键盘颜色自适应
 Author: Dcsyhi
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.adsspee-rootless
-Architecture: iphoneos-arm64
-Version: 1.1.3
-Maintainer: 搬运工
-Installed-Size: 620
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.yourepo.lenglengyu.adsspeed
-Filename: debs/byg.iosios.net.adsspee-rootless_1.1.3_iphoneos-arm64.deb
-Size: 170900
-MD5sum: e16cae087bdc88eee4949cb5c8d87771
-SHA1: a9d3e2bdf3e18710234233c996664fc8dd9406b1
-SHA256: b3b3d098eead50d92151223df6fdedd1a77bd8e247951b7bf2899aa2b2317903
-SHA512: 6124540c7eabb9de9bdbc1deabac4d80f024873ab196cfe29fa3bdaebdab94ae8bad32c43194d6377e03cc2dc2f07b82500ce9c9c4e5cf612488864a239f44a8
-Section: 插件
-Description: 快速跳过激励视频广告，奖励正常领取。例如微信小程序、抖音小程序等等，桌面图标长按！不一定什么软件都有效，无效就缷载！
-Name: 快速跳过广告-Rootless
-Author: lly
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.advancedbrightnessslider
-Architecture: iphoneos-arm64
-Version: 1.2.1
-Maintainer: 搬运工
-Depends: mobilesubstrate (>= 0.9.5000), ws.hbang.common (>= 1.17)
-Filename: debs/byg.iosios.net.advancedbrightnessslider_1.2.1_iphoneos-arm64.deb
-Size: 48592
-MD5sum: 41bcaec647b4d661ae377e9157052b0e
-SHA1: a6cbda111fff26b96a45c339c41d974fadf6aee9
-SHA256: 43b73db8d53f0c50bcea899a9aa9f341e9b3364793185ece87e291576af72ed2
-SHA512: 2cc887cc79033b29d0dec8ee6784ff6c7c98385d81ffff9b54fbe3932a67177e950e3a69cb26309b8bbc9e673a273eb7a4901d69616a0ad29663ff0066f9cad1
-Section: 插件
-Description: Tweak to dim the screen even further with the brightness slider in Control Center使用Control Center中的亮度滑块进行调整以进一步调暗屏幕，感谢M哥汉化！
-Name: AdvancedBright降低亮度-Rootless
-Author: Jonas Schiefner
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -1702,44 +1521,6 @@ Author: Amy While
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: byg.iosios.net.aestearevived
-Architecture: iphoneos-arm64
-Version: 0.9.2
-Maintainer: 搬运工
-Installed-Size: 1628
-Depends: mobilesubstrate, preferenceloader, firmware (>= 13), com.mrgcgamer.libgcuniversal
-Filename: debs/byg.iosios.net.aestearevived_0.9.2_iphoneos-arm64.deb
-Size: 731244
-MD5sum: ee226f4f641241ea9381dcd107ffd8a1
-SHA1: 439167ade6d80dcfcc85ddccbd809df96328823b
-SHA256: ceae6abed8ea0c6b376b92d513610796ab007fb44c374290c18a0ee2a863bb66
-SHA512: 7376215f3c574897e914ee72eaa0951ecdab5e7239a3b33c36700225e78602118a3a1432e6638e7c2a669732f6ee6efe6d3d81ab484c2cae0f182456512b389f
-Section: 插件
-Description: 该插件的功能是美化一下控制中心插件的里面的图标,例如下图的更改 bigsurcenter的 WiFi等的颜色。（本插件由国人lans233汉化并分享，非常感谢！）搬运工源，永久免费，只为越狱分享！
-Name: Aestea Revived控制中心美化-Rootless
-Author: Luki
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.afakerxi
-Architecture: iphoneos-arm64
-Version: 1.0.3
-Maintainer: 搬运工
-Installed-Size: 212
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Filename: debs/byg.iosios.net.afakerxi_1.0.3_iphoneos-arm64.deb
-Size: 20374
-MD5sum: 9f887879e8c3e0e35842cd105a222078
-SHA1: b154a77e11deade12adc17babd8b20f7151154e0
-SHA256: 3a1b1b37ea9ab98511a9377c485fbfafd24ddf46e1eca4fe9341d41cf6f9dba4
-SHA512: d4550199c36ab6d3149af3497b0ec36cad9a8b6fd8da5db5c6170bcc10260fb35bdb0fe2bd98fbb97a27e396cd904f52335bf77899b3b7cacf8bf7cb9bc39f5f
-Section: 插件
-Description: Fugu15伪装电量，步数修改。全局修改步数
-Name: 改个步数-Rootless
-Author: lenglengyu
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
 Package: byg.iosios.net.afc2d-arm64
 Architecture: iphoneos-arm64
 Version: 1.2.1
@@ -1762,64 +1543,6 @@ Author: Saurik, Cannathea
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
-Package: byg.iosios.net.afns
-Architecture: iphoneos-arm64
-Version: 3.5.9
-Maintainer: 搬运工
-Installed-Size: 5412
-Depends: firmware (>= 15.0)
-Conflicts: com.tencent.xin.dkhelper, com.dkjone.dkhelper, com.afn.helper, com.xiaoxin.helper, com.afn
-Filename: debs/byg.iosios.net.afns_3.5.9_iphoneos-arm64.deb
-Size: 3760822
-MD5sum: d2d92fda39ec5e0e6fb72a1e1cdb68c8
-SHA1: 253660c3a7c43f6e65df66798e6ed71cb7236ee1
-SHA256: f1c1ec19985a686fb5e7a24454d1b1e5afe9061fd134ff9818c6ccb58203bf73
-SHA512: 677ab0099749c42b37c04f85ad98a26bde8e7c51d612a1a9aa110c09200efff35123149ea2a051c721c9d9fdc0f193b3b7addd687d4bc25127dd57c244d652d1
-Section: 插件
-Description: 微信超多功能插件集合在一起，你想要的功能全都有，如果遇到微信闪退，请尝试禁用微信热更新，或者更换微信版本，这款插件基本能满足你所有需要，尽情享受吧，搬运工源，永久免费！请大家多多支持！
-Name: 微信功能大杂烩
-Author: AFN Team
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.aimpro
-Architecture: iphoneos-arm64
-Version: 1.0.7
-Maintainer: 搬运工
-Installed-Size: 4908
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 2.0), com.spark.libsparkcolourpicker
-Conflicts: com.laughingquoll.watermelon, com.laughingquoll.watermelon.beta, moe.absolucy.lucient, moe.absolucy.lucient.trial, org.coolstar.ventana-modern, xyz.royalapps.jellyfish, hi.my.name.is.ubik.kalm, love.litten.diary, com.eliofegh.tulipe, com.ali.aim, com.icraze.nexus
-Filename: debs/byg.iosios.net.aimpro_1.0.7_iphoneos-arm64.deb
-Size: 2701222
-MD5sum: af4b696201bd83db3950f37246b2c458
-SHA1: 40486b982d3b30edcb552227bdbc71ea563a42de
-SHA256: bcac2556f6ee46120865c72fbe4eadd4b485096f153281489ef5c014abe0ca34
-SHA512: cfe0219c38c020220f7ebbf7779dd97cc1e8221619ebc3345fb69e773734570ac8d4b9b08d67efe616418d53ce387686894e967dd024af2ab551892a035cd285
-Section: 插件
-Description: 一款仿iOS 16锁屏风格的时间和日期锁屏，非常的不错，搬运工源自主汉化，全是中文，更适合中国宝宝体质，非常感谢搬运工源！如有和其它锁屏插件冲突问题请缷载！搬运工源，搬你所想！爱你所爱！
-Name: AIM Pro锁屏美化-Rootless
-Author: alimaulana
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.ainsworth
-Architecture: iphoneos-arm64
-Version: 1.6k
-Maintainer: 搬运工
-Depends: mobilesubstrate, com.spark.libsparkapplist, ws.hbang.common (>= 1.11), com.muirey03.libimagepicker, com.spark.libsparkcolourpicker, preferenceloader, xyz.cypwn.davevancrack
-Filename: debs/byg.iosios.net.ainsworth_1.6k_iphoneos-arm64.deb
-Size: 522806
-MD5sum: ddf5d2b43447824515e65eb8cf07b2bf
-SHA1: 427f1f288ab511770bbb8104bab538bdcd7d455c
-SHA256: 7bd948fe8e05e361817c77947e8762a7ff6c3e0659f9b19583a37ddd8cf607c0
-SHA512: f11de1c0b6598391fda3eb61c69c89a72dede038309927433e0851e0b89b513daafcccdd01c93d819ce3d49fd46cc9845fce0d80b5c6aa8f07ded2097dc2eae9
-Section: 插件
-Description: 本插件的作用是让不是Airpods的第三方耳机拥有苹果耳机的弹窗，看起来还行，暂时部分汉化，未汉化的部分自己截图翻译就行！没有 Airpods，但仍想要优质的连接体验？Ainsworth 帮你搞定了！Ainsworth 允许您将 3 种弹出样式中的一种添加到您的所有蓝牙设备和有线耳机中。它以优雅和现代的方式做到这一点。您还可以根据自己的喜好配置每个弹出窗口。（查看屏幕截图）有问题就卸载买正版！
-Name: Ainsworth耳机弹窗
-Author: Dave van Wijk
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
 Package: byg.iosios.net.airaw
 Architecture: iphoneos-arm64
 Version: 1.6.7
@@ -1836,136 +1559,6 @@ Section: 插件
 Description: An awesome CarPlay tweak.一款Carplay拓展插件，可以改壁纸，让不是全屏显示的软件变成全屏，配合carbrige插件使用，改图标个数比例，有汽车的人会用的到，原价4美元，现在搬运工源免费使用！我没车，无法测试插件是否有效，小组件好像不行！大家可以下载体验一下这个功能菜单，有经济能力的购买正版，支持作者！搬运工源，你最好的家，越狱好帮手！感谢搬运工源群友小伙子分享此插件！爱你爱你爱你！
 Name: Airaw（CarPlay）拓展
 Author: Dcsyhi
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.airpodscompanion
-Architecture: iphoneos-arm64
-Version: 1.5
-Maintainer: 搬运工
-Installed-Size: 10704
-Depends: preferenceloader
-Filename: debs/byg.iosios.net.airpodscompanion_1.5_iphoneos-arm64.deb
-Size: 10329384
-MD5sum: a7bfd610f4246314f512d50184cc7e78
-SHA1: 3f1f8382512c87a413ccbe22f22edeaf0b1ae424
-SHA256: c34204b09ebf7ccd39bf14c3bd1c6495555bfcf8f122b1f598abb7dcac2ab028
-SHA512: a3a80c703fd387f289589dd6644dde68131899b7a001ef9cec4b12289438d7aca3c6ea24432f86d9e0f3b527fffd4408e621323d7dc28fa4db426c939cf82cf1
-Section: 插件
-Description: 感谢搬运工源群友萝卜购买并分享此插件，非常感谢！Floating Noise Cancellation control next to volume slider插件作用是美化耳机音量，感觉有点鸡肋哈！
-Name: AirpodsCompanion耳机伴侣-Rootless
-Author: Ethan Whited
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.akara
-Architecture: iphoneos-arm64
-Version: 2.0.0k
-Maintainer: 搬运工
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport, com.muirey03.libimagepicker, firmware (>=15.0)
-Filename: debs/byg.iosios.net.akara_2.0.0k_iphoneos-arm64.deb
-Size: 724390
-MD5sum: 8bab301d2b2af5e1035d4da0e084b8a7
-SHA1: fc4217405058002209e90e6afdc3f1430391b0e6
-SHA256: d89cee48061bf6f07e3d654873436528663bd75675e9efe71a67947461c0abf1
-SHA512: 7b530ecca86834de1752d0e834642c4c008f77bc44d12af81a28ddafefc980408f3830d224ef51bf28bb47ffe53e5cc07c65a1ad835ea6b79f41872f0da846fe
-Section: 插件
-Description: Minimal design without compromise一款控制中心美化插件，原价2.49美元，现搬运工源免费使用，源主已连夜汉化完成，尽情享受吧！
-Name: Akara控制中心美化-Rootless
-Author: Tr1Fecta & Kennyroo
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.albummanager
-Architecture: iphoneos-arm64
-Version: 1.0.2
-Maintainer: 搬运工
-Installed-Size: 690
-Depends: firmware (>=15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.libsandy, com.opa334.ccsupport
-Filename: debs/byg.iosios.net.albummanager_1.0.2_iphoneos-arm64.deb
-Size: 105388
-MD5sum: 7bd1632af9dc89aa116cb8af9b189a4e
-SHA1: fc868432f770b9a8ac02618e5e7b5e4e95a353ca
-SHA256: f888cd0149f4451ee6ba111fa0ff5c826922742b10dd6701c0ffd0e4127eb2e3
-SHA512: 841824d6e9c6a63ff2735ad32eda2c45925640da568825a5aa65eb645958c3fd3748003d459087682eca4d0b64783b27decd72f62686d61c5a6eee1997ecd468
-Section: 插件
-Description: 相册保护管理！加密相册！由大神免费开源，搬运工源汉化分享！搬运工源，搬你所想！
-Name: AlbumManager相册管理器-Rootless
-Author: NoisyFlake
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.alipayscan-rootless
-Architecture: iphoneos-arm64
-Version: 1.2-2
-Maintainer: 搬运工
-Installed-Size: 160
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Filename: debs/byg.iosios.net.alipayscan-rootless_1.2-2_iphoneos-arm64.deb
-Size: 15844
-MD5sum: e40f6e1dab8b55e04cdd667aafc62e78
-SHA1: 70ccdb7b41e229e0df3af30c989222484c152945
-SHA256: e1247f02343ebe9b1e5f3aa5f9fe3456334ddaa5a36d9571132d4e4a56f6307b
-SHA512: 704ec9ffb2fdf88d56d91451c707755012c6eabd0fadf7624bf54b0d0cb948d2eb3921f788a68c7a33df178ac270f9eed34b7002b7a2cb34ecf528ba78ea3890
-Section: 插件
-Description: 通过控制中心快捷打开支付宝扫一扫，设置-控制中心-自定控制内添加后使用
-Name: 支付宝快捷扫一扫-Rootless
-Author: Netskao
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.alpine
-Architecture: iphoneos-arm64
-Version: 1.4
-Maintainer: 搬运工
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common
-Filename: debs/byg.iosios.net.alpine_1.4_iphoneos-arm64.deb
-Size: 674912
-MD5sum: 1bc76f2190e5415a3132e3d738a18e17
-SHA1: 12ee56d55055e1285b1b75a43353b5a2243a8f5f
-SHA256: 2d58d559f36889e99c89746b12aa412a8344d4a168d180829741a0c464daba69
-SHA512: 074af54804f671c15bc88e91bc0fc9828485947ddebd60dfa3efbb8105e6f891ba76726975b05cf276d3cfd8bac7746509556137bcc1a3383f4e73830f7e3dd0
-Section: 插件
-Description: tvOS alerts for iOS替换所有弹窗为精美的TVOS风格，效果请看插件截图！已汉化！
-Name: Alpine精美TVOS弹窗-Rootless
-Author: MTAC
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.alwaysdark
-Architecture: iphoneos-arm64
-Version: 1.2.3
-Maintainer: 搬运工
-Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist
-Filename: debs/byg.iosios.net.alwaysdark_1.2.3_iphoneos-arm64.deb
-Size: 45450
-MD5sum: 26d9e08bd37fd79b8ef860b0f92e6a49
-SHA1: abe8282d6025cbe7b470c73c72bbe774ebb4be54
-SHA256: ac2a781b584e697126e1a7e03aaab18ea445f192e9d70f8ccbda87396cdbf32c
-SHA512: a37db30500a07cf020000213e170bea0719101fa3c4da5a726ccbfd683fac239bbac5efeec11aca9e2cce549625ba08bb4db86951214294876b41af1cc13afd7
-Section: 插件
-Description: Run specific apps always in Dark/Light Mode始终在暗/亮模式下运行特定应用程序。
-Name: AlwaysDark强制深浅-Rootless
-Author: KingPuffdaddi
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: byg.iosios.net.alwaysforwardwatchosnotifications
-Architecture: iphoneos-arm64
-Version: 1.2
-Maintainer: 搬运工
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: debs/byg.iosios.net.alwaysforwardwatchosnotifications_1.2_iphoneos-arm64.deb
-Size: 8166
-MD5sum: dacc3ac29f16acffafe2c94a3805ee1b
-SHA1: 981dd8c781d41a9224b74f796889a940ac1ea934
-SHA256: 82efac207fb2f1d8d5ae575ae1e04d2e360e4a977a19bce384603305bebd761e
-SHA512: e31336b5bc36594ed4b95e8864119aebdd76eda9c3195dd4ea2f00dc34f0bece0ae1ccbf86811049e6a7c6f1fbba8b36ca39ef09bac93a5e6c2afc59af54b055
-Section: 插件
-Description: Forward WatchOS notifications even when unlocked来消息了，手表和手机同时显示！•即使iPhone解锁，也可以发送通知观看•当iPhone锁定时，将通知与手表一起发送到iPhone（WinterMode调整）
-Name: WatchOS Notifications手表消息-Rootless
-Author: Mohammad Abu-Garbeyyeh, p2kdev
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
