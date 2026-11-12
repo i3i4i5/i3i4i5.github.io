@@ -1,3 +1,18 @@
+Package: com.mg.adskip
+Architecture: iphoneos-arm64e
+Version: 3.4.5
+Maintainer: M哥
+Filename: debs/广告跳过.deb
+Size: 26128
+MD5sum: 8608c8e0ad3f853b4434915c1f564b7e
+SHA1: 28413cbd22471b53b9952f672dec5a089b1e600d
+SHA256: aeaa66666fcc3926e8350bdf92f710c2618fcceeb5a569eb3f467f2f1734916d
+SHA512: 84a8d660523c3c8eb6b6b0a5d8f515859ad3f9470534f15c4e5c14e550e7916f832f5bef1eca5d09fa56f654889194ee8e2fb2fdeb473ff25a27ae75226a54df
+Section: 自用
+Description: 跳过开屏广告，无黑名单·事件驱动秒跳·容器门控两级词表+防摇一摇+摇一摇带按钮秒跳+防误点广告主图+结构防自点，不影响无广告应用。
+Name: 广告跳过
+Author: M哥
+
 Package: com.axs.ahsfilter
 Architecture: iphoneos-arm64e
 Version: 5.2.0-3
@@ -11,7 +26,7 @@ MD5sum: 9a9bba17dc14ee3fd79f780db1868dd9
 SHA1: 9edb3c1343d53d2fb120ff8b0410e9165c869721
 SHA256: 030252a386e7ee2b908492cf9e05223fcfa681d7999c663d885ccd2d64c2f907
 SHA512: a11b52c6634ce58476f53f9436d90741fc923ce8b65be49adbcfac985b200b1a5d074789ac174f954b52ac2ea99990ee09912fd4dfd220a22a5ceb9dbde8ee61
-Section: 自用
+Section: 插件
 Description: 爱回收筛选
 Name: 爱回收
 Author: Axs <qiaozhani000@163.com>
@@ -31,7 +46,7 @@ MD5sum: 2f82cd10d6207637ac62e7a530c49d27
 SHA1: 14f3675886a4ae71210e39fa64b24950a6ed12c9
 SHA256: 886a391d245448d317f6fadb98c3aba5576eddc3e515d8b5513e65a60c8f0ee4
 SHA512: fcaac9daa16bdbdcdbde218ef943acca240f8e4d28de1fadb5c75e99df6afa57c5d386bebe7bcf4869559d8afb9cfe6f3ae42fe7f4ea0ebc9f03f3358b27a8ef
-Section: 自用
+Section: 插件
 Description: 设置各种app跳转指向
 Name: 跳转拦截
 Author: Axs
@@ -50,7 +65,7 @@ MD5sum: 85ef05c586648042a7e0d74dabd1ffa6
 SHA1: be497b8d395cb7e7ad6f3e58611b5119bec96aed
 SHA256: 38d8653521c912e1fd6932139c3556768a2918b2696fe3ffdc27688d0e27d267
 SHA512: cc36941b9fcc48122972782f7f312d2714810f14de9626c11160e0e585774a3ec8659682c5ee66a00f6221f8206a697cfe155b141c9d4e8ac8cea6f5a05ea3c4
-Section: 自用
+Section: 插件
 Description: 短信验证码自动填充
 Name: 短信验证码自动填充
 Author: P2KDev
@@ -71,7 +86,7 @@ MD5sum: 54508825ca1fbc7d4a3c9799cde527c9
 SHA1: 1197d833ca5ba786dbd2f6b7d2039702682ca415
 SHA256: 3db5f4bed6619300f1ac2be101bae0d0d17b62666b7f3198011e309b662924fe
 SHA512: 0bde87d393c5d3b5ba6d96905bdd2873d876cc1494682e5f44af43361f1387eb68a41da0f631945efd019a4922aefad952f3203f4991b860e32f5774a033a1dd
-Section: 自用
+Section: 插件
 Description: 通知美化，按app收纳通知
 Name: 通知美化
 Author: Axs
@@ -92,7 +107,7 @@ MD5sum: 146f142ff4a5f6f5420b9c52ba5108f0
 SHA1: c5b8800d0083217aa3f5d5349d96a16a147fcf87
 SHA256: 35c537420d249d8b1b94edcecf63a13b5254f749d8dbf88445aaa3cb0fdebd60
 SHA512: e5711f91d6aa6f748f1535009cc3f40bea2f901f282aeea8e0085a962d9d01e69e4ba6758ccfd9c1a32166c6f7a529dd831ead2892de190e1df37c1be2a63f7c
-Section: 自用
+Section: 插件
 Description: 控制中心美化
 Name: 控制中心美化
 Author: Fiore & p2kdev & SINI
@@ -112,7 +127,7 @@ MD5sum: ae69caae2987f8c3a34ba59f37fb97aa
 SHA1: 0c992d7b8579c291346d6a437cfdd43a79fb040c
 SHA256: 3359cd5d3ac5a377071e7e04e9e19c9a079c147319332fd2511f9dc52639a829
 SHA512: 4c8f2dc4282079049d8c310fe1deabe755bfcfec3dc77f133be00d4bc83f8938058a71b9c942b677e58a1555cb45dc6e7f161c85ec37067737addf671bba16ad
-Section: 自用
+Section: 插件
 Description: 为控制中心增加各种功能，强烈推荐
 Name: 控制中心增强
 Author: 妖刀
@@ -132,7 +147,7 @@ MD5sum: d2b814d3719d0258b14d10a2a2bd2066
 SHA1: 12315ccbbcbe5d7a75fa29799b040451a22cfd32
 SHA256: 46efdf4f25532e09be1c9959140e0d34f9997cd4f48ac18d0728ca96f9d50fa4
 SHA512: 5a8600477dce5c2e1eadf8307617f8d4951d9d0ed67c863c2d23a2a2fd357880454823abdef4a0733aa1a0281ee629ef4298a832fae9706cf049a9f8e43dfbed
-Section: 自用
+Section: 插件
 Description: 越狱必备
 Name: 禁止注入
 Author: opa334
@@ -152,7 +167,7 @@ MD5sum: 0011d94a565e6852844745e63ae68bf3
 SHA1: f17c2ca777f5d93bb0e7a608c15bc4537eae61af
 SHA256: 57eb105fad9233cfdcebda3d5d8e01674aa2545d71054e8ae6c6284e0b0cda08
 SHA512: 6cc6259bd1321182a0a66e6ba99848c16e90b9d080de8b2915f1e18ac7eaab584546af3244de5a832bf8cf3494ca8c715626df05a99d74733d0b42f39c9b87e9
-Section: 自用
+Section: 插件
 Description: 鱿鱼剪切板正版激活码版
 Name: 鱿鱼剪切
 Author: SquidForce, Backup
@@ -172,7 +187,7 @@ MD5sum: 8c9ee416710f02ddf3c3a9761a294e6d
 SHA1: c374242afdd3f3e5bed68369ded49ef9e4409526
 SHA256: b9aa5e79f1371c368a002562fa3aa9a4f2692e97a287ffe1db021e4bedd592e2
 SHA512: 248bfba2773e4c9618d91bda1aefc11b542068a1fba3a69c7c95f80c94053615ef96b2ec2fc216a00c9dbcc4c2b22773aa8f88b62caf7d1229b72a53f88c2798
-Section: 自用
+Section: 插件
 Description: 精简相册
 Name: 相册增强
 Author: CydiaGeek
@@ -191,7 +206,7 @@ MD5sum: b177154afe43f5ae092f3e9c68079128
 SHA1: 78c10086da725a5d5b6eeea22bfe0a0352e37e4a
 SHA256: 528c94e6e48b8fb19e86add006eccd996cfc14e361346ac3f9b284675adc72de
 SHA512: e4f907dc646d912820f5a5b20f272288aa41172112ed93e1e261d0aeeea5b9f56d07cbc82c3714ddf067f5d58f9e506f44792a0cc2cf3b1afb072e8e47e4502b
-Section: 自用
+Section: 插件
 Description: 悬浮窗批量替换改文字与翻译工具等
 Name: FT悬浮文本3.6
 Author: 来了老弟
@@ -209,10 +224,30 @@ MD5sum: 6afc512709f15f3e7bf49bbf3b01a2b2
 SHA1: 8143aa905e061fb914d95bde9c45477e16630a23
 SHA256: 062d468bd29cbf80fd543ba9064173464d8dc6f4bc936e774805ece0d486e6d2
 SHA512: 7bcf9fce7c510d6753afc6bda5ade6cb7845168fe9f6d152ca31f50b0e37f4ca20ec6978bdbc1eef344c342cd2d8619c7fcbcca0e3f9fdee0eda9c68610a378d
-Section: 自用
+Section: 插件
 Description: filza破解插件，安装正版filza后使用
 Name: filza破解插件
 Author: Netskao
+
+Package: Flex3beta
+Architecture: iphoneos-arm64e
+Version: 1:4
+Maintainer: 来了老弟 h_h_x_t
+Depends: mobilesubstrate, firmware (>= 9.0)
+Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, com.abcydia.Flex3
+Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
+Filename: debs/Flex3beta_1_4_iphoneos-arm64e.deb
+Size: 12318956
+MD5sum: 67f40f7e97dd16bcd577dcf2dc840adc
+SHA1: 327eeeeb781761007e32c4e9ac8016a8c6bf8692
+SHA256: 3ec4090214154b0728190867e84ad9d72b217d4458049fd1cddb0c814014fcac
+SHA512: 1fb6affa3fd9412d37072a3c17f2d21e31221c63d64b2d0b864ecd6061d14a2169f98b686643fd93855f8cda709cfbb6493456741e2bdee423900f575a6728fb
+Section: 插件
+Description: Remove application advertisements, crack members, and modify the application's powerful patch system. The cloud, search, and parsing application functions are all normal (if there are unsupported apps, please check your tweak injection or downgrade apps). System applications do not take effect. Turn off bold fonts. 去除应用广告，破解会员，修改应用的强大补丁系统，云端，搜索，解析应用功能均正常(若有不支持的app，请检查你的调整注入或降级程序)，系统应用不生效，关闭粗体文本使用，Flex3程序修改器-roothide
+Name: Flex3 Beta程序修改器-roothide
+SileoDepiction: https://laileld.github.io/repo/sileodepiction/Flex3beta/js_Flex3beta.json
+Author: John Coates
+Sponsor: 来了老弟  x: h_h_x_t
 
 Package: com.yourepo.axs.fv
 Architecture: iphoneos-arm64e
@@ -226,11 +261,34 @@ MD5sum: 6ca49bcb793cbfb75352cfb06990ebb5
 SHA1: 849aa04a91f38c4fe04c9db5a093768c95fb03a8
 SHA256: e329aef4dfe25ee6adba4517a9bbb7f71df8f8aae35ea7bb864f1b81497204a7
 SHA512: fdf57acd87f2090e0598e21b01d9fc426ffa9d5f0a72e89201285f5087cf2f121fd6e10c87ff28c5eb1922446c8f781e64af3f8ce450cc0e08c899805cb3efad
-Section: 自用
+Section: 插件
 Description: 流畅好用的免费分屏插件
 Name: fv分屏破解版
 Author: Axs-pojie <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/svp.png
+
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 3.3.3-3
+Maintainer: zqbb
+Installed-Size: 1216
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/Hello_120Hz_3.3.3-3_iphoneos-arm64e.deb
+Size: 407420
+MD5sum: 812ada8f703085e5980a8709e6f0cbdb
+SHA1: 01bbcfc36f616dacc0c2dc0d51f0fc5d935e0962
+SHA256: 7f50c36dada4a8ff67409d41fbf6dbcc99ccc383fcf2fa6f8045a66f19d96c5a
+SHA512: 5f4a98018d87d7bec3573bd009a861f14e49cc07591a3bd9b07c6127bf7d20679f27620e2fc4aae85eee26efd8ba15e25375d95a88fad669a48d55f50c4890db
+Section: 插件
+Description: 
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
 Package: com.axs.ipslog
 Architecture: iphoneos-arm64e
@@ -244,7 +302,7 @@ MD5sum: 1838d52b826554d19eebedb587bea1f9
 SHA1: b6775a164ea59ed4b3efa803efe5c4c117121483
 SHA256: eaea029a0d9799b456ab959845ba561e4a904dd014fe82db38ccc674ef17b258
 SHA512: 2668a0dc820774e6954369fa37219bee0d622f7522b2f9126b720d667193b2a47cc2a177acb7ef4b21c130f714f16a1fd5c52f082afa2a50474f816797e90e72
-Section: 自用
+Section: 插件
 Description: 系统崩溃日志分析，带分类，带自动解析
 Name: 崩溃日志分析
 Author: Axs <qiaozhani000@163.com>
@@ -264,7 +322,7 @@ MD5sum: 25282243750a3839b62de907ce886efe
 SHA1: a9b15d99502a6cd56f7a6ec1d013fc2a5777b94a
 SHA256: e3d450c0e607e0fe04d822b1d8de912cb3915b459a29d2a2dacf531931ad1bd9
 SHA512: d87dec7ae0f5d6286a36d43c6196001351ba75d75a379bf6d59c3312d64377ec4339a6dc66eb807dfbfbd139a03098b6e09ffdc82a8394b338abd96e2f0c09c1
-Section: 自用
+Section: 插件
 Description: 更换系统字体，带预览
 A12: 1
 Name: 字体管理器
@@ -272,6 +330,45 @@ Author: Hmmzzz
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 17.png
+
+Package: MisakaHelper
+Architecture: iphoneos-arm64
+Version: 2.1-0-END
+Priority: optional
+Essential: no
+Maintainer: Misaka
+Provides: MisakaHelper
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Filename: debs/MisakaHelper_2.1-0-END_iphoneos-arm64.deb
+Size: 13177904
+MD5sum: d97aa19cc32176f6a82f5b6cc791a48b
+SHA1: e6b202e8c0314d089c47dad3b815ae19c8195dda
+SHA256: 656c8afaef93243beff999291a9c9060d9f40abb85296b1d480f69898c54aabc
+SHA512: 463cbb046cc72378ad514b431289a292f39afe0c82df2f2cefa2102855cae6d26d7d73b8853d64145e0ba4494047c5900ee0463a1ac63521375c23bb7640115a
+Section: 插件
+Description: MisakaHelper
+Name: MisakaHelper
+Author: Misaka
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/Misaka/js.json
+Icon: https://axs66.github.io/pro/icon/wechat.png
+
+Package: Nets.llld.actionbarreborn
+Architecture: iphoneos-arm64e
+Version: 1.1-2
+Maintainer: Nets
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: debs/Nets.llld.actionbarreborn_1.1-2_iphoneos-arm64e.deb
+Size: 161972
+MD5sum: 294463ac35d7d816cc26d835cf84081e
+SHA1: ba25dafb6064acecafa2b9273786c3ad914c0e14
+SHA256: 1659e49486bc6025ac7e3a7535644c9c20220d2eee1f0d454b178b74c690fc77
+SHA512: 9511707357945cb0d244f44568cf1462593a6927de38f25acaaca010ce511d86ca64c93a1785aa405d4950abac159839211c0778a7597d015143a4f8a3816536
+Section: 插件
+Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition,键盘底部的撤消、重做、全选、复制、剪切和粘贴操作。 ActionBar 免费重生版，感谢Netskao辛勤劳作
+Name: ActionBar Reborn-roothide
+Author: Netskao
 
 Package: byg.iosios.net.onesettings
 Architecture: iphoneos-arm64e
@@ -287,7 +384,7 @@ MD5sum: 2ad510d214b7b50b405819d86f9ab5be
 SHA1: 7c3e7f3ec19cc2480cc12690fe27cd1e4ea6dbed
 SHA256: 5763f4796a2deb30fdb7abcfd2d508369ee5e95fb2ae3e22277f4022030c782b
 SHA512: 400d15e8c7eadfb38d7f59bf0224dae74a37b8da562c974f37e3216a201964f64ae5ff42390ad2e8de6769da3d377572cb14224eae784dbf4b921949ef7639ca
-Section: 自用
+Section: 插件
 Description: 设置美化，插件归类，条目隐藏
 Name: 设置美化
 Author: Nightwind
@@ -308,7 +405,7 @@ MD5sum: ffa6f6c4be94bd73766949ff6495acc8
 SHA1: 810688aa69cc2bb05d94bd10351f5a699dc6a639
 SHA256: 1f456883191f21ad7528f398bf8be26a7c49ab1bfada0edcfb962843ea61779a
 SHA512: 0da8b42a1bfca5d318a1fd1d6781ed7c6f15a0f6c9228be470f5cb07d3852efaf86123f985aa497b97bb7f042bc97562aa700a6c44d3b7ff37144e4c86498fd5
-Section: 自用
+Section: 插件
 Description: 录像暂停
 Name: 录像暂停
 Author: PoomSmart
@@ -328,7 +425,7 @@ MD5sum: d50fc07975b2582632a66353c12084f2
 SHA1: 4d01fd1980670286c68c6004b2a38981870ad2f2
 SHA256: df4535733413aa09ac345e3529bd925cc67cf9e95caf3c2dba2ea55a18deb255
 SHA512: 8e9193f78357c03b45a4edb6e47db83ce1f27a325d3b3bad6934da274fd9e3a709b77c2940a30139970cea755a94de7b4f3a9f810e8f4e44c86bb2213b85db23
-Section: 自用
+Section: 插件
 Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
 Name: STTool
 Author: 来了老弟
@@ -349,7 +446,7 @@ MD5sum: 0d72dcf097407cecf23a3a2660c7c027
 SHA1: 5ee8c3fe4a4f32cc499679b5d65c93a5841f6296
 SHA256: 923de61270718bc7e5540f54648f1f02889997f09300f811ae4fbaf088891580
 SHA512: d9c4c536a5444210a8411fb46172486bcd50e7dea68c675f884005bd2b3975e78041ae340a2eadc69f8f96b335d011b3cbe689e9163b4417cbfa3bfbb6048990
-Section: 自用
+Section: 插件
 Description: 给系统闹钟增加各种功能，比如铃声渐响，铃声音量，铃声持续时间等
 Name: 闹钟增强
 Author: Joshua Seltzer
@@ -368,7 +465,7 @@ MD5sum: 03e1232808df1037044bbe2c2aec178b
 SHA1: a65f772853492dff7e8f7d6c486c2194777452c7
 SHA256: e860fd75634cd6a8525f2ac689b175713c5ae15693085d4d05cd83340c6b0147
 SHA512: 1648b3d7d24e3d2fbea798ab0e104381ce9f1f2c79ef08376da1e13a6c573f2556cc047b4f21793ee20b0352df40ed4ad3faa0c6766f4472746a26265a33380c
-Section: 自用
+Section: 插件
 Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
  轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
  .
@@ -419,7 +516,7 @@ MD5sum: 57333167e48099d11b842a282a8586db
 SHA1: fdea3999bc44897209d767a1b0fe5d436593d2b9
 SHA256: 9f652d37fe48bc604fc849ed2eb9ab46a5fe9ba12f6df42488bf172018dea98c
 SHA512: 98ba80a9ae5fea53a34a7977d171de636cafd737706c546453146b2e5c581f2c92fd2f4a4aae9836c7d3f3dda85c387cee09c2f844a0095e664f99cff68e93fa
-Section: 自用
+Section: 插件
 Description: 这是一款截图工具。
  * 一、基本设置
  * 1、移动标记：开启后标注内容可拖动调整位置；
@@ -455,7 +552,7 @@ MD5sum: f46a0ea0ecb2b289b7ceb76592d51233
 SHA1: 728f21137013153281ec9d92acb446e9990c11cd
 SHA256: f7ee8e5affbb1286a595f5a20d9a1882a56f5d8f56537cc2741a641b2699a4fb
 SHA512: 86f19a304ffe0c43be1c5efd9a60c5306a05ad5844303c4c036912a833dada367f6b7dfc39c88d62e37bc2ed4a174c112cf441ef8d76f1838bb91d5b35fd50c6
-Section: 自用
+Section: 插件
 Description: 16系统隐根专用，请合理合法使用
 Name: 隐私相机
 Author: Spark
@@ -475,7 +572,7 @@ MD5sum: 6ae534346619c5f607aa63282333f352
 SHA1: 85431a6ccc485bdb4ee3928343b596481f62f98a
 SHA256: a5334eed285dc0f92de8b31fb0d413ca10a3e599391e063860adbfebd9d37fed
 SHA512: 5cd394559bb7e4cbe9cbfb5f7500f5af1ddfcf16c12ded981bc01854d4ec40b764148fa92bc717a2259d6f1c079d16900772f4f0e685c6d7b30d33062cc5f616
-Section: 自用
+Section: 插件
 Description: 鱿鱼键盘正版激活码版
 Name: 鱿鱼键盘
 Author: SquidForce, Backup
@@ -494,7 +591,7 @@ MD5sum: bac30e519e873a5e7da193a788ca43f0
 SHA1: 689df976934d326dd71b9f685e11081d98567729
 SHA256: 2c234f59379a05f4b35225c5560b6d62764a286ac25a0b6c812bd437b0195a16
 SHA512: 34cfd1ea045e114b496ed660b2e369af2a560d2b530e9acab7b91bd709f6c50899173329a9ce55e5b3e52639049f56e9868b32079b05b4a792917b28214c4f5c
-Section: 自用
+Section: 插件
 Description: 鱿鱼手势正版激活码版
 Name: 鱿鱼手势
 Author: SquidForce, Backup
@@ -512,7 +609,7 @@ MD5sum: 0a53e7e1ba8d824e469f024facb58660
 SHA1: 17f817931aee4ca4bc1e0430b986199de441bef4
 SHA256: 1d85d5a7d94a5c92ecdccb752826bb9852b07b67304643ae37c54f7aad47f1f4
 SHA512: 4b2f0a3d28321d1ef85f32d52bb9b4360dedf4358569c63c145600fd75a5fe65e059b3b94773bcd43b510553d6396229d0d94d1c4fc640858e2604998f2ac006
-Section: 自用
+Section: 插件
 Description: 全局触摸轨迹显示插件：在屏幕任意位置触摸时，实时显示手指触点和拖尾残影动画。* 1.适配录屏、演示、教程录制等场景，可设置仅录屏时显示。* 2.支持多指模式，参数可调（大小、透明度、动画时长等）。* 3.支持三种触点样式（颜色/图片/表情）。
 Name: 触摸轨迹
 Author: Axs <qiaozhani000@163.com>
@@ -530,7 +627,7 @@ MD5sum: b1145d78925018501bd9577b8c89c3a0
 SHA1: 0de6d876f742d63e11782ed00a3da4cbccb8d459
 SHA256: f770f1ae19d85aa973dbc9bdd6e7b6044a0edc53ce98a045c8ae41cce9444b4e
 SHA512: 20dd476682c11b6eeb0c636bacaf5c85eec3d1798a35d4875f6f338bd073cfd66e07b23695ed2e0451b4779362c421588a8b5d7e0cfe973b04b35c7f91c6da54
-Section: 自用
+Section: 插件
 Description: URL管家（RootHide 版）— 统一接管本机 URL Scheme（隐藏 / 重定向），支持单应用或者全局，也可防范某些应用检测某东东
 Tag: purpose::uikit, compatible::ios14
 Name: URL管家-隐根
@@ -549,7 +646,7 @@ MD5sum: a7afe275fabcfc9fb163a92725f61587
 SHA1: e8cbdc43ff5c9209d37dc179481d2f271001c829
 SHA256: e978489ecec1a60bb6c2f3b83ceccb971ccccde36e3240bbdd0a11c736bc6fd9
 SHA512: b4a37bccf66d3247ebdae224cadbd7e76d721db86d64c5ae28c599895a5bd695fa0de61e7f73faf3ed5ec66513799575dca0d24f70e15be1457a1a292176ae7e
-Section: 自用
+Section: 插件
 Description: 转转筛选助手
  * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
  * 2.按机型/电池/系统版本/成色/内存筛选
@@ -558,222 +655,6 @@ Name: 转转筛选
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/zzfilter.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
-
-Package: byg.iosios.net.icleanerpro
-Architecture: iphoneos-arm64
-Version: 7.10.0
-Maintainer: 搬运工
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: debs/byg.iosios.net.icleanerpro_7.10.0_iphoneos-arm64.deb
-Size: 1392946
-MD5sum: 62fb017cb57d546c59facc27c3c0c9be
-SHA1: ec52005a1820b63c5999837cc192790bcd3673ec
-SHA256: 8edda196b8f71700b7d6df671849926cec7a96fdc474f03e6e7a1d48ba79e120
-SHA512: a07e0917a0e9e285db6ad6922aeb393fcdde506b8d1e7afd523ac2ad74b7546bc0c34be9a997a375fcc5b4cecbc586a13adcd90f0936d3b27ba48b8c63359069
-Section: 自用
-Description: The first real iOS system cleanup and management utility iOS最强的垃圾清理工具，此为官方破解版，全功能破解！有经济能力的，请支持一下大神！有问题群里反馈！
-Name: iCleaner Pro小扫把清理垃圾工具-Rootless
-Author: Ivano Bilenchi
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
-Package: com.tigisoftware.filza64bits
-Architecture: iphoneos-arm64e
-Version: 4.0.1-4~roothide
-Maintainer: TIGI Software
-Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
-Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.tigisoftware.filza64bit
-Filename: debs/com.tigisoftware.filza64bits_4.0.1-4_roothide_iphoneos-arm64e.deb
-Size: 6970916
-MD5sum: 46bbea1723b62c27e10810562042539e
-SHA1: d2a6995632fee7c65f645e935ffd5cdfda8e5fd0
-SHA256: 4d86696f88752f031d455c6532041c01f6facec1e37a73eec15a3c0ec0f43f7b
-SHA512: 6675d8983fdb291904b197fbf1c2b7e920deb7663f82056da5053c596bf3b661ffd94b542f92051faeac896153e671786b24c9b31927d8015f7fc8a96a673b91
-Section: 自用
-Description: Filza 文件管理器 RootHide 专用
- * 支持 RootHide Dopamine、BootStrap 半越狱
- * 支持解压打包 deb 插件
-Name: Filza 文件管理器
-Author: TIGI Software
-SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
-Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
-
-Package: com.xybp888.callassist16.dopamine.roothide
-Architecture: iphoneos-arm64e
-Version: 3.3.4
-Priority: optional
-Maintainer: xybp888
-Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
-Filename: debs/com.xybp888.callassist16.dopamine.roothide_3.3.4_iphoneos-arm64e.deb
-Size: 3600566
-MD5sum: 2422dfb8e3df37fe1c1fe3b7955ea2f7
-SHA1: 9cba6916204bee72676b1f84300bd1abcae78229
-SHA256: 59a81008bbf4afa9c47e8d5f2b286866491806ad9e1dade486c40f3224ff0d45
-SHA512: 6023ff3687e115e10ad98e1d523c50c369c2a8c1c95275bfb54ff4e97b8f215ebdf637dff6f623feae728d494bc5e1323050e2f6ef891de00321ad9e1da6af7a
-Section: 自用
-Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Name: 电话助手iOS16-正式版(Roothide)
-Author: xybp888
-Depiction: https://apt.htv123.com/view/1123
-SileoDepiction: https://apt.htv123.com/sileo/1123
-
-Package: ellekit
-Architecture: iphoneos-arm64e
-Version: 1.2-3+deadlockfix1
-Priority: optional
-Maintainer: Dhinak G <dhinak@dhinak.net>
-Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
-Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
-Breaks: com.opa334.libsandy (<= 1.1.6-3)
-Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
-Filename: debs/ellekit_1.2-3+修改版基板-arm64e.deb
-Size: 127108
-MD5sum: b0ee5ac505e4510cb98ffb328d2ad730
-SHA1: a47b296684cbd247231abeaf3e4dbf210c9a0c29
-SHA256: c14e13ed54ee7025a9bf791f75cbd06e20e593703e4fe3a607ff1880078bc86c
-SHA512: 748ebf3005d43ce56ff252a8688ac20fab30de0ad1ba5d730896179c7abd7e08aa7ad0dce85610ceb642933652129600abf7bffafa44018e963e456b2c38dd01
-Section: 自用
-Description: ElleKit tweak injection libraries and loader
-Name: ElleKit
-Author: Evelyn
-Icon: https://ellekit.space/logos/logo.png
-
-Package: com.roothide.lockdown
-Architecture: iphoneos-arm64e
-Version: 2.0
-Maintainer: roothide
-Installed-Size: 136
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/lockdown_2.0_iphoneos-arm64e.deb
-Size: 5372
-MD5sum: c279473c07a0ddcf4a6958a1a3cb7e7b
-SHA1: 3864fdf199fadefa87a8e7f98a63fa71191124f2
-SHA256: 0a1f43ab41136fcbced87a4c233e051c018fd7bfd59e760d1ce7ea47c0064f3b
-SHA512: 3d017e9c1db47f3fe56628de7b53b15338767e9735cd99f02d55e3ee29ba8f88eb6318bf70877091489b97fb6920a50939ee379a114ca2aff76b744c470e09eb
-Section: 自用
-Description: 防止漏洞入侵
-Name: lockdown
-Author: roothide
-
-Package: org.coolstar.sileo
-Architecture: iphoneos-arm64e
-Version: 2.5.1-15
-Maintainer: Amy While <me@anamy.gay>
-Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Filename: debs/sileo修改版隐根直接安装无根插件.deb
-Size: 3064128
-MD5sum: ddc85f9a52feb99fb9b3e09773f8512d
-SHA1: b7f3dc2984bd3ff68302bf82d955288997363a33
-SHA256: ffb9cd236b6aca7020a791fbc4efd40f9d7ead179d25db67711368e07094a67f
-SHA512: e1c9491a206b729be22a0303f656d371e1d802687d023472fd00ea6b5be022e5c877ecd0c44c3d4d6a4162542021fcfadca0ff752fd4ae672015381f4aa09788
-Section: 自用
-Description: 隐根专用sileo商店修改版，无需额外跳转转换，直接安装无根插件，内置自动转换，设置里打开 兼容模式更新即可，插件操作按钮增加多项功能
-Name: sileo修改版隐根直接安装无根插件
-Author: Amy While <me@anamy.gay>
-Icon: https://getsileo.app/img/icon.png
-SileoDepiction: https://featuredpage.getsileo.app/depiction.json
-
-Package: com.aptzh
-Architecture: iphoneos-arm64e
-Version: 1.3-3+debug
-Maintainer: Custom
-Installed-Size: 240
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: debs/sileo汉化配合隐根直接安装插件arm64e.deb
-Size: 42060
-MD5sum: 166459fe1e28902af2ca1c6646b7f768
-SHA1: 55695bfceb13ecf6852eba83aea60d98cefa3114
-SHA256: 7ca02cce9e992551914a8d6e0e5094dafe3983e2926c8a9650338bc46f1adad2
-SHA512: bfb6a651abc91ffe7cc73c257529cc513e07954317e510bef113328b7f8bf2ce0e110a192962482a72fb899c13ad63082b665e30f142f62384c63e00a9994b04
-Section: 自用
-Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
-Name: sileo汉化配合隐根直接安装无根插件
-Author: Custom
-
-Package: Flex3beta
-Architecture: iphoneos-arm64e
-Version: 1:4
-Maintainer: 来了老弟 h_h_x_t
-Depends: mobilesubstrate, firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, com.abcydia.Flex3
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog
-Filename: debs/Flex3beta_1_4_iphoneos-arm64e.deb
-Size: 12318956
-MD5sum: 67f40f7e97dd16bcd577dcf2dc840adc
-SHA1: 327eeeeb781761007e32c4e9ac8016a8c6bf8692
-SHA256: 3ec4090214154b0728190867e84ad9d72b217d4458049fd1cddb0c814014fcac
-SHA512: 1fb6affa3fd9412d37072a3c17f2d21e31221c63d64b2d0b864ecd6061d14a2169f98b686643fd93855f8cda709cfbb6493456741e2bdee423900f575a6728fb
-Section: 插件
-Description: Remove application advertisements, crack members, and modify the application's powerful patch system. The cloud, search, and parsing application functions are all normal (if there are unsupported apps, please check your tweak injection or downgrade apps). System applications do not take effect. Turn off bold fonts. 去除应用广告，破解会员，修改应用的强大补丁系统，云端，搜索，解析应用功能均正常(若有不支持的app，请检查你的调整注入或降级程序)，系统应用不生效，关闭粗体文本使用，Flex3程序修改器-roothide
-Name: Flex3 Beta程序修改器-roothide
-SileoDepiction: https://laileld.github.io/repo/sileodepiction/Flex3beta/js_Flex3beta.json
-Author: John Coates
-Sponsor: 来了老弟  x: h_h_x_t
-
-Package: cn.zqbb.fix120hz
-Architecture: iphoneos-arm64e
-Version: 3.3.3-3
-Maintainer: zqbb
-Installed-Size: 1216
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
-Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
-Filename: debs/Hello_120Hz_3.3.3-3_iphoneos-arm64e.deb
-Size: 407420
-MD5sum: 812ada8f703085e5980a8709e6f0cbdb
-SHA1: 01bbcfc36f616dacc0c2dc0d51f0fc5d935e0962
-SHA256: 7f50c36dada4a8ff67409d41fbf6dbcc99ccc383fcf2fa6f8045a66f19d96c5a
-SHA512: 5f4a98018d87d7bec3573bd009a861f14e49cc07591a3bd9b07c6127bf7d20679f27620e2fc4aae85eee26efd8ba15e25375d95a88fad669a48d55f50c4890db
-Section: 插件
-Description: 
- - Unlock dynamic refresh rate from 80hz to 120hz
- - .
- - 解锁动态刷新率80hz到120hz.
-Name: Hello 120Hz
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
-
-Package: MisakaHelper
-Architecture: iphoneos-arm64
-Version: 2.1-0-END
-Priority: optional
-Essential: no
-Maintainer: Misaka
-Provides: MisakaHelper
-Depends: mobilesubstrate
-Conflicts: MisakaHelper
-Replaces: MisakaHelper
-Filename: debs/MisakaHelper_2.1-0-END_iphoneos-arm64.deb
-Size: 13177904
-MD5sum: d97aa19cc32176f6a82f5b6cc791a48b
-SHA1: e6b202e8c0314d089c47dad3b815ae19c8195dda
-SHA256: 656c8afaef93243beff999291a9c9060d9f40abb85296b1d480f69898c54aabc
-SHA512: 463cbb046cc72378ad514b431289a292f39afe0c82df2f2cefa2102855cae6d26d7d73b8853d64145e0ba4494047c5900ee0463a1ac63521375c23bb7640115a
-Section: 插件
-Description: MisakaHelper
-Name: MisakaHelper
-Author: Misaka
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/Misaka/js.json
-Icon: https://axs66.github.io/pro/icon/wechat.png
-
-Package: Nets.llld.actionbarreborn
-Architecture: iphoneos-arm64e
-Version: 1.1-2
-Maintainer: Nets
-Depends: firmware (>= 14.0), mobilesubstrate
-Filename: debs/Nets.llld.actionbarreborn_1.1-2_iphoneos-arm64e.deb
-Size: 161972
-MD5sum: 294463ac35d7d816cc26d835cf84081e
-SHA1: ba25dafb6064acecafa2b9273786c3ad914c0e14
-SHA256: 1659e49486bc6025ac7e3a7535644c9c20220d2eee1f0d454b178b74c690fc77
-SHA512: 9511707357945cb0d244f44568cf1462593a6927de38f25acaaca010ce511d86ca64c93a1785aa405d4950abac159839211c0778a7597d015143a4f8a3816536
-Section: 插件
-Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition,键盘底部的撤消、重做、全选、复制、剪切和粘贴操作。 ActionBar 免费重生版，感谢Netskao辛勤劳作
-Name: ActionBar Reborn-roothide
-Author: Netskao
 
 Package: acreson.rootless.cj.atria
 Architecture: iphoneos-arm64
@@ -6348,6 +6229,26 @@ Section: 插件
 Description: ibox是一款看视频的软件，怎么下载，自己去找！！！自用 | 看剧 短剧 漫画 听书 音乐 无广告 移除看剧VPN检测 其余检测未去除 | 仅越狱使用 仅支持216版本(不支持任何优化版)
 Name: iBox去广告-Rootless
 Author: x✨
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.icleanerpro
+Architecture: iphoneos-arm64
+Version: 7.10.0
+Maintainer: 搬运工
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/byg.iosios.net.icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 1392946
+MD5sum: 62fb017cb57d546c59facc27c3c0c9be
+SHA1: ec52005a1820b63c5999837cc192790bcd3673ec
+SHA256: 8edda196b8f71700b7d6df671849926cec7a96fdc474f03e6e7a1d48ba79e120
+SHA512: a07e0917a0e9e285db6ad6922aeb393fcdde506b8d1e7afd523ac2ad74b7546bc0c34be9a997a375fcc5b4cecbc586a13adcd90f0936d3b27ba48b8c63359069
+Section: 插件
+Description: The first real iOS system cleanup and management utility iOS最强的垃圾清理工具，此为官方破解版，全功能破解！有经济能力的，请支持一下大神！有问题群里反馈！
+Name: iCleaner Pro小扫把清理垃圾工具-Rootless
+Author: Ivano Bilenchi
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -35417,6 +35318,28 @@ Author: TIGI Software
 Icon: https://axs66.github.io/pro/icon/filza.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
+Package: com.tigisoftware.filza64bits
+Architecture: iphoneos-arm64e
+Version: 4.0.1-4~roothide
+Maintainer: TIGI Software
+Pre-Depends: patches-com.tigisoftware.filza64bit(= 4.0.1-4~roothide)
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.tigisoftware.filza64bit
+Filename: debs/com.tigisoftware.filza64bits_4.0.1-4_roothide_iphoneos-arm64e.deb
+Size: 6970916
+MD5sum: 46bbea1723b62c27e10810562042539e
+SHA1: d2a6995632fee7c65f645e935ffd5cdfda8e5fd0
+SHA256: 4d86696f88752f031d455c6532041c01f6facec1e37a73eec15a3c0ec0f43f7b
+SHA512: 6675d8983fdb291904b197fbf1c2b7e920deb7663f82056da5053c596bf3b661ffd94b542f92051faeac896153e671786b24c9b31927d8015f7fc8a96a673b91
+Section: 插件
+Description: Filza 文件管理器 RootHide 专用
+ * 支持 RootHide Dopamine、BootStrap 半越狱
+ * 支持解压打包 deb 插件
+Name: Filza 文件管理器
+Author: TIGI Software
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Filza/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/Filza/icon.png
+
 Package: com.tomaszpoliszuk.homescreenquickactions
 Architecture: iphoneos-arm64
 Version: 1.6.5-1
@@ -36337,6 +36260,25 @@ Name: 电话助手iOS15-正式版(Roothide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/627
 SileoDepiction: https://apt.htv123.com/sileo/627
+
+Package: com.xybp888.callassist16.dopamine.roothide
+Architecture: iphoneos-arm64e
+Version: 3.3.4
+Priority: optional
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.xybp888.callassist16.dopamine.roothide_3.3.4_iphoneos-arm64e.deb
+Size: 3600566
+MD5sum: 2422dfb8e3df37fe1c1fe3b7955ea2f7
+SHA1: 9cba6916204bee72676b1f84300bd1abcae78229
+SHA256: 59a81008bbf4afa9c47e8d5f2b286866491806ad9e1dade486c40f3224ff0d45
+SHA512: 6023ff3687e115e10ad98e1d523c50c369c2a8c1c95275bfb54ff4e97b8f215ebdf637dff6f623feae728d494bc5e1323050e2f6ef891de00321ad9e1da6af7a
+Section: 插件
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS16-正式版(Roothide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/1123
+SileoDepiction: https://apt.htv123.com/sileo/1123
 
 Package: com.xybp888.callassist16.dopamine
 Architecture: iphoneos-arm64
@@ -37304,6 +37246,27 @@ Depiction: https://axs66.github.io/pro
 Icon: https://axs66.github.io/pro/icon/translux.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/translux/js.json
 
+Package: ellekit
+Architecture: iphoneos-arm64e
+Version: 1.2-3+deadlockfix1
+Priority: optional
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: debs/ellekit_1.2-3+修改版基板-arm64e.deb
+Size: 127108
+MD5sum: b0ee5ac505e4510cb98ffb328d2ad730
+SHA1: a47b296684cbd247231abeaf3e4dbf210c9a0c29
+SHA256: c14e13ed54ee7025a9bf791f75cbd06e20e593703e4fe3a607ff1880078bc86c
+SHA512: 748ebf3005d43ce56ff252a8688ac20fab30de0ad1ba5d730896179c7abd7e08aa7ad0dce85610ceb642933652129600abf7bffafa44018e963e456b2c38dd01
+Section: 插件
+Description: ElleKit tweak injection libraries and loader
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
 Package: emt.paisseon.xinamine
 Architecture: iphoneos-arm64
 Version: 0.0.5
@@ -38173,6 +38136,23 @@ Description: Notification bubbles for iOS 16 and Dopamine RootHide. Experimental
 Name: 通知悬浮气泡
 Author: NotifyBubbles
 
+Package: com.roothide.lockdown
+Architecture: iphoneos-arm64e
+Version: 2.0
+Maintainer: roothide
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/lockdown_2.0_iphoneos-arm64e.deb
+Size: 5372
+MD5sum: c279473c07a0ddcf4a6958a1a3cb7e7b
+SHA1: 3864fdf199fadefa87a8e7f98a63fa71191124f2
+SHA256: 0a1f43ab41136fcbced87a4c233e051c018fd7bfd59e760d1ce7ea47c0064f3b
+SHA512: 3d017e9c1db47f3fe56628de7b53b15338767e9735cd99f02d55e3ee29ba8f88eb6318bf70877091489b97fb6920a50939ee379a114ca2aff76b744c470e09eb
+Section: 插件
+Description: 防止漏洞入侵
+Name: lockdown
+Author: roothide
+
 Package: love.litten.rose
 Architecture: iphoneos-arm64
 Version: 1.1.0
@@ -38699,6 +38679,24 @@ Author: CoolStar and contributors
 Icon: https://apt.002599.xyz/web/icon/org.coolstar.libhooker.png
 SileoDepiction: https://apt.002599.xyz/web/org.coolstar.libhooker
 
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm64e
+Version: 2.5.1-15
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/org.coolstar.sileo_2.5.1-15_iphoneos-arm64e(20)(1).deb
+Size: 3232160
+MD5sum: cb981f9ed6bc33d84dadb39e6b067f4b
+SHA1: a37bb3f4197bbb7f4f3bcbf640ca606378164641
+SHA256: 5357e8a0b1a452795c7ca8ad2e106bb3862958ad4eed613c73548a5b4efe9e1a
+SHA512: 21727d85fc9b524c3eb40b96a5bb64380f03e448a007a4688594b84472c782f8c833e45655b2000a8ccc53cdf53ce65cac0aeb93ef27d9e793923a04e3d549ec
+Section: 插件
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
 Package: org.haxi0.derootifiers
 Architecture: iphoneos-arm64
 Version: 1.3
@@ -39142,6 +39140,23 @@ Name: Graphite Library插件依赖-Rootless
 Author: Geometric Software
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.aptzh
+Architecture: iphoneos-arm64e
+Version: 1.3-3+debug
+Maintainer: Custom
+Installed-Size: 240
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/sileo汉化配合隐根直接安装插件arm64e.deb
+Size: 42060
+MD5sum: 166459fe1e28902af2ca1c6646b7f768
+SHA1: 55695bfceb13ecf6852eba83aea60d98cefa3114
+SHA256: 7ca02cce9e992551914a8d6e0e5094dafe3983e2926c8a9650338bc46f1adad2
+SHA512: bfb6a651abc91ffe7cc73c257529cc513e07954317e510bef113328b7f8bf2ce0e110a192962482a72fb899c13ad63082b665e30f142f62384c63e00a9994b04
+Section: 插件
+Description:  Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
+Name: sileo汉化配合隐根直接安装无根插件
+Author: Custom
 
 Package: spoofnotify
 Architecture: iphoneos-arm64
@@ -39828,21 +39843,6 @@ Description: 左滑返回
 Name: 左滑返回
 Author: Mao
 Sponsor: admin@25mao.com
-
-Package: com.mg.adskip
-Architecture: iphoneos-arm64e
-Version: 3.4.5
-Maintainer: M哥
-Filename: debs/广告跳过.deb
-Size: 26128
-MD5sum: 8608c8e0ad3f853b4434915c1f564b7e
-SHA1: 28413cbd22471b53b9952f672dec5a089b1e600d
-SHA256: aeaa66666fcc3926e8350bdf92f710c2618fcceeb5a569eb3f467f2f1734916d
-SHA512: 84a8d660523c3c8eb6b6b0a5d8f515859ad3f9470534f15c4e5c14e550e7916f832f5bef1eca5d09fa56f654889194ee8e2fb2fdeb473ff25a27ae75226a54df
-Section: 插件
-Description: 跳过开屏广告，无黑名单·事件驱动秒跳·容器门控两级词表+防摇一摇+摇一摇带按钮秒跳+防误点广告主图+结构防自点，不影响无广告应用。
-Name: 广告跳过
-Author: M哥
 
 Package: com.yourepo.axs.wxkeyboarduihook
 Architecture: iphoneos-arm64e
