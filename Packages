@@ -20386,25 +20386,6 @@ Author: Jonathan Winger-lang
 Icon: https://axs66.github.io/pro/icon/snapper.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper/js.json
 
-Package: com.Axs.sneakycam
-Architecture: iphoneos-arm64
-Version: 2.2.5-1
-Maintainer: Axs
-Installed-Size: 1424
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/com.Axs.sneakycam_2.2.5-1_iphoneos-arm64.deb
-Size: 124644
-MD5sum: 491ea1ddbb2d016554a91d4980d57b91
-SHA1: 6748422c11b6bf68083c19d75659c557fa2bc370
-SHA256: 0ff58e4c426600ad8788e290d476b6790cc3ad7b9ae26861d61820ba9e36a760
-SHA512: 4d32bcd5def462669e7752dac43eadccb62fdf1b7c720372257f3d99863788e66f048dae471d3cc0c39f1d40e1efbdc3a716183ac683e06e17c9a0b690e6eec7
-Section: 插件
-Description: SneakyCam 是一款支持熄屏状态时也可以拍照或录像的插件。 使用方法∶快速按两次音量上键开始录制视频，再次按两次停止录制，快速按两次音量下键拍摄照片。控制中心可以添加模块，控制本插件总开关的启用/关闭。
-Name: SneakyCam 隐私相机
-Author: Spark
-Icon: https://axs66.github.io/pro/icon/camera.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/sneakycam/js.json
-
 Package: com.Axs.souvenir
 Architecture: iphoneos-arm64
 Version: 1.14
@@ -39806,6 +39787,37 @@ Name: UMount Relaxin 挂载
 Author: uni9k
 Icon: https://TrollStoreX.Github.io/sileodepiction/UMount/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/UMount/js.json
+
+Package: com.local.birthdaycountdown
+Architecture: iphoneos-arm64
+Version: 1.0.30
+Maintainer: 承诺
+Installed-Size: 752
+Depends: firmware (>= 14.0), preferenceloader
+Filename: debs/可视提醒终版.deb
+Size: 123496
+MD5sum: 3324b7108018930fae79c5b82d9ccf17
+SHA1: 1b8a70229ae87bbcde70b8bd442a9306cb1a7324
+SHA256: 84dd462d094541ebdfc518a50997b61bfb86d5bca4143ed1f0bbe3860fd5ff3f
+SHA512: 3299d3ee9a974fb526194b02bc0681eb1832189ea71a45b6a3e7208df167269309bec7c924f4e751e9a06b16cc4cfe8f6bc0db47fb2e9a761213b13f3f306fb7
+Section: 插件
+Description: 可视提醒：纪念日倒计时与每日定时提醒。
+ .
+ 纪念日：支持农历、阳历和农历闰月，每年自动重复；可添加多组，按下一次日期排序，在状态栏显示名称与剩余天数，到期当天仅天数闪烁。
+ .
+ 当天与提前提醒：可分别设置提醒时间，提前天数支持1至365天。每日提醒支持多组独立时间，每项均可单独启停。
+ .
+ 提醒方式：响铃、震动、屏幕特效、闪光灯可自由组合，每个项目可单独选择。震动在提醒期间间隔重复。
+ .
+ 屏幕特效：七彩流动、纯色呼吸、纯色闪烁、万花筒、扩散涟漪、彩色流星、飘飞文字、烟花绽放和喷泉烟花。
+ .
+ 显示与铃声：支持调整状态栏文字位置、字号、名称与天数颜色，以及特效颜色和样式；可从文件导入铃声，用模拟测试预览保存后的效果。
+ .
+ 操作与时间：点击项目编辑，左滑删除。提醒时间以设备本地时间为准，单次最长约30秒，到期后2分钟内可补触发。
+ .
+ 运行条件：依赖SpringBoard，声音使用媒体音量，不属于系统闹钟，无法保证黑屏唤醒。锁屏及系统进程状态可能影响提醒。适用于Rootless环境，包含arm64与arm64e二进制。
+Name: 可视提醒
+Author: 承诺
 
 Package: com.25mao.leftpan
 Architecture: iphoneos-arm64e
