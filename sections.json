@@ -9,7 +9,32 @@
       "name": "自用",
       "orig": "",
       "pkgs": [
-        "com.mg.adskip"
+        "com.mg.adskip",
+        "com.axs.ahsfilter",
+        "com.axs.appselect",
+        "byg.iosios.net.autofillfix",
+        "com.axs.axon",
+        "com.dao.ccless",
+        "com.opa334.choicys",
+        "cn.octoforce.copyvault",
+        "byg.iosios.net.denyphotoalbumsllld.rootless",
+        "cn.llld.qsyy",
+        "com.yourepo.axs.fv",
+        "cn.zqbb.fix120hz",
+        "com.axs.ipslog",
+        "com.cydiabc.fontmanager-roothide",
+        "byg.iosios.net.onesettings",
+        "byg.iosios.net.recordpause",
+        "cn.llld.snapshottool",
+        "byg.iosios.net.sleeperx",
+        "com.snapbackup",
+        "com.axs.snapper4",
+        "xyz.cypwn.sneakycam",
+        "cn.octoforce.squidextender",
+        "cn.octoforce.squidgesturepro",
+        "com.yourepo.axs.touchtrail",
+        "cn.llld.urljg.roothide",
+        "com.axs.zzfilter"
       ]
     }
   ]
