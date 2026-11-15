@@ -78,6 +78,27 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/axon.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
 
+Package: byg.iosios.net.ccborder.new
+Architecture: iphoneos-arm64e
+Version: 1.1.2-39
+Maintainer: 搬运工
+Installed-Size: 1004
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0)
+Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
+Filename: debs/CCBorder控制中心美化_1.1.2-39_iphoneos-arm64e.deb
+Size: 206420
+MD5sum: 146f142ff4a5f6f5420b9c52ba5108f0
+SHA1: c5b8800d0083217aa3f5d5349d96a16a147fcf87
+SHA256: 35c537420d249d8b1b94edcecf63a13b5254f749d8dbf88445aaa3cb0fdebd60
+SHA512: e5711f91d6aa6f748f1535009cc3f40bea2f901f282aeea8e0085a962d9d01e69e4ba6758ccfd9c1a32166c6f7a529dd831ead2892de190e1df37c1be2a63f7c
+Section: 自用
+Description: 控制中心美化
+Name: 控制中心美化
+Author: Fiore & p2kdev & SINI
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: com.dao.ccless
 Architecture: iphoneos-arm64e
 Version: 2.1.0.1
@@ -543,6 +564,57 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/zzfilter.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
+Package: com.local.birthdaycountdown
+Architecture: iphoneos-arm64
+Version: 1.0.31
+Maintainer: 承诺
+Installed-Size: 752
+Depends: firmware (>= 14.0), preferenceloader
+Filename: debs/可视提醒带间隔终版.deb
+Size: 126912
+MD5sum: 17642290c086fff8fc0c51a2b3817a72
+SHA1: 11baa0046b7d771a01c9b6c1247feb8b0f37735a
+SHA256: 782513e4f41c9835cc7896ddca0bc004e66826b332b8a68a39dd662aa1c93acc
+SHA512: 1fde160aa952a4c9c8b3b2952ba6a25b2740bec732d96907b43261b3d51ff4054360ef45e4c9824b9cf2a9b3e4d813a0f44f6974818ee0419b6aa0d8647cafaf
+Section: 自用
+Description: 可视提醒：纪念日倒计时与每日定时提醒。
+ .
+ 纪念日：支持农历、阳历和农历闰月，每年自动重复；可添加多组，按下一次日期排序，在状态栏显示名称与剩余天数，到期当天仅天数闪烁。
+ .
+ 当天与提前提醒：可分别设置提醒时间，提前天数支持1至365天。每日提醒支持多组独立时间，每项均可单独启停。
+ .
+ 提醒方式：响铃、震动、屏幕特效、闪光灯可自由组合，每个项目可单独选择。震动在提醒期间间隔重复。
+ .
+ 屏幕特效：七彩流动、纯色呼吸、纯色闪烁、万花筒、扩散涟漪、彩色流星、飘飞文字、烟花绽放和喷泉烟花。
+ .
+ 显示与铃声：支持调整状态栏文字位置、字号、名称与天数颜色，以及特效颜色和样式；可从文件导入铃声，用模拟测试预览保存后的效果。
+ .
+ 操作与时间：点击项目编辑，左滑删除。提醒时间以设备本地时间为准，持续时间、提醒次数及轮次间隔可自定义，到期后2分钟内可补触发。
+ .
+ 运行条件：依赖SpringBoard，声音使用媒体音量，不属于系统闹钟，无法保证黑屏唤醒。锁屏及系统进程状态可能影响提醒。适用于Rootless环境，包含arm64与arm64e二进制。
+Name: 可视提醒
+Author: 承诺
+
+Package: com.minis.nvtoolbar
+Architecture: iphoneos-arm64
+Version: 1.1.0~beta19
+Maintainer: 承诺
+Depends: ellekit | mobilesubstrate
+Filename: debs/备忘录增强.deb
+Size: 27912
+MD5sum: 7339e68ea3caa0a3c869d3532320761e
+SHA1: aae40cd3fa04bb41c5fe70ec546ad5b756bdf4da
+SHA256: 0ad9163084b211baeec00269ff7db63f89d4470d449c6cf3a3f7196211292d85
+SHA512: 4dd7faa8d5e3221135a3961325be3b0bfea9b41daa9ba2c398a4e98f99336b0d7282597cede1926e44ee897f5fba36796f93a2cf0f25d1d7a194579ecd3316cc
+Section: 自用
+Description: 为系统备忘录增加返回前的修改确认，减少误删、误改。
+ 编辑正文后点击返回，可选择确认修改并返回，或继续编辑。
+ 仅在返回时确认修改；点击右上角完成后返回不再弹窗；重新编辑后恢复确认。
+ 备忘录顶部提供撤销、恢复、全选中文按钮；打开键盘时隐藏系统自带辅助工具栏。
+ 适用于无根 Rootless 环境。安装后请关闭备忘录后台并重新打开。
+Name: 备忘录增强
+Author: 承诺
+
 Package: com.mg.adskip
 Architecture: iphoneos-arm64e
 Version: 3.4.5
@@ -557,27 +629,6 @@ Section: 自用
 Description: 跳过开屏广告，无黑名单·事件驱动秒跳·容器门控两级词表+防摇一摇+摇一摇带按钮秒跳+防误点广告主图+结构防自点，不影响无广告应用。
 Name: 广告跳过
 Author: M哥
-
-Package: byg.iosios.net.ccborder.new
-Architecture: iphoneos-arm64e
-Version: 1.1.2-39
-Maintainer: 搬运工
-Installed-Size: 1004
-Pre-Depends: rootless-compat (>= 0.9)
-Depends: mobilesubstrate, firmware (>= 16.0)
-Conflicts: com.fiore.ccborder, alias20.coolcc, com.dao.coolcc, com.hk.coolcc, com.4nni3.coolcc
-Filename: debs/CCBorder控制中心美化_1.1.2-39_iphoneos-arm64e.deb
-Size: 206420
-MD5sum: 146f142ff4a5f6f5420b9c52ba5108f0
-SHA1: c5b8800d0083217aa3f5d5349d96a16a147fcf87
-SHA256: 35c537420d249d8b1b94edcecf63a13b5254f749d8dbf88445aaa3cb0fdebd60
-SHA512: e5711f91d6aa6f748f1535009cc3f40bea2f901f282aeea8e0085a962d9d01e69e4ba6758ccfd9c1a32166c6f7a529dd831ead2892de190e1df37c1be2a63f7c
-Section: 插件
-Description: 控制中心美化
-Name: 控制中心美化
-Author: Fiore & p2kdev & SINI
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: com.dao.filzacrack
 Architecture: iphoneos-arm64e
@@ -39805,57 +39856,6 @@ Name: UMount Relaxin 挂载
 Author: uni9k
 Icon: https://TrollStoreX.Github.io/sileodepiction/UMount/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/UMount/js.json
-
-Package: com.local.birthdaycountdown
-Architecture: iphoneos-arm64
-Version: 1.0.31
-Maintainer: 承诺
-Installed-Size: 752
-Depends: firmware (>= 14.0), preferenceloader
-Filename: debs/可视提醒带间隔终版.deb
-Size: 126912
-MD5sum: 17642290c086fff8fc0c51a2b3817a72
-SHA1: 11baa0046b7d771a01c9b6c1247feb8b0f37735a
-SHA256: 782513e4f41c9835cc7896ddca0bc004e66826b332b8a68a39dd662aa1c93acc
-SHA512: 1fde160aa952a4c9c8b3b2952ba6a25b2740bec732d96907b43261b3d51ff4054360ef45e4c9824b9cf2a9b3e4d813a0f44f6974818ee0419b6aa0d8647cafaf
-Section: 插件
-Description: 可视提醒：纪念日倒计时与每日定时提醒。
- .
- 纪念日：支持农历、阳历和农历闰月，每年自动重复；可添加多组，按下一次日期排序，在状态栏显示名称与剩余天数，到期当天仅天数闪烁。
- .
- 当天与提前提醒：可分别设置提醒时间，提前天数支持1至365天。每日提醒支持多组独立时间，每项均可单独启停。
- .
- 提醒方式：响铃、震动、屏幕特效、闪光灯可自由组合，每个项目可单独选择。震动在提醒期间间隔重复。
- .
- 屏幕特效：七彩流动、纯色呼吸、纯色闪烁、万花筒、扩散涟漪、彩色流星、飘飞文字、烟花绽放和喷泉烟花。
- .
- 显示与铃声：支持调整状态栏文字位置、字号、名称与天数颜色，以及特效颜色和样式；可从文件导入铃声，用模拟测试预览保存后的效果。
- .
- 操作与时间：点击项目编辑，左滑删除。提醒时间以设备本地时间为准，持续时间、提醒次数及轮次间隔可自定义，到期后2分钟内可补触发。
- .
- 运行条件：依赖SpringBoard，声音使用媒体音量，不属于系统闹钟，无法保证黑屏唤醒。锁屏及系统进程状态可能影响提醒。适用于Rootless环境，包含arm64与arm64e二进制。
-Name: 可视提醒
-Author: 承诺
-
-Package: com.minis.nvtoolbar
-Architecture: iphoneos-arm64
-Version: 1.1.0~beta19
-Maintainer: 承诺
-Depends: ellekit | mobilesubstrate
-Filename: debs/备忘录增强.deb
-Size: 27912
-MD5sum: 7339e68ea3caa0a3c869d3532320761e
-SHA1: aae40cd3fa04bb41c5fe70ec546ad5b756bdf4da
-SHA256: 0ad9163084b211baeec00269ff7db63f89d4470d449c6cf3a3f7196211292d85
-SHA512: 4dd7faa8d5e3221135a3961325be3b0bfea9b41daa9ba2c398a4e98f99336b0d7282597cede1926e44ee897f5fba36796f93a2cf0f25d1d7a194579ecd3316cc
-Section: 插件
-Description: 为系统备忘录增加返回前的修改确认，减少误删、误改。
- 编辑正文后点击返回，可选择确认修改并返回，或继续编辑。
- 仅在返回时确认修改；点击右上角完成后返回不再弹窗；重新编辑后恢复确认。
- 备忘录顶部提供撤销、恢复、全选中文按钮；打开键盘时隐藏系统自带辅助工具栏。
- 适用于无根 Rootless 环境。安装后请关闭备忘录后台并重新打开。
-Name: 备忘录增强
-Author: 承诺
 
 Package: com.25mao.leftpan
 Architecture: iphoneos-arm64e
