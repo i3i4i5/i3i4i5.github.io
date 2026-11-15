@@ -39837,6 +39837,26 @@ Description: 可视提醒：纪念日倒计时与每日定时提醒。
 Name: 可视提醒
 Author: 承诺
 
+Package: com.minis.nvtoolbar
+Architecture: iphoneos-arm64
+Version: 1.1.0~beta19
+Maintainer: 承诺
+Depends: ellekit | mobilesubstrate
+Filename: debs/备忘录增强.deb
+Size: 27912
+MD5sum: 7339e68ea3caa0a3c869d3532320761e
+SHA1: aae40cd3fa04bb41c5fe70ec546ad5b756bdf4da
+SHA256: 0ad9163084b211baeec00269ff7db63f89d4470d449c6cf3a3f7196211292d85
+SHA512: 4dd7faa8d5e3221135a3961325be3b0bfea9b41daa9ba2c398a4e98f99336b0d7282597cede1926e44ee897f5fba36796f93a2cf0f25d1d7a194579ecd3316cc
+Section: 插件
+Description: 为系统备忘录增加返回前的修改确认，减少误删、误改。
+ 编辑正文后点击返回，可选择确认修改并返回，或继续编辑。
+ 仅在返回时确认修改；点击右上角完成后返回不再弹窗；重新编辑后恢复确认。
+ 备忘录顶部提供撤销、恢复、全选中文按钮；打开键盘时隐藏系统自带辅助工具栏。
+ 适用于无根 Rootless 环境。安装后请关闭备忘录后台并重新打开。
+Name: 备忘录增强
+Author: 承诺
+
 Package: com.25mao.leftpan
 Architecture: iphoneos-arm64e
 Version: 2.0-1
