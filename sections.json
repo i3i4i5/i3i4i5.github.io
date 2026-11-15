@@ -9,12 +9,10 @@
       "name": "自用",
       "orig": "",
       "pkgs": [
-        "com.mg.adskip",
         "com.axs.ahsfilter",
         "com.axs.appselect",
         "byg.iosios.net.autofillfix",
         "com.axs.axon",
-        "byg.iosios.net.ccborder.new",
         "com.dao.ccless",
         "com.opa334.choicys",
         "cn.octoforce.copyvault",
@@ -23,7 +21,23 @@
         "com.yourepo.axs.fv",
         "cn.zqbb.fix120hz",
         "com.axs.ipslog",
-        "com.local.birthdaycountdown"
+        "com.cydiabc.fontmanager-roothide",
+        "byg.iosios.net.onesettings",
+        "byg.iosios.net.recordpause",
+        "cn.llld.snapshottool",
+        "byg.iosios.net.sleeperx",
+        "com.snapbackup",
+        "com.axs.snapper4",
+        "xyz.cypwn.sneakycam",
+        "cn.octoforce.squidextender",
+        "cn.octoforce.squidgesturepro",
+        "com.yourepo.axs.touchtrail",
+        "cn.llld.urljg.roothide",
+        "com.axs.zzfilter",
+        "com.mg.adskip",
+        "byg.iosios.net.ccborder.new",
+        "com.local.birthdaycountdown",
+        "com.minis.nvtoolbar"
       ]
     }
   ]
