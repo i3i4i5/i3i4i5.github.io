@@ -566,16 +566,16 @@ Sileodepiction: https://axs66.github.io/pro/sileodepiction/zzfilter/js.json
 
 Package: com.local.birthdaycountdown
 Architecture: iphoneos-arm64
-Version: 1.0.31
+Version: 1.0.39
 Maintainer: 承诺
-Installed-Size: 752
+Installed-Size: 784
 Depends: firmware (>= 14.0), preferenceloader
-Filename: debs/可视提醒带间隔终版.deb
-Size: 126912
-MD5sum: 17642290c086fff8fc0c51a2b3817a72
-SHA1: 11baa0046b7d771a01c9b6c1247feb8b0f37735a
-SHA256: 782513e4f41c9835cc7896ddca0bc004e66826b332b8a68a39dd662aa1c93acc
-SHA512: 1fde160aa952a4c9c8b3b2952ba6a25b2740bec732d96907b43261b3d51ff4054360ef45e4c9824b9cf2a9b3e4d813a0f44f6974818ee0419b6aa0d8647cafaf
+Filename: debs/可视提醒最新版加备忘.deb
+Size: 136602
+MD5sum: 6ac794930814e79826aa7d3c86065a6a
+SHA1: a79ed4395890881e9c3dfc91b9587081bd13869c
+SHA256: 1a117c0e34559ea8d589028adc8dd11393079a91be65744d658c80d69793f2b1
+SHA512: d125ce9f9879daafc1d2c60c085098950a5c4252f4de0d2ec135981e05143db535a8b0b3b4b6ccf12a113ba847beec04325e40d9ec9f15c2980c258a41b514c6
 Section: 自用
 Description: 可视提醒：纪念日倒计时与每日定时提醒。
  .
@@ -591,7 +591,13 @@ Description: 可视提醒：纪念日倒计时与每日定时提醒。
  .
  操作与时间：点击项目编辑，左滑删除。提醒时间以设备本地时间为准，持续时间、提醒次数及轮次间隔可自定义，到期后2分钟内可补触发。
  .
- 运行条件：依赖SpringBoard，声音使用媒体音量，不属于系统闹钟，无法保证黑屏唤醒。锁屏及系统进程状态可能影响提醒。适用于Rootless环境，包含arm64与arm64e二进制。
+ 悬浮备忘：可在任意界面显示自定义文字，支持功能开关、水平偏移、垂直偏移、字体大小和字体颜色。水平偏移范围为-200至200，垂直偏移范围为0至1000，字体大小范围为1至50；位置和字号可通过滑块及加减按钮实时调节。
+ .
+ 提醒时间：全局设置持续时间、提醒次数和轮次间隔，适用于所有纪念日当天提醒、提前提醒和每日提醒。持续时间留空或设为0默认30秒，持续时间和间隔不少于10秒。每个项目可单独开启多次提醒，关闭时只提醒一次，开启后按全局次数和间隔执行。
+ .
+ 备份还原：可备份全部设置、纪念日、每日提醒及导入铃声；支持从多个备份中选择恢复，并可打开备份目录。
+ .
+ 运行条件：依赖SpringBoard，声音使用媒体音量，不属于系统闹钟，无法保证黑屏唤醒。锁屏、系统安全界面、进程暂停或重启可能影响提醒及悬浮备忘显示。适用于Rootless环境，包含arm64与arm64e二进制。
 Name: 可视提醒
 Author: 承诺
 
