@@ -321,18 +321,17 @@ Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: cn.llld.snapshottool
-Architecture: iphoneos-arm64e
-Version: 4.7.0.30
+Architecture: iphoneos-arm64
+Version: 4.8.0
 Maintainer: 来了老弟
-Installed-Size: 1856
-Pre-Depends: rootless-compat (>= 0.9)
+Installed-Size: 2096
 Depends: mobilesubstrate
-Filename: debs/STTool_4.7.0.30_iphoneos-arm64e.deb
-Size: 735212
-MD5sum: d50fc07975b2582632a66353c12084f2
-SHA1: 4d01fd1980670286c68c6004b2a38981870ad2f2
-SHA256: df4535733413aa09ac345e3529bd925cc67cf9e95caf3c2dba2ea55a18deb255
-SHA512: 8e9193f78357c03b45a4edb6e47db83ce1f27a325d3b3bad6934da274fd9e3a709b77c2940a30139970cea755a94de7b4f3a9f810e8f4e44c86bb2213b85db23
+Filename: debs/STTool_4.8.0_iphoneos-arm64.deb
+Size: 791568
+MD5sum: 0d9648c218d6010e5a6a3694943adeae
+SHA1: 7b1b95375fc4b5b3406e7c8c580fbe283fb65f17
+SHA256: 89429ba7eb764fbee47b7d9f3fff0815e7f3a72b753c28fda52e8bb82b2eade6
+SHA512: c8adf473636d69494835d551c3202c5fa0a6039cd53a33866e1c973987471fb319b26dfe01ec60a0635c2212368829b193a386294ddb3fed7d95737f284b714b
 Section: 自用
 Description: ---对于应用软件的图片，（AI编辑图，AI文生图等，无水印拿图，直接分享，复制到剪切板，图片分割，文字水印，涂鸦，截图，保存到相册，圆角处理，直接马赛克等功能，特意支持telegram,nicegram,swiftgram等应用，禁止截图或私密群组的图片保存到粘贴板和相册）。***(商店应用有百万千万级，非100%应用或场景支持，不可能挨个应用测试)***
 Name: STTool
@@ -712,6 +711,24 @@ Section: 插件
 Description: Undo, redo, select all, copy, cut and paste actions on bottom of keyboard. ActionBar Free Reborn Edition,键盘底部的撤消、重做、全选、复制、剪切和粘贴操作。 ActionBar 免费重生版，感谢Netskao辛勤劳作
 Name: ActionBar Reborn-roothide
 Author: Netskao
+
+Package: cn.llld.ql
+Architecture: iphoneos-arm64e
+Version: 1.3.10
+Maintainer: 来了老弟
+Installed-Size: 860
+Depends: firmware (>= 14.0)
+Filename: debs/QL清理-隐根-arm64e.deb
+Size: 378502
+MD5sum: 758bb3f5c474d5fa442d957e8601cee9
+SHA1: 4b4cceb1113fe94d0eb3b0eb3de661883013651b
+SHA256: eb6662b963771f36c8772787deb71b446fbc05114fc9f517fc280bc7776e0839
+SHA512: 612e8aba0a1ff3b8b541f98cdfdeae7ca1671309c45743d19841dfd4dae05898aa2f4dae71c31b46f23dcc0908022d7d9cc94e37193a75223211d9351183defa
+Section: 插件
+Description: 越狱 iOS 桌面清理工具：扫描 App 缓存与临时文件、按应用单独清理、明细左滑清理缓存/临时、可跳过后缀、清理短信与 Safari 书签、系统垃圾（系统缓存/相册缩略图/日志/残留数据）
+Tag: purpose::uikit, compatible::ios14
+Name: QL 清理
+Author: 来了老弟
 
 Package: acreson.rootless.cj.atria
 Architecture: iphoneos-arm64
@@ -39121,24 +39138,6 @@ SHA512: 6dce19c31d8560d5247b0a7db25198e288b04fe91feca14afb7e06e932df69c997410dd3
 Section: 插件
 Description: 去除键盘的延迟(主用作于第三方，若没有延迟，则不用装)，安装即生效。
 Name: 去除键盘延迟-rootless
-Author: 来了老弟
-
-Package: cn.llld.ql
-Architecture: iphoneos-arm64e
-Version: 1.3.5
-Maintainer: 来了老弟
-Installed-Size: 764
-Depends: firmware (>= 14.0)
-Filename: debs/ql清理1.3.5-roothide.deb
-Size: 358042
-MD5sum: 375c829d2d1cf33cdf91aeb00fd145f7
-SHA1: d0333d381492cbeec4a7899a915e53ea06ec059f
-SHA256: b5b1b30225e178869d545a17cab01511be8e45ae382aba15e3981c2902ced079
-SHA512: 52d090287360424873b4fccb2ff2c4c09e46ffadbd257264146e330d286e72884aa93c104d515fd95f41bd783307e4f7f5a9b94e32eb5d79a65f5a9a9fce7e18
-Section: 插件
-Description: 越狱 iOS 桌面清理工具：扫描 App 缓存与临时文件、按应用单独清理、明细左滑清理缓存/临时、可跳过后缀、清理短信与 Safari 书签、系统垃圾（系统缓存/相册缩略图/日志/残留数据）
-Tag: purpose::uikit, compatible::ios14
-Name: QL 清理
 Author: 来了老弟
 
 Package: rootless-compat
