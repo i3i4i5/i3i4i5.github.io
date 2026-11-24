@@ -39861,6 +39861,22 @@ Author: uni9k
 Icon: https://TrollStoreX.Github.io/sileodepiction/UMount/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/UMount/js.json
 
+Package: com.xx.huaweihealthkeepalive
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Maintainer: xx
+Depends: mobilesubstrate
+Filename: debs/华为运动保后台.deb
+Size: 14556
+MD5sum: 50fb3e44cda0213afa3d72b54d3aaca2
+SHA1: b4dd293bbe5ba886bb5e6c4312b635abd390c26d
+SHA256: 3f97d834d934179bb7639231eeb92c976afc62c6d63f530ee059e0e3f04e44aa
+SHA512: 5a9b4a624398cacd99ae90b07ae5d6adef98606ff55ac500c31b9dcc8b4f4a3dafb00ddc4a21b7dbb8d0c76f1dc16940dd51d531a5d5363985bcebe72e5d6b4d
+Section: 插件
+Description: 保活并自动拉起 HUAWEI Health,解决划掉后台/重启后手表无消息推送
+Name: 华为运动健康保活
+Author: xx
+
 Package: com.25mao.leftpan
 Architecture: iphoneos-arm64e
 Version: 2.0-1
