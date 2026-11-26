@@ -39981,7 +39981,7 @@ SHA512: 1c4094aee6dcf650c88ac3da3a863f6b09065e0cda08a124c6ef719127cc0bab134d28f9
 Section: 插件
 Description: 让通话音频默认走听筒或免提，而不是已连接的蓝牙设备（如手表）。来电、拨出与各 App 的语音通话都适用；在「设置 ▸ 通话默认」里选择。
 Tag: purpose::extension
-Name: 通话默认
+Name: 默认通话
 Author: XX <xx@local>
 
 Package: com.roothide.patcher
